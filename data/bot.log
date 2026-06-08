@@ -52,3 +52,33 @@ Post ID: 17968369590071520
   print(f"Timestamp: {datetime.utcnow().isoformat()} UTC")
 Timestamp: 2026-06-08T12:53:45.843784 UTC
 ============================================================
+============================================================
+/home/aman-amarjit/Desktop/crypto bot/thought.py:57: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Threads Daily Thought Bot Execution Started: {datetime.utcnow().isoformat()} UTC")
+Threads Daily Thought Bot Execution Started: 2026-06-08T12:57:00.688056 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Generating daily thought via Groq...
+
+Generated Thought:
+  Most think more layers means better neural networks, but added complexity often hinders interpretability, what if simplicity is the real key to AI breakthroughs?
+
+Publishing thought as ghost post to Threads...
+Creating Threads text container...
+Text container created successfully. ID: 18099180673933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing text post to Threads...
+Successfully published text post to Threads! Post ID: 17892305832476935
+Saving thought to history log...
+/home/aman-amarjit/Desktop/crypto bot/thought.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow().isoformat(),
+============================================================
+Daily Thought Posted Successfully!
+Post ID: 17892305832476935
+/home/aman-amarjit/Desktop/crypto bot/thought.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Timestamp: {datetime.utcnow().isoformat()} UTC")
+Timestamp: 2026-06-08T12:57:11.688592 UTC
+============================================================

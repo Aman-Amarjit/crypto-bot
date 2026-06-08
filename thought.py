@@ -71,10 +71,10 @@ def main():
         print("\nGenerated Thought:")
         print(f"  {thought}\n")
 
-        # 3. Publish as a text-only post to Threads
-        print("Publishing thought to Threads...")
+        # 3. Publish as a ghost post to Threads (archived after 24h)
+        print("Publishing thought as ghost post to Threads...")
         threads = ThreadsClient()
-        post_id = threads.publish_text_post(thought)
+        post_id = threads.publish_text_post(thought, is_ghost_post=True)
 
         # 4. Save to thought history
         print("Saving thought to history log...")

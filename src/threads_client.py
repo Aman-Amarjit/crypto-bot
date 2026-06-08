@@ -94,9 +94,10 @@ class ThreadsClient:
         print(f"Successfully published post to Threads! Post ID: {post_id}")
         return post_id
 
-    def publish_text_post(self, text: str) -> str:
+    def publish_text_post(self, text: str, is_ghost_post: bool = False) -> str:
         """
         Publishes a text-only post to Threads (no image).
+        Set is_ghost_post=True to post as a ghost post (archived after 24h).
         Uses the same two-step container → publish flow as publish_post().
         """
         if not config.threads_user_id or not config.threads_access_token:
@@ -109,6 +110,9 @@ class ThreadsClient:
             "text": text,
             "access_token": config.threads_access_token,
         }
+
+        if is_ghost_post:
+            params["is_ghost_post"] = "true"
 
         print("Creating Threads text container...")
         response = requests.post(container_url, params=params, timeout=30)
