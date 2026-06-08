@@ -24,8 +24,10 @@ class TestConfig(unittest.TestCase):
         config.threads_user_id = old_user_id
 
 class TestGroqClient(unittest.TestCase):
+    @patch("src.groq_client.NewsFetcher.fetch_latest_headlines")
     @patch("src.groq_client.requests.post")
-    def test_generate_content_success(self, mock_post):
+    def test_generate_content_success(self, mock_post, mock_fetch):
+        mock_fetch.return_value = ["Headlines 1", "Headlines 2"]
         mock_response = MagicMock()
         mock_response.json.return_value = {
             "choices": [{
@@ -44,8 +46,10 @@ class TestGroqClient(unittest.TestCase):
         self.assertEqual(result["caption"], "Cool caption! #crypto")
         self.assertEqual(result["image_prompt"], "A cool image prompt")
 
+    @patch("src.groq_client.NewsFetcher.fetch_latest_headlines")
     @patch("src.groq_client.requests.post")
-    def test_generate_content_handles_markdown_code_fences(self, mock_post):
+    def test_generate_content_handles_markdown_code_fences(self, mock_post, mock_fetch):
+        mock_fetch.return_value = ["Headlines 1"]
         mock_response = MagicMock()
         mock_response.json.return_value = {
             "choices": [{
@@ -62,8 +66,10 @@ class TestGroqClient(unittest.TestCase):
         self.assertEqual(result["caption"], "Cool!")
         self.assertEqual(result["image_prompt"], "Image")
 
+    @patch("src.groq_client.NewsFetcher.fetch_latest_headlines")
     @patch("src.groq_client.requests.post")
-    def test_generate_content_fails_on_malformed_json(self, mock_post):
+    def test_generate_content_fails_on_malformed_json(self, mock_post, mock_fetch):
+        mock_fetch.return_value = []
         mock_response = MagicMock()
         mock_response.json.return_value = {
             "choices": [{

@@ -1,0 +1,77 @@
+=== Bot Run Triggered Manually at 2026-06-08T15:35:11.559503 ===
+============================================================
+/home/aman-amarjit/Desktop/crypto bot/main.py:60: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Threads Auto-Poster Bot Execution Started: {datetime.utcnow().isoformat()} UTC")
+Threads Auto-Poster Bot Execution Started: 2026-06-08T10:05:11.734458 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'tech news'
+Requesting content generation for topic: 'tech news'...
+
+Generated Content:
+  - Caption: Staying ahead of the curve! Latest tech breakthroughs are revolutionizing our world #TechNews #Innovation
+  - Image Prompt: A futuristic cityscape at dusk with sleek skyscrapers, neon lights reflecting off wet pavement, and people of diverse backgrounds walking while engaged with augmented reality contact lenses and holographic smartphones
+
+Generating and downloading image from Pollinations.ai...
+Constructed Pollinations URL: https://gen.pollinations.ai/image/A%20futuristic%20cityscape%20at%20dusk%20with%20sleek%20skyscrapers%2C%20neon%20lights%20reflecting%20off%20wet%20pavement%2C%20and%20people%20of%20diverse%20backgrounds%20walking%20while%20engaged%20with%20augmented%20reality%20contact%20lenses%20and%20holographic%20smartphones
+Starting image download from Pollinations.ai...
+Successfully downloaded image bytes.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1780913126/threads_bot/nxxcbf0ms8ywmuwgsd8y.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18099143902933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18002233715947768
+Saving execution metadata to history log...
+/home/aman-amarjit/Desktop/crypto bot/main.py:40: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow().isoformat(),
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18002233715947768
+/home/aman-amarjit/Desktop/crypto bot/main.py:110: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Timestamp: {datetime.utcnow().isoformat()} UTC")
+Timestamp: 2026-06-08T10:05:39.987308 UTC
+============================================================
+============================================================
+/home/aman-amarjit/Desktop/crypto bot/main.py:60: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Threads Auto-Poster Bot Execution Started: {datetime.utcnow().isoformat()} UTC")
+Threads Auto-Poster Bot Execution Started: 2026-06-08T10:05:11.734458 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'tech news'
+Requesting content generation for topic: 'tech news'...
+
+Generated Content:
+  - Caption: Staying ahead of the curve! Latest tech breakthroughs are revolutionizing our world #TechNews #Innovation
+  - Image Prompt: A futuristic cityscape at dusk with sleek skyscrapers, neon lights reflecting off wet pavement, and people of diverse backgrounds walking while engaged with augmented reality contact lenses and holographic smartphones
+
+Generating and downloading image from Pollinations.ai...
+Constructed Pollinations URL: https://gen.pollinations.ai/image/A%20futuristic%20cityscape%20at%20dusk%20with%20sleek%20skyscrapers%2C%20neon%20lights%20reflecting%20off%20wet%20pavement%2C%20and%20people%20of%20diverse%20backgrounds%20walking%20while%20engaged%20with%20augmented%20reality%20contact%20lenses%20and%20holographic%20smartphones
+Starting image download from Pollinations.ai...
+Successfully downloaded image bytes.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1780913126/threads_bot/nxxcbf0ms8ywmuwgsd8y.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18099143902933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18002233715947768
+Saving execution metadata to history log...
+/home/aman-amarjit/Desktop/crypto bot/main.py:40: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow().isoformat(),
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18002233715947768
+/home/aman-amarjit/Desktop/crypto bot/main.py:110: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"Timestamp: {datetime.utcnow().isoformat()} UTC")
+Timestamp: 2026-06-08T10:05:39.987308 UTC
+============================================================

@@ -1,6 +1,7 @@
 import json
 import requests
 from src.config import config
+from src.news_fetcher import NewsFetcher
 
 class GroqClient:
     def __init__(self):
@@ -31,7 +32,19 @@ class GroqClient:
             "Do not include any text before or after the JSON."
         )
         
-        user_prompt = f"Topic: {topic}"
+        headlines = NewsFetcher.fetch_latest_headlines(topic)
+        if headlines:
+            headlines_str = "\n".join([f"- {h}" for h in headlines])
+            user_prompt = (
+                f"Topic: {topic}\n\n"
+                f"Here are the latest real-time news headlines from the last 24 hours regarding {topic}:\n"
+                f"{headlines_str}\n\n"
+                f"Please select the most interesting headline from this list and generate the post based on it. "
+                f"Summarize the news story in an engaging and accessible way, and build the image prompt around it. "
+                f"Do not include any advertisements, promotions, sponsor callouts, marketing pitches, or call-to-actions."
+            )
+        else:
+            user_prompt = f"Topic: {topic}"
         
         payload = {
             "model": self.model,
