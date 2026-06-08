@@ -2,7 +2,75 @@ import io
 import time
 import urllib.parse
 import requests
+import urllib3.util.connection as urllib3_connection
 from src.config import config
+
+# Store the original socket connection function
+_orig_create_connection = urllib3_connection.create_connection
+_resolved_ips = {}
+
+
+def doh_resolve(hostname: str) -> str:
+    """
+    Resolves a hostname to an IP address using DNS-over-HTTPS (DoH) via Cloudflare
+    or Google. Bypasses ISP DNS blocking/censorship.
+    """
+    global _resolved_ips
+    if hostname in _resolved_ips:
+        return _resolved_ips[hostname]
+
+    providers = [
+        ("https://cloudflare-dns.com/dns-query", "cloudflare-dns.com"),
+        ("https://dns.google/resolve", "dns.google"),
+    ]
+
+    headers = {"Accept": "application/dns-json"}
+
+    for url, provider_name in providers:
+        print(f"[DoH] Attempting to resolve '{hostname}' via {provider_name}...")
+        try:
+            # We must use verify=True. The DoH providers have standard SSL certs
+            # that resolve fine.
+            response = requests.get(
+                url,
+                params={"name": hostname, "type": "A"},
+                headers=headers,
+                timeout=5,
+            )
+            response.raise_for_status()
+            data = response.json()
+
+            if "Answer" in data and len(data["Answer"]) > 0:
+                # Find the first 'A' record (type 1)
+                for record in data["Answer"]:
+                    if record.get("type") == 1:
+                        ip = record.get("data")
+                        if ip:
+                            print(f"[DoH] Successfully resolved '{hostname}' to IP: {ip}")
+                            _resolved_ips[hostname] = ip
+                            return ip
+        except Exception as e:
+            print(f"[DoH] Provider {provider_name} failed: {e}")
+
+    return None
+
+
+def patched_create_connection(address, *args, **kwargs):
+    """
+    A custom socket connector that intercepts connection requests to specific
+    blocked hostnames and redirects them to IPs resolved via DoH.
+    """
+    host, port = address
+    if host == "api-inference.huggingface.co":
+        ip = doh_resolve(host)
+        if ip:
+            print(f"[Socket] Intercepting connection to {host} -> Routing to {ip}:{port}")
+            return _orig_create_connection((ip, port), *args, **kwargs)
+    return _orig_create_connection(address, *args, **kwargs)
+
+
+# Apply the monkey patch to urllib3
+urllib3_connection.create_connection = patched_create_connection
 
 
 class ImageGenerator:
