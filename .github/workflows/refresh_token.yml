@@ -1,0 +1,45 @@
+name: Threads Token Auto-Refresh
+
+on:
+  schedule:
+    - cron: '0 0 1 */2 *' # Runs at 00:00 UTC on day 1 of every 2nd month (~every 60 days)
+  workflow_dispatch: # Allows manual trigger of the refresh
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Refresh Token
+        id: refresh
+        run: |
+          # Execute the refresh script and capture the new token from stdout
+          NEW_TOKEN=$(python refresh_token.py)
+          
+          # Mask the new token in workflow logs for security
+          echo "::add-mask::$NEW_TOKEN"
+          
+          # Set the new token as a step output
+          echo "new_token=$NEW_TOKEN" >> $GITHUB_OUTPUT
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+
+      - name: Update Repository Secret
+        run: |
+          # Overwrite the THREADS_ACCESS_TOKEN secret with the newly refreshed token
+          gh secret set THREADS_ACCESS_TOKEN --body "${{ steps.refresh.outputs.new_token }}"
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
