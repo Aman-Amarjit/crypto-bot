@@ -9,7 +9,7 @@ class NewsFetcher:
         Fetches the latest news headlines from Google News RSS feed for the given topic.
         Only retrieves news from the last 24 hours (when:1d) to ensure it is fresh.
         """
-        query = f"{topic} when:1d"
+        query = f"{topic} (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d"
         encoded_query = urllib.parse.quote(query)
         url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
         

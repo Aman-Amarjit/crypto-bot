@@ -36,90 +36,53 @@ class GroqClient:
         )
         
         system_prompt = (
-            "You are a creative and highly rigorous social media manager. Generate a Threads post based on the given topic. "
+            "You are a rigorous, highly specialized cybersecurity news analyst. Generate a factually precise social media post based on the provided topic. "
             "You must return a raw JSON object with exactly two keys:\n"
-            '1. "caption": A highly engaging, punchy, and factually rigorous caption under 400 characters. '
-            "Follow these structural growth guidelines:\n"
-            "- First line hook: Start with a highly compelling, punchy first line (under 80 characters) that grabs attention "
-            "and makes users click 'more'. Do NOT use repetitive meta-framing or generic openers like 'The real implication everyone is missing...' or 'Here is why...'. "
-            "Vary your hooks dynamically: rotate between styles like 'Nobody's talking about [precise concept]', 'Hot take: [bold claim]', "
-            "or leading directly with a provocative, concrete statement (e.g. 'Model-independent prompting is dead. Here's why.').\n"
-            "- Content depth & Stance: Avoid shallow, vague opinions or open-ended questions that lack a stance. Ground your claims in precise technical details and express "
-            "a well-reasoned, defensible developer stance. Do not ask ambiguous questions without first declaring your own firm stance or providing a clear answer. "
-            "If ending with a question, frame it as a specific debate starter with opposing viewpoints to drive technical engagement in the comments.\n"
-            "- Question ending: Always close the post with a genuine, thought-provoking question or specific debate starter to drive comment engagement.\n"
-            "- Spam prevention: Do not use multiple hashtags. Limit to at most 1 highly relevant hashtag (e.g., #AI, #Cybersecurity) or omit them entirely.\n"
+            '1. "caption": A clean, informative caption under 400 characters that strictly follows a 3-part layout:\n'
+            "- Part 1 (News/Fact hook, exactly 1 line): Start with a compelling news/fact hook under 80 characters. Rotate between these styles:\n"
+            "  * 'Nobody's talking about [precise cybersecurity concept/news]'\n"
+            "  * 'Hot take: [bold, defensible cybersecurity claim/finding]'\n"
+            "  * Lead directly with a provocative, concrete news fact (no meta-framing like 'Here is why...' or 'The real implication...').\n"
+            "- Part 2 (What it means, 2-3 lines): A clear, technical explanation of the implications in your own words.\n"
+            "- Part 3 (Concrete proof, exactly 1 line): Present one concrete number, metric, statistic, or CVE identifier (e.g. CVE-2026-1234, patch version, size of a data breach, specific bytes/percentage) as proof.\n"
+            "Enforce strictly:\n"
+            "- NO closing question of any kind at the end of the post.\n"
+            "- NO 'hot take' labels inside the caption body. Just the clean information.\n"
+            "- Do not use multiple hashtags. Limit to at most 1 relevant hashtag (e.g., #Cybersecurity, #Infosec) or omit them entirely.\n"
             '2. "image_prompt": A descriptive, high-quality prompt for a text-to-image generator (Pollinations.ai) '
-            "that captures the mood and message of the caption. Avoid generic styling terms like 'generic AI art', 'sci-fi corridors', or 'purple hacker rooms'. "
-            "Instead, focus on a realistic developer brand aesthetic: describe screenshots of clean terminal windows displaying monospaced compiler logs, "
-            "mock code blocks (e.g. rust-like structure, modern python) with syntax highlighting on a pitch-black background, "
-            "clean minimalist diagrams of system prompt architectures, or terminal-style console outputs. "
-            "DO NOT include legible text, words, or specific brand logos (as image generators cannot render text properly). "
-            "Use high-tech visual metaphors (e.g., monospaced text patterns, glowing syntax-colored code shapes, abstract nodes, terminal boxes).\n"
+            "that captures the theme of the caption using a consistent, high-end developer/terminal aesthetic.\n"
+            "Follow these styling rules:\n"
+            "- Frame the image strictly as a Terminal/CRT mockup style.\n"
+            "- Describe screenshots of clean terminal windows displaying monospaced compiler/security logs, "
+            "mock code blocks (e.g., C/Rust memory safety checks, Python security scanning functions) with syntax highlighting on a pitch-black background, "
+            "or retro-style CRT monitor screens displaying green/amber phosphor monospaced output.\n"
+            "- Explicitly avoid stock-looking, high-saturation, generic colorful hacker concepts like 'glowing digital shields', 'sci-fi corridors', or 'purple hacker rooms'.\n"
+            "- Do NOT include any legible text, words, or specific brand logos.\n"
             "Do not include any text before or after the JSON."
         )
         
-        # Content Strategy Calendar (Aligning with High-Performance social formats)
-        if day_of_week in (0, 1): # Monday / Tuesday: Hot Take on News -> Format: Sharable Infographics / Myths vs Reality
-            headlines = NewsFetcher.fetch_latest_headlines(topic)
-            if headlines:
-                headlines_str = "\n".join([f"- {h}" for h in headlines])
-                user_prompt = (
-                    f"{positioning}\n\n"
-                    f"Format: Hot Take on Recent News regarding {topic} as a Sharable Infographic / Myth vs Reality.\n"
-                    f"Current Date context: June 8, 2026.\n"
-                    f"Here are the latest news headlines:\n"
-                    f"{headlines_str}\n\n"
-                    f"Select the most interesting headline. Write an opinionated, factually precise take on it. "
-                    f"Frame it under the concept of 'Industry Myths vs Reality' or 'Stop doing [Common Mistake]' related to this news. "
-                    f"Orient the image_prompt to represent a 'Sharable Infographic'. Describe a split-image layout or side-by-side comparison "
-                    f"graphic showing abstract technical structures (e.g., left half showing a chaotic system structure in red glow, "
-                    f"right half showing a clean, optimized structure in green/blue glow) on a dark background. Remember: NO legible words or brand text."
-                )
-            else:
-                user_prompt = (
-                    f"{positioning}\n\n"
-                    f"Format: Hot Take on Recent News regarding {topic} as a Sharable Infographic / Myth vs Reality.\n"
-                    f"Current Date context: June 8, 2026.\n"
-                    f"Write an opinionated take on a developer trend. Frame it as 'What people think [Niche] is like vs. What it's actually like' or 'Stop doing [Common Mistake]'. "
-                    f"Orient the image_prompt to represent a 'Sharable Infographic' by describing a split-image layout or side-by-side comparison "
-                    f"graphic showing abstract technical structures (e.g., left half showing a chaotic structure, right half showing an optimized "
-                    f"structure) on a dark background. Remember: NO legible words or brand text."
-                )
-                
-        elif day_of_week in (2, 3): # Wednesday / Thursday: Project Update -> Format: High-Value Carousel Step-by-Step "How-To"
+        headlines = NewsFetcher.fetch_latest_headlines(topic)
+        if headlines:
+            headlines_str = "\n".join([f"- {h}" for h in headlines])
             user_prompt = (
                 f"{positioning}\n\n"
-                f"Format: 'How-To' Step-by-Step Guide / Checklist (e.g., '3 Steps to [Goal]', 'How I fixed [Problem] in 24 hours', or 'A beginner's guide to [Skill]').\n"
-                f"Write a tutorial/checklist post discussing a technical feature or lesson learned while building open-source software "
-                f"(such as parser implementation, real-time audio streams, or security audits). "
-                f"Start the caption with a bold, controversial, or highly intriguing headline hook (under 80 chars) on the first line. "
-                f"Deliver the core step-by-step checklist on the middle lines. "
-                f"Orient the image_prompt to represent a 'Carousel Hook Slide' by describing a high-contrast, bold graphic layout "
-                f"featuring terminal-style elements: e.g., a monospaced terminal window mockup, a stylized diagram of prompt trees, "
-                f"or a retro-computing CRT screen displaying code syntax highlighting on a pitch-black background. Remember: NO legible words or brand text."
+                f"Today's Niche: Cybersecurity News.\n"
+                f"Today's Topic: {topic}.\n"
+                f"Current Date: June 8, 2026.\n\n"
+                f"Here are the latest headline news items from verified tech sources:\n"
+                f"{headlines_str}\n\n"
+                f"Select the most interesting and technically relevant headline. Write an informative, factually precise take on it "
+                f"strictly in the requested 3-part caption format. Fact-check the headline and use concrete numbers, statistics, or CVE details."
             )
-            
-        elif day_of_week in (4, 5): # Friday / Saturday: Tech Explainer / Tip -> Format: High-Contrast Text Graphic / Resource Lists
+        else:
             user_prompt = (
                 f"{positioning}\n\n"
-                f"Format: Ultimate Resource List / Tools or Actionable Tip (e.g., '5 Free Tools I Use Every Day', 'The Only Books You Need to Read for [Topic]', or 'Top Websites for [Task]').\n"
-                f"Write a resource-list post detailing useful tools, libraries, or actionable tips in your developer workflow. "
-                f"Deliver a clean, bulleted list of 3-5 resources/tools in the caption. "
-                f"Orient the image_prompt to represent a 'High-Contrast Code Graphic' style by describing a minimal, "
-                f"high-contrast IDE code window mockup on a dark theme background, featuring syntax-highlighted code blocks, "
-                f"monospaced character rows, or minimalist system design diagrams. Remember: NO legible words or brand text."
-            )
-            
-        else: # Sunday: Behind-the-Scenes -> Format: Relatable Mistakes & Lessons
-            user_prompt = (
-                f"{positioning}\n\n"
-                f"Format: Relatable Mistakes & Lessons (e.g., '3 Mistakes I made when starting [X]', 'What I wish I knew at age 20', or 'Why your [X] isn't working').\n"
-                f"Write an authentic post detailing developer lessons, failures, or workspace reflections. "
-                f"Use the caption to tell a powerful story showing vulnerability that leaves the reader wanting to follow. "
-                f"Orient the image_prompt to represent a 'High-Quality Aesthetic Photo' by describing an extremely photorealistic, "
-                f"high-resolution photograph of a software developer's desk setup. It must look like a real photo, captured with a professional 50mm lens at f/1.8 "
-                f"with warm natural ambient light, wooden desk tones, a glowing mechanical keyboard, and a soft blurred background bokeh. Remember: NO legible words or brand text."
+                f"Today's Niche: Cybersecurity News.\n"
+                f"Today's Topic: {topic}.\n"
+                f"Current Date: June 8, 2026.\n\n"
+                f"No live headlines were found for today. Generate an informative post detailing a critical technical concept, "
+                f"historical cybersecurity breach, known vulnerability (e.g., Log4Shell, Heartbleed), or regulatory policy associated with {topic}. "
+                f"Ensure the post strictly follows the 3-part caption format with concrete numbers, statistics, or CVE details."
             )
             
         payload = {

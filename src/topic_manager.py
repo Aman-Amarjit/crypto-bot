@@ -4,27 +4,20 @@ import json
 class TopicManager:
     # High-engagement target topic buckets for AI and Cybersecurity niches
     TOPICS = [
-        # AI Buckets
-        "AI model releases GPT Gemini Claude",
-        "AI replacing jobs and roles",
-        "AI in India",
-        "Prompt engineering tips",
-        "AI productivity tools",
-        
-        # Cybersecurity Buckets
+        # Cybersecurity Core Buckets
         "data breaches security leaks",
         "government cyber regulations",
         "hacking incidents",
         "dark web leaks",
         "cyber warfare",
         
-        # Crossover Buckets
+        # AI & Tech Security
         "AI used for cyberattacks",
         "deepfakes and fraud",
         "AI surveillance",
         "LLM jailbreaks vulnerabilities",
         
-        # India-Specific Buckets
+        # India-Specific Cybersecurity
         "CERT-In advisories security",
         "Indian startup data breaches",
         "Digital India cybersecurity",

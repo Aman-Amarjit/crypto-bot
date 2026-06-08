@@ -6,59 +6,52 @@ from src.config import config
 
 THOUGHT_STYLES = {
     0: {  # Monday
-        "name": "Contrarian Take",
+        "name": "Threat Intelligence",
         "instruction": (
-            "Share a sharp, well-reasoned contrarian opinion that challenges a widely-held belief "
-            "in software engineering or AI. State what most people believe, then argue why it's wrong "
-            "or oversimplified. Be specific, opinionated, and bold. End with a question."
+            "Share a precise fact about threat intelligence, active ransomware campaigns, or malware family behavior (e.g. LockBit, BlackCat). "
+            "Strictly follow the 3-part layout: 1-line news/fact hook, 2-3 lines of actual technical explanation, and 1-line concrete example/number/stat."
         ),
     },
     1: {  # Tuesday
-        "name": "Hard Lesson",
+        "name": "Vulnerability Analysis",
         "instruction": (
-            "Share a hard-earned technical lesson or engineering mistake you've made while building software. "
-            "Be specific about the mistake (e.g., a bad architecture decision, a security oversight, a premature optimisation). "
-            "What did it cost you? What would you do differently? Keep it raw and honest. End with a question."
+            "Explain a critical security vulnerability type or specific zero-day/CVE (e.g. memory safety in C/C++, buffer overflows). "
+            "Strictly follow the 3-part layout: 1-line news/fact hook, 2-3 lines of actual technical explanation, and 1-line concrete example/number/stat (like a specific CVE ID)."
         ),
     },
     2: {  # Wednesday
-        "name": "Unpopular Truth",
+        "name": "Infrastructure Security",
         "instruction": (
-            "Share an uncomfortable truth about the tech industry, software development culture, or AI hype "
-            "that most developers are reluctant to say out loud. Ground it in concrete observations. "
-            "Avoid vague platitudes — be precise and defensible. End with a question."
+            "Explain an infrastructure security best practice, network protocol vulnerability, or configuration leak (e.g., open S3 buckets, BGP hijacking). "
+            "Strictly follow the 3-part layout: 1-line news/fact hook, 2-3 lines of actual technical explanation, and 1-line concrete example/number/stat."
         ),
     },
     3: {  # Thursday
-        "name": "Mini Mental Model",
+        "name": "Incident Response",
         "instruction": (
-            "Share a single, powerful mental model or framework that fundamentally changed how you think "
-            "about building software, debugging systems, or approaching security. Name the model, explain it briefly "
-            "with a concrete example, and say why it matters. End with a question."
+            "Share a technical lesson or metric from a famous historical data breach or security incident. "
+            "Strictly follow the 3-part layout: 1-line news/fact hook, 2-3 lines of actual technical explanation, and 1-line concrete example/number/stat (like breach count or cost)."
         ),
     },
     4: {  # Friday
-        "name": "Observation from the Trenches",
+        "name": "Cryptographic Protocols",
         "instruction": (
-            "Share a candid observation from the reality of working as a developer — not advice, just an honest observation "
-            "about how software actually gets built vs. how it's supposed to be built. "
-            "Be specific, grounded, and relatable. End with a question."
+            "Share a fact or insight about cryptography, key exchange vulnerabilities, TLS standards, or encryption mechanisms. "
+            "Strictly follow the 3-part layout: 1-line news/fact hook, 2-3 lines of actual technical explanation, and 1-line concrete example/number/stat."
         ),
     },
     5: {  # Saturday
-        "name": "The Thing Nobody Talks About",
+        "name": "Compliance & Regulations",
         "instruction": (
-            "Share something important in software engineering, AI development, or cybersecurity that is severely under-discussed. "
-            "Why is it ignored? Why does it matter more than people think? "
-            "Be direct and precise. Avoid generic motivational content. End with a question."
+            "Detail a specific technical requirement or impact of cybersecurity regulations (e.g., EU Cybersecurity Act, CERT-In rules, GDPR, DORA). "
+            "Strictly follow the 3-part layout: 1-line news/fact hook, 2-3 lines of actual technical explanation, and 1-line concrete example/number/stat."
         ),
     },
     6: {  # Sunday
-        "name": "Builder's Reflection",
+        "name": "Authentication & IAM",
         "instruction": (
-            "Share a reflective, introspective thought about the nature of building things — software, systems, or ideas. "
-            "What motivates you, what frustrates you, or what surprised you this week as a developer. "
-            "Keep it authentic and conversational, not motivational-poster-level. End with a question."
+            "Explain a vulnerability or pattern in identity management, OAuth/OIDC flows, or authentication mechanisms (e.g., token leakage, MFA bypass). "
+            "Strictly follow the 3-part layout: 1-line news/fact hook, 2-3 lines of actual technical explanation, and 1-line concrete example/number/stat."
         ),
     },
 }
@@ -81,29 +74,32 @@ class ThoughtGenerator:
         style = THOUGHT_STYLES[day_of_week]
 
         positioning = (
-            "Your persona is an anonymous software engineer and open-source developer building AI infrastructure, "
-            "robotics software, and cybersecurity systems. Keep your identity completely anonymous: never mention "
-            "any personal names, specific usernames, locations, private details, client names, freelance contracts, "
-            "or partner companies. Talk strictly about abstract technical concepts, programming lessons, and software architecture. "
-            "Your tone should be authentic, conversational, opinionated, and technical — not corporate, not motivational-poster-level."
+            "Your persona is an anonymous software engineer and cybersecurity researcher. "
+            "Keep your identity completely anonymous: never mention names, locations, private details, client names, or freelance contracts. "
+            "Talk strictly about abstract technical concepts, programming lessons, security audits, and software architecture. "
+            "Your tone should be authentic, technical, precise, and direct — avoiding corporate fluff or hype."
         )
 
         system_prompt = (
-            "You are a thoughtful, senior software engineer who shares one genuine thought per day on Threads. "
+            "You are a rigorous cybersecurity researcher who shares one fact-checked security insight per day on Threads. "
             "Generate a short, text-only post — no hashtags, no emojis, no links, no promotions. "
-            "The post should feel like a real person's honest reflection, not a social media template. "
             "You must return a raw JSON object with exactly one key:\n"
-            '1. "thought": A concise, punchy, text-only post under 350 characters. '
-            "Follow these style guidelines:\n"
-            "- First line hook: Start with a strong hook (under 80 characters). Do NOT use repetitive meta-framing or generic openers like 'The real implication everyone is missing...' or 'Here is why...'. Vary your hooks dynamically: rotate between styles like 'Nobody's talking about [precise concept]', 'Hot take: [bold claim]', or leading directly with a provocative, concrete statement.\n"
-            "- Stance & Stance-focused ending: Avoid ending with a vague, open-ended question that lacks a stance. Close the post with a firm, opinionated stance first, and then frame any closing question as a specific debate starter with opposing viewpoints to drive technical engagement.\n"
-            "- No hashtags. No emojis. No links. No promotional language.\n"
-            "Do not include any text before or after the JSON."
+            '1. "thought": A clean, informative post under 350 characters that strictly follows a 3-part layout:\n'
+            "- Part 1 (News/Fact hook, exactly 1 line): Start with a compelling hook under 80 characters. Rotate between these styles:\n"
+            "  * 'Nobody's talking about [precise cybersecurity concept]'\n"
+            "  * 'Hot take: [bold, defensible cybersecurity claim]'\n"
+            "  * Lead directly with a provocative, concrete security fact (no meta-framing like 'Here is why...' or 'The real implication...').\n"
+            "- Part 2 (What it means, 2-3 lines): A clear, technical explanation of the concept or implications in your own words.\n"
+            "- Part 3 (Concrete proof, exactly 1 line): Present one concrete number, metric, statistic, or CVE identifier (e.g. CVE-2026-1234, breach size, port number) as proof.\n"
+            "Enforce strictly:\n"
+            "- NO closing question of any kind at the end of the post.\n"
+            "- NO 'hot take' labels inside the post body. Just the clean information.\n"
+            "- Do not include any text before or after the JSON."
         )
 
         user_prompt = (
             f"{positioning}\n\n"
-            f"Today's thought format: {style['name']}.\n"
+            f"Today's topic format: {style['name']}.\n"
             f"{style['instruction']}"
         )
 
