@@ -23,6 +23,9 @@ class ImageGenerator:
         print("Starting image download from Pollinations.ai (free tier)...")
 
         headers = {"User-Agent": "ThreadsBot/1.0"}
+        if config.pollinations_api_key:
+            headers["Authorization"] = f"Bearer {config.pollinations_api_key}"
+            print("Using Pollinations API key for priority access.")
         max_attempts = 5
         wait_time = 10  # seconds, doubles each attempt
 
