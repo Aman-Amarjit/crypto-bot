@@ -1,81 +1,81 @@
-=== Bot Run Triggered Manually at 2026-06-08T15:42:09.977353 ===
+=== Bot Run Triggered Manually at 2026-06-08T15:48:08.938637 ===
 ============================================================
 /home/aman-amarjit/Desktop/crypto bot/main.py:60: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   print(f"Threads Auto-Poster Bot Execution Started: {datetime.utcnow().isoformat()} UTC")
-Threads Auto-Poster Bot Execution Started: 2026-06-08T10:12:10.172160 UTC
+Threads Auto-Poster Bot Execution Started: 2026-06-08T10:18:09.137461 UTC
 ============================================================
 Validating environment configuration...
 Configuration validated successfully.
-Using manual topic override: 'robotics'
-Requesting content generation for topic: 'robotics'...
-Fetching latest news headlines from Google News for query: 'robotics when:1d'...
+Using manual topic override: 'artificial intelligence'
+Requesting content generation for topic: 'artificial intelligence'...
+Fetching latest news headlines from Google News for query: 'artificial intelligence when:1d'...
 Successfully retrieved 5 headlines.
 
 Generated Content:
-  - Caption: Dive into the future of ocean exploration! Boxfish Robotics is making waves with its new underwater robotic platform, supporting a documentary project that's set to reveal the secrets of our ocean depths #Robotics #OceanExploration #UnderwaterDiscovery
-  - Image Prompt: A futuristic underwater robotic platform with bright blue lights and metallic accents, surrounded by a school of colorful fish, with a faint sunlight glow in the background, and a subtle gradient of deep blues and purples to represent the ocean's mysterious depths
+  - Caption: Apple's new AI play just dropped, and the real implication everyone is missing is that it's not about reinventing the wheel, but about integration - who will seamlessly merge AI with existing tech? #AI #FutureTech #TechTrends #ArtificialIntelligence
+  - Image Prompt: A futuristic, dimly lit cityscape at dusk with sleek, neon-lit skyscrapers and flying cars zipping by, while a massive, glowing AI chip hovers above the city, with tiny, shimmering code streams emanating from it, symbolizing the fusion of AI and existing infrastructure
 
 Generating and downloading image from Pollinations.ai...
-Constructed Pollinations URL: https://gen.pollinations.ai/image/A%20futuristic%20underwater%20robotic%20platform%20with%20bright%20blue%20lights%20and%20metallic%20accents%2C%20surrounded%20by%20a%20school%20of%20colorful%20fish%2C%20with%20a%20faint%20sunlight%20glow%20in%20the%20background%2C%20and%20a%20subtle%20gradient%20of%20deep%20blues%20and%20purples%20to%20represent%20the%20ocean%27s%20mysterious%20depths
+Constructed Pollinations URL: https://gen.pollinations.ai/image/A%20futuristic%2C%20dimly%20lit%20cityscape%20at%20dusk%20with%20sleek%2C%20neon-lit%20skyscrapers%20and%20flying%20cars%20zipping%20by%2C%20while%20a%20massive%2C%20glowing%20AI%20chip%20hovers%20above%20the%20city%2C%20with%20tiny%2C%20shimmering%20code%20streams%20emanating%20from%20it%2C%20symbolizing%20the%20fusion%20of%20AI%20and%20existing%20infrastructure
 Starting image download from Pollinations.ai...
 Successfully downloaded image bytes.
 Uploading image to Cloudinary...
-Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1780913546/threads_bot/ae542z881suydtblo9wp.jpg
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1780913909/threads_bot/hxrqbvfts0nwcj2byumm.jpg
 Initiating Threads publication...
 Creating Threads media container...
-Container created successfully. ID: 18099144862933887
+Container created successfully. ID: 18099145879933887
 Waiting 3 seconds before first status check...
 Checking container status (Attempt 1/10)...
 Container status: 'FINISHED'
 Publishing container to Threads...
-Successfully published post to Threads! Post ID: 18076444949287737
+Successfully published post to Threads! Post ID: 17971002093025826
 Saving execution metadata to history log...
 /home/aman-amarjit/Desktop/crypto bot/main.py:40: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   "timestamp": datetime.utcnow().isoformat(),
 ============================================================
 Execution Completed Successfully!
-Published Post ID: 18076444949287737
+Published Post ID: 17971002093025826
 /home/aman-amarjit/Desktop/crypto bot/main.py:110: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   print(f"Timestamp: {datetime.utcnow().isoformat()} UTC")
-Timestamp: 2026-06-08T10:12:41.909219 UTC
+Timestamp: 2026-06-08T10:18:43.368188 UTC
 ============================================================
 ============================================================
 /home/aman-amarjit/Desktop/crypto bot/main.py:60: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   print(f"Threads Auto-Poster Bot Execution Started: {datetime.utcnow().isoformat()} UTC")
-Threads Auto-Poster Bot Execution Started: 2026-06-08T10:12:10.172160 UTC
+Threads Auto-Poster Bot Execution Started: 2026-06-08T10:18:09.137461 UTC
 ============================================================
 Validating environment configuration...
 Configuration validated successfully.
-Using manual topic override: 'robotics'
-Requesting content generation for topic: 'robotics'...
-Fetching latest news headlines from Google News for query: 'robotics when:1d'...
+Using manual topic override: 'artificial intelligence'
+Requesting content generation for topic: 'artificial intelligence'...
+Fetching latest news headlines from Google News for query: 'artificial intelligence when:1d'...
 Successfully retrieved 5 headlines.
 
 Generated Content:
-  - Caption: Dive into the future of ocean exploration! Boxfish Robotics is making waves with its new underwater robotic platform, supporting a documentary project that's set to reveal the secrets of our ocean depths #Robotics #OceanExploration #UnderwaterDiscovery
-  - Image Prompt: A futuristic underwater robotic platform with bright blue lights and metallic accents, surrounded by a school of colorful fish, with a faint sunlight glow in the background, and a subtle gradient of deep blues and purples to represent the ocean's mysterious depths
+  - Caption: Apple's new AI play just dropped, and the real implication everyone is missing is that it's not about reinventing the wheel, but about integration - who will seamlessly merge AI with existing tech? #AI #FutureTech #TechTrends #ArtificialIntelligence
+  - Image Prompt: A futuristic, dimly lit cityscape at dusk with sleek, neon-lit skyscrapers and flying cars zipping by, while a massive, glowing AI chip hovers above the city, with tiny, shimmering code streams emanating from it, symbolizing the fusion of AI and existing infrastructure
 
 Generating and downloading image from Pollinations.ai...
-Constructed Pollinations URL: https://gen.pollinations.ai/image/A%20futuristic%20underwater%20robotic%20platform%20with%20bright%20blue%20lights%20and%20metallic%20accents%2C%20surrounded%20by%20a%20school%20of%20colorful%20fish%2C%20with%20a%20faint%20sunlight%20glow%20in%20the%20background%2C%20and%20a%20subtle%20gradient%20of%20deep%20blues%20and%20purples%20to%20represent%20the%20ocean%27s%20mysterious%20depths
+Constructed Pollinations URL: https://gen.pollinations.ai/image/A%20futuristic%2C%20dimly%20lit%20cityscape%20at%20dusk%20with%20sleek%2C%20neon-lit%20skyscrapers%20and%20flying%20cars%20zipping%20by%2C%20while%20a%20massive%2C%20glowing%20AI%20chip%20hovers%20above%20the%20city%2C%20with%20tiny%2C%20shimmering%20code%20streams%20emanating%20from%20it%2C%20symbolizing%20the%20fusion%20of%20AI%20and%20existing%20infrastructure
 Starting image download from Pollinations.ai...
 Successfully downloaded image bytes.
 Uploading image to Cloudinary...
-Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1780913546/threads_bot/ae542z881suydtblo9wp.jpg
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1780913909/threads_bot/hxrqbvfts0nwcj2byumm.jpg
 Initiating Threads publication...
 Creating Threads media container...
-Container created successfully. ID: 18099144862933887
+Container created successfully. ID: 18099145879933887
 Waiting 3 seconds before first status check...
 Checking container status (Attempt 1/10)...
 Container status: 'FINISHED'
 Publishing container to Threads...
-Successfully published post to Threads! Post ID: 18076444949287737
+Successfully published post to Threads! Post ID: 17971002093025826
 Saving execution metadata to history log...
 /home/aman-amarjit/Desktop/crypto bot/main.py:40: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   "timestamp": datetime.utcnow().isoformat(),
 ============================================================
 Execution Completed Successfully!
-Published Post ID: 18076444949287737
+Published Post ID: 17971002093025826
 /home/aman-amarjit/Desktop/crypto bot/main.py:110: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   print(f"Timestamp: {datetime.utcnow().isoformat()} UTC")
-Timestamp: 2026-06-08T10:12:41.909219 UTC
+Timestamp: 2026-06-08T10:18:43.368188 UTC
 ============================================================
