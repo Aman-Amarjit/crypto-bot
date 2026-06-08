@@ -6,3 +6,6 @@ __pycache__/
 .idea/
 .vscode/
 .DS_Store
+data/*.log
+data/*.lock
+data/*.db
