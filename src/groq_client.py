@@ -48,7 +48,10 @@ class GroqClient:
             "a well-reasoned, defensible developer stance. Do not include ads, promotions, or call-to-actions.\n"
             '2. "image_prompt": A descriptive, high-quality prompt for a text-to-image generator (Pollinations.ai) '
             "that captures the mood and message of the caption. Avoid generic styling terms; focus on visual "
-            "elements, colors, lighting, and composition.\n"
+            "elements, colors, lighting, and composition. DO NOT include legible text, words, or specific brand logos "
+            "(e.g., do not ask to write 'Gemini' or 'GPT-5'), as image generators cannot render text properly. "
+            "Instead, use high-tech visual metaphors (e.g., glowing nodes, server racks, abstract neural network webs, "
+            "binary code patterns, futuristic interfaces).\n"
             "Do not include any text before or after the JSON."
         )
         
