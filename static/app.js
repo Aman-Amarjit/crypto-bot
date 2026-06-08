@@ -30,12 +30,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const configForm = document.getElementById("config-form");
     const toastContainer = document.getElementById("toast-container");
     
+    // Thoughts Control Elements
+    const btnTriggerThought = document.getElementById("btn-trigger-thought");
+    const thoughtsTimeline = document.getElementById("thoughts-timeline");
+    
     let isPollingLogs = false;
     let logPollInterval = null;
     let lastLogContent = "";
     
     let isPosterRunning = false;
     let isRepliesRunning = false;
+    let isThoughtsRunning = false;
 
     // 1. Navigation Logic
     navItems.forEach(item => {
@@ -57,6 +62,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 sectionTitle.textContent = "Published Posts Log";
                 sectionSubtitle.textContent = "Browse and view history of all social media posts";
                 loadHistory(); 
+            } else if (sectionId === "thoughts") {
+                sectionTitle.textContent = "Daily Thoughts Log";
+                sectionSubtitle.textContent = "View text-only thoughts and developer reflections posted to Threads";
+                loadThoughtsHistory();
             } else if (sectionId === "comments") {
                 sectionTitle.textContent = "Comment Auto-Replies";
                 sectionSubtitle.textContent = "Manage replies, view interaction timelines, and audit logs";
@@ -272,6 +281,58 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    // 4b. Load Daily Thoughts History
+    async function loadThoughtsHistory() {
+        try {
+            const resp = await fetch("/api/thoughts/history");
+            const data = await resp.json();
+            
+            if (data.error) {
+                showToast(`Failed to load thoughts: ${data.error}`, "error");
+                return;
+            }
+            
+            if (data.length > 0) {
+                thoughtsTimeline.innerHTML = "";
+                data.slice().reverse().forEach(thought => {
+                    const row = document.createElement("div");
+                    row.className = "timeline-item success";
+                    
+                    const stamp = new Date(thought.timestamp).toLocaleString();
+                    
+                    row.innerHTML = `
+                        <div class="timeline-badge"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header-info">
+                                <span class="timeline-user"><i class="fa-solid fa-quote-left"></i> Developer Thought</span>
+                                <span class="timeline-time"><i class="fa-regular fa-clock"></i> ${stamp}</span>
+                            </div>
+                            <p class="timeline-comment" style="font-size: 1.05rem; line-height: 1.5; color: var(--text-primary);">
+                                "${thought.thought}"
+                            </p>
+                            <div class="timeline-footer">
+                                <span class="post-context-id">Post ID: ${thought.post_id || 'unknown'}</span>
+                                <a href="https://www.threads.net/post/${thought.post_id}" target="_blank" class="timeline-link">
+                                    <i class="fa-brands fa-threads"></i> View on Threads
+                                </a>
+                            </div>
+                        </div>
+                    `;
+                    thoughtsTimeline.appendChild(row);
+                });
+            } else {
+                thoughtsTimeline.innerHTML = `
+                    <div class="no-history">
+                        <i class="fa-solid fa-comment-slash"></i>
+                        <p>No daily thoughts posted yet.</p>
+                    </div>
+                `;
+            }
+        } catch (e) {
+            console.error("Error loading thoughts history:", e);
+        }
+    }
+
     // 5. Load Config Settings
     async function loadConfig() {
         try {
@@ -281,7 +342,11 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("conf-gemini-key").value = data.GEMINI_API_KEY || "";
             document.getElementById("conf-groq-key").value = data.GROQ_API_KEY || "";
             document.getElementById("conf-pollinations-key").value = data.POLLINATIONS_API_KEY || "";
+            document.getElementById("conf-hf-token").value = data.HF_API_TOKEN || "";
             document.getElementById("conf-gh-pat").value = data.GH_PAT || "";
+            
+            document.getElementById("conf-cloudflare-token").value = data.CLOUDFLARE_API_TOKEN || "";
+            document.getElementById("conf-cloudflare-account-id").value = data.CLOUDFLARE_ACCOUNT_ID || "";
             
             document.getElementById("conf-cloudinary-name").value = data.CLOUDINARY_CLOUD_NAME || "";
             document.getElementById("conf-cloudinary-key").value = data.CLOUDINARY_API_KEY || "";
@@ -304,7 +369,10 @@ document.addEventListener("DOMContentLoaded", () => {
             GEMINI_API_KEY: document.getElementById("conf-gemini-key").value,
             GROQ_API_KEY: document.getElementById("conf-groq-key").value,
             POLLINATIONS_API_KEY: document.getElementById("conf-pollinations-key").value,
+            HF_API_TOKEN: document.getElementById("conf-hf-token").value,
             GH_PAT: document.getElementById("conf-gh-pat").value,
+            CLOUDFLARE_API_TOKEN: document.getElementById("conf-cloudflare-token").value,
+            CLOUDFLARE_ACCOUNT_ID: document.getElementById("conf-cloudflare-account-id").value,
             CLOUDINARY_CLOUD_NAME: document.getElementById("conf-cloudinary-name").value,
             CLOUDINARY_API_KEY: document.getElementById("conf-cloudinary-key").value,
             CLOUDINARY_API_SECRET: document.getElementById("conf-cloudinary-secret").value,
@@ -420,7 +488,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             } else {
                 setRepliesUIStateIdle();
-                if (!isPosterRunning && isPollingLogs) {
+                if (!isPosterRunning && !isThoughtsRunning && isPollingLogs) {
                     isPollingLogs = false;
                     clearInterval(logPollInterval);
                     pollLogs(); 
@@ -432,16 +500,41 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Error checking replies status:", e);
         }
 
-        // C. Update Sidebar Status Badge
-        if (isPosterRunning && isRepliesRunning) {
-            sidebarStatus.textContent = "Busy (Post & Reply)";
-            sidebarStatus.className = "status-badge active-both";
-        } else if (isPosterRunning) {
-            sidebarStatus.textContent = "Running Poster";
-            sidebarStatus.className = "status-badge running";
-        } else if (isRepliesRunning) {
-            sidebarStatus.textContent = "Checking Replies";
-            sidebarStatus.className = "status-badge replying";
+        // C. Check Thought Runner Status
+        try {
+            const resp = await fetch("/api/thoughts/status");
+            const data = await resp.json();
+            isThoughtsRunning = data.running;
+            
+            if (isThoughtsRunning) {
+                setThoughtsUIStateRunning();
+                if (!isPollingLogs) {
+                    isPollingLogs = true;
+                    logPollInterval = setInterval(pollLogs, 1000);
+                }
+            } else {
+                setThoughtsUIStateIdle();
+                if (!isPosterRunning && !isRepliesRunning && isPollingLogs) {
+                    isPollingLogs = false;
+                    clearInterval(logPollInterval);
+                    pollLogs(); 
+                    loadThoughtsHistory(); 
+                    showToast("Daily thought execution completed", "info");
+                }
+            }
+        } catch (e) {
+            console.error("Error checking thoughts status:", e);
+        }
+
+        // D. Update Sidebar Status Badge
+        const activeRunners = [];
+        if (isPosterRunning) activeRunners.push("Poster");
+        if (isRepliesRunning) activeRunners.push("Replies");
+        if (isThoughtsRunning) activeRunners.push("Thoughts");
+
+        if (activeRunners.length > 0) {
+            sidebarStatus.textContent = `Running ${activeRunners.join(" & ")}`;
+            sidebarStatus.className = `status-badge running`;
         } else {
             sidebarStatus.textContent = "Idle";
             sidebarStatus.className = "status-badge idle";
@@ -470,6 +563,16 @@ document.addEventListener("DOMContentLoaded", () => {
         btnTriggerReplies.disabled = false;
         btnTriggerReplies.className = "btn btn-secondary btn-block";
         btnTriggerReplies.innerHTML = '<i class="fa-solid fa-magnifying-glass"></i> Check & Reply Now';
+    }
+
+    function setThoughtsUIStateRunning() {
+        btnTriggerThought.disabled = true;
+        btnTriggerThought.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Thought In Progress...';
+    }
+
+    function setThoughtsUIStateIdle() {
+        btnTriggerThought.disabled = false;
+        btnTriggerThought.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Post Today\'s Thought Now';
     }
 
     // 8. Action Event Listeners
@@ -534,9 +637,37 @@ document.addEventListener("DOMContentLoaded", () => {
         terminalBody.innerHTML = '<span class="log-info">[System] Console cleared.</span>';
     });
 
+    btnTriggerThought.addEventListener("click", async () => {
+        terminalBody.innerHTML = "";
+        lastLogContent = "";
+        appendTerminalLine("[System] Dispatching thought trigger to thread...", "info");
+        
+        try {
+            const resp = await fetch("/api/thoughts/run", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" }
+            });
+            const data = await resp.json();
+            
+            if (resp.ok) {
+                showToast("Daily thought post started successfully", "success");
+                setThoughtsUIStateRunning();
+                isPollingLogs = true;
+                logPollInterval = setInterval(pollLogs, 1000);
+            } else {
+                showToast(`Thought trigger failed: ${data.error}`, "error");
+                appendTerminalLine(`[Error] ${data.error}`, "error");
+            }
+        } catch (e) {
+            showToast("Network error triggering thought execution", "error");
+            appendTerminalLine("[Error] Network request failed.", "error");
+        }
+    });
+
     // 9. Initial Load Setup
     loadHistory();
     loadRepliesHistory();
+    loadThoughtsHistory();
     loadConfig();
     
     // Status polling loop (runs every 3 seconds to update states)

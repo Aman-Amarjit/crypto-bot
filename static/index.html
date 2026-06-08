@@ -27,6 +27,9 @@
                 <a href="#history" class="nav-item" data-section="history">
                     <i class="fa-solid fa-rectangle-ad"></i> Post History
                 </a>
+                <a href="#thoughts" class="nav-item" data-section="thoughts">
+                    <i class="fa-solid fa-brain"></i> Daily Thoughts
+                </a>
                 <a href="#comments" class="nav-item" data-section="comments">
                     <i class="fa-solid fa-comments"></i> Comment Replies
                 </a>
@@ -232,6 +235,36 @@
                     </div>
                 </section>
 
+                <!-- Section: Daily Thoughts -->
+                <section id="sec-thoughts" class="content-section">
+                    <div class="history-header">
+                        <h3><i class="fa-solid fa-brain"></i> Daily Thoughts Log</h3>
+                        <p>Text-only ghost posts designed to share daily developer reflections, mistakes, and mental models.</p>
+                    </div>
+
+                    <div class="split-layout">
+                        <!-- Left Panel: Trigger Thought -->
+                        <div class="control-panel">
+                            <h3><i class="fa-solid fa-feather"></i> Manual Thought Trigger</h3>
+                            <p class="description">Generate and post a new text-only daily thought to Threads immediately using the current day's rotating format.</p>
+                            <button id="btn-trigger-thought" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Post Today's Thought Now
+                            </button>
+                        </div>
+
+                        <!-- Right Panel: Thoughts Feed -->
+                        <div class="comments-log-panel">
+                            <h3><i class="fa-solid fa-quote-left"></i> Thought Publication Feed</h3>
+                            <div id="thoughts-timeline" class="comments-timeline">
+                                <div class="no-history">
+                                    <i class="fa-solid fa-comment-slash"></i>
+                                    <p>No daily thoughts posted yet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <!-- Section: Config -->
                 <section id="sec-config" class="content-section">
                     <div class="config-header">
@@ -274,6 +307,11 @@
                                     <span class="field-desc">Used for text-to-image prompt generation.</span>
                                 </div>
                                 <div class="form-group">
+                                    <label for="conf-hf-token">Hugging Face API Token</label>
+                                    <input type="password" id="conf-hf-token" class="form-control" placeholder="hf_...">
+                                    <span class="field-desc">Used as a tertiary image generation fallback.</span>
+                                </div>
+                                <div class="form-group">
                                     <label for="conf-gh-pat">GitHub PAT</label>
                                     <input type="password" id="conf-gh-pat" class="form-control" placeholder="ghp_...">
                                     <span class="field-desc">Used for updating secrets in GitHub Actions workflows.</span>
@@ -282,7 +320,17 @@
 
                             <!-- Column 2: Service Configs -->
                             <div class="config-column">
-                                <h4>Cloudinary & Threads Settings</h4>
+                                <h4>Cloudflare, Cloudinary & Threads Settings</h4>
+                                <div class="form-group">
+                                    <label for="conf-cloudflare-token">Cloudflare API Token</label>
+                                    <input type="password" id="conf-cloudflare-token" class="form-control" placeholder="cfut_...">
+                                    <span class="field-desc">Used for Workers AI image generation. Needs Workers AI Edit permission.</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="conf-cloudflare-account-id">Cloudflare Account ID</label>
+                                    <input type="text" id="conf-cloudflare-account-id" class="form-control" placeholder="32-char hex string">
+                                    <span class="field-desc">Your Cloudflare Account ID string.</span>
+                                </div>
                                 <div class="form-group">
                                     <label for="conf-cloudinary-name">Cloudinary Cloud Name</label>
                                     <input type="text" id="conf-cloudinary-name" class="form-control" placeholder="dz6ocnble">

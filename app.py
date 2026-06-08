@@ -17,13 +17,19 @@ replies_process = None
 replies_thread = None
 replies_lock = threading.Lock()
 
+# Global state to track the daily thought process
+thought_process = None
+thought_thread = None
+thought_lock = threading.Lock()
+
 def load_env_vars():
     env_file = ".env"
     vars_list = [
         "THREADS_USER_ID", "THREADS_ACCESS_TOKEN", "GH_PAT",
         "CLOUDINARY_CLOUD_NAME", "CLOUDINARY_API_KEY", "CLOUDINARY_API_SECRET",
         "GROQ_API_KEY", "POST_TOPIC", "POLLINATIONS_API_KEY",
-        "GEMINI_API_KEY", "AUTOMATION_PAUSED"
+        "GEMINI_API_KEY", "AUTOMATION_PAUSED", "HF_API_TOKEN",
+        "CLOUDFLARE_API_TOKEN", "CLOUDFLARE_ACCOUNT_ID"
     ]
     env_vars = {v: "" for v in vars_list}
     if os.path.exists(env_file):
@@ -133,6 +139,50 @@ def run_replies_subprocess():
     finally:
         with replies_lock:
             replies_process = None
+
+def run_thought_subprocess():
+    global thought_process
+    cmd = ["venv/bin/python", "thought.py"]
+        
+    try:
+        log_file = "data/thought_bot.log"
+        # We also write summary logs to data/bot.log so it shows on the main dashboard logs
+        main_log_file = "data/bot.log"
+        os.makedirs(os.path.dirname(log_file), exist_ok=True)
+        
+        start_msg = f"\n=== Daily Thought Run Triggered Manually at {time_str()} ===\n"
+        with open(log_file, "w") as f:
+            f.write(start_msg)
+        with open(main_log_file, "a") as f:
+            f.write(start_msg)
+            
+        proc = subprocess.Popen(
+            cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True
+        )
+        
+        with thought_lock:
+            thought_process = proc
+            
+        # Write output to both logs
+        for line in proc.stdout:
+            with open(log_file, "a") as f:
+                f.write(line)
+                f.flush()
+            with open(main_log_file, "a") as f:
+                f.write(line)
+                f.flush()
+                
+        proc.wait()
+    except Exception as e:
+        err_msg = f"\n[Dashboard Error] Daily thought execution failed: {e}\n"
+        with open("data/bot.log", "a") as f:
+            f.write(err_msg)
+    finally:
+        with thought_lock:
+            thought_process = None
 
 def time_str():
     from datetime import datetime
@@ -264,6 +314,43 @@ def get_replies_history():
                 "timestamp": r[5],
                 "status": r[6]
             })
+        return jsonify(history)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+# --- Daily Thoughts API Endpoints ---
+
+@app.route('/api/thoughts/status', methods=['GET'])
+def get_thoughts_status():
+    with thought_lock:
+        is_running = thought_process is not None
+        pid = thought_process.pid if is_running else None
+    return jsonify({
+        "running": is_running,
+        "pid": pid
+    })
+
+@app.route('/api/thoughts/run', methods=['POST'])
+def run_thought():
+    global thought_thread
+    with thought_lock:
+        if thought_process is not None:
+            return jsonify({"error": "A daily thought execution is already in progress"}), 409
+
+    thought_thread = threading.Thread(target=run_thought_subprocess)
+    thought_thread.daemon = True
+    thought_thread.start()
+    
+    return jsonify({"message": "Daily thought execution started"})
+
+@app.route('/api/thoughts/history', methods=['GET'])
+def get_thoughts_history():
+    history_file = "data/thought_history.json"
+    if not os.path.exists(history_file):
+        return jsonify([])
+    try:
+        with open(history_file, 'r') as f:
+            history = json.load(f)
         return jsonify(history)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
