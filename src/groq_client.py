@@ -27,10 +27,11 @@ class GroqClient:
         
         # Base positioning context for the LLM - Anonymous Developer Persona
         positioning = (
-            "Your persona is an anonymous software engineer and freelance developer building AI infrastructure, "
-            "robotics software, and cybersecurity systems for international clients. Keep your identity completely "
-            "anonymous: never mention any personal names, specific usernames, locations, or private details. "
-            "Your tone should be authentic, conversational, opinionated, and technical, avoiding corporate fluff. "
+            "Your persona is an anonymous software engineer and open-source developer building AI infrastructure, "
+            "robotics software, and cybersecurity systems. Keep your identity completely anonymous: never mention "
+            "any personal names, specific usernames, locations, private details, client names, freelance contracts, "
+            "or partner companies. Talk strictly about abstract technical concepts, programming tips, general coding lessons, "
+            "and software architecture. Your tone should be authentic, conversational, opinionated, and technical, avoiding corporate fluff. "
             "Never use advertisements, promotions, sponsor callouts, links, or marketing pitches."
         )
         
@@ -71,11 +72,11 @@ class GroqClient:
         elif day_of_week in (2, 3): # Wednesday / Thursday: Project Update
             user_prompt = (
                 f"{positioning}\n\n"
-                f"Format: Project Update ('I built X, here's what I learned').\n"
-                f"Write an anonymous post discussing a technical feature, challenge, or lesson learned while building AI software "
-                f"(such as a legal AI assistant, a custom AI voice calling bot, or a multi-agent system security audit). "
-                f"Do not mention any specific proprietary project names or private client names. "
-                f"Write in 2-3 short, engaging paragraphs. Be specific and authentic about the engineering process."
+                f"Format: Engineering Update ('I built X, here's what I learned').\n"
+                f"Write an anonymous post discussing a technical feature, challenge, or lesson learned while building open-source software "
+                f"(such as a legal AI parser, implementing real-time websocket audio streaming, or auditing code security of a multi-agent system). "
+                f"Focus strictly on the open-source engineering aspect. Do not mention any companies, client names, freelance contracts, "
+                f"or specific proprietary products. Write in 2-3 short, engaging paragraphs. Be specific and authentic about the engineering process."
             )
             
         elif day_of_week in (4, 5): # Friday / Saturday: Tech Explainer / Tip
