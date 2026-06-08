@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 
 # Load .env file if it exists (for local development)
-load_dotenv()
+load_dotenv(override=True)
 
 class Config:
     def __init__(self):
@@ -16,6 +16,7 @@ class Config:
         self.cloudinary_api_secret = os.environ.get("CLOUDINARY_API_SECRET")
         
         self.pollinations_api_key = os.environ.get("POLLINATIONS_API_KEY")
+        self.hf_api_token = os.environ.get("HF_API_TOKEN")
         
         self.gemini_api_key = os.environ.get("GEMINI_API_KEY")
         # Default to False if not present or disabled
