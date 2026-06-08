@@ -55,58 +55,64 @@ class GroqClient:
             "Do not include any text before or after the JSON."
         )
         
-        # Content Strategy Calendar
-        if day_of_week in (0, 1): # Monday / Tuesday: Hot Take on News
+        # Content Strategy Calendar (Aligning with High-Performance social formats)
+        if day_of_week in (0, 1): # Monday / Tuesday: Hot Take on News -> Format: Sharable Infographics
             headlines = NewsFetcher.fetch_latest_headlines(topic)
             if headlines:
                 headlines_str = "\n".join([f"- {h}" for h in headlines])
                 user_prompt = (
                     f"{positioning}\n\n"
-                    f"Format: Hot Take on Recent News regarding {topic}.\n"
-                    f"Current Date context: June 8, 2026. (Orient all temporal expressions relative to this date).\n"
-                    f"Here are the latest real-time news headlines from the last 24 hours:\n"
+                    f"Format: Hot Take on Recent News regarding {topic} as a Sharable Infographic.\n"
+                    f"Current Date context: June 8, 2026.\n"
+                    f"Here are the latest news headlines:\n"
                     f"{headlines_str}\n\n"
-                    f"Select the most interesting headline. Write an opinionated, factually rigorous, and precise "
-                    f"take on it. Do not invent details, and do not imply older projects/collaborations in the headlines are 'new' "
-                    f"or 'just released' if the text doesn't indicate that. Focus on the actual event (e.g., conferences, streams, etc.) "
-                    f"and provide a well-reasoned developer perspective on the real implication everyone is missing (implied: 'X just dropped, "
-                    f"and the real implication everyone is missing is Y'). Your insight must be a solid, defensible tech claim."
+                    f"Select the most interesting headline. Write an opinionated, factually precise take on it. "
+                    f"Orient the image_prompt to represent a 'Sharable Infographic'. Describe a clean, minimal, high-contrast "
+                    f"flow chart, block diagram, or map layout on a dark background (using neon blue/purple lines, glowing nodes, "
+                    f"and abstract system symbols) that visually simplifies this news development. Remember: NO legible words or brand text."
                 )
             else:
                 user_prompt = (
                     f"{positioning}\n\n"
-                    f"Format: Hot Take on Recent News regarding {topic}.\n"
+                    f"Format: Hot Take on Recent News regarding {topic} as a Sharable Infographic.\n"
                     f"Current Date context: June 8, 2026.\n"
-                    f"Write an opinionated, factually precise hot take on a recent developer trend or tool release in the field of {topic}. "
-                    f"Avoid vague buzzwords and focus on concrete, defensible implications."
+                    f"Write an opinionated take on a developer trend. Orient the image_prompt to represent a 'Sharable Infographic' "
+                    f"by describing a clean, minimal flow chart, block diagram, or system map layout on a dark background (using neon blue/purple "
+                    f"lines, glowing nodes, and abstract system symbols). Remember: NO legible words or brand text."
                 )
                 
-        elif day_of_week in (2, 3): # Wednesday / Thursday: Project Update
+        elif day_of_week in (2, 3): # Wednesday / Thursday: Project Update -> Format: High-Value Carousel Step-by-Step
             user_prompt = (
                 f"{positioning}\n\n"
-                f"Format: Engineering Update ('I built X, here's what I learned').\n"
-                f"Write an anonymous post discussing a technical feature, challenge, or lesson learned while building open-source software "
-                f"(such as a legal AI parser, implementing real-time websocket audio streaming, or auditing code security of a multi-agent system). "
-                f"Focus strictly on the open-source engineering aspect. Do not mention any companies, client names, freelance contracts, "
-                f"or specific proprietary products. Write in 2-3 short, engaging paragraphs. Be specific and authentic about the engineering process."
+                f"Format: High-Value Step-by-Step Tutorial or Checklist ('I built X, here is the exact step-by-step checklist').\n"
+                f"Write a tutorial/checklist post discussing a technical feature or lesson learned while building open-source software "
+                f"(such as parser implementation, real-time audio streams, or security audits). "
+                f"Start the caption with a bold, controversial, or highly intriguing headline hook (under 80 chars) on the first line. "
+                f"Deliver the core step-by-step checklist on the middle lines. "
+                f"Orient the image_prompt to represent a 'Carousel Hook Slide' by describing a high-contrast, bold graphic layout "
+                f"with a single, striking central object (e.g., a glowing metallic key, a floating cyber security shield, a neon folder icon) "
+                f"on a dark background with subtle lighting and shadow effects. Remember: NO legible words or brand text."
             )
             
-        elif day_of_week in (4, 5): # Friday / Saturday: Tech Explainer / Tip
+        elif day_of_week in (4, 5): # Friday / Saturday: Tech Explainer / Tip -> Format: High-Contrast Text Graphics style
             user_prompt = (
                 f"{positioning}\n\n"
-                f"Format: Tech Explainer or Tip.\n"
-                f"Explain a technical concept or share an actionable coding/architecture tip related to {topic} "
-                f"in plain language. Structure it like an educational explainer ('How [thing] actually works'). "
-                f"Keep it clear, concise, and highly useful for other developers."
+                f"Format: Tech Explainer or Actionable Coding/Architecture Tip related to {topic}.\n"
+                f"Explain a technical concept clearly or share an actionable coding tip. Keep the caption clear, concise, and highly useful. "
+                f"Orient the image_prompt to represent a 'High-Contrast Text Graphic / Code Card' style by describing a minimal, "
+                f"high-contrast digital card layout on a solid black/dark background, featuring abstract glowing neon blocks, "
+                f"minimalist line-art code brackets, or clean, glowing UI frame components. Remember: NO legible words or brand text."
             )
             
-        else: # Sunday: Behind-the-Scenes
+        else: # Sunday: Behind-the-Scenes -> Format: High-Quality Aesthetic Photos
             user_prompt = (
                 f"{positioning}\n\n"
                 f"Format: Behind-the-Scenes / The Messy Middle.\n"
                 f"Write an authentic post showing a behind-the-scenes look at building software. Focus on a late-night debugging session, "
-                f"dealing with a difficult client architecture decision, or solving an optimization problem. "
-                f"Keep it highly relatable and conversational, showing the reality of being a freelance developer and student."
+                f"solving an optimization problem, or workspace reflections. Use the caption to tell a powerful story that leaves the reader wanting to follow. "
+                f"Orient the image_prompt to represent a 'High-Quality Aesthetic Photo' by describing a cozy, modern, and high-resolution "
+                f"photograph of a software developer's desk setup (natural ambient light, warm wooden desk tones, a glowing mechanical keyboard, "
+                f"a mug of coffee, blurred background bokeh). Remember: NO legible words or brand text."
             )
             
         payload = {
