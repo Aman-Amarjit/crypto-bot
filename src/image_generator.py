@@ -14,79 +14,82 @@ class ImageGenerator:
     def generate_image(self, prompt: str) -> bytes:
         """
         Generates an image for the given prompt.
-        Primary:  Pollinations.ai (Flux, authenticated if API key present)
+        Primary:  Pollinations.ai (Flux -> Turbo -> Default fallback chain)
         Fallback: Hugging Face Inference API (FLUX.1-schnell, free)
         """
         # --- Primary: Pollinations ---
         try:
             return self._generate_pollinations(prompt)
         except Exception as e:
-            print(f"\n[ImageGenerator] Pollinations failed: {e}")
+            print(f"\n[ImageGenerator] All Pollinations models failed: {e}")
             print("[ImageGenerator] Falling back to Hugging Face FLUX.1-schnell...\n")
 
         # --- Fallback: Hugging Face ---
         return self._generate_huggingface(prompt)
 
     # ------------------------------------------------------------------ #
-    #  Pollinations                                                        #
+    #  Pollinations Multi-Model Fallback                                  #
     # ------------------------------------------------------------------ #
     def _generate_pollinations(self, prompt: str) -> bytes:
-        encoded_prompt = urllib.parse.quote(prompt)
-        url = (
-            f"{self.pollinations_url}/{encoded_prompt}"
-            "?model=flux&nologo=true&width=1024&height=1024"
-        )
-        if config.pollinations_api_key:
-            url += f"&key={config.pollinations_api_key}"
+        # We try 'flux' (highest quality), then 'turbo' (high speed/low queue),
+        # then '' (which omits the model parameter to let Pollinations default)
+        models = ["flux", "turbo", ""]
+        
+        for model in models:
+            model_name = model if model else "default"
+            encoded_prompt = urllib.parse.quote(prompt)
+            url = f"{self.pollinations_url}/{encoded_prompt}?nologo=true&width=1024&height=1024"
+            
+            if model:
+                url += f"&model={model}"
+            if config.pollinations_api_key:
+                url += f"&key={config.pollinations_api_key}"
 
-        headers = {"User-Agent": "ThreadsBot/1.0"}
-        if config.pollinations_api_key:
-            headers["Authorization"] = f"Bearer {config.pollinations_api_key}"
-            print("Using Pollinations API key for priority access.")
+            headers = {"User-Agent": "ThreadsBot/1.0"}
+            if config.pollinations_api_key:
+                headers["Authorization"] = f"Bearer {config.pollinations_api_key}"
 
-        print(f"Constructed Pollinations URL: {url}")
-        print("Starting image download from Pollinations.ai...")
+            print(f"\n[Pollinations] Trying model '{model_name}'...")
+            print(f"URL: {url}")
 
-        max_attempts = 5
-        wait_time = 10
+            max_attempts = 2
+            wait_time = 5
 
-        for attempt in range(1, max_attempts + 1):
-            try:
-                response = requests.get(url, headers=headers, timeout=self.timeout)
+            for attempt in range(1, max_attempts + 1):
+                try:
+                    response = requests.get(url, headers=headers, timeout=self.timeout)
 
-                if response.status_code == 402:
+                    if response.status_code == 402:
+                        print(f"Attempt {attempt}/{max_attempts}: Model '{model_name}' queue full (402).")
+                        if attempt < max_attempts:
+                            print(f"Waiting {wait_time}s before retry...")
+                            time.sleep(wait_time)
+                            wait_time *= 2
+                            continue
+                        else:
+                            print(f"Model '{model_name}' queue limits reached. Trying next fallback model...")
+                            break
+
+                    response.raise_for_status()
+
+                    content_type = response.headers.get("Content-Type", "")
+                    if "image" not in content_type:
+                        print(f"Warning: Unexpected content-type '{content_type}' from Pollinations.")
+
+                    print(f"Successfully downloaded image from Pollinations using model '{model_name}'.")
+                    return response.content
+
+                except Exception as e:
+                    print(f"Attempt {attempt}/{max_attempts} for model '{model_name}' failed: {e}")
                     if attempt < max_attempts:
-                        print(
-                            f"Attempt {attempt}/{max_attempts}: Pollinations queue full (402). "
-                            f"Waiting {wait_time}s before retry..."
-                        )
+                        print(f"Retrying in {wait_time}s...")
                         time.sleep(wait_time)
                         wait_time *= 2
-                        continue
                     else:
-                        raise RuntimeError("Pollinations queue full after all retries (402).")
+                        print(f"Model '{model_name}' failed. Trying next fallback model...")
+                        break
 
-                response.raise_for_status()
-
-                content_type = response.headers.get("Content-Type", "")
-                if "image" not in content_type:
-                    print(f"Warning: Unexpected content-type '{content_type}' from Pollinations.")
-
-                print("Successfully downloaded image from Pollinations.")
-                return response.content
-
-            except RuntimeError:
-                raise
-            except Exception as e:
-                print(f"Attempt {attempt}/{max_attempts} failed: {e}")
-                if attempt < max_attempts:
-                    print(f"Retrying in {wait_time}s...")
-                    time.sleep(wait_time)
-                    wait_time *= 2
-                else:
-                    raise RuntimeError(
-                        f"Pollinations failed after {max_attempts} attempts."
-                    ) from e
+        raise RuntimeError("All models in the Pollinations chain failed.")
 
     # ------------------------------------------------------------------ #
     #  Hugging Face fallback                                               #
