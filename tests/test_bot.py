@@ -92,7 +92,10 @@ class TestImageGenerator(unittest.TestCase):
         
         # Verify prompt is URL encoded
         expected_url = "https://gen.pollinations.ai/image/Bitcoin%20%26%20Ethereum%2C%20crypto%20currency"
-        mock_get.assert_called_with(expected_url, headers={}, timeout=30)
+        expected_headers = {}
+        if config.pollinations_api_key:
+            expected_headers["Authorization"] = f"Bearer {config.pollinations_api_key}"
+        mock_get.assert_called_with(expected_url, headers=expected_headers, timeout=30)
         self.assertEqual(image_bytes, b"fakeimagebytes")
 
     @patch("src.image_generator.requests.get")

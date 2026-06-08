@@ -23,7 +23,8 @@ class GroqClient:
         system_prompt = (
             "You are a creative social media manager. Generate a Threads post based on the given topic. "
             "You must return a raw JSON object with exactly two keys:\n"
-            '1. "caption": A catchy, engaging caption up to 400 characters long including 2-3 relevant hashtags.\n'
+            '1. "caption": A catchy, engaging caption up to 400 characters long including 2-3 relevant hashtags. '
+            "Do not include any advertisements, promotions, sponsor callouts, marketing pitches, or call-to-actions.\n"
             '2. "image_prompt": A descriptive, high-quality prompt for a text-to-image generator (Pollinations.ai) '
             "that captures the mood and message of the caption. Avoid generic styling terms; focus on visual "
             "elements, colors, lighting, and composition.\n"

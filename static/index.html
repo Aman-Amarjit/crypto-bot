@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threads Auto-Poster Dashboard</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <i class="fa-brands fa-threads logo-icon"></i>
+                <div class="logo-text">
+                    <h1>Threads Bot</h1>
+                    <span>Auto-Poster Hub</span>
+                </div>
+            </div>
+            <nav class="side-nav">
+                <a href="#overview" class="nav-item active" data-section="overview">
+                    <i class="fa-solid fa-chart-simple"></i> Overview
+                </a>
+                <a href="#history" class="nav-item" data-section="history">
+                    <i class="fa-solid fa-rectangle-ad"></i> Post History
+                </a>
+                <a href="#config" class="nav-item" data-section="config">
+                    <i class="fa-solid fa-gears"></i> Settings
+                </a>
+            </nav>
+            <div class="sidebar-footer">
+                <p>Status: <span id="sidebar-status" class="status-badge idle">Idle</span></p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="main-header">
+                <div class="header-title">
+                    <h2 id="section-title">Dashboard Overview</h2>
+                    <p id="section-subtitle">Real-time automation analytics and control panel</p>
+                </div>
+                <div class="user-badge">
+                    <i class="fa-solid fa-user-shield"></i>
+                    <span id="threads-username">amanamarjit8</span>
+                </div>
+            </header>
+
+            <!-- Dashboard sections -->
+            <div class="sections-container">
+                
+                <!-- Section: Overview -->
+                <section id="sec-overview" class="content-section active">
+                    <!-- Stats Grid -->
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon purple">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </div>
+                            <div class="stat-details">
+                                <h3>Total Posts</h3>
+                                <p id="stat-total-posts">0</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon blue">
+                                <i class="fa-solid fa-rotate"></i>
+                            </div>
+                            <div class="stat-details">
+                                <h3>Active Topic</h3>
+                                <p id="stat-active-topic">Tech News</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon cyan">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <div class="stat-details">
+                                <h3>Schedule</h3>
+                                <p id="stat-schedule">Daily at 08:30 IST</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon green">
+                                <i class="fa-solid fa-toggle-on"></i>
+                            </div>
+                            <div class="stat-details">
+                                <h3>Bot Status</h3>
+                                <p id="stat-bot-status">Active</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Main Dashboard Split -->
+                    <div class="split-layout">
+                        <!-- Left Panel: Trigger Control -->
+                        <div class="control-panel">
+                            <h3><i class="fa-solid fa-bolt"></i> Manual Execution Control</h3>
+                            <p class="description">Select a specific topic to run immediately, or use the default automatic sequential rotation.</p>
+                            
+                            <div class="form-group">
+                                <label for="run-topic-select">Posting Topic</label>
+                                <select id="run-topic-select" class="form-control">
+                                    <option value="">Auto-Rotate Topics (Recommended)</option>
+                                    <option value="tech news">Tech News</option>
+                                    <option value="robotics">Robotics</option>
+                                    <option value="artificial intelligence">Artificial Intelligence</option>
+                                    <option value="cybersecurity">Cybersecurity</option>
+                                </select>
+                            </div>
+
+                            <button id="btn-trigger-post" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Trigger Bot Run Now
+                            </button>
+                        </div>
+
+                        <!-- Right Panel: Live Terminal Logs -->
+                        <div class="terminal-panel">
+                            <div class="terminal-header">
+                                <div class="terminal-buttons">
+                                    <span class="t-btn red"></span>
+                                    <span class="t-btn yellow"></span>
+                                    <span class="t-btn green"></span>
+                                </div>
+                                <span class="terminal-title">Execution Console Output</span>
+                                <button id="btn-clear-terminal" class="btn-clear" title="Clear console">
+                                    <i class="fa-solid fa-trash-can"></i>
+                                </button>
+                            </div>
+                            <div id="terminal-body" class="terminal-body">
+                                <span class="log-info">[System] Console ready. Idle.</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section: Post History -->
+                <section id="sec-history" class="content-section">
+                    <div class="history-header">
+                        <h3><i class="fa-solid fa-rectangle-ad"></i> Published Posts Log</h3>
+                        <p>A gallery of all caption, prompt, and image combinations published to Threads.</p>
+                    </div>
+                    <div id="history-grid" class="history-grid">
+                        <!-- Dynamically filled history cards -->
+                        <div class="no-history">
+                            <i class="fa-solid fa-box-open"></i>
+                            <p>No posts published yet.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section: Config -->
+                <section id="sec-config" class="content-section">
+                    <div class="config-header">
+                        <h3><i class="fa-solid fa-gears"></i> API Configuration Manager</h3>
+                        <p>View and manage the API keys and tokens required for execution. Changes will be saved to your local <code>.env</code> file.</p>
+                    </div>
+
+                    <form id="config-form" class="config-form">
+                        <div class="config-grid">
+                            <!-- Column 1: API Keys -->
+                            <div class="config-column">
+                                <h4>API Credentials</h4>
+                                <div class="form-group">
+                                    <label for="conf-groq-key">Groq API Key</label>
+                                    <input type="password" id="conf-groq-key" class="form-control" placeholder="gsk_...">
+                                    <span class="field-desc">Used for content generation (Llama 3).</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="conf-pollinations-key">Pollinations API Key</label>
+                                    <input type="password" id="conf-pollinations-key" class="form-control" placeholder="sk_...">
+                                    <span class="field-desc">Used for text-to-image prompt generation.</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="conf-gh-pat">GitHub PAT</label>
+                                    <input type="password" id="conf-gh-pat" class="form-control" placeholder="ghp_...">
+                                    <span class="field-desc">Used for updating secrets in GitHub Actions workflows.</span>
+                                </div>
+                            </div>
+
+                            <!-- Column 2: Service Configs -->
+                            <div class="config-column">
+                                <h4>Cloudinary & Threads Settings</h4>
+                                <div class="form-group">
+                                    <label for="conf-cloudinary-name">Cloudinary Cloud Name</label>
+                                    <input type="text" id="conf-cloudinary-name" class="form-control" placeholder="dz6ocnble">
+                                </div>
+                                <div class="form-group">
+                                    <label for="conf-cloudinary-key">Cloudinary API Key</label>
+                                    <input type="text" id="conf-cloudinary-key" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="conf-cloudinary-secret">Cloudinary API Secret</label>
+                                    <input type="password" id="conf-cloudinary-secret" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="conf-threads-user-id">Threads User ID</label>
+                                    <input type="text" id="conf-threads-user-id" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="conf-threads-token">Threads Access Token</label>
+                                    <input type="password" id="conf-threads-token" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fa-solid fa-floppy-disk"></i> Save Configuration
+                            </button>
+                        </div>
+                    </form>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
