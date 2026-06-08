@@ -3,6 +3,7 @@ import requests
 from datetime import datetime, timezone
 from src.config import config
 from src.news_fetcher import NewsFetcher
+from src.fact_checker import FactChecker
 
 
 class GroqClient:
@@ -10,6 +11,7 @@ class GroqClient:
         self.api_url = "https://api.groq.com/openai/v1/chat/completions"
         self.model = "llama-3.3-70b-versatile"
         self.max_retries = 3
+        self.fact_checker = FactChecker()
 
     # ------------------------------------------------------------------ #
     #  Guardrail: reject captions that end with a question                #
@@ -128,12 +130,28 @@ class GroqClient:
                 f"no URL is available."
             )
 
+        # Track any fact-check issues from the previous attempt so they can
+        # be injected as correction context into the next generation call.
+        fact_check_feedback: str = ""
+
         for attempt in range(1, self.max_retries + 1):
+            # If a previous fact-check flagged specific issues, append them
+            # to the user prompt so the LLM can self-correct.
+            augmented_user_prompt = user_prompt
+            if fact_check_feedback:
+                augmented_user_prompt += (
+                    f"\n\n--- FACT-CHECK CORRECTION (attempt {attempt}) ---\n"
+                    f"Your previous caption failed fact-checking. Fix ONLY these "
+                    f"specific issues and regenerate the caption:\n"
+                    f"{fact_check_feedback}\n"
+                    f"Do not change anything else about the format."
+                )
+
             payload = {
                 "model": self.model,
                 "messages": [
                     {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt},
+                    {"role": "user", "content": augmented_user_prompt},
                 ],
                 "response_format": {"type": "json_object"},
                 "temperature": 0.3,
@@ -172,24 +190,54 @@ class GroqClient:
 
             caption = parsed["caption"]
 
-            # Guardrail: retry if the final line ends with a question mark
+            # --- Guardrail 1: closing question check ---
             if self._ends_with_question(caption):
                 print(
                     f"  [Guardrail] Caption attempt {attempt}/{self.max_retries} "
                     f"ends with a question. Retrying..."
                 )
                 if attempt < self.max_retries:
+                    fact_check_feedback = ""  # reset; this is a format issue not a fact issue
                     continue
                 else:
-                    # Strip the offending closing question line as last resort
                     lines = [l.strip() for l in caption.strip().splitlines() if l.strip()]
                     parsed["caption"] = "\n".join(lines[:-1])
+                    caption = parsed["caption"]
                     print(
                         "  [Guardrail] Max retries reached. "
                         "Stripped closing question line."
                     )
 
-            return parsed
+            # --- Guardrail 2: fact-check against source headlines ---
+            print(f"  [FactChecker] Running fact-check on attempt {attempt}...")
+            fc_result = self.fact_checker.check(caption, headlines)
 
-        # Should not reach here, but satisfy type checkers
+            if fc_result["passed"]:
+                print("  [FactChecker] ✅ Passed.")
+                return parsed
+            else:
+                issues_text = "\n".join(
+                    [f"  - {i}" for i in fc_result["issues"]]
+                )
+                print(
+                    f"  [FactChecker] ❌ Failed (attempt {attempt}/{self.max_retries}). "
+                    f"Issues:\n{issues_text}"
+                )
+                if attempt < self.max_retries:
+                    # Build correction feedback for the next generation attempt
+                    fact_check_feedback = "\n".join(
+                        [f"- {i}" for i in fc_result["issues"]]
+                    )
+                    continue
+                else:
+                    # Final attempt still failed — log a warning and raise so
+                    # the caller can decide whether to abort or publish anyway.
+                    raise ValueError(
+                        f"Caption failed fact-checking after {self.max_retries} attempts. "
+                        f"Final issues:\n{issues_text}\n\n"
+                        f"Caption was:\n{caption}"
+                    )
+
+        # Should not reach here
         raise RuntimeError("generate_content exhausted all retries unexpectedly.")
+

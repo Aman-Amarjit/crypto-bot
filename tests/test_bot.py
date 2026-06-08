@@ -11,6 +11,7 @@ sys.path.insert(0, "/home/aman-amarjit/Desktop/crypto bot")
 
 from src.config import config
 from src.groq_client import GroqClient
+from src.fact_checker import FactChecker
 from src.image_generator import ImageGenerator
 from src.image_uploader import ImageUploader
 from src.threads_client import ThreadsClient
@@ -147,8 +148,9 @@ class TestGroqClientGuardrail(unittest.TestCase):
     @patch("src.groq_client.NewsFetcher.filter_seen_headlines")
     @patch("src.groq_client.NewsFetcher.fetch_latest_headlines")
     @patch("src.groq_client.requests.post")
+    @patch("src.fact_checker.FactChecker.check", return_value={"passed": True, "issues": []})
     def test_generate_content_retries_on_closing_question(
-        self, mock_post, mock_fetch, mock_filter
+        self, _mock_fc_check, mock_post, mock_fetch, mock_filter
     ):
         """
         If the LLM returns a caption ending with '?', the client should retry.
@@ -165,22 +167,17 @@ class TestGroqClientGuardrail(unittest.TestCase):
             "caption": "A flaw was found in Apache HTTP Server.\nApply patch CVE-2026-0001 immediately.\nAffects versions <2.4.60.",
             "image_prompt": "diagram"
         })
-
         bad_resp = MagicMock()
-        bad_resp.json.return_value = {
-            "choices": [{"message": {"content": bad_caption}}]
-        }
+        bad_resp.json.return_value = {"choices": [{"message": {"content": bad_caption}}]}
         good_resp = MagicMock()
-        good_resp.json.return_value = {
-            "choices": [{"message": {"content": good_caption}}]
-        }
-
+        good_resp.json.return_value = {"choices": [{"message": {"content": good_caption}}]}
         mock_post.side_effect = [bad_resp, good_resp]
 
         config.groq_api_key = "test_key"
         client = GroqClient()
         result = client.generate_content("Apache")
         self.assertFalse(GroqClient._ends_with_question(result["caption"]))
+        # 2 LLM calls: 1 bad (question) + 1 good
         self.assertEqual(mock_post.call_count, 2)
 
     @patch("src.groq_client.NewsFetcher.filter_seen_headlines")
@@ -504,6 +501,162 @@ class TestReplyManager(unittest.TestCase):
         manager = ReplyManager(self.db_path)
         reply = manager.generate_reply("Post context about CVE-2026-1234", "User comment")
         self.assertEqual(reply, "Hello commenter!")
+
+
+# ---------------------------------------------------------------------------
+# FactChecker
+# ---------------------------------------------------------------------------
+
+class TestFactChecker(unittest.TestCase):
+    HEADLINES = [
+        {"title": "Acme Corp suffers 200k record breach via GTI vendor",
+         "link": "https://example.com/acme-breach"}
+    ]
+
+    def _make_mock_response(self, passed: bool, issues: list) -> MagicMock:
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.json.return_value = {
+            "choices": [{
+                "message": {
+                    "content": json.dumps({"passed": passed, "issues": issues})
+                }
+            }]
+        }
+        return mock_resp
+
+    @patch("src.fact_checker.requests.post")
+    def test_passes_accurate_caption(self, mock_post):
+        mock_post.return_value = self._make_mock_response(
+            passed=True, issues=[]
+        )
+        fc = FactChecker()
+        config.groq_api_key = "test_key"
+        result = fc.check(
+            caption="GTI vendor breach exposed 200k Acme Corp records. Patch applied.",
+            headlines=self.HEADLINES,
+        )
+        self.assertTrue(result["passed"])
+        self.assertEqual(result["issues"], [])
+
+    @patch("src.fact_checker.requests.post")
+    def test_fails_on_wrong_attribution(self, mock_post):
+        mock_post.return_value = self._make_mock_response(
+            passed=False,
+            issues=["Caption says 'Acme Corp systems were breached' but headline "
+                    "attributes the breach to GTI vendor, not Acme's own systems."]
+        )
+        fc = FactChecker()
+        config.groq_api_key = "test_key"
+        result = fc.check(
+            caption="Acme Corp systems were directly breached, exposing 1 million records.",
+            headlines=self.HEADLINES,
+        )
+        self.assertFalse(result["passed"])
+        self.assertEqual(len(result["issues"]), 1)
+        self.assertIn("GTI vendor", result["issues"][0])
+
+    @patch("src.fact_checker.requests.post")
+    def test_fails_on_fabricated_stat(self, mock_post):
+        mock_post.return_value = self._make_mock_response(
+            passed=False,
+            issues=["Caption states '70% of EU businesses affected' — "
+                    "this figure does not appear in any source headline."]
+        )
+        fc = FactChecker()
+        config.groq_api_key = "test_key"
+        result = fc.check(
+            caption="Breach hit 70% of EU businesses. CVE-2026-9999.",
+            headlines=self.HEADLINES,
+        )
+        self.assertFalse(result["passed"])
+        self.assertIn("70%", result["issues"][0])
+
+    @patch("src.fact_checker.requests.post")
+    def test_soft_pass_on_api_error(self, mock_post):
+        """A fact-checker crash must never block publication."""
+        mock_post.side_effect = Exception("Network error")
+        fc = FactChecker()
+        config.groq_api_key = "test_key"
+        result = fc.check(
+            caption="Some caption.",
+            headlines=self.HEADLINES,
+        )
+        self.assertTrue(result["passed"])
+        self.assertEqual(result["issues"], [])
+
+    @patch("src.fact_checker.requests.post")
+    def test_soft_pass_on_malformed_response(self, mock_post):
+        """Malformed fact-checker JSON must soft-pass, not crash."""
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.json.return_value = {
+            "choices": [{"message": {"content": '{"unexpected_key": true}'}}]
+        }
+        mock_post.return_value = mock_resp
+        fc = FactChecker()
+        config.groq_api_key = "test_key"
+        result = fc.check(caption="Some caption.", headlines=self.HEADLINES)
+        self.assertTrue(result["passed"])
+
+    @patch("src.fact_checker.requests.post")
+    def test_shallow_check_used_when_no_headlines(self, mock_post):
+        """When headlines list is empty, falls back to internal consistency check."""
+        mock_post.return_value = self._make_mock_response(
+            passed=False,
+            issues=["Suspiciously precise stat: '73% of companies' not traceable."]
+        )
+        fc = FactChecker()
+        config.groq_api_key = "test_key"
+        result = fc.check(caption="73% of companies hit. CVE-2026-0001.", headlines=[])
+        self.assertFalse(result["passed"])
+        self.assertEqual(len(result["issues"]), 1)
+
+    @patch("src.groq_client.NewsFetcher.filter_seen_headlines")
+    @patch("src.groq_client.NewsFetcher.fetch_latest_headlines")
+    @patch("src.groq_client.requests.post")
+    @patch("src.fact_checker.FactChecker.check")
+    def test_groq_client_retries_with_fact_check_feedback(
+        self, mock_fc_check, mock_groq_post, mock_fetch, mock_filter
+    ):
+        """
+        When the first generation fails fact-checking, the second attempt
+        should include the correction feedback in the prompt and pass.
+        """
+        mock_fetch.return_value = self.HEADLINES
+        mock_filter.return_value = self.HEADLINES
+
+        # First LLM response: fabricated stat
+        bad = MagicMock()
+        bad.json.return_value = {"choices": [{"message": {"content": json.dumps({
+            "caption": "Acme Corp breach hit 70% EU businesses. CVE-2026-9999.",
+            "image_prompt": "diagram"
+        })}}]}
+
+        # Second LLM response: corrected
+        good = MagicMock()
+        good.json.return_value = {"choices": [{"message": {"content": json.dumps({
+            "caption": "GTI vendor breach exposed 200k Acme Corp records. Patch now.",
+            "image_prompt": "diagram"
+        })}}]}
+
+        mock_groq_post.side_effect = [bad, good]
+
+        # Fact-checker: first call fails, second passes
+        mock_fc_check.side_effect = [
+            {"passed": False, "issues": ["'70% EU businesses' not in source headline."]},
+            {"passed": True, "issues": []},
+        ]
+
+        config.groq_api_key = "test_key"
+        client = GroqClient()
+        result = client.generate_content("data breach")
+
+        # Should have retried once and returned the corrected caption
+        self.assertEqual(mock_groq_post.call_count, 2)
+        self.assertEqual(mock_fc_check.call_count, 2)
+        self.assertIn("200k", result["caption"])
+
 
 
 if __name__ == "__main__":
