@@ -302,8 +302,8 @@ class ReplyManager:
         print("=" * 60)
 
         # Check configuration
-        if config.automation_paused:
-            print("🛑 Automation is currently PAUSED via configuration. Exiting gracefully.")
+        if config.automation_paused and os.environ.get("GITHUB_ACTIONS") == "true":
+            print("🛑 Automation is currently PAUSED via configuration. Skipping automatic reply check in GitHub Actions.")
             print("=" * 60)
             return
 

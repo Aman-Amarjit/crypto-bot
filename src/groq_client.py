@@ -41,17 +41,21 @@ class GroqClient:
             '1. "caption": A highly engaging, punchy, and factually rigorous caption under 400 characters. '
             "Follow these structural growth guidelines:\n"
             "- First line hook: Start with a highly compelling, punchy first line (under 80 characters) that grabs attention "
-            "and makes users click 'more'.\n"
-            "- Question ending: Always close the post with a genuine, thought-provoking question to drive comment engagement.\n"
+            "and makes users click 'more'. Do NOT use repetitive meta-framing or generic openers like 'The real implication everyone is missing...' or 'Here is why...'. "
+            "Vary your hooks dynamically: rotate between styles like 'Nobody's talking about [precise concept]', 'Hot take: [bold claim]', "
+            "or leading directly with a provocative, concrete statement (e.g. 'Model-independent prompting is dead. Here's why.').\n"
+            "- Content depth & Stance: Avoid shallow, vague opinions or open-ended questions that lack a stance. Ground your claims in precise technical details and express "
+            "a well-reasoned, defensible developer stance. Do not ask ambiguous questions without first declaring your own firm stance or providing a clear answer. "
+            "If ending with a question, frame it as a specific debate starter with opposing viewpoints to drive technical engagement in the comments.\n"
+            "- Question ending: Always close the post with a genuine, thought-provoking question or specific debate starter to drive comment engagement.\n"
             "- Spam prevention: Do not use multiple hashtags. Limit to at most 1 highly relevant hashtag (e.g., #AI, #Cybersecurity) or omit them entirely.\n"
-            "- Content depth: Avoid shallow, vague opinions. Ground your claims in precise technical details and express "
-            "a well-reasoned, defensible developer stance. Do not include ads, promotions, or call-to-actions.\n"
             '2. "image_prompt": A descriptive, high-quality prompt for a text-to-image generator (Pollinations.ai) '
-            "that captures the mood and message of the caption. Avoid generic styling terms; focus on visual "
-            "elements, colors, lighting, and composition. DO NOT include legible text, words, or specific brand logos "
-            "(e.g., do not ask to write 'Gemini' or 'GPT-5'), as image generators cannot render text properly. "
-            "Instead, use high-tech visual metaphors (e.g., glowing nodes, server racks, abstract neural network webs, "
-            "binary code patterns, futuristic interfaces).\n"
+            "that captures the mood and message of the caption. Avoid generic styling terms like 'generic AI art', 'sci-fi corridors', or 'purple hacker rooms'. "
+            "Instead, focus on a realistic developer brand aesthetic: describe screenshots of clean terminal windows displaying monospaced compiler logs, "
+            "mock code blocks (e.g. rust-like structure, modern python) with syntax highlighting on a pitch-black background, "
+            "clean minimalist diagrams of system prompt architectures, or terminal-style console outputs. "
+            "DO NOT include legible text, words, or specific brand logos (as image generators cannot render text properly). "
+            "Use high-tech visual metaphors (e.g., monospaced text patterns, glowing syntax-colored code shapes, abstract nodes, terminal boxes).\n"
             "Do not include any text before or after the JSON."
         )
         
@@ -92,8 +96,8 @@ class GroqClient:
                 f"Start the caption with a bold, controversial, or highly intriguing headline hook (under 80 chars) on the first line. "
                 f"Deliver the core step-by-step checklist on the middle lines. "
                 f"Orient the image_prompt to represent a 'Carousel Hook Slide' by describing a high-contrast, bold graphic layout "
-                f"with a single, striking central object (e.g., a glowing metallic key, a floating cyber security shield, a neon folder icon) "
-                f"on a dark background with subtle lighting and shadow effects. Remember: NO legible words or brand text."
+                f"featuring terminal-style elements: e.g., a monospaced terminal window mockup, a stylized diagram of prompt trees, "
+                f"or a retro-computing CRT screen displaying code syntax highlighting on a pitch-black background. Remember: NO legible words or brand text."
             )
             
         elif day_of_week in (4, 5): # Friday / Saturday: Tech Explainer / Tip -> Format: High-Contrast Text Graphic / Resource Lists
@@ -102,9 +106,9 @@ class GroqClient:
                 f"Format: Ultimate Resource List / Tools or Actionable Tip (e.g., '5 Free Tools I Use Every Day', 'The Only Books You Need to Read for [Topic]', or 'Top Websites for [Task]').\n"
                 f"Write a resource-list post detailing useful tools, libraries, or actionable tips in your developer workflow. "
                 f"Deliver a clean, bulleted list of 3-5 resources/tools in the caption. "
-                f"Orient the image_prompt to represent a 'High-Contrast Text Graphic' style by describing a minimal, "
-                f"high-contrast digital card layout on a solid black/dark background, featuring abstract glowing neon blocks, "
-                f"minimalist line-art code brackets, or clean, glowing UI frame components. Remember: NO legible words or brand text."
+                f"Orient the image_prompt to represent a 'High-Contrast Code Graphic' style by describing a minimal, "
+                f"high-contrast IDE code window mockup on a dark theme background, featuring syntax-highlighted code blocks, "
+                f"monospaced character rows, or minimalist system design diagrams. Remember: NO legible words or brand text."
             )
             
         else: # Sunday: Behind-the-Scenes -> Format: Relatable Mistakes & Lessons
@@ -113,9 +117,9 @@ class GroqClient:
                 f"Format: Relatable Mistakes & Lessons (e.g., '3 Mistakes I made when starting [X]', 'What I wish I knew at age 20', or 'Why your [X] isn't working').\n"
                 f"Write an authentic post detailing developer lessons, failures, or workspace reflections. "
                 f"Use the caption to tell a powerful story showing vulnerability that leaves the reader wanting to follow. "
-                f"Orient the image_prompt to represent a 'High-Quality Aesthetic Photo' by describing a cozy, modern, and high-resolution "
-                f"photograph of a software developer's desk setup (natural ambient light, warm wooden desk tones, a glowing mechanical keyboard, "
-                f"a mug of coffee, blurred background bokeh). Remember: NO legible words or brand text."
+                f"Orient the image_prompt to represent a 'High-Quality Aesthetic Photo' by describing an extremely photorealistic, "
+                f"high-resolution photograph of a software developer's desk setup. It must look like a real photo, captured with a professional 50mm lens at f/1.8 "
+                f"with warm natural ambient light, wooden desk tones, a glowing mechanical keyboard, and a soft blurred background bokeh. Remember: NO legible words or brand text."
             )
             
         payload = {

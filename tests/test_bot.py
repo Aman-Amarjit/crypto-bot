@@ -93,14 +93,19 @@ class TestImageGenerator(unittest.TestCase):
         mock_response.headers = {"Content-Type": "image/png"}
         mock_get.return_value = mock_response
         
-        generator = ImageGenerator()
-        image_bytes = generator.generate_image("Bitcoin & Ethereum, crypto currency")
-        
-        # Verify prompt is URL encoded and free-tier params are included
-        expected_url = "https://image.pollinations.ai/prompt/Bitcoin%20%26%20Ethereum%2C%20crypto%20currency?model=flux&nologo=true&width=1024&height=1024"
-        expected_headers = {"User-Agent": "ThreadsBot/1.0"}
-        mock_get.assert_called_with(expected_url, headers=expected_headers, timeout=90)
-        self.assertEqual(image_bytes, b"fakeimagebytes")
+        old_key = config.pollinations_api_key
+        config.pollinations_api_key = None
+        try:
+            generator = ImageGenerator()
+            image_bytes = generator.generate_image("Bitcoin & Ethereum, crypto currency")
+            
+            # Verify prompt is URL encoded and free-tier params are included
+            expected_url = "https://image.pollinations.ai/prompt/Bitcoin%20%26%20Ethereum%2C%20crypto%20currency?nologo=true&width=1024&height=1024&model=flux"
+            expected_headers = {"User-Agent": "ThreadsBot/1.0"}
+            mock_get.assert_called_with(expected_url, headers=expected_headers, timeout=120)
+            self.assertEqual(image_bytes, b"fakeimagebytes")
+        finally:
+            config.pollinations_api_key = old_key
 
     @patch("src.image_generator.requests.get")
     @patch("src.image_generator.time.sleep") # mock sleep to speed up test

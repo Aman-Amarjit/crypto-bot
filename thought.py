@@ -58,9 +58,15 @@ def main():
     print("=" * 60)
 
     try:
+        # Check if automation is paused and we are running inside GitHub Actions
+        if config.automation_paused and os.environ.get("GITHUB_ACTIONS") == "true":
+            print("🛑 Automation is currently PAUSED via configuration. Skipping automatic thought post in GitHub Actions.")
+            print("=" * 60)
+            return
+
         # 1. Validate configuration
         print("Validating environment configuration...")
-        config.validate()
+        config.validate(required_keys=["THREADS_USER_ID", "THREADS_ACCESS_TOKEN", "GROQ_API_KEY"])
         print("Configuration validated successfully.")
 
         # 2. Generate the daily thought

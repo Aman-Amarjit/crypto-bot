@@ -24,22 +24,22 @@ class Config:
         # Default to False if not present or disabled
         self.automation_paused = os.environ.get("AUTOMATION_PAUSED", "0").lower() in ("1", "true", "yes")
         
-    def validate(self):
+    def validate(self, required_keys=None):
+        if required_keys is None:
+            required_keys = [
+                "THREADS_USER_ID",
+                "THREADS_ACCESS_TOKEN",
+                "GROQ_API_KEY",
+                "POST_TOPIC",
+                "CLOUDINARY_CLOUD_NAME",
+                "CLOUDINARY_API_KEY",
+                "CLOUDINARY_API_SECRET"
+            ]
         missing = []
-        if not self.threads_user_id:
-            missing.append("THREADS_USER_ID")
-        if not self.threads_access_token:
-            missing.append("THREADS_ACCESS_TOKEN")
-        if not self.groq_api_key:
-            missing.append("GROQ_API_KEY")
-        if not self.post_topic:
-            missing.append("POST_TOPIC")
-        if not self.cloudinary_cloud_name:
-            missing.append("CLOUDINARY_CLOUD_NAME")
-        if not self.cloudinary_api_key:
-            missing.append("CLOUDINARY_API_KEY")
-        if not self.cloudinary_api_secret:
-            missing.append("CLOUDINARY_API_SECRET")
+        for key in required_keys:
+            val = getattr(self, key.lower(), None)
+            if not val:
+                missing.append(key)
             
         if missing:
             raise ValueError(f"Missing required environment variables: {', '.join(missing)}")

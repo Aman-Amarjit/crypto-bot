@@ -94,9 +94,10 @@ class ThoughtGenerator:
             "The post should feel like a real person's honest reflection, not a social media template. "
             "You must return a raw JSON object with exactly one key:\n"
             '1. "thought": A concise, punchy, text-only post under 350 characters. '
-            "First line must be a strong hook (under 80 characters). "
-            "Close with a genuine, thought-provoking question. "
-            "No hashtags. No emojis. No links. No promotional language.\n"
+            "Follow these style guidelines:\n"
+            "- First line hook: Start with a strong hook (under 80 characters). Do NOT use repetitive meta-framing or generic openers like 'The real implication everyone is missing...' or 'Here is why...'. Vary your hooks dynamically: rotate between styles like 'Nobody's talking about [precise concept]', 'Hot take: [bold claim]', or leading directly with a provocative, concrete statement.\n"
+            "- Stance & Stance-focused ending: Avoid ending with a vague, open-ended question that lacks a stance. Close the post with a firm, opinionated stance first, and then frame any closing question as a specific debate starter with opposing viewpoints to drive technical engagement.\n"
+            "- No hashtags. No emojis. No links. No promotional language.\n"
             "Do not include any text before or after the JSON."
         )
 

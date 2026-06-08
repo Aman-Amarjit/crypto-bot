@@ -61,6 +61,12 @@ def main():
     print("=" * 60)
     
     try:
+        # Check if automation is paused and we are running inside GitHub Actions
+        if config.automation_paused and os.environ.get("GITHUB_ACTIONS") == "true":
+            print("🛑 Automation is currently PAUSED via configuration. Skipping automatic daily post in GitHub Actions.")
+            print("=" * 60)
+            return
+
         # 1. Validate configuration
         print("Validating environment configuration...")
         config.validate()

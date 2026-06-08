@@ -23,9 +23,30 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Restore Bot Data Cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            data/bot.db
+            data/history.json
+            data/thought_history.json
+          key: bot-data-${{ github.run_id }}
+          restore-keys: |
+            bot-data-
+
       - name: Post daily thought
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
         run: python thought.py
+
+      - name: Save Bot Data Cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: |
+            data/bot.db
+            data/history.json
+            data/thought_history.json
+          key: bot-data-${{ github.run_id }}
