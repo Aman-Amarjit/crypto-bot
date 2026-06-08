@@ -96,21 +96,21 @@ class TestImageGenerator(unittest.TestCase):
         generator = ImageGenerator()
         image_bytes = generator.generate_image("Bitcoin & Ethereum, crypto currency")
         
-        # Verify prompt is URL encoded
-        expected_url = "https://gen.pollinations.ai/image/Bitcoin%20%26%20Ethereum%2C%20crypto%20currency"
-        expected_headers = {}
-        if config.pollinations_api_key:
-            expected_headers["Authorization"] = f"Bearer {config.pollinations_api_key}"
-        mock_get.assert_called_with(expected_url, headers=expected_headers, timeout=30)
+        # Verify prompt is URL encoded and free-tier params are included
+        expected_url = "https://image.pollinations.ai/prompt/Bitcoin%20%26%20Ethereum%2C%20crypto%20currency?model=flux&nologo=true&width=1024&height=1024"
+        expected_headers = {"User-Agent": "ThreadsBot/1.0"}
+        mock_get.assert_called_with(expected_url, headers=expected_headers, timeout=90)
         self.assertEqual(image_bytes, b"fakeimagebytes")
 
     @patch("src.image_generator.requests.get")
     @patch("src.image_generator.time.sleep") # mock sleep to speed up test
     def test_image_generator_retries_on_failure(self, mock_sleep, mock_get):
         mock_fail = MagicMock()
+        mock_fail.status_code = 500
         mock_fail.raise_for_status.side_effect = Exception("HTTP Error")
         
         mock_success = MagicMock()
+        mock_success.status_code = 200
         mock_success.content = b"retrybytes"
         mock_success.headers = {"Content-Type": "image/png"}
         
