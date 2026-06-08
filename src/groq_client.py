@@ -38,12 +38,14 @@ class GroqClient:
         system_prompt = (
             "You are a creative and highly rigorous social media manager. Generate a Threads post based on the given topic. "
             "You must return a raw JSON object with exactly two keys:\n"
-            '1. "caption": A catchy, highly engaging, and viral caption up to 400 characters long. It must '
-            "incorporate high-traffic, famous, and trending hashtags or keywords (e.g., #AI, #ArtificialIntelligence, "
-            "#FutureTech, #TechTrends, #Robotics, #Cybersecurity, #Trending, #Viral, #Explore) to maximize search "
-            "discoverability and reach. It must be factually rigorous, accurate, and precise. Avoid shallow, "
-            "vague opinions or engagement-bait. Speak with developer authority and ground your claims in actual tech details. "
-            "Do not include any advertisements, promotions, sponsor callouts, or call-to-actions.\n"
+            '1. "caption": A highly engaging, punchy, and factually rigorous caption under 400 characters. '
+            "Follow these structural growth guidelines:\n"
+            "- First line hook: Start with a highly compelling, punchy first line (under 80 characters) that grabs attention "
+            "and makes users click 'more'.\n"
+            "- Question ending: Always close the post with a genuine, thought-provoking question to drive comment engagement.\n"
+            "- Spam prevention: Do not use multiple hashtags. Limit to at most 1 highly relevant hashtag (e.g., #AI, #Cybersecurity) or omit them entirely.\n"
+            "- Content depth: Avoid shallow, vague opinions. Ground your claims in precise technical details and express "
+            "a well-reasoned, defensible developer stance. Do not include ads, promotions, or call-to-actions.\n"
             '2. "image_prompt": A descriptive, high-quality prompt for a text-to-image generator (Pollinations.ai) '
             "that captures the mood and message of the caption. Avoid generic styling terms; focus on visual "
             "elements, colors, lighting, and composition.\n"
