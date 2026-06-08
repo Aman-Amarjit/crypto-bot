@@ -18,16 +18,25 @@ class ThreadsClient:
             
         # Step 1: Create media container
         container_url = f"{self.base_url}/{config.threads_user_id}/threads"
-        params = {
+        query_params = {"access_token": config.threads_access_token}
+        
+        if len(caption) > 500:
+            print(f"⚠️ Warning: Caption length ({len(caption)}) exceeds Threads limit of 500 characters. Truncating to 500.")
+            caption = caption[:500]
+            
+        payload = {
             "media_type": "IMAGE",
             "image_url": image_url,
             "text": caption,
-            "access_token": config.threads_access_token
         }
-        
+
         print("Creating Threads media container...")
-        response = requests.post(container_url, params=params, timeout=30)
-        response.raise_for_status()
+        response = requests.post(container_url, params=query_params, data=payload, timeout=30)
+        try:
+            response.raise_for_status()
+        except requests.exceptions.HTTPError as e:
+            print(f"Threads API Error Details during container creation: {response.text}")
+            raise e
         
         container_data = response.json()
         container_id = container_data.get("id")
@@ -53,7 +62,11 @@ class ThreadsClient:
         for attempt in range(1, max_attempts + 1):
             print(f"Checking container status (Attempt {attempt}/{max_attempts})...")
             status_response = requests.get(status_url, params=status_params, timeout=30)
-            status_response.raise_for_status()
+            try:
+                status_response.raise_for_status()
+            except requests.exceptions.HTTPError as e:
+                print(f"Threads API Error Details during status polling: {status_response.text}")
+                raise e
             
             status_data = status_response.json()
             status = status_data.get("status")
@@ -77,14 +90,16 @@ class ThreadsClient:
             
         # Step 3: Publish container
         publish_url = f"{self.base_url}/{config.threads_user_id}/threads_publish"
-        publish_params = {
-            "creation_id": container_id,
-            "access_token": config.threads_access_token
-        }
-        
+        publish_query = {"access_token": config.threads_access_token}
+        publish_payload = {"creation_id": container_id}
+
         print("Publishing container to Threads...")
-        publish_response = requests.post(publish_url, params=publish_params, timeout=30)
-        publish_response.raise_for_status()
+        publish_response = requests.post(publish_url, params=publish_query, data=publish_payload, timeout=30)
+        try:
+            publish_response.raise_for_status()
+        except requests.exceptions.HTTPError as e:
+            print(f"Threads API Error Details during publication: {publish_response.text}")
+            raise e
         
         publish_data = publish_response.json()
         post_id = publish_data.get("id")
@@ -105,17 +120,22 @@ class ThreadsClient:
 
         # Step 1: Create text-only media container
         container_url = f"{self.base_url}/{config.threads_user_id}/threads"
-        params = {
+        query_params = {"access_token": config.threads_access_token}
+        
+        if len(text) > 500:
+            print(f"⚠️ Warning: Text length ({len(text)}) exceeds Threads limit of 500 characters. Truncating to 500.")
+            text = text[:500]
+            
+        payload = {
             "media_type": "TEXT",
             "text": text,
-            "access_token": config.threads_access_token,
         }
 
         if is_ghost_post:
-            params["is_ghost_post"] = "true"
+            payload["is_ghost_post"] = "true"
 
         print("Creating Threads text container...")
-        response = requests.post(container_url, params=params, timeout=30)
+        response = requests.post(container_url, params=query_params, data=payload, timeout=30)
         response.raise_for_status()
 
         container_data = response.json()
@@ -166,13 +186,11 @@ class ThreadsClient:
 
         # Step 3: Publish container
         publish_url = f"{self.base_url}/{config.threads_user_id}/threads_publish"
-        publish_params = {
-            "creation_id": container_id,
-            "access_token": config.threads_access_token,
-        }
+        publish_query = {"access_token": config.threads_access_token}
+        publish_payload = {"creation_id": container_id}
 
         print("Publishing text post to Threads...")
-        publish_response = requests.post(publish_url, params=publish_params, timeout=30)
+        publish_response = requests.post(publish_url, params=publish_query, data=publish_payload, timeout=30)
         publish_response.raise_for_status()
 
         publish_data = publish_response.json()

@@ -46,7 +46,23 @@ class NewsFetcher:
                 # Remove source publication name usually appended after ' - '
                 if " - " in title:
                     title = title.rsplit(" - ", 1)[0]
-                headlines.append({"title": title.strip(), "link": link.strip()})
+                
+                # Decode Google News redirect URL to its direct canonical publisher URL
+                decoded_link = link
+                if link.startswith("https://news.google.com/"):
+                    print(f"Decoding Google News URL: {link}")
+                    try:
+                        from googlenewsdecoder import gnewsdecoder
+                        decoded_res = gnewsdecoder(link)
+                        if decoded_res.get("status"):
+                            decoded_link = decoded_res["decoded_url"]
+                            print(f"Decoded successfully to: {decoded_link}")
+                        else:
+                            print(f"Failed to decode URL: {decoded_res.get('message')}")
+                    except Exception as e:
+                        print(f"Error during Google News URL decoding: {e}")
+
+                headlines.append({"title": title.strip(), "link": decoded_link.strip()})
 
             print(f"Successfully retrieved {len(headlines)} headlines.")
             return headlines
