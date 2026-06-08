@@ -29,8 +29,6 @@ def doh_resolve(hostname: str) -> str:
     for url, provider_name in providers:
         print(f"[DoH] Attempting to resolve '{hostname}' via {provider_name}...")
         try:
-            # We must use verify=True. The DoH providers have standard SSL certs
-            # that resolve fine.
             response = requests.get(
                 url,
                 params={"name": hostname, "type": "A"},
@@ -77,30 +75,40 @@ class ImageGenerator:
     def __init__(self):
         self.pollinations_url = "https://image.pollinations.ai/prompt"
         self.hf_url = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
+        self.cloudflare_base_url = "https://api.cloudflare.com/client/v4"
         self.timeout = 120
 
     def generate_image(self, prompt: str) -> bytes:
         """
         Generates an image for the given prompt.
-        Primary:  Pollinations.ai (Flux -> Turbo -> Default fallback chain)
-        Fallback: Hugging Face Inference API (FLUX.1-schnell, free)
+        Primary:   Pollinations.ai (Flux -> Turbo -> Default fallback chain)
+        Secondary: Cloudflare Workers AI (SDXL Base 1.0, generous free tier)
+        Tertiary:  Hugging Face Inference API (FLUX.1-schnell, free)
         """
         # --- Primary: Pollinations ---
         try:
             return self._generate_pollinations(prompt)
         except Exception as e:
             print(f"\n[ImageGenerator] All Pollinations models failed: {e}")
-            print("[ImageGenerator] Falling back to Hugging Face FLUX.1-schnell...\n")
 
-        # --- Fallback: Hugging Face ---
+        # --- Secondary: Cloudflare Workers AI ---
+        if config.cloudflare_api_token:
+            print("[ImageGenerator] Attempting fallback to Cloudflare Workers AI...")
+            try:
+                return self._generate_cloudflare(prompt)
+            except Exception as e:
+                print(f"[ImageGenerator] Cloudflare Workers AI failed: {e}")
+        else:
+            print("[ImageGenerator] Cloudflare API Token not configured. Skipping...")
+
+        # --- Tertiary Fallback: Hugging Face ---
+        print("[ImageGenerator] Falling back to Hugging Face FLUX.1-schnell...\n")
         return self._generate_huggingface(prompt)
 
     # ------------------------------------------------------------------ #
     #  Pollinations Multi-Model Fallback                                  #
     # ------------------------------------------------------------------ #
     def _generate_pollinations(self, prompt: str) -> bytes:
-        # We try 'flux' (highest quality), then 'turbo' (high speed/low queue),
-        # then '' (which omits the model parameter to let Pollinations default)
         models = ["flux", "turbo", ""]
         
         for model in models:
@@ -158,6 +166,49 @@ class ImageGenerator:
                         break
 
         raise RuntimeError("All models in the Pollinations chain failed.")
+
+    # ------------------------------------------------------------------ #
+    #  Cloudflare Workers AI SDXL Fallback                               #
+    # ------------------------------------------------------------------ #
+    def _generate_cloudflare(self, prompt: str) -> bytes:
+        headers = {
+            "Authorization": f"Bearer {config.cloudflare_api_token}",
+            "Content-Type": "application/json",
+        }
+
+        # 1. Fetch Cloudflare Account ID dynamically using the User API Token
+        accounts_url = f"{self.cloudflare_base_url}/accounts"
+        print("[Cloudflare] Retrieving accounts list dynamically...")
+        accounts_response = requests.get(accounts_url, headers=headers, timeout=15)
+        accounts_response.raise_for_status()
+        accounts_data = accounts_response.json()
+
+        if not accounts_data.get("success") or not accounts_data.get("result"):
+            raise ValueError(f"Could not retrieve Cloudflare accounts: {accounts_data}")
+
+        # Use the first active account ID
+        account_id = accounts_data["result"][0]["id"]
+        print(f"[Cloudflare] Using account ID: {account_id}")
+
+        # 2. Run the Stable Diffusion XL model on Workers AI
+        model = "@cf/stabilityai/stable-diffusion-xl-base-1.0"
+        run_url = f"{self.cloudflare_base_url}/accounts/{account_id}/ai/run/{model}"
+        payload = {"prompt": prompt}
+
+        print(f"[Cloudflare] Generating image using model: {model}")
+        response = requests.post(run_url, headers=headers, json=payload, timeout=self.timeout)
+        response.raise_for_status()
+
+        # The REST API returns the raw binary image stream in response.content
+        content_type = response.headers.get("content-type", "")
+        if "image" not in content_type:
+            raise RuntimeError(
+                f"Cloudflare returned unexpected content-type: {content_type}. "
+                f"Body: {response.text[:200]}"
+            )
+
+        print("[Cloudflare] Successfully generated image via Workers AI SDXL!")
+        return response.content
 
     # ------------------------------------------------------------------ #
     #  Hugging Face fallback                                               #
