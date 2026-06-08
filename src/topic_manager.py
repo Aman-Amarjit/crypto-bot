@@ -2,11 +2,33 @@ import os
 import json
 
 class TopicManager:
+    # High-engagement target topic buckets for AI and Cybersecurity niches
     TOPICS = [
-        "tech news",
-        "robotics",
-        "artificial intelligence",
-        "cybersecurity"
+        # AI Buckets
+        "AI model releases GPT Gemini Claude",
+        "AI replacing jobs and roles",
+        "AI in India",
+        "Prompt engineering tips",
+        "AI productivity tools",
+        
+        # Cybersecurity Buckets
+        "data breaches security leaks",
+        "government cyber regulations",
+        "hacking incidents",
+        "dark web leaks",
+        "cyber warfare",
+        
+        # Crossover Buckets
+        "AI used for cyberattacks",
+        "deepfakes and fraud",
+        "AI surveillance",
+        "LLM jailbreaks vulnerabilities",
+        
+        # India-Specific Buckets
+        "CERT-In advisories security",
+        "Indian startup data breaches",
+        "Digital India cybersecurity",
+        "RBI SEBI tech security regulations"
     ]
     
     def __init__(self, history_file="data/history.json"):
@@ -37,10 +59,17 @@ class TopicManager:
             return self.TOPICS[0]
             
         try:
-            last_index = self.TOPICS.index(last_topic.lower())
+            # Match case-insensitively
+            last_index = -1
+            for i, topic in enumerate(self.TOPICS):
+                if topic.lower() == last_topic.lower():
+                    last_index = i
+                    break
+            
+            if last_index == -1:
+                return self.TOPICS[0]
+                
             next_index = (last_index + 1) % len(self.TOPICS)
             return self.TOPICS[next_index]
         except ValueError:
-            # If the last topic isn't in our list (e.g. legacy topic like cryptocurrency),
-            # default back to the first topic.
             return self.TOPICS[0]

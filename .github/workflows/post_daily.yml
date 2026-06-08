@@ -2,7 +2,7 @@ name: Threads Daily Auto-Poster
 
 on:
   schedule:
-    - cron: '0 3 * * *' # Daily at 3:00 AM UTC (8:30 AM IST)
+    - cron: '0 3,9,15 * * *' # Three times daily at 8:30 AM, 2:30 PM, 8:30 PM IST
   workflow_dispatch: # Allows manual trigger of the workflow
 
 jobs:
