@@ -176,19 +176,23 @@ class ImageGenerator:
             "Content-Type": "application/json",
         }
 
-        # 1. Fetch Cloudflare Account ID dynamically using the User API Token
-        accounts_url = f"{self.cloudflare_base_url}/accounts"
-        print("[Cloudflare] Retrieving accounts list dynamically...")
-        accounts_response = requests.get(accounts_url, headers=headers, timeout=15)
-        accounts_response.raise_for_status()
-        accounts_data = accounts_response.json()
+        # 1. Get Cloudflare Account ID (either from config or dynamically fetch it)
+        if config.cloudflare_account_id:
+            account_id = config.cloudflare_account_id
+            print(f"[Cloudflare] Using configured account ID: {account_id}")
+        else:
+            accounts_url = f"{self.cloudflare_base_url}/accounts"
+            print("[Cloudflare] Retrieving accounts list dynamically...")
+            accounts_response = requests.get(accounts_url, headers=headers, timeout=15)
+            accounts_response.raise_for_status()
+            accounts_data = accounts_response.json()
 
-        if not accounts_data.get("success") or not accounts_data.get("result"):
-            raise ValueError(f"Could not retrieve Cloudflare accounts: {accounts_data}")
+            if not accounts_data.get("success") or not accounts_data.get("result"):
+                raise ValueError(f"Could not retrieve Cloudflare accounts: {accounts_data}")
 
-        # Use the first active account ID
-        account_id = accounts_data["result"][0]["id"]
-        print(f"[Cloudflare] Using account ID: {account_id}")
+            # Use the first active account ID
+            account_id = accounts_data["result"][0]["id"]
+            print(f"[Cloudflare] Using account ID dynamically retrieved: {account_id}")
 
         # 2. Run the Stable Diffusion XL model on Workers AI
         model = "@cf/stabilityai/stable-diffusion-xl-base-1.0"

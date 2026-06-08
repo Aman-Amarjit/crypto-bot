@@ -17,6 +17,8 @@ class Config:
         
         self.pollinations_api_key = os.environ.get("POLLINATIONS_API_KEY")
         self.hf_api_token = os.environ.get("HF_API_TOKEN")
+        self.cloudflare_api_token = os.environ.get("CLOUDFLARE_API_TOKEN")
+        self.cloudflare_account_id = os.environ.get("CLOUDFLARE_ACCOUNT_ID")
         
         self.gemini_api_key = os.environ.get("GEMINI_API_KEY")
         # Default to False if not present or disabled
