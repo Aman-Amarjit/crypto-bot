@@ -56,35 +56,37 @@ class GroqClient:
         )
         
         # Content Strategy Calendar (Aligning with High-Performance social formats)
-        if day_of_week in (0, 1): # Monday / Tuesday: Hot Take on News -> Format: Sharable Infographics
+        if day_of_week in (0, 1): # Monday / Tuesday: Hot Take on News -> Format: Sharable Infographics / Myths vs Reality
             headlines = NewsFetcher.fetch_latest_headlines(topic)
             if headlines:
                 headlines_str = "\n".join([f"- {h}" for h in headlines])
                 user_prompt = (
                     f"{positioning}\n\n"
-                    f"Format: Hot Take on Recent News regarding {topic} as a Sharable Infographic.\n"
+                    f"Format: Hot Take on Recent News regarding {topic} as a Sharable Infographic / Myth vs Reality.\n"
                     f"Current Date context: June 8, 2026.\n"
                     f"Here are the latest news headlines:\n"
                     f"{headlines_str}\n\n"
                     f"Select the most interesting headline. Write an opinionated, factually precise take on it. "
-                    f"Orient the image_prompt to represent a 'Sharable Infographic'. Describe a clean, minimal, high-contrast "
-                    f"flow chart, block diagram, or map layout on a dark background (using neon blue/purple lines, glowing nodes, "
-                    f"and abstract system symbols) that visually simplifies this news development. Remember: NO legible words or brand text."
+                    f"Frame it under the concept of 'Industry Myths vs Reality' or 'Stop doing [Common Mistake]' related to this news. "
+                    f"Orient the image_prompt to represent a 'Sharable Infographic'. Describe a split-image layout or side-by-side comparison "
+                    f"graphic showing abstract technical structures (e.g., left half showing a chaotic system structure in red glow, "
+                    f"right half showing a clean, optimized structure in green/blue glow) on a dark background. Remember: NO legible words or brand text."
                 )
             else:
                 user_prompt = (
                     f"{positioning}\n\n"
-                    f"Format: Hot Take on Recent News regarding {topic} as a Sharable Infographic.\n"
+                    f"Format: Hot Take on Recent News regarding {topic} as a Sharable Infographic / Myth vs Reality.\n"
                     f"Current Date context: June 8, 2026.\n"
-                    f"Write an opinionated take on a developer trend. Orient the image_prompt to represent a 'Sharable Infographic' "
-                    f"by describing a clean, minimal flow chart, block diagram, or system map layout on a dark background (using neon blue/purple "
-                    f"lines, glowing nodes, and abstract system symbols). Remember: NO legible words or brand text."
+                    f"Write an opinionated take on a developer trend. Frame it as 'What people think [Niche] is like vs. What it's actually like' or 'Stop doing [Common Mistake]'. "
+                    f"Orient the image_prompt to represent a 'Sharable Infographic' by describing a split-image layout or side-by-side comparison "
+                    f"graphic showing abstract technical structures (e.g., left half showing a chaotic structure, right half showing an optimized "
+                    f"structure) on a dark background. Remember: NO legible words or brand text."
                 )
                 
-        elif day_of_week in (2, 3): # Wednesday / Thursday: Project Update -> Format: High-Value Carousel Step-by-Step
+        elif day_of_week in (2, 3): # Wednesday / Thursday: Project Update -> Format: High-Value Carousel Step-by-Step "How-To"
             user_prompt = (
                 f"{positioning}\n\n"
-                f"Format: High-Value Step-by-Step Tutorial or Checklist ('I built X, here is the exact step-by-step checklist').\n"
+                f"Format: 'How-To' Step-by-Step Guide / Checklist (e.g., '3 Steps to [Goal]', 'How I fixed [Problem] in 24 hours', or 'A beginner's guide to [Skill]').\n"
                 f"Write a tutorial/checklist post discussing a technical feature or lesson learned while building open-source software "
                 f"(such as parser implementation, real-time audio streams, or security audits). "
                 f"Start the caption with a bold, controversial, or highly intriguing headline hook (under 80 chars) on the first line. "
@@ -94,22 +96,23 @@ class GroqClient:
                 f"on a dark background with subtle lighting and shadow effects. Remember: NO legible words or brand text."
             )
             
-        elif day_of_week in (4, 5): # Friday / Saturday: Tech Explainer / Tip -> Format: High-Contrast Text Graphics style
+        elif day_of_week in (4, 5): # Friday / Saturday: Tech Explainer / Tip -> Format: High-Contrast Text Graphic / Resource Lists
             user_prompt = (
                 f"{positioning}\n\n"
-                f"Format: Tech Explainer or Actionable Coding/Architecture Tip related to {topic}.\n"
-                f"Explain a technical concept clearly or share an actionable coding tip. Keep the caption clear, concise, and highly useful. "
-                f"Orient the image_prompt to represent a 'High-Contrast Text Graphic / Code Card' style by describing a minimal, "
+                f"Format: Ultimate Resource List / Tools or Actionable Tip (e.g., '5 Free Tools I Use Every Day', 'The Only Books You Need to Read for [Topic]', or 'Top Websites for [Task]').\n"
+                f"Write a resource-list post detailing useful tools, libraries, or actionable tips in your developer workflow. "
+                f"Deliver a clean, bulleted list of 3-5 resources/tools in the caption. "
+                f"Orient the image_prompt to represent a 'High-Contrast Text Graphic' style by describing a minimal, "
                 f"high-contrast digital card layout on a solid black/dark background, featuring abstract glowing neon blocks, "
                 f"minimalist line-art code brackets, or clean, glowing UI frame components. Remember: NO legible words or brand text."
             )
             
-        else: # Sunday: Behind-the-Scenes -> Format: High-Quality Aesthetic Photos
+        else: # Sunday: Behind-the-Scenes -> Format: Relatable Mistakes & Lessons
             user_prompt = (
                 f"{positioning}\n\n"
-                f"Format: Behind-the-Scenes / The Messy Middle.\n"
-                f"Write an authentic post showing a behind-the-scenes look at building software. Focus on a late-night debugging session, "
-                f"solving an optimization problem, or workspace reflections. Use the caption to tell a powerful story that leaves the reader wanting to follow. "
+                f"Format: Relatable Mistakes & Lessons (e.g., '3 Mistakes I made when starting [X]', 'What I wish I knew at age 20', or 'Why your [X] isn't working').\n"
+                f"Write an authentic post detailing developer lessons, failures, or workspace reflections. "
+                f"Use the caption to tell a powerful story showing vulnerability that leaves the reader wanting to follow. "
                 f"Orient the image_prompt to represent a 'High-Quality Aesthetic Photo' by describing a cozy, modern, and high-resolution "
                 f"photograph of a software developer's desk setup (natural ambient light, warm wooden desk tones, a glowing mechanical keyboard, "
                 f"a mug of coffee, blurred background bokeh). Remember: NO legible words or brand text."
