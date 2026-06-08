@@ -17,6 +17,10 @@ class Config:
         
         self.pollinations_api_key = os.environ.get("POLLINATIONS_API_KEY")
         
+        self.gemini_api_key = os.environ.get("GEMINI_API_KEY")
+        # Default to False if not present or disabled
+        self.automation_paused = os.environ.get("AUTOMATION_PAUSED", "0").lower() in ("1", "true", "yes")
+        
     def validate(self):
         missing = []
         if not self.threads_user_id:

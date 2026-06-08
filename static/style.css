@@ -820,3 +820,300 @@ button, input, select, textarea {
         padding: 20px;
     }
 }
+
+/* --- Comment Reply timeline styling --- */
+.status-badge.replying {
+    background-color: rgba(6, 182, 212, 0.15);
+    color: var(--accent-cyan);
+    animation: pulse 1.5s infinite;
+}
+
+.status-badge.active-both {
+    background-color: rgba(139, 92, 246, 0.15);
+    color: var(--accent-purple);
+    animation: pulse 1.5s infinite;
+}
+
+/* Alert Box */
+.alert {
+    display: flex;
+    gap: 16px;
+    background-color: rgba(245, 158, 11, 0.08);
+    border: 1px solid rgba(245, 158, 11, 0.2);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 32px;
+    align-items: flex-start;
+}
+
+.alert-icon {
+    font-size: 20px;
+    color: var(--accent-yellow);
+    margin-top: 2px;
+}
+
+.alert-content h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.alert-content p {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* Timeline Layout */
+.comments-log-panel {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: var(--shadow-main);
+    backdrop-filter: blur(12px);
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments-log-panel h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 12px;
+}
+
+.comments-timeline {
+    flex: 1;
+    overflow-y: auto;
+    padding-left: 16px;
+    border-left: 2px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.timeline-item {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.timeline-badge {
+    position: absolute;
+    left: -23px;
+    top: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--text-muted);
+    border: 2px solid var(--bg-main);
+    transition: background-color 0.3s ease;
+}
+
+.timeline-item.success .timeline-badge { background-color: var(--accent-green); }
+.timeline-item.skipped .timeline-badge { background-color: var(--accent-yellow); }
+.timeline-item.failed .timeline-badge { background-color: var(--accent-red); }
+.timeline-item.pending .timeline-badge { background-color: var(--accent-blue); animation: pulse 1.5s infinite; }
+
+.timeline-content {
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 16px;
+    transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.timeline-header-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+.timeline-user {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.timeline-time {
+    color: var(--text-muted);
+}
+
+.timeline-comment {
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: var(--text-primary);
+    margin-bottom: 12px;
+}
+
+.timeline-reply {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.timeline-reply.skipped {
+    border-left: 3px solid var(--accent-yellow);
+}
+
+.timeline-reply.failed {
+    border-left: 3px solid var(--accent-red);
+}
+
+.timeline-reply.pending {
+    border-left: 3px solid var(--accent-blue);
+}
+
+.reply-header {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--accent-cyan);
+    margin-bottom: 6px;
+}
+
+.reply-text {
+    font-size: 13px;
+    line-height: 1.4;
+    color: #e2e8f0;
+    font-style: italic;
+}
+
+.timeline-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 8px;
+    margin-top: 8px;
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+.timeline-link {
+    color: var(--accent-purple);
+    font-weight: 500;
+}
+
+.timeline-link:hover {
+    text-decoration: underline;
+}
+
+/* Master Switch Card styling */
+.kill-switch-card {
+    background-color: rgba(239, 68, 68, 0.04);
+    border: 1px solid rgba(239, 68, 68, 0.15);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 32px;
+}
+
+.switch-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Standard Switch Toggle */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+    flex-shrink: 0;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.1);
+    transition: .4s;
+    border: 1px solid var(--border-color);
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: var(--accent-red);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px var(--accent-red);
+}
+
+input:checked + .slider:before {
+    transform: translateX(24px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.switch-label h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 2px;
+}
+
+.switch-label p {
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+
+/* Custom button states */
+.btn-secondary {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.btn-secondary:hover:not(:disabled) {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: var(--text-secondary);
+}
+
+.btn-secondary.loading {
+    background-color: rgba(6, 182, 212, 0.1);
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+}
+

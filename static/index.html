@@ -27,6 +27,9 @@
                 <a href="#history" class="nav-item" data-section="history">
                     <i class="fa-solid fa-rectangle-ad"></i> Post History
                 </a>
+                <a href="#comments" class="nav-item" data-section="comments">
+                    <i class="fa-solid fa-comments"></i> Comment Replies
+                </a>
                 <a href="#config" class="nav-item" data-section="config">
                     <i class="fa-solid fa-gears"></i> Settings
                 </a>
@@ -145,10 +148,86 @@
                         <p>A gallery of all caption, prompt, and image combinations published to Threads.</p>
                     </div>
                     <div id="history-grid" class="history-grid">
-                        <!-- Dynamically filled history cards -->
                         <div class="no-history">
                             <i class="fa-solid fa-box-open"></i>
                             <p>No posts published yet.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section: Comment Replies -->
+                <section id="sec-comments" class="content-section">
+                    <!-- Policy Warning Banner -->
+                    <div class="alert alert-warning">
+                        <div class="alert-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="alert-content">
+                            <h4>Anti-Suspension & Safety Disclaimers</h4>
+                            <p>Meta policies restrict spammy automation. To protect this account, the bot runs with a rolling 24-hour limit of 20 replies, caps executions at 5 replies/run, enforces random 15-60s delay intervals, and silently skips 30% of incoming interactions. Set "Pause Automation" in settings if warnings are received.</p>
+                        </div>
+                    </div>
+
+                    <!-- Comments Stats -->
+                    <div class="stats-grid comments-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon green">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                            <div class="stat-details">
+                                <h3>Successful Replies</h3>
+                                <p id="stat-replies-success">0</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon yellow">
+                                <i class="fa-solid fa-forward"></i>
+                            </div>
+                            <div class="stat-details">
+                                <h3>Skipped Comments</h3>
+                                <p id="stat-replies-skipped">0</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon red">
+                                <i class="fa-solid fa-circle-xmark"></i>
+                            </div>
+                            <div class="stat-details">
+                                <h3>Failed Attempts</h3>
+                                <p id="stat-replies-failed">0</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon blue">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <div class="stat-details">
+                                <h3>Daily Limit Rate</h3>
+                                <p id="stat-replies-rate">0 / 20</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Comments Control Split -->
+                    <div class="split-layout">
+                        <!-- Left Panel: Comments Trigger -->
+                        <div class="control-panel">
+                            <h3><i class="fa-solid fa-comments"></i> Reply Runner Control</h3>
+                            <p class="description">Scan the 5 most recent posts on Threads for new user comments and execute the Gemini auto-reply script with organic spacing.</p>
+                            <button id="btn-trigger-replies" class="btn btn-secondary btn-block">
+                                <i class="fa-solid fa-magnifying-glass"></i> Check & Reply Now
+                            </button>
+                        </div>
+
+                        <!-- Right Panel: Timeline History -->
+                        <div class="comments-log-panel">
+                            <h3><i class="fa-solid fa-timeline"></i> Comment Reply Activity Timeline</h3>
+                            <div id="comments-timeline" class="comments-timeline">
+                                <div class="no-history">
+                                    <i class="fa-solid fa-comment-slash"></i>
+                                    <p>No comment interactions logged yet.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -161,14 +240,33 @@
                     </div>
 
                     <form id="config-form" class="config-form">
+                        <!-- Master Pause Toggle Switch Card -->
+                        <div class="kill-switch-card">
+                            <div class="switch-container">
+                                <label class="switch">
+                                    <input type="checkbox" id="conf-automation-paused">
+                                    <span class="slider round"></span>
+                                </label>
+                                <div class="switch-label">
+                                    <h4>Pause All Bot Automation (Kill Switch)</h4>
+                                    <p>Instantly freeze all automatic Threads post publishing and Gemini comment replying runs.</p>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="config-grid">
                             <!-- Column 1: API Keys -->
                             <div class="config-column">
                                 <h4>API Credentials</h4>
                                 <div class="form-group">
+                                    <label for="conf-gemini-key">Gemini API Key</label>
+                                    <input type="password" id="conf-gemini-key" class="form-control" placeholder="AIzaSy...">
+                                    <span class="field-desc">Used for human-like comment auto-reply generation.</span>
+                                </div>
+                                <div class="form-group">
                                     <label for="conf-groq-key">Groq API Key</label>
                                     <input type="password" id="conf-groq-key" class="form-control" placeholder="gsk_...">
-                                    <span class="field-desc">Used for content generation (Llama 3).</span>
+                                    <span class="field-desc">Used for post content generation (Llama 3).</span>
                                 </div>
                                 <div class="form-group">
                                     <label for="conf-pollinations-key">Pollinations API Key</label>

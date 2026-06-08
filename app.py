@@ -12,12 +12,18 @@ running_process = None
 running_thread = None
 process_lock = threading.Lock()
 
+# Global state to track the comment reply process
+replies_process = None
+replies_thread = None
+replies_lock = threading.Lock()
+
 def load_env_vars():
     env_file = ".env"
     vars_list = [
         "THREADS_USER_ID", "THREADS_ACCESS_TOKEN", "GH_PAT",
         "CLOUDINARY_CLOUD_NAME", "CLOUDINARY_API_KEY", "CLOUDINARY_API_SECRET",
-        "GROQ_API_KEY", "POST_TOPIC", "POLLINATIONS_API_KEY"
+        "GROQ_API_KEY", "POST_TOPIC", "POLLINATIONS_API_KEY",
+        "GEMINI_API_KEY", "AUTOMATION_PAUSED"
     ]
     env_vars = {v: "" for v in vars_list}
     if os.path.exists(env_file):
@@ -95,6 +101,39 @@ def run_bot_subprocess(topic=None):
         with process_lock:
             running_process = None
 
+def run_replies_subprocess():
+    global replies_process
+    cmd = ["venv/bin/python", "reply.py"]
+        
+    try:
+        log_file = "data/bot.log"
+        os.makedirs(os.path.dirname(log_file), exist_ok=True)
+        with open(log_file, "a") as f:
+            f.write(f"\n=== Comment Check Triggered Manually at {time_str()} ===\n")
+            
+        proc = subprocess.Popen(
+            cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True
+        )
+        
+        with replies_lock:
+            replies_process = proc
+            
+        with open(log_file, "a") as f:
+            for line in proc.stdout:
+                f.write(line)
+                f.flush()
+                
+        proc.wait()
+    except Exception as e:
+        with open("data/bot.log", "a") as f:
+            f.write(f"\n[Dashboard Error] Replies execution failed: {e}\n")
+    finally:
+        with replies_lock:
+            replies_process = None
+
 def time_str():
     from datetime import datetime
     return datetime.now().isoformat()
@@ -127,8 +166,8 @@ def get_logs():
     try:
         with open(log_file, 'r') as f:
             lines = f.readlines()
-        # Return last 150 lines of logs
-        return jsonify({"logs": "".join(lines[-150:])})
+        # Return last 250 lines of logs
+        return jsonify({"logs": "".join(lines[-250:])})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
@@ -171,6 +210,63 @@ def run_bot():
     running_thread.start()
     
     return jsonify({"message": "Bot execution started"})
+
+# --- Comment Reply API Endpoints ---
+
+@app.route('/api/replies/status', methods=['GET'])
+def get_replies_status():
+    with replies_lock:
+        is_running = replies_process is not None
+        pid = replies_process.pid if is_running else None
+    return jsonify({
+        "running": is_running,
+        "pid": pid
+    })
+
+@app.route('/api/replies/run', methods=['POST'])
+def run_replies():
+    global replies_thread
+    with replies_lock:
+        if replies_process is not None:
+            return jsonify({"error": "A comment-reply execution is already in progress"}), 409
+
+    replies_thread = threading.Thread(target=run_replies_subprocess)
+    replies_thread.daemon = True
+    replies_thread.start()
+    
+    return jsonify({"message": "Comment replies check started"})
+
+@app.route('/api/replies/history', methods=['GET'])
+def get_replies_history():
+    db_path = "data/bot.db"
+    if not os.path.exists(db_path):
+        return jsonify([])
+    try:
+        import sqlite3
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+        cursor.execute("""
+            SELECT comment_id, post_id, commenter_username, comment_text, reply_text, timestamp, status
+            FROM replied_comments
+            ORDER BY timestamp DESC
+        """)
+        rows = cursor.fetchall()
+        conn.close()
+        
+        history = []
+        for r in rows:
+            history.append({
+                "comment_id": r[0],
+                "post_id": r[1],
+                "commenter_username": r[2],
+                "comment_text": r[3],
+                "reply_text": r[4],
+                "timestamp": r[5],
+                "status": r[6]
+            })
+        return jsonify(history)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
     # Ensure static directory exists

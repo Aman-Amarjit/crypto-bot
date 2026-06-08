@@ -191,5 +191,123 @@ class TestThreadsClient(unittest.TestCase):
             
         self.assertIn("Meta download failed", str(context.exception))
 
+
+class TestReplyManager(unittest.TestCase):
+    def setUp(self):
+        import tempfile
+        # Create a temporary file for database testing
+        self.db_fd, self.db_path = tempfile.mkstemp()
+        config.gemini_api_key = "test_gemini_key"
+        config.threads_user_id = "user123"
+        config.threads_access_token = "token123"
+        config.automation_paused = False
+
+    def tearDown(self):
+        import os
+        os.close(self.db_fd)
+        try:
+            os.remove(self.db_path)
+        except Exception:
+            pass
+
+    def test_database_initialization(self):
+        from src.reply_manager import ReplyManager
+        manager = ReplyManager(self.db_path)
+        import sqlite3
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='replied_comments'")
+        row = cursor.fetchone()
+        self.assertIsNotNone(row)
+        conn.close()
+
+    def test_reserve_comment(self):
+        from src.reply_manager import ReplyManager
+        manager = ReplyManager(self.db_path)
+        # First reservation should succeed
+        res = manager._reserve_comment("comment_1", "post_1", "user_1", "hello")
+        self.assertTrue(res)
+        
+        # Second reservation on same ID should fail (already reserved/pending)
+        res2 = manager._reserve_comment("comment_1", "post_1", "user_1", "hello")
+        self.assertFalse(res2)
+
+    def test_save_replied_status(self):
+        from src.reply_manager import ReplyManager
+        manager = ReplyManager(self.db_path)
+        manager._save_replied_status("comment_2", "success", "post_1", "user_2", "hello", "reply_text")
+        
+        import sqlite3
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute("SELECT status, reply_text FROM replied_comments WHERE comment_id = 'comment_2'")
+        row = cursor.fetchone()
+        self.assertIsNotNone(row)
+        self.assertEqual(row[0], "success")
+        self.assertEqual(row[1], "reply_text")
+        conn.close()
+
+    def test_daily_ceiling(self):
+        from src.reply_manager import ReplyManager
+        manager = ReplyManager(self.db_path)
+        # Add 19 successful replies
+        import sqlite3
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        for i in range(19):
+            cursor.execute("INSERT INTO replied_comments (comment_id, status) VALUES (?, 'success')", (f"c_{i}",))
+        conn.commit()
+        conn.close()
+        
+        # Ceiling should allow it (19 < 20)
+        self.assertTrue(manager._check_daily_ceiling())
+        
+        # Add 1 more (total 20)
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute("INSERT INTO replied_comments (comment_id, status) VALUES ('c_20', 'success')")
+        conn.commit()
+        conn.close()
+        
+        # Ceiling should halt it (20 is not < 20)
+        self.assertFalse(manager._check_daily_ceiling())
+
+    @patch("src.reply_manager.requests.request")
+    def test_backoff_retry_on_429(self, mock_request):
+        from src.reply_manager import ReplyManager
+        mock_429 = MagicMock()
+        mock_429.status_code = 429
+        
+        mock_200 = MagicMock()
+        mock_200.status_code = 200
+        
+        # Return 429 once, then 200
+        mock_request.side_effect = [mock_429, mock_200]
+        
+        manager = ReplyManager(self.db_path)
+        with patch("src.reply_manager.time.sleep") as mock_sleep:
+            resp = manager._request_with_backoff("GET", "https://test.api")
+            self.assertEqual(resp.status_code, 200)
+            mock_sleep.assert_called_once_with(2)
+
+    @patch("src.reply_manager.requests.request")
+    def test_generate_reply_success(self, mock_request):
+        from src.reply_manager import ReplyManager
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.json.return_value = {
+            "candidates": [{
+                "content": {
+                    "parts": [{"text": "Hello commenter!"}]
+                }
+            }]
+        }
+        mock_request.return_value = mock_resp
+        
+        manager = ReplyManager(self.db_path)
+        reply = manager.generate_reply("Post context", "User comment")
+        self.assertEqual(reply, "Hello commenter!")
+
 if __name__ == "__main__":
     unittest.main()
+
