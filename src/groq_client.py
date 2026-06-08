@@ -36,11 +36,14 @@ class GroqClient:
         )
         
         system_prompt = (
-            "You are a creative social media manager. Generate a Threads post based on the given instructions. "
+            "You are a creative and highly rigorous social media manager. Generate a Threads post based on the given topic. "
             "You must return a raw JSON object with exactly two keys:\n"
             '1. "caption": A catchy, highly engaging, and viral caption up to 400 characters long. It must '
-            "incorporate high-traffic, famous, and trending hashtags/keywords (e.g., #AI, #ArtificialIntelligence, "
-            "#FutureTech, #TechTrends, #Robotics, #Cybersecurity, #Trending, #Viral) to maximize reach.\n"
+            "incorporate high-traffic, famous, and trending hashtags or keywords (e.g., #AI, #ArtificialIntelligence, "
+            "#FutureTech, #TechTrends, #Robotics, #Cybersecurity, #Trending, #Viral, #Explore) to maximize search "
+            "discoverability and reach. It must be factually rigorous, accurate, and precise. Avoid shallow, "
+            "vague opinions or engagement-bait. Speak with developer authority and ground your claims in actual tech details. "
+            "Do not include any advertisements, promotions, sponsor callouts, or call-to-actions.\n"
             '2. "image_prompt": A descriptive, high-quality prompt for a text-to-image generator (Pollinations.ai) '
             "that captures the mood and message of the caption. Avoid generic styling terms; focus on visual "
             "elements, colors, lighting, and composition.\n"
@@ -55,18 +58,22 @@ class GroqClient:
                 user_prompt = (
                     f"{positioning}\n\n"
                     f"Format: Hot Take on Recent News regarding {topic}.\n"
+                    f"Current Date context: June 8, 2026. (Orient all temporal expressions relative to this date).\n"
                     f"Here are the latest real-time news headlines from the last 24 hours:\n"
                     f"{headlines_str}\n\n"
-                    f"Select the most interesting headline. Do not just summarize it. Write a catchy, opinionated "
-                    f"hot take detailing the 'real implication everyone is missing' (e.g. 'X just dropped, and the real implication "
-                    f"everyone is missing is Y'). Speak from the perspective of a CS builder."
+                    f"Select the most interesting headline. Write an opinionated, factually rigorous, and precise "
+                    f"take on it. Do not invent details, and do not imply older projects/collaborations in the headlines are 'new' "
+                    f"or 'just released' if the text doesn't indicate that. Focus on the actual event (e.g., conferences, streams, etc.) "
+                    f"and provide a well-reasoned developer perspective on the real implication everyone is missing (implied: 'X just dropped, "
+                    f"and the real implication everyone is missing is Y'). Your insight must be a solid, defensible tech claim."
                 )
             else:
                 user_prompt = (
                     f"{positioning}\n\n"
                     f"Format: Hot Take on Recent News regarding {topic}.\n"
-                    f"Write a catchy, opinionated hot take on a recent trend or release in the field of {topic}. "
-                    f"Focus on the real implications that other people are missing. Speak from the perspective of a CS builder."
+                    f"Current Date context: June 8, 2026.\n"
+                    f"Write an opinionated, factually precise hot take on a recent developer trend or tool release in the field of {topic}. "
+                    f"Avoid vague buzzwords and focus on concrete, defensible implications."
                 )
                 
         elif day_of_week in (2, 3): # Wednesday / Thursday: Project Update
