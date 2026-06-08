@@ -72,9 +72,9 @@ def write_env_vars(new_vars):
 
 def run_bot_subprocess(topic=None):
     global running_process
-    cmd = ["venv/bin/python", "main.py"]
+    cmd = ["venv/bin/python", "main.py", "--force"]
     if topic:
-        cmd.append(topic)
+        cmd.insert(2, topic)  # insert before --force so argparse sees: main.py TOPIC --force
         
     try:
         # Clear log file before start so it starts fresh
@@ -142,7 +142,7 @@ def run_replies_subprocess():
 
 def run_thought_subprocess():
     global thought_process
-    cmd = ["venv/bin/python", "thought.py"]
+    cmd = ["venv/bin/python", "thought.py", "--force"]
         
     try:
         log_file = "data/thought_bot.log"

@@ -1,6 +1,9 @@
+import json
+import os
 import requests
 import xml.etree.ElementTree as ET
 import urllib.parse
+
 
 class NewsFetcher:
     @staticmethod
@@ -8,34 +11,88 @@ class NewsFetcher:
         """
         Fetches the latest news headlines from Google News RSS feed for the given topic.
         Only retrieves news from the last 24 hours (when:1d) to ensure it is fresh.
+        Returns a list of dicts: [{"title": str, "link": str}, ...]
         """
-        query = f"{topic} (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d"
+        query = (
+            f"{topic} (site:bleepingcomputer.com OR site:thehackernews.com OR "
+            f"site:arstechnica.com OR site:theverge.com OR site:wired.com OR "
+            f"site:darkreading.com) when:1d"
+        )
         encoded_query = urllib.parse.quote(query)
         url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
-        
+
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/120.0.0.0 Safari/537.36"
+            )
         }
-        
+
         print(f"Fetching latest news headlines from Google News for query: '{query}'...")
         try:
             response = requests.get(url, headers=headers, timeout=10)
             response.raise_for_status()
-            
+
             root = ET.fromstring(response.content)
             items = root.findall(".//item")
-            
+
             headlines = []
             for item in items[:max_results]:
-                title = item.find("title").text
+                title_el = item.find("title")
+                link_el = item.find("link")
+                title = title_el.text if title_el is not None else ""
+                link = link_el.text if link_el is not None else ""
                 # Remove source publication name usually appended after ' - '
                 if " - " in title:
                     title = title.rsplit(" - ", 1)[0]
-                headlines.append(title)
-                
+                headlines.append({"title": title.strip(), "link": link.strip()})
+
             print(f"Successfully retrieved {len(headlines)} headlines.")
             return headlines
-            
+
         except Exception as e:
             print(f"Warning: Failed to fetch latest news headlines. Details: {e}")
             return []
+
+    @staticmethod
+    def filter_seen_headlines(headlines: list, history_file: str = "data/history.json") -> list:
+        """
+        Filters out headlines whose source URL or title has already appeared in a
+        previously published post (cross-referenced against history.json).
+        Returns a filtered list of headline dicts.
+        """
+        if not os.path.exists(history_file):
+            return headlines
+
+        try:
+            with open(history_file, "r") as f:
+                history = json.load(f)
+        except Exception:
+            return headlines
+
+        # Build sets of seen source URLs and normalised title substrings
+        seen_urls = set()
+        seen_titles = set()
+        for entry in history:
+            src = entry.get("source_url", "")
+            if src:
+                seen_urls.add(src.strip().lower())
+            src_title = entry.get("source_title", "")
+            if src_title:
+                seen_titles.add(src_title.strip().lower())
+
+        filtered = []
+        for h in headlines:
+            link_norm = h.get("link", "").strip().lower()
+            title_norm = h.get("title", "").strip().lower()
+            if link_norm in seen_urls:
+                print(f"  [Dedup] Skipping already-published headline URL: {h['link']}")
+                continue
+            if title_norm in seen_titles:
+                print(f"  [Dedup] Skipping already-published headline title: {h['title']}")
+                continue
+            filtered.append(h)
+
+        print(f"  [Dedup] {len(headlines) - len(filtered)} headline(s) filtered out as already published.")
+        return filtered

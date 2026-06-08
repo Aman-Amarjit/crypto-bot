@@ -4,7 +4,7 @@ import time
 import random
 import traceback
 import argparse
-from datetime import datetime
+from datetime import datetime, timezone
 
 from src.reply_manager import ReplyManager
 
@@ -65,7 +65,7 @@ def main():
             time.sleep(delay_seconds)
 
         print("=" * 60)
-        print(f"Threads Comment-Reply Runner Execution Started: {datetime.utcnow().isoformat()} UTC")
+        print(f"Threads Comment-Reply Runner Execution Started: {datetime.now(timezone.utc).isoformat()} UTC")
         print("=" * 60)
 
         # 4. Trigger auto-reply routine
@@ -74,7 +74,7 @@ def main():
 
         print("=" * 60)
         print(f"Comment-Reply Execution Completed Successfully!")
-        print(f"Timestamp: {datetime.utcnow().isoformat()} UTC")
+        print(f"Timestamp: {datetime.now(timezone.utc).isoformat()} UTC")
         print("=" * 60)
 
     except Exception as e:
