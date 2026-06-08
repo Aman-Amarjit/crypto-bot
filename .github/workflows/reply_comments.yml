@@ -49,6 +49,12 @@ jobs:
           AUTOMATION_PAUSED: ${{ secrets.AUTOMATION_PAUSED }}
         run: python reply.py --random-delay
 
+      - name: Ensure Cache Files Exist
+        if: always()
+        run: |
+          mkdir -p data
+          touch data/bot.db data/history.json data/thought_history.json
+
       - name: Save Bot Data Cache
         uses: actions/cache/save@v4
         if: always()
