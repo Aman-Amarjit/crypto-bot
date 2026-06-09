@@ -36,7 +36,7 @@ def _load_history(path: str) -> list:
         return []
 
 
-def check_recent_thought(window_hours: int = 2) -> bool:
+def check_recent_thought(window_hours: int = 4) -> bool:
     """
     Returns True if a post (either thought or news post) was published within
     the last `window_hours`.  Mirrors the same logic as main.py so both
@@ -120,8 +120,8 @@ def run_thought(force: bool = False) -> str:
     )
     print("Configuration validated successfully.")
 
-    # 2. Rate-limit check (2-hour window)
-    if not force and check_recent_thought(window_hours=2):
+    # 2. Rate-limit check (4-hour window)
+    if not force and check_recent_thought(window_hours=4):
         print("🛑 Skipping run to avoid spammy posting. Use --force to override.")
         print("=" * 60)
         return ""
