@@ -1,84 +1,293 @@
-=== Bot Run Triggered Manually at 2026-06-08T16:34:32.350164 ===
+=== Bot Run Triggered Manually at 2026-06-08T23:12:23.886064 ===
 ============================================================
-/home/aman-amarjit/Desktop/crypto bot/main.py:60: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  print(f"Threads Auto-Poster Bot Execution Started: {datetime.utcnow().isoformat()} UTC")
-Threads Auto-Poster Bot Execution Started: 2026-06-08T11:04:32.519892 UTC
+Threads Auto-Poster Bot Execution Started: 2026-06-08T17:42:24.061830+00:00 UTC
 ============================================================
 Validating environment configuration...
 Configuration validated successfully.
-Using rotating topic: 'AI model releases GPT Gemini Claude'
-Requesting content generation for topic: 'AI model releases GPT Gemini Claude'...
-Fetching latest news headlines from Google News for query: 'AI model releases GPT Gemini Claude when:1d'...
+Using rotating topic: 'data breaches security leaks'
+Requesting content generation for topic: 'data breaches security leaks'...
+Fetching latest news headlines from Google News for query: 'data breaches security leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
 Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
 
 Generated Content:
-  - Caption: Gemini outshines ChatGPT? What does this say about the future of AI model evaluations? 
-  - Image Prompt: a split-screen comparison of two AI models, Gemini and ChatGPT, with contrasting visual representations of their performance metrics, set against a dark blue background with neon-lit circuit boards and subtle code snippets
+  - Caption: Oxford University's careers platform was hacked. 
+The breach occurred due to a hack of the university's careers platform, potentially exposing sensitive user data. 
+Over 20,000 Instagram accounts were not directly involved in this incident, 
+CVE details are not provided in this headline, 
+Source: https://news.google.com/rss/articles/CBMivgFBVV95cUxOa3VxOUNXOTZ2UXJUMHRleExDekIzSi1YMHFGOHM5WVBBLV8zRGJzT2JhVVhKWDFJRWpfemRtR1hxWmU2MmkyZnM5ZU44Z1VLMDZHODRlNS1LeUVVLWR5ZmlIM1VXNWUtSG9kWlB1RVRjTVl5clEwVmZmR241Z2VJT1dCUjg1VlFCcF9HN3ZnRjRvTFl6UFd3U2kwMHppREZ5bGNNdGJveGoyalpaak5mRXh5Y1ItQ2lGZ1o5OG9n0gHDAUFVX3lxTE1UQ0Rtc0xkelhDUGtzWGg0dnJ3akFtQ1A3MnFhUHFnS2pTNmhIUmQ0bUdwampoR0NWUk5ROEZGSTk2R2xNOXZ5a3dhV1p1Wlg1VGpJa2hJSkRUdUMwbDZPNEpIelloRC1Pa2NZaHFWWGEzZHM3MkpDN2h4VW9BbThXSWJNT1E0NkN1aXRfUE84aW15ZUphaDdmY2QyMUpnMU5wem9KYWlNci11VDlkVUZSR2Y4R2NTdy1XcXZyY1RkUEtFWQ
+  - Image Prompt: Abstract schematic of a wireframe topology with a central server block flanked by two breach-vector arrows, three interconnected node clusters representing the careers platform, on a dark navy background with cyan and white lines, and red alert nodes indicating the hack, no text characters, no legible labels
 
 Generating and downloading image from Pollinations.ai...
-Constructed Pollinations URL: https://image.pollinations.ai/prompt/a%20split-screen%20comparison%20of%20two%20AI%20models%2C%20Gemini%20and%20ChatGPT%2C%20with%20contrasting%20visual%20representations%20of%20their%20performance%20metrics%2C%20set%20against%20a%20dark%20blue%20background%20with%20neon-lit%20circuit%20boards%20and%20subtle%20code%20snippets?model=flux&nologo=true&width=1024&height=1024
-Starting image download from Pollinations.ai (free tier)...
-Attempt 1/5: Pollinations queue full (402). Waiting 10s before retry...
-Attempt 2/5: Pollinations queue full (402). Waiting 20s before retry...
-Attempt 3/5: Pollinations queue full (402). Waiting 40s before retry...
-Attempt 4/5: Pollinations queue full (402). Waiting 80s before retry...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20a%20central%20server%20block%20flanked%20by%20two%20breach-vector%20arrows%2C%20three%20interconnected%20node%20clusters%20representing%20the%20careers%20platform%2C%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20indicating%20the%20hack%2C%20no%20text%20characters%2C%20no%20legible%20labels?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'flux' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20a%20central%20server%20block%20flanked%20by%20two%20breach-vector%20arrows%2C%20three%20interconnected%20node%20clusters%20representing%20the%20careers%20platform%2C%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20indicating%20the%20hack%2C%20no%20text%20characters%2C%20no%20legible%20labels?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20a%20central%20server%20block%20flanked%20by%20two%20breach-vector%20arrows%2C%20three%20interconnected%20node%20clusters%20representing%20the%20careers%20platform%2C%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20indicating%20the%20hack%2C%20no%20text%20characters%2C%20no%20legible%20labels?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[Cloudflare] Successfully generated image via Workers AI SDXL!
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1780940585/threads_bot/a31xlp0xdjjlj0qiw5gt.png
+Initiating Threads publication...
+Creating Threads media container...
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+500 Server Error: Internal Server Error for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYlpGTjRTak1POG5acEtxa1RTUnZAEVDloT3o4ZAUFXMFpqa0FXWk1fR1IyZAS02cExlWGxjUUNReW4zT2N0czM5MUdJNTVsV2owOWwxd05tYWdPc25ydVlTaW52X1BrWWVkZA0owR0FrcW8zc2dNQjJvNjdLVnpYaE5sbXdUd0tVd1Rnb3VlRXMZD
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/aman-amarjit/Desktop/crypto bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aman-amarjit/Desktop/crypto bot/main.py", line 179, in run_post
+    post_id = threads.publish_post(public_url, caption)
+  File "/home/aman-amarjit/Desktop/crypto bot/src/threads_client.py", line 30, in publish_post
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/aman-amarjit/Desktop/crypto bot/venv/lib/python3.14/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYlpGTjRTak1POG5acEtxa1RTUnZAEVDloT3o4ZAUFXMFpqa0FXWk1fR1IyZAS02cExlWGxjUUNReW4zT2N0czM5MUdJNTVsV2owOWwxd05tYWdPc25ydVlTaW52X1BrWWVkZA0owR0FrcW8zc2dNQjJvNjdLVnpYaE5sbXdUd0tVd1Rnb3VlRXMZD
 ============================================================
-/home/aman-amarjit/Desktop/crypto bot/thought.py:57: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  print(f"Threads Daily Thought Bot Execution Started: {datetime.utcnow().isoformat()} UTC")
-Threads Daily Thought Bot Execution Started: 2026-06-08T12:53:33.448706 UTC
+Threads Auto-Poster Bot Execution Started: 2026-06-08T17:42:24.061830+00:00 UTC
 ============================================================
 Validating environment configuration...
 Configuration validated successfully.
-Generating daily thought via Groq...
+Using rotating topic: 'data breaches security leaks'
+Requesting content generation for topic: 'data breaches security leaks'...
+Fetching latest news headlines from Google News for query: 'data breaches security leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
 
-Generated Thought:
-  Most engineers think more data always leads to better AI models, but I think that's a gross oversimplification. Doesn't the ease of obtaining data just mask our inability to design meaningful experiments, what are we really optimizing for?
+Generated Content:
+  - Caption: Oxford University's careers platform was hacked. 
+The breach occurred due to a hack of the university's careers platform, potentially exposing sensitive user data. 
+Over 20,000 Instagram accounts were not directly involved in this incident, 
+CVE details are not provided in this headline, 
+Source: https://news.google.com/rss/articles/CBMivgFBVV95cUxOa3VxOUNXOTZ2UXJUMHRleExDekIzSi1YMHFGOHM5WVBBLV8zRGJzT2JhVVhKWDFJRWpfemRtR1hxWmU2MmkyZnM5ZU44Z1VLMDZHODRlNS1LeUVVLWR5ZmlIM1VXNWUtSG9kWlB1RVRjTVl5clEwVmZmR241Z2VJT1dCUjg1VlFCcF9HN3ZnRjRvTFl6UFd3U2kwMHppREZ5bGNNdGJveGoyalpaak5mRXh5Y1ItQ2lGZ1o5OG9n0gHDAUFVX3lxTE1UQ0Rtc0xkelhDUGtzWGg0dnJ3akFtQ1A3MnFhUHFnS2pTNmhIUmQ0bUdwampoR0NWUk5ROEZGSTk2R2xNOXZ5a3dhV1p1Wlg1VGpJa2hJSkRUdUMwbDZPNEpIelloRC1Pa2NZaHFWWGEzZHM3MkpDN2h4VW9BbThXSWJNT1E0NkN1aXRfUE84aW15ZUphaDdmY2QyMUpnMU5wem9KYWlNci11VDlkVUZSR2Y4R2NTdy1XcXZyY1RkUEtFWQ
+  - Image Prompt: Abstract schematic of a wireframe topology with a central server block flanked by two breach-vector arrows, three interconnected node clusters representing the careers platform, on a dark navy background with cyan and white lines, and red alert nodes indicating the hack, no text characters, no legible labels
 
-Publishing thought to Threads...
-Creating Threads text container...
-Text container created successfully. ID: 18099179938933887
-Waiting 3 seconds before first status check...
-Checking container status (Attempt 1/10)...
-Container status: 'FINISHED'
-Publishing text post to Threads...
-Successfully published text post to Threads! Post ID: 17968369590071520
-Saving thought to history log...
-/home/aman-amarjit/Desktop/crypto bot/thought.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  "timestamp": datetime.utcnow().isoformat(),
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20a%20central%20server%20block%20flanked%20by%20two%20breach-vector%20arrows%2C%20three%20interconnected%20node%20clusters%20representing%20the%20careers%20platform%2C%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20indicating%20the%20hack%2C%20no%20text%20characters%2C%20no%20legible%20labels?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'flux' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20a%20central%20server%20block%20flanked%20by%20two%20breach-vector%20arrows%2C%20three%20interconnected%20node%20clusters%20representing%20the%20careers%20platform%2C%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20indicating%20the%20hack%2C%20no%20text%20characters%2C%20no%20legible%20labels?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20a%20central%20server%20block%20flanked%20by%20two%20breach-vector%20arrows%2C%20three%20interconnected%20node%20clusters%20representing%20the%20careers%20platform%2C%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20indicating%20the%20hack%2C%20no%20text%20characters%2C%20no%20legible%20labels?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[Cloudflare] Successfully generated image via Workers AI SDXL!
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1780940585/threads_bot/a31xlp0xdjjlj0qiw5gt.png
+Initiating Threads publication...
+Creating Threads media container...
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+500 Server Error: Internal Server Error for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYlpGTjRTak1POG5acEtxa1RTUnZAEVDloT3o4ZAUFXMFpqa0FXWk1fR1IyZAS02cExlWGxjUUNReW4zT2N0czM5MUdJNTVsV2owOWwxd05tYWdPc25ydVlTaW52X1BrWWVkZA0owR0FrcW8zc2dNQjJvNjdLVnpYaE5sbXdUd0tVd1Rnb3VlRXMZD
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/aman-amarjit/Desktop/crypto bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aman-amarjit/Desktop/crypto bot/main.py", line 179, in run_post
+    post_id = threads.publish_post(public_url, caption)
+  File "/home/aman-amarjit/Desktop/crypto bot/src/threads_client.py", line 30, in publish_post
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/aman-amarjit/Desktop/crypto bot/venv/lib/python3.14/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYlpGTjRTak1POG5acEtxa1RTUnZAEVDloT3o4ZAUFXMFpqa0FXWk1fR1IyZAS02cExlWGxjUUNReW4zT2N0czM5MUdJNTVsV2owOWwxd05tYWdPc25ydVlTaW52X1BrWWVkZA0owR0FrcW8zc2dNQjJvNjdLVnpYaE5sbXdUd0tVd1Rnb3VlRXMZD
 ============================================================
-Daily Thought Posted Successfully!
-Post ID: 17968369590071520
-/home/aman-amarjit/Desktop/crypto bot/thought.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  print(f"Timestamp: {datetime.utcnow().isoformat()} UTC")
-Timestamp: 2026-06-08T12:53:45.843784 UTC
-============================================================
-============================================================
-/home/aman-amarjit/Desktop/crypto bot/thought.py:57: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  print(f"Threads Daily Thought Bot Execution Started: {datetime.utcnow().isoformat()} UTC")
-Threads Daily Thought Bot Execution Started: 2026-06-08T12:57:00.688056 UTC
+Threads Auto-Poster Bot Execution Started: 2026-06-08T17:51:10.301085+00:00 UTC
 ============================================================
 Validating environment configuration...
 Configuration validated successfully.
-Generating daily thought via Groq...
+Using rotating topic: 'data breaches security leaks'
+Requesting content generation for topic: 'data breaches security leaks'...
+Fetching latest news headlines from Google News for query: 'data breaches security leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - The caption incorrectly attributes the 20,000 accounts to the Oxford University breach, when in fact the source headlines state that over 20,000 Instagram accounts were stolen in a separate Meta AI support hack.
+  - The caption mentions 'third-party vulnerabilities' without clear attribution to the specific breach, potentially conflating details from multiple headlines.
+  - The caption implies a connection between the Oxford University breach and the 20,000 accounts, which is not supported by the source headlines.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ✅ Passed.
 
-Generated Thought:
-  Most think more layers means better neural networks, but added complexity often hinders interpretability, what if simplicity is the real key to AI breakthroughs?
+Generated Content:
+  - Caption: Meta AI support hacked. 
+The breach exposed over 20,000 Instagram accounts, highlighting the risks of third-party support systems. 
+20,000 accounts were stolen, 
+Source: https://news.google.com/rss/articles/CBMirgFBVV95cUxOeVlpeHZPVHBNNHJUMGRDSUwwa3ZyYXd5WXFocUx2MThaQ3Etelh2Y25YMHVZNFJNT2hzWDM5cHFfS0dBYkkzcFh0S0RtVHhIalVHRHZFb3E3NDdJT19ZTXZuMTdXMExpb0FETnZuVnhlREZYSlZwdGs1Ulk2cUg3UkljZVFKM1llN1dvdmVmYmdaaERDQzlfNElSM1JyYVFCcGljYWFzOTVZR3hhbHfSAbMBQVVfeXFMUENDR1hBM3BkTTZOSy1iX0Y4TV8yNzVPQk0xem1DSGxGVW5YbTJfQndsdFhzY0ZEMG5ONGJmX1hRN2ZCQ2FyMXMwbks0dXp2S3phMFBtWWVxU01LdHpUTGoteFV2dmF0R1FkSjR0UDVPOVdxWjlDVG9aUGR2anlQbGlyYnhRUlFlQk1oZzdSblZaYVRudEwtS0ZRUEJYZFdwVWd0dkVnTGNZMGNnNElUX0NWbDg?oc=5
+  - Image Prompt: Abstract schematic of a system block diagram on a dark navy background with cyan and white lines, featuring three interconnected node clusters representing the Meta AI support system, with red alert nodes indicating the breach points and breach-vector arrows showing the flow of stolen data, and no legible labels or text characters, in a wireframe topology style with no glowing shields or generic stock-image cybersecurity visuals.
 
-Publishing thought as ghost post to Threads...
-Creating Threads text container...
-Text container created successfully. ID: 18099180673933887
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20system%20block%20diagram%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20featuring%20three%20interconnected%20node%20clusters%20representing%20the%20Meta%20AI%20support%20system%2C%20with%20red%20alert%20nodes%20indicating%20the%20breach%20points%20and%20breach-vector%20arrows%20showing%20the%20flow%20of%20stolen%20data%2C%20and%20no%20legible%20labels%20or%20text%20characters%2C%20in%20a%20wireframe%20topology%20style%20with%20no%20glowing%20shields%20or%20generic%20stock-image%20cybersecurity%20visuals.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'flux' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20system%20block%20diagram%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20featuring%20three%20interconnected%20node%20clusters%20representing%20the%20Meta%20AI%20support%20system%2C%20with%20red%20alert%20nodes%20indicating%20the%20breach%20points%20and%20breach-vector%20arrows%20showing%20the%20flow%20of%20stolen%20data%2C%20and%20no%20legible%20labels%20or%20text%20characters%2C%20in%20a%20wireframe%20topology%20style%20with%20no%20glowing%20shields%20or%20generic%20stock-image%20cybersecurity%20visuals.?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20system%20block%20diagram%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20featuring%20three%20interconnected%20node%20clusters%20representing%20the%20Meta%20AI%20support%20system%2C%20with%20red%20alert%20nodes%20indicating%20the%20breach%20points%20and%20breach-vector%20arrows%20showing%20the%20flow%20of%20stolen%20data%2C%20and%20no%20legible%20labels%20or%20text%20characters%2C%20in%20a%20wireframe%20topology%20style%20with%20no%20glowing%20shields%20or%20generic%20stock-image%20cybersecurity%20visuals.?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[Cloudflare] Successfully generated image via Workers AI SDXL!
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1780941111/threads_bot/q7tgc7abcj9fgshdvo2e.png
+Initiating Threads publication...
+Creating Threads media container...
+Threads API Error Details during container creation: {"error":{"message":"Param text must be at most 500 characters long.","type":"THApiException","code":100,"fbtrace_id":"ARbGCbWRE3XNBth650EZ7Vn"}}
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+500 Server Error: Internal Server Error for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYlpGTjRTak1POG5acEtxa1RTUnZAEVDloT3o4ZAUFXMFpqa0FXWk1fR1IyZAS02cExlWGxjUUNReW4zT2N0czM5MUdJNTVsV2owOWwxd05tYWdPc25ydVlTaW52X1BrWWVkZA0owR0FrcW8zc2dNQjJvNjdLVnpYaE5sbXdUd0tVd1Rnb3VlRXMZD
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/aman-amarjit/Desktop/crypto bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aman-amarjit/Desktop/crypto bot/main.py", line 179, in run_post
+    post_id = threads.publish_post(public_url, caption)
+  File "/home/aman-amarjit/Desktop/crypto bot/src/threads_client.py", line 34, in publish_post
+    raise e
+  File "/home/aman-amarjit/Desktop/crypto bot/src/threads_client.py", line 31, in publish_post
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/aman-amarjit/Desktop/crypto bot/venv/lib/python3.14/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYlpGTjRTak1POG5acEtxa1RTUnZAEVDloT3o4ZAUFXMFpqa0FXWk1fR1IyZAS02cExlWGxjUUNReW4zT2N0czM5MUdJNTVsV2owOWwxd05tYWdPc25ydVlTaW52X1BrWWVkZA0owR0FrcW8zc2dNQjJvNjdLVnpYaE5sbXdUd0tVd1Rnb3VlRXMZD
+============================================================
+Threads Auto-Poster Bot Execution Started: 2026-06-08T17:53:53.717040+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'data breaches security leaks'
+Requesting content generation for topic: 'data breaches security leaks'...
+Fetching latest news headlines from Google News for query: 'data breaches security leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMivgFBVV95cUxOa3VxOUNXOTZ2UXJUMHRleExDekIzSi1YMHFGOHM5WVBBLV8zRGJzT2JhVVhKWDFJRWpfemRtR1hxWmU2MmkyZnM5ZU44Z1VLMDZHODRlNS1LeUVVLWR5ZmlIM1VXNWUtSG9kWlB1RVRjTVl5clEwVmZmR241Z2VJT1dCUjg1VlFCcF9HN3ZnRjRvTFl6UFd3U2kwMHppREZ5bGNNdGJveGoyalpaak5mRXh5Y1ItQ2lGZ1o5OG9n0gHDAUFVX3lxTE1UQ0Rtc0xkelhDUGtzWGg0dnJ3akFtQ1A3MnFhUHFnS2pTNmhIUmQ0bUdwampoR0NWUk5ROEZGSTk2R2xNOXZ5a3dhV1p1Wlg1VGpJa2hJSkRUdUMwbDZPNEpIelloRC1Pa2NZaHFWWGEzZHM3MkpDN2h4VW9BbThXSWJNT1E0NkN1aXRfUE84aW15ZUphaDdmY2QyMUpnMU5wem9KYWlNci11VDlkVUZSR2Y4R2NTdy1XcXZyY1RkUEtFWQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirgFBVV95cUxOeVlpeHZPVHBNNHJUMGRDSUwwa3ZyYXd5WXFocUx2MThaQ3Etelh2Y25YMHVZNFJNT2hzWDM5cHFfS0dBYkkzcFh0S0RtVHhIalVHRHZFb3E3NDdJT19ZTXZuMTdXMExpb0FETnZuVnhlREZYSlZwdGs1Ulk2cUg3UkljZVFKM1llN1dvdmVmYmdaaERDQzlfNElSM1JyYVFCcGljYWFzOTVZR3hhbHfSAbMBQVVfeXFMUENDR1hBM3BkTTZOSy1iX0Y4TV8yNzVPQk0xem1DSGxGVW5YbTJfQndsdFhzY0ZEMG5ONGJmX1hRN2ZCQ2FyMXMwbks0dXp2S3phMFBtWWVxU01LdHpUTGoteFV2dmF0R1FkSjR0UDVPOVdxWjlDVG9aUGR2anlQbGlyYnhRUlFlQk1oZzdSblZaYVRudEwtS0ZRUEJYZFdwVWd0dkVnTGNZMGNnNElUX0NWbDg?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE1UMC1pVml4aWhwdnNrdVMyVVllVF96RkFKTjBEQTdXOVRMaVVCSEJOYk5OMkNjeXZsMTMxNDBLc1NsY0xtZHE2QzNkb01ZaTBUSEtqRVdYaEJ4a2ZZWGt1VmYzaU9qZkdjRE9lZ3Zrc0RNcDZJbEQzandxdDY?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxNeC1zM190ZGYyRVd5Wjc0dFlqcXdjeTFEZldIb0JNTGhNdTdVOURINV9LUVBTNmNCM0Q2SjJMaWlRMnZjaGFsQ3JWVW0tSkJfeVZVNTFxY0dSeUd1YW5iem9pUGJIVjhmY1hsbU45bjEtYWJEbktXNmVrWk5INmFZVw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipwFBVV95cUxNMTJvVVJoNGtuSWswNzNvWUZPc0kxaTNkU0Jyc3FEeXlfUXAwUkZ5YmtUSmtDUU43Smt2MmVxTVd1S3V5SjNwQkVsQTVuRVRzYzVQRGx0eWZuemRqY3dOck5tQ2lDd2J0TDFGMU03Z1RzV0JGdmVfbFhiSzQ1ZHhzMm8zSHh3cUkwLXoxUThXb0pNZ0hlRFgyZGdoLXBXeGFBNEt0cWRsNNIBrAFBVV95cUxNWVQybk9zNlkxdnpDNUt5dUxjV3VlSjdzdDhSdjhXNjA3WlhPS1c1MGRWRy1PWk9BY01HR0x1bGI5YTJMY2hjVG5LWFFTdWxVa00wTVFZYTVJc1hUZHM4VnlqM2lDUXRUdmJOTWtJUHV4QkU3NlBKWWNlejlYbE1OQk5MWjNPVnJEc3JGYkJZWU56ejVnd2VFVThHRmZNX2h3ZS1ENXFBR2VhQWhB?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - FABRICATED STATS: The caption mentions 'Over 20,000 accounts were not involved', which does not appear in the source headline. The source headline about Oxford University does not provide a specific number of accounts involved or not involved.
+  - CONFLATION: The caption mixes details from the Oxford University headline with the Meta AI support hack headline, incorrectly stating '20,000 Instagram accounts were not affected in this incident'. The 20,000 Instagram accounts were actually from a different incident.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Oxford University discloses data breach. The breach occurred after the university's careers platform was hacked, potentially exposing user data. The incident highlights the importance of securing online platforms, especially those handling sensitive user information. Over 20,000 Instagram accounts were stolen in a separate Meta AI support hack. Source: https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/
+  - Image Prompt: Abstract schematic of a wireframe topology diagram on a dark navy background with cyan and white lines, featuring three interconnected node clusters representing the careers platform, a central server block flanked by two breach-vector arrows, and red alert nodes indicating the data breach, with no text characters or legible labels
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20featuring%20three%20interconnected%20node%20clusters%20representing%20the%20careers%20platform%2C%20a%20central%20server%20block%20flanked%20by%20two%20breach-vector%20arrows%2C%20and%20red%20alert%20nodes%20indicating%20the%20data%20breach%2C%20with%20no%20text%20characters%20or%20legible%20labels?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'flux' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20featuring%20three%20interconnected%20node%20clusters%20representing%20the%20careers%20platform%2C%20a%20central%20server%20block%20flanked%20by%20two%20breach-vector%20arrows%2C%20and%20red%20alert%20nodes%20indicating%20the%20data%20breach%2C%20with%20no%20text%20characters%20or%20legible%20labels?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20featuring%20three%20interconnected%20node%20clusters%20representing%20the%20careers%20platform%2C%20a%20central%20server%20block%20flanked%20by%20two%20breach-vector%20arrows%2C%20and%20red%20alert%20nodes%20indicating%20the%20data%20breach%2C%20with%20no%20text%20characters%20or%20legible%20labels?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[Cloudflare] Successfully generated image via Workers AI SDXL!
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1780941277/threads_bot/k5erjn9izxyjcmm2xcpa.png
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18099258721933887
 Waiting 3 seconds before first status check...
 Checking container status (Attempt 1/10)...
 Container status: 'FINISHED'
-Publishing text post to Threads...
-Successfully published text post to Threads! Post ID: 17892305832476935
-Saving thought to history log...
-/home/aman-amarjit/Desktop/crypto bot/thought.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  "timestamp": datetime.utcnow().isoformat(),
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18087003548576506
+Saving execution metadata to history log...
 ============================================================
-Daily Thought Posted Successfully!
-Post ID: 17892305832476935
-/home/aman-amarjit/Desktop/crypto bot/thought.py:86: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  print(f"Timestamp: {datetime.utcnow().isoformat()} UTC")
-Timestamp: 2026-06-08T12:57:11.688592 UTC
+Execution Completed Successfully!
+Published Post ID: 18087003548576506
+Timestamp: 2026-06-08T17:54:51.648511+00:00 UTC
 ============================================================

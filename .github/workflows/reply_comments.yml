@@ -2,8 +2,8 @@ name: Threads Comments Auto-Reply
 
 on:
   schedule:
-    # Runs every 2 hours from 8:30 AM to 10:30 PM IST (03:00 UTC to 17:00 UTC)
-    - cron: '30 3,5,7,9,11,13,15,17 * * *'
+    # Runs every 2 hours from 8:42 AM to 10:42 PM IST (03:12 UTC to 17:12 UTC)
+    - cron: '42 3,5,7,9,11,13,15,17 * * *'
   workflow_dispatch: # Allows manual trigger of replies check
 
 jobs:

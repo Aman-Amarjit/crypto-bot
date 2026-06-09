@@ -2,7 +2,7 @@ name: Threads Token Auto-Refresh
 
 on:
   schedule:
-    - cron: '0 0 1 */2 *' # Runs at 00:00 UTC on day 1 of every 2nd month (~every 60 days)
+    - cron: '12 0 1 */2 *' # Runs at 00:12 UTC on day 1 of every 2nd month (~every 60 days)
   workflow_dispatch: # Allows manual trigger of the refresh
 
 jobs:

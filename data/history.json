@@ -30,5 +30,15 @@
     "image_prompt": "A futuristic illustration of a complex network of interconnected nodes, with a large, ominous node in the center representing a high-risk supplier, surrounded by smaller nodes with warning signs and locks, set against a dark, gritty backdrop with neon blue and red accents, symbolizing the tension between security and innovation",
     "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1780914296/threads_bot/mcafzw2ogl2iionqmofp.jpg",
     "post_id": "17866308360565783"
+  },
+  {
+    "timestamp": "2026-06-08T17:54:51.648163+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "Oxford University discloses data breach. The breach occurred after the university's careers platform was hacked, potentially exposing user data. The incident highlights the importance of securing online platforms, especially those handling sensitive user information. Over 20,000 Instagram accounts were stolen in a separate Meta AI support hack. Source: https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram on a dark navy background with cyan and white lines, featuring three interconnected node clusters representing the careers platform, a central server block flanked by two breach-vector arrows, and red alert nodes indicating the data breach, with no text characters or legible labels",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1780941277/threads_bot/k5erjn9izxyjcmm2xcpa.png",
+    "post_id": "18087003548576506",
+    "source_url": "",
+    "source_title": ""
   }
 ]
