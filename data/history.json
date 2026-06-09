@@ -74,5 +74,15 @@
     "post_id": "17936246337255701",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-09T13:47:16.149616+00:00",
+    "topic": "dark web leaks",
+    "caption": "Hackers have compromised 19 packages on the PyPI, delivering malware to steal developer secrets, as reported by BleepingComputer (https://www.bleepingcomputer.com/). This Shai-Hulud supply-chain attack highlights the vulnerability of open-source repositories. How are you validating the integrity of dependencies in your projects?",
+    "image_prompt": "Create an abstract schematic of a wireframe topology diagram with a dark navy background, featuring cyan and white lines, and red alert nodes representing compromised packages, with no text characters or legible labels, showcasing a system block diagram of a supply-chain attack on an open-source repository.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781012819/threads_bot/w3wwvhmbwv9lflz2bh4z.png",
+    "post_id": "18044079200584582",
+    "source_url": "",
+    "source_title": ""
   }
 ]
