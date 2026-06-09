@@ -32,12 +32,46 @@
     "post_id": "17866308360565783"
   },
   {
-    "timestamp": "2026-06-08T17:54:51.648163+00:00",
+    "timestamp": "2026-06-08T15:15:45.857822",
+    "topic": "AI model releases GPT Gemini Claude",
+    "caption": "Hot take: AI model releases like GPT, Gemini, & Claude are overhyped. Industry myth: 'latest model = best results'. Reality: proper tuning & optimization beat flashy new models. What's the biggest mistake devs make when integrating AI models?",
+    "image_prompt": "Split-image layout on a dark background, left half showing a chaotic system structure with red glow, representing poorly optimized code, and right half showing a clean, layered structure with green/blue glow, representing optimized system architecture, with abstract nodes and terminal-style console outputs",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1780931735/threads_bot/nuolicfi9kwwtepcv6kc.png",
+    "post_id": "17940422142232861"
+  },
+  {
+    "timestamp": "2026-06-08T15:17:52.226638",
+    "topic": "AI replacing jobs and roles",
+    "caption": "Hot take: AI is transforming jobs faster than companies redesign work. Stop assuming automation replaces roles, it reshapes tasks. What's the real impact on workforce structure? ",
+    "image_prompt": "Split-image layout on a dark background: left half shows a chaotic system structure with red, interconnected nodes and glowing lines, representing inefficient manual tasks; right half displays a clean, optimized structure with green and blue nodes, and smooth, syntax-colored code shapes, illustrating streamlined AI-augmented workflows",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1780931861/threads_bot/ypgibxxwhmvb1oier5vj.png",
+    "post_id": "18069181772374700"
+  },
+  {
+    "timestamp": "2026-06-08T15:50:23.503162",
     "topic": "data breaches security leaks",
-    "caption": "Oxford University discloses data breach. The breach occurred after the university's careers platform was hacked, potentially exposing user data. The incident highlights the importance of securing online platforms, especially those handling sensitive user information. Over 20,000 Instagram accounts were stolen in a separate Meta AI support hack. Source: https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/",
-    "image_prompt": "Abstract schematic of a wireframe topology diagram on a dark navy background with cyan and white lines, featuring three interconnected node clusters representing the careers platform, a central server block flanked by two breach-vector arrows, and red alert nodes indicating the data breach, with no text characters or legible labels",
-    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1780941277/threads_bot/k5erjn9izxyjcmm2xcpa.png",
-    "post_id": "18087003548576506",
+    "caption": "Oxford University hacked. A careers platform vulnerability led to a data breach, with 20,000+ records potentially exposed. Over 20,000 Instagram accounts were also stolen in a separate Meta AI support hack.",
+    "image_prompt": "A high-contrast terminal window on a black background displaying a C++ code block with syntax highlighting, showcasing a memory safety check function to prevent data breaches, with green phosphor-like text on a retro-style CRT monitor screen.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1780933814/threads_bot/g4kndburtykpklkdwta3.png",
+    "post_id": "18591662254012890"
+  },
+  {
+    "timestamp": "2026-06-09T04:58:14.420414+00:00",
+    "topic": "government cyber regulations",
+    "caption": "Iranian hackers continue attacks. They target various systems, showing no signs of slowing down. Iranian hackers have not ceased their operations, with no specific CVE identifier mentioned, Source: https://www.darkreading.com/cyberattacks-data-breaches/iran-signed-ceasefire-hackers",
+    "image_prompt": "abstract schematic of a wireframe topology diagram on a dark navy background with cyan and white lines, featuring three interconnected node clusters with red alert nodes, representing the Iranian hacking incident with central server block flanked by two breach-vector arrows and no legible labels",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1780981080/threads_bot/paftq8txgsa2eygsjodu.png",
+    "post_id": "18102764786517613",
+    "source_url": "",
+    "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-09T12:15:36.963356+00:00",
+    "topic": "hacking incidents",
+    "caption": "Hackers hijacked Instagram accounts. Meta's AI chatbot was exploited, allowing attackers to access over 20,000 accounts. The incident highlights the risks of AI-powered support systems, 20,000 accounts compromised. Source: https://www.theverge.com/tech/945658/meta-ai-support-chatbot-exploit-instagram-accounts",
+    "image_prompt": "Abstract technical schematic with dark navy background, cyan and white lines, and red alert nodes, depicting three interconnected node clusters representing the hijacked Instagram accounts, with two breach-vector arrows pointing towards a central server block, and no legible labels or text characters, in a wireframe topology style with system block diagram elements",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781007326/threads_bot/fhwahd6kdxkrvrjz6ci2.png",
+    "post_id": "17936246337255701",
     "source_url": "",
     "source_title": ""
   }
