@@ -30,8 +30,6 @@ jobs:
         with:
           path: |
             data/bot.db
-            data/history.json
-            data/thought_history.json
           key: bot-data-${{ github.run_id }}
           restore-keys: |
             bot-data-
@@ -69,6 +67,4 @@ jobs:
         with:
           path: |
             data/bot.db
-            data/history.json
-            data/thought_history.json
           key: bot-data-${{ github.run_id }}
