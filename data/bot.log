@@ -379,3 +379,11 @@ Execution Completed Successfully!
 Published Post ID: 18044079200584582
 Timestamp: 2026-06-09T13:47:16.149973+00:00 UTC
 ============================================================
+============================================================
+Threads Auto-Poster Bot Execution Started: 2026-06-09T13:51:13.736220+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+⚠️  A post was published 95 min ago (from data/history.json). Use --force to override.
+🛑 Skipping run to avoid spammy posting. Use --force to override.
+============================================================
