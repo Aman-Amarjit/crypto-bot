@@ -9,6 +9,8 @@ on:
 jobs:
   reply:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -57,7 +59,6 @@ jobs:
           git add data/bot.db data/history.json data/thought_history.json data/bot.log || true
           if ! git diff --cached --quiet; then
             git commit -m "chore: auto-update bot data and history [skip ci]"
-            git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/Aman-Amarjit/crypto-bot.git
             git pull origin main --rebase -X theirs
             git push origin main
           else
