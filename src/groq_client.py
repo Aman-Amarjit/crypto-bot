@@ -57,49 +57,37 @@ class GroqClient:
         }
 
         system_prompt = (
-            "You are a rigorous, highly specialised cybersecurity news analyst. "
-            "Generate a factually precise social media post based on the provided topic. "
+            "You are a rigorous, highly specialized cybersecurity news analyst. "
+            "Write a factually precise, professional, and analytical social media post based on the provided article content. "
+            "Your writing must feel authentic and human — completely avoid choppy, repetitive sentence structures, "
+            "AI clichés, filler words, or scraper-like logging statements (e.g., do NOT write 'no CVE mentioned' or "
+            "'they show no signs of slowing down'). If a specific detail is missing from the article, simply omit it.\n\n"
             "You must return a raw JSON object with exactly two keys:\n"
-            '1. "caption": A clean, informative caption under 450 characters that strictly '
-            "follows a 4-part layout:\n"
-            "- Part 1 (News hook, exactly 1 line, under 80 characters): Open directly with "
-            "an active-voice factual statement about the specific incident, breach, or "
-            "vulnerability. Do NOT use clickbait starters like 'Nobody's talking about', "
-            "'Hot take:', 'The real implication', or 'Here is why'. No meta-framing.\n"
-            "- Part 2 (What it means, 2–3 lines): A clear, technical explanation of the "
-            "implications in your own words. Be precise about attribution — if a third-party "
-            "vendor was breached, name the vendor, not just the affected organisation.\n"
-            "- Part 3 (Concrete proof, exactly 1 line): One concrete number, metric, "
-            "statistic, or CVE identifier directly sourced from the headline (e.g. "
-            "CVE-2026-1234, patch version, breach size, specific bytes/percentage). "
-            "Do NOT fabricate statistics, dates, or percentages not present in the source "
-            "headline.\n"
-            "- Part 4 (Engaging Question, exactly 1 line): Close the post with an engaging, "
-            "thought-provoking question directed at the audience regarding the global security "
-            "situation, the news itself, or its broader technical implications.\n"
-            "Enforce strictly:\n"
-            "- The caption MUST end with the engaging question (ending with a question mark) "
-            "just before the 'Source:' line. Do NOT omit this closing question.\n"
-            "- Do not use 'Hot take', 'Myth:', or 'Reality:' labels in the caption body.\n"
-            "- Limit to at most 1 relevant hashtag (e.g. #Cybersecurity, #Infosec) "
-            "or omit entirely.\n"
-            "- Append 'Source: <url>' as the very last element, using the link from the "
-            "selected headline. This must always be present.\n"
+            '1. "caption": A cohesive, flowing paragraph under 420 characters that strictly follows these guidelines:\n'
+            "- FLOWING SENTENCE STRUCTURE: Write 2–3 natural, flowing sentences. Avoid both single-sentence run-ons and short, choppy, repetitive subject-verb structures.\n"
+            "- LEAD WITH THE INTERESTING ANGLE: Open with the most surprising, counterintuitive, or critical aspect "
+            "of the story, rather than just rewriting the headline.\n"
+            "- DEEP TECHNICAL DETAIL: Prioritize one highly specific technical detail (e.g., exact compromised component, "
+            "exploit mechanism, or protocol weakness) over vague summaries.\n"
+            "- NATURAL LINK INTEGRATION: Naturally cite the news outlet name in your text and embed the source URL "
+            "directly (e.g., '...as documented by BleepingComputer (https://url.com)...' or 'According to Wired (https://url.com), ...'). "
+            "Do NOT use a separate 'Source:' line or drop a raw link at the end.\n"
+            "- NO DUPLICATION: Verify your text and ensure that no numbers, statistics, or details are repeated twice.\n"
+            "- CLOSING QUESTION: Conclude the post with an engaging, thought-provoking technical question directed at the audience. "
+            "The final character of the caption must be a question mark (?).\n\n"
+            "EXAMPLE OF HIGH-QUALITY HUMAN WRITING STYLE:\n"
+            "\"Citrix NetScaler gateways are facing active exploitation via a session hijacking bypass. Attackers are abusing CVE-2026-1234 by sending malformed HTTP requests to expose internal cookie headers. As reported by Ars Technica (https://arstechnica.com/url), how is your team monitoring NetScaler ingress logs for header anomalies?\"\n\n"
             '2. "image_prompt": A descriptive prompt for a text-to-image generator '
             "(Pollinations.ai / Flux) that visually represents the theme of the post.\n"
             "Follow these styling rules strictly:\n"
             "- Frame the image as an **abstract technical schematic or network topology "
-            "diagram** — boxes, nodes, arrows, and flow lines representing the incident "
-            "(e.g. attacker→server flows, breach vectors, network segments).\n"
+            "diagram** — boxes, nodes, arrows, and flow lines representing the incident.\n"
             "- Use keywords: 'abstract schematic', 'wireframe topology', 'system block "
             "diagram', 'no text characters', 'no legible labels', 'dark navy background', "
             "'cyan and white lines', 'red alert nodes'. Do NOT say 'diagram with labels'.\n"
             "- Explicitly forbid: glowing shields, purple hacker rooms, sci-fi corridors, "
             "binary rain, padlocks, generic stock-image cybersecurity visuals.\n"
             "- Do NOT include any legible text, words, or brand logos in the prompt.\n"
-            "- Accept that diagram rendering will be approximate; describe the layout "
-            "spatially (e.g. 'three interconnected node clusters', 'central server block "
-            "flanked by two breach-vector arrows') rather than labelled elements.\n"
             "Do not include any text before or after the JSON."
         )
 
@@ -107,25 +95,35 @@ class GroqClient:
         raw_headlines = NewsFetcher.fetch_latest_headlines(topic)
         headlines = NewsFetcher.filter_seen_headlines(raw_headlines)
 
+        article_text = ""
+        selected_headline = None
         if headlines:
-            headlines_str = "\n".join(
-                [f"- {h['title']} (source: {h['link']})" for h in headlines]
-            )
-            user_prompt = (
-                f"Today's Niche: Cybersecurity News.\n"
-                f"Today's Topic: {topic}.\n"
-                f"Current Date: {datetime.now(timezone.utc).strftime('%B %-d, %Y')}.\n\n"
-                f"Here are the latest headline news items from verified tech sources:\n"
-                f"{headlines_str}\n\n"
-                f"Select the single most interesting and technically relevant headline. "
-                f"Do NOT mix details from multiple headlines. Write an informative, "
-                f"factually precise post strictly in the requested 4-part caption format. "
-                f"Use concrete numbers or CVE details directly from that one headline. "
-                f"Attribute the breach or incident to the correct party — if a vendor or "
-                f"intermediary was breached rather than the named organisation directly, "
-                f"reflect that distinction. "
-                f"Append 'Source: <url>' using the link from the selected headline."
-            )
+            selected_headline = headlines[0]
+            article_text = NewsFetcher.fetch_article_content(selected_headline["link"])
+
+        if selected_headline:
+            if article_text:
+                user_prompt = (
+                    f"Today's Niche: Cybersecurity News.\n"
+                    f"Today's Topic: {topic}.\n"
+                    f"Current Date: {datetime.now(timezone.utc).strftime('%B %-d, %Y')}.\n\n"
+                    f"ARTICLE SOURCE URL: {selected_headline['link']}\n"
+                    f"ARTICLE HEADLINE: {selected_headline['title']}\n"
+                    f"ARTICLE CONTENT:\n\"\"\"\n{article_text}\n\"\"\"\n\n"
+                    f"Read and understand the article content above. Extract the key technical details, "
+                    f"identify the most interesting angle, and write a high-quality, professional, and natural post following the system instructions. "
+                    f"You MUST embed the source URL ({selected_headline['link']}) naturally into the text when citing the source. Do not use a separate Source: line."
+                )
+            else:
+                user_prompt = (
+                    f"Today's Niche: Cybersecurity News.\n"
+                    f"Today's Topic: {topic}.\n"
+                    f"Current Date: {datetime.now(timezone.utc).strftime('%B %-d, %Y')}.\n\n"
+                    f"ARTICLE HEADLINE: {selected_headline['title']}\n"
+                    f"ARTICLE URL: {selected_headline['link']}\n\n"
+                    f"No full article body was retrieved, so write based on the headline above. "
+                    f"Write a high-quality, professional, and natural post following the system instructions and embedding the URL naturally."
+                )
         else:
             user_prompt = (
                 f"Today's Niche: Cybersecurity News.\n"
@@ -134,9 +132,7 @@ class GroqClient:
                 f"No live headlines were found for today. Generate an informative post "
                 f"detailing a critical technical concept, historical cybersecurity breach, "
                 f"or known vulnerability (e.g. Log4Shell, Heartbleed) associated with "
-                f"{topic}. Ensure the post strictly follows the 4-part caption format with "
-                f"concrete numbers, statistics, or CVE details. Omit the Source line when "
-                f"no URL is available."
+                f"{topic}. Ensure the post strictly follows the guidelines and ends with an engaging question."
             )
 
         # Track any fact-check issues from the previous attempt so they can
@@ -209,21 +205,21 @@ class GroqClient:
                     fact_check_feedback = ""  # reset; this is a format issue not a fact issue
                     continue
                 else:
-                    lines = [l.strip() for l in caption.strip().splitlines() if l.strip()]
-                    if lines and lines[-1].lower().startswith("source:"):
-                        lines.insert(-1, "How is your team securing against this type of threat?")
+                    caption = caption.strip()
+                    if caption.endswith("."):
+                        caption += " How is your team securing against this type of threat?"
                     else:
-                        lines.append("How is your team securing against this type of threat?")
-                    parsed["caption"] = "\n".join(lines)
-                    caption = parsed["caption"]
+                        caption += ". How is your team securing against this type of threat?"
+                    parsed["caption"] = caption
                     print(
                         "  [Guardrail] Max retries reached. "
                         "Appended default closing question."
                     )
 
-            # --- Guardrail 2: fact-check against source headlines ---
+            # --- Guardrail 2: fact-check against selected source headline ---
             print(f"  [FactChecker] Running fact-check on attempt {attempt}...")
-            fc_result = self.fact_checker.check(caption, headlines)
+            fc_headlines = [selected_headline] if selected_headline else []
+            fc_result = self.fact_checker.check(caption, fc_headlines, article_text)
 
             if fc_result["passed"]:
                 print("  [FactChecker] ✅ Passed.")

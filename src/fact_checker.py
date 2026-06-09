@@ -26,7 +26,7 @@ class FactChecker:
         self.api_url = "https://api.groq.com/openai/v1/chat/completions"
         self.model = "llama-3.3-70b-versatile"
 
-    def check(self, caption: str, headlines: list) -> dict:
+    def check(self, caption: str, headlines: list, article_text: str = "") -> dict:
         """
         Args:
             caption:   The generated post caption to verify.
@@ -34,6 +34,7 @@ class FactChecker:
                        passed to the LLM when generating the caption.
                        May be empty if the LLM was working from general
                        knowledge (fallback mode).
+            article_text: Optional full scraped text of the source article.
 
         Returns:
             {"passed": True, "issues": []}
@@ -42,17 +43,16 @@ class FactChecker:
         if not config.groq_api_key:
             raise ValueError("Groq API Key is not set in configuration")
 
-        # If there were no source headlines, we can only do a shallow check
-        # (no external ground truth to compare against)
-        if not headlines:
+        # If there were no source headlines and no article text, we can only do a shallow check
+        if not headlines and not article_text:
             return self._check_internal_consistency(caption)
 
-        return self._check_against_sources(caption, headlines)
+        return self._check_against_sources(caption, headlines, article_text)
 
     # ------------------------------------------------------------------ #
-    #  Full check: caption vs source headlines                            #
+    #  Full check: caption vs source headlines / article content          #
     # ------------------------------------------------------------------ #
-    def _check_against_sources(self, caption: str, headlines: list) -> dict:
+    def _check_against_sources(self, caption: str, headlines: list, article_text: str = "") -> dict:
         headlines_block = "\n".join(
             [f"- {h['title']} (url: {h['link']})" for h in headlines]
         )
@@ -60,7 +60,7 @@ class FactChecker:
         system_prompt = (
             "You are a rigorous fact-checking editor for a cybersecurity news account. "
             "Your job is to verify that a social media caption is factually consistent "
-            "with its source headline(s). You must return a raw JSON object with exactly "
+            "with its source article content or headlines. You must return a raw JSON object with exactly "
             "two keys:\n"
             '1. "passed": true if the caption is factually accurate, false if any issue '
             "is found.\n"
@@ -68,31 +68,31 @@ class FactChecker:
             "problem found in the caption. Empty array when passed=true.\n\n"
             "Check for ALL of the following:\n"
             "- ATTRIBUTION: Does the caption correctly name who was breached or attacked? "
-            "Flag if the caption blames Organisation A when the headline says a "
-            "third-party vendor (Organisation B) was the actual point of compromise.\n"
+            "Flag if the caption blames Organisation A when the source says a "
+            "third-party vendor (Organisation B) was the compromise point.\n"
             "- FABRICATED STATS: Does the caption contain any number, percentage, date, "
-            "record count, or dollar figure that does NOT appear in any of the source "
-            "headlines? Flag every instance.\n"
+            "record count, or dollar figure that does NOT appear in the source article content or headlines? "
+            "Flag every instance that is not supported by the provided text.\n"
             "- CVE / VERSION NUMBERS: Are any CVE IDs or software version numbers in the "
-            "caption actually present in the source headlines? Flag any that appear "
+            "caption actually present in the source article content or headlines? Flag any that appear "
             "invented.\n"
-            "- CONFLATION: Does the caption appear to mix details from more than one "
-            "headline (e.g., a record count from one story applied to a different "
-            "organisation)? Flag if so.\n"
-            "- SCOPE CREEP: Does the caption make claims far broader than what the "
-            "headline supports (e.g., 'all EU businesses' when the headline says 'some "
-            "companies')? Flag if so.\n\n"
+            "- CONFLATION: Does the caption appear to mix details from different stories? "
+            "Flag if so.\n"
+            "- SCOPE CREEP: Does the caption make claims far broader than what the source supports.\n\n"
             "Do NOT flag:\n"
-            "- Technical background context that is general knowledge (e.g., explaining "
-            "what a buffer overflow is).\n"
-            "- Minor paraphrasing of the headline that preserves factual accuracy.\n"
-            "- The absence of a Source URL line (that is a formatting check, not a "
-            "factual one).\n\n"
+            "- Technical background context that is general knowledge.\n"
+            "- Minor paraphrasing that preserves factual accuracy.\n"
+            "- Natural embedding of URLs or links in the text.\n\n"
             "Return ONLY the raw JSON object. No explanation outside the JSON."
         )
 
         user_prompt = (
             f"SOURCE HEADLINES:\n{headlines_block}\n\n"
+        )
+        if article_text:
+            user_prompt += f"SOURCE ARTICLE CONTENT:\n\"\"\"\n{article_text}\n\"\"\"\n\n"
+            
+        user_prompt += (
             f"GENERATED CAPTION TO VERIFY:\n{caption}\n\n"
             f"Return your verdict as a JSON object with 'passed' and 'issues' keys."
         )

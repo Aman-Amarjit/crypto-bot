@@ -3,6 +3,7 @@ import os
 import requests
 import xml.etree.ElementTree as ET
 import urllib.parse
+from bs4 import BeautifulSoup
 
 
 class NewsFetcher:
@@ -112,3 +113,56 @@ class NewsFetcher:
 
         print(f"  [Dedup] {len(headlines) - len(filtered)} headline(s) filtered out as already published.")
         return filtered
+
+    @staticmethod
+    def fetch_article_content(url: str) -> str:
+        """
+        Fetches the HTML from the given publisher URL and extracts the main text content.
+        Only keeps paragraphs that are likely to contain the actual article content.
+        Returns the first 4000 characters of clean text.
+        """
+        headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/120.0.0.0 Safari/537.36"
+            )
+        }
+        print(f"Fetching article content from URL: {url}")
+        try:
+            response = requests.get(url, headers=headers, timeout=15)
+            response.raise_for_status()
+            
+            soup = BeautifulSoup(response.content, 'html.parser')
+            
+            # Decompose script, style, nav, header, footer, aside, ads elements
+            for element in soup(["script", "style", "nav", "header", "footer", "aside"]):
+                element.decompose()
+                
+            # Extract paragraphs
+            paragraphs = []
+            for p in soup.find_all('p'):
+                text = p.get_text().strip()
+                # Exclude empty paragraphs, ads, sharing links, or newsletter subscription prompts
+                if len(text) > 40 and not any(phrase in text.lower() for phrase in [
+                    "sign up", "newsletter", "subscribe", "cookies", "privacy policy", 
+                    "all rights reserved", "advertisement", "share on", "follow us"
+                ]):
+                    paragraphs.append(text)
+                    
+            content = "\n\n".join(paragraphs)
+            if not content.strip():
+                # Fallback to body text if paragraphs were filtered out
+                body = soup.find('body')
+                content = body.get_text() if body else soup.get_text()
+                
+            # Clean up excessive whitespace/newlines
+            lines = [l.strip() for l in content.splitlines() if l.strip()]
+            clean_text = " ".join(lines)
+            
+            # Limit to 4000 characters to keep context size reasonable and fast
+            return clean_text[:4000]
+            
+        except Exception as e:
+            print(f"Warning: Failed to fetch article content for {url}. Details: {e}")
+            return ""
