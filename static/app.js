@@ -34,6 +34,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const btnTriggerThought = document.getElementById("btn-trigger-thought");
     const thoughtsTimeline = document.getElementById("thoughts-timeline");
     const btnSyncGithub = document.getElementById("btn-sync-github");
+
+    // Questions Control Elements
+    const btnTriggerQuestion = document.getElementById("btn-trigger-question");
+    const questionsTimeline = document.getElementById("questions-timeline");
     
     let isPollingLogs = false;
     let logPollInterval = null;
@@ -42,6 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let isPosterRunning = false;
     let isRepliesRunning = false;
     let isThoughtsRunning = false;
+    let isQuestionsRunning = false;
 
     // 1. Navigation Logic
     navItems.forEach(item => {
@@ -67,6 +72,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 sectionTitle.textContent = "Daily Thoughts Log";
                 sectionSubtitle.textContent = "View text-only thoughts and developer reflections posted to Threads";
                 loadThoughtsHistory();
+            } else if (sectionId === "questions") {
+                sectionTitle.textContent = "Daily Questions Log";
+                sectionSubtitle.textContent = "Browse and view history of all cybersecurity and developer questions";
+                loadQuestionsHistory();
             } else if (sectionId === "comments") {
                 sectionTitle.textContent = "Comment Auto-Replies";
                 sectionSubtitle.textContent = "Manage replies, view interaction timelines, and audit logs";
@@ -334,6 +343,58 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    // 4c. Load Daily Questions History
+    async function loadQuestionsHistory() {
+        try {
+            const resp = await fetch("/api/questions/history");
+            const data = await resp.json();
+            
+            if (data.error) {
+                showToast(`Failed to load questions: ${data.error}`, "error");
+                return;
+            }
+            
+            if (data.length > 0) {
+                questionsTimeline.innerHTML = "";
+                data.slice().reverse().forEach(q => {
+                    const row = document.createElement("div");
+                    row.className = "timeline-item success";
+                    
+                    const stamp = new Date(q.timestamp).toLocaleString();
+                    
+                    row.innerHTML = `
+                        <div class="timeline-badge"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header-info">
+                                <span class="timeline-user"><i class="fa-solid fa-circle-question"></i> Question of the Day</span>
+                                <span class="timeline-time"><i class="fa-regular fa-clock"></i> ${stamp}</span>
+                            </div>
+                            <p class="timeline-comment" style="font-size: 1.05rem; line-height: 1.5; color: var(--text-primary);">
+                                "${q.question}"
+                            </p>
+                            <div class="timeline-footer">
+                                <span class="post-context-id">Post ID: ${q.post_id || 'unknown'}</span>
+                                <a href="https://www.threads.net/post/${q.post_id}" target="_blank" class="timeline-link">
+                                    <i class="fa-brands fa-threads"></i> View on Threads
+                                </a>
+                            </div>
+                        </div>
+                    `;
+                    questionsTimeline.appendChild(row);
+                });
+            } else {
+                questionsTimeline.innerHTML = `
+                    <div class="no-history">
+                        <i class="fa-solid fa-comment-slash"></i>
+                        <p>No daily questions posted yet.</p>
+                    </div>
+                `;
+            }
+        } catch (e) {
+            console.error("Error loading questions history:", e);
+        }
+    }
+
     // 5. Load Config Settings
     async function loadConfig() {
         try {
@@ -462,8 +523,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             } else {
                 setPosterUIStateIdle();
-                // If both are idle, clear polling
-                if (!isRepliesRunning && isPollingLogs) {
+                // If all are idle, clear polling
+                if (!isRepliesRunning && !isThoughtsRunning && !isQuestionsRunning && isPollingLogs) {
                     isPollingLogs = false;
                     clearInterval(logPollInterval);
                     pollLogs(); 
@@ -489,7 +550,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             } else {
                 setRepliesUIStateIdle();
-                if (!isPosterRunning && !isThoughtsRunning && isPollingLogs) {
+                if (!isPosterRunning && !isThoughtsRunning && !isQuestionsRunning && isPollingLogs) {
                     isPollingLogs = false;
                     clearInterval(logPollInterval);
                     pollLogs(); 
@@ -515,7 +576,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             } else {
                 setThoughtsUIStateIdle();
-                if (!isPosterRunning && !isRepliesRunning && isPollingLogs) {
+                if (!isPosterRunning && !isRepliesRunning && !isQuestionsRunning && isPollingLogs) {
                     isPollingLogs = false;
                     clearInterval(logPollInterval);
                     pollLogs(); 
@@ -527,11 +588,38 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Error checking thoughts status:", e);
         }
 
-        // D. Update Sidebar Status Badge
+        // D. Check Question Runner Status
+        try {
+            const resp = await fetch("/api/questions/status");
+            const data = await resp.json();
+            isQuestionsRunning = data.running;
+            
+            if (isQuestionsRunning) {
+                setQuestionsUIStateRunning();
+                if (!isPollingLogs) {
+                    isPollingLogs = true;
+                    logPollInterval = setInterval(pollLogs, 1000);
+                }
+            } else {
+                setQuestionsUIStateIdle();
+                if (!isPosterRunning && !isRepliesRunning && !isThoughtsRunning && isPollingLogs) {
+                    isPollingLogs = false;
+                    clearInterval(logPollInterval);
+                    pollLogs(); 
+                    loadQuestionsHistory(); 
+                    showToast("Daily question execution completed", "info");
+                }
+            }
+        } catch (e) {
+            console.error("Error checking questions status:", e);
+        }
+
+        // E. Update Sidebar Status Badge
         const activeRunners = [];
         if (isPosterRunning) activeRunners.push("Poster");
         if (isRepliesRunning) activeRunners.push("Replies");
         if (isThoughtsRunning) activeRunners.push("Thoughts");
+        if (isQuestionsRunning) activeRunners.push("Questions");
 
         if (activeRunners.length > 0) {
             sidebarStatus.textContent = `Running ${activeRunners.join(" & ")}`;
@@ -574,6 +662,16 @@ document.addEventListener("DOMContentLoaded", () => {
     function setThoughtsUIStateIdle() {
         btnTriggerThought.disabled = false;
         btnTriggerThought.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Post Today\'s Thought Now';
+    }
+
+    function setQuestionsUIStateRunning() {
+        btnTriggerQuestion.disabled = true;
+        btnTriggerQuestion.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Question In Progress...';
+    }
+
+    function setQuestionsUIStateIdle() {
+        btnTriggerQuestion.disabled = false;
+        btnTriggerQuestion.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Post Today\'s Question Now';
     }
 
     // 8. Action Event Listeners
@@ -665,6 +763,33 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    btnTriggerQuestion.addEventListener("click", async () => {
+        terminalBody.innerHTML = "";
+        lastLogContent = "";
+        appendTerminalLine("[System] Dispatching question trigger to thread...", "info");
+        
+        try {
+            const resp = await fetch("/api/questions/run", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" }
+            });
+            const data = await resp.json();
+            
+            if (resp.ok) {
+                showToast("Daily question post started successfully", "success");
+                setQuestionsUIStateRunning();
+                isPollingLogs = true;
+                logPollInterval = setInterval(pollLogs, 1000);
+            } else {
+                showToast(`Question trigger failed: ${data.error}`, "error");
+                appendTerminalLine(`[Error] ${data.error}`, "error");
+            }
+        } catch (e) {
+            showToast("Network error triggering question execution", "error");
+            appendTerminalLine("[Error] Network request failed.", "error");
+        }
+    });
+
     btnSyncGithub.addEventListener("click", async () => {
         btnSyncGithub.disabled = true;
         btnSyncGithub.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Syncing...';
@@ -680,6 +805,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 loadHistory();
                 loadRepliesHistory();
                 loadThoughtsHistory();
+                loadQuestionsHistory();
             } else {
                 showToast(`Sync failed: ${data.error}`, "error");
             }
@@ -695,6 +821,7 @@ document.addEventListener("DOMContentLoaded", () => {
     loadHistory();
     loadRepliesHistory();
     loadThoughtsHistory();
+    loadQuestionsHistory();
     loadConfig();
     
     // Status polling loop (runs every 3 seconds to update states)

@@ -1,12 +1,12 @@
-name: Threads Daily Auto-Poster
+name: Threads Daily Question
 
 on:
   schedule:
-    - cron: '12 3,9,15 * * *' # Three times daily at 8:42 AM, 2:42 PM, 8:42 PM IST
-  workflow_dispatch: # Allows manual trigger of the workflow
+    - cron: '12 12 * * *'  # Daily at 12:12 PM UTC (5:42 PM IST)
+  workflow_dispatch:       # Allows manual trigger
 
 jobs:
-  post:
+  post_question:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -34,20 +34,12 @@ jobs:
           restore-keys: |
             bot-data-
 
-      - name: Run posting script
+      - name: Post daily question
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
-          POST_TOPIC: ${{ secrets.POST_TOPIC }}
-          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
-          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
-          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
-          POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
-          HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: python main.py
+        run: python question.py
 
       - name: Commit and Push Updated Data Files
         if: always()

@@ -30,6 +30,9 @@
                 <a href="#thoughts" class="nav-item" data-section="thoughts">
                     <i class="fa-solid fa-brain"></i> Daily Thoughts
                 </a>
+                <a href="#questions" class="nav-item" data-section="questions">
+                    <i class="fa-solid fa-circle-question"></i> Daily Questions
+                </a>
                 <a href="#comments" class="nav-item" data-section="comments">
                     <i class="fa-solid fa-comments"></i> Comment Replies
                 </a>
@@ -264,6 +267,36 @@
                                 <div class="no-history">
                                     <i class="fa-solid fa-comment-slash"></i>
                                     <p>No daily thoughts posted yet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section: Daily Questions -->
+                <section id="sec-questions" class="content-section">
+                    <div class="history-header">
+                        <h3><i class="fa-solid fa-circle-question"></i> Daily Questions Log</h3>
+                        <p>Standard text posts posing engaging cybersecurity and developer questions to the Threads community.</p>
+                    </div>
+
+                    <div class="split-layout">
+                        <!-- Left Panel: Trigger Question -->
+                        <div class="control-panel">
+                            <h3><i class="fa-solid fa-circle-question"></i> Manual Question Trigger</h3>
+                            <p class="description">Generate and post a new 'Question of the Day' text post to Threads immediately.</p>
+                            <button id="btn-trigger-question" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Post Today's Question Now
+                            </button>
+                        </div>
+
+                        <!-- Right Panel: Questions Feed -->
+                        <div class="comments-log-panel">
+                            <h3><i class="fa-solid fa-comments"></i> Question Publication Feed</h3>
+                            <div id="questions-timeline" class="comments-timeline">
+                                <div class="no-history">
+                                    <i class="fa-solid fa-comment-slash"></i>
+                                    <p>No daily questions posted yet.</p>
                                 </div>
                             </div>
                         </div>

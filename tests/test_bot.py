@@ -659,5 +659,52 @@ class TestFactChecker(unittest.TestCase):
 
 
 
+# ---------------------------------------------------------------------------
+# QuestionGenerator & Question Timing Guardrails
+# ---------------------------------------------------------------------------
+
+class TestQuestionGenerator(unittest.TestCase):
+    @patch("src.question_generator.requests.post")
+    def test_generate_question_success(self, mock_post):
+        from src.question_generator import QuestionGenerator
+        
+        mock_response = MagicMock()
+        mock_response.status_code = 200
+        mock_response.json.return_value = {
+            "choices": [{
+                "message": {
+                    "content": "How do you handle dependency validation?"
+                }
+            }]
+        }
+        mock_post.return_value = mock_response
+
+        config.groq_api_key = "test_key"
+        generator = QuestionGenerator()
+        question = generator.generate_question()
+        self.assertEqual(question, "How do you handle dependency validation?")
+
+class TestQuestionTiming(unittest.TestCase):
+    def test_check_recent_question_returns_true_when_within_window(self):
+        from question import check_recent_question
+        
+        recent_ts = (datetime.now(timezone.utc) - timedelta(minutes=30)).isoformat()
+        entries = [{"timestamp": recent_ts, "question": "Test", "post_id": "abc"}]
+
+        with patch("question._load_history", return_value=entries):
+            result = check_recent_question(window_hours=4)
+        self.assertTrue(result)
+
+    def test_check_recent_question_returns_false_when_outside_window(self):
+        from question import check_recent_question
+        
+        old_ts = (datetime.now(timezone.utc) - timedelta(hours=5)).isoformat()
+        entries = [{"timestamp": old_ts, "question": "Test", "post_id": "abc"}]
+
+        with patch("question._load_history", return_value=entries):
+            result = check_recent_question(window_hours=4)
+        self.assertFalse(result)
+
+
 if __name__ == "__main__":
     unittest.main()

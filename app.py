@@ -22,6 +22,11 @@ thought_process = None
 thought_thread = None
 thought_lock = threading.Lock()
 
+# Global state to track the daily question process
+question_process = None
+question_thread = None
+question_lock = threading.Lock()
+
 def load_env_vars():
     env_file = ".env"
     vars_list = [
@@ -183,6 +188,50 @@ def run_thought_subprocess():
     finally:
         with thought_lock:
             thought_process = None
+
+def run_question_subprocess():
+    global question_process
+    cmd = ["venv/bin/python", "question.py", "--force"]
+        
+    try:
+        log_file = "data/question_bot.log"
+        # We also write summary logs to data/bot.log so it shows on the main dashboard logs
+        main_log_file = "data/bot.log"
+        os.makedirs(os.path.dirname(log_file), exist_ok=True)
+        
+        start_msg = f"\n=== Daily Question Run Triggered Manually at {time_str()} ===\n"
+        with open(log_file, "w") as f:
+            f.write(start_msg)
+        with open(main_log_file, "a") as f:
+            f.write(start_msg)
+            
+        proc = subprocess.Popen(
+            cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True
+        )
+        
+        with question_lock:
+            question_process = proc
+            
+        # Write output to both logs
+        for line in proc.stdout:
+            with open(log_file, "a") as f:
+                f.write(line)
+                f.flush()
+            with open(main_log_file, "a") as f:
+                f.write(line)
+                f.flush()
+                
+        proc.wait()
+    except Exception as e:
+        err_msg = f"\n[Dashboard Error] Daily question execution failed: {e}\n"
+        with open("data/bot.log", "a") as f:
+            f.write(err_msg)
+    finally:
+        with question_lock:
+            question_process = None
 
 def time_str():
     from datetime import datetime
@@ -355,12 +404,49 @@ def get_thoughts_history():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+# --- Daily Questions API Endpoints ---
+
+@app.route('/api/questions/status', methods=['GET'])
+def get_questions_status():
+    with question_lock:
+        is_running = question_process is not None
+        pid = question_process.pid if is_running else None
+    return jsonify({
+        "running": is_running,
+        "pid": pid
+    })
+
+@app.route('/api/questions/run', methods=['POST'])
+def run_question():
+    global question_thread
+    with question_lock:
+        if question_process is not None:
+            return jsonify({"error": "A daily question execution is already in progress"}), 409
+
+    question_thread = threading.Thread(target=run_question_subprocess)
+    question_thread.daemon = True
+    question_thread.start()
+    
+    return jsonify({"message": "Daily question execution started"})
+
+@app.route('/api/questions/history', methods=['GET'])
+def get_questions_history():
+    history_file = "data/question_history.json"
+    if not os.path.exists(history_file):
+        return jsonify([])
+    try:
+        with open(history_file, 'r') as f:
+            history = json.load(f)
+        return jsonify(history)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 @app.route('/api/sync', methods=['POST'])
 def sync_data():
     try:
         import subprocess
         # Discard local changes in data files to prevent merge conflicts
-        subprocess.run(["git", "checkout", "--", "data/history.json", "data/thought_history.json", "data/bot.db", "data/bot.log"], capture_output=True)
+        subprocess.run(["git", "checkout", "--", "data/history.json", "data/thought_history.json", "data/question_history.json", "data/bot.db", "data/bot.log"], capture_output=True)
         
         # Configure local git user if not configured
         subprocess.run(["git", "config", "user.name", "Local Bot Dashboard"], capture_output=True)
