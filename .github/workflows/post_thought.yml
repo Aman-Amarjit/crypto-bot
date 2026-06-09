@@ -46,7 +46,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add data/bot.db data/history.json data/thought_history.json || true
+          git add data/bot.db data/history.json data/thought_history.json data/bot.log || true
           if ! git diff --cached --quiet; then
             git commit -m "chore: auto-update bot data and history [skip ci]"
             git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/Aman-Amarjit/crypto-bot.git
