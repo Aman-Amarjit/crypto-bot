@@ -41,6 +41,21 @@ jobs:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
         run: python thought.py
 
+      - name: Commit and Push Updated Data Files
+        if: always()
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add data/bot.db data/history.json data/thought_history.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: auto-update bot data and history [skip ci]"
+            git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/Aman-Amarjit/crypto-bot.git
+            git pull origin main --rebase -X theirs
+            git push origin main
+          else
+            echo "No data changes to commit."
+          fi
+
       - name: Ensure Cache Files Exist
         if: always()
         run: |

@@ -355,6 +355,31 @@ def get_thoughts_history():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/api/sync', methods=['POST'])
+def sync_data():
+    try:
+        import subprocess
+        # Discard local changes in data files to prevent merge conflicts
+        subprocess.run(["git", "checkout", "--", "data/history.json", "data/thought_history.json", "data/bot.db", "data/bot.log"], capture_output=True)
+        
+        # Configure local git user if not configured
+        subprocess.run(["git", "config", "user.name", "Local Bot Dashboard"], capture_output=True)
+        subprocess.run(["git", "config", "user.email", "local@bot.dashboard"], capture_output=True)
+        
+        # Fetch the remote changes
+        fetch_res = subprocess.run(["git", "fetch", "origin", "main"], capture_output=True, text=True)
+        if fetch_res.returncode != 0:
+            return jsonify({"error": f"Git fetch failed: {fetch_res.stderr}"}), 500
+            
+        # Merge preferring remote changes for data files (this automatically handles conflicts)
+        merge_res = subprocess.run(["git", "merge", "-X", "theirs", "origin/main", "-m", "chore: sync remote data"], capture_output=True, text=True)
+        if merge_res.returncode != 0:
+            return jsonify({"error": f"Git merge failed: {merge_res.stderr}"}), 500
+            
+        return jsonify({"message": "Dashboard data successfully synchronized with GitHub!"})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 if __name__ == '__main__':
     # Ensure static directory exists
     os.makedirs(app.static_folder, exist_ok=True)

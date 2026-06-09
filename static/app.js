@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Thoughts Control Elements
     const btnTriggerThought = document.getElementById("btn-trigger-thought");
     const thoughtsTimeline = document.getElementById("thoughts-timeline");
+    const btnSyncGithub = document.getElementById("btn-sync-github");
     
     let isPollingLogs = false;
     let logPollInterval = null;
@@ -661,6 +662,32 @@ document.addEventListener("DOMContentLoaded", () => {
         } catch (e) {
             showToast("Network error triggering thought execution", "error");
             appendTerminalLine("[Error] Network request failed.", "error");
+        }
+    });
+
+    btnSyncGithub.addEventListener("click", async () => {
+        btnSyncGithub.disabled = true;
+        btnSyncGithub.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Syncing...';
+        
+        try {
+            const resp = await fetch("/api/sync", {
+                method: "POST"
+            });
+            const data = await resp.json();
+            
+            if (resp.ok) {
+                showToast("Dashboard synchronized with GitHub successfully!", "success");
+                loadHistory();
+                loadRepliesHistory();
+                loadThoughtsHistory();
+            } else {
+                showToast(`Sync failed: ${data.error}`, "error");
+            }
+        } catch (e) {
+            showToast("Network error synchronizing with GitHub", "error");
+        } finally {
+            btnSyncGithub.disabled = false;
+            btnSyncGithub.innerHTML = '<i class="fa-solid fa-rotate"></i> Sync with GitHub';
         }
     });
 

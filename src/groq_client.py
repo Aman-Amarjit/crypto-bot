@@ -14,22 +14,28 @@ class GroqClient:
         self.fact_checker = FactChecker()
 
     # ------------------------------------------------------------------ #
-    #  Guardrail: reject captions that end with a question                #
+    #  Guardrail: ensure caption ends with a question                    #
     # ------------------------------------------------------------------ #
     @staticmethod
-    def _ends_with_question(caption: str) -> bool:
+    def _has_closing_question(caption: str) -> bool:
         """
-        Returns True only if the very last sentence of the caption ends with
-        a question mark — a mid-post rhetorical '?' will not trigger this.
+        Returns True if the caption contains an engaging question (ending with '?')
+        just before the Source line, or at the end of the text.
         """
-        # Strip trailing whitespace/newlines then take the last line/sentence
         stripped = caption.strip()
         if not stripped:
             return False
-        # Split by newlines first; the last non-empty line is the closing line
         lines = [l.strip() for l in stripped.splitlines() if l.strip()]
-        last_line = lines[-1] if lines else stripped
-        return last_line.endswith("?")
+        if not lines:
+            return False
+        
+        # If the last line is the Source line, check the line before it
+        if lines[-1].lower().startswith("source:"):
+            if len(lines) >= 2:
+                return lines[-2].endswith("?")
+            return False
+        else:
+            return lines[-1].endswith("?")
 
     # ------------------------------------------------------------------ #
     #  Main generation method                                             #
@@ -39,7 +45,7 @@ class GroqClient:
         Sends a request to the Groq API to generate a post caption and image
         prompt.  Headlines are deduplicated against previously published posts
         before being passed to the LLM.  The caption is validated to ensure it
-        does not end with a closing question; up to max_retries attempts are
+        ends with a closing question; up to max_retries attempts are
         made before raising.
         """
         if not config.groq_api_key:
@@ -54,8 +60,8 @@ class GroqClient:
             "You are a rigorous, highly specialised cybersecurity news analyst. "
             "Generate a factually precise social media post based on the provided topic. "
             "You must return a raw JSON object with exactly two keys:\n"
-            '1. "caption": A clean, informative caption under 400 characters that strictly '
-            "follows a 3-part layout:\n"
+            '1. "caption": A clean, informative caption under 450 characters that strictly '
+            "follows a 4-part layout:\n"
             "- Part 1 (News hook, exactly 1 line, under 80 characters): Open directly with "
             "an active-voice factual statement about the specific incident, breach, or "
             "vulnerability. Do NOT use clickbait starters like 'Nobody's talking about', "
@@ -68,9 +74,12 @@ class GroqClient:
             "CVE-2026-1234, patch version, breach size, specific bytes/percentage). "
             "Do NOT fabricate statistics, dates, or percentages not present in the source "
             "headline.\n"
+            "- Part 4 (Engaging Question, exactly 1 line): Close the post with an engaging, "
+            "thought-provoking question directed at the audience regarding the global security "
+            "situation, the news itself, or its broader technical implications.\n"
             "Enforce strictly:\n"
-            "- The final line of the caption MUST NOT be a question. No closing questions, "
-            "no rhetorical engagement bait of any kind at the end.\n"
+            "- The caption MUST end with the engaging question (ending with a question mark) "
+            "just before the 'Source:' line. Do NOT omit this closing question.\n"
             "- Do not use 'Hot take', 'Myth:', or 'Reality:' labels in the caption body.\n"
             "- Limit to at most 1 relevant hashtag (e.g. #Cybersecurity, #Infosec) "
             "or omit entirely.\n"
@@ -110,7 +119,7 @@ class GroqClient:
                 f"{headlines_str}\n\n"
                 f"Select the single most interesting and technically relevant headline. "
                 f"Do NOT mix details from multiple headlines. Write an informative, "
-                f"factually precise post strictly in the requested 3-part caption format. "
+                f"factually precise post strictly in the requested 4-part caption format. "
                 f"Use concrete numbers or CVE details directly from that one headline. "
                 f"Attribute the breach or incident to the correct party — if a vendor or "
                 f"intermediary was breached rather than the named organisation directly, "
@@ -125,7 +134,7 @@ class GroqClient:
                 f"No live headlines were found for today. Generate an informative post "
                 f"detailing a critical technical concept, historical cybersecurity breach, "
                 f"or known vulnerability (e.g. Log4Shell, Heartbleed) associated with "
-                f"{topic}. Ensure the post strictly follows the 3-part caption format with "
+                f"{topic}. Ensure the post strictly follows the 4-part caption format with "
                 f"concrete numbers, statistics, or CVE details. Omit the Source line when "
                 f"no URL is available."
             )
@@ -191,21 +200,25 @@ class GroqClient:
             caption = parsed["caption"]
 
             # --- Guardrail 1: closing question check ---
-            if self._ends_with_question(caption):
+            if not self._has_closing_question(caption):
                 print(
                     f"  [Guardrail] Caption attempt {attempt}/{self.max_retries} "
-                    f"ends with a question. Retrying..."
+                    f"does not end with a question. Retrying..."
                 )
                 if attempt < self.max_retries:
                     fact_check_feedback = ""  # reset; this is a format issue not a fact issue
                     continue
                 else:
                     lines = [l.strip() for l in caption.strip().splitlines() if l.strip()]
-                    parsed["caption"] = "\n".join(lines[:-1])
+                    if lines and lines[-1].lower().startswith("source:"):
+                        lines.insert(-1, "How is your team securing against this type of threat?")
+                    else:
+                        lines.append("How is your team securing against this type of threat?")
+                    parsed["caption"] = "\n".join(lines)
                     caption = parsed["caption"]
                     print(
                         "  [Guardrail] Max retries reached. "
-                        "Stripped closing question line."
+                        "Appended default closing question."
                     )
 
             # --- Guardrail 2: fact-check against source headlines ---
