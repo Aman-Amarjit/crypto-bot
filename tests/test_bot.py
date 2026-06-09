@@ -101,19 +101,19 @@ class TestNewsFetcher(unittest.TestCase):
 # ---------------------------------------------------------------------------
 
 class TestGroqClientGuardrail(unittest.TestCase):
-    def test_ends_with_question_detects_last_line(self):
+    def test_has_closing_question_detects_last_line(self):
         caption_yes = "A breach hit 500k records.\nWas this preventable?"
         caption_no = "A breach hit 500k records.\nPatch CVE-2026-1234 immediately."
         caption_mid_question = "Why does this happen? It's because of weak TLS.\nApply the patch."
 
-        self.assertTrue(GroqClient._ends_with_question(caption_yes))
-        self.assertFalse(GroqClient._ends_with_question(caption_no))
+        self.assertTrue(GroqClient._has_closing_question(caption_yes))
+        self.assertFalse(GroqClient._has_closing_question(caption_no))
         # Mid-post question must NOT trigger the guardrail
-        self.assertFalse(GroqClient._ends_with_question(caption_mid_question))
+        self.assertFalse(GroqClient._has_closing_question(caption_mid_question))
 
-    def test_ends_with_question_empty_string(self):
-        self.assertFalse(GroqClient._ends_with_question(""))
-        self.assertFalse(GroqClient._ends_with_question("   "))
+    def test_has_closing_question_empty_string(self):
+        self.assertFalse(GroqClient._has_closing_question(""))
+        self.assertFalse(GroqClient._has_closing_question("   "))
 
     @patch("src.groq_client.NewsFetcher.filter_seen_headlines")
     @patch("src.groq_client.NewsFetcher.fetch_latest_headlines")
@@ -130,7 +130,7 @@ class TestGroqClientGuardrail(unittest.TestCase):
             "choices": [{
                 "message": {
                     "content": json.dumps({
-                        "caption": "Critical flaw in OpenSSL 3.x allows RCE.\nAttackers exploit the heap overflow via crafted TLS handshake.\nCVE-2026-5678, CVSS 9.8. Source: https://example.com/1",
+                        "caption": "Critical flaw in OpenSSL 3.x allows RCE.\nAttackers exploit the heap overflow via crafted TLS handshake.\nCVE-2026-5678, CVSS 9.8. Was this preventable?\nSource: https://example.com/1",
                         "image_prompt": "Abstract network topology diagram"
                     })
                 }
@@ -143,28 +143,28 @@ class TestGroqClientGuardrail(unittest.TestCase):
         result = client.generate_content("OpenSSL vulnerability")
         self.assertIn("caption", result)
         self.assertIn("image_prompt", result)
-        self.assertFalse(GroqClient._ends_with_question(result["caption"]))
+        self.assertTrue(GroqClient._has_closing_question(result["caption"]))
 
     @patch("src.groq_client.NewsFetcher.filter_seen_headlines")
     @patch("src.groq_client.NewsFetcher.fetch_latest_headlines")
     @patch("src.groq_client.requests.post")
     @patch("src.fact_checker.FactChecker.check", return_value={"passed": True, "issues": []})
-    def test_generate_content_retries_on_closing_question(
+    def test_generate_content_retries_on_missing_closing_question(
         self, _mock_fc_check, mock_post, mock_fetch, mock_filter
     ):
         """
-        If the LLM returns a caption ending with '?', the client should retry.
-        On the second attempt it should return a clean caption.
+        If the LLM returns a caption missing a closing '?', the client should retry.
+        On the second attempt it should return a caption with a closing question.
         """
         mock_fetch.return_value = [{"title": "H1", "link": "https://ex.com/1"}]
         mock_filter.return_value = [{"title": "H1", "link": "https://ex.com/1"}]
 
         bad_caption = json.dumps({
-            "caption": "A flaw was found in Apache.\nDetails are unclear.\nShould you patch now?",
+            "caption": "A flaw was found in Apache HTTP Server.\nApply patch CVE-2026-0001 immediately.\nAffects versions <2.4.60.",
             "image_prompt": "diagram"
         })
         good_caption = json.dumps({
-            "caption": "A flaw was found in Apache HTTP Server.\nApply patch CVE-2026-0001 immediately.\nAffects versions <2.4.60.",
+            "caption": "A flaw was found in Apache.\nDetails are unclear.\nShould you patch now?",
             "image_prompt": "diagram"
         })
         bad_resp = MagicMock()
@@ -176,8 +176,8 @@ class TestGroqClientGuardrail(unittest.TestCase):
         config.groq_api_key = "test_key"
         client = GroqClient()
         result = client.generate_content("Apache")
-        self.assertFalse(GroqClient._ends_with_question(result["caption"]))
-        # 2 LLM calls: 1 bad (question) + 1 good
+        self.assertTrue(GroqClient._has_closing_question(result["caption"]))
+        # 2 LLM calls: 1 bad (no question) + 1 good
         self.assertEqual(mock_post.call_count, 2)
 
     @patch("src.groq_client.NewsFetcher.filter_seen_headlines")
@@ -190,14 +190,14 @@ class TestGroqClientGuardrail(unittest.TestCase):
         mock_filter.return_value = [{"title": "H1", "link": "https://ex.com/1"}]
         mock_response = MagicMock()
         mock_response.json.return_value = {
-            "choices": [{"message": {"content": '```json\n{"caption": "Clean!", "image_prompt": "Image"}\n```'}}]
+            "choices": [{"message": {"content": '```json\n{"caption": "Clean? Was this preventable?", "image_prompt": "Image"}\n```'}}]
         }
         mock_post.return_value = mock_response
 
         config.groq_api_key = "test_key"
         client = GroqClient()
         result = client.generate_content("test topic")
-        self.assertEqual(result["caption"], "Clean!")
+        self.assertEqual(result["caption"], "Clean? Was this preventable?")
 
     @patch("src.groq_client.NewsFetcher.filter_seen_headlines")
     @patch("src.groq_client.NewsFetcher.fetch_latest_headlines")
@@ -629,14 +629,14 @@ class TestFactChecker(unittest.TestCase):
         # First LLM response: fabricated stat
         bad = MagicMock()
         bad.json.return_value = {"choices": [{"message": {"content": json.dumps({
-            "caption": "Acme Corp breach hit 70% EU businesses. CVE-2026-9999.",
+            "caption": "Acme Corp breach hit 70% EU businesses. CVE-2026-9999. Was this preventable?",
             "image_prompt": "diagram"
         })}}]}
 
         # Second LLM response: corrected
         good = MagicMock()
         good.json.return_value = {"choices": [{"message": {"content": json.dumps({
-            "caption": "GTI vendor breach exposed 200k Acme Corp records. Patch now.",
+            "caption": "GTI vendor breach exposed 200k Acme Corp records. Patch now. How are you securing dependencies?",
             "image_prompt": "diagram"
         })}}]}
 
