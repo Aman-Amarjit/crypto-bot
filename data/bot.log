@@ -737,3 +737,75 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-10T17:03:46.710156+00:00 UTC
 ============================================================
+============================================================
+Threads Auto-Poster Bot Execution Started: 2026-06-10T18:09:02.612325+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI used for cyberattacks'
+Requesting content generation for topic: 'AI used for cyberattacks'...
+Fetching latest news headlines from Google News for query: 'AI used for cyberattacks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxOemY5d18tejVTNkNQRmNwdFc4YWRWZ0Y1T19RbzlTVk0tMWVWVEQyNzUzcW9fMlF5T01ZaVpiZkVubS0zcWp1Z3AwTFpCbV92eGMteWpqOTduTUdoeFdfQW1LUFhjVmhQQ012eXhKNEZMeDB6MFRNTDFhb2FSMjJLWnpWZDEtc0JTNXRuSG1haERGM0hy?oc=5
+Decoded successfully to: https://www.darkreading.com/vulnerabilities-threats/blame-ai-patch-tuesday-record-206-cves
+Decoding Google News URL: https://news.google.com/rss/articles/CBMioAFBVV95cUxOZTdiQWwtSkNiMm5pdDFYNVE0LTVCXzdLaTZXMGM4X3Y0M3VCZ0JqbGh1aW9hT2dZeXROZDdwQm1LN1dyWHlqeWVyS0NjaHVsdFl5WHRId1hMSWdna3J6amRJNG9GT1VkbjJVWDdXQURaalN6X0tfd094V1Q4V0xaSFFKREJaX3ViS29DV0NfYzlVWThDcFcyM2FXb0ZpT1FW?oc=5
+Decoded successfully to: https://www.darkreading.com/application-security/miasma-supply-chain-worm-73-microsoft-repositories
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcS1HWjQ5Qkd1YkpaQjVlREpBdDJCZXVaNGdTWmMtR20zNFRUSkw0VFlhLUd4WHdXbVlMUGwyNXYxSllYdi1KOUp1V1NENjE4Y2NuRkN1MmtUNFdweTdtS3g1UlN5QmtjRkJSZnMyalJfcXliSjY4b2VBQmkyc0I5WjFMcWZVZGotU2xvSVNmcjF1a3dPQk1YaFhLV1JEUy1oa204MmVhWERIRThzcEFXanpJTGhKV3JS?oc=5
+Decoded successfully to: https://arstechnica.com/ai/2026/06/anthropic-says-these-topics-are-too-dangerous-to-let-its-fable-5-model-talk-about/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxOR2VzQ0RxbkgzaGthSnNXcEJ3ajdtUHVJQ0s1b2c5UnNEMVRrM2JhbG5PeUNieGtWeDZTeGpZZzhOM3dfSHFiUWQwRGpBWUh0dzJyQll2cUk1amdNYlRJbE9tdzZoNEF2VGFDYWRoRHYwQl81WWMzbmNZejRwQnJieHZuNHNWeUN1YVBLTFJOQmRSOVZI?oc=5
+Decoded successfully to: https://www.darkreading.com/cyberattacks-data-breaches/what-role-for-intrusion-prevention-
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Microsoft has patched an actively exploited Exchange Server vulnerability allowing threat actors to execute arbitrary JavaScript code in cross-site scripting attacks, as documented by BleepingComputer (https://www.bleepingcomputer.com/). Attackers are increasingly bypassing weak authentication through phishing and MFA fatigue. How are you securing your Outlook Web Access users from XSS attacks?
+  - Image Prompt: Abstract schematic of a wireframe topology representing a system block diagram with dark navy background, cyan and white lines, and red alert nodes, showcasing the flow of cross-site scripting attacks on Exchange Server, with no text characters or legible labels, highlighting the vulnerability in Outlook Web Access
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20representing%20a%20system%20block%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%2C%20showcasing%20the%20flow%20of%20cross-site%20scripting%20attacks%20on%20Exchange%20Server%2C%20with%20no%20text%20characters%20or%20legible%20labels%2C%20highlighting%20the%20vulnerability%20in%20Outlook%20Web%20Access?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'flux' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20representing%20a%20system%20block%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%2C%20showcasing%20the%20flow%20of%20cross-site%20scripting%20attacks%20on%20Exchange%20Server%2C%20with%20no%20text%20characters%20or%20legible%20labels%2C%20highlighting%20the%20vulnerability%20in%20Outlook%20Web%20Access?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20representing%20a%20system%20block%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%2C%20showcasing%20the%20flow%20of%20cross-site%20scripting%20attacks%20on%20Exchange%20Server%2C%20with%20no%20text%20characters%20or%20legible%20labels%2C%20highlighting%20the%20vulnerability%20in%20Outlook%20Web%20Access?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[Cloudflare] Successfully generated image via Workers AI SDXL!
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1781114974/threads_bot/plhsh0xdzqk9tn6etedh.png
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18099820261933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18106445917785286
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18106445917785286
+Timestamp: 2026-06-10T18:09:47.198454+00:00 UTC
+============================================================

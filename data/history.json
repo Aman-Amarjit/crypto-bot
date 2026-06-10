@@ -94,5 +94,15 @@
     "post_id": "18197482540364200",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-10T18:09:47.198159+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "Microsoft has patched an actively exploited Exchange Server vulnerability allowing threat actors to execute arbitrary JavaScript code in cross-site scripting attacks, as documented by BleepingComputer (https://www.bleepingcomputer.com/). Attackers are increasingly bypassing weak authentication through phishing and MFA fatigue. How are you securing your Outlook Web Access users from XSS attacks?",
+    "image_prompt": "Abstract schematic of a wireframe topology representing a system block diagram with dark navy background, cyan and white lines, and red alert nodes, showcasing the flow of cross-site scripting attacks on Exchange Server, with no text characters or legible labels, highlighting the vulnerability in Outlook Web Access",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781114974/threads_bot/plhsh0xdzqk9tn6etedh.png",
+    "post_id": "18106445917785286",
+    "source_url": "",
+    "source_title": ""
   }
 ]
