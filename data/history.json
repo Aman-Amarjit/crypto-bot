@@ -84,5 +84,15 @@
     "post_id": "18160120054406776",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-10T12:36:13.017548+00:00",
+    "topic": "cyber warfare",
+    "caption": "ServiceNow's recent security update addressed an endpoint configuration flaw, allowing unauthenticated users to gain unintended access to instances, as documented by The Hacker News (https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html). The issue, which lacks a CVE identifier, was reportedly exploited to query instance tables. How are you validating instance table access controls to prevent similar unauthorized queries?",
+    "image_prompt": "Abstract schematic of a wireframe topology with system block diagram elements, featuring dark navy background, cyan and white lines, and red alert nodes to represent the ServiceNow instance access flaw, with no text characters or legible labels, illustrating the unauthorized access to customer instances",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781094962/threads_bot/tidqmkrj4jrwif1fkiwj.png",
+    "post_id": "18197482540364200",
+    "source_url": "",
+    "source_title": ""
   }
 ]

@@ -589,3 +589,75 @@ Configuration validated successfully.
 ⚠️  A post was published 109 min ago (from data/history.json). Use --force to override.
 🛑 Skipping run to avoid spammy posting. Use --force to override.
 ============================================================
+============================================================
+Threads Auto-Poster Bot Execution Started: 2026-06-10T12:35:32.347671+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'cyber warfare'
+Requesting content generation for topic: 'cyber warfare'...
+Fetching latest news headlines from Google News for query: 'cyber warfare (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE5EWVRZc0ZYU0N4NC1wWjBXbmE2WlJIMzl5cXByem1VYl9EaVNPcUYyeFlNWmR1Ti1TUHJWY3d2bG9RYTZReXZaTm9uaS1pY1BtTlZ0Q0YwbXRUdGUzc3JVSXFOMTNZQnZSblBNWXBqemozeENzS01tamdzOG0?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxPYU42SE1XcFZfY1pmQ3BvRlFqYmJIcHBXTlNKVUZpeHdieEZUQlZOeXJ6al9iMGltb2RqVjZsMlo1X3RxazctS1RCQTVrUnFGVmJDMjhqdEFGcVV3anFsNWdiVTBvaElKTEpkUkdFWS1UbkNTazZXQkNucGNPdzR3UzN3?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxNcF95Zzh2SXc3Z3YwSDlTcDR5ZnNmam9HRmNXTWtreXFSNWRDLVNvamRiV19zczhDLVdBb3JraFBPY3d3OEJ5S2dJX1JIbHYwMmlGWnJST2phRzV5QnIzSmhhc1pnU2ZfdVFqbVpKbkpZSWtJejBaRV9nUXRQMnYzRTRMNm8?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxQVm1zQzFVTUFUc05yR3Q3di1tUUNzbDB6ODZHZHlSWjMxWTU0SjgySThWMWVpQkx3SV9rUlhtV21ibmZFNlZ6cWc2MWMtQzBCdy1tcllJbFNEcmNGSk9KdnZVZFBPTzFRNDA5U0l4d0xidHZqbUlWUElmaEJ5NS11Yw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: ServiceNow's recent security update addressed an endpoint configuration flaw, allowing unauthenticated users to gain unintended access to instances, as documented by The Hacker News (https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html). The issue, which lacks a CVE identifier, was reportedly exploited to query instance tables. How are you validating instance table access controls to prevent similar unauthorized queries?
+  - Image Prompt: Abstract schematic of a wireframe topology with system block diagram elements, featuring dark navy background, cyan and white lines, and red alert nodes to represent the ServiceNow instance access flaw, with no text characters or legible labels, illustrating the unauthorized access to customer instances
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20system%20block%20diagram%20elements%2C%20featuring%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20to%20represent%20the%20ServiceNow%20instance%20access%20flaw%2C%20with%20no%20text%20characters%20or%20legible%20labels%2C%20illustrating%20the%20unauthorized%20access%20to%20customer%20instances?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'flux' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20system%20block%20diagram%20elements%2C%20featuring%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20to%20represent%20the%20ServiceNow%20instance%20access%20flaw%2C%20with%20no%20text%20characters%20or%20legible%20labels%2C%20illustrating%20the%20unauthorized%20access%20to%20customer%20instances?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20system%20block%20diagram%20elements%2C%20featuring%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20to%20represent%20the%20ServiceNow%20instance%20access%20flaw%2C%20with%20no%20text%20characters%20or%20legible%20labels%2C%20illustrating%20the%20unauthorized%20access%20to%20customer%20instances?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[Cloudflare] Successfully generated image via Workers AI SDXL!
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1781094962/threads_bot/tidqmkrj4jrwif1fkiwj.png
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18099764467933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18197482540364200
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18197482540364200
+Timestamp: 2026-06-10T12:36:13.017855+00:00 UTC
+============================================================
