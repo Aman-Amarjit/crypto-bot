@@ -581,3 +581,11 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-10T07:59:09.133188+00:00 UTC
 ============================================================
+============================================================
+Threads Daily Thought Bot Execution Started: 2026-06-10T09:06:38.481980+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+⚠️  A post was published 109 min ago (from data/history.json). Use --force to override.
+🛑 Skipping run to avoid spammy posting. Use --force to override.
+============================================================
