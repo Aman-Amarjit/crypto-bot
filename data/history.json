@@ -74,5 +74,15 @@
     "post_id": "17936246337255701",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-10T07:16:56.863284+00:00",
+    "topic": "dark web leaks",
+    "caption": "A critical vulnerability in Ivanti's Sentry secure mobile gateway solution enables remote attackers to execute code with root privileges, as documented by BleepingComputer (https://www.bleepingcomputer.com/). How are teams mitigating such flaws in their mobile gateways?",
+    "image_prompt": "Abstract schematic of a wireframe topology with system block diagrams, dark navy background, cyan and white lines, and red alert nodes representing the exploitation of mobile gateway vulnerabilities, no text characters, and no legible labels",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781075805/threads_bot/gcptikzz2frcjbostdly.png",
+    "post_id": "18160120054406776",
+    "source_url": "",
+    "source_title": ""
   }
 ]

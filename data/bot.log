@@ -487,3 +487,75 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-09T19:45:35.056973+00:00 UTC
 ============================================================
+============================================================
+Threads Auto-Poster Bot Execution Started: 2026-06-10T07:16:15.950356+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMivAFBVV95cUxNc0FBN2w5cE9QRTU1UEdqbFlpY3dPWFhZVFlzVXI5NXkxb0w1b0ZMb3ljemI0SmFTRG1WWTFHSGxveTJCRF9ZNUFQUDlHdVB6cVYzc3l3am5RSW5sY0Z3SXgxTXhLT3JWdUkxeEhXajRJVE1IVU9udV9sczJvVTRNYnhtZ2tGV1JUYW5TeXl1alZMdHEwQVh6akZoNnBYUy1QMkk3Z3poQ0ZOOG5oT0w2d3dRR1JyS2xEQlY0VNIBwgFBVV95cUxNNmRKN0hwNUpEOWNiVkFPR2dCZTB5QzhfR2tpUGVkWmtFcVZPRFh0X1Zza2xZcW9YYnZ0RGxhNkhsNVgzNWFOMHk3T095WmNHWnZiYUxiZVlsbHpCSGpBSS1RbFRQcS1vcGxtRGlZQ3M4Tmx4N25vR0lLRzB5aGU1eURjRE1WNzB4UU1LN084SlU3M0QyRURqUzhQdnFva1NmYVptZWhBTHh5YVdHbjR2Z1BrOUFJUEVLYlZ2NUx3cGNNdw?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxQcHJSUHJZODRwQVc2bUJwR3hGUWlwS1NYazduREVkWk1ScXNMVTd4c051Uk5TOUwtNk52RGh6QlVLZjhIR2ExZGpoWDJha0hIR193eC00WlNxaXhwZ1A5T0wxSlJKdC11d2JESldOcVpfSThBT3ZjWUpfTW15M3Z0cA?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ2VZLVl4SE0xZGxSTEZiOW1CNUpidHNhdVJmM1FOTlpHUWN3MXhoaUx4b2ZIS2RiYVl2RzV0OHViX3VBRW1YYmxBNlN2dTVXT0licTE1RlNRZDBBb0o3d1NRcWhFOUVfTDc5c3BjcUJfbGR2N2pqYUUxNmVoTEU2U0pRUkNPNEI1Sm1tU0RDZThocFB3ejdtU3IwbnFxT1Bqd0FoQXlQV2xFZVF5Tk92bmxrMVpRazA?oc=5
+Decoded successfully to: https://arstechnica.com/security/2026/06/a-single-errant-character-in-the-linux-kernel-allows-attacker-to-gain-root/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihwFBVV95cUxNa1UzVUhxR2N4Nno0ZDRNNlFMblItQThKWHE5RU5Bcy1VcEtGYVdqTUdHTU4tdHVTRGVaZE5rWFBIUkhXSHNSVHV6MWxEbkVNMWZhRzlOOS1fUHlpUDVMeXJsYnBBRmZIWHNrblRaUnNRRmdzcC12MTVUSW1rNDhwT2sxN0h4RlU?oc=5
+Decoded successfully to: https://www.theverge.com/entertainment/947120/nintendo-direct-june-2026-analysis
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: A critical vulnerability in Ivanti's Sentry secure mobile gateway solution enables remote attackers to execute code with root privileges, as documented by BleepingComputer (https://www.bleepingcomputer.com/). How are teams mitigating such flaws in their mobile gateways?
+  - Image Prompt: Abstract schematic of a wireframe topology with system block diagrams, dark navy background, cyan and white lines, and red alert nodes representing the exploitation of mobile gateway vulnerabilities, no text characters, and no legible labels
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20system%20block%20diagrams%2C%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20the%20exploitation%20of%20mobile%20gateway%20vulnerabilities%2C%20no%20text%20characters%2C%20and%20no%20legible%20labels?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'flux' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20system%20block%20diagrams%2C%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20the%20exploitation%20of%20mobile%20gateway%20vulnerabilities%2C%20no%20text%20characters%2C%20and%20no%20legible%20labels?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20system%20block%20diagrams%2C%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20the%20exploitation%20of%20mobile%20gateway%20vulnerabilities%2C%20no%20text%20characters%2C%20and%20no%20legible%20labels?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[Cloudflare] Successfully generated image via Workers AI SDXL!
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1781075805/threads_bot/gcptikzz2frcjbostdly.png
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18099696676933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18160120054406776
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18160120054406776
+Timestamp: 2026-06-10T07:16:56.863565+00:00 UTC
+============================================================
