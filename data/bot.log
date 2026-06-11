@@ -930,3 +930,75 @@ Configuration validated successfully.
 ⚠️  A post was published 98 min ago (from data/history.json). Use --force to override.
 🛑 Skipping run to avoid spammy posting. Use --force to override.
 ============================================================
+============================================================
+Threads Auto-Poster Bot Execution Started: 2026-06-11T12:54:12.110845+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMibEFVX3lxTFB5UjJqckItb04teVI0TWtpck9NV0VfdDJsSTh0LWZiOFFqWVlsMUF0ZDBjLW9vLTdybWtQNE1maHpJQTNLdV80RHVTeXpvYXVfTjU3Tk45SEZoU1QybUFNMkRFVGVIT21aU3RMWQ?oc=5
+Decoded successfully to: https://www.wired.com/story/cisa-ai-vulnerability-directive/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMid0FVX3lxTFAyRUE3MUFicUtzMzJhWlBmdjVJSnNwYktjQTVQNmRkMklFZm9VNVlvTEx1a1FONTVnNEZBanBScUlITHBXWF9CUVpwQVVJZFltVS14ZnpWVm5oSUVpbVlLdmtQd3Q4MG03blBqdDY5RV9iLU1jX1lz?oc=5
+Decoded successfully to: https://www.wired.com/story/soccer-world-cup-biometric-surveillance/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMinAFBVV95cUxQaE56S0JNc0NsVHJ4MExfLTRPcWs4OVJoODl3RHFMdnRSQTlRV1dXaFNnOUtXSFBpSGJmRV92Vm5ycTlNenZYN2hCRGRpdEp5TlV4TkszUTA0akE4NGxKYTBOdlRrVlRzNlI0RHBzZ1RRWFpvTDlnZmgtQjlueC1wRU1MbFNVcVlzMWs0cHM5SnNCNDQ5M2hzbG1zWGE?oc=5
+Decoded successfully to: https://www.darkreading.com/cyber-risk/cisa-rewrites-federal-patching-requirements-ai-threat-era
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPalpYVU54bFhydkN4NkdqSDZHNU5CLTRqMXJTcWllOFlaR3l0N3FENGNPQTBMZnJhc3NmSVhyY1RXN1Z0UmxuaElHWkFUYzhqeWFUVDJuRklLdmpPek1nZmQydkpUWGxoUjNWd1A3b1BPUzRiTDYzbWlHVURqTFpNdnAxa1lqNFJkOHJxSlR3UERQYm04Z3dHMm9fRlhFZExGc1hEWjRLb014Zw?oc=5
+Decoded successfully to: https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipwFBVV95cUxOUUE4c3hzSkpxclN4QS1GOFZRejVOSlJQeVdDM21kV1NDSGk2RnJwQTNIdzFyUEJoekREN1NsWjAyQ3R2M1g2bEI5RlpFQ0ZmX0F3NTdCQVhXYnczQ1A5Q2hwNnROeTQwSmF2Z2h0TVQzcU5ybDJGWklIRllxY08wOXBiTW1sbG1yRmNmX1NucEt6T2lFZnZHNTVPc016X0R6QTFmNlhjcw?oc=5
+Decoded successfully to: https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.wired.com/story/cisa-ai-vulnerability-directive/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: CISA now requires federal agencies to patch critical bugs in as little as 3 days due to AI-fueled exploitation, as documented by Wired (https://www.wired.com/story/cisa-ai-vulnerability-directive/), prioritizing vulnerabilities with automated exploit potential and public exposure - how will your team adapt to this accelerated patching timeline?
+  - Image Prompt: abstract schematic of a wireframe topology with system block diagram, dark navy background, cyan and white lines, and red alert nodes representing AI-driven vulnerability exploitation, no text characters, and no legible labels, emphasizing the urgency of rapid patching protocols
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/abstract%20schematic%20of%20a%20wireframe%20topology%20with%20system%20block%20diagram%2C%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20AI-driven%20vulnerability%20exploitation%2C%20no%20text%20characters%2C%20and%20no%20legible%20labels%2C%20emphasizing%20the%20urgency%20of%20rapid%20patching%20protocols?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'flux' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/abstract%20schematic%20of%20a%20wireframe%20topology%20with%20system%20block%20diagram%2C%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20AI-driven%20vulnerability%20exploitation%2C%20no%20text%20characters%2C%20and%20no%20legible%20labels%2C%20emphasizing%20the%20urgency%20of%20rapid%20patching%20protocols?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/abstract%20schematic%20of%20a%20wireframe%20topology%20with%20system%20block%20diagram%2C%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20AI-driven%20vulnerability%20exploitation%2C%20no%20text%20characters%2C%20and%20no%20legible%20labels%2C%20emphasizing%20the%20urgency%20of%20rapid%20patching%20protocols?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[Cloudflare] Successfully generated image via Workers AI SDXL!
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1781182481/threads_bot/a6r339hril3odex3h4tu.png
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18099970216933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18115463704847586
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18115463704847586
+Timestamp: 2026-06-11T12:54:51.466349+00:00 UTC
+============================================================

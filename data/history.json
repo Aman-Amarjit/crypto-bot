@@ -114,5 +114,15 @@
     "post_id": "18107618524970821",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-11T12:54:51.465968+00:00",
+    "topic": "AI surveillance",
+    "caption": "CISA now requires federal agencies to patch critical bugs in as little as 3 days due to AI-fueled exploitation, as documented by Wired (https://www.wired.com/story/cisa-ai-vulnerability-directive/), prioritizing vulnerabilities with automated exploit potential and public exposure - how will your team adapt to this accelerated patching timeline?",
+    "image_prompt": "abstract schematic of a wireframe topology with system block diagram, dark navy background, cyan and white lines, and red alert nodes representing AI-driven vulnerability exploitation, no text characters, and no legible labels, emphasizing the urgency of rapid patching protocols",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781182481/threads_bot/a6r339hril3odex3h4tu.png",
+    "post_id": "18115463704847586",
+    "source_url": "",
+    "source_title": ""
   }
 ]
