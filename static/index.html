@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Threads Auto-Poster Dashboard</title>
+    <title>Thread Manager for Cybersecurity Dashboard</title>
     <!-- Google Fonts & FontAwesome -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -16,7 +16,7 @@
             <div class="logo-area">
                 <i class="fa-brands fa-threads logo-icon"></i>
                 <div class="logo-text">
-                    <h1>Threads Bot</h1>
+                    <h1>Thread Manager for Cybersecurity</h1>
                     <span>Auto-Poster Hub</span>
                 </div>
             </div>
@@ -221,13 +221,49 @@
 
                     <!-- Comments Control Split -->
                     <div class="split-layout">
-                        <!-- Left Panel: Comments Trigger -->
-                        <div class="control-panel">
-                            <h3><i class="fa-solid fa-comments"></i> Reply Runner Control</h3>
-                            <p class="description">Scan the 5 most recent posts on Threads for new user comments and execute the Gemini auto-reply script with organic spacing.</p>
-                            <button id="btn-trigger-replies" class="btn btn-secondary btn-block">
-                                <i class="fa-solid fa-magnifying-glass"></i> Check & Reply Now
-                            </button>
+                        <!-- Left Panel: Comments Trigger & External Reply -->
+                        <div style="display: flex; flex-direction: column; gap: 24px; width: 100%;">
+                            <div class="control-panel">
+                                <h3><i class="fa-solid fa-comments"></i> Reply Runner Control</h3>
+                                <p class="description">Scan the 5 most recent posts on Threads for new user comments and execute the Gemini auto-reply script with organic spacing.</p>
+                                <button id="btn-trigger-replies" class="btn btn-secondary btn-block">
+                                    <i class="fa-solid fa-magnifying-glass"></i> Check & Reply Now
+                                </button>
+                            </div>
+
+                            <div class="control-panel">
+                                <h3><i class="fa-solid fa-reply"></i> Reply to External Post</h3>
+                                <p class="description">Paste the URL of another creator's Threads post to write a context-aware humanized reply.</p>
+                                
+                                <div class="form-group">
+                                    <label for="ext-post-url">Threads Post URL</label>
+                                    <input type="text" id="ext-post-url" class="form-control" placeholder="https://www.threads.net/@username/post/...">
+                                    <span class="field-desc">URL will be resolved to a Media ID automatically (cached for 24h).</span>
+                                </div>
+
+                                <div class="form-group" id="ext-media-id-group" style="display: none;">
+                                    <label for="ext-media-id">Resolved Media ID</label>
+                                    <input type="text" id="ext-media-id" class="form-control" placeholder="Optional numeric ID">
+                                    <span class="field-desc">Edit this only if automatic preview resolution fails.</span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="ext-post-text">Post Text Content</label>
+                                    <textarea id="ext-post-text" class="form-control" rows="4" placeholder="Paste the post text content here to give context for the reply..."></textarea>
+                                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 4px;">
+                                        <span class="field-desc">Context is required for Gemini to write a high-value reply.</span>
+                                        <span id="ext-post-text-char-count" style="font-size: 11px; color: var(--text-muted);">0 characters</span>
+                                    </div>
+                                </div>
+
+                                <div id="ext-preview-status" class="timeline-reply" style="display: none; padding: 12px; margin-bottom: 20px; border-radius: 8px;">
+                                    <!-- Dynamic Preview State Loaded Here -->
+                                </div>
+
+                                <button id="btn-trigger-external-reply" class="btn btn-primary btn-block" disabled>
+                                    <i class="fa-solid fa-reply"></i> Generate & Post Reply
+                                </button>
+                            </div>
                         </div>
 
                         <!-- Right Panel: Timeline History -->
@@ -388,6 +424,26 @@
                                 <div class="form-group">
                                     <label for="conf-threads-token">Threads Access Token</label>
                                     <input type="password" id="conf-threads-token" class="form-control">
+                                </div>
+                            </div>
+
+                            <!-- Column 3: Persona Settings -->
+                            <div class="config-column">
+                                <h4>Persona & Voice Identity</h4>
+                                <div class="form-group">
+                                    <label for="conf-persona-name">Persona Name</label>
+                                    <input type="text" id="conf-persona-name" class="form-control" maxlength="100" placeholder="Aman">
+                                    <span class="field-desc">The name used in your posts and replies.</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="conf-persona-bio">Persona Bio / Identity</label>
+                                    <input type="text" id="conf-persona-bio" class="form-control" maxlength="250" placeholder="cybersecurity researcher and software engineer">
+                                    <span class="field-desc">Your professional background/identity description.</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="conf-persona-tone">Tone & Phrasing Style</label>
+                                    <input type="text" id="conf-persona-tone" class="form-control" maxlength="250" placeholder="conversational, direct, technical, humble">
+                                    <span class="field-desc">Adjectives describing how you write.</span>
                                 </div>
                             </div>
                         </div>

@@ -230,6 +230,56 @@ class TestThoughtGeneratorGuardrail(unittest.TestCase):
         self.assertFalse(ThoughtGenerator._ends_with_question("Interesting insight.\nApply the patch."))
         self.assertFalse(ThoughtGenerator._ends_with_question("Why? Because TLS 1.0 is broken.\nDisable it."))
 
+    @patch("src.thought_generator.requests.post")
+    def test_generate_thought_success(self, mock_post):
+        from src.thought_generator import ThoughtGenerator
+        mock_response = MagicMock()
+        mock_response.status_code = 200
+        mock_response.json.return_value = {
+            "choices": [{
+                "message": {
+                    "content": json.dumps({
+                        "thought": "LockBit uses double extortion.\nThey exfiltrate data and encrypt systems.\nCVE-2026-1234. How are you preventing double extortion?"
+                    })
+                }
+            }]
+        }
+        mock_post.return_value = mock_response
+
+        config.groq_api_key = "test_key"
+        generator = ThoughtGenerator()
+        thought = generator.generate_thought()
+        self.assertEqual(thought, "LockBit uses double extortion.\nThey exfiltrate data and encrypt systems.\nCVE-2026-1234. How are you preventing double extortion?")
+
+    @patch("src.thought_generator.requests.post")
+    def test_generate_thought_retries_on_missing_closing_question(self, mock_post):
+        from src.thought_generator import ThoughtGenerator
+        
+        bad_thought = json.dumps({
+            "thought": "LockBit uses double extortion.\nThey exfiltrate data and encrypt systems.\nCVE-2026-1234."
+        })
+        good_thought = json.dumps({
+            "thought": "LockBit uses double extortion.\nThey exfiltrate data and encrypt systems.\nCVE-2026-1234. How are you protecting systems?"
+        })
+        
+        bad_resp = MagicMock()
+        bad_resp.status_code = 200
+        bad_resp.json.return_value = {"choices": [{"message": {"content": bad_thought}}]}
+        
+        good_resp = MagicMock()
+        good_resp.status_code = 200
+        good_resp.json.return_value = {"choices": [{"message": {"content": good_thought}}]}
+        
+        mock_post.side_effect = [bad_resp, good_resp]
+
+        config.groq_api_key = "test_key"
+        generator = ThoughtGenerator()
+        thought = generator.generate_thought()
+        
+        self.assertEqual(thought, "LockBit uses double extortion.\nThey exfiltrate data and encrypt systems.\nCVE-2026-1234. How are you protecting systems?")
+        # Should have called LLM twice
+        self.assertEqual(mock_post.call_count, 2)
+
 
 # ---------------------------------------------------------------------------
 # Timing guardrails — main.py check_recent_post
@@ -488,19 +538,38 @@ class TestReplyManager(unittest.TestCase):
             self.assertEqual(resp.status_code, 200)
             mock_sleep.assert_called_once_with(2)
 
+    @patch("src.reply_manager.random.random")
     @patch("src.reply_manager.requests.request")
-    def test_generate_reply_success(self, mock_request):
+    def test_generate_reply_success(self, mock_request, mock_random):
         from src.reply_manager import ReplyManager
-        mock_resp = MagicMock()
-        mock_resp.status_code = 200
-        mock_resp.json.return_value = {
+        mock_resp_no_q = MagicMock()
+        mock_resp_no_q.status_code = 200
+        mock_resp_no_q.json.return_value = {
             "candidates": [{"content": {"parts": [{"text": "Hello commenter!"}]}}]
         }
-        mock_request.return_value = mock_resp
-
+        
+        mock_resp_with_q = MagicMock()
+        mock_resp_with_q.status_code = 200
+        mock_resp_with_q.json.return_value = {
+            "candidates": [{"content": {"parts": [{"text": "Hello commenter! How is it going?"}]}}]
+        }
+        
+        # Test case 1: reply without question mark, random returns < 0.75 so end_with_q = True, fallback is appended
+        mock_random.return_value = 0.1
+        mock_request.return_value = mock_resp_no_q
         manager = ReplyManager(self.db_path)
         reply = manager.generate_reply("Post context about CVE-2026-1234", "User comment")
-        self.assertEqual(reply, "Hello commenter!")
+        self.assertEqual(reply, "Hello commenter! What are your thoughts on this?")
+        
+        # Test case 2: reply with question mark, end_with_q = True, no fallback appended because it already ends with "?"
+        mock_request.return_value = mock_resp_with_q
+        reply_q = manager.generate_reply("Post context about CVE-2026-1234", "User comment")
+        self.assertEqual(reply_q, "Hello commenter! How is it going?")
+
+        # Test case 3: reply with question mark, but random returns >= 0.75 so end_with_q = False, question mark is stripped
+        mock_random.return_value = 0.8
+        reply_no_q = manager.generate_reply("Post context about CVE-2026-1234", "User comment")
+        self.assertEqual(reply_no_q, "Hello commenter! How is it going.")
 
 
 # ---------------------------------------------------------------------------
@@ -704,6 +773,166 @@ class TestQuestionTiming(unittest.TestCase):
         with patch("question._load_history", return_value=entries):
             result = check_recent_question(window_hours=4)
         self.assertFalse(result)
+
+
+# ---------------------------------------------------------------------------
+# External Replies
+# ---------------------------------------------------------------------------
+
+class TestExternalReplies(unittest.TestCase):
+    def setUp(self):
+        self.db_fd, self.db_path = tempfile.mkstemp()
+        config.gemini_api_key = "test_gemini_key"
+        config.threads_user_id = "user123"
+        config.threads_access_token = "token123"
+        config.automation_paused = False
+
+    def tearDown(self):
+        os.close(self.db_fd)
+        try:
+            os.remove(self.db_path)
+        except Exception:
+            pass
+
+    def test_extract_shortcode_from_url(self):
+        from src.reply_manager import ReplyManager
+        shortcode1 = ReplyManager.extract_shortcode_from_url("https://www.threads.net/@user/post/Cw123_abc-")
+        self.assertEqual(shortcode1, "Cw123_abc-")
+
+        shortcode2 = ReplyManager.extract_shortcode_from_url("https://www.threads.net/t/Cw123_abc-")
+        self.assertEqual(shortcode2, "Cw123_abc-")
+
+        with self.assertRaises(ValueError):
+            ReplyManager.extract_shortcode_from_url("https://example.com/not-threads")
+
+    def test_resolve_threads_url_to_media_id_cache_hit(self):
+        from src.reply_manager import ReplyManager
+        manager = ReplyManager(self.db_path)
+        import sqlite3
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute(
+            "INSERT INTO resolved_posts_cache (url, media_id, cached_at) VALUES (?, ?, CURRENT_TIMESTAMP)",
+            ("https://www.threads.net/t/123", "99999")
+        )
+        conn.commit()
+        conn.close()
+
+        media_id = manager.resolve_threads_url_to_media_id("https://www.threads.net/t/123", "token123")
+        self.assertEqual(media_id, "99999")
+
+    @patch("src.reply_manager.requests.get")
+    def test_resolve_threads_url_to_media_id_oembed_success(self, mock_get):
+        from src.reply_manager import ReplyManager
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.text = '{"media_id": "88888"}'
+        mock_resp.json.return_value = {"html": '<blockquote class="instagram-media" data-instgrm-payload-id="88888"></blockquote>'}
+        mock_get.return_value = mock_resp
+
+        manager = ReplyManager(self.db_path)
+        media_id = manager.resolve_threads_url_to_media_id("https://www.threads.net/t/xyz", "token123")
+        self.assertEqual(media_id, "88888")
+
+        # Verify cached
+        import sqlite3
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute("SELECT media_id FROM resolved_posts_cache WHERE url = ?", ("https://www.threads.net/t/xyz",))
+        row = cursor.fetchone()
+        self.assertIsNotNone(row)
+        self.assertEqual(row[0], "88888")
+        conn.close()
+
+    @patch("src.reply_manager.requests.get")
+    def test_resolve_threads_url_to_media_id_fallback_to_math(self, mock_get):
+        from src.reply_manager import ReplyManager
+        mock_get.side_effect = Exception("API Timeout")
+
+        manager = ReplyManager(self.db_path)
+        # shortcode 'B' -> index 1
+        media_id = manager.resolve_threads_url_to_media_id("https://www.threads.net/t/B", "token123")
+        self.assertEqual(media_id, "1")
+
+    @patch("src.reply_manager.requests.get")
+    def test_verify_media_accessible_success(self, mock_get):
+        from src.reply_manager import ReplyManager
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.json.return_value = {"id": "123", "username": "aman", "text": "Hello world"}
+        mock_get.return_value = mock_resp
+
+        manager = ReplyManager(self.db_path)
+        res = manager.verify_media_accessible("123", "token123")
+        self.assertTrue(res["accessible"])
+        self.assertEqual(res["username"], "aman")
+        self.assertEqual(res["text"], "Hello world")
+
+    @patch("src.reply_manager.requests.get")
+    def test_verify_media_accessible_failed(self, mock_get):
+        from src.reply_manager import ReplyManager
+        mock_resp = MagicMock()
+        mock_resp.status_code = 403
+        mock_resp.json.return_value = {"error": {"message": "Private media"}}
+        mock_get.return_value = mock_resp
+
+        manager = ReplyManager(self.db_path)
+        res = manager.verify_media_accessible("123", "token123")
+        self.assertFalse(res["accessible"])
+        self.assertIn("Private media", res["error"])
+
+    @patch("src.reply_manager.random.random")
+    @patch("src.reply_manager.requests.request")
+    def test_generate_external_post_reply(self, mock_request, mock_random):
+        from src.reply_manager import ReplyManager
+        mock_resp_no_q = MagicMock()
+        mock_resp_no_q.status_code = 200
+        mock_resp_no_q.json.return_value = {
+            "candidates": [{"content": {"parts": [{"text": "Very clean explanation!"}]}}]
+        }
+        mock_request.return_value = mock_resp_no_q
+
+        # Case 1: end_with_q = True, fallback is appended
+        mock_random.return_value = 0.1
+        manager = ReplyManager(self.db_path)
+        reply = manager.generate_external_post_reply("Secure your code", "someone", "123")
+        self.assertEqual(reply, "Very clean explanation! What do you think?")
+
+        # Case 2: end_with_q = False, trailing "?" is stripped
+        mock_random.return_value = 0.8
+        mock_resp_with_q = MagicMock()
+        mock_resp_with_q.status_code = 200
+        mock_resp_with_q.json.return_value = {
+            "candidates": [{"content": {"parts": [{"text": "Is this secure?"}]}}]
+        }
+        mock_request.return_value = mock_resp_with_q
+        reply2 = manager.generate_external_post_reply("Secure your code", "someone", "123")
+        self.assertEqual(reply2, "Is this secure.")
+
+    def test_external_daily_ceiling(self):
+        from src.reply_manager import ReplyManager
+        import sqlite3
+        manager = ReplyManager(self.db_path)
+
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        for i in range(9):
+            cursor.execute(
+                "INSERT INTO replied_comments (comment_id, status, is_external) VALUES (?, 'success', 1)",
+                (f"ext_{i}",)
+            )
+        conn.commit()
+        conn.close()
+
+        self.assertTrue(manager._check_external_daily_ceiling())
+
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute("INSERT INTO replied_comments (comment_id, status, is_external) VALUES ('ext_9', 'success', 1)")
+        conn.commit()
+        conn.close()
+
+        self.assertFalse(manager._check_external_daily_ceiling())
 
 
 if __name__ == "__main__":

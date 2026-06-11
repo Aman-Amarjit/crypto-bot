@@ -120,13 +120,8 @@ class ThoughtGenerator:
         style = THOUGHT_STYLES[day_of_week]
 
         positioning = (
-            "Your persona is an anonymous software engineer and cybersecurity researcher. "
-            "Keep your identity completely anonymous: never mention names, locations, "
-            "private details, client names, or freelance contracts. "
-            "Talk strictly about technical security concepts, vulnerability analysis, "
-            "threat intelligence, and software security architecture. "
-            "Your tone should be authentic, technical, precise, and direct — avoiding "
-            "corporate fluff or hype. "
+            f"Your persona is {config.persona_name}, a {config.persona_bio}.\n"
+            f"Write in the first person ('I', 'my') in a {config.persona_tone} tone — avoiding corporate fluff or hype.\n"
             "Stay strictly within cybersecurity topics. Do NOT opine on AI workforce "
             "trends, model releases, general tech company news, or startup culture."
         )
@@ -145,11 +140,11 @@ class ThoughtGenerator:
             "or any meta-framing opener.\n"
             "- Part 2 (What it means, 2–3 lines): A clear, technical explanation of the "
             "concept or implications in your own words.\n"
-            "- Part 3 (Concrete proof, exactly 1 line): One concrete number, metric, "
-            "statistic, CVE identifier, or verified technical detail as proof.\n"
+            "- Part 3 (Concrete proof and question, exactly 1 line): One concrete number, "
+            "metric, statistic, CVE identifier, or verified technical detail as proof, "
+            "ending with an engaging, thought-provoking technical question directed at the audience.\n"
             "Enforce strictly:\n"
-            "- The final line of the post MUST NOT be a question. No closing questions, "
-            "no rhetorical engagement bait at the end.\n"
+            "- The final line of the thought MUST end with a question mark (?).\n"
             "- Do NOT use 'Hot take', 'Myth:', or 'Reality:' labels.\n"
             "- Do not include any text before or after the JSON."
         )
@@ -210,21 +205,24 @@ class ThoughtGenerator:
 
             thought = parsed["thought"]
 
-            # Guardrail: retry if the final line ends with a question mark
-            if self._ends_with_question(thought):
+            # Guardrail: retry if the thought does NOT end with a question mark
+            if not self._ends_with_question(thought):
                 print(
                     f"  [Guardrail] Thought attempt {attempt}/{self.max_retries} "
-                    f"ends with a question. Retrying..."
+                    f"does not end with a question. Retrying..."
                 )
                 if attempt < self.max_retries:
                     continue
                 else:
-                    # Strip offending closing question line as last resort
-                    t_lines = [l.strip() for l in thought.strip().splitlines() if l.strip()]
-                    thought = "\n".join(t_lines[:-1])
+                    # Append default closing question as last resort
+                    thought = thought.strip()
+                    if thought.endswith("."):
+                        thought += " How are you securing against this type of threat?"
+                    else:
+                        thought += ". How are you securing against this type of threat?"
                     print(
                         "  [Guardrail] Max retries reached. "
-                        "Stripped closing question line."
+                        "Appended default closing question."
                     )
 
             return thought

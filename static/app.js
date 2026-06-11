@@ -259,17 +259,21 @@ document.addEventListener("DOMContentLoaded", () => {
                         `;
                     }
                     
+                    const isExt = reply.is_external === 1;
+                    const badgeHtml = isExt ? ` <span class="badge" style="background: rgba(100, 108, 255, 0.2); color: var(--primary); border: 1px solid rgba(100, 108, 255, 0.4); font-size: 10px; font-weight: 600; padding: 1px 6px; border-radius: 4px; margin-left: 6px; display: inline-block; vertical-align: middle;">External Reply</span>` : '';
+                    const labelText = isExt ? 'Original Post Content' : 'User Comment';
+
                     row.innerHTML = `
                         <div class="timeline-badge"></div>
                         <div class="timeline-content">
                             <div class="timeline-header-info">
-                                <span class="timeline-user"><i class="fa-solid fa-user"></i> @${reply.commenter_username || 'unknown'}</span>
+                                <span class="timeline-user"><i class="fa-solid fa-user"></i> @${reply.commenter_username || 'unknown'}${badgeHtml}</span>
                                 <span class="timeline-time"><i class="fa-regular fa-clock"></i> ${stamp}</span>
                             </div>
-                            <p class="timeline-comment">"${reply.comment_text || 'No comment text retrieved.'}"</p>
+                            <p class="timeline-comment"><strong>${labelText}:</strong> "${reply.comment_text || 'No text retrieved.'}"</p>
                             ${replySection}
                             <div class="timeline-footer">
-                                <span class="post-context-id">Post ID: ${reply.post_id || 'unknown'}</span>
+                                <span class="post-context-id">${isExt ? 'Target Media' : 'Post'} ID: ${reply.post_id || 'unknown'}</span>
                                 <a href="https://www.threads.net/post/${reply.post_id}" target="_blank" class="timeline-link">
                                     <i class="fa-brands fa-threads"></i> View Thread
                                 </a>
@@ -417,6 +421,10 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("conf-threads-user-id").value = data.THREADS_USER_ID || "";
             document.getElementById("conf-threads-token").value = data.THREADS_ACCESS_TOKEN || "";
             
+            document.getElementById("conf-persona-name").value = data.PERSONA_NAME || "";
+            document.getElementById("conf-persona-bio").value = data.PERSONA_BIO || "";
+            document.getElementById("conf-persona-tone").value = data.PERSONA_TONE || "";
+            
             document.getElementById("conf-automation-paused").checked = data.AUTOMATION_PAUSED === "1";
         } catch (e) {
             showToast("Failed to load configuration", "error");
@@ -440,6 +448,9 @@ document.addEventListener("DOMContentLoaded", () => {
             CLOUDINARY_API_SECRET: document.getElementById("conf-cloudinary-secret").value,
             THREADS_USER_ID: document.getElementById("conf-threads-user-id").value,
             THREADS_ACCESS_TOKEN: document.getElementById("conf-threads-token").value,
+            PERSONA_NAME: document.getElementById("conf-persona-name").value,
+            PERSONA_BIO: document.getElementById("conf-persona-bio").value,
+            PERSONA_TONE: document.getElementById("conf-persona-tone").value,
             AUTOMATION_PAUSED: document.getElementById("conf-automation-paused").checked ? "1" : "0"
         };
         
@@ -814,6 +825,174 @@ document.addEventListener("DOMContentLoaded", () => {
         } finally {
             btnSyncGithub.disabled = false;
             btnSyncGithub.innerHTML = '<i class="fa-solid fa-rotate"></i> Sync with GitHub';
+        }
+    });
+
+    // 8b. External Post Reply Logic
+    const extPostUrlInput = document.getElementById("ext-post-url");
+    const extMediaIdGroup = document.getElementById("ext-media-id-group");
+    const extMediaIdInput = document.getElementById("ext-media-id");
+    const extPostTextInput = document.getElementById("ext-post-text");
+    const extPostTextCharCount = document.getElementById("ext-post-text-char-count");
+    const extPreviewStatus = document.getElementById("ext-preview-status");
+    const btnTriggerExternalReply = document.getElementById("btn-trigger-external-reply");
+
+    let previewDebounceTimeout = null;
+    let resolvedUsername = "";
+
+    function validateExternalForm() {
+        const hasUrlOrId = extPostUrlInput.value.trim().length > 0 || extMediaIdInput.value.trim().length > 0;
+        const hasText = extPostTextInput.value.trim().length > 0;
+        btnTriggerExternalReply.disabled = !(hasUrlOrId && hasText);
+    }
+
+    // Debounced URL Preview Resolution
+    function handleUrlChange() {
+        clearTimeout(previewDebounceTimeout);
+        
+        const url = extPostUrlInput.value.trim();
+        const mediaIdOverride = extMediaIdInput.value.trim();
+
+        if (!url && !mediaIdOverride) {
+            extPreviewStatus.style.display = "none";
+            extPreviewStatus.innerHTML = "";
+            resolvedUsername = "";
+            validateExternalForm();
+            return;
+        }
+
+        // Wait 800ms after typing stops before querying preview
+        previewDebounceTimeout = setTimeout(async () => {
+            extPreviewStatus.style.display = "block";
+            extPreviewStatus.className = "timeline-reply pending";
+            extPreviewStatus.innerHTML = `
+                <span class="reply-header"><i class="fa-solid fa-spinner fa-spin"></i> Resolving Threads URL & verifying visibility...</span>
+            `;
+
+            try {
+                const queryParams = new URLSearchParams();
+                if (url) queryParams.append("url", url);
+                if (mediaIdOverride) queryParams.append("media_id", mediaIdOverride);
+
+                const resp = await fetch(`/api/replies/external/preview?${queryParams.toString()}`);
+                const data = await resp.json();
+
+                if (resp.ok && data.accessible) {
+                    extPreviewStatus.className = "timeline-reply success";
+                    extPreviewStatus.innerHTML = `
+                        <span class="reply-header" style="color: var(--success);"><i class="fa-solid fa-circle-check"></i> Post Verification Successful</span>
+                        <div style="margin-top: 8px; font-size: 13px; color: var(--text-secondary);">
+                            <div><strong>Resolved ID:</strong> ${data.resolved_id}</div>
+                            <div><strong>Author:</strong> @${data.username}</div>
+                            <div style="margin-top: 4px; font-style: italic; color: var(--text-muted);">"${data.text || '[No text content]'}"</div>
+                        </div>
+                    `;
+                    
+                    // Auto-fill inputs if empty
+                    if (!extMediaIdInput.value.trim()) {
+                        extMediaIdInput.value = data.resolved_id;
+                    }
+                    if (!extPostTextInput.value.trim() && data.text) {
+                        extPostTextInput.value = data.text;
+                        extPostTextCharCount.textContent = `${data.text.length} characters`;
+                    }
+                    extMediaIdGroup.style.display = "block"; // Show the group so they can see resolved ID
+                    resolvedUsername = data.username;
+                } else {
+                    extPreviewStatus.className = "timeline-reply failed";
+                    const errorMsg = data.error || "Failed to fetch post metadata.";
+                    extPreviewStatus.innerHTML = `
+                        <span class="reply-header" style="color: var(--danger);"><i class="fa-solid fa-triangle-exclamation"></i> Verification Failed</span>
+                        <div style="margin-top: 4px; font-size: 12px; color: var(--text-muted);">${errorMsg}</div>
+                    `;
+                    // If resolution failed, show media ID override input group
+                    extMediaIdGroup.style.display = "block";
+                }
+            } catch (err) {
+                extPreviewStatus.className = "timeline-reply failed";
+                extPreviewStatus.innerHTML = `
+                    <span class="reply-header" style="color: var(--danger);"><i class="fa-solid fa-circle-xmark"></i> Network Error</span>
+                    <div style="margin-top: 4px; font-size: 12px; color: var(--text-muted);">${err.message}</div>
+                `;
+                extMediaIdGroup.style.display = "block";
+            } finally {
+                validateExternalForm();
+            }
+        }, 800);
+    }
+
+    extPostUrlInput.addEventListener("input", handleUrlChange);
+    extMediaIdInput.addEventListener("input", handleUrlChange);
+
+    // Textarea input char count and validation
+    extPostTextInput.addEventListener("input", () => {
+        const len = extPostTextInput.value.length;
+        extPostTextCharCount.textContent = `${len} characters`;
+        validateExternalForm();
+    });
+
+    // Trigger External Reply POST
+    btnTriggerExternalReply.addEventListener("click", async () => {
+        const url = extPostUrlInput.value.trim();
+        const mediaId = extMediaIdInput.value.trim();
+        const postText = extPostTextInput.value.trim();
+
+        // 1. Show loading state in button
+        btnTriggerExternalReply.disabled = true;
+        btnTriggerExternalReply.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Simulating Typing & Publishing...`;
+        
+        extPostUrlInput.disabled = true;
+        extMediaIdInput.disabled = true;
+        extPostTextInput.disabled = true;
+
+        appendTerminalLine("[System] Starting manual external reply generation sequence...", "info");
+        appendTerminalLine(`[System] Jitter typing delay of 10-30 seconds active...`, "warning");
+
+        try {
+            const resp = await fetch("/api/replies/external", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    url: url,
+                    media_id: mediaId,
+                    post_text: postText,
+                    author_username: resolvedUsername || "creator"
+                })
+            });
+            const data = await resp.json();
+
+            if (resp.ok) {
+                showToast("External post reply published successfully!", "success");
+                appendTerminalLine(`[Success] Reply published! Post ID: ${data.media_id}, Reply Thread ID: ${data.thread_id}`, "success");
+                appendTerminalLine(`[Gemini Reply] "${data.reply_text}"`, "info");
+                
+                // Clear fields
+                extPostUrlInput.value = "";
+                extMediaIdInput.value = "";
+                extPostTextInput.value = "";
+                extPostTextCharCount.textContent = "0 characters";
+                extPreviewStatus.style.display = "none";
+                extPreviewStatus.innerHTML = "";
+                extMediaIdGroup.style.display = "none";
+                resolvedUsername = "";
+                
+                // Reload replies history
+                loadRepliesHistory();
+            } else {
+                showToast(`Failed to post reply: ${data.error}`, "error");
+                appendTerminalLine(`[Error] ${data.error}`, "error");
+            }
+        } catch (err) {
+            showToast(`Network error posting reply: ${err.message}`, "error");
+            appendTerminalLine(`[Error] Network error during fetch: ${err.message}`, "error");
+        } finally {
+            // Restore input states
+            extPostUrlInput.disabled = false;
+            extMediaIdInput.disabled = false;
+            extPostTextInput.disabled = false;
+            
+            btnTriggerExternalReply.innerHTML = `<i class="fa-solid fa-reply"></i> Generate & Post Reply`;
+            validateExternalForm();
         }
     });
 

@@ -116,7 +116,7 @@ def run_post(topic: str = None, force: bool = False) -> str:
     """
     print("=" * 60)
     print(
-        f"Threads Auto-Poster Bot Execution Started: "
+        f"Thread Manager for Cybersecurity Execution Started: "
         f"{datetime.now(timezone.utc).isoformat()} UTC"
     )
     print("=" * 60)
@@ -205,7 +205,7 @@ def main():
     sys.stdout = Tee(log_file)
     sys.stderr = sys.stdout
 
-    parser = argparse.ArgumentParser(description="Threads Auto-Poster Bot")
+    parser = argparse.ArgumentParser(description="Thread Manager for Cybersecurity")
     parser.add_argument(
         "topic",
         nargs="?",

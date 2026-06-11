@@ -99,7 +99,7 @@ def run_thought(force: bool = False) -> str:
     """
     print("=" * 60)
     print(
-        f"Threads Daily Thought Bot Execution Started: "
+        f"Thread Manager for Cybersecurity Execution Started: "
         f"{datetime.now(timezone.utc).isoformat()} UTC"
     )
     print("=" * 60)
@@ -158,7 +158,7 @@ def main():
     sys.stdout = Tee(log_file)
     sys.stderr = sys.stdout
 
-    parser = argparse.ArgumentParser(description="Threads Daily Thought Bot")
+    parser = argparse.ArgumentParser(description="Thread Manager for Cybersecurity")
     parser.add_argument(
         "--force",
         action="store_true",

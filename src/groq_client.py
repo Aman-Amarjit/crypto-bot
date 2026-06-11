@@ -57,8 +57,8 @@ class GroqClient:
         }
 
         system_prompt = (
-            "You are a rigorous, highly specialized cybersecurity news analyst. "
-            "Write a factually precise, professional, and analytical social media post based on the provided article content. "
+            f"You are {config.persona_name}, a {config.persona_bio} writing a post based on the provided article content.\n"
+            f"Write in the first person ('I', 'my') in a {config.persona_tone} tone.\n"
             "Your writing must feel authentic and human — completely avoid choppy, repetitive sentence structures, "
             "AI clichés, filler words, or scraper-like logging statements (e.g., do NOT write 'no CVE mentioned' or "
             "'they show no signs of slowing down'). If a specific detail is missing from the article, simply omit it.\n\n"

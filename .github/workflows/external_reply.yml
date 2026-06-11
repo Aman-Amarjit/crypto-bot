@@ -1,12 +1,19 @@
-name: Threads Daily Thought
+name: Threads Manual External Reply
 
 on:
-  schedule:
-    - cron: '15 8 * * *'  # Daily at 1:45 PM IST (8:15 AM UTC)
-  workflow_dispatch:       # Allows manual trigger
+  workflow_dispatch:
+    inputs:
+      post_url:
+        description: 'Threads Post URL to reply to'
+        required: true
+        type: string
+      post_text:
+        description: 'Text content of the post (for context)'
+        required: true
+        type: string
 
 jobs:
-  post_thought:
+  reply:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -34,32 +41,30 @@ jobs:
           restore-keys: |
             bot-data-
 
-      - name: Post daily thought
+      - name: Run replies checker script
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
-        run: python thought.py
+        run: python reply.py --external-url "${{ github.event.inputs.post_url }}" --external-text "${{ github.event.inputs.post_text }}"
 
       - name: Commit and Push Updated Data Files
         if: always()
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add data/bot.db data/history.json data/thought_history.json data/question_history.json data/bot.log || true
+          git add data/bot.db data/bot.log || true
           if ! git diff --cached --quiet; then
-            git commit -m "chore: auto-update bot data and history [skip ci]"
+            git commit -m "chore: auto-update manual reply logs [skip ci]"
             git pull origin main --rebase -X theirs
             git push origin main
-          else
-            echo "No data changes to commit."
           fi
 
       - name: Ensure Cache Files Exist
         if: always()
         run: |
           mkdir -p data
-          touch data/bot.db data/history.json data/thought_history.json data/question_history.json
+          touch data/bot.db
 
       - name: Save Bot Data Cache
         uses: actions/cache/save@v4
