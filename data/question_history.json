@@ -8,5 +8,10 @@
     "timestamp": "2026-06-10T16:06:29.271437+00:00",
     "question": "What strategies are you employing to prevent credential exposure in CI/CD pipelines using environment variables and secrets management tools?",
     "post_id": "18108183802783688"
+  },
+  {
+    "timestamp": "2026-06-11T16:20:00.447639+00:00",
+    "question": "What strategies are you using to prevent Docker container escape vulnerabilities in your Kubernetes deployments?",
+    "post_id": "18405944875154937"
   }
 ]
