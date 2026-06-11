@@ -1056,3 +1056,26 @@ Daily Question Posted Successfully!
 Post ID: 18405944875154937
 Timestamp: 2026-06-11T16:20:00.447857+00:00 UTC
 ============================================================
+[2026-06-11T17:08:32.723598] Organic check scheduled. Delaying startup for 884s (max 15 mins)...
+============================================================
+Threads Comment-Reply Runner Execution Started: 2026-06-11T17:23:16.723847+00:00 UTC
+============================================================
+Migrating sqlite: adding is_external column to replied_comments table...
+============================================================
+Starting Comments Auto-Reply Routine...
+============================================================
+Logged in as: @amanamarjit8
+Successful organic replies in the last 24 hours: 0/20
+Retrieved 5 latest threads for scanning.
+[1/5] Checking conversation for thread ID: 18405944875154937...
+[2/5] Checking conversation for thread ID: 18115463704847586...
+[3/5] Checking conversation for thread ID: 18107618524970821...
+[4/5] Checking conversation for thread ID: 18106445917785286...
+[5/5] Checking conversation for thread ID: 18108183802783688...
+============================================================
+Comments Auto-Reply Routine Completed. Published 0 replies.
+============================================================
+============================================================
+Comment-Reply Execution Completed Successfully!
+Timestamp: 2026-06-11T17:23:18.772713+00:00 UTC
+============================================================
