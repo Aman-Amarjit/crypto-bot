@@ -124,5 +124,15 @@
     "post_id": "18115463704847586",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-11T18:28:23.190373+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The Log4Shell vulnerability has shown how LLM jailbreaks can be triggered by exploiting input validation weaknesses, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/). This raises concerns about the security of language models, can your team mitigate LLM jailbreaks by implementing robust input validation mechanisms?",
+    "image_prompt": "abstract schematic of a wireframe topology representing LLM jailbreak vulnerabilities, with a system block diagram featuring dark navy background, cyan and white lines, and red alert nodes indicating potential breach points, no text characters or legible labels",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781202490/threads_bot/yjbq0sj9kha369lizo1m.png",
+    "post_id": "18094008982986373",
+    "source_url": "",
+    "source_title": ""
   }
 ]
