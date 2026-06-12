@@ -134,5 +134,15 @@
     "post_id": "18094008982986373",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-12T08:00:46.433711+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "Microsoft has fixed a BitLocker recovery bug on Windows Server 2025, which was causing some devices to boot into recovery mode after installing the April 2026 security update, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/). The issue was triggered by specific Trusted Platform Module validation settings, including invalid PCR7 configurations. How are you verifying the PCR7 profile in your BitLocker bindings to prevent similar issues?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing the BitLocker recovery bug on Windows Server 2025, including system block diagram elements and no text characters or legible labels, focusing on the interaction between the Trusted Platform Module and BitLocker bindings",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781251235/threads_bot/kdnn6ejiqymtllb4mn9a.png",
+    "post_id": "18067891544389941",
+    "source_url": "",
+    "source_title": ""
   }
 ]

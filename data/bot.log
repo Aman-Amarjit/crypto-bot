@@ -1162,3 +1162,76 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-11T20:12:42.991589+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-12T08:00:00.635985+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'CERT-In advisories security'
+Requesting content generation for topic: 'CERT-In advisories security'...
+Fetching latest news headlines from Google News for query: 'CERT-In advisories security (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxOdXNTYVUyQWRhb0UtS2FwSWVwZWd1eThHcS1CRHRtMF9CbTVJQWdsNzFnbnQ2RldWc20ycHUyUERTaW1OUzFrMUxYY2ZjM2kxUlVBWjhMZzE4U1ZjZDNTRkU0SXpORXppWjA4WnFpc2dKVW5TdGRXV2Z2MlZVOU94TFpNTnF1MmlFY2tsQy1qbXp6RXRpTFVKWUNaNTd5eGtQcEV5R1c2ZXJLd2hBY1lR0gG0AUFVX3lxTE8yeTZZZ3hvXzdPdUd3OTRMUWJfQTFhQ0FZUUozdEw1T0xVck9RbDYtNkJ4Rmx5alU1T0VyWFczalkzc2FydlliQWdTWk04cVFQX3hTZ3NPZmFyYmxRdWxfVkVGVlY2YjJqTURDUjFGVHBwN0xZTmdweEVFbDViV1JCYWtBOENRaS1KXzkxT2lURTMwS0otOEtGQXRYYzF0YzdnanBsclp3b0d2LXpRS2cyanlCaQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitwFBVV95cUxQczlvLWtYN3BhTzMtOC1JVExFbXJCV0s4NmNZeGFVcDR1RFp5d1YxZ0hCRHpBY1RiQmZiWjdoWnU1VEpUbWlnamM4aFhNcnprenNXMWs1dnljRTl2LTFRdS0yUnZCdUFfV3o3SnRyeGw3LVFHSUpoMFBwNHlHc3lIb1VfQk1nTEVnT081c3JReHlSRF9KR1N2Q3ZmQWZSSzdPb2w1YjhJVGZTZHJZcTdqdHNHVW1PSTjSAbwBQVVfeXFMTldqcXlBR2RGOGRvRnphd2d6R1lxWWpzVTV4NjlGT3psUWExQ1JlSV9iOURFeWNkdkE5OHVEZU1CbEg1MnhXOVR1MF9oeGpLc0pLaWVPMXNHWFc1dUgzYVp4OU1TOGxLaFRnWHR3VXRrNkhSTnd0MUh2cDY5MkRBeE5fTUJfOTBtUjV0NFJIZ3p1WEhEQXk5anRiS3VTLXhCdTZkSUdLTTM2ckxDRERlb3Zoc0tBZkh5UzdvT00?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoeGNoMURITHU3Ym9YLXZvTUk0cTQ3SGIxdk8wUnlJeVNyVjFrQjlMLTk3RlVrTWloZXhENWpPMjRxcGRVelk3a2lRTHBQb1VNNlh6MFFEQnRidw?oc=5
+Decoded successfully to: https://awards.thehackernews.com/winners/2026/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWWN4X2NiOWs0WnZWck9SVERyOXZKU2tOLVdoaXhtb29WYmN2UGxEOUdKT1o1bTNWNnI3NE1TbjlSZWVDZVlTb2Q0VVRnNDVnc1pSVl9yTGFhQ01GM1pYZERYdUgtTXZTOW5RVnluUXhKYjhzVDJlWGpJTFU1dDRsUTNzZFZRdk42?oc=5
+Decoded successfully to: https://awards.thehackernews.com/winners/2026/outpost24-cyberflex-managed-appsec/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipAFBVV95cUxQX3VBR3cwV3FuMlMwa0I4MDJicDFVZzNhR1JwUUR3Z3c2cmdqbVRhZVFaX0VLMUdLZUI0QXItY09XUHNrblJYUkxXTGMyOVROYVpLNVYtR01wM1dQNWVwNHNFc0FOSDdNZWNwSW42Z2Qxd24zWVFQd3IxQkx6RlpCdHk5Wl80bWFabERDV25nQTdIQk4xN2FHSDlmd1NrM3VQQ3lsNA?oc=5
+Decoded successfully to: https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Microsoft has fixed a BitLocker recovery bug on Windows Server 2025, which was causing some devices to boot into recovery mode after installing the April 2026 security update, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/). The issue was triggered by specific Trusted Platform Module validation settings, including invalid PCR7 configurations. How are you verifying the PCR7 profile in your BitLocker bindings to prevent similar issues?
+  - Image Prompt: Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing the BitLocker recovery bug on Windows Server 2025, including system block diagram elements and no text characters or legible labels, focusing on the interaction between the Trusted Platform Module and BitLocker bindings
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20the%20BitLocker%20recovery%20bug%20on%20Windows%20Server%202025%2C%20including%20system%20block%20diagram%20elements%20and%20no%20text%20characters%20or%20legible%20labels%2C%20focusing%20on%20the%20interaction%20between%20the%20Trusted%20Platform%20Module%20and%20BitLocker%20bindings?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'flux' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20the%20BitLocker%20recovery%20bug%20on%20Windows%20Server%202025%2C%20including%20system%20block%20diagram%20elements%20and%20no%20text%20characters%20or%20legible%20labels%2C%20focusing%20on%20the%20interaction%20between%20the%20Trusted%20Platform%20Module%20and%20BitLocker%20bindings?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20the%20BitLocker%20recovery%20bug%20on%20Windows%20Server%202025%2C%20including%20system%20block%20diagram%20elements%20and%20no%20text%20characters%20or%20legible%20labels%2C%20focusing%20on%20the%20interaction%20between%20the%20Trusted%20Platform%20Module%20and%20BitLocker%20bindings?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[Cloudflare] Successfully generated image via Workers AI SDXL!
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1781251235/threads_bot/kdnn6ejiqymtllb4mn9a.png
+Initiating Threads publication...
+⚠️ Warning: Caption length (536) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18100114549933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18067891544389941
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18067891544389941
+Timestamp: 2026-06-12T08:00:46.434139+00:00 UTC
+============================================================
