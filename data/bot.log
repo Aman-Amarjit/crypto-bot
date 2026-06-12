@@ -1348,3 +1348,31 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-12T12:53:25.953741+00:00 UTC
 ============================================================
+============================================================
+Threads Daily Question Bot Execution Started: 2026-06-12T15:37:08.220089+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Generating daily question via Groq...
+
+Generated Question:
+  What strategies are you employing to prevent credential exposure in containerized environments using tools like Docker and Kubernetes?
+
+Publishing question post to Threads...
+Creating Threads text container...
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Daily Question Bot Failed with Error:
+500 Server Error: Internal Server Error for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYlpGTjRTak1POG5acEtxa1RTUnZAEVDloT3o4ZAUFXMFpqa0FXWk1fR1IyZAS02cExlWGxjUUNReW4zT2N0czM5MUdJNTVsV2owOWwxd05tYWdPc25ydVlTaW52X1BrWWVkZA0owR0FrcW8zc2dNQjJvNjdLVnpYaE5sbXdUd0tVd1Rnb3VlRXMZD
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/question.py", line 156, in main
+    run_question(force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/question.py", line 126, in run_question
+    post_id = threads.publish_text_post(question, is_ghost_post=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/threads_client.py", line 139, in publish_text_post
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYlpGTjRTak1POG5acEtxa1RTUnZAEVDloT3o4ZAUFXMFpqa0FXWk1fR1IyZAS02cExlWGxjUUNReW4zT2N0czM5MUdJNTVsV2owOWwxd05tYWdPc25ydVlTaW52X1BrWWVkZA0owR0FrcW8zc2dNQjJvNjdLVnpYaE5sbXdUd0tVd1Rnb3VlRXMZD
