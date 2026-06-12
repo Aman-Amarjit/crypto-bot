@@ -144,5 +144,15 @@
     "post_id": "18067891544389941",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-12T12:29:46.840619+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "Indian startups have faced significant data breaches due to vulnerabilities like SQL injection, as documented by The Hacker News (https://thehackernews.com), which can expose sensitive user data. Notably, the 2019 breach at Indian firm JusPay highlighted the importance of input validation. How are you validating user input in your startup's database interactions?",
+    "image_prompt": "Abstract schematic of a wireframe topology with a system block diagram, featuring dark navy background, cyan and white lines, and red alert nodes, representing a breached database with no text characters or legible labels",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781267373/threads_bot/k8di4h6frvjcnapyfefv.png",
+    "post_id": "18361404811233894",
+    "source_url": "",
+    "source_title": ""
   }
 ]
