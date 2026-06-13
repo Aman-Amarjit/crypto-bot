@@ -13,5 +13,10 @@
     "timestamp": "2026-06-11T16:20:00.447639+00:00",
     "question": "What strategies are you using to prevent Docker container escape vulnerabilities in your Kubernetes deployments?",
     "post_id": "18405944875154937"
+  },
+  {
+    "timestamp": "2026-06-13T06:07:39.450600+00:00",
+    "question": "What strategies are you employing to prevent and detect container escape exploits in Kubernetes environments?",
+    "post_id": "18124142197639857"
   }
 ]
