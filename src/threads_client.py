@@ -2,9 +2,52 @@ import time
 import requests
 from src.config import config
 
+MAX_RETRIES = 3
+RETRY_STATUS_CODES = {500, 502, 503, 504}
+BASE_BACKOFF = 2  # seconds, doubles each attempt
+
 class ThreadsClient:
     def __init__(self):
         self.base_url = "https://graph.threads.net/v1.0"
+        
+    def _request_with_retry(self, method: str, url: str, **kwargs) -> requests.Response:
+        """
+        Executes an HTTP request with exponential backoff retries on specific status codes
+        and connection/timeout errors. Logs response details on failure.
+        """
+        attempt = 0
+        backoff = BASE_BACKOFF
+        
+        while True:
+            attempt += 1
+            try:
+                response = requests.request(method, url, **kwargs)
+                
+                # Check status code
+                if response.status_code < 400 or response.status_code not in RETRY_STATUS_CODES:
+                    return response
+                
+                print(f"⚠️ Request to {url} returned status code {response.status_code} on attempt {attempt}/{MAX_RETRIES + 1}.")
+                if attempt > MAX_RETRIES:
+                    print(f"Detailed Error Body from Threads API: {response.text}")
+                    response.raise_for_status()
+                    
+            except requests.exceptions.HTTPError as e:
+                # This is the HTTPError raised by response.raise_for_status() above.
+                raise e
+            except requests.exceptions.RequestException as e:
+                # This catches other RequestExceptions like ConnectionError and Timeout.
+                if isinstance(e, (requests.exceptions.ConnectionError, requests.exceptions.Timeout)):
+                    print(f"⚠️ Connection/Timeout error during request to {url} on attempt {attempt}/{MAX_RETRIES + 1}: {e}")
+                    if attempt > MAX_RETRIES:
+                        raise e
+                else:
+                    raise e
+            
+            # Wait with exponential backoff
+            print(f"Waiting {backoff} seconds before retrying...")
+            time.sleep(backoff)
+            backoff *= 2
         
     def publish_post(self, image_url: str, caption: str) -> str:
         """
@@ -31,7 +74,7 @@ class ThreadsClient:
         }
 
         print("Creating Threads media container...")
-        response = requests.post(container_url, params=query_params, data=payload, timeout=30)
+        response = self._request_with_retry("POST", container_url, params=query_params, data=payload, timeout=30)
         try:
             response.raise_for_status()
         except requests.exceptions.HTTPError as e:
@@ -61,7 +104,7 @@ class ThreadsClient:
         
         for attempt in range(1, max_attempts + 1):
             print(f"Checking container status (Attempt {attempt}/{max_attempts})...")
-            status_response = requests.get(status_url, params=status_params, timeout=30)
+            status_response = self._request_with_retry("GET", status_url, params=status_params, timeout=30)
             try:
                 status_response.raise_for_status()
             except requests.exceptions.HTTPError as e:
@@ -94,7 +137,7 @@ class ThreadsClient:
         publish_payload = {"creation_id": container_id}
 
         print("Publishing container to Threads...")
-        publish_response = requests.post(publish_url, params=publish_query, data=publish_payload, timeout=30)
+        publish_response = self._request_with_retry("POST", publish_url, params=publish_query, data=publish_payload, timeout=30)
         try:
             publish_response.raise_for_status()
         except requests.exceptions.HTTPError as e:
@@ -135,8 +178,12 @@ class ThreadsClient:
             payload["is_ghost_post"] = "true"
 
         print("Creating Threads text container...")
-        response = requests.post(container_url, params=query_params, data=payload, timeout=30)
-        response.raise_for_status()
+        response = self._request_with_retry("POST", container_url, params=query_params, data=payload, timeout=30)
+        try:
+            response.raise_for_status()
+        except requests.exceptions.HTTPError as e:
+            print(f"Threads API Error Details during text container creation: {response.text}")
+            raise e
 
         container_data = response.json()
         container_id = container_data.get("id")
@@ -161,8 +208,12 @@ class ThreadsClient:
 
         for attempt in range(1, max_attempts + 1):
             print(f"Checking container status (Attempt {attempt}/{max_attempts})...")
-            status_response = requests.get(status_url, params=status_params, timeout=30)
-            status_response.raise_for_status()
+            status_response = self._request_with_retry("GET", status_url, params=status_params, timeout=30)
+            try:
+                status_response.raise_for_status()
+            except requests.exceptions.HTTPError as e:
+                print(f"Threads API Error Details during status polling: {status_response.text}")
+                raise e
 
             status_data = status_response.json()
             status = status_data.get("status")
@@ -190,8 +241,12 @@ class ThreadsClient:
         publish_payload = {"creation_id": container_id}
 
         print("Publishing text post to Threads...")
-        publish_response = requests.post(publish_url, params=publish_query, data=publish_payload, timeout=30)
-        publish_response.raise_for_status()
+        publish_response = self._request_with_retry("POST", publish_url, params=publish_query, data=publish_payload, timeout=30)
+        try:
+            publish_response.raise_for_status()
+        except requests.exceptions.HTTPError as e:
+            print(f"Threads API Error Details during text publication: {publish_response.text}")
+            raise e
 
         publish_data = publish_response.json()
         post_id = publish_data.get("id")
