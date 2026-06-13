@@ -174,5 +174,15 @@
     "post_id": "18114452854898908",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-13T11:24:43.362343+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "ShinyHunters exploited a zero-day vulnerability in Oracle's PeopleSoft software, specifically in the Environment Management Hub, allowing for remote code execution without authentication, as documented by Dark Reading (https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed). This vulnerability, now labeled CVE-2026-35273, has a critical 9.8 CVSS score. How can organizations better monitor their PeopleSoft instances for similar exploits?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes, representing a system block diagram of the ShinyHunters zero-day exploit, with no text characters or legible labels, showcasing the flow of remote code execution and data exfiltration through MeshCentral and the Zstandard compression algorithm.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781349873/threads_bot/qlp9kpabcpbotvpattmo.png",
+    "post_id": "18097448500929148",
+    "source_url": "",
+    "source_title": ""
   }
 ]
