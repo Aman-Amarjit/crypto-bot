@@ -18,5 +18,10 @@
     "timestamp": "2026-06-13T06:07:39.450600+00:00",
     "question": "What strategies are you employing to prevent and detect container escape exploits in Kubernetes environments?",
     "post_id": "18124142197639857"
+  },
+  {
+    "timestamp": "2026-06-13T14:23:30.071599+00:00",
+    "question": "What strategies are you employing to prevent lateral movement in Kubernetes clusters via compromised service accounts?",
+    "post_id": "17971863297025714"
   }
 ]
