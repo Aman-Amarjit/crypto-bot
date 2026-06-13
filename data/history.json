@@ -184,5 +184,15 @@
     "post_id": "18097448500929148",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-13T16:44:37.592923+00:00",
+    "topic": "government cyber regulations",
+    "caption": "The US government has ordered Anthropic to shut down its Mythos models due to national security concerns, as documented by Wired (https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/). The models were allegedly vulnerable to a 'jailbreaking' technique, allowing attackers to bypass safeguards and exploit the AI for malicious purposes. How will this incident impact the development of AI-powered cybersecurity tools?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes, representing the shutdown of Anthropic's Mythos models, with system block diagram elements and no text characters or legible labels, showcasing the complex network interactions and potential vulnerabilities in a simplified, high-level view.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781369065/threads_bot/vwpuwdatcoyl6bspxq8a.png",
+    "post_id": "17872710081616323",
+    "source_url": "",
+    "source_title": ""
   }
 ]
