@@ -30,7 +30,7 @@ jobs:
         with:
           path: |
             data/bot.db
-          key: bot-data-${{ github.run_id }}
+          key: bot-data-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
             bot-data-
 
@@ -75,4 +75,4 @@ jobs:
         with:
           path: |
             data/bot.db
-          key: bot-data-${{ github.run_id }}
+          key: bot-data-${{ github.run_id }}-${{ github.run_attempt }}
