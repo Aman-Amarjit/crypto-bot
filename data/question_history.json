@@ -23,5 +23,10 @@
     "timestamp": "2026-06-13T14:23:30.071599+00:00",
     "question": "What strategies are you employing to prevent lateral movement in Kubernetes clusters via compromised service accounts?",
     "post_id": "17971863297025714"
+  },
+  {
+    "timestamp": "2026-06-14T14:26:44.159737+00:00",
+    "question": "What strategies are you employing to prevent credential exposure in containerized environments using tools like Docker and Kubernetes?",
+    "post_id": "18099834023180597"
   }
 ]
