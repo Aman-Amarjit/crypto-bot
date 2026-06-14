@@ -196,12 +196,12 @@
     "source_title": ""
   },
   {
-    "timestamp": "2026-06-14T12:51:31.794013+00:00",
+    "timestamp": "2026-06-14T13:24:46.494461+00:00",
     "topic": "hacking incidents",
-    "caption": "A critical Splunk Enterprise flaw, tracked as CVE-2026-20253, allows attackers to run code without authentication by exploiting the PostgreSQL sidecar service endpoint, as documented by The Hacker News (https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html). This vulnerability enables unauthenticated file operations and remote code execution. How can you protect your Splunk setup from this pre-authenticated remote code execution vulnerability?",
-    "image_prompt": "Abstract schematic of a wireframe topology with dark navy background, cyan and white lines, and red alert nodes, representing a system block diagram with no text characters or legible labels, focusing on the PostgreSQL sidecar service endpoint and Splunk Enterprise components, with an emphasis on the unauthenticated file operations and remote code execution flow",
-    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781441479/threads_bot/abiqlt1mpxw1twdkuxsu.png",
-    "post_id": "18005176148930413",
+    "caption": "Chinese hackers hijacked an organization's authentication stack for 10 years, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/), by exploiting internet-facing systems and pivoting to an air-gapped environment using a custom SOCKS5 proxy. They modified Linux Pluggable Authentication Modules to accept hardcoded passwords, how can your team detect similar PAM module backdoors?",
+    "image_prompt": "abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing the hijacked authentication stack, including compromised internet-facing servers, custom SOCKS5 proxy, and modified Linux Pluggable Authentication Modules, with no text characters or legible labels, showcasing the threat actor's remote-execution path into the isolated network",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781443473/threads_bot/mv16xnrlihbz9daespo4.png",
+    "post_id": "18075511967657260",
     "source_url": "",
     "source_title": ""
   }
