@@ -1928,40 +1928,68 @@ Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-14T08:12:00.028731+00:00 UTC
 ============================================================
 ============================================================
-Thread Manager for Cybersecurity Execution Started: 2026-06-14T11:32:07.184076+00:00 UTC
+Thread Manager for Cybersecurity Execution Started: 2026-06-14T12:50:51.486065+00:00 UTC
 ============================================================
 Validating environment configuration...
 Configuration validated successfully.
-⚠️  A post was published 221 min ago (from data/thought_history.json). Use --force to override.
-🛑 Skipping run to avoid spammy posting. Use --force to override.
+Using rotating topic: 'hacking incidents'
+Requesting content generation for topic: 'hacking incidents'...
+Fetching latest news headlines from Google News for query: 'hacking incidents (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXp0SkhYMmp6R2o5VGFtMEFSQTcwbWRpaHFDejZSTzNKNVJ3WHdiY3pWc2xzdWdibW50QUExemlrVWJuSmVYNXpXcXhBWUxfSDlRMmxuSHlPcWNTb2RlVTZQNUVhRmt5djh4VE8zaVRkQkVZVVB5OVZHc3FsVDdNRg?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcFBlUkVMUkZJN1FMOVpZUlJkc1dvRkNJWVY3al9qNjB4bExRNnNaOFpUcVR5aTdGVjloLXMyTWlDdDc2aTA3eUxGT1djUEM0Wm1iTWdiaFczVUdyQlVEb3ZVYmNiS2YydmdBWGk3WGZlRTUtdzhhSENvTkg0SFQtNFBhRzUxVFZwY1RMZENSekFDd2pLcGk4dHU2MWlXaWNTRXdtODd2LWo0SmUzYWRvdVBWZ1l0V0Zx0gG-AUFVX3lxTE9HMVZlcFVIRTQzc214dWZiWFJhb1ZGSWtEanVNWGNXOG1HS2RKYzg4dE1naVF1ZEpwNmppMnhyOWdOUnFIazFRamhEcjgzZzBpUWRpTmFHVVREcE9DUFhHcU91dkFZcXFtdC1LRHJEcU1SYzJURkNSVmFULW1FVnFseWY3dHh5NlpTQWtEal9oX2Z4aTBWZkRaWXZpUU83amxDdnQ4Smo5MnR4VUFMVEwtNHdjODhYRE1JZndkanc?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: A critical Splunk Enterprise flaw, tracked as CVE-2026-20253, allows attackers to run code without authentication by exploiting the PostgreSQL sidecar service endpoint, as documented by The Hacker News (https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html). This vulnerability enables unauthenticated file operations and remote code execution. How can you protect your Splunk setup from this pre-authenticated remote code execution vulnerability?
+  - Image Prompt: Abstract schematic of a wireframe topology with dark navy background, cyan and white lines, and red alert nodes, representing a system block diagram with no text characters or legible labels, focusing on the PostgreSQL sidecar service endpoint and Splunk Enterprise components, with an emphasis on the unauthenticated file operations and remote code execution flow
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%2C%20representing%20a%20system%20block%20diagram%20with%20no%20text%20characters%20or%20legible%20labels%2C%20focusing%20on%20the%20PostgreSQL%20sidecar%20service%20endpoint%20and%20Splunk%20Enterprise%20components%2C%20with%20an%20emphasis%20on%20the%20unauthenticated%20file%20operations%20and%20remote%20code%20execution%20flow?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'flux' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%2C%20representing%20a%20system%20block%20diagram%20with%20no%20text%20characters%20or%20legible%20labels%2C%20focusing%20on%20the%20PostgreSQL%20sidecar%20service%20endpoint%20and%20Splunk%20Enterprise%20components%2C%20with%20an%20emphasis%20on%20the%20unauthenticated%20file%20operations%20and%20remote%20code%20execution%20flow?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%2C%20representing%20a%20system%20block%20diagram%20with%20no%20text%20characters%20or%20legible%20labels%2C%20focusing%20on%20the%20PostgreSQL%20sidecar%20service%20endpoint%20and%20Splunk%20Enterprise%20components%2C%20with%20an%20emphasis%20on%20the%20unauthenticated%20file%20operations%20and%20remote%20code%20execution%20flow?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[Cloudflare] Successfully generated image via Workers AI SDXL!
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1781441479/threads_bot/abiqlt1mpxw1twdkuxsu.png
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18100496905933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18005176148930413
+Saving execution metadata to history log...
 ============================================================
-============================================================
-Thread Manager for Cybersecurity Execution Started: 2026-06-14T11:36:26.984371+00:00 UTC
-============================================================
-Validating environment configuration...
-Configuration validated successfully.
-⚠️  A post was published 225 min ago (from data/thought_history.json). Use --force to override.
-🛑 Skipping run to avoid spammy posting. Use --force to override.
-============================================================
-[2026-06-14T11:45:36.031192] Organic check scheduled. Delaying startup for 623s (max 15 mins)...
-============================================================
-Threads Comment-Reply Runner Execution Started: 2026-06-14T11:55:59.031420+00:00 UTC
-============================================================
-============================================================
-Starting Comments Auto-Reply Routine...
-============================================================
-Logged in as: @amanamarjit8
-Successful organic replies in the last 24 hours: 0/20
-Retrieved 5 latest threads for scanning.
-[1/5] Checking conversation for thread ID: 17872710081616323...
-[2/5] Checking conversation for thread ID: 17971863297025714...
-[3/5] Checking conversation for thread ID: 18097448500929148...
-[4/5] Checking conversation for thread ID: 18114452854898908...
-[5/5] Checking conversation for thread ID: 18124142197639857...
-============================================================
-Comments Auto-Reply Routine Completed. Published 0 replies.
-============================================================
-============================================================
-Comment-Reply Execution Completed Successfully!
-Timestamp: 2026-06-14T11:56:01.133701+00:00 UTC
+Execution Completed Successfully!
+Published Post ID: 18005176148930413
+Timestamp: 2026-06-14T12:51:31.794443+00:00 UTC
 ============================================================
