@@ -28,5 +28,10 @@
     "timestamp": "2026-06-14T14:26:44.159737+00:00",
     "question": "What strategies are you employing to prevent credential exposure in containerized environments using tools like Docker and Kubernetes?",
     "post_id": "18099834023180597"
+  },
+  {
+    "timestamp": "2026-06-15T17:27:12.318013+00:00",
+    "question": "How do you validate and enforce least privilege principles in microservices architectures using service mesh and fine-grained access control mechanisms?",
+    "post_id": "18083278850561621"
   }
 ]
