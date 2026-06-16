@@ -33,5 +33,10 @@
     "timestamp": "2026-06-15T17:27:12.318013+00:00",
     "question": "How do you validate and enforce least privilege principles in microservices architectures using service mesh and fine-grained access control mechanisms?",
     "post_id": "18083278850561621"
+  },
+  {
+    "timestamp": "2026-06-16T17:20:22.085585+00:00",
+    "question": "What strategies are you employing to detect and prevent namespace shadowing attacks in your containerized environments?",
+    "post_id": "17955007571985038"
   }
 ]
