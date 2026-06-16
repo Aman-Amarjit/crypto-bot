@@ -214,5 +214,15 @@
     "post_id": "18081542189209993",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-16T08:54:02.773051+00:00",
+    "topic": "cyber warfare",
+    "caption": "The US government has banned foreign nationals from accessing Anthropic's Fable 5 and Mythos 5 AI models due to concerns over their potential misuse in cyber warfare, as documented by Dark Reading (https://www.darkreading.com/cyber-risk/us-cracks-down-anthropic-ai-models-abuse-concerns). These models can reportedly find and exploit vulnerabilities at a level approaching human researchers. How will this restriction impact the development of AI-powered attack chains?",
+    "image_prompt": "Abstract schematic of a wireframe topology with dark navy background, cyan and white lines, and red alert nodes representing AI models and cyberattack chains, showcasing system block diagram with no text characters or legible labels, highlighting the intersection of AI and cyber warfare",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781600031/threads_bot/hbdnzfbczjmxbm79mh4x.png",
+    "post_id": "18593243053054971",
+    "source_url": "",
+    "source_title": ""
   }
 ]
