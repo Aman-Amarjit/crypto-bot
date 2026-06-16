@@ -2387,3 +2387,52 @@ Daily Question Posted Successfully!
 Post ID: 17955007571985038
 Timestamp: 2026-06-16T17:20:22.085882+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-16T18:58:01.740538+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI used for cyberattacks'
+Requesting content generation for topic: 'AI used for cyberattacks'...
+Fetching latest news headlines from Google News for query: 'AI used for cyberattacks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMingFBVV95cUxPV1RuSTdSd3FnNGgtNDZLVXNFTG56WDdjY1pxeFQ1UkxWVEZpNEpDR3BabFNvdThzdFEtbGQwRmZ3VnNkbGpsYlJhWG01X0VtTW1GQ1QtYXFBWVZhcXN2ZHFsNEVYZ0pLUTFRMWwtNEJWSEQxOVUxZ2tMOGQwNVlLSDAyV3Z4VnRabjNPQXViZmt6d1NST2FWaDRrUkEwdw?oc=5
+Decoded successfully to: https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown
+Decoding Google News URL: https://news.google.com/rss/articles/CBMinAFBVV95cUxQWG9ZWjBhNGVHb2xPbURHZ0NNa1hHV2ZDN2FXNUZEak54VnV2YWtrSHd1SWhmZUtEaUZuZ0NzaGgyNTQ4c3B2OE9UNTJkcGdSMEVjWGZGckU5ckFDbm9sQ1JTeUVyVzZ1MVNzSEJKbWxKWEU1QlBPMEpVVWY4b2dYV1VPVzN4aThoMWdHMXUtV29CNUZmVm5wWUpVRXY?oc=5
+Decoded successfully to: https://www.wired.com/story/anthropic-is-still-at-odds-with-the-white-house-over-claude-fable-5/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxPYUJpdFdmX0E3Mmt3WU02NWVKRFJjUmwyOXpVWl96SUpTWF90aU1MT1hueGhkU3BlTXNPV2F4MDRYVG5DWFJHVTg3LU1vMEg3S1ZfdHpKRkVQdGt1LUNNbGtxdXRxZTBaNU9HQzFXRmVyUWZBWWc1Q005eEZENW81bGxnMDU4b2p2eGlJcUl4d1JpVUpsc1E2WA?oc=5
+Decoded successfully to: https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE5NeGx6UUpJbDJwWDZtdmJCdU1MNmZEV29TM3BZbWU2YWdLTVFoSzR5NVdXUHRST3d5akNOMWJaRGg2WkkxaEU1OGtJTEV3RzBaQl9YR0J4eU81LURRNlJOWGpETmw0aV9LbWl1X3lKU2FYVXF2d0NUa0VmWVJJRGc?oc=5
+Decoded successfully to: https://www.wired.com/story/dangerous-ai-models-are-coming-no-matter-what/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilwFBVV95cUxORFdFQ3pVb1pqVGpuZmpIZ0tKUXhxQ2kxSFB5Q2kzdHBXYVNURVVpQXpiOEYta3d4ME1HeTY5YTUxbEJRWGVQOTI4Q0twa08wRHFuNFdLODJPTVNXYlNTSGppOWl3U29HbFQxa2g2VGxvOE5aQ2FuV20tM3JYMHNubzlrRnVybzY2Nm0wUGlqbVRnX3UtRzZj?oc=5
+Decoded successfully to: https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Anthropic's Fable 5 and Mythos 5 AI models were shut down due to potential jailbreaks that could be used in cyberattacks, as documented by The Verge (https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown). The models' capabilities, including their ability to serve information that could be used in cyberattacks, raised concerns. How can AI developers balance model safety with innovation to prevent such shutdowns?
+  - Image Prompt: Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing AI model access restrictions, showcasing a system block diagram with no text characters or legible labels, highlighting the complex relationships between AI models, government regulations, and cybersecurity threats.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20AI%20model%20access%20restrictions%2C%20showcasing%20a%20system%20block%20diagram%20with%20no%20text%20characters%20or%20legible%20labels%2C%20highlighting%20the%20complex%20relationships%20between%20AI%20models%2C%20government%20regulations%2C%20and%20cybersecurity%20threats.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1781636287/threads_bot/k1chwbfbdlk2qkffix5x.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18100887364933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18100170776332838
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18100170776332838
+Timestamp: 2026-06-16T18:58:20.743105+00:00 UTC
+============================================================

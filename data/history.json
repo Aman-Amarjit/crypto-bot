@@ -224,5 +224,15 @@
     "post_id": "18593243053054971",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-16T18:58:20.742703+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "Anthropic's Fable 5 and Mythos 5 AI models were shut down due to potential jailbreaks that could be used in cyberattacks, as documented by The Verge (https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown). The models' capabilities, including their ability to serve information that could be used in cyberattacks, raised concerns. How can AI developers balance model safety with innovation to prevent such shutdowns?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing AI model access restrictions, showcasing a system block diagram with no text characters or legible labels, highlighting the complex relationships between AI models, government regulations, and cybersecurity threats.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781636287/threads_bot/k1chwbfbdlk2qkffix5x.jpg",
+    "post_id": "18100170776332838",
+    "source_url": "",
+    "source_title": ""
   }
 ]
