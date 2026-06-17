@@ -244,5 +244,15 @@
     "post_id": "18116022715857971",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-17T12:57:34.878820+00:00",
+    "topic": "AI surveillance",
+    "caption": "Malicious JetBrains plugins are stealing AI API keys from developers, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/), by transmitting credentials to a hardcoded server over HTTP when a user clicks 'Apply' after entering an API key - how are you validating plugin security in your development environment?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing malicious plugins, AI API key theft, and JetBrains Marketplace, as a system block diagram with no text characters or legible labels",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781701043/threads_bot/hgu4fbirxw36o2vwamu7.jpg",
+    "post_id": "18095727298960352",
+    "source_url": "",
+    "source_title": ""
   }
 ]

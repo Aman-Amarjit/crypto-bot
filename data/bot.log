@@ -2526,3 +2526,52 @@ Configuration validated successfully.
 ⚠️  A post was published 235 min ago (from data/history.json). Use --force to override.
 🛑 Skipping run to avoid spammy posting. Use --force to override.
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-17T12:57:14.542349+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMivgFBVV95cUxPYnJPeGtKekVXM3dHU1lZaHBmX0x5TVh1bTQzei1ISjI5Q1FtdnBiUFFyV3hRN2dnaTJLa1lMVTVkNWFaVHdGcVpsYlg1UC04MnpxNEhPMkx4UlB1dHljZFdNNmRuZUgzTmw5anRkcU5ZVHo1LWdaRXczZmZjVXNlOHJaYTdLMkxJNWRiLW41VUJ2MTFjWEE0Y2FaN3JnQmdGU0JSdVdYOC1qRG81RjhLNWlrQXRSenF3WEtyanBB0gHDAUFVX3lxTE9Vb0hGRDVUcXVmMXhFLUt4ZlJwX1V5X2pldEt5SWtLVm5GM0dqR011cFJIVUxjeWRHUjIxemV0WHlFeGhQVnJVTzVfSjJsdC1QeHZtWHJkbmpZQU9RTGp4LTZqc3M1NTRieExTamVrZklsb21jWFQ4OW8wUU9KMkZ3YmZrcTFLYlFCWml1SWR1UVk2RXVCQ3lSWmw0NnJQVmpCOWo1QjNwOENYMXVjOXhvV29HVkVURC1uX0FySzEza2d2WQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiekFVX3lxTFB2ZEhmLWpNaXo4bzEzYkQxZTZTSzhEY0V3OUtCUHZZcEx6ZWpiZzkxbXMwQ0F0S2tIRWw0VkFOR0JHTzZoR21zX2ZOUExqRWlyOHU3UGdlRjl6UE9DRDhlMUhFTXVxUTdVUWJwejZWX0s5dzk1eXN3cVJn?oc=5
+Decoded successfully to: https://www.wired.com/story/sensi-ai-seniors-home-care-aging-in-place/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxQQkdBTms3UmpucUVDZDBMTjA4WXk0T3NwQmY1cnF1WXd1bDVRU2ZkTFF2Yi00T2pBb09SZGN5bzc5SFlMRmZRLUxvdFZBRzlxVmdhN2xhbFJvajZWcU4tbUsxZjhwQTVkUjJLUVdzUFNlam9sZ0l1SHkzZXRpcU9HU0MxQVg?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMikgFBVV95cUxPMGhwMlJPMk1IOG9GYV8tdkZSY3FyaFZQZGZHZFhsRGlLU1ZwdEZwTlZnQkZUZGF4Q1JCeXYxUU13ZFFDVi1vbVI4WWdzbjFPTUNGYVpGODJUV0RPRjdQU292YmJET3VBdG5aeUdzR3lkak5vTU54WmN3eVJ5RHdYT3dvOTNwUnpERjJUS3ZZUFIxdw?oc=5
+Decoded successfully to: https://www.darkreading.com/threat-intelligence/sprysocks-windows-variant-kernel-drivers
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilwFBVV95cUxORFdFQ3pVb1pqVGpuZmpIZ0tKUXhxQ2kxSFB5Q2kzdHBXYVNURVVpQXpiOEYta3d4ME1HeTY5YTUxbEJRWGVQOTI4Q0twa08wRHFuNFdLODJPTVNXYlNTSGppOWl3U29HbFQxa2g2VGxvOE5aQ2FuV20tM3JYMHNubzlrRnVybzY2Nm0wUGlqbVRnX3UtRzZj?oc=5
+Decoded successfully to: https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Malicious JetBrains plugins are stealing AI API keys from developers, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/), by transmitting credentials to a hardcoded server over HTTP when a user clicks 'Apply' after entering an API key - how are you validating plugin security in your development environment?
+  - Image Prompt: Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing malicious plugins, AI API key theft, and JetBrains Marketplace, as a system block diagram with no text characters or legible labels
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20malicious%20plugins%2C%20AI%20API%20key%20theft%2C%20and%20JetBrains%20Marketplace%2C%20as%20a%20system%20block%20diagram%20with%20no%20text%20characters%20or%20legible%20labels?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1781701043/threads_bot/hgu4fbirxw36o2vwamu7.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18101014345933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18095727298960352
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18095727298960352
+Timestamp: 2026-06-17T12:57:34.879252+00:00 UTC
+============================================================
