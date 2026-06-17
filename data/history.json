@@ -234,5 +234,15 @@
     "post_id": "18100170776332838",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-17T08:35:34.459380+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "The 2020 Twitter hack, which leveraged social engineering tactics to bypass two-factor authentication, highlights the potential for deepfakes to amplify phishing attacks. As documented by Wired (https://www.wired.com), attackers could use AI-generated audio or video to trick victims into divulging sensitive info. How can we effectively detect deepfake-powered voice phishing attempts?",
+    "image_prompt": "abstract schematic of a wireframe topology diagram on a dark navy background with cyan and white lines, featuring red alert nodes to represent deepfake-powered phishing attacks, with no text characters or legible labels, showcasing system block diagram elements and flow lines to illustrate the threat landscape",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781685321/threads_bot/yzmluvtz5ys4xrqgizlp.jpg",
+    "post_id": "18116022715857971",
+    "source_url": "",
+    "source_title": ""
   }
 ]
