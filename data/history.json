@@ -254,5 +254,15 @@
     "post_id": "18095727298960352",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-17T17:52:27.681180+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "Anthropic's Fable 5 and Mythos 5 AI models have been shut down due to potential jailbreaks, as reported by The Verge (https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown), with concerns that they could serve information for cyberattacks. The models' capabilities and safeguards are being questioned, can your team detect similar vulnerabilities in AI models?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing AI model vulnerabilities, showcasing system block diagram with no text characters or legible labels, highlighting potential jailbreaks and cyberattack risks",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781718736/threads_bot/tsylds0b5el5duwpe7fl.jpg",
+    "post_id": "17969550114076391",
+    "source_url": "",
+    "source_title": ""
   }
 ]
