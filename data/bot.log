@@ -2781,3 +2781,52 @@ Configuration validated successfully.
 ⚠️  A post was published 220 min ago (from data/history.json). Use --force to override.
 🛑 Skipping run to avoid spammy posting. Use --force to override.
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-18T12:31:22.514720+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Indian startup data breaches'
+Requesting content generation for topic: 'Indian startup data breaches'...
+Fetching latest news headlines from Google News for query: 'Indian startup data breaches (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitgFBVV95cUxQWjRLYURqdmlOQ1JWcGRWYmtMMnVYUlFJS2UweTQ0UnRXc1hqNGNEdVNtXzJCeHdzbUNxbDh5dVNKWHZ5Y0wwejBVdGNIQW5DYzlXUF9xUXVvRnJlYV93SjlpMlBKM2ctXzl0TXlsZVU1Q0RUTHZrMUZWSURYWUtEV3ZVc3ZJUmY0ekpncWxWNGRCdkxsZ1BVODFqd2lYZ0dZYWN2aHZLUGhRb3pucUtRakVtYlhDQdIBuwFBVV95cUxNckdlR0I5cVExaHNGaGVOV0xJM05SLUpLc0VzUENBOWlIbTg5dGxIUFBmUXZMempXQWp0ZENHNVZ5UVBEMUxzQnJ4azdmejdsRWhzWE5zZWMzSmVtQnhESjhnd0NuY0RWd1dLY3JiQ1BMaUZYSXFHZXVlRi0tdWdRRm9BeC1sUXhmOG1TT1FRLTg4TDY4eEt4cXJKb1ZIZnVVa2lzZlk2eFlOdHlLTGVBcVl4TGVKTV9uT3pF?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUY3JCTzVScTktaU5qV1pEeGVWeENwbGpmd1dvaTUzbXUxMGRwUlhYcUJTVGllWE84NTE4R1lINFFtV1dBeTl2MWRaNEpxTUVIcFMwNkFIcUd4RmN2?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/tag/fortibleed/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnhneUpaeHBpSmtRTjIxaG1LWDFBZlh6VjJGWVA1cF9PbWtKdEQ1RVpXeE1lTTdrOXo3MGN2dTNINXFJQWhGV05DUjNaQzZwVzlHZE5vd1JQVjd5VlpfQmJ4NHdtUlRVY2RMU1lDaG1aRGxTSjlrM1ExRzhvVm5FeWE4REk3X3lBWjRRR1c4aVpxazJZVGNaemRNZTB3ZDBCQlc1VVBtVlJYaE5rLUZidEtvNTHSAbQBQVVfeXFMTWZ4Z3lKWnhwaUprUU4yMWhtS1gxQWZYelYyRllQNXBfT21rSnRENUVaV3hNZU03azl6NzBjdnUzSDVxSUFoRldOQ1IzWkM2cFc5R2ROb3dSUFY3eVZaX0JieDR3bVJUVWNkTFNZQ2htWkRsU0o5azNRMUc4b1ZuRXlhOERJN195QVo0UUdXOGlacWsyWVRjWnpkTWUwd2QwQkJXNVVQbVZSWGhOay1GYnRLbzUx?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/amp/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMivAFBVV95cUxQNjNOTUFIcUUzVzYzNzZjemJHcm1md2RJamJ6R1RIYmVqUjFBaU5ITlZzZ0NjWTBGLTdPZ3N5N1MteEd5d1VHYzdjY3ltY3FZeGFTcGwtN3B5Z3pHa2l3RVFNVGtDSWJPcE1yYW41SUswQ2tDaDhJMC1ENnNRR01jRmVVX2Z3OWFVbFpuampRY3JOVGhVWHVHSEhTYUZwOFpQVzBGOERyeTk1enkwTWpldU1yRUFjdGVEMmxyUtIBwgFBVV95cUxPLVlPWTBsaEc4M3dmejJVNndjTjVQNWVaZ1h1b1RPMDlnbUc0N0UxRnFfWnNRcTFwdXh4cGVUX3VEWWUxLTcyR29pRC1fdEdXVnkxb2dBMTlSdENVMG5oZVV6Mi1VRDdPRzFOeEhxRTZva0RMSUpwYUtBZlB4RHFFMllHQzllOU1DVVZiLVBpNXZWb2xrRmk4S2pSNVNSd3IwZmVMaFlPUlllRThEV1JpRG5WSURBU010SzdaYnNZbGZqdw?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiugFBVV95cUxPdU9ESUhmc2NuTGV1N3RCbmtrVjRrYVVpbk5tR1VwXzlOTzNZSXhJLXd6b3VCcU00UGJCd3RMM0E5Ykh3RUpxdldVMHNvMjh6cklEZ3g4aWc1Rmg3eXRCZGxFTjVMLWtSUXB5bWYyYjh0cDFFSm1iSGZkYjUzdk1GZk4xNE5QMWZ4bzR0VE96Q0FhRTByc0hOcURhZFFKNlRtSkdvczU4cUVvMk5LNVZEVnV1eGt3ZVdzaWfSAb8BQVVfeXFMTm0xOWFxZGZGMHlGZTNodHROWk41S0lJTDVma2pkal9rbkV0d0I0VGdCT0xWZVhtajI1RG9SeDNPMlhKQ1hNencyUzloU3BNQjdJdDdLNk5aNElVWlA3bElnS2FIQTdhVHlDRFlCTE9LODVkS081cnBjYTZydVQzcVBRbGF4QWhreU1NNXFSUWJjSWkwamdXcjRMWTlVdXpyNHpqaHpUVTJQUlpkRWdkMHI0VlJzYXpjcmcteV9iLVk?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/telegram-admits-it-couldnt-police-exam-leak-channels-india-tells-court/
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: A massive FortiBleed leak has exposed Fortinet VPN credentials for 73,000 devices, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/), with attackers using a 45-GPU cluster to crack SSL VPN authentication hashes. The leak affects organizations worldwide, with the highest number of affected devices in India. How are you protecting your FortiGate appliances from similar brute-force attacks?
+  - Image Prompt: Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing compromised Fortinet VPN credentials, with no text characters or legible labels, showcasing a system block diagram of interconnected firewall URLs and affected domains.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20compromised%20Fortinet%20VPN%20credentials%2C%20with%20no%20text%20characters%20or%20legible%20labels%2C%20showcasing%20a%20system%20block%20diagram%20of%20interconnected%20firewall%20URLs%20and%20affected%20domains.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1781785889/threads_bot/mf72s0vm9pxfzjavuihl.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18101202694933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17864209455593760
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17864209455593760
+Timestamp: 2026-06-18T12:31:41.283259+00:00 UTC
+============================================================

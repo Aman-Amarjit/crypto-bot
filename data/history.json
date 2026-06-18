@@ -274,5 +274,15 @@
     "post_id": "18125943802726773",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-18T12:31:41.282711+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "A massive FortiBleed leak has exposed Fortinet VPN credentials for 73,000 devices, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/), with attackers using a 45-GPU cluster to crack SSL VPN authentication hashes. The leak affects organizations worldwide, with the highest number of affected devices in India. How are you protecting your FortiGate appliances from similar brute-force attacks?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing compromised Fortinet VPN credentials, with no text characters or legible labels, showcasing a system block diagram of interconnected firewall URLs and affected domains.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781785889/threads_bot/mf72s0vm9pxfzjavuihl.jpg",
+    "post_id": "17864209455593760",
+    "source_url": "",
+    "source_title": ""
   }
 ]
