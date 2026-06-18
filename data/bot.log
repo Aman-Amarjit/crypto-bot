@@ -2706,3 +2706,48 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-17T19:55:03.837560+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-18T08:17:45.920879+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'CERT-In advisories security'
+Requesting content generation for topic: 'CERT-In advisories security'...
+Fetching latest news headlines from Google News for query: 'CERT-In advisories security (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitgFBVV95cUxQWjRLYURqdmlOQ1JWcGRWYmtMMnVYUlFJS2UweTQ0UnRXc1hqNGNEdVNtXzJCeHdzbUNxbDh5dVNKWHZ5Y0wwejBVdGNIQW5DYzlXUF9xUXVvRnJlYV93SjlpMlBKM2ctXzl0TXlsZVU1Q0RUTHZrMUZWSURYWUtEV3ZVc3ZJUmY0ekpncWxWNGRCdkxsZ1BVODFqd2lYZ0dZYWN2aHZLUGhRb3pucUtRakVtYlhDQdIBuwFBVV95cUxNckdlR0I5cVExaHNGaGVOV0xJM05SLUpLc0VzUENBOWlIbTg5dGxIUFBmUXZMempXQWp0ZENHNVZ5UVBEMUxzQnJ4azdmejdsRWhzWE5zZWMzSmVtQnhESjhnd0NuY0RWd1dLY3JiQ1BMaUZYSXFHZXVlRi0tdWdRRm9BeC1sUXhmOG1TT1FRLTg4TDY4eEt4cXJKb1ZIZnVVa2lzZlk2eFlOdHlLTGVBcVl4TGVKTV9uT3pF?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxOZ3FXWFdOQVV5RThZN1RCbHViNVRYbHBfOXptU1VYZl9XY2phbjJFSWNNTmRKekFtU1FrV05SSXU1Z2lPNGFvczNfU2x4cTZqN2QzVUVuWTVYZUpkUTVaTnNtanpOc25qVWh5dVdoT3ZvaERtM0EtQm5sZC1DTkdOTXpBTldocDVmQWVvM0lIdnhTdjg2UzA1RzgwbkFvNVVrSFRxUlZyNUFKdlg0Vmx5Nzh30gG3AUFVX3lxTE02Nmx4cWlQQkFyYkgzQ3hIUEVuSmNVaU1TLTBDWUxuN2d4T2oxbThnb0UtTXk2bWNEMmRBaWdpc3IxeWFWSFFidUdGYXVEVjM0RThDWEtxaXg0NUdhVHZlWVVUM294QkprYk9TaWZyZWVsWmYwV284MXYzNlJ6cE1lSHZSSEhpcjU5bzVPZ2p1S0QyMEYxaVNGdFRDb08xV2Y0aFlhclVreWtrcjZoWFVzYWtRT2pCcw?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirgFBVV95cUxPdTBQbE55RVpjakZaRF9DbTN2TTNWZ1JTRTRXU0VTSi1YWWtfbjJGTDRKV2dCM0xybUJudVIycVpGckxsaEVkVGxYTlVKeVM3T2JQM2dYWUhaNHA2TXJEYXVacDVleFhnWXRhODlDd0M5em9kbER1TzlfRTNNeGk0OGdIdVJYQ1MwazJjcVdOYnFFclJxczdGbFhuNnFkVldQLVhYa3R1eVhPNXhWSmfSAbMBQVVfeXFMUHQ3cER6b1lwY3RwMUV2eWhNbS1HZ3YyX0lSWHpXa1hZN05zOHpXVkM2Q2MyNkNVWGNlRGl3eExFT0NrQ0pfV0xCSF82cU5BZ1FyRk53T0R0OTY0UGhqdzRxSEx4RkJsdWk5enlJM3Y0ei10amFjYl9yUlcydDFJVWttdzg3bF9sTzAxbjNaRVlfcm9PaDdrZ0tWQS1MN3BkVDFacmRTbE9mUi1BRG80UkJWRFk?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/
+Successfully retrieved 3 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: A massive FortiBleed leak has exposed Fortinet VPN credentials for 73,000 devices, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/), with attackers cracking SSL VPN authentication hashes using a 45-GPU cluster. How are you protecting your organization's FortiGate appliances from lateral movement attacks?
+  - Image Prompt: Abstract schematic of a wireframe topology with dark navy background, cyan and white lines, and red alert nodes representing compromised Fortinet VPN credentials, with system block diagram elements and no text characters or legible labels, showcasing a complex network of interconnected devices and potential attack vectors.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20compromised%20Fortinet%20VPN%20credentials%2C%20with%20system%20block%20diagram%20elements%20and%20no%20text%20characters%20or%20legible%20labels%2C%20showcasing%20a%20complex%20network%20of%20interconnected%20devices%20and%20potential%20attack%20vectors.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1781770670/threads_bot/iitbdvbc4qfwaysxm6pl.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18101169730933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18125943802726773
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18125943802726773
+Timestamp: 2026-06-18T08:17:59.738567+00:00 UTC
+============================================================

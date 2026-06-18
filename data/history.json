@@ -264,5 +264,15 @@
     "post_id": "17969550114076391",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-18T08:17:59.738123+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "A massive FortiBleed leak has exposed Fortinet VPN credentials for 73,000 devices, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/), with attackers cracking SSL VPN authentication hashes using a 45-GPU cluster. How are you protecting your organization's FortiGate appliances from lateral movement attacks?",
+    "image_prompt": "Abstract schematic of a wireframe topology with dark navy background, cyan and white lines, and red alert nodes representing compromised Fortinet VPN credentials, with system block diagram elements and no text characters or legible labels, showcasing a complex network of interconnected devices and potential attack vectors.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781770670/threads_bot/iitbdvbc4qfwaysxm6pl.jpg",
+    "post_id": "18125943802726773",
+    "source_url": "",
+    "source_title": ""
   }
 ]
