@@ -284,5 +284,15 @@
     "post_id": "17864209455593760",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-18T18:10:43.734494+00:00",
+    "topic": "Digital India cybersecurity",
+    "caption": "India's digital infrastructure is vulnerable to attacks like the Heartbleed bug, which exploits OpenSSL's handshake mechanism. As documented by The Hindu (https://www.thehindu.com), this vulnerability can expose sensitive data, including passwords and encryption keys. How can Indian cybersecurity teams mitigate such risks in their Digital India initiatives?",
+    "image_prompt": "Abstract schematic of a wireframe topology with a system block diagram, featuring dark navy background, cyan and white lines, and red alert nodes, representing the Heartbleed bug's impact on Digital India's cybersecurity infrastructure, with no text characters or legible labels, and no glowing shields or generic stock-image cybersecurity visuals",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781806233/threads_bot/ih3zjigspaiynl6ucumj.jpg",
+    "post_id": "18012549218717557",
+    "source_url": "",
+    "source_title": ""
   }
 ]
