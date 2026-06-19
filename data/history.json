@@ -314,5 +314,15 @@
     "post_id": "17938405605254654",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-19T17:26:17.165794+00:00",
+    "topic": "government cyber regulations",
+    "caption": "A critical Splunk Enterprise vulnerability, tracked as CVE-2026-20253, is being exploited in attacks due to a lack of authentication controls in the PostgreSQL sidecar service endpoint, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/). Attackers can create or truncate arbitrary files on vulnerable devices, and CISA has ordered federal agencies to patch their systems by Sunday. How are you ensuring your Splunk instances are secure against this exploit?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing the Splunk Enterprise vulnerability, including system block diagram elements and no text characters, focusing on the PostgreSQL sidecar service endpoint and its lack of authentication controls, with no legible labels or glowing shields, and a system block diagram style emphasizing the attack surface and mitigation measures.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781889964/threads_bot/jro58etsyofzeswzs1aj.jpg",
+    "post_id": "18085419998134003",
+    "source_url": "",
+    "source_title": ""
   }
 ]
