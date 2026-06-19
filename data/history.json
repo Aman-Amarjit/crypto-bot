@@ -294,5 +294,15 @@
     "post_id": "18012549218717557",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-19T08:39:40.485655+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "India's RBI and SEBI have emphasized the importance of robust cybersecurity measures, as seen in the aftermath of the 2016 Bangladesh Bank heist, which exploited SWIFT's vulnerability to steal millions. As documented by BleepingComputer (https://www.bleepingcomputer.com), how can financial institutions effectively implement secure API gateways to prevent similar attacks?",
+    "image_prompt": "abstract schematic of a wireframe topology representing a secure financial network, with dark navy background, cyan and white lines, and red alert nodes, depicting system block diagram with no text characters or legible labels",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781858369/threads_bot/ienhgoidi8n5xxrk8v3c.jpg",
+    "post_id": "18468532759104067",
+    "source_url": "",
+    "source_title": ""
   }
 ]
