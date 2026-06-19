@@ -48,5 +48,10 @@
     "timestamp": "2026-06-18T15:51:27.365123+00:00",
     "question": "What strategies are you employing to prevent privilege escalation in containerized environments with shared kernel vulnerabilities?",
     "post_id": "18103321901018792"
+  },
+  {
+    "timestamp": "2026-06-19T15:40:27.730093+00:00",
+    "question": "What strategies are you employing to prevent lateral movement in containerized environments with shared kernel vulnerabilities?",
+    "post_id": "18140587888543692"
   }
 ]
