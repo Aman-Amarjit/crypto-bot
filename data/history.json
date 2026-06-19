@@ -304,5 +304,15 @@
     "post_id": "18468532759104067",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-19T12:54:00.070144+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "Threat actors are exploiting Klue's Battlecards app to steal Salesforce customer data, using compromised OAuth tokens to exfiltrate sensitive information via the Salesforce REST API, as documented by Dark Reading (https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise). This pattern of third-party OAuth abuse has been seen before, with attackers automating Python scripts to extract data in a short time frame. How can teams better monitor their Salesforce integrations for suspicious OAuth activity?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes, representing a system block diagram of compromised Salesforce integrations, with no text characters or legible labels, showcasing the flow of data exfiltration via the Salesforce REST API and highlighting the vulnerability of third-party app connections.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781873627/threads_bot/g6mmrpne1rnf5aojqloa.jpg",
+    "post_id": "17938405605254654",
+    "source_url": "",
+    "source_title": ""
   }
 ]

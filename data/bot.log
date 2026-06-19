@@ -3026,3 +3026,53 @@ Configuration validated successfully.
 ⚠️  A post was published 218 min ago (from data/history.json). Use --force to override.
 🛑 Skipping run to avoid spammy posting. Use --force to override.
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-19T12:53:42.886657+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'data breaches security leaks'
+Requesting content generation for topic: 'data breaches security leaks'...
+Fetching latest news headlines from Google News for query: 'data breaches security leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMingFBVV95cUxQd1plSGduY0t0cTZHS2dfUkFKeTAyZnNQSk5TRUtrclpUZ2JORDhWbEtlTTBhWTh0bGxfVG52VGRpc1QyLVZFUXlEY2ZmMlNCZHVFS1RlYWNRSF9ERWJRNHhxNGcwV3phT3VnNE5vcVRGWENUTDFqVE4wczJ6UHJ2Y0ZJY2ljUXByUzR4QkRwQlZTV09YQVNpNXdzY0dxQQ?oc=5
+Decoded successfully to: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxPX241d0k4X1ROYS03U2loQklUZGk5UDJQbmtRXzR6WENaNmlqZ0gwR3RiN2xieE1zQ1hjM3lJUFFaVGc4VmRrY3M5VkIyT0RUQ0hfQ0RyM1dfQmVIUUtNZUVKejFqN0tDREc5eHZ3eVJKTjhDVkhkRjdzYmhwaW9aeWVDYmxMdFE3S29qU2VnUXl3T2FwQUFCRHNiSmh1TWE1eDZsdFBLX3RMN3dBWjREeGdB0gG3AUFVX3lxTE04bWIta1BNSXZwQllfQm1jdGZ6WVBqM0JTVF8wN25HM0duZEtmaGVsblhsQVpzdC0yWktzTTY4aTZ3aHlZbVFpbUxDNTVnZTBTc1V2OHBRMWZvOVNDZDNhQk1PUV9GM3I2cl83S1BmRHpJYS1ySEdXdHd1SmpFaU0xM0FYUnA5aUx6dHVZS0Q2TTNFVmxkS1diaTU4R3YtNVVGVjE2T0ZvdDFHeUJNTGd6aE9YNzdWRQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitgFBVV95cUxQWjRLYURqdmlOQ1JWcGRWYmtMMnVYUlFJS2UweTQ0UnRXc1hqNGNEdVNtXzJCeHdzbUNxbDh5dVNKWHZ5Y0wwejBVdGNIQW5DYzlXUF9xUXVvRnJlYV93SjlpMlBKM2ctXzl0TXlsZVU1Q0RUTHZrMUZWSURYWUtEV3ZVc3ZJUmY0ekpncWxWNGRCdkxsZ1BVODFqd2lYZ0dZYWN2aHZLUGhRb3pucUtRakVtYlhDQdIBuwFBVV95cUxNckdlR0I5cVExaHNGaGVOV0xJM05SLUpLc0VzUENBOWlIbTg5dGxIUFBmUXZMempXQWp0ZENHNVZ5UVBEMUxzQnJ4azdmejdsRWhzWE5zZWMzSmVtQnhESjhnd0NuY0RWd1dLY3JiQ1BMaUZYSXFHZXVlRi0tdWdRRm9BeC1sUXhmOG1TT1FRLTg4TDY4eEt4cXJKb1ZIZnVVa2lzZlk2eFlOdHlLTGVBcVl4TGVKTV9uT3pF?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxORkZDZUVWYnRYRzljOXJETFdZTnVzaE85TW5hdVhYODhXYkhDVWp5bmNWWlJycm9qMXVPM21iOXlyVXlfS0FLVnBLbTNJYWNzSXVjR2wzeDYwM3VZd0RCTnUzenVQNzhKVkNFZHNHM1FxdGFYYW54YVBOQlNPVjZ6X2tEN3Bsb3pEQWxUTGdtTmdDYXFHRE8xWWU2aW5qYlhwRU1EVjlDR1BZb0pPdXRhS2ZNa9IBuAFBVV95cUxPdVZHeTI0ano4R2dmUHNCSkw0c3dwMC1RbktmUjZXaHZELTVOXzVEWkN0N2l1NEhXZGNKbUpDZFQweWl4b3c0dWdhRG53WkhtQ09ycHdXbEhGTmJNbW5vMGNsOGdQcjBHS0lFeVNyRmxXNER2elRoOFlWUk9Ibng1bzZ0UWZWZWxwUEpBQWVDV0Z3ZENsRWJ2bVhPaE15YWNDRUh2U1UyX2JEMTBXX1R1LVZUZ3ZXZ1lG?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirgFBVV95cUxOSzQ5Z0FzYWxfekJEUk9paGpmYk90clBEYV9pVzRDWVl5c29EcUk4MTZzOWk4ejg3NzQ5NTFCeTlqa2RIQzBsV2liOTJpZmI5LUdEejViOGF3c0ozNHhtRXpSRnlIMy1LQXdEblpoQm1ZUWxiUjk5SGNUZkcwYm9VdHlwRWVMcG93Q0FTZUl1LTJDWVNIME1JNlhMSDN4aWdwZUlpQmE1T3o4WEtMUVHSAbMBQVVfeXFMT2poSTZLM0JGS1BELUVHY3dFLW01Vm9uNFZXRk1fQmdCWVpBdEVhZXM4NjdUV1pHUXdwenM1RHZuMzVsYU1ZZGZDSnIwTlIzTEJuR250eDlBNHNFSVlQQm1WMDFUNkh4cmdLZVh3VmF4S1hfRklQQlFaaEE3OVgyRjFtZ1lFaGJKNjYwYWEzd2ExNW05SE9SUXo4WXNlUGp4MDVvVERrSVB5MHpHVGZydjdwYnM?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Threat actors are exploiting Klue's Battlecards app to steal Salesforce customer data, using compromised OAuth tokens to exfiltrate sensitive information via the Salesforce REST API, as documented by Dark Reading (https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise). This pattern of third-party OAuth abuse has been seen before, with attackers automating Python scripts to extract data in a short time frame. How can teams better monitor their Salesforce integrations for suspicious OAuth activity?
+  - Image Prompt: Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes, representing a system block diagram of compromised Salesforce integrations, with no text characters or legible labels, showcasing the flow of data exfiltration via the Salesforce REST API and highlighting the vulnerability of third-party app connections.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%2C%20representing%20a%20system%20block%20diagram%20of%20compromised%20Salesforce%20integrations%2C%20with%20no%20text%20characters%20or%20legible%20labels%2C%20showcasing%20the%20flow%20of%20data%20exfiltration%20via%20the%20Salesforce%20REST%20API%20and%20highlighting%20the%20vulnerability%20of%20third-party%20app%20connections.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1781873627/threads_bot/g6mmrpne1rnf5aojqloa.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (545) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18101375752933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17938405605254654
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17938405605254654
+Timestamp: 2026-06-19T12:54:00.070675+00:00 UTC
+============================================================
