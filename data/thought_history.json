@@ -28,5 +28,10 @@
     "timestamp": "2026-06-16T13:04:48.729987+00:00",
     "thought": "I've found use-after-free bugs in C++. They occur when memory is freed then accessed, causing crashes or code execution. This happens due to dangling pointers. For example, CVE-2022-1234 has a CVSS score of 8.8, what mitigations can be applied to prevent such vulnerabilities?",
     "post_id": "17924960187357633"
+  },
+  {
+    "timestamp": "2026-06-20T11:58:36.492888+00:00",
+    "thought": "I'm tracking GDPR Article 32 compliance. As a security engineer, I know this means implementing data protection by design and default, which involves conducting data protection impact assessments and ensuring pseudonymization and encryption of personal data. This affects my software development workflow. What technical controls will meet GDPR Article 32's security requirements by May 25?",
+    "post_id": "18140665840545454"
   }
 ]
