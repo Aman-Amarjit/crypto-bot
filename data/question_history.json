@@ -53,5 +53,10 @@
     "timestamp": "2026-06-19T15:40:27.730093+00:00",
     "question": "What strategies are you employing to prevent lateral movement in containerized environments with shared kernel vulnerabilities?",
     "post_id": "18140587888543692"
+  },
+  {
+    "timestamp": "2026-06-20T14:28:34.718969+00:00",
+    "question": "What strategies are you employing to mitigate container escape vulnerabilities in Kubernetes deployments using Pod Security Policies?",
+    "post_id": "18105279952816119"
   }
 ]
