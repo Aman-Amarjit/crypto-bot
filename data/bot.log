@@ -3212,3 +3212,52 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-19T19:25:44.028378+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-20T07:07:18.911367+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'hacking incidents'
+Requesting content generation for topic: 'hacking incidents'...
+Fetching latest news headlines from Google News for query: 'hacking incidents (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMie0FVX3lxTE5XYWc4SE1hTVV1djc3X0hQd0pvTzYzamJHZnA5a2Zpd01HVWFEdXlWc3R6REkxejVrdmVLRThlcWx3RWJsTVgzcFJwLTdpWWt3alp0TWdJTWxGaTJXeWZZYTM3eXRmWHEwYUotLTE1QTFDQ2t2Q1gwRFpldw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMidkFVX3lxTE1FSkp3N1BqNGRsQThIOVlUMlJENE14QVh6LTN6OFV4aTFPcWZ6VXMyUDZ0QTVNcEJXcWpPcmdkZFg5Mnh0cDdhaENoWEs3dS0tNVAyWE9rQnBkUUFwbkttcjlQM29qZDVhc09GUzIyTFpJeEhtTHc?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE5GRmlQdE1uX28zazF6UWdNUi1hdGFqQ0p5bWtkanRkNklfbWNwb0otdnNiZkZ1S1RfclFNNUZ6X0lCS0tpS2J0eFN0MXdOdmcyb3Baa2ZvTUhQdHpMUjZoT3VmR0NHSVQwMWtlaWhDVUg0MlhwN1hSeDBHNTF0Ujg?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxPc0pSWWF4cWJKWS1zUGw2X0ZPR0EwMF9BMGc4NGxfQ2Q4aEF6dWlfZVp6MW9MeWZaRlFlNE5tQV9tcm9XbEg1eFQzYlM5ajRJWGtENGxhb2RUMWJQWGcxX0FNNkZRWDlfZlZLM0dkY2dkVzJVdVpqZFRPNkhKRVpaODRlYmZSdnAwMHFPQU9QLWFHNGYyY2RWUGw2SVdMZ0xvMnQ2QUxQeWlteHNNOGhXSWpOV3LSAboBQVVfeXFMTXBNNUdMRGxKYmlPbFRjbS14LWxjTzNIZ3hHWFFZN1hQMi1pWTdnT2d2aVV0LTI0czgwVDlEU3preFIyODhJOUppdjBUZ2ZjTDlNOFQ5U3pvWnQ1UHA1eWhlcWg5N1dHNENySWlRWEJGb2FlYnFiQlFCai1qQlB1VkNYZDdNdmNZUTZOWkZ0eXFHSW1sTi1mVllIR19WbGI1SlpDX0NJZXMyVmVhYk9nWWJPckpkVlJhMVV3?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxObWlWcTIzTlBuVXg0ZWZiSEEzQm4yZHVvS0V6Nl85WjloMjBZMlZVS3Jha0tKZC1XSEw0NzlqS0p3YW9odUp5bUoyakVwRUxKN2F3WUFGMndNVjV4RmxZRGxtS0VuMG9USkZqYzJ5eWRuZ3hNRjBaU3BkRkc2d040cg?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: FortiBleed has compromised 86,644 FortiGate devices by exploiting weak default credentials and older SHA-256 hashing mechanisms, as documented by The Hacker News (https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html). The attack's success highlights the importance of rotating security credentials and enabling multi-factor authentication. How are you securing your Fortinet firewalls against brute-force and credential stuffing attacks?
+  - Image Prompt: Abstract technical schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing the FortiBleed attack on FortiGate devices, showcasing system block diagram with no text characters or legible labels, focusing on the flow of malicious traffic and compromised credentials.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20technical%20schematic%20of%20a%20wireframe%20topology%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20the%20FortiBleed%20attack%20on%20FortiGate%20devices%2C%20showcasing%20system%20block%20diagram%20with%20no%20text%20characters%20or%20legible%20labels%2C%20focusing%20on%20the%20flow%20of%20malicious%20traffic%20and%20compromised%20credentials.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1781939244/threads_bot/ghjjkgwqdueculrsy2a0.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18101518423933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18097930324910945
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18097930324910945
+Timestamp: 2026-06-20T07:07:36.069810+00:00 UTC
+============================================================

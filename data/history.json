@@ -324,5 +324,15 @@
     "post_id": "18085419998134003",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-20T07:07:36.069229+00:00",
+    "topic": "hacking incidents",
+    "caption": "FortiBleed has compromised 86,644 FortiGate devices by exploiting weak default credentials and older SHA-256 hashing mechanisms, as documented by The Hacker News (https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html). The attack's success highlights the importance of rotating security credentials and enabling multi-factor authentication. How are you securing your Fortinet firewalls against brute-force and credential stuffing attacks?",
+    "image_prompt": "Abstract technical schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing the FortiBleed attack on FortiGate devices, showcasing system block diagram with no text characters or legible labels, focusing on the flow of malicious traffic and compromised credentials.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781939244/threads_bot/ghjjkgwqdueculrsy2a0.jpg",
+    "post_id": "18097930324910945",
+    "source_url": "",
+    "source_title": ""
   }
 ]
