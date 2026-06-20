@@ -334,5 +334,15 @@
     "post_id": "18097930324910945",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-20T11:25:13.101706+00:00",
+    "topic": "dark web leaks",
+    "caption": "As reported by The Hacker News (https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html), FortiBleed has compromised 86,644 FortiGate devices by exploiting weak default credentials and older SHA-256 hashing mechanisms. The attackers are using a bespoke tool to spray login endpoints with known combinations, what steps can you take to secure your FortiGate appliances against such automated attacks?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing FortiGate devices, with no text characters or legible labels, showcasing a system block diagram of the FortiBleed campaign's global reach and impact on various sectors.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781954703/threads_bot/usz1mtpclyvjzdnaq0zt.jpg",
+    "post_id": "18094269346996688",
+    "source_url": "",
+    "source_title": ""
   }
 ]
