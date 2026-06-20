@@ -344,5 +344,15 @@
     "post_id": "18094269346996688",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-20T16:47:50.134072+00:00",
+    "topic": "cyber warfare",
+    "caption": "The Gentlemen RaaS is leveraging GentleKiller, an EDR framework that targets 400 security processes, as reported by The Hacker News (https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html). This framework utilizes a shared defense-evasion layer, impersonating security vendors and incorporating third-party tools like HexKiller and ThrottleBlood. How are you protecting your EDR systems from such sophisticated attacks?",
+    "image_prompt": "Abstract technical schematic of a wireframe topology diagram on a dark navy background with cyan and white lines, representing a system block diagram with red alert nodes, showcasing the GentleKiller EDR framework and its connections to various security processes, using no text characters or legible labels, and focusing on the BYOVD attack technique and EDR killer samples",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1781974059/threads_bot/r2iw1bhiios8lgfivqhc.jpg",
+    "post_id": "17869925919545303",
+    "source_url": "",
+    "source_title": ""
   }
 ]
