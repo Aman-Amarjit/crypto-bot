@@ -3560,3 +3560,11 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-21T08:23:38.668391+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-21T11:25:00.179298+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+⚠️  A post was published 196 min ago (from data/history.json). Use --force to override.
+🛑 Skipping run to avoid spammy posting. Use --force to override.
+============================================================
