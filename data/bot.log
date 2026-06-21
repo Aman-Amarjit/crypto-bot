@@ -3576,3 +3576,25 @@ Configuration validated successfully.
 ⚠️  A post was published 224 min ago (from data/history.json). Use --force to override.
 🛑 Skipping run to avoid spammy posting. Use --force to override.
 ============================================================
+[2026-06-21T12:00:26.990558] Organic check scheduled. Delaying startup for 309s (max 15 mins)...
+============================================================
+Threads Comment-Reply Runner Execution Started: 2026-06-21T12:05:35.990779+00:00 UTC
+============================================================
+============================================================
+Starting Comments Auto-Reply Routine...
+============================================================
+Logged in as: @amanamarjit8
+Successful organic replies in the last 24 hours: 0/20
+Retrieved 5 latest threads for scanning.
+[1/5] Checking conversation for thread ID: 17985067659007416...
+[2/5] Checking conversation for thread ID: 17869925919545303...
+[3/5] Checking conversation for thread ID: 18105279952816119...
+[4/5] Checking conversation for thread ID: 18094269346996688...
+[5/5] Checking conversation for thread ID: 18097930324910945...
+============================================================
+Comments Auto-Reply Routine Completed. Published 0 replies.
+============================================================
+============================================================
+Comment-Reply Execution Completed Successfully!
+Timestamp: 2026-06-21T12:05:38.532785+00:00 UTC
+============================================================
