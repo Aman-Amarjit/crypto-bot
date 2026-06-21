@@ -354,5 +354,15 @@
     "post_id": "17869925919545303",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-21T08:08:10.183545+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "As security experts warn that AI models with advanced capabilities for discovering and exploiting software vulnerabilities will soon be ubiquitous, I'm left wondering how this emerging trend will impact the cybersecurity landscape, especially given the recent data breach at Madison Square Garden, as reported by Wired (https://www.wired.com/story/security-news-this-week-hackers-claim-to-leak-stolen-madison-square-garden-data/), can we mitigate the risks of AI-driven attacks?",
+    "image_prompt": "Abstract schematic of a wireframe topology with dark navy background, cyan and white lines, and red alert nodes representing AI-driven cyberattacks, incorporating system block diagram elements and no text characters, focusing on the interplay between AI models and software vulnerabilities",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782029279/threads_bot/b6yznvnvq06fmvw62d8a.jpg",
+    "post_id": "17985067659007416",
+    "source_url": "",
+    "source_title": ""
   }
 ]
