@@ -3622,3 +3622,25 @@ Daily Question Posted Successfully!
 Post ID: 17951347565996960
 Timestamp: 2026-06-21T14:33:13.870433+00:00 UTC
 ============================================================
+[2026-06-21T15:30:08.490437] Organic check scheduled. Delaying startup for 420s (max 15 mins)...
+============================================================
+Threads Comment-Reply Runner Execution Started: 2026-06-21T15:37:08.490642+00:00 UTC
+============================================================
+============================================================
+Starting Comments Auto-Reply Routine...
+============================================================
+Logged in as: @amanamarjit8
+Successful organic replies in the last 24 hours: 0/20
+Retrieved 5 latest threads for scanning.
+[1/5] Checking conversation for thread ID: 17951347565996960...
+[2/5] Checking conversation for thread ID: 17985067659007416...
+[3/5] Checking conversation for thread ID: 17869925919545303...
+[4/5] Checking conversation for thread ID: 18105279952816119...
+[5/5] Checking conversation for thread ID: 18094269346996688...
+============================================================
+Comments Auto-Reply Routine Completed. Published 0 replies.
+============================================================
+============================================================
+Comment-Reply Execution Completed Successfully!
+Timestamp: 2026-06-21T15:37:14.442442+00:00 UTC
+============================================================
