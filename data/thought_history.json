@@ -33,5 +33,10 @@
     "timestamp": "2026-06-20T11:58:36.492888+00:00",
     "thought": "I'm tracking GDPR Article 32 compliance. As a security engineer, I know this means implementing data protection by design and default, which involves conducting data protection impact assessments and ensuring pseudonymization and encryption of personal data. This affects my software development workflow. What technical controls will meet GDPR Article 32's security requirements by May 25?",
     "post_id": "18140665840545454"
+  },
+  {
+    "timestamp": "2026-06-22T13:44:28.429950+00:00",
+    "thought": "I'm tracking LockBit ransomware. It uses a combination of phishing and exploitation of vulnerabilities to gain initial access, then leverages legitimate tools like PowerShell and PsExec to move laterally within a network. LockBit's ability to evade detection is due to its custom obfuscation techniques. I've seen 345 LockBit samples in the wild, what's the most effective way to detect its fileless malware components?",
+    "post_id": "18083274623649151"
   }
 ]
