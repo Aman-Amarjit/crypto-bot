@@ -3784,3 +3784,29 @@ Execution Completed Successfully!
 Published Post ID: 17954836500151575
 Timestamp: 2026-06-22T09:19:58.251257+00:00 UTC
 ============================================================
+[2026-06-22T09:33:17.252522] Organic check scheduled. Delaying startup for 112s (max 15 mins)...
+============================================================
+Threads Comment-Reply Runner Execution Started: 2026-06-22T09:35:09.252767+00:00 UTC
+============================================================
+============================================================
+Starting Comments Auto-Reply Routine...
+============================================================
+Logged in as: @amanamarjit8
+Successful organic replies in the last 24 hours: 0/20
+Retrieved 5 latest threads for scanning.
+[1/5] Checking conversation for thread ID: 17954836500151575...
+[2/5] Checking conversation for thread ID: 17990459816989920...
+  👉 Found new comment by @mollysilverstorm: "No kabrnes no tan Hollywood"
+Successful organic replies in the last 24 hours: 0/20
+  ⏳ Sleeping 21s to simulate human typing response delay...
+  ❌ Failed to reply to comment 17878331838609906: name 'question_rule' is not defined
+[3/5] Checking conversation for thread ID: 17951347565996960...
+[4/5] Checking conversation for thread ID: 17985067659007416...
+[5/5] Checking conversation for thread ID: 17869925919545303...
+============================================================
+Comments Auto-Reply Routine Completed. Published 0 replies.
+============================================================
+============================================================
+Comment-Reply Execution Completed Successfully!
+Timestamp: 2026-06-22T09:35:31.917602+00:00 UTC
+============================================================
