@@ -374,5 +374,15 @@
     "post_id": "17990459816989920",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-22T09:19:58.250655+00:00",
+    "topic": "AI surveillance",
+    "caption": "I'm exploring the capabilities of ChatGPT, as documented by Wired (https://www.wired.com/story/28-tips-to-take-your-chatgpt-prompts-to-the-next-level/), to generate images and automate tasks. By using the '80-20 rule' in prompts, I can efficiently learn about topics like scientific concepts and historical periods. How can I leverage this technique to optimize my workflow?",
+    "image_prompt": "Abstract technical schematic with a dark navy background, featuring cyan and white lines representing AI data flows, and red alert nodes symbolizing key information. The wireframe topology includes system block diagrams with no text characters or legible labels, showcasing the complex interactions between ChatGPT and user inputs.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782119986/threads_bot/dpea6efdo5g9fmhb0dak.jpg",
+    "post_id": "17954836500151575",
+    "source_url": "",
+    "source_title": ""
   }
 ]
