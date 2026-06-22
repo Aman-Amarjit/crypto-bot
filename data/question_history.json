@@ -63,5 +63,10 @@
     "timestamp": "2026-06-21T14:33:13.870172+00:00",
     "question": "How are you implementing least privilege access and network segmentation in Kubernetes clusters to minimize lateral movement in containerized environments?",
     "post_id": "17951347565996960"
+  },
+  {
+    "timestamp": "2026-06-22T17:12:26.818788+00:00",
+    "question": "What strategies are you employing to prevent credential exposure in containerized environments using tools like Docker and Kubernetes?",
+    "post_id": "17944653819233474"
   }
 ]
