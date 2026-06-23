@@ -404,5 +404,15 @@
     "post_id": "18106420745080384",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-23T17:21:49.585788+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "A WhatsApp phishing campaign is using fake business documents to trick users into downloading malicious VBScript files, leading to remote system access, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/). The attackers exploit Windows Script Host to execute the scripts, ultimately installing ManageEngine Endpoint Central for centralized control. How can we effectively detect and prevent such socially engineered attacks?",
+    "image_prompt": "Abstract schematic of a wireframe topology with dark navy background, cyan and white lines, and red alert nodes, representing a system block diagram of the WhatsApp phishing campaign, with no text characters or legible labels, showcasing the flow of malicious VBScript files and the exploitation of Windows Script Host",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782235297/threads_bot/nrkdbfgnjc5df9qgpkdr.jpg",
+    "post_id": "17942888244235461",
+    "source_url": "",
+    "source_title": ""
   }
 ]
