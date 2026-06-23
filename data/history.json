@@ -394,5 +394,15 @@
     "post_id": "18115846246804466",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-23T06:57:52.127244+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "The notorious Log4Shell vulnerability, as documented by CERT-In advisories (https://www.cert-in.org.in/), still poses significant risks due to its widespread presence in Java-based applications. This remote code execution flaw in the Apache Log4j library can be triggered by a single malicious log message. How are you ensuring your team's logging configurations are secure against such exploits?",
+    "image_prompt": "Create an abstract schematic of a wireframe topology diagram on a dark navy background, featuring cyan and white lines that represent system components and data flows, with red alert nodes highlighting vulnerable logging modules, in a system block diagram style with no text characters or legible labels.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782197861/threads_bot/gcfs4q2nwyoxrexmmgck.jpg",
+    "post_id": "18106420745080384",
+    "source_url": "",
+    "source_title": ""
   }
 ]
