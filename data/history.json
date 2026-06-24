@@ -424,5 +424,15 @@
     "post_id": "18104072042045268",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-24T17:17:00.841734+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "India's RBI and SEBI have been strengthening tech security regulations, particularly after the 2016 Bangladesh Bank heist, which exploited SWIFT's Alliance Access system. As documented by BleepingComputer (https://www.bleepingcomputer.com), this incident highlighted the importance of securing financial networks. How can we effectively implement robust security protocols for SWIFT transactions?",
+    "image_prompt": "Abstract schematic of a wireframe topology representing a financial network, with system block diagram elements such as nodes, arrows, and flow lines on a dark navy background, using cyan and white lines, and featuring red alert nodes to signify potential vulnerabilities, with no text characters or legible labels",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782321410/threads_bot/qpv4ig5uoz9jejv2l4mb.jpg",
+    "post_id": "18109938491486323",
+    "source_url": "",
+    "source_title": ""
   }
 ]
