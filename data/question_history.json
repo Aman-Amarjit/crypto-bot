@@ -73,5 +73,10 @@
     "timestamp": "2026-06-23T15:23:28.167485+00:00",
     "question": "What strategies are you employing to prevent credential exposure in CI/CD pipelines when using environment variables for secrets management?",
     "post_id": "17864656857594053"
+  },
+  {
+    "timestamp": "2026-06-24T14:52:45.863213+00:00",
+    "question": "What strategies are you employing to prevent credential exposure in CI/CD pipelines leveraging ephemeral environments and just-in-time access controls?",
+    "post_id": "17952982746179247"
   }
 ]
