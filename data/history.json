@@ -414,5 +414,15 @@
     "post_id": "17942888244235461",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-24T06:55:52.563020+00:00",
+    "topic": "Digital India cybersecurity",
+    "caption": "A massive cyber breach has exposed over 200,000 confidential Apple and Tesla files, including iPhone circuit board inspection standards, as documented by The Verge (https://www.theverge.com/tech/954548/cyber-breach-exposes-confidential-apple-and-tesla-files). The leak, attributed to the World Leaks ransomware group, has significant implications for supply chain security. How can manufacturers like Tata Electronics better protect sensitive component specifications from similar breaches?",
+    "image_prompt": "Create an abstract schematic of a wireframe topology diagram on a dark navy background, featuring cyan and white lines representing network connections, with red alert nodes indicating compromised data points, and system block diagrams illustrating the flow of sensitive information, using no text characters or legible labels.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782284141/threads_bot/z1eflf2mhisa2ujifav6.jpg",
+    "post_id": "18104072042045268",
+    "source_url": "",
+    "source_title": ""
   }
 ]
