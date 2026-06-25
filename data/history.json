@@ -444,5 +444,15 @@
     "post_id": "18115546573677224",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-25T17:22:19.542099+00:00",
+    "topic": "government cyber regulations",
+    "caption": "As AI models become more powerful and agentic, the risk of catastrophic cyberattacks grows, prompting calls for US-China cooperation, as documented by Wired (https://www.wired.com/story/ai-arms-race-china-us-cooperation/). How can we balance openness with risk in open-weight models to prevent hackers from identifying security vulnerabilities?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing the intersection of AI and cybersecurity, featuring system block diagrams and no legible text characters or labels",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782408128/threads_bot/tdwltrgcifvza8wn5wd1.jpg",
+    "post_id": "17876738724614351",
+    "source_url": "",
+    "source_title": ""
   }
 ]
