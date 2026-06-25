@@ -434,5 +434,15 @@
     "post_id": "18109938491486323",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-25T06:55:25.537552+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "The 2026 FIFA World Cup is facing a surge in cyber threats, with attackers leveraging social engineering and infrastructure vulnerabilities to target attendees and participants, as documented by Dark Reading (https://www.darkreading.com/cybersecurity-operations/2026-fifa-world-cup-faces-surge-cyber-threats). Threat actors are exploiting weaknesses in public-facing systems, including ticketing fraud and phishing opportunities. How can cybersecurity teams effectively monitor for unusual behavior in IT and OT layers to mitigate these threats?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram representing the 2026 FIFA World Cup's system block diagram, set against a dark navy background with cyan and white lines, and red alert nodes indicating potential vulnerabilities, with no text characters or legible labels, showcasing the complex threat landscape across US, Canada, and Mexico",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782370514/threads_bot/hlybbrcm88xn8w4qed7l.jpg",
+    "post_id": "18115546573677224",
+    "source_url": "",
+    "source_title": ""
   }
 ]

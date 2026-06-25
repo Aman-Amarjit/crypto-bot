@@ -4433,3 +4433,53 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-24T19:29:38.251010+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-25T06:55:09.669407+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'data breaches security leaks'
+Requesting content generation for topic: 'data breaches security leaks'...
+Fetching latest news headlines from Google News for query: 'data breaches security leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxQMEFPa09nck5ZQ09ESndvMlNFcmNmSXR5SmhORF9TVUlFcWNmZTg1UjE0V3F0aXdMcWJzcHFILWRFMV9SMUwwbHRWVnNMVjFNTjBLcVMxTHRrSjJ5Ukw2bGVadFBKTWo2NERZZm9WWUtVM3d0aktjY2JQcWVrZmFwQ09ScGpMV3BJSV9sa05aZ3FMOHc4UTl6QWRUQnp6UXM?oc=5
+Decoded successfully to: https://www.darkreading.com/cybersecurity-operations/2026-fifa-world-cup-faces-surge-cyber-threats
+Decoding Google News URL: https://news.google.com/rss/articles/CBMivAFBVV95cUxQNjVuTnFPN1EwcmNNQVhwQ2pTVHFLQUVQb1Y2LWt5R1BvSjROY3ByQU5scjRmY2dzOUxZVl93dUJVNk9zZlV1eElnbUN2clhpM253U0pvOU9UWDlIQ3VHVXlISy1xMjdfV0tLMTNQbmxZQ0xVdFF3YkgwN0RqQk92emx3UzJ2aUd5cXpQN3FlSTAxTFdORVRSZUJVYTk1OUNWSUVraWdIVk1VdHk3ZzBqWnRKMlZIUWtOMXVlRNIBwgFBVV95cUxQU28yVUJxV0VxdGxjX1ZkQzhCbVBWRkxINl9XM0VRazhhc19Da3BlTV81ZTg0QWpsY0ZZZHBsa0pOZUlfSl9ORFJSMlRBN3RxV3ZGaEdZUE84dTZaeDVsM3lHaWQ3dG0zX1h2VUJQbDdCQ1BCY2N2U3FWSEZjU1JKVENFR3VzaGxUaGpFRkN4cUtOYkFKU0lmZVRCZ1ZMU1JYczJZSDdISEhYOXg1alRDd1YzWFAxdWYtS3d2ampSSndmQQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipAFBVV95cUxNOVpMQzkxMWxRUHZfZUVLb3V4NER2NXpwNFg3TS00VWFvajBrOHJDT2lFZkE3MzRWcV9zX2lmdWJKc2JnSXJteWZral9OQ05FWV9IdVF2ZzFSV3RRRGR5aHljRGVRdXNoWlQ0dEgtN3RzTTdiZk8xQTFvRkpjemlaSnA5WnU0cVFLRElNck53SHNpMmROS2dHQnJpQXFFOGpQUWl3bQ?oc=5
+Decoded successfully to: https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools
+Decoding Google News URL: https://news.google.com/rss/articles/CBMieEFVX3lxTE1hV19Uak9iOTl6TXZzVkFjaUZlVXRrLThOZ2Z3NEpBMERRbTRiV01rRjRWUnd3NHBXOWpucnZscnZVbjFXSkhvTk9FVDdON2JyUGhIczlfWFd5OFNHdmwwazN6c1hCenNpd3EtNU1DVXJoWURqTW5ydw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxNb1lBdUJGMlEweTBtQmFUa0xheFNLMXhmdkxPOHNWbHNXbjZNUkthTW1ubWNqRHVFS3FOdlo1SlZ5aGRzTmJaVXpQdU1QeGR0WklxRlpwaHdXWjhsajhCNjR2YkxseTdFRnpNQ0RDM2FCRWFIZkZyUk1XSmY0VEs1RVY2Sk1kd1hYMnk0QzdFdGQzYjhFaklIVnBCdlRUUlpRMXhzdVZWWHRzR0FySDdN0gG0AUFVX3lxTE45U1dlR3hzZkhfaEIycWgwLU4yZzRjUWhPZE5tUUwtSURQS0h1MEwyQUNCa1l5OS01ZFBjaHpfbk5SRGhvT1REMjZfbXUyZ1Vla3JtYmpKcmI5TW1GVVppYkw4S09zQmJCMWV6NEhFSFI3MXlqYmMtamFHX21xd0xxU2lPbUppNFBUUHNnbHJqQzEtY2tQcEllMGo0SVBUbmY5QWltMmY5bHF6SkxWaU02X3NlQg?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.darkreading.com/cybersecurity-operations/2026-fifa-world-cup-faces-surge-cyber-threats
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The 2026 FIFA World Cup is facing a surge in cyber threats, with attackers leveraging social engineering and infrastructure vulnerabilities to target attendees and participants, as documented by Dark Reading (https://www.darkreading.com/cybersecurity-operations/2026-fifa-world-cup-faces-surge-cyber-threats). Threat actors are exploiting weaknesses in public-facing systems, including ticketing fraud and phishing opportunities. How can cybersecurity teams effectively monitor for unusual behavior in IT and OT layers to mitigate these threats?
+  - Image Prompt: Abstract schematic of a wireframe topology diagram representing the 2026 FIFA World Cup's system block diagram, set against a dark navy background with cyan and white lines, and red alert nodes indicating potential vulnerabilities, with no text characters or legible labels, showcasing the complex threat landscape across US, Canada, and Mexico
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20representing%20the%202026%20FIFA%20World%20Cup%27s%20system%20block%20diagram%2C%20set%20against%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20indicating%20potential%20vulnerabilities%2C%20with%20no%20text%20characters%20or%20legible%20labels%2C%20showcasing%20the%20complex%20threat%20landscape%20across%20US%2C%20Canada%2C%20and%20Mexico?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1782370514/threads_bot/hlybbrcm88xn8w4qed7l.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (545) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18102371473933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18115546573677224
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18115546573677224
+Timestamp: 2026-06-25T06:55:25.538194+00:00 UTC
+============================================================
