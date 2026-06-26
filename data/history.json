@@ -464,5 +464,15 @@
     "post_id": "18591427687045396",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-26T17:06:57.774646+00:00",
+    "topic": "dark web leaks",
+    "caption": "Attackers are exploiting a Cisco CUCM flaw via server-side request forgery (SSRF) to gain root access, as documented by Dark Reading (https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw). The vulnerability, tracked as CVE-2026-20230, affects systems with the WebDialer service enabled. How are you verifying if your CUCM deployment is vulnerable to this SSRF exploit?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing a Cisco CUCM system, showcasing the WebDialer service and Apache Axis SOAP service interactions, with no text characters or legible labels, highlighting the server-side request forgery vulnerability and privilege escalation to root.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782493604/threads_bot/rvxmu5zmsiv74y1ofznd.jpg",
+    "post_id": "17895065847552180",
+    "source_url": "",
+    "source_title": ""
   }
 ]

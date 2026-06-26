@@ -4883,3 +4883,52 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-26T16:07:59.346636+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-26T17:06:39.867809+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirgFBVV95cUxQcGRxVGd2LUdfSW00YkNUTTFBLTFYRjZhYVQ1T3plSVJaS1ItRTVtdTY4WDlXczF5a3ZzbmNHSHJNVXMyOFlrR2JhMkdRMWR5OHZDMVlIcHR4aUdHREJrbl9NdWg4NG5NdGdzMXRtb3RQQW1sMFRLR0pfVnB0V1V0YlJ4WncyYlFrd0xzVHc0RTNBNVJZcDZQbUZCWnMxWjdGeE14MHpOS1lUOG1fbnc?oc=5
+Decoded successfully to: https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw
+Decoding Google News URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxOck0xZHpYeUEwRDdRV3BiaXJxYW5PUk9ocDNLcUdYWHF3UUxIUDlJSkp4NzZsZXpWbU4xUjBxRlltUnlpV0l5ckxkVVQ3YzR1X1BfRU5wcHZkRVhYWEJXaW8tQS05U25IRTgwZm5uVXhOeHJyb3VXVnUyMGtyMDFMYllQeEEwWXJ2N2RZZGVjT2Vja0FvUlFYZA?oc=5
+Decoded successfully to: https://www.darkreading.com/threat-intelligence/police-collusion-crackdown-asian-scam-centers
+Decoding Google News URL: https://news.google.com/rss/articles/CBMijAFBVV95cUxQLVBjLWY1blJKdjVWM0FnQ0ZYTDYzaFk4c0ZmUWhlakF3aENRcU1kR0FFNXF0Vy1qTl95Rld1c1FDNVpUdmZHMzU3c3YtREp2djFHSGpiMGpSendKdFNmQzJybndCRHE5aTZrLWVLeUFndVVFOWlZUjROZFNiVEZob0JVMER0QV9WMHktOA?oc=5
+Decoded successfully to: https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiywFBVV95cUxPWUhiWmVadU9ESy1YQlQ3UjhFYVdibllEajViMFRlRm5BZ0xfTnhreFhISG93c282OE5JNVA5RlpEcGpNa1JUdlJ3anlYTVB4cG51UnBZM25idUFnZEl6MVNUOUl5WlZtc053MmIxWF8xb1dhYVFOSlBTSThKWXJiNVU5NlRwSVRyMDl4VjF5TWhnc0JiS0lCQkdHY0ozdVFsTEpwM2tWbjFTbHZFZkZQVU9uWHp2RHVWejc5QXVWV2RJWnJPZUc4VjUyVQ?oc=5
+Decoded successfully to: https://www.wired.com/story/uncanny-valley-podcast-amazon-mgm-openai-movie-data-center-workers-fight-back-meta-leaks-employee-data/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxORFhVLVdtRm1Lb2R5VTJiZ2lIWkNoV1NPUmlHck92bzJIN25VdHRlRFR0MXRYNWFSdDVzNmFZU1ZaUlJ1TXlxbTV1OHJ6YUpGVjI1c2ZQbG1DMTZJRndSWTZZN1hwQnFMRUR1TkoxcWQ5Q3VUZFh4TG9Tem1faFFJdkM3WDg?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Attackers are exploiting a Cisco CUCM flaw via server-side request forgery (SSRF) to gain root access, as documented by Dark Reading (https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw). The vulnerability, tracked as CVE-2026-20230, affects systems with the WebDialer service enabled. How are you verifying if your CUCM deployment is vulnerable to this SSRF exploit?
+  - Image Prompt: Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing a Cisco CUCM system, showcasing the WebDialer service and Apache Axis SOAP service interactions, with no text characters or legible labels, highlighting the server-side request forgery vulnerability and privilege escalation to root.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20a%20Cisco%20CUCM%20system%2C%20showcasing%20the%20WebDialer%20service%20and%20Apache%20Axis%20SOAP%20service%20interactions%2C%20with%20no%20text%20characters%20or%20legible%20labels%2C%20highlighting%20the%20server-side%20request%20forgery%20vulnerability%20and%20privilege%20escalation%20to%20root.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1782493604/threads_bot/rvxmu5zmsiv74y1ofznd.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18102601414933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17895065847552180
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17895065847552180
+Timestamp: 2026-06-26T17:06:57.775296+00:00 UTC
+============================================================
