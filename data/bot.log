@@ -4690,3 +4690,52 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-25T19:35:23.771099+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-26T07:01:27.940093+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'hacking incidents'
+Requesting content generation for topic: 'hacking incidents'...
+Fetching latest news headlines from Google News for query: 'hacking incidents (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxPR2lVbjJpb19tT1kwMkY5M0t2SGxhM3QxeklLWnFxZ0xnaWdyTVBINERKUThiYUdXbE00OEZuQVQyQ0VXRkVmV0NJUHhuVVpnNXctWWg1U1htV2plMnRtNF9vWHRWcG1PWVRyNXFyUTVmcDltSGk1UkJxUDhmX2ROMUVxaw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxQQmFkNWI4YThZLWFNTTFXSnllWHJ0elFUeWEtTS00SVZYT1lqRDJEeHBreFFoc1VZMzVzYWZvcC10ejJkdU1KZGlkMUtoTGo3RmsyQVFLc3QtX0F2eFg2SkJlQUxlRWd2VllNVW4wVDlmaFhIRGp2LUk5WkZhV3ptakd3?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxObWwzdGl5VU1jSXoyeWFNZldfUEVuN1A0bmlVaTI2QVBFeVlTTlVqYUkzM2tHSEp5eFVOQVdGcXd0YUNPSHVUMHN5MXNPdnFVVmxMNWFhT2pmY1NWRjh1RkdVTmZvNlJHcE84cjhJTWowc2poN1NtUXVZeGE3Vjdldm1sd1NXNjJMUFVrRl9sWkxMc3RnSDIxYWNwVGdjaDJsVVBuemdKanFzaUxJWWpScC1FM2JYNXlVMWpB0gHAAUFVX3lxTE90OEluRnN1VVhzdERIcUlBS3BCR3NNaDdxVTJZeFUxdkJINWlwdlhQWVFvdHVlY0VoUXF6SjRlanFDZ2NmNnVnSW9KZzJDQ3NFZTc2dW5qbGx0c1N3SzdoSFp0amZOX043eDh0QTVTMVFPOFpFMjFhVlpvWU9ycmdfM2piblRZMFVLZ0RkNFBPYkNJLUdQQWJFczVyLTMtdFZqWVdlaEtTc0FzeUhiNWhoRlFqcmtHMGFuR0dIVzhUZw?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE83Q2czUWhYOWM3QzRDOC1sOU9NVm4wQjc4VldPTTFkcmRDdzZxckFfNlRTNFRxWkw3eUpqUHdpS2Y5c2Q4aDFQUkVsNkU1dDUwdzNxMUlReC1vcUdSb09vSWFZTjNGSnVWRTBqUjVack1TbUNHM0JkMk1zTDlzMTQ?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ2NVTS1KdW9NQUQtLW1tN2hPaF9WRUo5cUJqTFZjcWhTaFFfd2xpalU1RUFXUFYzN1ZQYkdyWTRNT2tEN2dXejV5dkZGcXhZYXBTVlJUbWdRQ25COTNITk1GWlB3UkZGUEk0SHNJSTZVaFNocWtLS2V5NDNSREIxS0F2bw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Smart TV apps are secretly relaying third-party traffic through users' internet connections, as reported by The Hacker News (https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html). This is made possible by proxyware embedded in over a third of LG and Samsung smart TV apps. How can developers prevent such proxyware from being embedded in their apps?
+  - Image Prompt: Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing smart TV apps and proxyware, showcasing a system block diagram with no text characters or legible labels, highlighting the flow of third-party traffic through smart TV devices
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%20representing%20smart%20TV%20apps%20and%20proxyware%2C%20showcasing%20a%20system%20block%20diagram%20with%20no%20text%20characters%20or%20legible%20labels%2C%20highlighting%20the%20flow%20of%20third-party%20traffic%20through%20smart%20TV%20devices?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1782457293/threads_bot/wuboanmof94fp3ev7uls.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18102531775933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18591427687045396
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18591427687045396
+Timestamp: 2026-06-26T07:01:42.956617+00:00 UTC
+============================================================

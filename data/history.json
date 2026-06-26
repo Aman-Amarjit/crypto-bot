@@ -454,5 +454,15 @@
     "post_id": "17876738724614351",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-26T07:01:42.955890+00:00",
+    "topic": "hacking incidents",
+    "caption": "Smart TV apps are secretly relaying third-party traffic through users' internet connections, as reported by The Hacker News (https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html). This is made possible by proxyware embedded in over a third of LG and Samsung smart TV apps. How can developers prevent such proxyware from being embedded in their apps?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing smart TV apps and proxyware, showcasing a system block diagram with no text characters or legible labels, highlighting the flow of third-party traffic through smart TV devices",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782457293/threads_bot/wuboanmof94fp3ev7uls.jpg",
+    "post_id": "18591427687045396",
+    "source_url": "",
+    "source_title": ""
   }
 ]
