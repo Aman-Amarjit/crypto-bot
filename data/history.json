@@ -484,5 +484,15 @@
     "post_id": "18061410041495702",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-27T11:03:17.775594+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "A newly discovered malware campaign, tracked as StrikeShark, leverages SharkLoader to deploy Cobalt Strike Beacon via Perfect DLL Hijacking, as documented by The Hacker News (https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html). Attackers exploit vulnerabilities like CVE-2021-26855 and CVE-2023-32315 to gain initial access. How are you protecting your systems from such sophisticated DLL hijacking techniques?",
+    "image_prompt": "Abstract technical schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes, representing the StrikeShark campaign's system block diagram with no text characters or legible labels, showcasing the malware's deployment and execution flow through SharkLoader and Cobalt Strike Beacon.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782558187/threads_bot/plimp9hnigwupz7oozzy.jpg",
+    "post_id": "17868361263564282",
+    "source_url": "",
+    "source_title": ""
   }
 ]

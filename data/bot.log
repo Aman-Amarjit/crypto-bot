@@ -5055,3 +5055,52 @@ Configuration validated successfully.
 ⚠️  A post was published 228 min ago (from data/history.json). Use --force to override.
 🛑 Skipping run to avoid spammy posting. Use --force to override.
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-27T11:03:01.548295+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI used for cyberattacks'
+Requesting content generation for topic: 'AI used for cyberattacks'...
+Fetching latest news headlines from Google News for query: 'AI used for cyberattacks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxNSDAxbnlLRkhkU095ZUExN1BxNXZqalhvN1E5bThYZjVnMWoyeFR4NUsxeEFackpCcUhUNmdwVTROWmJOY0tudFgzQVBJX3cxVC1XYzJLTC1EVWU0SV95eUFnRUMzOXFVTjF1YUlETTNpR3E3NFV4Vm9PUTBHWVhKQWVQYw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxNeVdGN1lHMHBSdkxfZWJyMHlHZjVGS3JxVGRfdllzVHFTZEdFdm0tSU96RnFSYmp2UDlIck5wWlphNnpfTXdiV3hERDlwd0VxdmdpdE1KWUJOZ0o1WDFCUHJIM0l3dXdMOWNldFpVSk1zUEl0ZmJVMGNqb2hFT2c4WVpNNA?oc=5
+Decoded successfully to: https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiogFBVV95cUxQb0pPTE4tQTJUZ0tWX2NBTVozUE5xYnBnSXNtRS0yNmVUWTlFeUZEV1JGc21IRXB3TUNmZnkzUHFuM1NfX3ZHQ0xseHlkaUc4MkVXN1N0UjM3dlhiM2hySnZZYXV6Z0toT3dhY0dIR2hYSEZHNUFtOGx3cG53VDdVMmZFM1VRRHpMM0pLTXVFaW1TZVg2ZmRpejg1VkVXMzRBMVE?oc=5
+Decoded successfully to: https://www.darkreading.com/cybersecurity-operations/ai-wont-wipe-out-entry-level-cybersecurity-jobs
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOFBhM25sQ3RTV2tCa2hfdWpXTE94RENtZWhabGtHMEJUdjEtc0VxODBWdXVxVTdrUW9iSzdNekw0cUpFVDRCMnJ2cGRRal8tNW9pV0FKTUJsdWZyX0hZVnVvUWd3ZEltNnJ4WkpIQmU3Y015SHo1SXV5LTlKbXJTLW9uMEgzMzB5UnprMnRpeEJ1Zm1OLVJ1aDZUUUFOUW9BdnVieGRtVmo?oc=5
+Decoded successfully to: https://www.darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitgFBVV95cUxPdEppczZKQ0JZZFRTVGprcXI2V3hvWExWd2ZiSnlaMXdCWUdzbWNDd1R6ZEl4SUlHLU5qcW54ZmN5RUdidG8yN3YzUkc0RFkzODlxVVZkYmdrYU5HOXNNTFdXY0tpcDNGTnVsN0Iyb3I1U2p3TXdWbUlTZ3ZzTVBHSnVDWlhWeE13VWtCVVdNOU9ETG1vZzRXTGkzeno2anQ4dmZ3ZzlJQzFwUWVqN2c1VW9PMkZOQQ?oc=5
+Decoded successfully to: https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: A newly discovered malware campaign, tracked as StrikeShark, leverages SharkLoader to deploy Cobalt Strike Beacon via Perfect DLL Hijacking, as documented by The Hacker News (https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html). Attackers exploit vulnerabilities like CVE-2021-26855 and CVE-2023-32315 to gain initial access. How are you protecting your systems from such sophisticated DLL hijacking techniques?
+  - Image Prompt: Abstract technical schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes, representing the StrikeShark campaign's system block diagram with no text characters or legible labels, showcasing the malware's deployment and execution flow through SharkLoader and Cobalt Strike Beacon.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20technical%20schematic%20of%20a%20wireframe%20topology%20diagram%20with%20dark%20navy%20background%2C%20cyan%20and%20white%20lines%2C%20and%20red%20alert%20nodes%2C%20representing%20the%20StrikeShark%20campaign%27s%20system%20block%20diagram%20with%20no%20text%20characters%20or%20legible%20labels%2C%20showcasing%20the%20malware%27s%20deployment%20and%20execution%20flow%20through%20SharkLoader%20and%20Cobalt%20Strike%20Beacon.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1782558187/threads_bot/plimp9hnigwupz7oozzy.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18102740215933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17868361263564282
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17868361263564282
+Timestamp: 2026-06-27T11:03:17.776277+00:00 UTC
+============================================================
