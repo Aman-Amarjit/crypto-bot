@@ -5025,3 +5025,25 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-27T06:53:08.963302+00:00 UTC
 ============================================================
+[2026-06-27T09:48:56.667843] Organic check scheduled. Delaying startup for 148s (max 15 mins)...
+============================================================
+Threads Comment-Reply Runner Execution Started: 2026-06-27T09:51:24.668049+00:00 UTC
+============================================================
+============================================================
+Starting Comments Auto-Reply Routine...
+============================================================
+Logged in as: @amanamarjit8
+Successful organic replies in the last 24 hours: 0/20
+Retrieved 5 latest threads for scanning.
+[1/5] Checking conversation for thread ID: 17886347469595174...
+[2/5] Checking conversation for thread ID: 18061410041495702...
+[3/5] Checking conversation for thread ID: 17895065847552180...
+[4/5] Checking conversation for thread ID: 17995485536988153...
+[5/5] Checking conversation for thread ID: 18591427687045396...
+============================================================
+Comments Auto-Reply Routine Completed. Published 0 replies.
+============================================================
+============================================================
+Comment-Reply Execution Completed Successfully!
+Timestamp: 2026-06-27T09:51:25.808383+00:00 UTC
+============================================================
