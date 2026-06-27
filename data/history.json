@@ -494,5 +494,15 @@
     "post_id": "17868361263564282",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-27T16:18:53.728540+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "The notorious DeepFaceLab framework has enabled sophisticated deepfake creation, leveraging AI-powered face swapping to bypass liveness detection. As documented by Wired (https://www.wired.com), this raises concerns about the integrity of identity verification systems - how can we effectively detect deepfake-based fraud in real-time?",
+    "image_prompt": "abstract schematic of a wireframe topology diagram on a dark navy background with cyan and white lines, featuring red alert nodes to represent deepfake detection systems, with no text characters or legible labels, showcasing system block diagram elements and data flow between nodes",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782577123/threads_bot/ul57nqdolxwxce1uezxh.jpg",
+    "post_id": "18214591630335141",
+    "source_url": "",
+    "source_title": ""
   }
 ]
