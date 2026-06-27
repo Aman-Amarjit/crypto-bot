@@ -88,5 +88,10 @@
     "timestamp": "2026-06-26T14:45:59.949472+00:00",
     "question": "What strategies are you employing to prevent namespace shadowing vulnerabilities in your dependency injection frameworks?",
     "post_id": "17995485536988153"
+  },
+  {
+    "timestamp": "2026-06-27T14:04:50.001892+00:00",
+    "question": "How do you ensure secure handling of sensitive environment variables in containerized applications across different CI/CD pipelines?",
+    "post_id": "17944935876081796"
   }
 ]
