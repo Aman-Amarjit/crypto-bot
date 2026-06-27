@@ -474,5 +474,15 @@
     "post_id": "17895065847552180",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-27T06:35:24.687635+00:00",
+    "topic": "cyber warfare",
+    "caption": "A new malware family called SharkLoader has been discovered, acting as a loader for deploying Cobalt Strike Beacon on compromised hosts, as documented by The Hacker News (https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html). The campaign, tracked as StrikeShark, exploits vulnerabilities like CVE-2021-26855 and utilizes Perfect DLL Hijacking to bypass Windows Loader Lock. How are you protecting your systems from such sophisticated DLL side-loading attacks?",
+    "image_prompt": "Abstract technical schematic of a wireframe topology diagram on a dark navy background, featuring cyan and white lines representing system blocks and red alert nodes, with no text characters or legible labels, showcasing a complex network with multiple entry points and exploitation pathways, highlighting the SharkLoader malware's ability to deploy Cobalt Strike Beacon and bypass system-wide locks.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782542113/threads_bot/vynhknqhqbooqn6vvqpg.jpg",
+    "post_id": "18061410041495702",
+    "source_url": "",
+    "source_title": ""
   }
 ]
