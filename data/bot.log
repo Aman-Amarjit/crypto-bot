@@ -5462,3 +5462,46 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-28T15:19:44.718027+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-28T16:22:13.858554+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'CERT-In advisories security'
+Requesting content generation for topic: 'CERT-In advisories security'...
+Fetching latest news headlines from Google News for query: 'CERT-In advisories security (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxQQ2RLSFpzNVl0UEtNTDRabVhGZDJiN2wtTVp4UlBYQkNYbmJFUGJkcEsteFhlZkViN1RYWEwyZDA0ZnViZEVwa09QTy1CMUpqbS0tamtCRzl2ZEpuMkktS282T0dnanA5TEIzTDBSdmR1LS1JZ0VLcl9hcVdvMXd0WTRiNA?oc=5
+Decoded successfully to: https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMid0FVX3lxTE5CREhoTFBqdmJfdjYwdG82QmdNVU11elJmOFZTWXo0WWg2MWtOVGhoMzdpMl91VVd1MlNRZlNJajBLQXhFaVNGZlRDSFNxY044UjZPZC11dDIwOHRLTk1MUXlXNUZUa1ZNQlB5ek5Ra29rVDFGcWV3?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/?ref=breached.company
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Russian intelligence services are using fake support texts to steal messaging credentials from government officials and activists, as documented by The Hacker News (https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html). Attackers send SMS messages masquerading as messaging platform support bots, urging users to disclose account credentials. How can we effectively counter such social engineering tactics to protect sensitive information?
+  - Image Prompt: Abstract schematic of a wireframe topology diagram on a dark navy background with cyan and white lines, representing a system block diagram with red alert nodes indicating compromised messaging accounts, and no text characters or legible labels, showcasing the flow of malicious SMS messages and stolen credentials
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Abstract%20schematic%20of%20a%20wireframe%20topology%20diagram%20on%20a%20dark%20navy%20background%20with%20cyan%20and%20white%20lines%2C%20representing%20a%20system%20block%20diagram%20with%20red%20alert%20nodes%20indicating%20compromised%20messaging%20accounts%2C%20and%20no%20text%20characters%20or%20legible%20labels%2C%20showcasing%20the%20flow%20of%20malicious%20SMS%20messages%20and%20stolen%20credentials?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1782663738/threads_bot/h2wmmg5odayma3a78htj.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18102960625933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18085456922635527
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18085456922635527
+Timestamp: 2026-06-28T16:22:30.032460+00:00 UTC
+============================================================

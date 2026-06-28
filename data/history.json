@@ -524,5 +524,15 @@
     "post_id": "17935947339275418",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-28T16:22:30.031769+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "Russian intelligence services are using fake support texts to steal messaging credentials from government officials and activists, as documented by The Hacker News (https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html). Attackers send SMS messages masquerading as messaging platform support bots, urging users to disclose account credentials. How can we effectively counter such social engineering tactics to protect sensitive information?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram on a dark navy background with cyan and white lines, representing a system block diagram with red alert nodes indicating compromised messaging accounts, and no text characters or legible labels, showcasing the flow of malicious SMS messages and stolen credentials",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782663738/threads_bot/h2wmmg5odayma3a78htj.jpg",
+    "post_id": "18085456922635527",
+    "source_url": "",
+    "source_title": ""
   }
 ]
