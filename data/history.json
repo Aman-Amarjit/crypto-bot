@@ -514,5 +514,15 @@
     "post_id": "17966702730092533",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-28T11:15:54.367168+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The Log4Shell vulnerability has shown how LLM jailbreaks can exploit weaknesses in logging mechanisms, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/log4shell-vulnerability-exposes-millions-of-servers-to-hacking/). This highlights the importance of monitoring ingress logs for header anomalies. How are your models handling input validation to prevent similar jailbreaks?",
+    "image_prompt": "Abstract schematic of a wireframe topology representing LLM jailbreak vulnerabilities, featuring a system block diagram with dark navy background, cyan and white lines, and red alert nodes, showcasing the flow of exploit traffic through a network, with no text characters or legible labels, emphasizing the complex interplay of system components and potential attack vectors.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782645344/threads_bot/fqtmav8hqsj41rt8kfgj.jpg",
+    "post_id": "17935947339275418",
+    "source_url": "",
+    "source_title": ""
   }
 ]
