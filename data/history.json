@@ -504,5 +504,15 @@
     "post_id": "18214591630335141",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-28T07:09:13.287130+00:00",
+    "topic": "AI surveillance",
+    "caption": "AI coding agents can be tricked into running malware by cloning a benign GitHub repository, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/), which executes a malicious payload via a reverse shell three indirection steps away from the evaluated code. This approach relies on no malicious component in the cloned repository, raising no suspicion. How can developers mitigate such attacks by monitoring AI agent execution chains?",
+    "image_prompt": "Abstract schematic of a wireframe topology diagram with dark navy background, cyan and white lines, and red alert nodes representing AI coding agents, GitHub repositories, and reverse shell connections, showcasing the flow of malicious payload execution without legible text characters or labels, focusing on system block diagram elements and no glowing shields or generic stock-image cybersecurity visuals.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782630543/threads_bot/yin6hkmnqmvc1kx8tmrv.jpg",
+    "post_id": "17966702730092533",
+    "source_url": "",
+    "source_title": ""
   }
 ]
