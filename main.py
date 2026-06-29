@@ -135,11 +135,12 @@ def run_post(topic: str = None, force: bool = False) -> str:
     config.validate()
     print("Configuration validated successfully.")
 
-    # 2. Rate-limit check (4-hour window)
-    if not force and check_recent_post(window_hours=4):
-        print("🛑 Skipping run to avoid spammy posting. Use --force to override.")
-        print("=" * 60)
-        return ""
+    # 2. Rate-limit check (4-hour window) - BYPASSED BY USER REQUEST
+    # if not force and check_recent_post(window_hours=4):
+    #     print("🛑 Skipping run to avoid spammy posting. Use --force to override.")
+    #     print("=" * 60)
+    #     return ""
+    pass
 
     # 3. Determine topic (argument override OR sequential rotation)
     if topic and topic.strip():

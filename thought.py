@@ -120,11 +120,12 @@ def run_thought(force: bool = False) -> str:
     )
     print("Configuration validated successfully.")
 
-    # 2. Rate-limit check (4-hour window)
-    if not force and check_recent_thought(window_hours=4):
-        print("🛑 Skipping run to avoid spammy posting. Use --force to override.")
-        print("=" * 60)
-        return ""
+    # 2. Rate-limit check (4-hour window) - BYPASSED BY USER REQUEST
+    # if not force and check_recent_thought(window_hours=4):
+    #     print("🛑 Skipping run to avoid spammy posting. Use --force to override.")
+    #     print("=" * 60)
+    #     return ""
+    pass
 
     # 3. Generate the daily thought
     print("Generating daily thought via Groq...")
