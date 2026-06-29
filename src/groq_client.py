@@ -80,13 +80,10 @@ class GroqClient:
             '2. "image_prompt": A descriptive prompt for a text-to-image generator '
             "(Pollinations.ai / Flux) that visually represents the theme of the post.\n"
             "Follow these styling rules strictly:\n"
-            "- Frame the image as an **abstract technical schematic or network topology "
-            "diagram** — boxes, nodes, arrows, and flow lines representing the incident.\n"
-            "- Use keywords: 'abstract schematic', 'wireframe topology', 'system block "
-            "diagram', 'no text characters', 'no legible labels', 'dark navy background', "
-            "'cyan and white lines', 'red alert nodes'. Do NOT say 'diagram with labels'.\n"
-            "- Explicitly forbid: glowing shields, purple hacker rooms, sci-fi corridors, "
-            "binary rain, padlocks, generic stock-image cybersecurity visuals.\n"
+            "- Frame the image as a premium, modern editorial illustration, minimalist flat-vector graphic, or technology concept art that dynamically visualizes the theme of the article.\n"
+            "- Tailor the visual metaphor, subjects, and color palette specifically to the news story (e.g., use warm alerts, cool cybernetic hues, or dark metallic accents depending on the topic).\n"
+            "- Do NOT reuse identical prompt keywords like 'wireframe topology' or 'dark navy background with cyan and white lines' for every post. Make each prompt unique and descriptive of a distinct conceptual scene.\n"
+            "- Explicitly forbid low-quality cybersecurity stock-image clichés: glowing shields, generic padlocks, binary code rain, a hacker in a dark room with a hoodie, or neon green terminal screens.\n"
             "- Do NOT include any legible text, words, or brand logos in the prompt.\n"
             "Do not include any text before or after the JSON."
         )

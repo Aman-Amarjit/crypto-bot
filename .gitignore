@@ -1,4 +1,5 @@
 venv/
+.venv/
 .env
 scratch/
 __pycache__/
