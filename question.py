@@ -106,12 +106,11 @@ def run_question(force: bool = False) -> str:
     )
     print("Configuration validated successfully.")
 
-    # 2. Rate-limit check (4-hour window) - BYPASSED BY USER REQUEST
-    # if not force and check_recent_question(window_hours=4):
-    #     print("🛑 Skipping run to avoid spammy posting. Use --force to override.")
-    #     print("=" * 60)
-    #     return ""
-    pass
+    # 2. Rate-limit check (4-hour window)
+    if not force and check_recent_question(window_hours=4):
+        print("🛑 Skipping run to avoid spammy posting. Use --force to override.")
+        print("=" * 60)
+        return ""
 
     # 3. Generate the daily question
     print("Generating daily question via Groq...")
