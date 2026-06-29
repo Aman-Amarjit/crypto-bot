@@ -5595,11 +5595,25 @@ Configuration validated successfully.
 ⚠️  A post was published 8 min ago (from data/history.json). Use --force to override.
 🛑 Skipping run to avoid spammy posting. Use --force to override.
 ============================================================
+[2026-06-29T08:34:03.099782] Organic check scheduled. Delaying startup for 369s (max 15 mins)...
 ============================================================
-Thread Manager for Cybersecurity Execution Started: 2026-06-29T08:36:53.345775+00:00 UTC
+Threads Comment-Reply Runner Execution Started: 2026-06-29T08:40:12.099988+00:00 UTC
 ============================================================
-Validating environment configuration...
-Configuration validated successfully.
-⚠️  A post was published 12 min ago (from data/history.json). Use --force to override.
-🛑 Skipping run to avoid spammy posting. Use --force to override.
+============================================================
+Starting Comments Auto-Reply Routine...
+============================================================
+Logged in as: @amanamarjit8
+Successful organic replies in the last 24 hours: 0/20
+Retrieved 5 latest threads for scanning.
+[1/5] Checking conversation for thread ID: 18047566382564828...
+[2/5] Checking conversation for thread ID: 18085456922635527...
+[3/5] Checking conversation for thread ID: 17935731105276491...
+[4/5] Checking conversation for thread ID: 17935947339275418...
+[5/5] Checking conversation for thread ID: 17966702730092533...
+============================================================
+Comments Auto-Reply Routine Completed. Published 0 replies.
+============================================================
+============================================================
+Comment-Reply Execution Completed Successfully!
+Timestamp: 2026-06-29T08:40:13.121365+00:00 UTC
 ============================================================
