@@ -98,5 +98,10 @@
     "timestamp": "2026-06-28T14:14:30.511104+00:00",
     "question": "What strategies are you employing to prevent and detect container escape vulnerabilities in Kubernetes deployments?",
     "post_id": "17935731105276491"
+  },
+  {
+    "timestamp": "2026-06-29T16:09:04.738154+00:00",
+    "question": "What strategies are you employing to prevent namespace shadowing vulnerabilities in your organization's containerized microservices deployments?",
+    "post_id": "17924679303142980"
   }
 ]
