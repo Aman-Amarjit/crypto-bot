@@ -544,5 +544,15 @@
     "post_id": "18047566382564828",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-29T08:41:50.380501+00:00",
+    "topic": "Digital India cybersecurity",
+    "caption": "India's digital infrastructure is vulnerable to attacks like the Log4Shell exploit, which can compromise systems via a single malicious log message. As documented by BleepingComputer (https://www.bleepingcomputer.com), how can Indian cybersecurity teams mitigate such vulnerabilities in their Digital India initiatives?",
+    "image_prompt": "A stylized, futuristic illustration of the Indian flag's colors integrated into a circuit board, with glowing blue lines representing network connections and a subtle, ominous shadow of a potential threat looming in the background, set against a warm, golden backdrop symbolizing the country's digital growth",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782722500/threads_bot/rgp0yo5yyenzqdsyytsk.jpg",
+    "post_id": "18189262531379319",
+    "source_url": "",
+    "source_title": ""
   }
 ]
