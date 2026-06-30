@@ -137,7 +137,7 @@ def run_thought(force: bool = False) -> str:
     # 4. Publish as a standard text post to Threads
     print("Publishing thought as standard post to Threads...")
     threads = ThreadsClient()
-    post_id = threads.publish_text_post(thought, is_ghost_post=False)
+    post_id = threads.publish_text_post(thought, is_ghost_post=True)
 
     # 5. Save to thought history
     print("Saving thought to history log...")
