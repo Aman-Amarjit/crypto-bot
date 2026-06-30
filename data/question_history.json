@@ -103,5 +103,10 @@
     "timestamp": "2026-06-29T16:09:04.738154+00:00",
     "question": "What strategies are you employing to prevent namespace shadowing vulnerabilities in your organization's containerized microservices deployments?",
     "post_id": "17924679303142980"
+  },
+  {
+    "timestamp": "2026-06-30T14:41:21.863553+00:00",
+    "question": "What strategies are you employing to prevent lateral movement in Kubernetes clusters via compromised service accounts?",
+    "post_id": "18378828013203705"
   }
 ]
