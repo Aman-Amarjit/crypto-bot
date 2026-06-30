@@ -5811,3 +5811,52 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-06-29T18:07:02.011382+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-06-30T07:01:43.639060+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'data breaches security leaks'
+Requesting content generation for topic: 'data breaches security leaks'...
+Fetching latest news headlines from Google News for query: 'data breaches security leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiekFVX3lxTFA0bTF0czFqRkxURU52OFZQX1laV2NJRTY1V2tEXzhHNzEwTlhaUDFPWDU2b0N3YWxxaV9feXNOOWc3Ym53TjdpM0NkTVRGYjl4R3J4a0IwUTZYWjZCRWcyRkp0dmNCdktidGdoMEVoOVJPc2ZzdGZVUTVB?oc=5
+Decoded successfully to: https://www.theverge.com/tech/959229/iphone-18-pro-leak-apple-dark-web
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVHZnZlVBTDNZU25Id3p1TUhKNV9rTkRVZnFIU2EyZGp0Q2pfNlB4R1V2dWJXWXQ4NnM4S2NOcURIcnU5LTBLSE5uRkVla24tcHJ3VWlZQnpOSm11dXJqQ3M4V0ZoZ2dlOW9YMzZDZHkxMlhzR2swX0dzQlFXa0FKYnFkZmFDY3Q3N05LZjlkSy0weTRjOFJqQUtDb29XSXJvYXBGQzN0Q1JpTVc2SzlMSTNfWEhwSkRsYkZJ0gHAAUFVX3lxTFBrSE9Hemt6cXY4aHB2ZnNRSmp0VnR1bEJiSG9VVFkyXzhsanJOS3o0REl6OTlPUkl1am15Y3pTWkNSVE9CZTd4Q0V1dUtmc2I0RkxHMTAxQngzREdTSmNadDlWV0ZGU0NrQm1IbmQ5dWo0UkRxT0g1WEZJbERDa3ZEbjZBT2tha2xhUjJtMl9mOF9aMThrdkxKbkl1Vlh3bHAwNEV3d1JaQWU4VTl4WUZUV0ZLS2FLM2lsUmNZQXA1WQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxONy1GdHVMeTdvUlVzS0pJaERrMU5zTHJzOTRteGtZRE1vVkV0R05pNFNHZEpkQnEwRnFObWtxYk5FQkJPYXJVQ3RLaVlOcFh5U3lSVl96R3BOTVJ4ZWs4dVdVcDBld1lRSld2YW5yWU5ubU5tMlJYU0NuQ0dmQnQ0UGd1TXlsdVhDY3hKUEJvcjQtS2JNUEVWNklNc0RTNG1GQTlydFQyN0JfQjhtajQ40gG0AUFVX3lxTE16RGEzd182NE9yNnhOT1hEVmZOVjJkbE4wbkxBcmloRVRVaGcyZ0pCSFNXT296SXl5S0FHMWRucFIxUFNzT0lwQzlfa2JYbDV4UGZmT2FlTWV2b3lFYUxtWWU2WGdsWERSN1YyQWtIR1gwbW1kSTQzbldYMkxkbUVfSXV6ejdhbmNSMXpPNkczOUVRVVhxazN3MlNjM1E0Y2dIdzBOQjVFR3dYQVlVd2k5ZEoxYg?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxONFFnRlFYdVAxbUtoV3dBV3NlTDBBSzRaNG5tMnd6Q2ttQm1NNHdwdmtfclBTT1pWNkxReHk1ZDNSZWVocXdNT0JCai1YWktZalJuZkxETnlTaWUweGVJWnNfUnJoMy1SY0FwMWJHTXdzeGo3OXFQNWEyenp6YnBMS3NwVlN6Q0pNSHdGRGlxN24zNUNiMnF3YklKVWY0b2ppUlBPVkxTdmdZTXRHQ1VEZFBR?oc=5
+Decoded successfully to: https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQekxkWWE1N0lHWUc2LUZDMUhURU02bkhaQ0dIUjNKRVlfMlMzYUE1bU5ocHVqOWdDN3BEWHEzVEhyY0dvbTViN01OeWdNLVRhZF84TWxCa0ozQ0pIdkh0RUxod1lBdzA1aEd3QWRMRVQxcEpxdHd4bW55cl9oYVlkLUZreEFKSmFtREZ0akFiZHBNNFdicDVBN0tETGpSQzVRMndKemdic2pSdF9ZWTZkaHFhN27SAboBQVVfeXFMTmN4cjNTdlMzVFlpR2FXa1RpZ2lPdEhQTTRKLXlxRVh1ckJlZ3VFZVdvZ2k2eTE3VzVMZkxLTHZJb29GN1N1bFROQi15NlJ6b21HSjd3dGZ6T25acVdBYl9KYmg1c1diV0lmeEUtYVhRN0tWRjdQRjQ1T3EzaWRSZlRoS1VHYmVPUkRKaUY2ajllLUxnQ0t4RVRKbVg5QW5Nd2ZaVDdqNlpYUWJBTTlobTVxMzRWbElmcnNn?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.theverge.com/tech/959229/iphone-18-pro-leak-apple-dark-web
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: A data breach at Apple supplier Tata Electronics has led to leaked iPhone 18 Pro photos and parts lists on the dark web, as documented by The Verge (https://www.theverge.com/tech/959229/iphone-18-pro-leak-apple-dark-web). The leak includes detailed component lists and board layouts, potentially exposing Apple's supply chain. How will this breach impact the security of Apple's upcoming devices?
+  - Image Prompt: A stylized, futuristic illustration of a shattered iPhone screen with dark web code fragments and Apple component blueprints swirling in the background, set against a deep blue and purple ombre gradient
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20shattered%20iPhone%20screen%20with%20dark%20web%20code%20fragments%20and%20Apple%20component%20blueprints%20swirling%20in%20the%20background%2C%20set%20against%20a%20deep%20blue%20and%20purple%20ombre%20gradient?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1782802908/threads_bot/ylomujfz3cwlgiebymhd.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18103269901933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18121921255688230
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18121921255688230
+Timestamp: 2026-06-30T07:01:59.057588+00:00 UTC
+============================================================

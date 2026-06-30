@@ -564,5 +564,15 @@
     "post_id": "18097047532957178",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-30T07:01:59.056788+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "A data breach at Apple supplier Tata Electronics has led to leaked iPhone 18 Pro photos and parts lists on the dark web, as documented by The Verge (https://www.theverge.com/tech/959229/iphone-18-pro-leak-apple-dark-web). The leak includes detailed component lists and board layouts, potentially exposing Apple's supply chain. How will this breach impact the security of Apple's upcoming devices?",
+    "image_prompt": "A stylized, futuristic illustration of a shattered iPhone screen with dark web code fragments and Apple component blueprints swirling in the background, set against a deep blue and purple ombre gradient",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782802908/threads_bot/ylomujfz3cwlgiebymhd.jpg",
+    "post_id": "18121921255688230",
+    "source_url": "",
+    "source_title": ""
   }
 ]
