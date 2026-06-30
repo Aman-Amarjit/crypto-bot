@@ -574,5 +574,15 @@
     "post_id": "18121921255688230",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-06-30T17:14:15.533089+00:00",
+    "topic": "government cyber regulations",
+    "caption": "Attackers are exploiting CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp, to deliver the Djinn Stealer malware, which targets cloud and AI credentials, as documented by Darkreading (https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials). This infostealer can collect and package stolen data, including credentials for AI development tools, using AES-256-GCM encryption. How are you protecting your development environments from such targeted attacks?",
+    "image_prompt": "A stylized, futuristic illustration of a cloud infrastructure with glowing, interconnected nodes, surrounded by faint, ghostly outlines of AI-powered robots, set against a dark, gradient blue background with subtle, shimmering accents of silver and purple, representing the intersection of cloud security and AI-powered threats.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782839645/threads_bot/gat35ehuhq7y0zdwujlv.jpg",
+    "post_id": "18079303730259807",
+    "source_url": "",
+    "source_title": ""
   }
 ]
