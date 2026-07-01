@@ -594,5 +594,15 @@
     "post_id": "18048224237626504",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-01T17:22:43.549310+00:00",
+    "topic": "dark web leaks",
+    "caption": "Attackers can hijack AI agents using poisoned MCP tool descriptions, making them leak company data without breaking any rules, as documented by The Hacker News (https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html). This exploit abuses the trust boundary between systems, allowing malicious instructions to be disguised as formatting notes. How can your team detect and prevent such 'tool poisoning' attacks in their AI-powered workflows?",
+    "image_prompt": "A stylized, futuristic illustration of a robotic arm reaching into a network of interconnected gears, with a subtle, glowing red thread weaving through the machinery, symbolizing the hidden instructions in the MCP tool descriptions, set against a dark, metallic background with cool, cybernetic hues.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782926552/threads_bot/dhdwaxumsmtcqp4taakk.jpg",
+    "post_id": "18098129074961716",
+    "source_url": "",
+    "source_title": ""
   }
 ]
