@@ -108,5 +108,10 @@
     "timestamp": "2026-06-30T14:41:21.863553+00:00",
     "question": "What strategies are you employing to prevent lateral movement in Kubernetes clusters via compromised service accounts?",
     "post_id": "18378828013203705"
+  },
+  {
+    "timestamp": "2026-07-01T15:10:57.928095+00:00",
+    "question": "What strategies are you employing to prevent credential exposure in CI/CD pipelines utilizing secrets management and least privilege access controls?",
+    "post_id": "18140653342538661"
   }
 ]
