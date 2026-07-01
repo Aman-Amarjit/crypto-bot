@@ -584,5 +584,15 @@
     "post_id": "18079303730259807",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-01T07:19:15.980029+00:00",
+    "topic": "hacking incidents",
+    "caption": "Aflac, a major insurance provider, has just disclosed a data breach following a hack of one of its subsidiaries, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/). This incident highlights the importance of robust security measures across all subsidiary networks. How can companies like Aflac ensure their subsidiaries' systems are adequately secured against such breaches?",
+    "image_prompt": "A stylized, abstract illustration of a large, metallic bird in flight, symbolizing Aflac, with its wings partially fractured and leaking digital, glowing feathers, set against a muted, gradient background that transitions from a deep blue at the top to a pale, ominous grey at the bottom, with subtle, intersecting network lines in the foreground.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1782890344/threads_bot/zrrw8unuww4esh7sbykr.jpg",
+    "post_id": "18048224237626504",
+    "source_url": "",
+    "source_title": ""
   }
 ]
