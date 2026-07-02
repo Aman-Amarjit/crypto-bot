@@ -614,5 +614,15 @@
     "post_id": "18107232188050156",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-02T17:00:52.274196+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "As documented by BleepingComputer (https://www.bleepingcomputer.com/), the intersection of AI and cybersecurity raises important questions. What specific vulnerabilities could be targeted by attackers using AI, and how is your team preparing to detect these potential threats?",
+    "image_prompt": "A stylized, futuristic illustration of a neural network with glowing blue circuits and dark metallic accents, set against a backdrop of abstract, swirling patterns that evoke a sense of dynamic complexity and technological uncertainty.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1783011639/threads_bot/vttpzuqulrt0mirmxcia.jpg",
+    "post_id": "18324728458272073",
+    "source_url": "",
+    "source_title": ""
   }
 ]

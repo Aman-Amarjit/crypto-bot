@@ -6508,3 +6508,57 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-02T15:57:23.674480+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-02T17:00:27.849134+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI used for cyberattacks'
+Requesting content generation for topic: 'AI used for cyberattacks'...
+Fetching latest news headlines from Google News for query: 'AI used for cyberattacks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMidkFVX3lxTFBYMXI5R2RkUFJESjdBWW0tRjJPSTVOeWt4ZGg4cjltOUpUWEJ3UVlXTTZDMS1sV3FVam10dWtacW5FMl9qMUJfVS1fd0t6em5USnpWQW9BTzZmUHdKRHFTcGxFcWoza21WZ29Vd2VqTFBqN0Fha0E?oc=5
+Decoded successfully to: https://www.wired.com/story/flare-website-ai-flaw-reporting-safety/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxNbTJwbEprdTVSSnh0NHJ4aG9vRkFKR3gtQk5kekRfR3prZVNydG1MMV9vWkxqZlFaS3hXMk1KUmRCd1B3V2ZrcjBERXlrQ0cyYjdsQmVtWVBIV3hlMXlQUmhwTnhKWHpUaXF4R3BabDRyZjdvVnliM1hGWGJPMDhlTmpoM3N1aTBlTG5XbjFPYk9DQ1AxZTVDbQ?oc=5
+Decoded successfully to: https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix
+Decoding Google News URL: https://news.google.com/rss/articles/CBMinAFBVV95cUxQLTdLUUVaTkdRYlBFMm80VmhIc3hBNmFvYWJIeFlvU1FVQVI5bDAwdV83WENycWtwV2xoYjJpdnlkblhkWWRGYlpJWGxzMzIwLUc4UTkzMV9tMjJ4QlI2U3ppMFo1V1pGZ2NidEtwRTd3Q2RieU04aXBBejh2NnkyVVhQX3dtcnNHSlZ2NlZvNkRSVVFBZEU4R21mUzk?oc=5
+Decoded successfully to: https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOazdzQU1ZdkxpUi1XblE3RWhVZ1lVQ0daajI2R0xZOEN1MXZTdW1zTk40NnZIUUlBeXZWaThxVm1ESDVTdXYzVW1NREFSd1RMX2FrRGE1YVlfSHlZNDZfUUxaU3I3Vk1valNtSURZZkpDUzZQX3Q1ZnpUc3pWYTZ5QXlmSXZwS0lsU3BEMXlGSUtRNXUzMnlsVjNtTmViTW5QbTBDUkNjUGJQZw?oc=5
+Decoded successfully to: https://www.darkreading.com/vulnerabilities-threats/anthropic-s-ai-finds-bugs-ibm-bets-5b-it-can-fix-them-
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - The caption contains fabricated stats and claims (e.g., 'AI-powered cyberattacks escalate') that do not appear in the provided source article content or headlines.
+  - The caption makes claims far broader than what the source supports (e.g., 'the potential for machine learning algorithms to be exploited for malicious purposes') without specific attribution to the source article content or headlines.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As documented by BleepingComputer (https://www.bleepingcomputer.com/), the intersection of AI and cybersecurity raises important questions. What specific vulnerabilities could be targeted by attackers using AI, and how is your team preparing to detect these potential threats?
+  - Image Prompt: A stylized, futuristic illustration of a neural network with glowing blue circuits and dark metallic accents, set against a backdrop of abstract, swirling patterns that evoke a sense of dynamic complexity and technological uncertainty.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20neural%20network%20with%20glowing%20blue%20circuits%20and%20dark%20metallic%20accents%2C%20set%20against%20a%20backdrop%20of%20abstract%2C%20swirling%20patterns%20that%20evoke%20a%20sense%20of%20dynamic%20complexity%20and%20technological%20uncertainty.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1783011639/threads_bot/vttpzuqulrt0mirmxcia.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18103693888933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18324728458272073
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18324728458272073
+Timestamp: 2026-07-02T17:00:52.275052+00:00 UTC
+============================================================
