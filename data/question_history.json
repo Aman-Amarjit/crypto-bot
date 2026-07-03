@@ -118,5 +118,10 @@
     "timestamp": "2026-07-02T14:27:12.455789+00:00",
     "question": "What strategies are you employing to prevent container escape vulnerabilities in Kubernetes deployments using runtime privilege escalation?",
     "post_id": "18096391736214384"
+  },
+  {
+    "timestamp": "2026-07-03T14:30:08.349201+00:00",
+    "question": "What strategies are you employing to prevent and detect credential stuffing attacks in microservices-based architectures?",
+    "post_id": "18047738786568044"
   }
 ]
