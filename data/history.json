@@ -624,5 +624,15 @@
     "post_id": "18324728458272073",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-03T06:40:45.527316+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "The 2020 Twitter VIP account takeover, facilitated by voice phishing, highlights the threat of deepfakes in social engineering attacks, as documented by Wired (https://www.wired.com/story/twitter-hack-vip-accounts/). This incident demonstrates how convincing audio or video can be used to deceive even the most security-conscious individuals. How can AI-powered voice verification systems be designed to effectively counter such deepfake-based phishing attempts?",
+    "image_prompt": "A stylized, futuristic illustration of a speech waveform being dissected by a neural network, set against a backdrop of blurred, faceless figures in a cityscape, with a predominantly dark blue and purple color scheme to convey the themes of anonymity and artificial intelligence.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1783060831/threads_bot/wkcpvvelbswwc7xdgsr9.jpg",
+    "post_id": "18088090439454854",
+    "source_url": "",
+    "source_title": ""
   }
 ]
