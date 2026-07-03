@@ -6766,3 +6766,52 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-03T15:46:00.823896+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-03T16:43:50.052648+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNkdTaXlJMVY3TUtqemFwWTF0cHNGUmtsc0UtMF9BN3EwU0R0dnU2ZGlVa3lYanJVMDZwbDg0ZXlxV2hSS29vblhoOWdSUG8zbWZfekhCb0ZrSmFfRm0yd0xkZjFGVVI1MVQzMGxRY0k3UmVyMFp5ck4ySWVJbDZJczQ4UFFjNlJ1NTF6ZHFlaU9EUQ?oc=5
+Decoded successfully to: https://www.theverge.com/policy/961004/world-cup-america-250-surveillance-drones-cameras
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMic0FVX3lxTE5sY0g0QjhvMURiNF8xOXh3cE14aUNUSk9tZU9RT3RpYjV4QVdZRVgzcW8tT1NYYl9oN2tUSUR5NGlBQWFydVZwZWJKbzNoNENfVHNPa0toc3Ria2kxOVBJSW1ORy15MVVkclBkYVNybWRKQVE?oc=5
+Decoded successfully to: https://thehackernews.com/2026/07/european-parliament-member.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeTBnWjJPak1PZ1dOV2hpS2ZZR2ZMbzdkcGhEZGFmaFhMUy1PLW1rNndwR3Z6VklqSWp3aU9YQnNEdnEwX1Y4UTZ3cG5jNjNEWXpnUVhtQUZ5TzBsRldGc19EVzV1Z0JWVnRwbzFsWVlILUVnb2JYTkZTVUFNRTdRUHRZMzMwY05oNVpzcmx6Vzl0ZG5QLU5SeVNuQkw3Qm5YMVN0OXJ1MjlNVEQxUndXdEhKWGJBcDR30gG-AUFVX3lxTE5SQUdPTVVMVkZiS0VFNUU0LVkzNFVVbjk3U2UyUUdTSWp2SUpuQUc3VzVBcHROT3lDblBBSi04dDFlUXJWZ3NrUHpLb1dYT3ZIUktvQWthVXFWNG5ISkNlMjFfNGsxNEJtWmYxLUU0RWhaNEJOcm1aSDF1emtSYk12RHJaSDZRTVhPWkYyVVhTdXFIcmpiVWVPdjVPckYzeV9NS0tqRm9ES2tuOWppQzEtVk9scHpEbjEwM1RBVEE?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/offer/deals/why-pay-monthly-get-access-to-chatgpt-claude-and-more-for-a-one-time-70/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiugFBVV95cUxNSWR4M0VpZVNzZlVZOTBhRGZkcXRUQ2g1ZE00WmJkOF9hVkUzSXozQW1CQkRpTHVJMDRNRF9tdjY3YVptQ0x4ckJCMDZ5MTZwSE9HWEZXUWdnNzNqczFfZnNYTDI2VkZOU0hTMG9hdVZMOGpZTTRMN0UwNDk4SDBwZy1VWWh0anhicVhHZEFMNjhqUEhUVS1Wb1NfRGpjMFNhbDUwOFh3eHRBMVFTZEVyaXB3cUN0Ylo4Z3fSAb8BQVVfeXFMTjdSVmpfeTJqN0xtbEhMcWh3RGpwd2IxbnlTVmpJVVdQcEFva1F6NC1tY00wSVduc2xXWnJDX3JjakUxU0pHSUhNQXQ0WU1VaXJyUDRELWg4ZVg2cG82dTdGenhsek1VVkN2c21PYTlzc2JRdHNpWExtTVpsOGlrTkhZZ0pINUdpWk5ZdmFNVWFPNmJhZHFoUXZZTXhzdWNrQlN6WmQ5TnhTdVlSaEl4M3lNaU5ZZDN6S0hNclRkeHM?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/offer/deals/a-one-time-20-gets-you-lifetime-access-to-1-000-plus-stackskills-courses/
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.theverge.com/policy/961004/world-cup-america-250-surveillance-drones-cameras
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As the US cohosts the World Cup, cities are ramping up surveillance capabilities, including camera networks that track biometrics, as documented by The Verge (https://www.theverge.com/policy/961004/world-cup-america-250-surveillance-drones-cameras). With the Fourth of July festivities and World Cup final designated National Special Security Events, how will attendees' personal data be protected from potential misuse?
+  - Image Prompt: A stylized illustration of a cityscape with a subtle, gradient-blue surveillance network overlay, featuring minimalist, white camera icons and faint, red biometric tracking lines, set against a warm, golden sunset backdrop, symbolizing the intersection of technology and civic life.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%20illustration%20of%20a%20cityscape%20with%20a%20subtle%2C%20gradient-blue%20surveillance%20network%20overlay%2C%20featuring%20minimalist%2C%20white%20camera%20icons%20and%20faint%2C%20red%20biometric%20tracking%20lines%2C%20set%20against%20a%20warm%2C%20golden%20sunset%20backdrop%2C%20symbolizing%20the%20intersection%20of%20technology%20and%20civic%20life.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1783097046/threads_bot/vw0urxnl1pgal0yob5p7.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18103863094933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18079959158252814
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18079959158252814
+Timestamp: 2026-07-03T16:44:17.854510+00:00 UTC
+============================================================
