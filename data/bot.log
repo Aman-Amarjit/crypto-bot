@@ -6953,3 +6953,47 @@ Configuration validated successfully.
 ⚠️  A post was published 238 min ago (from data/history.json). Use --force to override.
 🛑 Skipping run to avoid spammy posting. Use --force to override.
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-04T10:59:33.494754+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'CERT-In advisories security'
+Requesting content generation for topic: 'CERT-In advisories security'...
+Fetching latest news headlines from Google News for query: 'CERT-In advisories security (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yVVROVFdMdWMxSFpmYUpIVFRRWkF3bW04Q1RLSDh0VG1aaUwyRzU2UXh5d1pIXzQ3eWhRZE9qa016ZVJHUDBDV3E3UWg0M0VEc1Bia182UDdtb3c?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As I delve into the latest cybersecurity advisories, I'm reminded of the crucial role CERT-In plays in safeguarding our digital landscape, as documented by BleepingComputer (https://www.bleepingcomputer.com/). What proactive measures is your organization taking to stay ahead of emerging threats?
+  - Image Prompt: A stylized, futuristic illustration of a network globe with glowing, interconnected nodes, surrounded by subtle, pulsing waves that evoke a sense of dynamic threat detection and mitigation, set against a deep blue, gradient background that transitions into a warm, golden light.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20network%20globe%20with%20glowing%2C%20interconnected%20nodes%2C%20surrounded%20by%20subtle%2C%20pulsing%20waves%20that%20evoke%20a%20sense%20of%20dynamic%20threat%20detection%20and%20mitigation%2C%20set%20against%20a%20deep%20blue%2C%20gradient%20background%20that%20transitions%20into%20a%20warm%2C%20golden%20light.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1783162780/threads_bot/oiy6tgwqfouyviagt8bp.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18103988305933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18074400917672575
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18074400917672575
+Timestamp: 2026-07-04T10:59:50.893913+00:00 UTC
+============================================================
