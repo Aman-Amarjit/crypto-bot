@@ -123,5 +123,10 @@
     "timestamp": "2026-07-03T14:30:08.349201+00:00",
     "question": "What strategies are you employing to prevent and detect credential stuffing attacks in microservices-based architectures?",
     "post_id": "18047738786568044"
+  },
+  {
+    "timestamp": "2026-07-04T13:55:53.956404+00:00",
+    "question": "What novel approaches are you using to detect and prevent side-channel attacks in your cloud-based microservices architectures?",
+    "post_id": "18007732253745303"
   }
 ]
