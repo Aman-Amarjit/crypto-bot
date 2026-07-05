@@ -684,5 +684,15 @@
     "post_id": "18051537284554052",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-05T11:12:17.643546+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "As I delve into RBI SEBI tech security regulations, I'm reminded of the critical concept of secure API gateways, which can prevent breaches like the 2016 SWIFT hacking incident. According to a report by The Economic Times (https://economictimes.indiatimes.com), how can we ensure our API gateways are configured to detect and prevent such attacks?",
+    "image_prompt": "A stylized illustration of a secure API gateway, with a subtle Indian flag pattern in the background, warm golden accents, and a series of interconnected, glowing blue nodes representing the RBI SEBI regulatory network, set against a dark, gradient blue background that evokes a sense of premium technology and security.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1783249927/threads_bot/tpbn8fxx03uhby2vw6ne.jpg",
+    "post_id": "17867998683631971",
+    "source_url": "",
+    "source_title": ""
   }
 ]
