@@ -7156,3 +7156,51 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-04T18:37:56.378101+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-05T06:48:57.926829+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMioAFBVV95cUxPdjlIUjlIcXpYVEZ0azdMaGhSbVNjWjRPZWItUUI3WW4zckstR09JMFNnRWVjbTVzQVNpT0JTTzFxZ1lDbzhrWlVhQ25ud1ZrY3JRaElOa0JrSnM2eDhoU2VxY2ladFgzMG53UFBLaU9pdFZnTzlCNHRpVUNtZ25zYUV1Z1E3QUppM0gyeFViQWlLa0owMi1HS181OUtDbXNG?oc=5
+Decoded successfully to: https://www.wired.com/story/security-roundup-apples-hide-my-email-service-fails-to-hide-your-email/
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - The caption contains fabricated stats and information (e.g., 'India's digital landscape expands', 'cybersecurity concerns are growing', 'potential threats to sensitive data') that do not appear in the provided source headlines.
+  - The caption makes claims (e.g., 'safeguard India's digital infrastructure') that are far broader than what the source supports, which is only a homepage URL without specific content.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As I delve into cybersecurity news on BleepingComputer (https://www.bleepingcomputer.com/), I'm reminded of the importance of staying informed about the latest threats. Given the current state of digital security, what steps can we take to enhance our online protection?
+  - Image Prompt: A stylized, abstract illustration of a network with interconnected nodes, set against a backdrop of subtle, glowing circuit patterns, conveying the idea of a dynamic and secure digital ecosystem.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20abstract%20illustration%20of%20a%20network%20with%20interconnected%20nodes%2C%20set%20against%20a%20backdrop%20of%20subtle%2C%20glowing%20circuit%20patterns%2C%20conveying%20the%20idea%20of%20a%20dynamic%20and%20secure%20digital%20ecosystem.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1783234143/threads_bot/c0fwoxpyod4lvh32j6bm.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18104133538933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18051537284554052
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18051537284554052
+Timestamp: 2026-07-05T06:49:12.381516+00:00 UTC
+============================================================
