@@ -133,5 +133,10 @@
     "timestamp": "2026-07-05T14:06:57.900866+00:00",
     "question": "How are you ensuring the integrity of your containerized applications against vulnerabilities in nested dependencies and transitive dependencies during the CI/CD pipeline?",
     "post_id": "17896868049516266"
+  },
+  {
+    "timestamp": "2026-07-06T15:53:54.229539+00:00",
+    "question": "What strategies are you employing to prevent credential exposure in CI/CD pipelines when using ephemeral environments and dynamic secrets management?",
+    "post_id": "18062683415741695"
   }
 ]
