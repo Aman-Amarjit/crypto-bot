@@ -704,5 +704,15 @@
     "post_id": "18103966322015319",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-06T07:21:36.493499+00:00",
+    "topic": "government cyber regulations",
+    "caption": "AI-powered attacks are compressing the time between initial targeting and business impact, forcing a rethink of traditional incident response models, as documented by The Hacker News (https://thehackernews.com/expert-insights/2026/07/ai-speed-attacks-are-forcing-rethink-of.html). With AI-enabled social engineering becoming more scalable and believable, can organizations make the right decision quickly enough to contain an incident?",
+    "image_prompt": "A stylized, abstract illustration of a speeding digital waveform crashing into a stylized, metallic shield, with faint, ghostly silhouettes of corporate executives and security analysts in the background, set against a dark, gradient blue background that evokes a sense of urgency and rapid change",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1783322486/threads_bot/cmfjmnwmlmphyrrxhjbl.jpg",
+    "post_id": "18107140040078078",
+    "source_url": "",
+    "source_title": ""
   }
 ]
