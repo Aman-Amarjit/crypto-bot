@@ -138,5 +138,10 @@
     "timestamp": "2026-07-06T15:53:54.229539+00:00",
     "question": "What strategies are you employing to prevent credential exposure in CI/CD pipelines when using ephemeral environments and dynamic secrets management?",
     "post_id": "18062683415741695"
+  },
+  {
+    "timestamp": "2026-07-07T15:12:08.440270+00:00",
+    "question": "How are you implementing least privilege access and network segmentation in containerized Kubernetes environments to mitigate lateral movement attacks?",
+    "post_id": "18119680723694767"
   }
 ]
