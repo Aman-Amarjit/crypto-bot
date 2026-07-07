@@ -734,5 +734,15 @@
     "post_id": "18106356632001710",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-07T17:25:20.836281+00:00",
+    "topic": "cyber warfare",
+    "caption": "Iranian hackers are leveraging a modular C2 framework called Cavern to target Israeli organizations, as documented by Check Point Research and reported by The Hacker News (https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html). The framework utilizes multiple .NET compilation formats, including .NET Native AOT, to evade analysis. How can security teams effectively detect and mitigate such sophisticated, adaptable threats?",
+    "image_prompt": "A stylized, darkened illustration of a modular, interconnected network with glowing blue nodes, representing the Cavern C2 framework, set against a backdrop of subtle, Middle Eastern-inspired architectural patterns, with faint, glowing lines tracing the paths of data exfiltration and lateral movement.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1783445110/threads_bot/hchzenm5theicbndir8u.jpg",
+    "post_id": "17941286685083920",
+    "source_url": "",
+    "source_title": ""
   }
 ]
