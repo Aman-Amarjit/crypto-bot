@@ -8006,3 +8006,58 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-07T19:33:38.337685+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-08T06:05:29.391059+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI used for cyberattacks'
+Requesting content generation for topic: 'AI used for cyberattacks'...
+Fetching latest news headlines from Google News for query: 'AI used for cyberattacks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisAFBVV95cUxQNnR2WGllV0FTY0FCREpBSm5WREk0ZUlSX0toamlLTkZmTU5iUjZiM2oydDRWSzNYZF92bWVZc1NQTjJUUEVsQzBlZjFSeUZyY0pTVF95WUdnQ0ZwWDhmNnFYdXA5R1AyOFVBaWFTcEdERXo3c0w5Y3dYbFJrZTdfYUJjM0lhcUxBakdTMUQ0Rjl2QXEtZGQ3d3ZrajM3VGF2T0tzb2ZQYXYzaklVMEhRLdIBtgFBVV95cUxQLUVQY2RTenZEemhIM3BKRmxFWXpTb2VJUFNnSFotcXBWMWRRcXJvWDVudk1WMEZobG5OYjNCUmY3MV9wa3Z0Tk9vdllabWphcXdjMVlpY0YydjNTakhTc05XZldiVkVSWllDOF9pTHpBeVdUaFh0NWxBMkI2dWppQVJTS0VYRWdNRzNKYk5FSTdzbElad2RUUmNBQVRUVERneFBqQjhkMFJYSXVsSzZZSXpYbnVyZw?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0FiYUNIc3VGMTFDYzdXS1UzeEMtZm9ONUFDRklwLVNoaTQ4XzB3WnVCenRDcGJXTU5wTXdQSEZnWWt4YTlpcWYwNEpsYWZad09sYzh5Yk5oUGtabEM4OHFMZndOMWVaS25STFlwd3Yxd1RoaVR3Z0p6ZTlnUTlKczYtNm91UHkxc2ZMazBKbkhjbkxfRVlieDNCRS1FOGpOMTg2aGRJTmZyZDVNYUE?oc=5
+Decoded successfully to: https://www.darkreading.com/application-security/dialogflow-cx-rogue-agent-flaw-enabled-ai-chatbot-data-theft
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiUEFVX3lxTE1UczRaOEFicGQ4R0tSM3RhNzdIV2l6WHlNRTliZWpuM3RmVFdRT1ZGQTZDbG9lV1NtZlhGY3RMeFZ2cFN6ZktPc3I5c09qQVZv?oc=5
+Decoded successfully to: https://www.darkreading.com/latest-news
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUDlxOFZyekZNcE94LVVYV0xHcng1Z0UteWpYOU8zcUx6dmRDTXNkUXRqV21JVUhPcEpLRVB2djF0M2YyWHNZS1JmcXp5V3FUdmxoSmtzV19DV0tEQVVzUHZOOWxSaTRiVXFDTTFLV1BzQml0ZTRqekd1enZVQ3VLVkl1eEtkQVJscXBZZEtKQU5LOV9UNGc5WVF3MjY1cmF2VTFNYkxPMTI?oc=5
+Decoded successfully to: https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - The caption contains fabricated stats and claims (e.g., 'AI-powered cyberattacks escalate') that do not appear in the provided source article content or headlines.
+  - The caption makes claims far broader than what the source supports (scope creep), as the source does not mention 'autonomous malware' or 'AI-driven threats'.
+  - The caption appears to mix details from different stories or general knowledge (conflation), as the source does not provide information about developing defenses against AI-driven threats.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As I delve into the intersection of AI and cybersecurity, I'm reminded that the latest developments can be both fascinating and unsettling. According to BleepingComputer (https://www.bleepingcomputer.com/), the role of AI in cyberattacks is a topic of increasing interest. How might AI be leveraged in future cyberattacks?
+  - Image Prompt: A stylized, futuristic illustration of a neural network with glowing blue circuits, juxtaposed against a backdrop of abstract, fragmented code snippets in a darker, metallic grey hue, symbolizing the complex relationship between artificial intelligence and cybersecurity threats.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20neural%20network%20with%20glowing%20blue%20circuits%2C%20juxtaposed%20against%20a%20backdrop%20of%20abstract%2C%20fragmented%20code%20snippets%20in%20a%20darker%2C%20metallic%20grey%20hue%2C%20symbolizing%20the%20complex%20relationship%20between%20artificial%20intelligence%20and%20cybersecurity%20threats.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1783490737/threads_bot/hsgfh8tsm4h72cik1wrg.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18104702413933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18111927068475130
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18111927068475130
+Timestamp: 2026-07-08T06:05:50.830448+00:00 UTC
+============================================================
