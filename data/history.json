@@ -754,5 +754,15 @@
     "post_id": "18111927068475130",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-08T16:48:51.629115+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "The notorious DeepFaceLab framework has been exploited to create convincing deepfakes, as documented by Wired (https://www.wired.com), by manipulating the FaceNet embedding space. This technique allows attackers to bypass facial recognition systems, raising concerns about identity verification. How can your team detect deepfake-based fraud using audio-visual inconsistency detection?",
+    "image_prompt": "A stylized, futuristic illustration of a fractured mirror reflection, with a warm, golden light representing authenticity, and a cool, dark silhouette signifying deception, set against a muted, metallic background with subtle, glitch-art distortions",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1783529321/threads_bot/cj5f6fbjqnjdcjkbsl60.jpg",
+    "post_id": "17963424066135266",
+    "source_url": "",
+    "source_title": ""
   }
 ]
