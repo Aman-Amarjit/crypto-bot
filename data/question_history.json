@@ -143,5 +143,10 @@
     "timestamp": "2026-07-07T15:12:08.440270+00:00",
     "question": "How are you implementing least privilege access and network segmentation in containerized Kubernetes environments to mitigate lateral movement attacks?",
     "post_id": "18119680723694767"
+  },
+  {
+    "timestamp": "2026-07-08T14:39:22.601124+00:00",
+    "question": "What strategies are you employing to prevent lateral movement in Kubernetes clusters via compromised service accounts or pod-to-pod communications?",
+    "post_id": "18069717917438131"
   }
 ]
