@@ -148,5 +148,10 @@
     "timestamp": "2026-07-08T14:39:22.601124+00:00",
     "question": "What strategies are you employing to prevent lateral movement in Kubernetes clusters via compromised service accounts or pod-to-pod communications?",
     "post_id": "18069717917438131"
+  },
+  {
+    "timestamp": "2026-07-09T15:32:15.073520+00:00",
+    "question": "What mechanisms are you implementing to prevent privilege escalation in containerized environments with shared kernel vulnerabilities?",
+    "post_id": "17998099202971181"
   }
 ]
