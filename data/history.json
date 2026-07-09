@@ -764,5 +764,15 @@
     "post_id": "17963424066135266",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-09T07:02:12.406156+00:00",
+    "topic": "AI surveillance",
+    "caption": "AI coding agents like Claude Code and OpenAI Codex are triggering endpoint security rules, as they decrypt browser credentials and list Windows' credential store, mimicking attacker behavior. As documented by The Hacker News (https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html), how will defenders distinguish between benign AI activity and malicious intrusions?",
+    "image_prompt": "A stylized illustration of a coding agent navigating a complex network, with browser credentials and system tools floating in the background, as a subtle, glowing thread weaves through the scene, symbolizing the blurred lines between AI-assisted development and potential security threats.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1783580521/threads_bot/lsxcpf9jxbjpb61o7avx.jpg",
+    "post_id": "18107018756007616",
+    "source_url": "",
+    "source_title": ""
   }
 ]
