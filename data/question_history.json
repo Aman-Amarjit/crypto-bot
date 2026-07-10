@@ -153,5 +153,10 @@
     "timestamp": "2026-07-09T15:32:15.073520+00:00",
     "question": "What mechanisms are you implementing to prevent privilege escalation in containerized environments with shared kernel vulnerabilities?",
     "post_id": "17998099202971181"
+  },
+  {
+    "timestamp": "2026-07-10T14:49:42.063089+00:00",
+    "question": "What strategies are you employing to prevent and detect container escape vulnerabilities in your Kubernetes clusters?",
+    "post_id": "18216097738336982"
   }
 ]
