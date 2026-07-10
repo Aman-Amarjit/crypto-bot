@@ -8733,3 +8733,57 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-10T16:07:40.351159+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-10T17:05:36.163534+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Indian startup data breaches'
+Requesting content generation for topic: 'Indian startup data breaches'...
+Fetching latest news headlines from Google News for query: 'Indian startup data breaches (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Successfully retrieved 1 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - ATTRIBUTION: The caption does not specify which Indian startups were breached, and the source does not provide specific information about the breaches.
+  - FABRICATED STATS: The caption mentions a 'surge in data breaches' without providing any numbers or statistics that are present in the source article content or headlines.
+  - SCOPE CREEP: The caption makes a broad claim about Indian startups facing a surge in data breaches, which is not supported by the provided source.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ❌ Failed (attempt 2/3). Issues:
+  - ATTRIBUTION: The caption does not correctly name who was breached or attacked as the source does not mention specific breaches.
+  - FABRICATED STATS: The caption contains no specific stats, but implies breaches have occurred without source support.
+  - SCOPE CREEP: The caption makes claims about data breaches affecting Indian startups, which is not supported by the provided source headlines.
+  [FactChecker] Running fact-check on attempt 3...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As I delve into cybersecurity trends, I'm reminded that data breaches can impact any organization, and I'm curious about the potential risks Indian startups might face. According to BleepingComputer (https://www.bleepingcomputer.com/), what measures can startups take to protect themselves from emerging threats?
+  - Image Prompt: A stylized illustration of a futuristic, glowing cityscape with sleek, modern buildings and a subtle, pulsing network of connections in the background, symbolizing the intersection of technology and cybersecurity in a rapidly evolving landscape.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%20illustration%20of%20a%20futuristic%2C%20glowing%20cityscape%20with%20sleek%2C%20modern%20buildings%20and%20a%20subtle%2C%20pulsing%20network%20of%20connections%20in%20the%20background%2C%20symbolizing%20the%20intersection%20of%20technology%20and%20cybersecurity%20in%20a%20rapidly%20evolving%20landscape.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2 for model 'flux' failed: 500 Server Error: Internal Server Error for url: https://image.pollinations.ai/prompt/A%20stylized%20illustration%20of%20a%20futuristic%2C%20glowing%20cityscape%20with%20sleek%2C%20modern%20buildings%20and%20a%20subtle%2C%20pulsing%20network%20of%20connections%20in%20the%20background%2C%20symbolizing%20the%20intersection%20of%20technology%20and%20cybersecurity%20in%20a%20rapidly%20evolving%20landscape.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Retrying in 5s...
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1783703191/threads_bot/abynibwbcdaryrvdifvd.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18105143464933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18085019408226793
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18085019408226793
+Timestamp: 2026-07-10T17:06:43.227394+00:00 UTC
+============================================================
