@@ -8533,3 +8533,47 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-09T19:21:50.230397+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-10T06:53:17.415770+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'CERT-In advisories security'
+Requesting content generation for topic: 'CERT-In advisories security'...
+Fetching latest news headlines from Google News for query: 'CERT-In advisories security (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMikwFBVV95cUxOdWhybXY0WTNFeW5yZG1oNU5UdFBQS0tpaUlUT0xzUzM5VG1QWHI4Wkt0blZ3Q01HU3hZUHdmS3dNaWZrS2ZrYXRTbEJpTWtwczdCSTNNdzJxYkRNQWxMbm5lMjhZQkE5RGI2SnhQWTIxTDZwampJQWk4b2hBZDhlM3FBV1pLbEo5dVpUaTV6dy1QSlE?oc=5
+Decoded successfully to: https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As I delve into the latest cybersecurity advisories, I'm reminded of the critical role CERT-In plays in safeguarding our digital landscape. According to BleepingComputer (https://www.bleepingcomputer.com/), what proactive measures can organizations take to stay ahead of emerging threats?
+  - Image Prompt: A stylized, futuristic illustration of a network globe with glowing blue circuits, surrounded by minimalist warning icons and subtle gradient accents, conveying a sense of modern cybersecurity vigilance
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20network%20globe%20with%20glowing%20blue%20circuits%2C%20surrounded%20by%20minimalist%20warning%20icons%20and%20subtle%20gradient%20accents%2C%20conveying%20a%20sense%20of%20modern%20cybersecurity%20vigilance?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1783666403/threads_bot/v5ptwaos0w6z9lsyr7zf.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18105059350933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18082753229204452
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18082753229204452
+Timestamp: 2026-07-10T06:53:33.680014+00:00 UTC
+============================================================
