@@ -8819,3 +8819,47 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-10T19:17:10.778119+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-11T05:47:48.214647+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMia0FVX3lxTE83TGs3X1E3eEJHMF9IUER1OE02S1Aya3I5VncxMGVrWnZ1bi1kLUdyTlZsWlJyXzBBUUdnRkxxTkNqa2VkX3BKQVdHWGlMYVBBeXBJZXJZZTd5M0JsMncyamJjRm9fSmNWMlQ0?oc=5
+Decoded successfully to: https://www.wired.com/story/microsoft-surface-buying-guide/
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As India's digital landscape expands, cybersecurity concerns are growing, with potential threats to sensitive data, as documented by BleepingComputer (https://www.bleepingcomputer.com/). How can we balance digital innovation with robust security measures to protect India's digital infrastructure?
+  - Image Prompt: A stylized illustration of a futuristic Indian cityscape at dusk, with glowing blue circuits and wires intertwining with traditional architecture, set against a deep purple sky with subtle, shimmering patterns of light, representing the intersection of technology and cultural heritage
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%20illustration%20of%20a%20futuristic%20Indian%20cityscape%20at%20dusk%2C%20with%20glowing%20blue%20circuits%20and%20wires%20intertwining%20with%20traditional%20architecture%2C%20set%20against%20a%20deep%20purple%20sky%20with%20subtle%2C%20shimmering%20patterns%20of%20light%2C%20representing%20the%20intersection%20of%20technology%20and%20cultural%20heritage?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1783748871/threads_bot/ouog6z2gz3cj5icvtdr5.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18105228178933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18169161961440432
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18169161961440432
+Timestamp: 2026-07-11T05:48:04.149914+00:00 UTC
+============================================================
