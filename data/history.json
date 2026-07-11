@@ -814,5 +814,15 @@
     "post_id": "18169161961440432",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-11T16:08:13.751609+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "India's financial sector, regulated by RBI and SEBI, relies heavily on secure data transmission via HTTPS. As documented by BleepingComputer (https://www.bleepingcomputer.com), the Log4Shell vulnerability has exposed many organizations to potential exploits. How can your organization ensure secure logging practices to prevent similar breaches?",
+    "image_prompt": "A stylized, abstract illustration of a lock integrating with a gear, set against a warm, golden backdrop with subtle, gradient accents, symbolizing the fusion of security and technology in the financial sector.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1783786081/threads_bot/coduijycymvseqksplte.jpg",
+    "post_id": "18003695015766623",
+    "source_url": "",
+    "source_title": ""
   }
 ]
