@@ -9219,3 +9219,47 @@ Configuration validated successfully.
 ⚠️  A post was published 231 min ago (from data/history.json). Use --force to override.
 🛑 Skipping run to avoid spammy posting. Use --force to override.
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-12T10:41:05.734980+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'government cyber regulations'
+Requesting content generation for topic: 'government cyber regulations'...
+Fetching latest news headlines from Google News for query: 'government cyber regulations (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWnJBcmtJOWs4NWRqbFpTUWlTN1FrX2V5b2w0dmZUN0VZZW4zdlZOQXVVdFZHQVlka1MwSEtySy0yYldaYll3a1hIbHh5bHBwWlhyV2x5OThTUGxWbktfLUNNWERqRUdxd1pmUUpSOG9tWWpKOTZORHN6YVdlZTZjMkxuQjJpeWlMN0VzcGNIcmJ6V1hjS1FJUnY0SnQ1OUJSSU5EVWRuc3NNWG1HdE5OUEdNQTY0ZkVw0gG-AUFVX3lxTE9kbFB4RUtNZ3FEREtxV09vSlZJZko1SVlzYzhoM1JIdFZoTXZ6QTJzR3N3aUt5WHJ5VUJabmVUUWI4R2JERVlacVpuN0E0ejJqUTV3QWVHMVJLY3E0TXlzX1JCWVNIaWlhdUx1d21RR3RRVVlyWm9BOVhiOUZSaHM4b2gybmo5azI3MjZFQnFTNUowQmVQR3N3Q2N3aW12UllLbkx4Zl9iVThISGZjaDZSVEg5MXNSelhBVnltQ0E?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As governments worldwide ramp up their cybersecurity efforts, I'm curious about the potential impact of stricter regulations on our industry. According to BleepingComputer (https://www.bleepingcomputer.com/), how will these new rules affect the way we approach threat detection and incident response?
+  - Image Prompt: A stylized, abstract illustration of a globe with glowing blue network connections, surrounded by subtle, overlapping patterns of code and circuitry, set against a muted, professional background with a hint of warm, golden light
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20abstract%20illustration%20of%20a%20globe%20with%20glowing%20blue%20network%20connections%2C%20surrounded%20by%20subtle%2C%20overlapping%20patterns%20of%20code%20and%20circuitry%2C%20set%20against%20a%20muted%2C%20professional%20background%20with%20a%20hint%20of%20warm%2C%20golden%20light?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1783852870/threads_bot/cbsgzzipso4fpnxmna35.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18105438568933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18043973876799514
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18043973876799514
+Timestamp: 2026-07-12T10:41:23.180079+00:00 UTC
+============================================================
