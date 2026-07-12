@@ -163,5 +163,10 @@
     "timestamp": "2026-07-11T13:50:45.678739+00:00",
     "question": "What strategies are you employing to prevent credential exposure in your CI/CD pipelines and containerized applications?",
     "post_id": "18127252279727076"
+  },
+  {
+    "timestamp": "2026-07-12T13:53:32.506814+00:00",
+    "question": "What strategies are you employing to prevent replay attacks in JWT authenticated microservices communications?",
+    "post_id": "18000565016778609"
   }
 ]
