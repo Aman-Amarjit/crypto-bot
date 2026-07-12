@@ -9117,3 +9117,53 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-11T18:45:21.725170+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-12T06:11:00.542997+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'data breaches security leaks'
+Requesting content generation for topic: 'data breaches security leaks'...
+Fetching latest news headlines from Google News for query: 'data breaches security leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitgFBVV95cUxQdkxacU5iX0JjT01lTFp1c0xFNkVkZEJ1MHlJQWVpTFFaYV9ELUdYTWE3NE45SDlrVDBMdzExOERuQUhwRk5sd0Z0VklQVEotR3RZRGV1NFpYRjU4TnZBVlJMdVFaZ1pvUmxjRm5ta2FYOE9TSVJOUEN6X3pueXQtbU5hNGV5V0tOTEh0aWpfSUV1OU5XdWVhSDJndFRxZnJyQnBFVUdsZlJyVHNGV3h6N0JjbG1zdw?oc=5
+Decoded successfully to: https://www.wired.com/story/security-news-this-week-ai-found-a-root-bug-in-linux-that-everyone-missed-for-15-years/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdkdpUHpiV2J2d0wyanlScWRHcGtLM1doeTBsSkhlWlJHSnZjdERJbjlFSGd1WTNIRlBRc2RDUExkVWNsaHdzYzZxQlJ2TnlZSG1HYU9Ka2JyaV9wY04yaXVKVHhSY2paUDBBSWRwYWhUYmdXU05TbEhScUxLeUNUSnVhXzZDOFJjbjZyR2EzMmdFUG1xaEZKVjY1LVViZVJFSWZqN19oV1JRdjA5V2tDUTJueHU5NEFFM1lXQkxiMjNSZ9IBxwFBVV95cUxQT0lmbEtFdVJYc1pqWmlLSmRlTFI1Z3lZU2E4QTBRc1lnZGw4Z3c1ZDZfSTg5SV96RVlRYUVWTFVjUFo1VjdzN1l1dGRYLWI4R1VRS0FOUmtwVE1qR3ZicFJNb1NKb2poeU1FOHdLd2lBSFBJeTNxRVdPMVoxTnBiN0JwdjlvQ1ZsdlJTNmlrYzJoa2tRUEc1U1JreWtXQmwtN0Y5WDNIZmxUaGdteDJXd195VVpieXRGV1dmYWtyU3Y5elNHaEpr?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipwFBVV95cUxQUnJPQ0ZTbzVPNVpVQmhCdFhMN1lHSGQzTnA4dVJsS21mRFlsRkJaaHFYQmRnelN6VDZNc3UtTE1oRkNCc19hcFNHTzFjdnZwU1FvOFdJNHJ3NzItOGR2S0V2UUppMW5hVHlxSFFvM1d5M1FPdWhVbHZEUHEwNmhWU1J5MDRfal83Sm9xdVRVdlhVMjlXNHlwZFl5aXdrN09zUjZTSktWVQ?oc=5
+Decoded successfully to: https://www.darkreading.com/threat-intelligence/teen-behind-twitter-hack-agrees-to-three-years-in-prison
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PV3BlUVFiU0hCdWk3WHd4MVBucnZyRkhVUDNwdVM0OGppZEJodjQyTWVCcWlWOERXV1RuOWozamhob2MwaE15WjEyUzgzem1OR2xqRFJtZWg1Zw?oc=5
+Decoded successfully to: https://www.darkreading.com/author/luana-pascu
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As I delve into the world of cybersecurity, I'm reminded that data breaches and security leaks are on the rise, with attackers constantly seeking new ways to exploit vulnerabilities, as documented by BleepingComputer (https://www.bleepingcomputer.com/), what measures is your organization taking to stay ahead of these emerging threats?
+  - Image Prompt: A stylized, abstract representation of a digital landscape with fractured, glowing blue lines symbolizing data breaches, set against a dark grey background with subtle, pulsing red accents to convey a sense of urgency and vulnerability
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20abstract%20representation%20of%20a%20digital%20landscape%20with%20fractured%2C%20glowing%20blue%20lines%20symbolizing%20data%20breaches%2C%20set%20against%20a%20dark%20grey%20background%20with%20subtle%2C%20pulsing%20red%20accents%20to%20convey%20a%20sense%20of%20urgency%20and%20vulnerability?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1783836664/threads_bot/mivwpywfaq4fnzz1ssyu.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18105410788933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18055483064770232
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18055483064770232
+Timestamp: 2026-07-12T06:11:16.026611+00:00 UTC
+============================================================
