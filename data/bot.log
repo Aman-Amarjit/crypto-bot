@@ -9444,3 +9444,51 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-12T18:34:01.906442+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-13T06:28:15.015655+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiigFBVV95cUxNVlFsUVczamg4aTVpQzVjUmQwUkNmcUZRSTVqbzJTblpYbk5JdXBLaFJRUXpHN2xwcVNhaFJPT25UeTVhSE5nT0FZTUhaZnBEaXZxYl84NlJic0NDWm80bjFWMEt2MnZha3BwYWlhRGcxUExBaWlBNWllUkJsak42VnVDR293a1NiM3c?oc=5
+Decoded successfully to: https://www.wired.com/story/ubers-autonomous-vehicle-strategy-slow-their-adoption/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxQYXl1OWJ2c2x6VHluaXFhd2lTYTVsbW85a1FBMEEtOWdGWjZfX1EycGVCSXlZZU45UlUtRmtiVENJbFpIQ0ZPcE8ycGxBazMwbXBleGF3UmNXVFRseUVBa3hUTS1FdXNvV1hRR00zN0U2eTlldGNGQkRQeGExblZGa0liV2hQdkRURnljbUhIZkhDUXM0SFVMRkVwUjc5MV96YlVPSHZxWWhhNjk5U2dOcDdsRdIBuAFBVV95cUxQVDdoQTVKUXV1Tm5WVWJidnlOQ1lqd1ItcnhMS0wxdG1CSzJKYVFoNm92cEZlMXpRSXBrY2FTbnJRLVBXLTNpT21JemM0YXdZdmd3SmNCUm8yb1RjRG9UMHJialZUaWQxTjUyR29oU2dGY1Q4MGtqNzBWLTA0SE1ya1dfX3NfaEw4N0ZUUmFNNnhoMnV1ZzBnZHhOY09fMnpCZ1BTUTdYeko2TmlLT0lucUhNV0pubEJk?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMidEFVX3lxTE5kdWJqZnpzYkNrc3ZLV3FjbThMUWZBOC1pZHpickpiM2tEUHhDeTNyT0x2V3d5LW0xZ2k5dTJwZElhVzRlSXZXVVR4ZmdlZnhzcVBGdko5NHRPZVBUZzNQOTRTOHR5eUpDa01HNWdxcncyTGJL?oc=5
+Decoded successfully to: https://www.wired.com/story/best-portable-external-storage-drives/
+Successfully retrieved 4 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As I delve into the latest cybersecurity threats, I'm reminded that dark web leaks can have far-reaching consequences. According to BleepingComputer (https://www.bleepingcomputer.com/), the sheer volume of sensitive data exposed can be overwhelming. How can we effectively track and mitigate the impact of these leaks on our networks?
+  - Image Prompt: A stylized, abstract representation of a data breach, featuring shattered glass fragments with glowing blue edges, suspended in a dark, gradient background that transitions from deep purple to black, with subtle, pulsing red alerts emanating from the fragments
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20abstract%20representation%20of%20a%20data%20breach%2C%20featuring%20shattered%20glass%20fragments%20with%20glowing%20blue%20edges%2C%20suspended%20in%20a%20dark%2C%20gradient%20background%20that%20transitions%20from%20deep%20purple%20to%20black%2C%20with%20subtle%2C%20pulsing%20red%20alerts%20emanating%20from%20the%20fragments?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1783924108/threads_bot/g0gkelglbykdcgdh9sdy.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18105579520933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18215998042336718
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18215998042336718
+Timestamp: 2026-07-13T06:28:40.904375+00:00 UTC
+============================================================
