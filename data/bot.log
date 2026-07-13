@@ -9636,3 +9636,58 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-13T16:12:05.783608+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-13T17:21:40.789677+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'cyber warfare'
+Requesting content generation for topic: 'cyber warfare'...
+Fetching latest news headlines from Google News for query: 'cyber warfare (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxQb0M1Snc5Q1puWXZ6bXQ5Z01tWGJBeFJpaTBZek05YXQ4TWlacE1oVEUyaDNjaUNhQ1hzMzFVTFZmYVY1N2VWcDVkbXVzU2tBTjB1dzNZVnRYUUdvNUg4NUhGVGNQcVMzeVg2Unh4LU15WkRLdjdHSDVTM0t5V2xQMGY4SVU?oc=5
+Decoded successfully to: https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUU5hUlBLS1B4Z3hoZmtMekhVV0Jtd0VWMy03X0Fva3RtZGxSU2taMzBicEl4X0tYNFZpSU4tZG95ZURjMUowXzNFN241WTlXZWJYbmM3YVRXMDY2T3VpektYUUlsLVBxcEg0aEg1NjZDSWhLd0RZM0k4S0hWaVJvcTZaWkUxamhNWXZXTEJPOHU4R0tmZ09OYjlqeFl2SnJjZ1JPLThDNGkyVGNQZVZKa2x3N0dVSF9NZFpybTBOWjZmdFJJaGMyRU95alBIdmt4dFQwdNIB2gFBVV95cUxQQzM4ZWRGY01aWDhjZzg1TzZCXzNDWW5YeWNtcmRGWFNkcGtybVkyaHpTNENobThHM1h1UWpWT3poWkZmd1hvMUEwWmZtUGtRVTdZTmhqLXBuM0RGalI1elhOOWVmbGczZHhQQWNMVTZ6eTF5LUI0MGdSbkNMM0RZQ29ESGdwQTcxbWFHVURETUdrbzgyVDhIUFlqbjAzSWcxYTNRUElpTWRLUXAzS2lLVFJjUEg3NzZLcXFoVXZjQU9rSFRSZzJCMFo5WUFLa2xmLWxBMHRpaVppZw?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxPUi0yOFVBaXJlZUtLYjdEaUdVc3gxMVVtZVRfeU40cWRaXzRpUk9qUWw5eUo1cjEtZWIzMFFnX2hjWUJRbmxPWlZwUVV1bzNkUEw4SkhZTE9EdnMwcEs5NUItbm1XME9IWHFIcUhoZFU4cldRRXI1cHUzY01uclkzZw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxPSVhrM0MwMVBVOGhOZmw1RHBKR0RPMTJJbkZEWFVsWUQxSHBBZVZZQnU1UkdvMXRqYXVrTmZsc1A3bFF0bTVmc2llMjhNUHBlS2dWM0xsM3FZOHFwNGZ2cGxJT3hqLUFiMjEyQjFySW45R3UxMFh5VE9oMjhJWlM3aQ?oc=5
+Decoded successfully to: https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - The caption contains fabricated stats and claims (e.g., 'a surge in sophisticated attacks') not supported by the provided source article content or headlines.
+  - The caption introduces specific concepts (e.g., 'nation-state actors leveraging zero-day exploits') not present in the source article content or headlines.
+  - The caption makes broad claims (e.g., 'the most effective way to defend against these threats') that are not supported by the provided source.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As I delve into the realm of cyber warfare, I'm reminded of the complex threats we face, as documented by BleepingComputer (https://www.bleepingcomputer.com/). What are some potential vulnerabilities that could be exploited in the next major cyber conflict?
+  - Image Prompt: A stylized, futuristic illustration of a global network with glowing blue lines and nodes, set against a dark grey background, with subtle hints of warning signs and alert symbols integrated into the design.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20global%20network%20with%20glowing%20blue%20lines%20and%20nodes%2C%20set%20against%20a%20dark%20grey%20background%2C%20with%20subtle%20hints%20of%20warning%20signs%20and%20alert%20symbols%20integrated%20into%20the%20design.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1783963315/threads_bot/x8ldqtlhzjwsttgyyq7z.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18105664663933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17862670092643826
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17862670092643826
+Timestamp: 2026-07-13T17:22:07.934662+00:00 UTC
+============================================================
