@@ -884,5 +884,15 @@
     "post_id": "17911655877241404",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-14T16:37:28.710285+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "The notorious DeepFaceLab framework has enabled sophisticated deepfake creation, leveraging a combination of convolutional neural networks and autoencoders to convincingly swap faces. As documented by Wired (https://www.wired.com), this has significant implications for video-based identity verification systems. How can your team effectively detect deepfake-based fraud in real-time video transmissions?",
+    "image_prompt": "A stylized, futuristic illustration of a fractured mirror reflection, with a realistic face on one side and a distorted, glitch-art face on the other, set against a backdrop of intersecting, neon-lit circuit boards and subtle, pulsing waves of binary code",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784047033/threads_bot/qdcjnae1guvb25loifjx.jpg",
+    "post_id": "18129318760626151",
+    "source_url": "",
+    "source_title": ""
   }
 ]
