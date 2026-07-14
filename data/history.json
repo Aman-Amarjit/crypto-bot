@@ -874,5 +874,15 @@
     "post_id": "17862670092643826",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-14T05:39:03.153772+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "The notorious DeepLocker ransomware, powered by AI-driven evasion techniques, has been bypassing traditional defenses since 2017. As documented by Wired (https://www.wired.com), its use of neural networks to conceal malicious intent raises concerns about AI-aided attacks. How can we effectively detect AI-obfuscated malware?",
+    "image_prompt": "A stylized, futuristic illustration of a neural network with glowing blue nodes, gradually morphing into a complex, dark mesh representing the evasion techniques used by DeepLocker, set against a backdrop of fractured code snippets and subtle, pulsing alarm signals.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784007533/threads_bot/tdg2v7s8yffzf8hpprl9.jpg",
+    "post_id": "17911655877241404",
+    "source_url": "",
+    "source_title": ""
   }
 ]
