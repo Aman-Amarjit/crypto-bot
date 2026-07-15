@@ -894,5 +894,15 @@
     "post_id": "18129318760626151",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-15T05:40:23.624938+00:00",
+    "topic": "AI surveillance",
+    "caption": "AI security agents are influencing real security decisions, but most rely on fragmented risk signals. As documented by The Hacker News (https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html), Pentera's AI-powered security validation platform safely emulates real-world attack techniques to determine exploitable exposures. How can your team integrate validation data into existing AI workflows?",
+    "image_prompt": "A stylized, futuristic illustration of a cybersecurity control room with a large, circular screen displaying a network topology, while AI-powered agents and security analysts collaborate in the foreground, surrounded by minimalist, glowing blue lines and accents that evoke a sense of dynamic, real-time threat analysis and mitigation.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784094012/threads_bot/k8g8yjs4kcvvdcbmwh80.jpg",
+    "post_id": "18600042823065123",
+    "source_url": "",
+    "source_title": ""
   }
 ]
