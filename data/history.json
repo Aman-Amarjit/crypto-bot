@@ -904,5 +904,15 @@
     "post_id": "18600042823065123",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-15T16:43:07.851320+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The Log4Shell vulnerability has shown how LLM jailbreaks can exploit weaknesses in logging mechanisms. As documented by BleepingComputer (https://www.bleepingcomputer.com), this highlights the importance of input validation in preventing such attacks. How can we effectively sanitize user input to prevent LLM jailbreaks from targeting logging libraries?",
+    "image_prompt": "A stylized, abstract illustration of a large, metallic gear with a glowing blue crack, surrounded by subtle, pulsing waves of light, set against a muted, dark grey background with hints of warm, golden accents, representing the fragile balance between system security and potential vulnerabilities.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784133772/threads_bot/mbgoyuj3pb4pnciajxx1.jpg",
+    "post_id": "18604593592054656",
+    "source_url": "",
+    "source_title": ""
   }
 ]
