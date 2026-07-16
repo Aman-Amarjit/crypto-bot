@@ -10298,3 +10298,53 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-15T18:51:50.405101+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-16T05:47:55.446696+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'CERT-In advisories security'
+Requesting content generation for topic: 'CERT-In advisories security'...
+Fetching latest news headlines from Google News for query: 'CERT-In advisories security (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxPekVrNUZWS3ItbTdzNGlZbjdNRW1aNGxFS2xjZWVCU3Rvc2haSTBqS0pLME9uRWFscXpKYmQzTGNyN1lHQWVDR0tMVm5FRnJRdFE3QnYxZ21ZM1FJamllSDl1Q3R1Ujk0dW4xUnpDVEhMaE96WVdpQnBWU2F2UGoyX3ZQVTZDd0k3WHRpWWlZLXhvTTBQZUJyWUszNWFzdHpXdXItMmFHUFNtTVlzQUdv0gG0AUFVX3lxTFBQbU1ZLVRjV3loTlJ2TTZDVUhxZ0ktUm9KMDRERzB1UkZVTnRocU9LVE1jQ0stbDNaZUdzODBTNmJreXFHRjNxR21hVVEtT2FGdkJkQzJfQ3FVY2FTTVlYXzhJbjVPZExxaXVGVEprUVFyWDQyVC1weWFsYmNZQ3VoNkN3Wk5wandLYjllZmJWVFI0T2VfWUtJZE1xMVNTYkk0eUtwa2ZHc19xaF9rYVBMWDhaRA?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiowFBVV95cUxNLXc2d0VCSVlXLXhQT19LdlBEaG1LMGlUdS1YcFI4OVMwSmVoc21Pc0lPVDZsa3ZOWmc5cjhNWG03NkdfVzg3Yy1OSHRzd0hacDB2SUFLQW1CTzB4T2UzS0szZ0hJMW55bnI5dWJia2dlZWlZVzBIaUZRZzFzUldmWlFzakE0MUU3bVJHNk5uUFgwQmV6emhEMFdURzFUOHhCYmc40gGoAUFVX3lxTE1NU0lURFFNdEFsc0hKbE9KbEpsQmhmVDhsZnVJaUJTMHRjTmZDYnViaHBtTGsyRFhzS3puU0dwanREQktYUm1qSEEtbW85QlNnQkptQ2NMeTlJbnp3eDdubzN2bU5KMUZVcDJOLWVrVXpzd3EwN3ZfOHBZMG1Kdjc0SDhtTTVaR3BpOWpPWFJaZzFwcXlHNnVGM2tEUlQtZWVVd1F5UmJHOA?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxNb280UnFpVE1TdE5kcTFhWlpjc0hONm14X3FaQnE5aVVFOVZsdUEtMDB6UlpieHhWdWVkcE5PRXhmcGRvejRRUDlrRmJVLWhRUVNUWktpTXZwRmhxakhzTFZPQmMwYndzSG1KRTRnbXB0XzdyWTZGcHZVMUp0UWNVNDhDSGUyOEd0RjI3NkE2eW1oZVBiMXZycjZISzJZbzE5VVNZRy1WNEF1M0xlTUtR?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/forums/t/817301/compare-ampcus-cyber-vs-sisa-for-pci-dss-compliance-services/
+Successfully retrieved 4 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As I delve into the latest cybersecurity advisories, I'm reminded of the critical role CERT-In plays in safeguarding our digital landscape. According to BleepingComputer (https://www.bleepingcomputer.com/), how can we effectively leverage these advisories to bolster our threat detection capabilities?
+  - Image Prompt: A stylized, abstract representation of a cybersecurity threat landscape, featuring a maze of interconnected nodes and pathways, with warm alerts and cool cybernetic hues, set against a dark metallic accent background, symbolizing the complex and ever-evolving nature of cybersecurity threats
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20abstract%20representation%20of%20a%20cybersecurity%20threat%20landscape%2C%20featuring%20a%20maze%20of%20interconnected%20nodes%20and%20pathways%2C%20with%20warm%20alerts%20and%20cool%20cybernetic%20hues%2C%20set%20against%20a%20dark%20metallic%20accent%20background%2C%20symbolizing%20the%20complex%20and%20ever-evolving%20nature%20of%20cybersecurity%20threats?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1784180880/threads_bot/qd7zyk1vfugpy6dmoqnt.jpg
+Initiating Threads publication...
+Creating Threads media container...
+⚠️ Request to https://graph.threads.net/v1.0/27117688661222646/threads returned status code 500 on attempt 1/4.
+Waiting 2 seconds before retrying...
+Container created successfully. ID: 18106091872933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17957405775171698
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17957405775171698
+Timestamp: 2026-07-16T05:48:17.179469+00:00 UTC
+============================================================
