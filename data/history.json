@@ -924,5 +924,15 @@
     "post_id": "17957405775171698",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-16T16:39:47.286478+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "India's startup ecosystem has faced numerous data breaches, with many attributed to vulnerabilities like SQL injection. As documented by The Hacker News (https://thehackernews.com), the 2019 breach of Indian firm Juspay exposed millions of records. How can Indian startups effectively implement Web Application Firewalls to mitigate SQL injection attacks?",
+    "image_prompt": "A stylized, futuristic illustration of a Mumbai cityscape at dusk with a subtle, glowing network of interconnected nodes and circuits overlay, symbolizing the intersection of urban Indian innovation and cybersecurity",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784219976/threads_bot/xeu0u78ifv5ocyi1osri.jpg",
+    "post_id": "18222653920322100",
+    "source_url": "",
+    "source_title": ""
   }
 ]
