@@ -10596,3 +10596,44 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-16T18:45:16.688831+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-17T05:48:59.949854+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SV1ZOVFBESjczRXZxdndMMkUwUUNmMGE5YlJ1SmVUSkhfMEVCU3lEcGRtbnJkWXlTZG03OVJ0M3hYR1VMTnhjaUdPMk40cDBmY1ZJTXBaeXZxZUE4cGdLLThLNEc?oc=5
+Decoded successfully to: https://www.darkreading.com/cyberattacks-data-breaches
+Successfully retrieved 1 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.darkreading.com/cyberattacks-data-breaches
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Iberian hackers have been linked to a wave of sophisticated cyberattacks, leveraging complex financial networks to launder their gains, as documented by Dark Reading (https://www.darkreading.com/cyberattacks-data-breaches). What measures can be taken to track and disrupt these intricate money-laundering schemes?
+  - Image Prompt: A stylized, futuristic illustration of a global network map with glowing blue lines and nodes, set against a dark grey background, with subtle, pulsing orange accents to represent the flow of laundered funds and cyberattacks
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20global%20network%20map%20with%20glowing%20blue%20lines%20and%20nodes%2C%20set%20against%20a%20dark%20grey%20background%2C%20with%20subtle%2C%20pulsing%20orange%20accents%20to%20represent%20the%20flow%20of%20laundered%20funds%20and%20cyberattacks?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1784267354/threads_bot/h59pndobuhdmmpwujbh1.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18106254316933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18121969198771620
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18121969198771620
+Timestamp: 2026-07-17T05:49:25.693880+00:00 UTC
+============================================================
