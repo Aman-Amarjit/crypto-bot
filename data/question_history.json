@@ -188,5 +188,10 @@
     "timestamp": "2026-07-16T14:19:13.721520+00:00",
     "question": "What strategies are you employing to prevent namespace pollution and dependency exploitation in your containerized microservices architectures?",
     "post_id": "18135096133515406"
+  },
+  {
+    "timestamp": "2026-07-17T14:00:27.970090+00:00",
+    "question": "What strategies are you employing to prevent credential leakage in containerized applications using orchestration tools like Kubernetes?",
+    "post_id": "17982467217044818"
   }
 ]
