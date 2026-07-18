@@ -193,5 +193,10 @@
     "timestamp": "2026-07-17T14:00:27.970090+00:00",
     "question": "What strategies are you employing to prevent credential leakage in containerized applications using orchestration tools like Kubernetes?",
     "post_id": "17982467217044818"
+  },
+  {
+    "timestamp": "2026-07-18T13:45:37.894914+00:00",
+    "question": "What strategies are you employing to prevent credential exposure in containerized environments using tools like Kubernetes and Docker?",
+    "post_id": "18140469217490246"
   }
 ]
