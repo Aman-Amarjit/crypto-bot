@@ -994,5 +994,15 @@
     "post_id": "18105125078024601",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-19T16:08:06.103886+00:00",
+    "topic": "cyber warfare",
+    "caption": "A critical RCE vulnerability in WordPress Core, dubbed 'wp2shell', has been exposed with public exploits now available, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/). Given the severity of this flaw, what measures is your team taking to prioritize patching and mitigate potential wp2shell attacks?",
+    "image_prompt": "A stylized, abstract representation of a WordPress website under siege, with fragmented code shards and glowing red alerts emanating from a central, shattered core, set against a dark, gradient blue background that evokes a sense of urgency and digital turmoil.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784477275/threads_bot/rujiaoqjme0m2hvuukdo.jpg",
+    "post_id": "18152461036496976",
+    "source_url": "",
+    "source_title": ""
   }
 ]
