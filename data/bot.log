@@ -11313,3 +11313,75 @@ Configuration validated successfully.
 ⚠️  A post was published 231 min ago (from data/history.json). Use --force to override.
 🛑 Skipping run to avoid spammy posting. Use --force to override.
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-19T10:42:14.805122+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMid0FVX3lxTE0yQUIzeXc0NEhfbUJQYUtBV281alpBc0Rpb1BqQXN5T29SV1FYUC02Ny1IajRfVDBBV2p4YUlfTVhwM0UwTGdObDFSSlZHQldCdzV5U01HeGFSZ1hoZHphbnAzMG5NWnpUTm9zNVZwdWZqS01ubzZF?oc=5
+Decoded successfully to: https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xb3V1N3Z2TkpMU3B2MjBxS055NU5MeEFjcENvaUNJclZYV0g0Ri12OGwtelVIRkRsMG9MS29YMDRSR1NtMDU0SQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiekFVX3lxTE00SkRSNVVGQjBEVnAwQWR6MGwxVFBLVnNwQ3dnd2tmWkpZdzlVUHRTQnVwNmp0UmpYdTdCZGw2NU95Z21NMm8xUVlLOGpIcENQY1hFZzA1Q1l1YXBUTkhSdFd3VVNWWlYtcjRvOVM0bDBfQTFvbzBybHl3?oc=5
+Decoded successfully to: https://www.wired.com/story/search-for-earth-like-planet-step-forward/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMibEFVX3lxTE1ubWE1dElueExNZEtsa1pBOTljWmdzS3p0bnk5aEJ0RFhFNWVsVkNxaVZudUUwZnpVaXVMbFc0RDZONEdNM05saFVYbWVEUDNrRG14aUl0dDNFRVY4ZVJ1aU9RbkZVZ25pZWJ3NQ?oc=5
+Decoded successfully to: https://www.theverge.com/authors/sean-hollister/archives/513
+Decoding Google News URL: https://news.google.com/rss/articles/CBMickFVX3lxTFBsQnpWZ1VrNGptM2F0eU14dVF6bGQxQ0NHLVBvbkFOM3lVVGlORDlpR21sdkY5YklfeGp4QnNvSldEWk50U2FyVFBvMk1vWmNEZEdzb2h4TE9RMUhRTFp0dzByazlVc3dRU0pXcThuOGwyQQ?oc=5
+Decoded successfully to: https://www.theverge.com/amazon-prime-day-deals-tech/archives/11
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The Pixel 11a may ditch the Tensor G5 for a more powerful Tensor G6, featuring a MediaTek M90 modem, as reported by The Verge (https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak). This upgrade could alleviate long-standing issues with battery drain and dropped signals. How will the Tensor G6's PowerVR DXT-48-1536 GPU impact real-world performance?
+  - Image Prompt: A stylized, futuristic illustration of a Google Pixel smartphone with a glowing, circuit-like pattern emanating from its core, symbolizing the improved Tensor G6 processor, set against a dark blue background with subtle, pulsing waves, evoking a sense of enhanced connectivity and performance
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20Google%20Pixel%20smartphone%20with%20a%20glowing%2C%20circuit-like%20pattern%20emanating%20from%20its%20core%2C%20symbolizing%20the%20improved%20Tensor%20G6%20processor%2C%20set%20against%20a%20dark%20blue%20background%20with%20subtle%2C%20pulsing%20waves%2C%20evoking%20a%20sense%20of%20enhanced%20connectivity%20and%20performance?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2 for model 'flux' failed: 500 Server Error: Internal Server Error for url: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20Google%20Pixel%20smartphone%20with%20a%20glowing%2C%20circuit-like%20pattern%20emanating%20from%20its%20core%2C%20symbolizing%20the%20improved%20Tensor%20G6%20processor%2C%20set%20against%20a%20dark%20blue%20background%20with%20subtle%2C%20pulsing%20waves%2C%20evoking%20a%20sense%20of%20enhanced%20connectivity%20and%20performance?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Retrying in 5s...
+Attempt 2/2 for model 'flux' failed: 500 Server Error: Internal Server Error for url: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20Google%20Pixel%20smartphone%20with%20a%20glowing%2C%20circuit-like%20pattern%20emanating%20from%20its%20core%2C%20symbolizing%20the%20improved%20Tensor%20G6%20processor%2C%20set%20against%20a%20dark%20blue%20background%20with%20subtle%2C%20pulsing%20waves%2C%20evoking%20a%20sense%20of%20enhanced%20connectivity%20and%20performance?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Model 'flux' failed. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20Google%20Pixel%20smartphone%20with%20a%20glowing%2C%20circuit-like%20pattern%20emanating%20from%20its%20core%2C%20symbolizing%20the%20improved%20Tensor%20G6%20processor%2C%20set%20against%20a%20dark%20blue%20background%20with%20subtle%2C%20pulsing%20waves%2C%20evoking%20a%20sense%20of%20enhanced%20connectivity%20and%20performance?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2 for model 'turbo' failed: 500 Server Error: Internal Server Error for url: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20Google%20Pixel%20smartphone%20with%20a%20glowing%2C%20circuit-like%20pattern%20emanating%20from%20its%20core%2C%20symbolizing%20the%20improved%20Tensor%20G6%20processor%2C%20set%20against%20a%20dark%20blue%20background%20with%20subtle%2C%20pulsing%20waves%2C%20evoking%20a%20sense%20of%20enhanced%20connectivity%20and%20performance?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Retrying in 5s...
+Attempt 2/2 for model 'turbo' failed: 500 Server Error: Internal Server Error for url: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20Google%20Pixel%20smartphone%20with%20a%20glowing%2C%20circuit-like%20pattern%20emanating%20from%20its%20core%2C%20symbolizing%20the%20improved%20Tensor%20G6%20processor%2C%20set%20against%20a%20dark%20blue%20background%20with%20subtle%2C%20pulsing%20waves%2C%20evoking%20a%20sense%20of%20enhanced%20connectivity%20and%20performance?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Model 'turbo' failed. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20Google%20Pixel%20smartphone%20with%20a%20glowing%2C%20circuit-like%20pattern%20emanating%20from%20its%20core%2C%20symbolizing%20the%20improved%20Tensor%20G6%20processor%2C%20set%20against%20a%20dark%20blue%20background%20with%20subtle%2C%20pulsing%20waves%2C%20evoking%20a%20sense%20of%20enhanced%20connectivity%20and%20performance?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2 for model 'default' failed: 500 Server Error: Internal Server Error for url: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20Google%20Pixel%20smartphone%20with%20a%20glowing%2C%20circuit-like%20pattern%20emanating%20from%20its%20core%2C%20symbolizing%20the%20improved%20Tensor%20G6%20processor%2C%20set%20against%20a%20dark%20blue%20background%20with%20subtle%2C%20pulsing%20waves%2C%20evoking%20a%20sense%20of%20enhanced%20connectivity%20and%20performance?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Retrying in 5s...
+Attempt 2/2 for model 'default' failed: 500 Server Error: Internal Server Error for url: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20Google%20Pixel%20smartphone%20with%20a%20glowing%2C%20circuit-like%20pattern%20emanating%20from%20its%20core%2C%20symbolizing%20the%20improved%20Tensor%20G6%20processor%2C%20set%20against%20a%20dark%20blue%20background%20with%20subtle%2C%20pulsing%20waves%2C%20evoking%20a%20sense%20of%20enhanced%20connectivity%20and%20performance?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Model 'default' failed. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[Cloudflare] Successfully generated image via Workers AI SDXL!
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1784457975/threads_bot/rya2s5c691tu7onailtq.png
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18106643641933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18105125078024601
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18105125078024601
+Timestamp: 2026-07-19T10:46:26.182905+00:00 UTC
+============================================================
