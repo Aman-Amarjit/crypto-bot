@@ -1004,5 +1004,15 @@
     "post_id": "18152461036496976",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-20T06:24:45.666906+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "Hackers are leveraging compromised ViPNet software to infiltrate Russian government agencies, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/). This targeted campaign raises concerns about the vulnerability of secure communication protocols. How can we fortify these systems against similar exploits?",
+    "image_prompt": "A stylized, futuristic illustration of a network topology with a subtle, ominous glow, representing the infiltration of government agencies through compromised software, set against a dark, metallic backdrop with accents of cool blue hues",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784528673/threads_bot/onteozxht1hhjjxdzgdd.jpg",
+    "post_id": "18121805197796022",
+    "source_url": "",
+    "source_title": ""
   }
 ]
