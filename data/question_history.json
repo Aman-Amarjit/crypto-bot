@@ -203,5 +203,10 @@
     "timestamp": "2026-07-19T13:50:20.872243+00:00",
     "question": "What strategies are you employing to prevent and detect credential stuffing attacks in microservices architectures?",
     "post_id": "18127316548724159"
+  },
+  {
+    "timestamp": "2026-07-20T14:31:41.565048+00:00",
+    "question": "What strategies are you employing to prevent credential exposure in your CI/CD pipelines and containerized applications?",
+    "post_id": "18416569822149888"
   }
 ]
