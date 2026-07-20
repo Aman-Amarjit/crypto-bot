@@ -1014,5 +1014,15 @@
     "post_id": "18121805197796022",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-20T16:42:35.015552+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "The 2020 Twitter VIP account takeover, orchestrated via voice phishing and social engineering, highlights the alarming potential of deepfakes in fraud. As documented by Wired (https://www.wired.com), attackers can convincingly mimic voices to bypass 2FA, raising concerns about the security of voice-activated systems. How can AI-driven voice liveness detection mitigate such threats?",
+    "image_prompt": "A stylized, futuristic illustration depicting a voice waveform being dissected by a neural network, set against a backdrop of overlapping, translucent masks, with a predominantly dark blue and purple color scheme, conveying the intersection of artificial intelligence, biometrics, and deception.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784565743/threads_bot/av4pwkh9e6uvkauxlkwz.jpg",
+    "post_id": "17969344584093860",
+    "source_url": "",
+    "source_title": ""
   }
 ]
