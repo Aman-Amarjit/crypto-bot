@@ -1034,5 +1034,15 @@
     "post_id": "17897531418507995",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-21T16:40:27.275850+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The notorious Log4Shell vulnerability has resurfaced in LLM jailbreaks, where attackers inject malicious prompts to bypass security controls. As documented by BleepingComputer (https://www.bleepingcomputer.com), this raises concerns about the security of AI-powered systems. How can we effectively mitigate prompt injection attacks in LLMs?",
+    "image_prompt": "A stylized, futuristic illustration of a robotic arm attempting to break free from a digital cage, with glowing blue lines and circuits visible beneath its metallic surface, set against a dark grey background with subtle, pulsing warnings",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784652015/threads_bot/bno9pek5xgp92wdf1wgv.jpg",
+    "post_id": "17944156341083019",
+    "source_url": "",
+    "source_title": ""
   }
 ]
