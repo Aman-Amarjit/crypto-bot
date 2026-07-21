@@ -208,5 +208,10 @@
     "timestamp": "2026-07-20T14:31:41.565048+00:00",
     "question": "What strategies are you employing to prevent credential exposure in your CI/CD pipelines and containerized applications?",
     "post_id": "18416569822149888"
+  },
+  {
+    "timestamp": "2026-07-21T14:19:00.666109+00:00",
+    "question": "What strategies are you employing to prevent container breakout vulnerabilities in pods with elevated privileges in your Kubernetes clusters?",
+    "post_id": "18086804681161148"
   }
 ]
