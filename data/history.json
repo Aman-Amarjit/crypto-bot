@@ -1024,5 +1024,15 @@
     "post_id": "17969344584093860",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-21T06:04:51.813463+00:00",
+    "topic": "AI surveillance",
+    "caption": "The 2019 Biostar 2 breach exposed millions of facial recognition records, highlighting the risks of insecure AI surveillance storage. As documented by Wired (https://www.wired.com), the use of unencrypted databases and weak access controls can have devastating consequences. How can we balance the benefits of AI-powered surveillance with the need for robust data protection?",
+    "image_prompt": "A stylized illustration of a futuristic cityscape with a subtle, pulsing grid overlay, representing the intersection of AI surveillance and urban infrastructure, set against a dark blue and purple twilight sky with sleek, silver accents",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784613878/threads_bot/dteastr2c4uqif6n8lw5.jpg",
+    "post_id": "17897531418507995",
+    "source_url": "",
+    "source_title": ""
   }
 ]
