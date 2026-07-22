@@ -12105,3 +12105,47 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-21T19:00:12.283088+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-22T06:03:00.998285+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'CERT-In advisories security'
+Requesting content generation for topic: 'CERT-In advisories security'...
+Fetching latest news headlines from Google News for query: 'CERT-In advisories security (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirAFBVV95cUxPWnpXQTAwcmEtRVlkNmQtWldmRTNySGlJWmJzajdheE0zREVOMmFpUGdhbUtvcUdNSUFMeUpxMkNEOEE2VWZyWFc5bFNmR0NyT3M5ZWNZdHlZWk9iMjFjYlVIclFwMUw1aHgteUsyak50SmxNQlVUeGd1WGJWNnBnQzg5NGx0NWdpb1VzUlhIemJPVEkzX3FGR21BOGNPV3RiSjMtUDM5cXZ0cDJN0gGyAUFVX3lxTFBMeGhaZkprMnk1U0w0SHIxNkE2NVZyMml3clhwZ0ZQeFFLQV9oRFdleUsxNjEtSEhWQ21xV1c5dmdfeVVvZkZObE5RR3NUS1lpa1dOS3p5QWppM3Z5RWVHNVRjREc5NWpxUEVJaWhWWm5OTks3LWUyOTgxMDc0YlFBQThxbWxDTTlrRTVqWjVtc1pKNll0TWpqVERFeUlVa2ZNUUd5dmpPakJfUFRlQVJhRWc?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilgFBVV95cUxQQVpTVjhVQzZicUZjR1pCT2RhNjdpb3htMXREbklzbkdmN01icHhwZ0t5dm1BVnFKdklMV0NwbzhFYXpyVU04X2VhRHNpZFJKanhCYWxxSm5MVU8xLWN4cjd3YlpsRFAyZlFLbUNld2lXbmxaRVdhSnI2ZlhuV0FXa19UcjdpYnRhczlHekJMZFE1RjA0anc?oc=5
+Decoded successfully to: https://thehackernews.com/search?updated-max=2026-07-20T02:12:00%2B05:30&max-results=14&m=1
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Attackers are leveraging a critical SharePoint RCE flaw to steal machine keys, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/). This exploit highlights the importance of securing server-side infrastructure. How are you validating input parameters to prevent similar RCE vulnerabilities?
+  - Image Prompt: A stylized, abstract illustration of a server room with glowing blue circuits and metallic accents, featuring a faint, ghostly silhouette of a hacker in the background, set against a dark grey and purple ombre background with subtle, pulsing network topology lines
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20abstract%20illustration%20of%20a%20server%20room%20with%20glowing%20blue%20circuits%20and%20metallic%20accents%2C%20featuring%20a%20faint%2C%20ghostly%20silhouette%20of%20a%20hacker%20in%20the%20background%2C%20set%20against%20a%20dark%20grey%20and%20purple%20ombre%20background%20with%20subtle%2C%20pulsing%20network%20topology%20lines?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1784700185/threads_bot/hmggq1lqmpuf3sa2wo6l.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18107134633933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18020482673899560
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18020482673899560
+Timestamp: 2026-07-22T06:03:16.680864+00:00 UTC
+============================================================

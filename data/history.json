@@ -1044,5 +1044,15 @@
     "post_id": "17944156341083019",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-22T06:03:16.679591+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "Attackers are leveraging a critical SharePoint RCE flaw to steal machine keys, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/). This exploit highlights the importance of securing server-side infrastructure. How are you validating input parameters to prevent similar RCE vulnerabilities?",
+    "image_prompt": "A stylized, abstract illustration of a server room with glowing blue circuits and metallic accents, featuring a faint, ghostly silhouette of a hacker in the background, set against a dark grey and purple ombre background with subtle, pulsing network topology lines",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784700185/threads_bot/hmggq1lqmpuf3sa2wo6l.jpg",
+    "post_id": "18020482673899560",
+    "source_url": "",
+    "source_title": ""
   }
 ]
