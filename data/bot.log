@@ -12386,3 +12386,49 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-22T18:50:45.946877+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-23T06:08:22.795055+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SV1ZOVFBESjczRXZxdndMMkUwUUNmMGE5YlJ1SmVUSkhfMEVCU3lEcGRtbnJkWXlTZG03OVJ0M3hYR1VMTnhjaUdPMk40cDBmY1ZJTXBaeXZxZUE4cGdLLThLNEc?oc=5
+Decoded successfully to: https://www.darkreading.com/cyberattacks-data-breaches
+Successfully retrieved 1 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.darkreading.com/cyberattacks-data-breaches
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - The caption mentions 'India's digital transformation', which is not present in the source article content or headlines, indicating potential conflation or scope creep.
+  - The caption contains the phrase 'highlighting the vulnerability of supply chains to cyber threats' and 'the resilience of digital infrastructure in critical sectors', which, while generally related, introduces broader themes not explicitly supported by the source article.
+  - The statistic 'thousands of clients' is supported by the source, but the introduction of 'India's digital transformation' and broader themes not found in the source article indicates a potential for scope creep.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: A cyberattack on a food and logistics firm has disrupted the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken, as documented by Dark Reading (https://www.darkreading.com/cyberattacks-data-breaches). This incident underscores the potential for cyber threats to impact critical supply chains. How can organizations better protect their logistics and supply chain systems from similar disruptions?
+  - Image Prompt: A stylized illustration of a frozen food storage facility with a cracked, glowing blue ice block in the center, surrounded by faint, ominous network connections and disrupted supply chain nodes, set against a dark, muted background with warm alert accents.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%20illustration%20of%20a%20frozen%20food%20storage%20facility%20with%20a%20cracked%2C%20glowing%20blue%20ice%20block%20in%20the%20center%2C%20surrounded%20by%20faint%2C%20ominous%20network%20connections%20and%20disrupted%20supply%20chain%20nodes%2C%20set%20against%20a%20dark%2C%20muted%20background%20with%20warm%20alert%20accents.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1784786911/threads_bot/qg4v5n5teqzcoclkypoq.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18107300263933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18112508668945287
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18112508668945287
+Timestamp: 2026-07-23T06:08:42.939794+00:00 UTC
+============================================================
