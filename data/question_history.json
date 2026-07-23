@@ -218,5 +218,10 @@
     "timestamp": "2026-07-22T14:19:35.036523+00:00",
     "question": "What strategies are you employing to prevent credential exposure in your CI/CD pipelines?",
     "post_id": "18100573783900765"
+  },
+  {
+    "timestamp": "2026-07-23T14:28:12.980427+00:00",
+    "question": "What strategies are you employing to prevent credential exposure in your CI/CD pipelines and containerized environments?",
+    "post_id": "18111442076070633"
   }
 ]
