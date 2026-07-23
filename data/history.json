@@ -1074,5 +1074,15 @@
     "post_id": "18112508668945287",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-23T16:43:45.510178+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "India's RBI and SEBI have been strengthening tech security regulations, particularly after the 2016 Bangladesh Bank heist, which exploited SWIFT's Alliance Access system. As documented by The Economic Times (https://economictimes.indiatimes.com), how can financial institutions effectively implement robust API security to prevent similar attacks?",
+    "image_prompt": "A stylized, abstract illustration of a fortified, glowing network gateway, set against a deep blue background with subtle, swirling patterns of rupee symbols, representing the intersection of finance and cybersecurity in India's regulatory landscape.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784825015/threads_bot/jd8ydhdy9dtyudzcgw0b.jpg",
+    "post_id": "18124270096682890",
+    "source_url": "",
+    "source_title": ""
   }
 ]
