@@ -1094,5 +1094,15 @@
     "post_id": "18111683575906394",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-24T16:55:52.276135+00:00",
+    "topic": "government cyber regulations",
+    "caption": "The proposed AI Kill Switch Act would grant the US government authority to shut down AI systems that pose catastrophic harm, as documented by Ars Technica (https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems/). This law would require AI makers to implement technical capabilities for throttling or shutting down systems upon government order. How will AI developers balance regulatory compliance with the need for autonomous system design?",
+    "image_prompt": "A stylized illustration of a futuristic AI system control panel with a prominent red 'kill switch' button, set against a backdrop of coding screens and circuit boards, conveying the tension between technological advancement and regulatory oversight.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784912140/threads_bot/wbagboxbmv1ffqcwydiv.jpg",
+    "post_id": "18160155277476879",
+    "source_url": "",
+    "source_title": ""
   }
 ]
