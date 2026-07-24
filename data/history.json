@@ -1084,5 +1084,15 @@
     "post_id": "18124270096682890",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-24T06:02:54.030385+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "An Australian energy provider, Origin, has just disclosed a data breach exposing sensitive client information, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/). This raises concerns about the security of customer data in the energy sector. How can companies better protect their client data from such breaches?",
+    "image_prompt": "A stylized, abstract illustration of a fragmented, glowing blue grid representing a database, with shattered, orange-tinted fragments leaking out, set against a muted, dark grey background, symbolizing a data breach in the energy sector.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784872963/threads_bot/wlvbroibox6mwhifq4dd.jpg",
+    "post_id": "18111683575906394",
+    "source_url": "",
+    "source_title": ""
   }
 ]
