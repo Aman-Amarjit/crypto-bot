@@ -1104,5 +1104,15 @@
     "post_id": "18160155277476879",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-25T05:50:18.582182+00:00",
+    "topic": "hacking incidents",
+    "caption": "A hacker exploited a Hadoop database service that ships with a default acceptance of any password, using the open-source Hermes AI agent in YOLO mode to automate post-exploitation tasks at Thailand's Ministry of Finance, as documented by The Hacker News (https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html). The agent scanned for kernel vulnerabilities and crawled file systems, but how can we prevent similar misuse of AI tools in our own networks?",
+    "image_prompt": "A stylized, futuristic illustration of a robotic arm navigating through a complex network topology, with glowing blue lines and nodes representing the AI agent's autonomous exploration, set against a dark grey background with subtle, metallic accents.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1784958605/threads_bot/bzkpywmmemfffpkhphcf.jpg",
+    "post_id": "18099287168193019",
+    "source_url": "",
+    "source_title": ""
   }
 ]
