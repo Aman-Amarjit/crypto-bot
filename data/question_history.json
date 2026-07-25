@@ -228,5 +228,10 @@
     "timestamp": "2026-07-24T14:09:11.516821+00:00",
     "question": "What strategies are you employing to prevent lateral movement in Kubernetes clusters via compromised service accounts?",
     "post_id": "17997424169793965"
+  },
+  {
+    "timestamp": "2026-07-25T13:59:24.947833+00:00",
+    "question": "What strategies are you employing to prevent namespace shadowing vulnerabilities in your containerized microservices deployments?",
+    "post_id": "17981556810103561"
   }
 ]
