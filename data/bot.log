@@ -13161,3 +13161,52 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-25T15:02:47.765295+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-25T16:11:19.834262+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE5qcmFFeFdITTByYXlsY2d6ZWtEYjFZU2c1YktXaUt0N29pUzhKZkJLNWN2WVlvcXk4MjRJM3gyNmFaSWxyWDBSY0djQzNaMThtNUhDd204U0FNck04OTkxbDZIS0pQZTd5Q0lnNUp5UTJyZllYcnFPa1FvYURRU1U?oc=5
+Decoded successfully to: https://www.wired.com/story/spanish-wildfires-nasa-deep-space-observatory/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTFA3TjQzeGladEtkMFlMWDhKNFdVZWxmMWRUV052TG40Mmd2ZjJJd0hqTWNfRFRweS1wVWRxS0RPaGNpakFXNTd5Z2c4ZWRjaXpXQnh4RDMwMnJPaU9rbzQza2l2b2tpMVZfdEtsbzNfQjcyYmNIa0JLS0JOVmdsbUk?oc=5
+Decoded successfully to: https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMimgFBVV95cUxOcWpPSFBCUzJqdGZPNVNwSzBub2hKbERwNzVpVEtPcVNXR2swZ1pJQ0JEX093TTBnNFFOUGJYaWxUMlkxbU5EYjNUYjZUZUJDU3JmYVIyNmV1eWRzVGd2TVZoQmVBVTdzQ05LVjlkZXhfODZSLUd6dWhpSmgyOXRkTFplc1NLdHRCQW0xdzNDaHNLcTdXQjRkZ0ZB?oc=5
+Decoded successfully to: https://www.wired.com/story/the-odyssey-was-made-for-imax-70mm-good-luck-watching-it-that-way/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2ZKLVFHN1diNXBfT2VGVjg1Zld1UUpNSlJqbG5EVkZhcUlLTjVXa3ZOaEw3ZTI1TjN4UmNXUE1MTWM1Wmh5cXFMb0RLRWlGck12b1QtU0E1bkZnWExubVVvUHM3Q3dNdnVwSGx5OGVHUUxZUmxoek53MXAwM2NpdUhQWTBZbkNlcnE4NjZBRzM4bnE2Y1VKTV9jUkZqeGMta0dFc3dFVdIBrAFBVV95cUxQLTdfU0pYV0VwQ3JZY2lMZHRjX3ZmNkp4V1BuR3NhczFKZW5RZjZrajVpaEg5TzJlYlZLYlZ5dld6bkhHYzlxbm0yUTlpYzR3QWNtUFE0eWNTZ3RZUTYwNEplQ1JVeVZVdE1kSEhkNlpXWElTaExJTC1feUNFX1dBa1FkWC14QXpiZnkxZlA0bVBSRTgzbThKNlFVNjY1OFhVRmk0R2JMTm9NYldI?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxNcXQ1SzJkbWFfN2tLdGR2UmFHYlA1X2lEeFNnWDB1cEZZQUxMd2RsOF9JRk0zVEtIQ3JlTmhRTVZpSjNaRG9fT2lvUkhWeWExMzNjVDBqM2xxaWtCNDJMMmVuYlE5WHZXNTdEQy1KdXlFRnF1QXFzR3RGVnpKUzBxVFl4RUVGSU0wSHc0OFFDNWY5TlByQllXajJkUzUybzJNYVJsREZWTkhhZnV5MEUw0gG0AUFVX3lxTFBhR3RBSDMyMGJCZENZT3FWTzBoSGc5cWl0UWJvQy1jZmJZbUpRZDd2bHdiTzQtQ2VVX1kxUWdIbkJ6YktuLTh1MjI0N1o0VUlFY0N5YmtHakpMWU5Hd0JsZUYxY3E0YVp2OVFTaUhCOXBuTUliQS1iSHBOTFpKZ2RmRDE4RlhmMm9JQXBRS1VoWFdBSzgyME1aWmVMSG92RTFoYVQ2Z3lteEc0TWl6ZUcxay1LOQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.wired.com/story/spanish-wildfires-nasa-deep-space-observatory/
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: NASA's Deep Space Communications Complex in Spain, crucial for spacecraft communications, has been hit by wildfires, as reported by Wired (https://www.wired.com/story/spanish-wildfires-nasa-deep-space-observatory/). The fire's impact on the sensitive equipment is still unclear, but NASA has transitioned support to the Goldstone complex in California. How will this disruption affect the transmission of critical data from Voyager 1 and the James Webb Space Telescope?
+  - Image Prompt: A stylized illustration of a radio telescope surrounded by flames, with a subtle Spanish landscape in the background, conveying the intersection of natural disaster and advanced space technology, in a palette of oranges, yellows, and dark greys, with bold lines and abstract smoke patterns
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%20illustration%20of%20a%20radio%20telescope%20surrounded%20by%20flames%2C%20with%20a%20subtle%20Spanish%20landscape%20in%20the%20background%2C%20conveying%20the%20intersection%20of%20natural%20disaster%20and%20advanced%20space%20technology%2C%20in%20a%20palette%20of%20oranges%2C%20yellows%2C%20and%20dark%20greys%2C%20with%20bold%20lines%20and%20abstract%20smoke%20patterns?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1784995888/threads_bot/keexslolvfk3c5u7l2ap.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18107695375933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18113394509295754
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18113394509295754
+Timestamp: 2026-07-25T16:11:42.513168+00:00 UTC
+============================================================
