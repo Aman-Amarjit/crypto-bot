@@ -1144,5 +1144,15 @@
     "post_id": "18021866639691809",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-26T16:12:48.928060+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "The notorious DeepFaceLab framework has enabled sophisticated deepfake creation, leveraging AI-powered face-swapping to bypass liveness detection in facial recognition systems, as documented by Wired (https://www.wired.com). How can developers effectively integrate anti-spoofing measures to counter such threats?",
+    "image_prompt": "A futuristic, minimalist illustration depicting a face being reconstructed from fragmented, swirling code patterns, set against a cool, dark grey background with subtle, pulsing blue accents, symbolizing the cat-and-mouse game between deepfake creators and cybersecurity experts.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785082356/threads_bot/tgfpekvb72txuihbjiki.jpg",
+    "post_id": "18013744454870529",
+    "source_url": "",
+    "source_title": ""
   }
 ]
