@@ -1124,5 +1124,15 @@
     "post_id": "18113394509295754",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-26T06:13:41.842748+00:00",
+    "topic": "cyber warfare",
+    "caption": "Cl0p affiliates are chaining a pre-authentication info disclosure in FlexPLM's WSDL endpoint with a server-side flaw in Windchill's login servlet for unauthenticated RCE, as documented by The Hacker News (https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html). This enables deployment of hex-named JSP web shells under /Windchill/login/, how are you monitoring your Windchill ingress logs for header anomalies?",
+    "image_prompt": "A stylized, futuristic illustration of a cyber threat landscape with a dark, metallic accent representing the Cl0p ransomware campaign, set against a backdrop of glowing blue circuit boards and neon-lit cityscapes, with subtle hints of industrial and manufacturing elements in the foreground, such as 3D models of cars and airplanes, to symbolize the targeted sectors.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785046399/threads_bot/yoyqi8anchq77pek4rcg.jpg",
+    "post_id": "18126508618778657",
+    "source_url": "",
+    "source_title": ""
   }
 ]
