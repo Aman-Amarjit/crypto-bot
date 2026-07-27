@@ -13565,3 +13565,50 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-07-26T18:48:43.974466+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-07-27T06:38:40.261420+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifkFVX3lxTE9nc19DOExnVGdvWjQ5REVNUE5ZbGRrUVZPQWhDTXZQVkM5VDVaSGNvZHJRMXZoUjFNdnVOOHR3NmFELVFIV2ZuWDI4aFVIU2FkNlllNzBybmZ4MW1feVZTSC1lMW5sN3J1ZHY2UUVVVVd2ck1FY05NWE1yYmlVUQ?oc=5
+Decoded successfully to: https://www.theverge.com/gadgets/970775/xbox-game-pass-ultimate-deal-sale
+Decoding Google News URL: https://news.google.com/rss/articles/CBMid0FVX3lxTFBnMTZfZ3ZiTnpOX2ZUYTZoSGQ2NnNUQmJpRUtUcjRoc0JVMjRRNmNWQjJXSmNYSFd4VzRwNEJyWC1CdEdheDVxTVZXX0d6SGVFeU9yNVd2LWZwWTBlZ3VmX1RhbzFwY0RyUDhsNXlIeUlCTGFTRVE0?oc=5
+Decoded successfully to: https://www.wired.com/story/best-subscription-free-security-cameras/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxPd0kyd2dwcFRDUVc5MC1FaHJHWkdLMmN4akhnNV9IZEN0Y2VNajVqd2ZsVU9rcGJzNXBxVF9icGVVaHFDSE0ySzJDLVdhVnZidERMazJValdvS0diOURudWFwS3Jmbjd0M3NDMGtlLTZtTGdjSEFLOXVGakZ5YnpkVW1R?oc=5
+Decoded successfully to: https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-27-2026/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaYk56TEhWaEdNdW9SQWpMSUFZVXhWMGFobWhVNVpYRGszNlozamlhRGZBSDFSZzR3NVNiaHoyODVnZFJJeklWb2lSV2h5VDM2dThEeWN3?oc=5
+Decoded successfully to: https://www.theverge.com/archives/2026/7/51
+Successfully retrieved 4 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.theverge.com/gadgets/970775/xbox-game-pass-ultimate-deal-sale
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As I delve into the world of gaming subscriptions, I find it intriguing that Xbox Game Pass Ultimate is being offered at a discounted rate, as documented by The Verge (https://www.theverge.com/gadgets/970775/xbox-game-pass-ultimate-deal-sale), but what security implications arise from using digital codes for subscription services?
+  - Image Prompt: A stylized, futuristic illustration of a gamer sitting in front of a console, surrounded by a halo of code and circuitry, with a subtle, glowing Xbox logo in the background, set against a dark, metallic blue hue that evokes a sense of high-tech security and surveillance.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20gamer%20sitting%20in%20front%20of%20a%20console%2C%20surrounded%20by%20a%20halo%20of%20code%20and%20circuitry%2C%20with%20a%20subtle%2C%20glowing%20Xbox%20logo%20in%20the%20background%2C%20set%20against%20a%20dark%2C%20metallic%20blue%20hue%20that%20evokes%20a%20sense%20of%20high-tech%20security%20and%20surveillance.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1785134324/threads_bot/wovktjdypyg4ovvbrybz.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18107962762933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18124449613783543
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18124449613783543
+Timestamp: 2026-07-27T06:39:00.214163+00:00 UTC
+============================================================
