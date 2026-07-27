@@ -1164,5 +1164,15 @@
     "post_id": "18124449613783543",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-27T17:11:13.050853+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "Lasso's AI Security Platform tackles the evolving threat landscape by focusing on intent security, where behavior is the attack surface. As documented by The Hacker News (https://thehackernews.com/expert-insights/2026/07/a-look-inside-lassos-ai-security.html), how can security teams effectively monitor and baseline AI agent behavior in dynamic environments?",
+    "image_prompt": "A stylized, futuristic illustration of a cybersecurity mesh, with glowing blue lines and nodes representing AI agents, set against a dark grey background with subtle, pulsing circuit patterns, as a metaphor for Lasso's AI Security Platform",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785172263/threads_bot/ncd1jpmzor88wciivkz3.jpg",
+    "post_id": "18144324763527776",
+    "source_url": "",
+    "source_title": ""
   }
 ]
