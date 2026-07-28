@@ -1174,5 +1174,15 @@
     "post_id": "18144324763527776",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-28T06:02:06.012634+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "Hackers are exploiting a zero-day remote code execution vulnerability in FastJson, targeting US firms as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/). This highlights the importance of staying vigilant about library updates. How are you ensuring your JSON parsing libraries are up-to-date?",
+    "image_prompt": "A stylized, abstract illustration of a JSON data stream flowing through a network, with a faint, glowing red thread weaving through it, symbolizing the vulnerability, set against a dark grey and blue background with subtle, metallic accents.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785218514/threads_bot/voqpkof31rkelgfeooqr.jpg",
+    "post_id": "18132311758616531",
+    "source_url": "",
+    "source_title": ""
   }
 ]
