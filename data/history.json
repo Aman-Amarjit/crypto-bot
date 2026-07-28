@@ -1184,5 +1184,15 @@
     "post_id": "18132311758616531",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-28T16:49:00.461314+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "India's startup ecosystem has seen a rise in data breaches, with many attributed to vulnerabilities like SQL injection. As documented by The Hacker News (https://thehackernews.com), the lack of input validation in web applications has led to significant data exposure. How can Indian startups effectively implement Web Application Firewalls to prevent such breaches?",
+    "image_prompt": "A stylized, abstract illustration of a lock integrating with a lotus, set against a warm, gradient backdrop of Indian-inspired patterns, symbolizing the fusion of security and innovation in the Indian startup landscape.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785257329/threads_bot/deqwfylakrpnvkswc9au.jpg",
+    "post_id": "18416736160151739",
+    "source_url": "",
+    "source_title": ""
   }
 ]
