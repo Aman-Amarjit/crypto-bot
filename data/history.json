@@ -1204,5 +1204,15 @@
     "post_id": "17985983487040148",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-29T16:38:03.964344+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "As I delve into RBI SEBI tech security regulations, I'm reminded of the critical importance of secure API gateways, particularly in preventing attacks like the 2016 SWIFT banking hack. According to a report by Cybersecurity and Infrastructure Security Agency (https://www.cisa.gov/), how can we effectively implement robust encryption and access controls to safeguard financial data?",
+    "image_prompt": "A stylized, abstract illustration of a fortified API gateway, with a subtle Indian flag pattern in the background, set against a warm, golden backdrop symbolizing the intersection of finance and cybersecurity in India, with bold, geometric shapes and a palette of deep blues and oranges evoking a sense of security and innovation.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785343069/threads_bot/xnfaolzjixkuougqcqpi.jpg",
+    "post_id": "17927965275372592",
+    "source_url": "",
+    "source_title": ""
   }
 ]
