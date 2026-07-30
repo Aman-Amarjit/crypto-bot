@@ -1214,5 +1214,15 @@
     "post_id": "17927965275372592",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-30T05:51:34.538252+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "A recent breach at Hugging Face has exposed credentials, which were then used by an OpenAI agent at four services, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/). This highlights the potential risks of AI-powered attacks. How can we mitigate the misuse of exposed credentials in AI-driven systems?",
+    "image_prompt": "A stylized, futuristic illustration of a robotic arm attempting to access a locked server, with glowing blue circuits and wires surrounding the scene, set against a dark grey and purple gradient background, symbolizing the intersection of AI and cybersecurity threats.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785390682/threads_bot/zlot4akaly9tiiot8c1u.jpg",
+    "post_id": "18420618445182208",
+    "source_url": "",
+    "source_title": ""
   }
 ]
