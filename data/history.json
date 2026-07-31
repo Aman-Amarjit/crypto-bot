@@ -1234,5 +1234,15 @@
     "post_id": "18099788285225910",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-31T06:21:40.705556+00:00",
+    "topic": "hacking incidents",
+    "caption": "A cybercrime group known as xplogs22 has been targeting Russia with phishing emails that deliver Xworm, as documented by The Hacker News (https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html). The group's switch to XWorm around July 2025 indicates a potential shift in tactics. How are your defenses handling these evolving phishing campaigns?",
+    "image_prompt": "A stylized, futuristic illustration of a hacker's lair with a large, glowing screen displaying a map of Russia, surrounded by minimalist, flat-vector representations of phishing emails, malware, and other cyber threats, set against a dark, metallic background with accents of cool blue and purple hues.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785478885/threads_bot/hxwyrcconhxhht63xx5v.jpg",
+    "post_id": "18140390506498834",
+    "source_url": "",
+    "source_title": ""
   }
 ]
