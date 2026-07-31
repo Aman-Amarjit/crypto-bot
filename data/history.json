@@ -1244,5 +1244,15 @@
     "post_id": "18140390506498834",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-07-31T16:54:56.837219+00:00",
+    "topic": "dark web leaks",
+    "caption": "Iranian hackers have targeted dozens of Minnesota water utilities, exploiting vulnerabilities in industrial control systems, as documented by Wired (https://www.wired.com/story/a-leaked-memo-ties-cyberattacks-on-minnesota-water-utilities-to-iran/). The attacks, which have resulted in boil-water notices and sustained manual operations, have raised concerns about the potential for state-sponsored targeting of civilian infrastructure. How can water utilities protect their PLCs from similar attacks?",
+    "image_prompt": "A stylized illustration of a water treatment plant's control room, with a large screen display showing a map of Minnesota and several red alerts indicating hacked systems, while a subtle Iranian flag pattern is embedded in the background, symbolizing the suspected origin of the cyberattacks.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785516884/threads_bot/pawlwcxqr8w8n1x5rxgy.jpg",
+    "post_id": "18424297054177737",
+    "source_url": "",
+    "source_title": ""
   }
 ]
