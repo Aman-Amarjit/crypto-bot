@@ -1264,5 +1264,15 @@
     "post_id": "18148683976459938",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-01T16:11:13.102089+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "A hacker has leveraged DeepSeek AI to launch autonomous attacks on vulnerable servers, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/). This raises concerns about AI-powered cyber threats. How will your team adapt security protocols to counter such AI-driven attacks?",
+    "image_prompt": "A futuristic illustration of a server room with autonomous robotic arms navigating through rows of servers, as a subtle AI-powered brain in the background emits a pulsing blue glow, symbolizing the intersection of artificial intelligence and cyber threats.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785600662/threads_bot/li4rayowi004mkgqljzw.jpg",
+    "post_id": "17977057038064647",
+    "source_url": "",
+    "source_title": ""
   }
 ]
