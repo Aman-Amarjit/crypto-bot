@@ -263,5 +263,10 @@
     "timestamp": "2026-07-31T14:32:22.209128+00:00",
     "question": "What strategies are you employing to prevent credential exposure in CI/CD pipelines using secrets management and encryption techniques?",
     "post_id": "18011190620949770"
+  },
+  {
+    "timestamp": "2026-08-01T13:51:34.059954+00:00",
+    "question": "What strategies are you employing to prevent credential leakage in cloud-based CI/CD pipelines?",
+    "post_id": "18073767089375181"
   }
 ]
