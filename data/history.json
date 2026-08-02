@@ -1284,5 +1284,15 @@
     "post_id": "18030402212827534",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-02T10:48:30.262245+00:00",
+    "topic": "AI surveillance",
+    "caption": "A firmware flaw in Coldcard hardware wallets, as documented by The Hacker News (https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html), allowed an attacker to drain $70 million in Bitcoin by exploiting a deterministic software pseudorandom number generator. This vulnerability, stemming from a 2021 integration error, raises questions about the security of hardware wallets and how to mitigate such risks - what measures can be taken to ensure truly random number generation in cryptographic devices?",
+    "image_prompt": "A stylized, futuristic illustration of a cracked hardware wallet with a glowing blue circuit board, surrounded by shattered glass and Bitcoin symbols, set against a dark grey background with subtle, neon-lit accents, conveying the theme of a high-stakes cybersecurity breach in the cryptocurrency space.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785667698/threads_bot/xvorqtj8psyupa6ekqcp.jpg",
+    "post_id": "18128055808644827",
+    "source_url": "",
+    "source_title": ""
   }
 ]

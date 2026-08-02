@@ -15295,3 +15295,49 @@ Configuration validated successfully.
 ⚠️  A post was published 237 min ago (from data/history.json). Use --force to override.
 🛑 Skipping run to avoid spammy posting. Use --force to override.
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-08-02T10:48:14.221597+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ2JIX2d5aExyWUxJX0R5NEdrdXNzOUItNkp3Q001ZGFCY1VibHhTMVJnUHdNNzZBQUIzX3d1LWJSLXk2N0hoUjBURnhBYUpsTnhsZ25fbVhHcndqNllXQkRxUkIzMUw3WGhsRVM4bEdYeEg1RFA3dldsTkx3TlBrZUplaFU?oc=5
+Decoded successfully to: https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiigFBVV95cUxQWHpjTngzVnNxODZKeWtabmFUQlkzNHBjcUllb1REelZpSUxOWGdCTnFZRWgtS0JtUzA3RDA5cHVlMnRIVGRTRENjdWRTdU1hcjI1REdWdUNFQXdrMDBmSFNzOUQtUmgtSmxvbkcwUVNhVzVLQ0RKSHN1SHgzR3I5NGI0NTBkamV4RWc?oc=5
+Decoded successfully to: https://www.wired.com/story/is-it-possible-to-make-privacy-friendly-smart-glasses/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxPd0kyd2dwcFRDUVc5MC1FaHJHWkdLMmN4akhnNV9IZEN0Y2VNajVqd2ZsVU9rcGJzNXBxVF9icGVVaHFDSE0ySzJDLVdhVnZidERMazJValdvS0diOURudWFwS3Jmbjd0M3NDMGtlLTZtTGdjSEFLOXVGakZ5YnpkVW1R?oc=5
+Decoded successfully to: https://www.wired.com/story/amazon-prime-day-absolute-best-deals-06-27-2026/
+Successfully retrieved 3 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: A firmware flaw in Coldcard hardware wallets, as documented by The Hacker News (https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html), allowed an attacker to drain $70 million in Bitcoin by exploiting a deterministic software pseudorandom number generator. This vulnerability, stemming from a 2021 integration error, raises questions about the security of hardware wallets and how to mitigate such risks - what measures can be taken to ensure truly random number generation in cryptographic devices?
+  - Image Prompt: A stylized, futuristic illustration of a cracked hardware wallet with a glowing blue circuit board, surrounded by shattered glass and Bitcoin symbols, set against a dark grey background with subtle, neon-lit accents, conveying the theme of a high-stakes cybersecurity breach in the cryptocurrency space.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20cracked%20hardware%20wallet%20with%20a%20glowing%20blue%20circuit%20board%2C%20surrounded%20by%20shattered%20glass%20and%20Bitcoin%20symbols%2C%20set%20against%20a%20dark%20grey%20background%20with%20subtle%2C%20neon-lit%20accents%2C%20conveying%20the%20theme%20of%20a%20high-stakes%20cybersecurity%20breach%20in%20the%20cryptocurrency%20space.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1785667698/threads_bot/xvorqtj8psyupa6ekqcp.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (525) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18108996208933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18128055808644827
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18128055808644827
+Timestamp: 2026-08-02T10:48:30.263688+00:00 UTC
+============================================================
