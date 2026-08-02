@@ -1294,5 +1294,15 @@
     "post_id": "18128055808644827",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-02T16:11:09.363556+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The Log4Shell vulnerability has shown how LLM jailbreaks can exploit weaknesses in logging mechanisms. As documented by BleepingComputer (https://www.bleepingcomputer.com), attackers can inject malicious input to bypass security controls. How can we prevent similar attacks on our language models?",
+    "image_prompt": "A stylized, futuristic illustration of a robotic figure attempting to break free from a complex network of glowing, ethereal chains, set against a dark, gradient blue background with subtle, pulsing circuit patterns",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785687059/threads_bot/ljx8bq9ik7uk1jz6lqfn.jpg",
+    "post_id": "18331563436281375",
+    "source_url": "",
+    "source_title": ""
   }
 ]
