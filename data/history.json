@@ -1274,5 +1274,15 @@
     "post_id": "17977057038064647",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-02T06:10:11.273209+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "Iranian-affiliated hackers have compromised water utilities in 7 states, exploiting vulnerabilities in programmable logic controllers, as documented by Wired (https://www.wired.com/story/security-news-this-week-7-states-water-systems-hit-by-cyberattacks-likely-tied-to-iran/). How can we effectively implement allow-lists to prevent similar attacks on industrial control systems?",
+    "image_prompt": "A stylized illustration of a water treatment facility's control room, with a large screen displaying a map of the US with 7 states highlighted, and a subtle, ominous glow emanating from the screens, symbolizing the cyberattack, set against a dark, muted background with accents of blue and grey, representing the intersection of technology and critical infrastructure.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785650997/threads_bot/h3lsv1ixu2tvauskhg8x.jpg",
+    "post_id": "18030402212827534",
+    "source_url": "",
+    "source_title": ""
   }
 ]
