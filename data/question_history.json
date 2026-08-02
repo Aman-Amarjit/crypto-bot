@@ -268,5 +268,10 @@
     "timestamp": "2026-08-01T13:51:34.059954+00:00",
     "question": "What strategies are you employing to prevent credential leakage in cloud-based CI/CD pipelines?",
     "post_id": "18073767089375181"
+  },
+  {
+    "timestamp": "2026-08-02T13:51:25.103295+00:00",
+    "question": "What strategies are you employing to prevent lateral movement in Kubernetes clusters via compromised service accounts or overly permissive role bindings?",
+    "post_id": "18127632169671904"
   }
 ]
