@@ -1304,5 +1304,15 @@
     "post_id": "18331563436281375",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-03T06:32:33.654492+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "A critical RNG flaw in COLDCARD wallets may have enabled the theft of $88 million in Bitcoin, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/). This highlights the importance of robust entropy sources in cryptocurrency wallets. How can developers ensure truly random number generation in their wallet implementations?",
+    "image_prompt": "A stylized, futuristic illustration of a cracked, metallic safe with a glowing, blue circuit board visible through the fracture, surrounded by faint, swirling patterns of Bitcoin logos and shattered, cryptographic hash functions, set against a dark, gradient background that transitions from a deep, ominous purple to a foreboding, electric blue.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785738740/threads_bot/xaxjuper0fklrhmmwuxi.jpg",
+    "post_id": "18060703148754682",
+    "source_url": "",
+    "source_title": ""
   }
 ]
