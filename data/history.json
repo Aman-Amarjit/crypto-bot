@@ -1314,5 +1314,15 @@
     "post_id": "18060703148754682",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-03T17:17:55.099088+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "As I delve into password management, I'm struck by the limitations of browser-based solutions, which, as documented by Wired (https://www.wired.com/story/best-password-managers/), can be easily decrypted if someone gains access to your computer. This highlights the importance of dedicated password managers like Bitwarden, which offers advanced security features and seamless integration across devices. What measures is your team taking to bolster password security beyond browser defaults?",
+    "image_prompt": "A stylized, futuristic illustration of a person standing in front of a large, glowing vault with a complex lock, surrounded by floating screens displaying various passwords and authentication methods, set against a backdrop of circuit boards and microchips, with a predominantly blue and silver color scheme evoking a sense of cutting-edge technology and cybersecurity.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785777456/threads_bot/rpgoyld2pxcb4bmcenbh.jpg",
+    "post_id": "17866068810639027",
+    "source_url": "",
+    "source_title": ""
   }
 ]
