@@ -278,5 +278,10 @@
     "timestamp": "2026-08-03T15:13:00.031068+00:00",
     "question": "What strategies are you employing to detect and prevent credential escalation in containerized environments using orchestration tools like Kubernetes?",
     "post_id": "18128502985580292"
+  },
+  {
+    "timestamp": "2026-08-04T14:37:22.117146+00:00",
+    "question": "What strategies are you employing to prevent and detect npm and PyPI dependency supply chain attacks in your CI/CD pipelines?",
+    "post_id": "18476614165107650"
   }
 ]
