@@ -15762,3 +15762,44 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-08-03T19:14:53.083033+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-08-04T06:02:13.856028+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZcWVfSHI1cnVJYWhzQmhLZkdjeTNGWTU0RmhWeDBzZU42TTBUYXBJanB5VzdLMUpuN1F4dHJfWEpjaWNxekxEb29mZVgxRkx2bU1zR1V0UFRfQzgtZTQ0elRB?oc=5
+Decoded successfully to: https://thehackernews.com/search/label/Hacker%20News
+Successfully retrieved 1 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/search/label/Hacker%20News
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: As I delve into the realm of Digital India cybersecurity, I'm reminded that staying informed is key. According to the latest updates from The Hacker News (https://thehackernews.com/search/label/Hacker%20News), expert insights and exclusive resources are now more accessible than ever. How can we leverage these resources to bolster our cybersecurity posture?
+  - Image Prompt: A stylized, futuristic illustration of a secured network with a subtle Indian flag motif, set against a backdrop of warm, golden hues and sleek, metallic accents, symbolizing the fusion of modern cybersecurity with India's digital revolution.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20secured%20network%20with%20a%20subtle%20Indian%20flag%20motif%2C%20set%20against%20a%20backdrop%20of%20warm%2C%20golden%20hues%20and%20sleek%2C%20metallic%20accents%2C%20symbolizing%20the%20fusion%20of%20modern%20cybersecurity%20with%20India%27s%20digital%20revolution.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1785823338/threads_bot/rgq3wszbwfnz3twbjen2.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18109295953933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18031802843836013
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18031802843836013
+Timestamp: 2026-08-04T06:02:27.979249+00:00 UTC
+============================================================
