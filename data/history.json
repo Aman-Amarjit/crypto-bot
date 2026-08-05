@@ -1354,5 +1354,15 @@
     "post_id": "18051946631559954",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-05T16:54:49.322256+00:00",
+    "topic": "government cyber regulations",
+    "caption": "The White House has finalized a plan to address AI cybersecurity risks, but is keeping the details secret, as reported by Wired (https://www.wired.com/story/the-white-house-is-keeping-its-ai-cybersecurity-framework-secret/). This framework allows AI developers to voluntarily submit models for vetting, but excludes open models. How will this secretive process impact the accountability of AI companies?",
+    "image_prompt": "A stylized illustration of a locked box with a subtle AI-generated pattern, surrounded by faint, glowing circuit lines, set against a dark blue background with hints of metallic accents, symbolizing the secrecy and technological complexity of the White House's AI cybersecurity framework",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785948877/threads_bot/i2xzypxg0svlc1ppmxhs.png",
+    "post_id": "18348694009174484",
+    "source_url": "",
+    "source_title": ""
   }
 ]
