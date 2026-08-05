@@ -1344,5 +1344,15 @@
     "post_id": "18089702873448102",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-05T06:03:23.914639+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "A Google Firebase misconfiguration in tl;dv's AI meeting tool allows users to query other users' meeting information, potentially joining calls, as documented by Dark Reading (https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls). This vulnerability stems from missing isolation in the 'meetings' collection, enabling access to live conference calls and metadata. How can developers effectively implement Firestore security rules to prevent such breaches?",
+    "image_prompt": "A stylized, abstract illustration of a video conference call with a subtle, glowing grid overlay, representing the AI notetaker's access to sensitive meeting information, set against a muted, professional background with hints of government and corporate logos",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1785909792/threads_bot/dfbq3052pqa0zifmccch.png",
+    "post_id": "18051946631559954",
+    "source_url": "",
+    "source_title": ""
   }
 ]
