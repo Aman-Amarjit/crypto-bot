@@ -288,5 +288,10 @@
     "timestamp": "2026-08-05T14:30:27.166890+00:00",
     "question": "What strategies are you employing to prevent credential leakage in containerized environments using tools like Docker and Kubernetes?",
     "post_id": "18173443057439502"
+  },
+  {
+    "timestamp": "2026-08-06T14:32:35.346079+00:00",
+    "question": "What strategies are you employing to prevent SSRF vulnerabilities in microservices architectures that utilize service discovery mechanisms?",
+    "post_id": "18117848618303156"
   }
 ]
