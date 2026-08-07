@@ -293,5 +293,10 @@
     "timestamp": "2026-08-06T14:32:35.346079+00:00",
     "question": "What strategies are you employing to prevent SSRF vulnerabilities in microservices architectures that utilize service discovery mechanisms?",
     "post_id": "18117848618303156"
+  },
+  {
+    "timestamp": "2026-08-07T13:35:49.592455+00:00",
+    "question": "What strategies are you employing to prevent credential exposure in containerized environments using tools like Docker and Kubernetes?",
+    "post_id": "18098680688213150"
   }
 ]
