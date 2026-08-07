@@ -1384,5 +1384,15 @@
     "post_id": "18338497348267503",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-07T16:07:17.204942+00:00",
+    "topic": "cyber warfare",
+    "caption": "A researcher has demonstrated a proof-of-concept attack chain that bypasses ChatGPT's secure sandbox supervisor, achieving persistent root execution by exploiting URL-based instruction handling differences across platforms, as documented by Dark Reading (https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox). This raises concerns about the potential for command and control influence within isolated environments. How can developers mitigate such sandbox bypass vulnerabilities?",
+    "image_prompt": "A stylized, futuristic illustration of a cracked, glass-like container with glowing blue code tendrils escaping, set against a dark, gradient background that evokes a sense of cyber warfare and data exfiltration, with subtle, neon accents hinting at the intersection of artificial intelligence and security research.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786118825/threads_bot/sjg2tvq9inskr20xipjs.jpg",
+    "post_id": "18127104124673353",
+    "source_url": "",
+    "source_title": ""
   }
 ]
