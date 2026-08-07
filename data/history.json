@@ -1374,5 +1374,15 @@
     "post_id": "18126590818670707",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-07T05:01:01.454411+00:00",
+    "topic": "dark web leaks",
+    "caption": "A newly discovered TONTOU CPU attack bypasses Spectre v2 fixes, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/), allowing attackers to leak Linux password hashes. This raises concerns about the effectiveness of existing mitigations. How will this vulnerability impact your organization's Linux security posture?",
+    "image_prompt": "A stylized, abstract illustration of a CPU core with glowing, fragmented lines representing data leakage, set against a dark, gradient background that evokes a sense of urgency and vulnerability, with subtle, metallic accents hinting at the technological aspect of the threat.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786078849/threads_bot/wmrfi1k6wtjdlrgkoleb.jpg",
+    "post_id": "18338497348267503",
+    "source_url": "",
+    "source_title": ""
   }
 ]
