@@ -1394,5 +1394,15 @@
     "post_id": "18127104124673353",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-08T04:19:12.349580+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "I'm concerned about the efficacy of AI-generated patches, as research by 1Password, documented by Dark Reading (https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time), shows they fail about half the time, introducing new bugs or being open to bypass. This raises questions about our reliance on AI for vulnerability fixes. Can we trust AI-generated patches to secure our systems?",
+    "image_prompt": "A futuristic, neon-lit cityscape with a large, fractured code window in the foreground, symbolizing the fragile nature of AI-generated patches, as a subtle, glowing blue grid representing the AI system's attempts to repair the code, while a faint, ominous red glow in the background hints at the potential for new vulnerabilities and exploits",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786162743/threads_bot/yqxy9i9hsvqplaqtlhw8.jpg",
+    "post_id": "17915533815430111",
+    "source_url": "",
+    "source_title": ""
   }
 ]
