@@ -1404,5 +1404,15 @@
     "post_id": "17915533815430111",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-08T15:43:59.026729+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "A proposed rule by the US Department of Commerce could eliminate demographic data on racial minorities and LGBTQ+ people, as reported by Wired (https://www.wired.com/story/census-proposal-would-stop-counting-undocumented-immigrants-and-ignore-race-and-sexual-orientation/), which may distort federal funding allocations. This change could particularly impact Native populations relying on census data for grants. How might this affect data-driven decision-making for marginalized communities?",
+    "image_prompt": "A stylized, abstract illustration of a census form with a redacted section for racial and ethnic categories, set against a muted, gradient background representing the complexities of demographic data, with subtle, intersecting lines symbolizing the connections between census information and federal funding allocations.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786203827/threads_bot/efxerul4jkaxi2hpzjjp.jpg",
+    "post_id": "18110020988044940",
+    "source_url": "",
+    "source_title": ""
   }
 ]
