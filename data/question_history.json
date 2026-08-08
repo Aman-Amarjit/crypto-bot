@@ -298,5 +298,10 @@
     "timestamp": "2026-08-07T13:35:49.592455+00:00",
     "question": "What strategies are you employing to prevent credential exposure in containerized environments using tools like Docker and Kubernetes?",
     "post_id": "18098680688213150"
+  },
+  {
+    "timestamp": "2026-08-08T13:09:55.105703+00:00",
+    "question": "What strategies are you employing to prevent credential exposure in CI/CD pipelines using environment variables and secrets management tools?",
+    "post_id": "18237785077312841"
   }
 ]
