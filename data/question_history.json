@@ -303,5 +303,10 @@
     "timestamp": "2026-08-08T13:09:55.105703+00:00",
     "question": "What strategies are you employing to prevent credential exposure in CI/CD pipelines using environment variables and secrets management tools?",
     "post_id": "18237785077312841"
+  },
+  {
+    "timestamp": "2026-08-09T13:12:44.660801+00:00",
+    "question": "What strategies are you employing to mitigate the impact of transitive dependencies on the security posture of your containerized applications?",
+    "post_id": "17941838763272420"
   }
 ]
