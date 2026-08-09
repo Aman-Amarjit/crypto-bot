@@ -17170,3 +17170,52 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-08-08T18:04:00.453706+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-08-09T04:33:51.801692+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE9FdVdlcmljUU50ZGotMXF3WWJocTFWTVoxWlNTVkpteVRoUGh3eGZyQThIX1pWVW1pMk4wOW9OcXBLREdxT1lTYXNveDZCR2kwUGNNU25nX3NyQXk2WG1uU0ltallfWHNESlJydUZjajdnWC1Nc2xIMWJ4UmYzM2M?oc=5
+Decoded successfully to: https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifkFVX3lxTE5RZmI1cEtLbHgxdVN0eWN6QkNfaVctLTNJd01SODZnVW1CeUN3a1Q2VFZoRkp0WHdzX1hMMEU5cEI0TFl5SHo5ODlXX1d3MEwzTWdncjZNUFpqZmdGeVFfeTRibGdSTTUzVFdmNEdHNHBlcHVmbHR1RXdQbjBOZw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE5VUFZqaTF2Wi1QQkNPY0xCdVFfRC1ibGk0QWxRTzJiVE5RTHlLdUdmczU5NlBuRHNBRGt6NUFyMVpxRkRDcmJXUGltSmNfTVVUOS1hRmxOQmdxQmpLTEpqOEZmN2ROZHBqbjNuU0IzREMzdGVudEh5NlRBM2o?oc=5
+Decoded successfully to: https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE5tTU5LdWdGMlBDRlo1b3JwSkNCQWlKcUNOTnU5bnphZzI3R0l1OTBNLTZZaDM1UTV5cGlqZU5VZG81WmRBUEZxLWwyRExUZnlnNXNXbGhqV1BvUV9RNnh2M01UaTZuSHFteE5BdldoRFFJRWI4aFZMT2ptc1I?oc=5
+Decoded successfully to: https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxNLWF3ak5RQkQ3MFpMSmlOQ25hOFlmcFdyVnE2M3JKTWFqMnJNN2F1clM0SUh6T2tNdHJGT194eGl0V2Flazc3MXFrVm45ejZBYW56ZndCTF80WDJhNWRfNnBhYmZwMUhLMDlTbmgzLXVBY2ZLdXhHRDBLVk5kbG85UFFpXzRNREZYa2NUazNqeFpubEh6b3RITg?oc=5
+Decoded successfully to: https://www.wired.com/story/flocks-plans-for-rideshare-dashcams-and-coaching-police-revealed/
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: A zero-day exploit in Metabase's business intelligence software allows unauthenticated attackers to inject arbitrary SQL, gaining admin access. As documented by The Hacker News (https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html), how can developers effectively block the '/api/session/reset_password' endpoint to mitigate this vulnerability?
+  - Image Prompt: A stylized, futuristic illustration of a database server with glowing blue circuits and wires, surrounded by shattered glass shards representing the broken security, set against a dark grey background with subtle, ominous shadows
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20futuristic%20illustration%20of%20a%20database%20server%20with%20glowing%20blue%20circuits%20and%20wires%2C%20surrounded%20by%20shattered%20glass%20shards%20representing%20the%20broken%20security%2C%20set%20against%20a%20dark%20grey%20background%20with%20subtle%2C%20ominous%20shadows?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1786250035/threads_bot/yldbrhz9oezjtdwkmtdz.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18110103772933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18126629749680274
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18126629749680274
+Timestamp: 2026-08-09T04:34:06.226158+00:00 UTC
+============================================================

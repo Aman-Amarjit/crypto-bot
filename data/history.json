@@ -1414,5 +1414,15 @@
     "post_id": "18110020988044940",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-09T04:34:06.224667+00:00",
+    "topic": "AI surveillance",
+    "caption": "A zero-day exploit in Metabase's business intelligence software allows unauthenticated attackers to inject arbitrary SQL, gaining admin access. As documented by The Hacker News (https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html), how can developers effectively block the '/api/session/reset_password' endpoint to mitigate this vulnerability?",
+    "image_prompt": "A stylized, futuristic illustration of a database server with glowing blue circuits and wires, surrounded by shattered glass shards representing the broken security, set against a dark grey background with subtle, ominous shadows",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786250035/threads_bot/yldbrhz9oezjtdwkmtdz.jpg",
+    "post_id": "18126629749680274",
+    "source_url": "",
+    "source_title": ""
   }
 ]
