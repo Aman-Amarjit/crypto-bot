@@ -1434,5 +1434,15 @@
     "post_id": "17877123948622689",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-10T04:51:12.101710+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "The notorious Log4Shell vulnerability, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/log4shell-vulnerability-lets-hackers-take-control-of-affected-systems/), exposed millions of systems to remote code execution attacks. This critical flaw in the Apache Log4j library was particularly concerning due to its widespread use in various applications and services. How can your team effectively prioritize patching for such vulnerabilities in complex, layered software stacks?",
+    "image_prompt": "A stylized, abstract illustration of a vulnerable log file, with a subtle, glowing red thread weaving through its digital pages, symbolizing the Log4Shell exploit, set against a muted, dark grey background with faint, grid-like patterns evoking a sense of code and digital infrastructure.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786337462/threads_bot/liode0ogch1jwgw53zuf.jpg",
+    "post_id": "18185177371402664",
+    "source_url": "",
+    "source_title": ""
   }
 ]
