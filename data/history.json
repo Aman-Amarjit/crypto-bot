@@ -1444,5 +1444,15 @@
     "post_id": "18185177371402664",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-10T16:08:08.056182+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "India's startup ecosystem has faced numerous data breaches, with the 2019 Citrix NetScaler vulnerability being particularly notable. As documented by BleepingComputer (https://www.bleepingcomputer.com), attackers exploited CVE-2019-19781 to gain unauthorized access. How can Indian startups better secure their NetScaler gateways against similar exploits?",
+    "image_prompt": "A stylized, futuristic illustration of a breached network gateway, with glowing red alerts and fragmented code shards radiating from a central, shattered lock icon, set against a dark, gradient blue background that evokes a sense of urgency and vulnerability.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786378076/threads_bot/nw7l7ilsnubzg1hmzjgc.jpg",
+    "post_id": "18103276208149757",
+    "source_url": "",
+    "source_title": ""
   }
 ]
