@@ -308,5 +308,10 @@
     "timestamp": "2026-08-09T13:12:44.660801+00:00",
     "question": "What strategies are you employing to mitigate the impact of transitive dependencies on the security posture of your containerized applications?",
     "post_id": "17941838763272420"
+  },
+  {
+    "timestamp": "2026-08-10T13:40:48.828401+00:00",
+    "question": "What strategies are you employing to prevent credential leakage in your CI/CD pipelines and containerized applications?",
+    "post_id": "18111214226057878"
   }
 ]
