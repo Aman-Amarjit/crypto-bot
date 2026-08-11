@@ -1464,5 +1464,15 @@
     "post_id": "17893447173665298",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-11T16:09:07.238248+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "India's RBI and SEBI have long emphasized the importance of robust cybersecurity measures, particularly after the 2016 Bangladesh Bank heist, which highlighted the vulnerability of SWIFT transactions. As documented by The Hindu (https://www.thehindu.com), the incident led to a major overhaul of security protocols in Indian banking. How can financial institutions effectively implement multi-factor authentication to prevent similar attacks?",
+    "image_prompt": "A stylized illustration of a secure transaction network, with a subtle Indian flag pattern in the background, featuring a large, glowing lock icon at the center, surrounded by smaller, interconnected nodes representing various financial institutions, all set against a warm, golden-brown color scheme with accents of deep blue, symbolizing trust and security.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786464536/threads_bot/vxuirmk8ycimulkznpu8.jpg",
+    "post_id": "17900667993516289",
+    "source_url": "",
+    "source_title": ""
   }
 ]
