@@ -1484,5 +1484,15 @@
     "post_id": "18110231098815835",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-12T16:07:42.428098+00:00",
+    "topic": "government cyber regulations",
+    "caption": "As I delve into the latest cybersecurity updates, I'm intrigued by Signal's proactive approach to security, particularly their new feature to counter man-in-the-middle attacks, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/). This move highlights the importance of end-to-end encryption. How will this impact our understanding of secure communication protocols?",
+    "image_prompt": "A stylized, futuristic illustration of a messaging app on a smartphone, with a subtle, glowing shield surrounding the screen, and a faint, ghostly figure of a potential attacker lurking in the background, thwarted by a series of interconnected, pulsing nodes representing the new security feature.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786550852/threads_bot/b1tmknlgnxf6wcapqtqa.jpg",
+    "post_id": "18277395160288058",
+    "source_url": "",
+    "source_title": ""
   }
 ]
