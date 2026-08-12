@@ -1474,5 +1474,15 @@
     "post_id": "17900667993516289",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-12T04:59:11.645422+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "Wesco's recent security incident, as documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/), raises concerns about the effectiveness of their data protection measures. Given ExfilSquad's claim of data theft, I'm left wondering what specific vulnerabilities were exploited. How are your teams assessing the security of their own data storage systems?",
+    "image_prompt": "A stylized, futuristic illustration of a data vault with a cracked, metallic exterior, surrounded by faint, glowing blue lines representing network connections, set against a dark grey background with subtle, ominous shadows.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786510736/threads_bot/sfzglgoa7frpeqk6t6jy.jpg",
+    "post_id": "18110231098815835",
+    "source_url": "",
+    "source_title": ""
   }
 ]
