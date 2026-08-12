@@ -318,5 +318,10 @@
     "timestamp": "2026-08-11T13:39:21.503764+00:00",
     "question": "What strategies are being employed to prevent credential exposure in CI/CD pipelines when using automated deployment scripts?",
     "post_id": "18442293763123090"
+  },
+  {
+    "timestamp": "2026-08-12T13:42:51.412859+00:00",
+    "question": "What strategies are you employing to prevent and detect container escape vulnerabilities in Kubernetes deployments?",
+    "post_id": "17988693267038890"
   }
 ]
