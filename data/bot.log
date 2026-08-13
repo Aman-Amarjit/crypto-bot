@@ -18685,3 +18685,53 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-08-13T14:42:24.527368+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-08-13T16:07:28.020439+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirgFBVV95cUxQNUdmX0VndWxTeXVBRUNnY3pqNHIza24xc1JNYUlSVkNFTzdsTnJIdDgxMEVCQVgwVXhYeDJDbG5JVkxPV0V2RVJDbUljZFV3TVhKUjNncmdxRVczOGhQTjY5UEhnbHlRTXlLTFZKeHhBSFFoN2FmSDdENlpFLWhDU0pfYzFMTlU0QTcwVnBCeWpiRHY3T05rU2VpU1kwQ3JBZXQ2dnFOczdYNVRQSFE?oc=5
+Decoded successfully to: https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipwFBVV95cUxOc0M3ZjVQS0JvWFpJOVdDeFRaMWtlQkhmMG5QTndpc3dBcVJZc1BDRnFwTThlUkU4Yk1FWW5yX1YyQ2s4NEhpZEVVWHYyRlZRbXpaM2F4azlYd2dsTUFrb1o2WGFDUDdDLTQtOTFZVmE0X29pM0dyQnlyNl9RRm40eG5Qa2huX1hrdF9yeXhPTXgyVEJERWh3V3RBM2prVzJTTnE4cW81VQ?oc=5
+Decoded successfully to: https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMingFBVV95cUxPUFVwVGdZMFJPNVl1dWNfYVdLQVJxYklxV05EZVNOYXpGaU1MZ2lwcThHUEVfbG1FdWx5TGpYOC1KWUJfV25rWHI0RFo4TnJqQWRsY3QxME1maElFVXV6VFlvR0JUUXBMWElSQ0VEb3E1NFVlYlNPZTcydGE1d1pOcDRPU1ZmdjZBdnNhTTlSQk1OY2EzTDJ4OTBERHhNZw?oc=5
+Decoded successfully to: https://www.theverge.com/gadgets/975970/google-pixel-11-series-where-to-buy-preorder-release-date
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxQZUFPelJpQU1fN1BtcWlxZDZ5N2ZLMmppMndrbm80akt5Wm1ha2E5ZHhvUEVHU09iTnF2c24zQnFTRTgzV0Q4MnBnWmN1V2R0UmFndXZtWURHYV9OcUhsbTRjWmp4el81YVliZUJLQlRGbFJPQVpfd0hsS1BuaUpJU2IxaFgxajlXbXdCUFNKaW1rV1B4Sng5Y3hnY2JHY0d0dmlCUzRDU05CZk9BdGd2Mkp3?oc=5
+Decoded successfully to: https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipAFBVV95cUxPNjNlVTU4eEx4TVh0aE9Dd3VDOEx1bTlfVGE1Q2dQM0Rob0VZNWVuQlVsdFdINzFGTXU1SHc0eFF5aTZ5UXVLSHE0SlRVVHVBQ3BPSEwwZ1A2aTZfZHZkM3MySGdjeGR6MkFkZWRtcjRWa1Y3c0o5aUdGS2s3V094T1NCTUhhNjRHNkNLcThtNk5OaUJuNWRFd0pVbWlHb29teVRkeQ?oc=5
+Decoded successfully to: https://www.theverge.com/games/977955/fire-emblem-fortunes-weave-preview-impressions-nintendo-switch-2
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: A sophisticated threat actor has been exploiting overly permissive guest access on Salesforce and ServiceNow instances since March 2025, as documented by Dark Reading (https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow). The 'City-Forum' campaign uses custom tooling to interact with Salesforce's Lightning Web Runtime and ServiceNow's Service Portal search endpoint, allowing the attacker to retrieve sensitive data. How are you protecting your organization's guest-accessible surfaces from similar data theft campaigns?
+  - Image Prompt: A stylized, abstract illustration of a cityscape at dusk with glowing, interconnected nodes representing the dark web, set against a deep blue and purple gradient background with subtle, shimmering accents to evoke a sense of advanced, covert cyber threats
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20stylized%2C%20abstract%20illustration%20of%20a%20cityscape%20at%20dusk%20with%20glowing%2C%20interconnected%20nodes%20representing%20the%20dark%20web%2C%20set%20against%20a%20deep%20blue%20and%20purple%20gradient%20background%20with%20subtle%2C%20shimmering%20accents%20to%20evoke%20a%20sense%20of%20advanced%2C%20covert%20cyber%20threats?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1786637252/threads_bot/winlssw6dvvbw3wfpjb9.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (580) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18110824489933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17883436392475554
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17883436392475554
+Timestamp: 2026-08-13T16:07:46.360041+00:00 UTC
+============================================================

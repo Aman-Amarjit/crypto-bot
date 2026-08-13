@@ -1504,5 +1504,15 @@
     "post_id": "17899776498554817",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-13T16:07:46.358414+00:00",
+    "topic": "dark web leaks",
+    "caption": "A sophisticated threat actor has been exploiting overly permissive guest access on Salesforce and ServiceNow instances since March 2025, as documented by Dark Reading (https://www.darkreading.com/cyberattacks-data-breaches/long-running-data-theft-campaign-salesforce-servicenow). The 'City-Forum' campaign uses custom tooling to interact with Salesforce's Lightning Web Runtime and ServiceNow's Service Portal search endpoint, allowing the attacker to retrieve sensitive data. How are you protecting your organization's guest-accessible surfaces from similar data theft campaigns?",
+    "image_prompt": "A stylized, abstract illustration of a cityscape at dusk with glowing, interconnected nodes representing the dark web, set against a deep blue and purple gradient background with subtle, shimmering accents to evoke a sense of advanced, covert cyber threats",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786637252/threads_bot/winlssw6dvvbw3wfpjb9.jpg",
+    "post_id": "17883436392475554",
+    "source_url": "",
+    "source_title": ""
   }
 ]
