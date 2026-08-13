@@ -1494,5 +1494,15 @@
     "post_id": "18277395160288058",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-13T05:01:35.238825+00:00",
+    "topic": "hacking incidents",
+    "caption": "AI newsrooms like RuntimeWire are breaking major stories, including a recent hacking incident disclosed by OpenAI at the Black Hat security conference, as documented by Wired (https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/). With the ability to publish articles in under six minutes, how will traditional newsrooms adapt to the speed of AI-generated content?",
+    "image_prompt": "A futuristic, minimalist illustration of a newsroom with a cityscape backdrop, where AI-powered robots and algorithms are working together to generate news stories, with a large screen displaying a breaking news headline in the foreground, and a subtle glow of blue and purple hues to represent the fusion of technology and journalism.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786597283/threads_bot/ki63lncpvue3qjsubru1.jpg",
+    "post_id": "17899776498554817",
+    "source_url": "",
+    "source_title": ""
   }
 ]
