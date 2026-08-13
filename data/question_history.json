@@ -323,5 +323,10 @@
     "timestamp": "2026-08-12T13:42:51.412859+00:00",
     "question": "What strategies are you employing to prevent and detect container escape vulnerabilities in Kubernetes deployments?",
     "post_id": "17988693267038890"
+  },
+  {
+    "timestamp": "2026-08-13T13:43:27.019052+00:00",
+    "question": "What strategies are you employing to detect and prevent credentials exposure in your CI/CD pipeline environments?",
+    "post_id": "18089865629453022"
   }
 ]
