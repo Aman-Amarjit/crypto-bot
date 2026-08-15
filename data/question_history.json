@@ -333,5 +333,10 @@
     "timestamp": "2026-08-14T13:38:32.716686+00:00",
     "question": "What strategies are you employing to prevent privilege escalation attacks in containerized environments with shared kernel vulnerabilities?",
     "post_id": "17922599034409132"
+  },
+  {
+    "timestamp": "2026-08-15T12:56:49.062185+00:00",
+    "question": "What strategies are you employing to prevent SSRF vulnerabilities in microservices architectures that utilize service discovery mechanisms?",
+    "post_id": "18389172529200379"
   }
 ]
