@@ -1544,5 +1544,15 @@
     "post_id": "18058738298608315",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-15T15:33:09.740134+00:00",
+    "topic": "AI surveillance",
+    "caption": "As documented by BleepingComputer (https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/), Anthropic is working on watermarking Claude's AI-generated text, which could help identify AI-created content. This approach may have implications for tracking AI-generated text online. How might this watermarking technique be used to verify the authenticity of digital content?",
+    "image_prompt": "A stylized, futuristic illustration of a digital watermark being embedded into a stream of binary code, with a subtle background gradient that shifts from a deep blue to a pale blue, representing the intersection of artificial intelligence and digital authentication.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786807979/threads_bot/ujelikaos8hffie7pgli.jpg",
+    "post_id": "17948527641258806",
+    "source_url": "",
+    "source_title": ""
   }
 ]
