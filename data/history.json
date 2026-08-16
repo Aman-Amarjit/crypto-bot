@@ -1564,5 +1564,15 @@
     "post_id": "18099883757196262",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-16T15:34:07.085746+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "As I delve into the realm of CERT-In advisories, I'm reminded of the notorious Log4Shell vulnerability, which exposed countless systems to remote code execution. According to BleepingComputer (https://www.bleepingcomputer.com), this weakness in Apache Log4j logging library led to widespread exploitation. How can we effectively mitigate such vulnerabilities in our systems?",
+    "image_prompt": "A stylized, abstract illustration of a digital landscape with a prominent, glowing log file at its center, surrounded by fragments of code and warning signs, set against a dark, gradient background that evokes a sense of urgency and vulnerability.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786894434/threads_bot/inospcuyl4ezmleivuwx.jpg",
+    "post_id": "17976526956065402",
+    "source_url": "",
+    "source_title": ""
   }
 ]
