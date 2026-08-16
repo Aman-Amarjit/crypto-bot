@@ -338,5 +338,10 @@
     "timestamp": "2026-08-15T12:56:49.062185+00:00",
     "question": "What strategies are you employing to prevent SSRF vulnerabilities in microservices architectures that utilize service discovery mechanisms?",
     "post_id": "18389172529200379"
+  },
+  {
+    "timestamp": "2026-08-16T12:58:36.252096+00:00",
+    "question": "What strategies are you employing to prevent namespace shadowing vulnerabilities in your containerized microservices deployments?",
+    "post_id": "18089082860158572"
   }
 ]
