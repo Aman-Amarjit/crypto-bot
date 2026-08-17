@@ -1574,5 +1574,15 @@
     "post_id": "17976526956065402",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-08-17T03:59:25.919075+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "As documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/), Threema's secure messaging service fell victim to large-scale DDoS attacks. This raises concerns about the resilience of secure communication platforms against such threats. How can developers effectively mitigate DDoS attacks on real-time messaging services?",
+    "image_prompt": "A stylized illustration of a messaging app interface with a distorted, glitching effect, surrounded by a subtle, ominous network topology in the background, conveying the disruption of a secure communication service",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1786939154/threads_bot/x4klk1xqenc8fivmopct.jpg",
+    "post_id": "18155085142496616",
+    "source_url": "",
+    "source_title": ""
   }
 ]
