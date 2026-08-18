@@ -20261,3 +20261,27 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-08-18T12:03:23.359780+00:00 UTC
 ============================================================
+============================================================
+Threads Daily Question Bot Execution Started: 2026-08-18T13:05:19.736162+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Generating daily question via Groq...
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Daily Question Bot Failed with Error:
+404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/question.py", line 156, in main
+    run_question(force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/question.py", line 118, in run_question
+    question = generator.generate_question()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/question_generator.py", line 59, in generate_question
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/question_generator.py", line 47, in generate_question
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
