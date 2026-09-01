@@ -23655,3 +23655,27 @@ Error in Auto-Reply loop: 400 Client Error: Bad Request for url: https://graph.t
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-01T14:28:57.608411+00:00 UTC
 ============================================================
+============================================================
+Threads Daily Question Bot Execution Started: 2026-09-01T16:36:06.961990+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Generating daily question via Groq...
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Daily Question Bot Failed with Error:
+404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/question.py", line 156, in main
+    run_question(force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/question.py", line 118, in run_question
+    question = generator.generate_question()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/question_generator.py", line 59, in generate_question
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/question_generator.py", line 47, in generate_question
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
