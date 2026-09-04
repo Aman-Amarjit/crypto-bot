@@ -24358,3 +24358,46 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-04T17:06:43.285124+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'RBI SEBI tech security regulations'
+Requesting content generation for topic: 'RBI SEBI tech security regulations'...
+Fetching latest news headlines from Google News for query: 'RBI SEBI tech security regulations (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Successfully retrieved 0 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1198. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: India's RBI and SEBI frameworks now mandate strict isolation for payment gateways, a direct response to historical failures like the 2016 State Bank of India phishing breach. That incident exposed how weak session management and lack of multi-factor authentication allowed attackers to siphon millions via compromised customer credentials, highlighting the fragility of legacy banking interfaces. As detailed in recent regulatory updates (https://www.rbi.org.in), are your internal systems truly decoupled from external web traffic to prevent similar lateral movement?
+  - Image Prompt: A minimalist flat-vector illustration depicting a digital fortress with layered, translucent hexagonal shields surrounding a central server node. The background features a subtle grid of financial data streams in muted teal and slate grey, with a single warm amber alert light pulsing on the outermost layer. The composition is clean, modern, and abstract, focusing on structural integrity and layered defense without using any text, logos, or generic hacker imagery.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20digital%20fortress%20with%20layered%2C%20translucent%20hexagonal%20shields%20surrounding%20a%20central%20server%20node.%20The%20background%20features%20a%20subtle%20grid%20of%20financial%20data%20streams%20in%20muted%20teal%20and%20slate%20grey%2C%20with%20a%20single%20warm%20amber%20alert%20light%20pulsing%20on%20the%20outermost%20layer.%20The%20composition%20is%20clean%2C%20modern%2C%20and%20abstract%2C%20focusing%20on%20structural%20integrity%20and%20layered%20defense%20without%20using%20any%20text%2C%20logos%2C%20or%20generic%20hacker%20imagery.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1788541610/threads_bot/vgsinlcigsorah27xld2.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (568) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18114172579933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18370281307209172
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18370281307209172
+Timestamp: 2026-09-04T17:07:03.450916+00:00 UTC
+============================================================

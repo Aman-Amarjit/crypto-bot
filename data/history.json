@@ -1594,5 +1594,15 @@
     "post_id": "17903008479486138",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-04T17:07:03.449232+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "India's RBI and SEBI frameworks now mandate strict isolation for payment gateways, a direct response to historical failures like the 2016 State Bank of India phishing breach. That incident exposed how weak session management and lack of multi-factor authentication allowed attackers to siphon millions via compromised customer credentials, highlighting the fragility of legacy banking interfaces. As detailed in recent regulatory updates (https://www.rbi.org.in), are your internal systems truly decoupled from external web traffic to prevent similar lateral movement?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a digital fortress with layered, translucent hexagonal shields surrounding a central server node. The background features a subtle grid of financial data streams in muted teal and slate grey, with a single warm amber alert light pulsing on the outermost layer. The composition is clean, modern, and abstract, focusing on structural integrity and layered defense without using any text, logos, or generic hacker imagery.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1788541610/threads_bot/vgsinlcigsorah27xld2.jpg",
+    "post_id": "18370281307209172",
+    "source_url": "",
+    "source_title": ""
   }
 ]
