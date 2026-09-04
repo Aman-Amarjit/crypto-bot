@@ -24116,3 +24116,55 @@ Error in Auto-Reply loop: 400 Client Error: Bad Request for url: https://graph.t
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-04T08:13:23.174525+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-04T10:37:22.194673+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxNSGJnTnFZalIxVWNYVk5GX2Z0WjZwSnkwdjZpdk9FQkRMZzVlNUdSbWFhMEUwMnlfZ0lmTzVuS1o1cHJOMUhDNGI4Zl9Jb3lZODlZTnZiXzFBUlZPdDJUb1R3dnZibTZxTHkzTXpla1hHTUZCaGExMVEzMURxS0N0bW05SW0?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
+Successfully retrieved 1 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kzzsectweq2vzb22njqs316j` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1028. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Microsoft Teams external collaboration is being weaponized for interactive remote sessions, where attackers stage a portable Node.js runtime to execute obfuscated JavaScript implants. As detailed by The Hacker News (https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html), this allows persistent C2 and pivoting via WinRM toward domain controllers. Are your RMM tools properly restricted from external collaboration channels?
+  - Image Prompt: A minimalist flat-vector illustration depicting a digital handshake between two abstract geometric figures, where one figure's hand is subtly composed of fragmented code blocks and the other is solid and smooth. The background features a soft gradient of deep indigo and muted slate, with faint, non-intrusive network nodes connecting the two entities. The style is clean, modern editorial art with sharp lines and no text, focusing on the concept of trusted access being compromised by hidden digital layers.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20digital%20handshake%20between%20two%20abstract%20geometric%20figures%2C%20where%20one%20figure%27s%20hand%20is%20subtly%20composed%20of%20fragmented%20code%20blocks%20and%20the%20other%20is%20solid%20and%20smooth.%20The%20background%20features%20a%20soft%20gradient%20of%20deep%20indigo%20and%20muted%20slate%2C%20with%20faint%2C%20non-intrusive%20network%20nodes%20connecting%20the%20two%20entities.%20The%20style%20is%20clean%2C%20modern%20editorial%20art%20with%20sharp%20lines%20and%20no%20text%2C%20focusing%20on%20the%20concept%20of%20trusted%20access%20being%20compromised%20by%20hidden%20digital%20layers.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1788518249/threads_bot/as1aiqmemyrajzxx4yqb.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Threads API Error Details during container creation: {"error":{"message":"Error validating access token: Session has expired on Saturday, 29-Aug-26 21:53:22 PDT. The current time is Friday, 04-Sep-26 03:37:30 PDT.","type":"OAuthException","code":190,"error_subcode":0,"fbtrace_id":"AyPMKbAMNWKMwe-RezRRQsd"}}
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYllaZAzRWc01SdVhYTm1RTzk5Um9rVFZAjWEVEZAjl0QTlkU0xJLU5ZANTZASZAnl2VFVFdEhSbmtJa3MyQVBqNEZAsaWlSR2JnVnRLUWVoMzdnYjlrbWhodnZA1bHcySlVud3hnTU50WlZAwOUlDMmtHcjlXTkc2ci15dkpKZAwZDZD
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 179, in run_post
+    post_id = threads.publish_post(public_url, caption)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/threads_client.py", line 82, in publish_post
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/threads_client.py", line 79, in publish_post
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYllaZAzRWc01SdVhYTm1RTzk5Um9rVFZAjWEVEZAjl0QTlkU0xJLU5ZANTZASZAnl2VFVFdEhSbmtJa3MyQVBqNEZAsaWlSR2JnVnRLUWVoMzdnYjlrbWhodnZA1bHcySlVud3hnTU50WlZAwOUlDMmtHcjlXTkc2ci15dkpKZAwZDZD
