@@ -1584,5 +1584,15 @@
     "post_id": "18155085142496616",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-04T11:01:14.249763+00:00",
+    "topic": "Digital India cybersecurity",
+    "caption": "The most unsettling detail in this week's threat landscape isn't the ransomware, but how Microsoft Teams is being weaponized for interactive remote sessions. Attackers are socially engineering users into installing RMM tools that deploy a portable Node.js runtime and obfuscated JavaScript implants for persistent C2, as documented by The Hacker News (https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html). If your MFA relies on simple 'Allow' prompts, are you truly protected against a human-operated intrusion that pivots via WinRM?",
+    "image_prompt": "A minimalist, flat-vector editorial illustration depicting a digital handshake between two abstract geometric figures. One figure is a sleek, metallic blue cube, while the other is a fragmented, glitching red polygon. Between them, a thin, translucent wire connects their centers, pulsing with a subtle amber light to signify a compromised trust channel. The background is a clean, off-white canvas with faint, isometric grid lines suggesting a corporate network topology. The style is modern and corporate, avoiding dark cyber aesthetics, focusing instead on the subtle tension of a legitimate connection being exploited. No text, no logos, no glowing shields.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1788519661/threads_bot/p5kgybh9kuboiwpohi52.jpg",
+    "post_id": "17903008479486138",
+    "source_url": "",
+    "source_title": ""
   }
 ]

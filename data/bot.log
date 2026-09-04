@@ -24217,3 +24217,46 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYmI3eFBXM1N0TzdnV2hpTldjMG5GUlMzUHJzRVJFUTVkeHBpb3p4UHE5WDNEZAUszamxWbm8xN25UTnZAwR1NOdFFSa2RqUk1vN3dreS1Kdmd3MERjU0JwN3ZAFQ3RZAS1hvaklkOElmRGNkbGN0VGMySEFtb2VueTFXdlNESTdUWE9OQlFKck0ZD
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-04T11:00:57.227180+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxNSGJnTnFZalIxVWNYVk5GX2Z0WjZwSnkwdjZpdk9FQkRMZzVlNUdSbWFhMEUwMnlfZ0lmTzVuS1o1cHJOMUhDNGI4Zl9Jb3lZODlZTnZiXzFBUlZPdDJUb1R3dnZibTZxTHkzTXpla1hHTUZCaGExMVEzMURxS0N0bW05SW0?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
+Successfully retrieved 1 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The most unsettling detail in this week's threat landscape isn't the ransomware, but how Microsoft Teams is being weaponized for interactive remote sessions. Attackers are socially engineering users into installing RMM tools that deploy a portable Node.js runtime and obfuscated JavaScript implants for persistent C2, as documented by The Hacker News (https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html). If your MFA relies on simple 'Allow' prompts, are you truly protected against a human-operated intrusion that pivots via WinRM?
+  - Image Prompt: A minimalist, flat-vector editorial illustration depicting a digital handshake between two abstract geometric figures. One figure is a sleek, metallic blue cube, while the other is a fragmented, glitching red polygon. Between them, a thin, translucent wire connects their centers, pulsing with a subtle amber light to signify a compromised trust channel. The background is a clean, off-white canvas with faint, isometric grid lines suggesting a corporate network topology. The style is modern and corporate, avoiding dark cyber aesthetics, focusing instead on the subtle tension of a legitimate connection being exploited. No text, no logos, no glowing shields.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%2C%20flat-vector%20editorial%20illustration%20depicting%20a%20digital%20handshake%20between%20two%20abstract%20geometric%20figures.%20One%20figure%20is%20a%20sleek%2C%20metallic%20blue%20cube%2C%20while%20the%20other%20is%20a%20fragmented%2C%20glitching%20red%20polygon.%20Between%20them%2C%20a%20thin%2C%20translucent%20wire%20connects%20their%20centers%2C%20pulsing%20with%20a%20subtle%20amber%20light%20to%20signify%20a%20compromised%20trust%20channel.%20The%20background%20is%20a%20clean%2C%20off-white%20canvas%20with%20faint%2C%20isometric%20grid%20lines%20suggesting%20a%20corporate%20network%20topology.%20The%20style%20is%20modern%20and%20corporate%2C%20avoiding%20dark%20cyber%20aesthetics%2C%20focusing%20instead%20on%20the%20subtle%20tension%20of%20a%20legitimate%20connection%20being%20exploited.%20No%20text%2C%20no%20logos%2C%20no%20glowing%20shields.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1788519661/threads_bot/p5kgybh9kuboiwpohi52.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (560) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18114129391933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17903008479486138
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17903008479486138
+Timestamp: 2026-09-04T11:01:14.251404+00:00 UTC
+============================================================
