@@ -24168,3 +24168,52 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYllaZAzRWc01SdVhYTm1RTzk5Um9rVFZAjWEVEZAjl0QTlkU0xJLU5ZANTZASZAnl2VFVFdEhSbmtJa3MyQVBqNEZAsaWlSR2JnVnRLUWVoMzdnYjlrbWhodnZA1bHcySlVud3hnTU50WlZAwOUlDMmtHcjlXTkc2ci15dkpKZAwZDZD
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-04T10:57:10.601789+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxNSGJnTnFZalIxVWNYVk5GX2Z0WjZwSnkwdjZpdk9FQkRMZzVlNUdSbWFhMEUwMnlfZ0lmTzVuS1o1cHJOMUhDNGI4Zl9Jb3lZODlZTnZiXzFBUlZPdDJUb1R3dnZibTZxTHkzTXpla1hHTUZCaGExMVEzMURxS0N0bW05SW0?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
+Successfully retrieved 1 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Microsoft Teams external collaboration is being weaponized for interactive remote sessions, where attackers deploy a portable Node.js runtime to stage obfuscated JavaScript implants. As detailed by The Hacker News (https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html), this bypasses traditional perimeter defenses by leveraging trusted RMM tools. Are your MFA policies actually resilient against session hijacking via legitimate remote access channels?
+  - Image Prompt: A minimalist flat-vector illustration of a digital handshake where one hand is a sleek, modern office interface and the other is a fragmented, glitching code structure. The background features soft, cool blue gradients with subtle geometric shapes representing network nodes. The style is clean, corporate, and abstract, avoiding any literal depictions of hackers or servers. Focus on the tension between trust and intrusion through visual contrast in line weight and color saturation.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20of%20a%20digital%20handshake%20where%20one%20hand%20is%20a%20sleek%2C%20modern%20office%20interface%20and%20the%20other%20is%20a%20fragmented%2C%20glitching%20code%20structure.%20The%20background%20features%20soft%2C%20cool%20blue%20gradients%20with%20subtle%20geometric%20shapes%20representing%20network%20nodes.%20The%20style%20is%20clean%2C%20corporate%2C%20and%20abstract%2C%20avoiding%20any%20literal%20depictions%20of%20hackers%20or%20servers.%20Focus%20on%20the%20tension%20between%20trust%20and%20intrusion%20through%20visual%20contrast%20in%20line%20weight%20and%20color%20saturation.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1788519435/threads_bot/oplrf8mjyt9yiufqztsx.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Threads API Error Details during container creation: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/res.cloudinary.com\/dz6ocnble\/image\/upload\/v1788519435\/threads_bot\/oplrf8mjyt9yiufqztsx.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AN1DhLKyE-9-Ul85_dlQ3I4"}}
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYmI3eFBXM1N0TzdnV2hpTldjMG5GUlMzUHJzRVJFUTVkeHBpb3p4UHE5WDNEZAUszamxWbm8xN25UTnZAwR1NOdFFSa2RqUk1vN3dreS1Kdmd3MERjU0JwN3ZAFQ3RZAS1hvaklkOElmRGNkbGN0VGMySEFtb2VueTFXdlNESTdUWE9OQlFKck0ZD
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 179, in run_post
+    post_id = threads.publish_post(public_url, caption)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/threads_client.py", line 82, in publish_post
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/threads_client.py", line 79, in publish_post
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYmI3eFBXM1N0TzdnV2hpTldjMG5GUlMzUHJzRVJFUTVkeHBpb3p4UHE5WDNEZAUszamxWbm8xN25UTnZAwR1NOdFFSa2RqUk1vN3dreS1Kdmd3MERjU0JwN3ZAFQ3RZAS1hvaklkOElmRGNkbGN0VGMySEFtb2VueTFXdlNESTdUWE9OQlFKck0ZD
