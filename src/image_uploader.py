@@ -28,7 +28,9 @@ class ImageUploader:
             upload_result = cloudinary.uploader.upload(
                 file_obj,
                 resource_type="image",
-                folder="threads_bot"
+                folder="threads_bot",
+                format="jpg",
+                transformation=[{"quality": "auto:good"}]
             )
             
             secure_url = upload_result.get("secure_url")
