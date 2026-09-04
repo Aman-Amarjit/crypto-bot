@@ -1,4 +1,5 @@
 import json
+import time
 import requests
 from datetime import datetime, timezone
 from src.config import config
@@ -9,7 +10,7 @@ from src.fact_checker import FactChecker
 class GroqClient:
     def __init__(self):
         self.api_url = "https://api.groq.com/openai/v1/chat/completions"
-        self.model = "llama-3.3-70b-versatile"
+        self.model = "qwen/qwen3.8-27b"
         self.max_retries = 3
         self.fact_checker = FactChecker()
 
@@ -155,14 +156,22 @@ class GroqClient:
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": augmented_user_prompt},
                 ],
-                "response_format": {"type": "json_object"},
                 "temperature": 0.3,
             }
 
-            response = requests.post(
-                self.api_url, json=payload, headers=headers, timeout=30
-            )
-            response.raise_for_status()
+            try:
+                response = requests.post(
+                    self.api_url, json=payload, headers=headers, timeout=30
+                )
+                if response.status_code >= 400:
+                    print(f"Groq API Error ({response.status_code}): {response.text}")
+                response.raise_for_status()
+            except requests.exceptions.HTTPError as e:
+                if response.status_code in (429, 500, 502, 503, 504) and attempt < self.max_retries:
+                    print(f"⚠️ Groq API status {response.status_code}. Retrying in 3s...")
+                    time.sleep(3)
+                    continue
+                raise e
 
             response_data = response.json()
             raw_text = response_data["choices"][0]["message"]["content"]

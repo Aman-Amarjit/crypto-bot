@@ -89,7 +89,7 @@ THOUGHT_STYLES = {
 class ThoughtGenerator:
     def __init__(self):
         self.api_url = "https://api.groq.com/openai/v1/chat/completions"
-        self.model = "llama-3.3-70b-versatile"
+        self.model = "qwen/qwen3.8-27b"
         self.max_retries = 3
 
     # ------------------------------------------------------------------ #
@@ -167,7 +167,6 @@ class ThoughtGenerator:
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt},
                 ],
-                "response_format": {"type": "json_object"},
                 # 0.55: enough variety to avoid repetitive phrasing over weeks,
                 # while still producing structured, factual output.
                 "temperature": 0.55,

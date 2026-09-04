@@ -24,7 +24,7 @@ class FactChecker:
 
     def __init__(self):
         self.api_url = "https://api.groq.com/openai/v1/chat/completions"
-        self.model = "llama-3.3-70b-versatile"
+        self.model = "qwen/qwen3.8-27b"
 
     def check(self, caption: str, headlines: list, article_text: str = "") -> dict:
         """
@@ -143,7 +143,6 @@ class FactChecker:
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ],
-            "response_format": {"type": "json_object"},
             # Low temperature: we want deterministic, conservative judgements
             "temperature": 0.1,
         }
