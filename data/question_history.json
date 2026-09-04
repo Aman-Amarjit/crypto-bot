@@ -343,5 +343,10 @@
     "timestamp": "2026-08-16T12:58:36.252096+00:00",
     "question": "What strategies are you employing to prevent namespace shadowing vulnerabilities in your containerized microservices deployments?",
     "post_id": "18089082860158572"
+  },
+  {
+    "timestamp": "2026-09-04T16:18:46.755296+00:00",
+    "question": "When integrating OIDC with cloud-native workloads, how do you handle the trade-offs between short-lived JWTs and mTLS for zero-trust service-to-service authentication, specifically regarding the operational overhead of certificate rotation versus the risk of token replay in high-throughput microservices?",
+    "post_id": "18094526291361907"
   }
 ]
