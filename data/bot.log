@@ -24071,3 +24071,32 @@ Error in Auto-Reply loop: 400 Client Error: Bad Request for url: https://graph.t
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-03T18:52:56.097717+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-04T07:55:37.680835+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxNSGJnTnFZalIxVWNYVk5GX2Z0WjZwSnkwdjZpdk9FQkRMZzVlNUdSbWFhMEUwMnlfZ0lmTzVuS1o1cHJOMUhDNGI4Zl9Jb3lZODlZTnZiXzFBUlZPdDJUb1R3dnZibTZxTHkzTXpla1hHTUZCaGExMVEzMURxS0N0bW05SW0?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
+Successfully retrieved 1 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 165, in generate_content
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.groq.com/openai/v1/chat/completions
