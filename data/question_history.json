@@ -348,5 +348,10 @@
     "timestamp": "2026-09-04T16:18:46.755296+00:00",
     "question": "When integrating OIDC with cloud-native workloads, how do you handle the trade-offs between short-lived JWTs and mTLS for zero-trust service-to-service authentication, specifically regarding the operational overhead of certificate rotation versus the risk of token replay in high-throughput microservices?",
     "post_id": "18094526291361907"
+  },
+  {
+    "timestamp": "2026-09-05T15:10:09.380858+00:00",
+    "question": "When implementing mTLS for service-to-service communication in a Kubernetes cluster, what specific mechanisms are you using to automate the rotation of short-lived certificates without introducing downtime or blocking traffic during the grace period?",
+    "post_id": "18621850516039953"
   }
 ]
