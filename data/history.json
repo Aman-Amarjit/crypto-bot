@@ -1604,5 +1604,15 @@
     "post_id": "18370281307209172",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-05T07:37:16.321418+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "A lawsuit alleging a breach affecting 153 million drivers has landed on IDScan, raising serious questions about how biometric identity data is stored and protected at scale. As reported by BleepingComputer (https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/), the sheer volume of exposed records suggests a systemic failure in data segmentation or encryption practices. How are you currently auditing the retention policies for sensitive PII in your infrastructure?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a massive, translucent digital ledger floating in a sterile, light-grey void. The ledger is composed of thousands of tiny, uniform rectangular blocks, some highlighted in a soft, urgent amber color to signify exposure, while others remain a calm slate blue. The composition is clean and architectural, focusing on the scale of data storage rather than human elements. No text, no logos, no glowing effects, just a sophisticated, modern editorial graphic emphasizing data volume and structural integrity.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1788593823/threads_bot/ar3qi9w1fct65e2fdggc.jpg",
+    "post_id": "18051758954587416",
+    "source_url": "",
+    "source_title": ""
   }
 ]
