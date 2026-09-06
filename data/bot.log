@@ -24689,3 +24689,50 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-05T19:35:36.363982+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-06T07:51:30.168299+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'hacking incidents'
+Requesting content generation for topic: 'hacking incidents'...
+Fetching latest news headlines from Google News for query: 'hacking incidents (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMikwFBVV95cUxOVnFfaE5rZ1Bnc2V0b3lyaGZaRjRkRURVSFZsOE9tMk9iQXN0M3hlU1JrNkVQd2Fld1NXbjh4eXUzSnpaR0FRZHMzUU9hWEV1Um1YelE4V2dhUHJqNFVDOHpnRHZfRnVDbWlCTjdidXRHdDNjWXhGWkRFbjFqUHJra3ZleXd6RGFWSkROaXdEOHA4MlU?oc=5
+Decoded successfully to: https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifkFVX3lxTE05RjMyVHJhdDZZR1dwZ1JKT2M3akdOQTh4c0w2aU8xRzR2MmR0N2tIWFpIUGVCVjFFUGFQZlJCWDVXcllQQXRWMFdOdGlzbTJXTEc3OHFJWHNuRVlkWUNqS2hza2tkUW1DcmZfNWdlVDdRM0E0eFU3cl9ObEs5UQ?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMivAFBVV95cUxOUnhha2RyLXZYYXF2NGhYemZFQzZHdVYza1IxajQ1ZWdlTkxwQ0ttSjRUcnBIVG1HT2J4YV9RQ0N3X3ZXeVFpNzlsVmVhcmdfWEpYbzhEYWNVOHY2clR5LVdZZHJWSlhxd0N5R1B5NGhwc0I2ckt4Z056cTAtYWhMMF9jd2xnUEJEdl9XRkU1a0x0dEVpTW9NOHFEVndlaE1CdGc3bmNYSVp5WFozSkdOcHYzbUdJYlN1cm5adNIBwgFBVV95cUxQU2d4RGNxWEdHSGV0NlBpckI1VTJqeDNUQXFTd1ZXZUY2MXpWV1ZSc1NEblEwSGEzOFN5X05NMko4TXhrTGJydXpNOVJfbUEtQTJaMEZKMHNvaHdHdEJqUUR4U0ZOOWUtWk1vNHlvZzR1cDh3ZVU2VDhadldLanhCSkNudWFQUVp2VzdFV1NNZG5GejJOSXZVdjY0ZzVhdF9NOVZqMXBBU2I5MUs3WEhjUk5yLWtub1FacXdnX2hoMFB2QQ?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMijwFBVV95cUxQbXNMTnVsWjBSNmhxZWlUanFZYlk3a2QyRG5CVjhKVllWYmdDeEh5UmVfS0MyLVhZMlRKbmU5RjRzVWdVNE96b0VvVkx1UlV0Z0IxM3F6UnZqMXZDUENvRVkzQWlkUU56bF9FUG8yRHF2WVRXUkh6Ni1zSjNNWGlHWWhqMVBoMmlqcVQwVFVaNA?oc=5
+Decoded successfully to: https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxNRElYVkJJV0RlODVzcXNkWDFYWlp5VmJTZ0EzTFA4NjFuajdMeFJSMldHb3dIMWRMXzRncFJwOVlnMGVOWV9xOWZfbmVNd1dzNG9EMHRrT2piY2E5X1FJOFBCaDNQdFRHdDA2RDZrYU51Y3NadzJOWXNmS054aktnYQ?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1332. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1066. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1066. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 174, in generate_content
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 168, in generate_content
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
