@@ -353,5 +353,10 @@
     "timestamp": "2026-09-05T15:10:09.380858+00:00",
     "question": "When implementing mTLS for service-to-service communication in a Kubernetes cluster, what specific mechanisms are you using to automate the rotation of short-lived certificates without introducing downtime or blocking traffic during the grace period?",
     "post_id": "18621850516039953"
+  },
+  {
+    "timestamp": "2026-09-06T15:25:31.867605+00:00",
+    "question": "When implementing zero-trust network access for microservices, how do you effectively manage short-lived, machine-to-machine credentials without introducing excessive latency or complexity into your service mesh sidecars, especially when dealing with dynamic pod scaling in Kubernetes?",
+    "post_id": "18126103285788899"
   }
 ]
