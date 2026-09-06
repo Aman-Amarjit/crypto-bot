@@ -24870,3 +24870,50 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-06T16:29:45.973539+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-06T17:35:53.064426+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'hacking incidents'
+Requesting content generation for topic: 'hacking incidents'...
+Fetching latest news headlines from Google News for query: 'hacking incidents (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxNRElYVkJJV0RlODVzcXNkWDFYWlp5VmJTZ0EzTFA4NjFuajdMeFJSMldHb3dIMWRMXzRncFJwOVlnMGVOWV9xOWZfbmVNd1dzNG9EMHRrT2piY2E5X1FJOFBCaDNQdFRHdDA2RDZrYU51Y3NadzJOWXNmS054aktnYQ?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE42OURKSS1Dd3Nfam5KTnIzODREY25SR1VZN2RxMGl5ckhqYm0wdWxxSjB5Y3dEMkNHdUdrQ3NKUWlvVUZIdW0wWk9HRmg3bXdTR1ZvNHNPV0Nra1cwT1lLenQwcTFrVEtCUGxjNG5uYmhSY0Fpak1HZ2tfRU4?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxNZkNCTm1OSEE2X3FwdG9EN24tTnBLcWdyWnNHamJSdEJSR0JhMldlQ2MwUEswOXNqOHQxR0YxSm1UMGp2MkpnRHJKamdKTmpxVG1rU1BJcWV2MmVrMDlDTlhNWURrWFRWM2JpSm53VzZPQ1FaZGJiUVQtWmZZYWg5c1pPYw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMikgFBVV95cUxPdFR0NTFvV2JZSk9ucy1jb3N6OU8zdVFQbEhwbmc3VGJWNkZKU1VQNXMtbjRwcFM3RlhpSFhzNTh3SzJVWEFQM1Z0bXBGOUR3Vnp1dVlTYWxSdE9RV05QRVhMM1Q2RnFmTkVLMl9FcWpTRTBRUWp2ZmJPNHhvOTlhRjRERlZtRnFKNXFRMTh4Y3N2UQ?oc=5
+Decoded successfully to: https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE1lb3g4Mk5WMlVMal9rNEZoZ3NoeVVkZmJaaTRCbGNpWmFVNlFsWnBBNmRFQlZ0eUUtaHlxbUctbVdPRzRLVTdnRXpTRk5tOWFZSUlLN3p4M0hzM2R0NzNQbGNwUjRiXzdTcmI0VjR0Y1NuT1BKMUJqVnBJVlJybzA?oc=5
+Decoded successfully to: https://www.theverge.com/tech/990895/boox-picco-tiny-e-reader-november-ifa
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 2048. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 2048. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1468. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 174, in generate_content
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 168, in generate_content
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
