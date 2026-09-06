@@ -278,5 +278,10 @@
     "timestamp": "2026-09-05T11:50:35.362623+00:00",
     "thought": "NIS2 mandates 24-hour initial incident reporting for essential entities. I map this to EU Directive 2022/2555, requiring immediate notification to CSIRTs upon detecting a significant security event. This shifts compliance from annual audits to real-time telemetry integration. Article 23 sets a 24-hour deadline, with fines up to 10 million euros for failure to report. Have you automated your CSIRT notification pipeline?",
     "post_id": "18127919542730355"
+  },
+  {
+    "timestamp": "2026-09-06T12:09:14.748453+00:00",
+    "thought": "OAuth 2.0 token leakage remains a top attack vector for SaaS platforms.\nAttackers exploit overly permissive redirect URIs or misconfigured state parameters to hijack authorization codes before they reach the legitimate client.\nThis allows session theft without ever seeing the user's password, bypassing standard credential protections.\nCVE-2023-4911, a critical flaw in Microsoft Azure AD, demonstrated how specific query parameters could be abused to bypass MFA during the sign-in flow. Are your IdP redirect validation rules strict enough to block open redirect chains?",
+    "post_id": "18069651161725042"
   }
 ]
