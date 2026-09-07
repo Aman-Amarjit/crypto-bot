@@ -1624,5 +1624,15 @@
     "post_id": "18098611895039305",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-07T08:13:18.680449+00:00",
+    "topic": "hacking incidents",
+    "caption": "CERT Polska is tracking a 'MikroTrick' exploit chain where attackers hijack MikroTik routers via internet-exposed SSH without authentication, granting full administrative control. As detailed by The Hacker News (https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html), the attack leverages a specific two-flaw combination that bypasses standard access controls on unpatched RouterOS versions. Have you audited your edge devices for unauthorized ops accounts or ssh:-2@ log entries to rule out compromise?",
+    "image_prompt": "A minimalist, isometric vector illustration of a network router node being infiltrated by a subtle, red geometric intrusion vector. The scene features a clean, modern tech aesthetic with cool slate blue and white tones, highlighting a specific port connection glowing with a faint amber warning light. The composition is balanced and editorial, focusing on the conceptual breach of a secure perimeter without using generic hacker tropes, shields, or binary code. Soft shadows and flat design elements create a premium, professional look suitable for a cybersecurity news feature.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1788768786/threads_bot/tushwersqpaf9axjkcru.jpg",
+    "post_id": "17985583152098860",
+    "source_url": "",
+    "source_title": ""
   }
 ]
