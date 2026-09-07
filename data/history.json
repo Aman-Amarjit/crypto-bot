@@ -1634,5 +1634,15 @@
     "post_id": "17985583152098860",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-07T19:07:49.850057+00:00",
+    "topic": "dark web leaks",
+    "caption": "Mathspace has disclosed a breach impacting over one million users, a stark reminder that educational platforms are prime targets for credential harvesting. As detailed by BleepingComputer (https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/), the scale suggests a significant exposure of user credentials. How are you currently segmenting your identity provider logs to detect anomalous login patterns across SSO integrations?",
+    "image_prompt": "A minimalist flat-vector illustration of a massive, translucent digital library structure where individual books are dissolving into scattered, glowing data fragments. The color palette features deep indigo, soft violet, and stark white, emphasizing a sense of structural fragility and information leakage. The composition is clean and modern, avoiding any human figures or generic security icons, focusing instead on the abstract concept of data integrity failing within an educational context.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1788808057/threads_bot/cqqqdk1wrmjnyksrhvyg.jpg",
+    "post_id": "17998765071006399",
+    "source_url": "",
+    "source_title": ""
   }
 ]
