@@ -358,5 +358,10 @@
     "timestamp": "2026-09-06T15:25:31.867605+00:00",
     "question": "When implementing zero-trust network access for microservices, how do you effectively manage short-lived, machine-to-machine credentials without introducing excessive latency or complexity into your service mesh sidecars, especially when dealing with dynamic pod scaling in Kubernetes?",
     "post_id": "18126103285788899"
+  },
+  {
+    "timestamp": "2026-09-07T17:44:10.267541+00:00",
+    "question": "When implementing a multi-tenant SaaS architecture, how do you architect your identity and access management layer to prevent the 'privilege creep' issue where service accounts granted broad permissions for initial data migration retain those elevated privileges indefinitely, thereby creating a silent lateral movement vector?",
+    "post_id": "17984565456067924"
   }
 ]
