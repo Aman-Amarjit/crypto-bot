@@ -363,5 +363,10 @@
     "timestamp": "2026-09-07T17:44:10.267541+00:00",
     "question": "When implementing a multi-tenant SaaS architecture, how do you architect your identity and access management layer to prevent the 'privilege creep' issue where service accounts granted broad permissions for initial data migration retain those elevated privileges indefinitely, thereby creating a silent lateral movement vector?",
     "post_id": "17984565456067924"
+  },
+  {
+    "timestamp": "2026-09-08T16:35:26.289751+00:00",
+    "question": "When implementing zero-trust service mesh architectures, how are you managing the lifecycle of short-lived mTLS certificates to prevent rotation chaos, and what specific strategies do you employ to mitigate the risk of private key leakage during the automated issuance process?",
+    "post_id": "18104573978245336"
   }
 ]
