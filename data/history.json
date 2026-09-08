@@ -1644,5 +1644,15 @@
     "post_id": "17998765071006399",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-08T18:38:12.093564+00:00",
+    "topic": "cyber warfare",
+    "caption": "The most alarming detail isn't just the speed, but the mechanism: TeamPCP\u2019s DUSTMAKER payload uses prompt injection to poison AI assistant workspaces, bypassing traditional static analysis. As documented by The Hacker News (https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html), this agentic approach allowed thousands of credentials to be harvested in under six hours. Are your CI/CD pipelines actually inspecting the semantic integrity of AI-generated code, or just its syntax?",
+    "image_prompt": "A minimalist, flat-vector editorial illustration depicting a chaotic, high-speed data flow. A central, abstract geometric node represents an AI agent, emitting rapid, fragmented streams of light that bypass a traditional, rigid firewall structure. The color palette uses deep indigo, electric violet, and stark white to convey urgency and digital complexity. The style is clean and modern, focusing on the dynamic movement of information rather than static security icons. No text, no logos, no human figures.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1788892677/threads_bot/lgz4pzjeszdegna6tact.jpg",
+    "post_id": "18100034108133445",
+    "source_url": "",
+    "source_title": ""
   }
 ]
