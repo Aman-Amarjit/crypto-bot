@@ -1654,5 +1654,15 @@
     "post_id": "18100034108133445",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-09T08:05:12.637504+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "Threat actors are now weaponizing Google Sheets and the TamperMonkey extension to inject malicious scripts directly into browser sessions, bypassing traditional OS-level defenses. As documented by Dark Reading (https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access), this evolution turns users into active participants in the infection chain by coercing them to paste code that alters transaction interfaces for crypto theft. How are you currently monitoring for unauthorized user-initiated script injections within trusted browser environments?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a digital browser window where a user's cursor is actively pasting a glowing, jagged code snippet into the address bar. The background features abstract, semi-transparent layers representing cloud services and blockchain nodes in cool teal and slate gray tones. The visual metaphor focuses on the intersection of human action and automated malicious code, using clean lines and a modern editorial style without any text or logos.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1788941101/threads_bot/pczbiis2go03vn7sqvin.jpg",
+    "post_id": "18106558652182849",
+    "source_url": "",
+    "source_title": ""
   }
 ]
