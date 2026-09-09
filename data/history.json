@@ -1664,5 +1664,15 @@
     "post_id": "18106558652182849",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-09T18:32:52.865535+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "The real danger of deepfakes isn't the video quality, but the silent exploitation of voice cloning APIs that bypass multi-factor authentication. Attackers now harvest 30-second audio samples to synthesize CEO voices, tricking finance teams into wire transfers by mimicking urgency and cadence with terrifying accuracy. As detailed in recent fraud reports (https://www.bleepingcomputer.com), how are you verifying the identity of high-value financial requests beyond simple voice recognition?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a split-face portrait where one half is a clean, geometric human profile and the other half dissolves into fragmented, glitching audio waveforms and pixelated noise. Use a cool palette of slate blue, electric violet, and stark white against a soft grey background. The composition should feel like a modern editorial graphic, emphasizing the distortion of identity through digital manipulation without using any text, logos, or generic hacker tropes.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1788978761/threads_bot/eczdg2jzozjym0b3hm7d.jpg",
+    "post_id": "18129939415708191",
+    "source_url": "",
+    "source_title": ""
   }
 ]
