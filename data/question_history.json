@@ -373,5 +373,10 @@
     "timestamp": "2026-09-09T16:35:23.730092+00:00",
     "question": "Are you relying solely on container image scanning for runtime security, or are you implementing eBPF-based policy enforcement to detect lateral movement and unauthorized syscalls within the kernel? How do you handle the performance overhead of deep inspection in high-throughput microservices environments?",
     "post_id": "18115089803291187"
+  },
+  {
+    "timestamp": "2026-09-10T16:21:40.651976+00:00",
+    "question": "When implementing zero-trust microservice architectures, how do you balance the latency overhead of continuous mutual TLS mTLS authentication and dynamic token validation against the strict requirement for cryptographically verified service-to-service trust in high-throughput transactional systems?",
+    "post_id": "17965496199171099"
   }
 ]
