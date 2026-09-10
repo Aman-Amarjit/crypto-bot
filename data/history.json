@@ -1674,5 +1674,15 @@
     "post_id": "18129939415708191",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-10T13:34:13.500015+00:00",
+    "topic": "AI surveillance",
+    "caption": "The most dangerous AI threat isn't a jailbroken model, but a workflow executing privileged actions for untrusted users. Noma Labs calls this 'workflow identity hijacking,' where a benign request via a support inbox triggers an LLM pipeline that uses high-privilege service accounts to exfiltrate data, bypassing standard auth controls. As detailed by Dark Reading (https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data), how are you scoping permissions for AI-triggered downstream actions?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a split identity concept. On the left, a simple, neutral user icon sends a small, clean packet. In the center, a complex, multi-layered gear system representing an AI workflow amplifies this packet into a large, heavy, golden key. On the right, the key unlocks a secure vault containing abstract data blocks. The color palette uses cool slate blues for the user and workflow, contrasting with warm amber and gold for the privilege escalation and data. No text, no logos, no glowing shields, no binary code. Clean lines, modern editorial style, high contrast, conceptual technology art.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789047241/threads_bot/agdtjbldzqayiqrx1cfx.jpg",
+    "post_id": "18115494758071373",
+    "source_url": "",
+    "source_title": ""
   }
 ]

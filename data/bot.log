@@ -25717,3 +25717,57 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-10T13:33:52.126054+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMingFBVV95cUxNcS0wdmZXeDJvc0dsLUNvSWhhd1R6Smp2ZEhoazVUVmZxUTJBV19HMXN0UjQxaXF1RHBRSGMwMkVSV3BmXzBIbGRYS0xwWUxzRVE5TjJYUzFhbU5XS2FGVW82VXFTQjlYRWYzMFZodV9MZ2hINVJNR2ozcS1XRDFtSGc3WHpxcWpadXdpX0wtM3h5Y2F3b3F2a2UyeDNzQQ?oc=5
+Decoded successfully to: https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxNVFJNTGdIR2w0REtVWngzVmVwRGlrdV9jUzVGUmU1cEJNeUZvaFI0T3M5cUI4dTNaNGphRXNYLVFtRlBweHhXUllaTmJ5WDdWaWdyUjlseFdrRmcxTWc5UmcwdTBuRGVZOFkzWm1wMlZRYVNXbkVCT0R2amhXdjhOWmc5S01VQzlZeUFsb0FFeW5TUkM3?oc=5
+Decoded successfully to: https://www.wired.com/story/uk-lawmakers-are-scrambling-in-response-to-ai-summer-of-chaos/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcmFSQ014OU5YUUxyZE5DT0VEbk5ySFpCN2U2Q3lTV013WDNBQjFHWmFmSldPYnh4ZUFLYTVtSDdQdU1LWS1TWDRtekx3SF9qekwzaktZLTE0U1NMVGdJUHE4X05uVWQ1cHgxSFFqOXR0R3RpWW81WjVRc3VQT1JFXzBXdlAyRmdtVnJWd0hha0p0RmZVVmxpM05tSUxYQUNsVktoUzJlTmxxQ2ZnZTZaU1FWdjJHd05U?oc=5
+Decoded successfully to: https://www.wired.com/story/clearview-ai-is-testing-an-ai-tool-that-lets-cops-instantly-unearth-your-online-activity/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZ2p3T1paeFZCZnh5QjBTS0NCSk43cXJHeDE0REJ5RlNtU0EtTDNXTUVONW1rNVNEREYzWWhubzRoMU1JSC04MVhLdnpiNTRFNGI5d2p2VVlDak9vWmhrWVRERFJLUzRRRWZ2RDlLdnJQZTVDR3lTZGpxLUtLSGJWUTRxejJpZUx2djhLUWRwRDU2NXJvQnh4Y0VIZHNVRDh5cVBxTjFVeHQ?oc=5
+Decoded successfully to: https://www.wired.com/story/apple-doesnt-want-you-to-worry-about-the-new-apple-watchs-listening-features/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxPeXJtWlNWSU9PMnhhaDNkZ05hZFQxcGthcFFXLTNQNEpYbFdLcFpoY0hPTnVZNVUxdUxLbUxjTndtakxrOVk0UHUzUTJUckEzbVNiYTVaNHlLZ3ZKRUdlbG1yTmx1cWhYY0ZmZ0M2cTBEVEVzSHZ6WE9fN3E4NWprS2pWUlVfdzl5M1NzZmlVN0N1WFhk?oc=5
+Decoded successfully to: https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1160. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The most dangerous AI threat isn't a jailbroken model, but a workflow executing privileged actions for untrusted users. Noma Labs calls this 'workflow identity hijacking,' where a benign request via a support inbox triggers an LLM pipeline that uses high-privilege service accounts to exfiltrate data, bypassing standard auth controls. As detailed by Dark Reading (https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data), how are you scoping permissions for AI-triggered downstream actions?
+  - Image Prompt: A minimalist flat-vector illustration depicting a split identity concept. On the left, a simple, neutral user icon sends a small, clean packet. In the center, a complex, multi-layered gear system representing an AI workflow amplifies this packet into a large, heavy, golden key. On the right, the key unlocks a secure vault containing abstract data blocks. The color palette uses cool slate blues for the user and workflow, contrasting with warm amber and gold for the privilege escalation and data. No text, no logos, no glowing shields, no binary code. Clean lines, modern editorial style, high contrast, conceptual technology art.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20split%20identity%20concept.%20On%20the%20left%2C%20a%20simple%2C%20neutral%20user%20icon%20sends%20a%20small%2C%20clean%20packet.%20In%20the%20center%2C%20a%20complex%2C%20multi-layered%20gear%20system%20representing%20an%20AI%20workflow%20amplifies%20this%20packet%20into%20a%20large%2C%20heavy%2C%20golden%20key.%20On%20the%20right%2C%20the%20key%20unlocks%20a%20secure%20vault%20containing%20abstract%20data%20blocks.%20The%20color%20palette%20uses%20cool%20slate%20blues%20for%20the%20user%20and%20workflow%2C%20contrasting%20with%20warm%20amber%20and%20gold%20for%20the%20privilege%20escalation%20and%20data.%20No%20text%2C%20no%20logos%2C%20no%20glowing%20shields%2C%20no%20binary%20code.%20Clean%20lines%2C%20modern%20editorial%20style%2C%20high%20contrast%2C%20conceptual%20technology%20art.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1789047241/threads_bot/agdtjbldzqayiqrx1cfx.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (533) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18114963610933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18115494758071373
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18115494758071373
+Timestamp: 2026-09-10T13:34:13.501907+00:00 UTC
+============================================================
