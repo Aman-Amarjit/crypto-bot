@@ -1684,5 +1684,15 @@
     "post_id": "18115494758071373",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-10T18:24:14.212992+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The fragility of LLM safety often hinges on tokenization quirks rather than semantic understanding. Attackers exploit multilingual encoding gaps where specific character sequences bypass guardrails, effectively treating the model as a raw text processor. As detailed in recent security analyses (https://arxiv.org/abs/2307.02483), how are you structuring input sanitization to handle these encoding edge cases?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a fragmented digital prism refracting a single beam of light into chaotic, disjointed geometric shards. The scene uses a cool palette of slate blue, muted violet, and stark white against a clean off-white background. The composition emphasizes structural instability and the breakdown of a unified signal into uncontrolled components, avoiding any human figures or generic security icons.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789064640/threads_bot/dstdhgbdgvuio8wbbmhk.jpg",
+    "post_id": "18111483224025613",
+    "source_url": "",
+    "source_title": ""
   }
 ]
