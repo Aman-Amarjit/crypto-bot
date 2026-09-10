@@ -25626,3 +25626,50 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-09T18:55:40.821294+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-10T08:04:11.456074+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxNVFJNTGdIR2w0REtVWngzVmVwRGlrdV9jUzVGUmU1cEJNeUZvaFI0T3M5cUI4dTNaNGphRXNYLVFtRlBweHhXUllaTmJ5WDdWaWdyUjlseFdrRmcxTWc5UmcwdTBuRGVZOFkzWm1wMlZRYVNXbkVCT0R2amhXdjhOWmc5S01VQzlZeUFsb0FFeW5TUkM3?oc=5
+Decoded successfully to: https://www.wired.com/story/uk-lawmakers-are-scrambling-in-response-to-ai-summer-of-chaos/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZ2p3T1paeFZCZnh5QjBTS0NCSk43cXJHeDE0REJ5RlNtU0EtTDNXTUVONW1rNVNEREYzWWhubzRoMU1JSC04MVhLdnpiNTRFNGI5d2p2VVlDak9vWmhrWVRERFJLUzRRRWZ2RDlLdnJQZTVDR3lTZGpxLUtLSGJWUTRxejJpZUx2djhLUWRwRDU2NXJvQnh4Y0VIZHNVRDh5cVBxTjFVeHQ?oc=5
+Decoded successfully to: https://www.wired.com/story/apple-doesnt-want-you-to-worry-about-the-new-apple-watchs-listening-features/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihwFBVV95cUxQYmlTLWJhekQzYkZoWFplMnRzZnpYUV9Jem00OVVrOW1FSGNjRkl2cHI5MGM1SDRnTFZROEs0UE1YN1R6ckpkSVFRMHVPajk3bmhXdExGaXZOc3hZdUpIejduTURTX1lGVURDYzE5M1FMMzJ0X05fdGZpdlZGa05vX0ZLUVdPb2M?oc=5
+Decoded successfully to: https://www.wired.com/story/you-can-now-destroy-flock-cameras-for-cash-in-gta-v/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxPZGREWl9CbjlSRURrSFZ3ZTJGam9TN1djYlVxMF9JSlJ4U1VtY1FULUZTY3VHaHZsRVdkOFhGVjUyVzJVUldIdXBhSlVHNWFkWWE3X05tcVFfcE5wYUxwQjJSbUMtM3dRZ1RkNWljaXRIemRZRnBaX2pBVWtoM29OWA?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMingFBVV95cUxNcS0wdmZXeDJvc0dsLUNvSWhhd1R6Smp2ZEhoazVUVmZxUTJBV19HMXN0UjQxaXF1RHBRSGMwMkVSV3BmXzBIbGRYS0xwWUxzRVE5TjJYUzFhbU5XS2FGVW82VXFTQjlYRWYzMFZodV9MZ2hINVJNR2ozcS1XRDFtSGc3WHpxcWpadXdpX0wtM3h5Y2F3b3F2a2UyeDNzQQ?oc=5
+Decoded successfully to: https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.wired.com/story/uk-lawmakers-are-scrambling-in-response-to-ai-summer-of-chaos/
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1220. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1220. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1253. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 174, in generate_content
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 168, in generate_content
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
