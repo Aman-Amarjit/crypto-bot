@@ -1704,5 +1704,15 @@
     "post_id": "18069610769727287",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-11T18:28:28.230161+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "The 2018 startup data leak in India exposed how easily unpatched WordPress plugins could expose customer PII. Attackers exploited a known SQL injection flaw in a popular contact form plugin, bypassing basic input validation to dump entire databases. As documented by The Hacker News (https://thehackernews.com/2018/05/indian-startup-data-breach.html), did your team audit third-party plugin dependencies for known CVEs before launch?",
+    "image_prompt": "Minimalist flat-vector illustration of a fragmented digital database cylinder shattering into geometric shards, revealing abstract user profile icons inside. Use a cool palette of deep indigo, slate grey, and electric teal. Clean lines, modern editorial style, no text, no logos, no glowing shields, no binary code rain.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789151294/threads_bot/hiln3xqegt9e1qfmfszo.jpg",
+    "post_id": "17990537928030258",
+    "source_url": "",
+    "source_title": ""
   }
 ]
