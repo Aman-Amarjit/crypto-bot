@@ -1694,5 +1694,15 @@
     "post_id": "18111483224025613",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-11T08:00:02.393992+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "Check Point just patched two 9.8-rated flaws where improper ASN.1 decoding in VPN certificates allows unauthenticated RCE. As detailed by The Hacker News (https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html), the heap overflow in CVE-2026-85103 can trigger even if the VPN blade is disabled, provided certificates are present. Are your gateway logs capturing ASN.1 parsing anomalies before exploitation?",
+    "image_prompt": "A minimalist flat-vector illustration of a digital certificate structure unraveling into a chaotic heap of geometric blocks, representing a buffer overflow. The scene uses a cool palette of deep slate blue and electric violet, with a single sharp red accent indicating the overflow point. The style is clean, modern editorial tech art, avoiding any text, logos, or generic hacker tropes. Focus on the abstract concept of data structure corruption and memory layout instability.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789113589/threads_bot/i4g6a1eikvrgvcuisn7f.jpg",
+    "post_id": "18069610769727287",
+    "source_url": "",
+    "source_title": ""
   }
 ]
