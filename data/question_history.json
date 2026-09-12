@@ -383,5 +383,10 @@
     "timestamp": "2026-09-11T16:25:30.252838+00:00",
     "question": "When implementing OIDC for headless microservices, are you relying on short-lived tokens with a strict refresh strategy or moving toward audience-restricted JWTs with a centralized key rotation service? How do you balance the operational overhead of frequent key distribution against the risk of token replay during network partitions?",
     "post_id": "18077520221384786"
+  },
+  {
+    "timestamp": "2026-09-12T15:29:12.648027+00:00",
+    "question": "When implementing confidential computing with Intel SGX or AMD SEV-SNP, how are you verifying the integrity of enclave memory and ensuring that attestation reports are cryptographically bound to your specific production artifacts, rather than just relying on platform-level measurements?",
+    "post_id": "17955839067011946"
   }
 ]
