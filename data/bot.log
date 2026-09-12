@@ -26299,3 +26299,48 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-12T16:28:30.045347+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-12T17:44:31.323659+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Successfully retrieved 0 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: India’s digital infrastructure expansion has exposed a critical blind spot: the reliance on legacy Java libraries in government portals. Log4Shell (CVE-2021-44228) remains a persistent threat because many state-level services still run unpatched Apache Struts or Spring Boot instances. As documented by The Hacker News (https://thehackernews.com/2021/12/log4shell.html), how are you verifying the transitive dependencies in your Java stack to prevent remote code execution?
+  - Image Prompt: A minimalist flat-vector illustration of a complex, interconnected digital map of India, where specific nodes are highlighted with subtle amber warning pulses. The background is a clean, light off-white with soft grey geometric shapes representing data flow. The style is modern editorial, using a palette of deep indigo, slate blue, and warm amber. No text, no logos, no glowing shields, no binary code, no hooded figures. Focus on the abstract concept of network vulnerability and regional connectivity.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20of%20a%20complex%2C%20interconnected%20digital%20map%20of%20India%2C%20where%20specific%20nodes%20are%20highlighted%20with%20subtle%20amber%20warning%20pulses.%20The%20background%20is%20a%20clean%2C%20light%20off-white%20with%20soft%20grey%20geometric%20shapes%20representing%20data%20flow.%20The%20style%20is%20modern%20editorial%2C%20using%20a%20palette%20of%20deep%20indigo%2C%20slate%20blue%2C%20and%20warm%20amber.%20No%20text%2C%20no%20logos%2C%20no%20glowing%20shields%2C%20no%20binary%20code%2C%20no%20hooded%20figures.%20Focus%20on%20the%20abstract%20concept%20of%20network%20vulnerability%20and%20regional%20connectivity.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1789235075/threads_bot/f4spfqlratpwlw0isujo.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Threads API Error Details during container creation: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/res.cloudinary.com\/dz6ocnble\/image\/upload\/v1789235075\/threads_bot\/f4spfqlratpwlw0isujo.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AloNR6b6-SN03mUtXDmp7o5"}}
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYmI3eFBXM1N0TzdnV2hpTldjMG5GUlMzUHJzRVJFUTVkeHBpb3p4UHE5WDNEZAUszamxWbm8xN25UTnZAwR1NOdFFSa2RqUk1vN3dreS1Kdmd3MERjU0JwN3ZAFQ3RZAS1hvaklkOElmRGNkbGN0VGMySEFtb2VueTFXdlNESTdUWE9OQlFKck0ZD
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 179, in run_post
+    post_id = threads.publish_post(public_url, caption)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/threads_client.py", line 82, in publish_post
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/threads_client.py", line 79, in publish_post
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYmI3eFBXM1N0TzdnV2hpTldjMG5GUlMzUHJzRVJFUTVkeHBpb3p4UHE5WDNEZAUszamxWbm8xN25UTnZAwR1NOdFFSa2RqUk1vN3dreS1Kdmd3MERjU0JwN3ZAFQ3RZAS1hvaklkOElmRGNkbGN0VGMySEFtb2VueTFXdlNESTdUWE9OQlFKck0ZD
