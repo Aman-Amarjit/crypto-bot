@@ -388,5 +388,10 @@
     "timestamp": "2026-09-12T15:29:12.648027+00:00",
     "question": "When implementing confidential computing with Intel SGX or AMD SEV-SNP, how are you verifying the integrity of enclave memory and ensuring that attestation reports are cryptographically bound to your specific production artifacts, rather than just relying on platform-level measurements?",
     "post_id": "17955839067011946"
+  },
+  {
+    "timestamp": "2026-09-13T16:13:45.752095+00:00",
+    "question": "When implementing mTLS in microservices, how do you handle the operational overhead of certificate rotation without causing connection churn? Are your service meshes enforcing strict identity verification at the transport layer, or are you relying on higher-layer authentication, and what are the trade-offs you've observed in production regarding latency versus security posture?",
+    "post_id": "18085894805468630"
   }
 ]
