@@ -1724,5 +1724,15 @@
     "post_id": "18110441603228902",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-14T08:50:02.268929+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "India's financial regulators are tightening the screws on third-party API security, a move that feels like a direct response to the systemic fragility exposed by vulnerabilities like Heartbleed. RBI and SEBI are now mandating strict isolation of payment gateways to prevent lateral movement, a technical necessity often overlooked in favor of perimeter-only defenses. As detailed by The Hindu (https://www.thehindu.com), how are you currently segmenting your internal networks to contain potential data exfiltration from compromised microservices?",
+    "image_prompt": "Minimalist flat-vector illustration of a complex financial network graph, featuring distinct, isolated nodes connected by secure, segmented pathways. Use a palette of deep indigo, slate grey, and muted amber to represent regulatory boundaries and data flow. Avoid generic shields or locks; instead, visualize network segmentation through geometric separation and clean, precise lines. Modern editorial style, high contrast, no text.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789375789/threads_bot/chxi9pvemh8yub0bzzli.jpg",
+    "post_id": "18191546821395491",
+    "source_url": "",
+    "source_title": ""
   }
 ]
