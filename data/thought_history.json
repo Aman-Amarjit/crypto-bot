@@ -298,5 +298,10 @@
     "timestamp": "2026-09-13T13:19:17.694576+00:00",
     "thought": "Malicious OAuth redirect URIs enable cross-site request forgery attacks.\nAttackers craft links that trick users into authorizing scopes, allowing the attacker to steal tokens or access protected resources without valid credentials.\nThis bypasses standard consent screens if the redirect URI validation is loose.\nCVE-2024-27198 affected Okta, but how many of your apps still accept wildcard redirect URIs in production?",
     "post_id": "18068444756756533"
+  },
+  {
+    "timestamp": "2026-09-14T15:01:29.872209+00:00",
+    "thought": "LockBit affiliates now deploy a custom Rust-based loader to evade static analysis.\n\nThis module establishes persistence by injecting into legitimate processes and disabling security tools before payload execution. It relies on in-memory decryption to avoid writing the main ransomware binary to disk.\n\nRecent samples show a 94% detection evasion rate against major EDRs, so how are you currently detecting Rust-based loaders?",
+    "post_id": "17908086012306035"
   }
 ]
