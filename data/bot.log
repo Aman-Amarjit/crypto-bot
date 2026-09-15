@@ -26721,3 +26721,51 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-14T21:14:01.739384+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-15T08:36:58.806747+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'data breaches security leaks'
+Requesting content generation for topic: 'data breaches security leaks'...
+Fetching latest news headlines from Google News for query: 'data breaches security leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisAFBVV95cUxNMUJuaXlvc3MwVnRiQUszeU9JdzBteTRTMXN1ZlRwUXNIUWdBcC1HVXZqZTh1SEJiNFo5VEtBR18zenhraFRTNWdlSmgybUhUNk9UbkV1Tk02OUJnTC02ZkU4LWRWMHZLOV82bF9rSnZZWk15SjFSbV9GNWY2TDZvZjQyTVdBY3FoZFIyTklWbFhndTd4WE84dG5pcy1FTW1zM3NtQmhaSEJ2TkEtUGp0MNIBtgFBVV95cUxOWXF3cEg1ZVpJME1jcjdJY0RJV2t0NW5UbnBhZzZMWm5KSDA1Q2FYVmZnNGtXVmRhOWNsX3FQeHJSWU5pbGUtYlM2SlYtVTduckdtSGItQ0RPM2FzeWxVRVdRRjFwcmhubERvZ3NRV1REazEzRnQ5VHZnOUc4SWJBc1lmN1QtX0U2Yk1qRTQyWWJ4bnR1aGhPeS1lTi10LVFTSXAxRzVBaVo5MWFtcl9xYUhsRm5qZw?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiugFBVV95cUxQQi1LRUYwWlNlVGpKOFhqWllvWmM5NGpVNHhuVHJVNjF2QXBJVjZwOWJBcERDTUZUOHJWd3dlcXl5Qk1jVXBoTWtRSS0xVTBJU2tpV1J6X2JJVUZxelUtYkc5OUM3eUNjOFZObEJ0eGdSVnc2OFJfSVVCbERKdUEwMWJBdVRwZlBsZEhkdUQ5RTZkdUdROGIyclVHLXQzd0swdnVCdGpYYmFhRUR0XzFkMUJJU0k4LVRrVGfSAb8BQVVfeXFMTUNER2hFYVc4NEh2YWF5QmRhYlFvSFk4Q3hSLUhMS1pHTU53VS00QXNqRDFkNnVKeURLM0p0TE9UNkt5N0tUSXI2ODVLQk5XbEM2VUJVdnlTR3FBQ05tWk1FbFNrNU1NYlpfV2dTWjdwVTB4S0hfSktPTXZ5WDExWHQwOFhIOHBZQkFiT0t5VkotaklHSUhYc05ZNG1tcDI3UG1IS0NvTGVQNVRxbDViUThjNnkxM3RyTU9GajRNRGM?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZ2pYX05MM2xyTndXREN3UEIzTzFpYXRRazc5X1FDTHJidEw3dFB6aTE0ZXpDaWJFZWFQQUVMdGlYUWd2dlVsZjBGU2dSanprN3JrLUtTT3FtNW1SWXhwN1QzLTM2LVExZHE0ZEpISS1kOWpld1FoTlJzSmxMSDVYZ3hybTFDY2NLZGtzUWhMN3U3MlBQRTVoOEpFOHBGNGVQQmRlZTR2TmkwcnRaLTZkWFJITkFuMVJq0gG-AUFVX3lxTE5QZ1ZkOGZnaE1rMnI3MmJacWZJY2ZZdjk1Zm1Gb0pKaXdJdHktT2RPZy05VlRIYzM3RF80clVIdUtsU2ZBdTFxREN1a0VPaDR2akUyelFrT3RSWGhsNXhvN1p4YmlCUDQ2MXp6TUMtRnpvU0VtQkthQXdPVXExdkY2aFZmWl9oOHZFVFBuVjh1b2d2ampzNUYweFE5Q1hkRWExN2hsWkxKY2NZODJQQjhNaXE4XzVnTDZDeV92enc?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE9tMjhoa24xN0hTQmcyU2p5cVdEM0YxX0t5b09neHZnTHRSTEduWF96cnlwQ2F5cGhyQ3ktT0F3bF82OWVzdVZvTjFTcnVhNkRtU0xOcGJaSzlNeWFKc3lpYk56R1JqVGRMaW5HUVZMRXJHZmp2dGU1LUFSdlZRX0k?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxNQjVTM0l4bm84T2N2emlPQVFnU29kcHVPYTJLaG52SXFHV0htZTZJcll0VXVvelJ5bEFHMFQwZnQxbnM2NEI5U2c1X3A1ZWxLbldrQ0dWMzVBNFN1dzQ0RThNektTUGxrS2tGcjBlajhBN1hCN3J5U3Exb09IQ0poY0lrWnl5MldmYnFGU2pIb2hCOGZYZHNPUi1KZ1NUSktBRWY5WDQ3VEtDV3hhTFlzdk5SUdIBuAFBVV95cUxPZTEtQjNwTGFSbmRCWm5ScHVSOV9kdFRpVkFPcEZsR2xraV9VS0pRRXpuejdvWTZTcjI3eDVTSE1KU0otM3VoWFctZi1lNlNRZFVuVl9tUkNMbFNiQ0xLNndOZUZ1d3BNN29lRWpDTGViVFloVVl2eW40SUllWkRQYnZlWEtWNW1SamQ0ZjJOb3R0cmxuZW9TVWZwMnpXWFlaZnRvR3VfZ0hNSlhzVUtTVGJuX0RWX2dI?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/
+Warning: Failed to fetch article content for https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/. Details: 403 Client Error: Forbidden for url: https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1517. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1517. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 2048. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 174, in generate_content
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 168, in generate_content
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
