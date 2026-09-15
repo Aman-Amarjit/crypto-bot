@@ -26813,3 +26813,60 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-15T14:18:21.661590+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'data breaches security leaks'
+Requesting content generation for topic: 'data breaches security leaks'...
+Fetching latest news headlines from Google News for query: 'data breaches security leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxONG45SndjNU1YSFZwQVpYMDZRRmxKZEMzdHo5MXlsZ0hEMnphTjFQV0p1S0YwN1V6UW01c0tNdVRfRVFfdDFkaFlObVpNZ1JoWURINlk1U21PRDE2RzVFRmZBbUwzM0hSVWlMSlJiRUtmXzU4WXl6VjZoS095am5vaw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE9tMjhoa24xN0hTQmcyU2p5cVdEM0YxX0t5b09neHZnTHRSTEduWF96cnlwQ2F5cGhyQ3ktT0F3bF82OWVzdVZvTjFTcnVhNkRtU0xOcGJaSzlNeWFKc3lpYk56R1JqVGRMaW5HUVZMRXJHZmp2dGU1LUFSdlZRX0k?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQbDgwQkR1Z3h0Z3pfZVl5VlFkeExDUDBsQnU0SEkwMFBMazRrVm5XdTBvOVZPVjhYejItVjlJV3hKeTdtSE1RNjc3OVNtUjgzeGN5c21VYTNpQUZKQXZJYU1kYXV0empGQ1VnUjBTV3NmN3JTTmQyanlUOHQwcjlTOWlOZHc5ZjlhNW9VaXpqZHBCYVJwRzBTaEJFZUtmMEtJMnNiSGFtWXRQbkVvQjNnNHRnYmrSAboBQVVfeXFMT1dRMXVqWTI3Ni1CY09uWG4xOERFSVhrcDhFWlZYdjlKQUx6MUVhejE5UDhYMEhLMlB1amNDVnl4b1FnVGE5V0NkRGhkQ0laaTJ4bExLUG9EOUZ3RU1MTEZYMWt5bnpXMlBTNFVhUlVfSHU1T1BkaDZSNnpXRk90SXk0TEtSYWFJN2VOMExQejRVZHRZbnEtSHdsakNSa2NBNGh6d2FsYTJ6Uzh1RDM5UWVSMFVxOWdPWU93?oc=5
+Decoded successfully to: https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/
+Decoding Google News URL: https://news.google.com/rss/articles/CBMib0FVX3lxTFB6TGozZnMzVlZhV1kyVHhXWHBSWGZ3ay1yWlYzTm85ZHJWTWp4SXpBZEFYNEtYci1wMEtDUlpWblc3X2Y3NnMyMjBMQTRybVJaNmgybXB0dDZlY3RWNm9GN0pqaGxEaEhjTnZmanhRYw?oc=5
+Decoded successfully to: https://www.darkreading.com/cyberattacks-data-breaches?page=91
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sMFdocXgwLUZhR2J1SjJEXzdmVDREdEZNeXNmYzg2b0hERWJ6OWFiVkZXUUdSR2t1eVdRRTRkT1NnbGtYSHRlQkQySFltSFd5Mnp2TVdrSmoxQQ?oc=5
+Decoded successfully to: https://thehackernews.com/search/label/Bitmart
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Vite dev servers are leaking cloud credentials because attackers append ?raw to /@fs/ requests, bypassing server.fs.deny checks entirely. F5 Labs documented this mass-scanning campaign in The Hacker News (https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html), noting that spoofed AI bot headers and GCP IPs help hide the theft of .env files. Are you auditing your exposed dev environments for these specific query parameter bypasses?
+  - Image Prompt: A minimalist flat-vector illustration of a server rack with a single glowing port emitting a stream of abstract data packets. The packets are shaped like small, distinct geometric icons representing configuration files and keys, flowing out of the server and into a void. The color palette uses deep slate blue for the background, with warm amber and soft white accents for the data stream to indicate leakage. The style is clean, modern editorial tech art, avoiding any human figures, shields, or binary code. Focus on the conceptual flow of information escaping a contained system.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20of%20a%20server%20rack%20with%20a%20single%20glowing%20port%20emitting%20a%20stream%20of%20abstract%20data%20packets.%20The%20packets%20are%20shaped%20like%20small%2C%20distinct%20geometric%20icons%20representing%20configuration%20files%20and%20keys%2C%20flowing%20out%20of%20the%20server%20and%20into%20a%20void.%20The%20color%20palette%20uses%20deep%20slate%20blue%20for%20the%20background%2C%20with%20warm%20amber%20and%20soft%20white%20accents%20for%20the%20data%20stream%20to%20indicate%20leakage.%20The%20style%20is%20clean%2C%20modern%20editorial%20tech%20art%2C%20avoiding%20any%20human%20figures%2C%20shields%2C%20or%20binary%20code.%20Focus%20on%20the%20conceptual%20flow%20of%20information%20escaping%20a%20contained%20system.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1789481908/threads_bot/lngsxe9xontim3cmxuy5.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Threads API Error Details during container creation: {"error":{"message":"An unknown error occurred","type":"OAuthException","code":1,"error_subcode":2207052,"is_transient":false,"error_user_title":"Media download has failed. The media URI doesn't meet our requirements.","error_user_msg":"The media could not be fetched from this URI: https:\/\/res.cloudinary.com\/dz6ocnble\/image\/upload\/v1789481908\/threads_bot\/lngsxe9xontim3cmxuy5.jpg.Please check the limitations section in our development document for more information: https:\/\/developers.facebook.com\/docs\/instagram-platform\/instagram-graph-api\/reference\/ig-user\/media#creating","fbtrace_id":"AzTnP6gjvItlW4Cl5rEqqYQ"}}
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYmI3eFBXM1N0TzdnV2hpTldjMG5GUlMzUHJzRVJFUTVkeHBpb3p4UHE5WDNEZAUszamxWbm8xN25UTnZAwR1NOdFFSa2RqUk1vN3dreS1Kdmd3MERjU0JwN3ZAFQ3RZAS1hvaklkOElmRGNkbGN0VGMySEFtb2VueTFXdlNESTdUWE9OQlFKck0ZD
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 179, in run_post
+    post_id = threads.publish_post(public_url, caption)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/threads_client.py", line 82, in publish_post
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/threads_client.py", line 79, in publish_post
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYmI3eFBXM1N0TzdnV2hpTldjMG5GUlMzUHJzRVJFUTVkeHBpb3p4UHE5WDNEZAUszamxWbm8xN25UTnZAwR1NOdFFSa2RqUk1vN3dreS1Kdmd3MERjU0JwN3ZAFQ3RZAS1hvaklkOElmRGNkbGN0VGMySEFtb2VueTFXdlNESTdUWE9OQlFKck0ZD
