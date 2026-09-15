@@ -1734,5 +1734,15 @@
     "post_id": "18191546821395491",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-15T18:57:42.935696+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "CenterPoint Energy has confirmed that customer data was exfiltrated during a recent cyberattack, a stark reminder that utility infrastructure remains a prime target for data theft. As documented by BleepingComputer (https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/), this incident highlights the persistent risk of sensitive PII residing in legacy operational systems. How are you currently segmenting your utility networks to prevent lateral movement from IT to OT environments?",
+    "image_prompt": "A minimalist flat-vector illustration of a modern electrical substation at dusk, featuring sleek metallic transformers and transmission towers. The scene uses a cool palette of slate blue and silver, with subtle, abstract red data streams flowing invisibly through the power lines, symbolizing hidden data exfiltration. Clean lines, high contrast, editorial style, no text, no logos, no glowing shields, no binary code.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789498649/threads_bot/ffubinrjwc9npe8hopl2.jpg",
+    "post_id": "18383806420238795",
+    "source_url": "",
+    "source_title": ""
   }
 ]
