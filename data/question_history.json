@@ -398,5 +398,10 @@
     "timestamp": "2026-09-14T18:03:58.082339+00:00",
     "question": "When implementing zero-trust architecture in a Kubernetes cluster, how do you balance the granularity of mTLS service-to-service identity verification against the operational overhead of certificate rotation for ephemeral pods?",
     "post_id": "18179677711422472"
+  },
+  {
+    "timestamp": "2026-09-15T16:55:39.814363+00:00",
+    "question": "How are you mitigating risks from ephemeral container environments in CI/CD pipelines where traditional security agents cannot persist, and what signals do you rely on to detect runtime anomalies before artifacts are promoted to production?",
+    "post_id": "18132321910641817"
   }
 ]
