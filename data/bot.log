@@ -27140,3 +27140,25 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://graph.threads.net/v1.0/27117688661222646/threads?access_token=THAAX9XsG8YNxBYmI3eFBXM1N0TzdnV2hpTldjMG5GUlMzUHJzRVJFUTVkeHBpb3p4UHE5WDNEZAUszamxWbm8xN25UTnZAwR1NOdFFSa2RqUk1vN3dreS1Kdmd3MERjU0JwN3ZAFQ3RZAS1hvaklkOElmRGNkbGN0VGMySEFtb2VueTFXdlNESTdUWE9OQlFKck0ZD
+[2026-09-16T14:20:24.958852] Organic check scheduled. Delaying startup for 629s (max 15 mins)...
+============================================================
+Threads Comment-Reply Runner Execution Started: 2026-09-16T14:30:53.959058+00:00 UTC
+============================================================
+============================================================
+Starting Comments Auto-Reply Routine...
+============================================================
+Logged in as: @amanamarjit8
+Successful organic replies in the last 24 hours: 0/20
+Retrieved 5 latest threads for scanning.
+[1/5] Checking conversation for thread ID: 18094512179411625...
+[2/5] Checking conversation for thread ID: 18383806420238795...
+[3/5] Checking conversation for thread ID: 18132321910641817...
+[4/5] Checking conversation for thread ID: 18179677711422472...
+[5/5] Checking conversation for thread ID: 18191546821395491...
+============================================================
+Comments Auto-Reply Routine Completed. Published 0 replies.
+============================================================
+============================================================
+Comment-Reply Execution Completed Successfully!
+Timestamp: 2026-09-16T14:30:55.425975+00:00 UTC
+============================================================
