@@ -403,5 +403,10 @@
     "timestamp": "2026-09-15T16:55:39.814363+00:00",
     "question": "How are you mitigating risks from ephemeral container environments in CI/CD pipelines where traditional security agents cannot persist, and what signals do you rely on to detect runtime anomalies before artifacts are promoted to production?",
     "post_id": "18132321910641817"
+  },
+  {
+    "timestamp": "2026-09-16T16:50:04.833996+00:00",
+    "question": "When transitioning to a zero-trust architecture, how do you balance the operational friction of granular, workload-to-workload mTLS with the need for real-time performance in high-throughput microservices, and what specific observability signals do you prioritize to detect lateral movement without overwhelming your SIEM?",
+    "post_id": "17989422651048270"
   }
 ]
