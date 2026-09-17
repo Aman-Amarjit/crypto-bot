@@ -27428,3 +27428,53 @@ Daily Question Posted Successfully!
 Post ID: 17988591303110824
 Timestamp: 2026-09-17T16:56:38.736008+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-17T18:59:29.372186+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'cyber warfare'
+Requesting content generation for topic: 'cyber warfare'...
+Fetching latest news headlines from Google News for query: 'cyber warfare (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxOQjlOc0xJcFN3MVBCdVAtT1pMUm10TTFJSmszQzg5cFhJZUc4aDZZZlM4Q2FBT2VLMHAxc0lnNHplMzVkdHBqdk9tcXdBZlN1WmxBRk0tSXIwLXFwdjBVTFl0WmpZUURpdmh1a3ZiSmVQOGtwMXBKMGxOZk1nd0ZURQ?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE56Q05CR1g5ckphQ3puYnFaTmYwZEJlYVFJeUltN2lpUVhZaWZZaXVVbFBmcm1fMjF4TjlOTUthYmVSSjBHaFg0clBXX252QzhxMHZIZ3V2VEhlTUoyR3I3emIzNGR0NURkQk13WEdZZDFsQjdjY0hVN2huOWlOMW8?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE9KU3ZGdkJMTDEzcFNoWjZMdXJjX0hUeHc3LXpQN2FqVklrenRfUDg0SDNEOUdWWVdIOV9rWHd2NjdVLTVHRVhRclB1dEFaSHVhZE55NU1nWTBicUVudXhfZklFNHQ2M3JTdW5ON2JxYXFkTU84cG8xVWJRMjh6dE0?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxNM3MxTTNQaEp6ZUgzeWl3Wnl4WWxmTlBLVkVLYnBqc0FhZm1kUEk1NW1EWXE4dnI1Y1JvUHpMZ1ItNlVWbjcwMW0wZG9OeE5qeDh3QTd2c2JYcF9QOTVxX3g1X0Z5Vkc4ekFWTndObGtrMnpGNW51Ymt3aDYzYi1ELTdwaw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxQMVlBTTFpaDdOck9POE5MMV9SUTZMbVkzYkJzQnI4MzF4VndjblhFcUsxbE9Hd3p5SXFrRlFMTnZTV2dhejV2NFN4Tkd1V2J4M1J4Nkt0dnFvNlhhSXEybENwcFo5Q3UtbGxXc18xSUplaEJVSXluOWJOX2JPajFRZUQyZw?oc=5
+Decoded successfully to: https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Cisco ISE is under active attack via CVE-2026-76460, a CVSS 10.0 flaw that lets unauthenticated attackers bypass the web management interface entirely. As detailed by The Hacker News (https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html), this grants root-level command execution, making log tampering highly likely. Given the lack of workarounds, are you auditing your ISE access logs for suspicious usernames right now?
+  - Image Prompt: A minimalist, flat-vector editorial illustration depicting a complex network node structure with one central hub glowing in a warm, urgent amber color, contrasting with cool slate-blue peripheral nodes. The central hub has a subtle, abstract crack or gap in its geometric shape, symbolizing a bypass or breach. The background is a clean, off-white canvas with soft, diffuse shadows to create depth. No text, no logos, no binary code, no shields, no padlocks, no hooded figures, no neon green screens. The style is modern, corporate tech concept art, focusing on structural integrity and vulnerability.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%2C%20flat-vector%20editorial%20illustration%20depicting%20a%20complex%20network%20node%20structure%20with%20one%20central%20hub%20glowing%20in%20a%20warm%2C%20urgent%20amber%20color%2C%20contrasting%20with%20cool%20slate-blue%20peripheral%20nodes.%20The%20central%20hub%20has%20a%20subtle%2C%20abstract%20crack%20or%20gap%20in%20its%20geometric%20shape%2C%20symbolizing%20a%20bypass%20or%20breach.%20The%20background%20is%20a%20clean%2C%20off-white%20canvas%20with%20soft%2C%20diffuse%20shadows%20to%20create%20depth.%20No%20text%2C%20no%20logos%2C%20no%20binary%20code%2C%20no%20shields%2C%20no%20padlocks%2C%20no%20hooded%20figures%2C%20no%20neon%20green%20screens.%20The%20style%20is%20modern%2C%20corporate%20tech%20concept%20art%2C%20focusing%20on%20structural%20integrity%20and%20vulnerability.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1789671575/threads_bot/ksokj9ryt7sobwmxajdu.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18115959964933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18098735573456451
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18098735573456451
+Timestamp: 2026-09-17T18:59:51.320258+00:00 UTC
+============================================================
