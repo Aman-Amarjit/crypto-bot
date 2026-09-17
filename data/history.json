@@ -1764,5 +1764,15 @@
     "post_id": "18102774454984753",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-17T08:35:52.264030+00:00",
+    "topic": "dark web leaks",
+    "caption": "Forever Security demonstrated that a single browser extension can hijack AI agents across Chrome, Edge, and Claude by abusing the declarativeNetRequest permission to inject code into trusted vendor pages. As detailed by The Hacker News (https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html), this allows attackers to command the local 'body' of the AI to access files or cameras without user consent. How are you currently isolating extension permissions from core AI agent execution contexts?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a fragmented digital interface where a small, rogue geometric shape injects a command line into a larger, structured neural network hub. The color palette uses deep indigo, slate grey, and sharp electric orange accents to highlight the intrusion point. The composition is clean and modern, focusing on the conceptual breach of trust between a peripheral module and a central processing core, avoiding any human figures or literal hardware representations.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789634140/threads_bot/zr6ktolovsou8zdvwerp.jpg",
+    "post_id": "18094420865540574",
+    "source_url": "",
+    "source_title": ""
   }
 ]
