@@ -303,5 +303,10 @@
     "timestamp": "2026-09-14T15:01:29.872209+00:00",
     "thought": "LockBit affiliates now deploy a custom Rust-based loader to evade static analysis.\n\nThis module establishes persistence by injecting into legitimate processes and disabling security tools before payload execution. It relies on in-memory decryption to avoid writing the main ransomware binary to disk.\n\nRecent samples show a 94% detection evasion rate against major EDRs, so how are you currently detecting Rust-based loaders?",
     "post_id": "17908086012306035"
+  },
+  {
+    "timestamp": "2026-09-17T13:29:52.759333+00:00",
+    "thought": "The Target breach exposed how third-party credentials can bypass network segmentation. A single compromised HVAC vendor account allowed attackers to pivot into the corporate LAN and access POS systems. This highlights the critical need for strict isolation between OT and IT environments. The incident resulted in 40 million credit cards being stolen. How many of your vendor accounts still have direct LAN access?",
+    "post_id": "18103619513191557"
   }
 ]
