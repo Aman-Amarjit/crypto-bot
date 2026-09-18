@@ -413,5 +413,10 @@
     "timestamp": "2026-09-17T16:56:38.735534+00:00",
     "question": "When shifting left with dependency scanning in CI/CD, how do you balance the signal-to-noise ratio of CVE alerts against the operational reality of patching transitive dependencies in polyglot monorepos without introducing brittle, version-pinning coupling that accelerates technical debt?",
     "post_id": "17988591303110824"
+  },
+  {
+    "timestamp": "2026-09-18T16:21:22.518348+00:00",
+    "question": "When implementing fine-grained RBAC in a microservices architecture, how do you balance granular permission checks with the latency overhead of validating complex multi-tenant scopes at the API gateway versus within the service boundary?",
+    "post_id": "18088351772240643"
   }
 ]
