@@ -1794,5 +1794,15 @@
     "post_id": "17954064459249910",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-18T18:24:59.573369+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "The most dangerous deepfake frauds don't rely on photorealistic video, but on subtle audio artifacts that bypass human auditory processing. As detailed by Wired (https://www.wired.com/story/deepfake-audio-fraud), attackers exploit the lack of spectral continuity in synthesized speech to mimic trusted executives during urgent wire transfers. How are you currently validating the spectral integrity of voice communications in your incident response protocols?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a split audio waveform. The left side is a smooth, organic blue curve representing authentic human speech, while the right side fractures into jagged, geometric red shards indicating synthetic manipulation. The background is a clean, off-white canvas with subtle grid lines, emphasizing the technical divergence between real and generated sound without using any text or generic security icons.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789755886/threads_bot/jb46ksxyloecw7q5uhbn.jpg",
+    "post_id": "18128081200692582",
+    "source_url": "",
+    "source_title": ""
   }
 ]
