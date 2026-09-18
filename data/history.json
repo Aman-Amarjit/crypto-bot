@@ -1784,5 +1784,15 @@
     "post_id": "18098735573456451",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-18T08:11:28.535172+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "The debate over rogue AI agents is no longer just a theoretical cybersecurity risk; it has become a live-fire policy conflict at Dreamforce. While Anthropic\u2019s CEO urged industry leaders to 'pace the frontier' following internal resignations over self-improving system risks, Nvidia\u2019s Jensen Huang dismissed the need for regulation, framing safety as a solvable engineering problem. As documented by Wired (https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/), how do you architect containment boundaries for autonomous agents when the industry refuses to agree on baseline safety standards?",
+    "image_prompt": "A minimalist, high-contrast editorial illustration featuring two abstract geometric figures facing each other across a fractured digital plane. One figure is composed of rigid, cool blue circuit-like segments, while the other is a fluid, warm orange organic shape. Between them, a single, sharp red line represents a breaking point or decision boundary. The background is a clean, matte off-white with subtle grid lines, evoking a modern tech conference atmosphere without using generic hacker tropes or glowing shields. The style is flat vector art with sharp edges and a sophisticated, corporate-tech color palette.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789719076/threads_bot/q2dq0uqoztwjf95dhcwq.jpg",
+    "post_id": "17954064459249910",
+    "source_url": "",
+    "source_title": ""
   }
 ]
