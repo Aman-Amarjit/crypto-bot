@@ -1814,5 +1814,15 @@
     "post_id": "17877354510553030",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-19T13:06:54.763908+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The most persistent LLM jailbreaks don't rely on clever prompts but on the model's inability to distinguish between system instructions and user data. By injecting adversarial tokens that mimic internal control characters, attackers can bypass safety filters without triggering standard keyword detection. As detailed in recent security research (https://example.com/llm-jailbreak-analysis), how are you structuring your input sanitization to handle multi-turn context poisoning?",
+    "image_prompt": "A minimalist flat-vector illustration of a fragmented digital brain structure, where one section is visibly cracked and leaking abstract geometric shapes, symbolizing a logic bypass. The color palette features deep indigo, slate grey, and sharp electric orange accents to highlight the vulnerability. The style is clean, modern editorial concept art with soft shadows and no text, avoiding generic hacker tropes or binary code rain.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789823203/threads_bot/a8c9ghi8dxsyq4hvrvpk.jpg",
+    "post_id": "17871042297636484",
+    "source_url": "",
+    "source_title": ""
   }
 ]
