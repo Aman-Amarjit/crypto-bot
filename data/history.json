@@ -1824,5 +1824,15 @@
     "post_id": "17871042297636484",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-19T18:03:04.620499+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "Cisco's ISE zero-day CVE-2026-76460 is a 10/10 CVSS nightmare because it bypasses API authentication to grant root access, effectively letting attackers impersonate the network's own security guard. As detailed by Dark Reading (https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues), this flaw allows intruders to issue fake credentials that other systems will blindly trust. If your identity infrastructure is compromised, how do you validate that the access control decisions coming from your ISE are actually legitimate?",
+    "image_prompt": "A minimalist flat-vector illustration of a central server node acting as a gatekeeper, with a subtle glitch effect where a red, unauthorized data packet slips past the verification checkpoint while legitimate blue packets are processed. The background is a clean, light gray grid, emphasizing the structural integrity of the network architecture. Use a palette of cool blues, stark whites, and a single alarming accent of crimson red to highlight the breach. No text, no logos, no human figures, focusing purely on the abstract flow of data and the moment of authentication failure.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789840972/threads_bot/u4tbxd7po85exdyryjrx.jpg",
+    "post_id": "18049530860804268",
+    "source_url": "",
+    "source_title": ""
   }
 ]
