@@ -418,5 +418,10 @@
     "timestamp": "2026-09-18T16:21:22.518348+00:00",
     "question": "When implementing fine-grained RBAC in a microservices architecture, how do you balance granular permission checks with the latency overhead of validating complex multi-tenant scopes at the API gateway versus within the service boundary?",
     "post_id": "18088351772240643"
+  },
+  {
+    "timestamp": "2026-09-19T15:50:45.777643+00:00",
+    "question": "Have you observed a correlation between the adoption of eBPF-based network visibility tools and the detection of lateral movement in multi-tenant Kubernetes clusters, and are you leveraging this data to refine your zero-trust policy enforcement without introducing unacceptable latency into critical service mesh data paths?",
+    "post_id": "18097514435379349"
   }
 ]
