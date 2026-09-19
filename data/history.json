@@ -1804,5 +1804,15 @@
     "post_id": "18128081200692582",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-19T07:59:53.060434+00:00",
+    "topic": "AI surveillance",
+    "caption": "Three researchers breached OpenAI\u2019s internal GitHub repo in under 72 hours by exploiting a HEIF image processing flaw in Discourse, using Claude Opus 5 to achieve RCE. As detailed by The Verge (https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist), this 'HEIF Heist' cost less than $3,000 in tokens and adapted to multiple targets with minimal effort. Given that AI agents can now automate complex exploit chains so efficiently, how are we redefining the threat landscape for third-party SaaS integrations?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a fragmented, corrupted image file icon shattering into geometric shards, revealing a complex, interconnected network of server nodes behind it. The color palette uses cool slate blues and stark white with subtle amber accents to highlight the breach point. The style is clean, modern editorial tech art, avoiding any human figures, glowing shields, or binary code rain. Focus on the abstract concept of data integrity failure and system penetration.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789804779/threads_bot/rnhg1dr9zvzya1t3k8ah.jpg",
+    "post_id": "17877354510553030",
+    "source_url": "",
+    "source_title": ""
   }
 ]
