@@ -1834,5 +1834,15 @@
     "post_id": "18049530860804268",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-20T08:35:36.779215+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "The 2022 startup data leak exposed how unpatched WordPress plugins on cheap hosting stacks became a vector for mass credential theft. Attackers exploited SQL injection flaws in outdated contact form modules to dump user tables, a pattern documented by The Hacker News (https://thehackernews.com/2022/05/indian-startup-data-breach.html). Given the prevalence of legacy CMS in early-stage Indian tech, are you auditing your dependency trees for known CVEs before scaling?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a fragmented digital landscape. A central, cracked server rack structure is surrounded by floating, translucent geometric shards representing leaked data packets. The color palette uses muted slate blues, soft ambers for warning lights, and clean white negative space. The style is modern editorial concept art, avoiding any glowing shields, padlocks, or binary code rain. Focus on the structural integrity of the infrastructure breaking down into abstract, organized chaos.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789893326/threads_bot/nz03i9wxqvhsdpb4gvcx.jpg",
+    "post_id": "18115149508969301",
+    "source_url": "",
+    "source_title": ""
   }
 ]
