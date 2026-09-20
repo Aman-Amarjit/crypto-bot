@@ -1844,5 +1844,15 @@
     "post_id": "18115149508969301",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-20T18:11:37.970549+00:00",
+    "topic": "Digital India cybersecurity",
+    "caption": "The FCC's ban on foreign-made consumer routers isn't just a hardware block; it's a direct response to Volt, Flax, and Salt Typhoon attacks that exploited edge network gaps. As Wired (https://www.wired.com/story/us-government-foreign-made-router-ban-explained/) notes, manufacturers like Asus now face Conditional Approval requirements to sell new devices. How are you validating the firmware supply chain for your home lab routers?",
+    "image_prompt": "A minimalist flat-vector illustration of a global supply chain network where a central router node is being scanned by a translucent, geometric audit beam. The background features a muted palette of slate blue and warm amber, with subtle hexagonal patterns representing data packets flowing through a secure gateway. The style is clean, modern editorial concept art, focusing on the intersection of physical hardware and digital verification processes without any text or logos.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1789927886/threads_bot/lnbo2wpidze51cexhakm.jpg",
+    "post_id": "18170984641456995",
+    "source_url": "",
+    "source_title": ""
   }
 ]

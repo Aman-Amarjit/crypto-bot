@@ -28193,3 +28193,51 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-20T17:00:54.586398+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-20T18:11:16.756630+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxQWHQ4RGcyck90MElrbWcySDBUMGd1NEFoeUNyWDd2Q2twMGtGTXNveG9WUVlqYVNTVHRHUGo1SjhuTUZGcG9oRlBzTEdYR01TeDNidkVsQ1laYUZORU9BOUJMRy1NN2dnR1Jfcm01d1lqclZyQzBnV1N2M1Q0VmYyTm13?oc=5
+Decoded successfully to: https://www.wired.com/story/us-government-foreign-made-router-ban-explained/
+Successfully retrieved 1 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://www.wired.com/story/us-government-foreign-made-router-ban-explained/
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1038. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ❌ Failed (attempt 2/3). Issues:
+  - The caption states the devices were linked to 'Volt and Salt Typhoon attacks', omitting 'Flax' which is explicitly listed in the source text alongside Volt and Salt Typhoon as the cyberattacks involving foreign-made routers. While not necessarily a fabrication, the omission creates an incomplete factual representation of the specific attacks cited in the source.
+  - The caption claims the ban is 'less about blocking hardware and more about forcing a supply chain audit'. The source describes the ban as requiring FCC approval for new routers and allowing Conditional Approval for 18 months, but does not characterize the primary intent as a 'supply chain audit'. This is an interpretive claim not supported by the specific factual details in the provided text.
+  [FactChecker] Running fact-check on attempt 3...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The FCC's ban on foreign-made consumer routers isn't just a hardware block; it's a direct response to Volt, Flax, and Salt Typhoon attacks that exploited edge network gaps. As Wired (https://www.wired.com/story/us-government-foreign-made-router-ban-explained/) notes, manufacturers like Asus now face Conditional Approval requirements to sell new devices. How are you validating the firmware supply chain for your home lab routers?
+  - Image Prompt: A minimalist flat-vector illustration of a global supply chain network where a central router node is being scanned by a translucent, geometric audit beam. The background features a muted palette of slate blue and warm amber, with subtle hexagonal patterns representing data packets flowing through a secure gateway. The style is clean, modern editorial concept art, focusing on the intersection of physical hardware and digital verification processes without any text or logos.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20of%20a%20global%20supply%20chain%20network%20where%20a%20central%20router%20node%20is%20being%20scanned%20by%20a%20translucent%2C%20geometric%20audit%20beam.%20The%20background%20features%20a%20muted%20palette%20of%20slate%20blue%20and%20warm%20amber%2C%20with%20subtle%20hexagonal%20patterns%20representing%20data%20packets%20flowing%20through%20a%20secure%20gateway.%20The%20style%20is%20clean%2C%20modern%20editorial%20concept%20art%2C%20focusing%20on%20the%20intersection%20of%20physical%20hardware%20and%20digital%20verification%20processes%20without%20any%20text%20or%20logos.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1789927886/threads_bot/lnbo2wpidze51cexhakm.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18116376682933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18170984641456995
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18170984641456995
+Timestamp: 2026-09-20T18:11:37.972424+00:00 UTC
+============================================================
