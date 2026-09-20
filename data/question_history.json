@@ -423,5 +423,10 @@
     "timestamp": "2026-09-19T15:50:45.777643+00:00",
     "question": "Have you observed a correlation between the adoption of eBPF-based network visibility tools and the detection of lateral movement in multi-tenant Kubernetes clusters, and are you leveraging this data to refine your zero-trust policy enforcement without introducing unacceptable latency into critical service mesh data paths?",
     "post_id": "18097514435379349"
+  },
+  {
+    "timestamp": "2026-09-20T16:01:07.386616+00:00",
+    "question": "When migrating legacy monoliths to microservices, how do you effectively manage service mesh mTLS secrets to prevent the proliferation of compromised keys without introducing significant latency into the critical path of inter-service communication?",
+    "post_id": "17882798871511165"
   }
 ]
