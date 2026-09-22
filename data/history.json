@@ -1854,5 +1854,15 @@
     "post_id": "18170984641456995",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-22T08:29:18.579361+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "India's financial regulators, RBI and SEBI, are tightening the screws on third-party API security, a move that feels like a direct response to the systemic fragility exposed by Heartbleed. That 2014 OpenSSL flaw didn't just leak keys; it proved that a single buffer over-read in a shared library could silently exfiltrate session tokens across entire banking infrastructures. As detailed by The Hacker News (https://thehackernews.com/2014/04/heartbleed-bug-in-openssl.html), how are you currently isolating your core banking APIs from shared dependency vulnerabilities?",
+    "image_prompt": "A minimalist flat-vector illustration of a massive, intricate financial data pipeline constructed from translucent glass tubes. Inside the tubes, red liquid pulses erratically, symbolizing a data leak, while a rigid, dark metallic grid structure attempts to contain the flow. The background is a clean, light grey with subtle geometric shadows, emphasizing the tension between fluid data and rigid regulatory containment. No text, no logos, no glowing shields, no binary code.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790065747/threads_bot/qnkxgepl4ctiwvx3sjb2.jpg",
+    "post_id": "18076137869416677",
+    "source_url": "",
+    "source_title": ""
   }
 ]
