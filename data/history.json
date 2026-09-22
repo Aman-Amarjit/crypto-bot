@@ -1864,5 +1864,15 @@
     "post_id": "18076137869416677",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-22T18:56:14.597807+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "BigCommerce merchants are facing a data breach stemming from third-party Ribon apps, highlighting how supply chain integrations often become the weakest link in e-commerce security. As reported by Google News (https://news.google.com/rss/articles/CBMisgFBVV95cUxOMWViaUxJZlo1Z3RjOWphNjh5emU1bFJfSTREWUlPdVRBQm5NbHV4VWhMR0VLZE15Y0VVMFByRjUzRUdyX3Rxc08teGh3am53bnJwa0l6ODZNSk9NM2NqbFNUY3NqWTBoMl9XRlRfR3dHOUUta3dWZmlETi1lR2hDNF84WHc0amNSMkZnUVFGWlgzZVJYc3RyaHBCUURtUkxDeTVJSGZnLTl3UmZ5TFJxVnVn0gG3AUFVX3lxTE5UOThfMUxGUDhZRjFKTGhoQm9QNmptTXk3MlhxeTdwZGN5d005d0VBTmg2c3c4OW1PT0FlQV83SVpGTWE3ZTQtYXVtMTNPVkJBRmVtX1FlODVvbFlMa3VoaXlSWUVWZFhiTnA3V0l5ZjlfeDlRSDZwMmNMNWxCRmstdm5fOTJ4ODNTcEFtTDRka0tRWXVabnlIYXkwVDJGczZfU1V0TDBKZVYzRGQ3U2U3T1IyV2ZpOA?oc=5), this incident underscores the critical need for rigorous API permission auditing. How are you currently validating the data access scopes of your connected third-party applications?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a complex e-commerce ecosystem. A central, sturdy hexagonal node representing a secure platform is connected by thin, translucent lines to several smaller, irregularly shaped nodes representing third-party apps. One specific connection line is fractured and leaking small, abstract data particles into the surrounding space, visualizing a breach. The color palette uses deep slate blues and soft grays for the secure elements, with a stark, warm amber glow emanating from the fracture point to indicate the leak. The background is a clean, off-white gradient, emphasizing the structural integrity of the main node versus the vulnerability in the peripheral connections. No text, logos, or generic security icons like shields or padlocks are present.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790103361/threads_bot/ftpjj6u5azdzw4lotvzq.jpg",
+    "post_id": "18380144290239980",
+    "source_url": "",
+    "source_title": ""
   }
 ]
