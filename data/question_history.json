@@ -433,5 +433,10 @@
     "timestamp": "2026-09-21T18:11:55.643498+00:00",
     "question": "How are you structuring your eBPF-based network policies to effectively mitigate Lateral Movement within a Kubernetes cluster while maintaining sub-millisecond overhead for high-throughput microservice communication?",
     "post_id": "18100119296210973"
+  },
+  {
+    "timestamp": "2026-09-22T16:53:55.272130+00:00",
+    "question": "How are you validating the integrity and provenance of eBPF programs loaded into your production kernels? Specifically, what steps do you take to ensure that third-party observability tools or network plugins cannot write to sensitive kernel memory regions or escalate privileges via crafted bytecode, and how do you audit the verifier's rejection logs to prevent silent bypasses during deployment?",
+    "post_id": "18461201521184920"
   }
 ]
