@@ -1884,5 +1884,15 @@
     "post_id": "17920781541224293",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-23T14:13:01.189231+00:00",
+    "topic": "hacking incidents",
+    "caption": "Anthropic just shipped Claude Opus 5.5, tightening its guardrails specifically for cybersecurity tasks. As noted in this Google News roundup (https://news.google.com/rss/articles/CBMinwFBVV95cUxQVDNTSkNCdjRXSUVQQzc4LWtrblRKM3p6N1RvMk9UQTRfamFBMy1UelVxdjRGX3hRSlpTYmFDa1piM2FKT3lfdFlGdXZ0YmoyOURoRzBvM3hYRnp4elUzX2ZqYURxbEJWSjVCY1hWWHhVSTFWZjd3VkJGRlNkWXk3N3pYWWFHbVItLVA1RmJPOUoyblZ0dGp2aWF4QVJMZlk?oc=5), the model now restricts certain offensive capabilities. How do you balance LLM utility with these new safety constraints in your red-team workflows?",
+    "image_prompt": "A minimalist flat-vector illustration of a large, intricate mechanical gear system where one specific gear is wrapped in a translucent, amber-colored containment field. The background is a soft, neutral off-white with subtle geometric grid patterns. The style is clean, modern editorial tech art, using a palette of slate grey, muted teal, and warm amber. No text, no logos, no glowing effects, no binary code. Focus on the tension between mechanical complexity and controlled containment.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790172768/threads_bot/t48cc3pjksr7ihi6it48.jpg",
+    "post_id": "17896650528606893",
+    "source_url": "",
+    "source_title": ""
   }
 ]
