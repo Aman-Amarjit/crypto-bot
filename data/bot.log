@@ -28666,3 +28666,53 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-22T19:13:55.907743+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-23T08:30:30.321495+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'government cyber regulations'
+Requesting content generation for topic: 'government cyber regulations'...
+Fetching latest news headlines from Google News for query: 'government cyber regulations (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSTZGUWVZc3JBU1RNc2FkazBlNjg3RVNuTk1fQ3hmOHRpb2hEWVZJUUhwc2pZNmkwalprLU01U1Rud3BQemdCWFY2THE0bnNoTTNZVzNUR3dBbWFYeE82VGJ0SXZNY3R2bnFtNjR3UEtKWDZVZGdZWTJBbmpYX2xoU05UOTNMbThX?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMimgFBVV95cUxQdlp3bi00azFvT0RwVUNJY2FGVFFFcE1YM3lET1YwZ3dac3N2MWRPSmR6dkJfLVJEdUl6aVQ5ZnVoVEpoVEdITmpzNlJyVXduUkhLalYyS19HQnBCTTBkNFYwNExka3pGZE8zSmxFSkN3RkJscFNBallfVDF4ZnZmc2V6dGsyMmptWVBMMURqNzNBbmsxUE1DeW1n?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxNZmE4VUk0RHllUjhxcFVNTmJ1dFR6a3FFd3ZIUzJPb1R6c3lxZXNfYUVkTW1Xd2locGV1NkNGYlotN2tObkJhbFluVnhHSVZ5emgzMVpTRTFzeTFtOFZnc2Nua19LWlQ4VzVYdFFsY193bnJJU1RteFRRZUthWm91MnpFdGcyTWtfalNzbkdrV01UX3NkM3ZhZmg0Ymp0cFBrLTd2N0l4ZGRYODROd1A5WHdn0gG3AUFVX3lxTE5uZlNXQkNJdTVSaUVxSFQwWGtLTm5hMUhkYmN2Q1hTNHM2ZXJyWVc0R0lIU1E5ZFBDdkJyYjZCVVgxZUpMRzUwMnNUMG5tMmNRMnB0QVpVUWdSWmpHMGgxWUd2dy1mck5RazdsT3YtcUIxc2lSQ29NUVItc2F2UkxIZF85aFBoUmctSl91UTBYRkpRZF9KdVdIamEtbTQxVHhGUTY0VUhOTGE2X3VGLVI3TGVRQUthQQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisAFBVV95cUxOZE11NjRWeWtzdDBRTkVTNWpRV0k2bFliSHotaVVyVXBXcFVGelVEQko1UFBJdmo1dzZKWEdFOHFvVTBiWGxob1RFcF9OWlNBak1ZQXhCWTZwdEdiVVd1WVRUV0Q0bGd1dkIwN3BQQnAweV9CRzRFUDBKNnktbjgzNHg5MmRBb2xBUHcwZXdaLVNnM1NvYVJTc0l1U1gxbUdnbUdzSUJaNHNfaVV1VWpUSdIBtgFBVV95cUxOVzlQbDhrQV83UHVRUDJTTVVkQjBQTXhhSVMxUjRYU050ZUp6U09nU1NoMWFYNGhhVkp3UnotVXY3U3Z6STJBbVp3QUJQQ2JsQ0lvcm82bVlLbElQaTYycWU4SzhKVFFFV0dhZHFXbHdwb0s3bmc4X0lqTmV5Z1VGX24wSzdMRXJycVZfSFItOHphdktvVjBmaHdjcVBKU29aQXpJRlNoU0JMcHhoNldBV01IZjUyUQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVE5pek9IQ1VTbnJ4ZDBYZ0NKTXB0YkQ5Q1IyX2Q0azVGZXNDVkV4ZnFva21HMW1VTnB0MDhrNG9RV2RmeHFsMlg5UC1fR0ZVZFRfOGdnX1p6LVUtVmtmQmEtbk9jZUhDWTVPSG5zd05SVE9CWUFCYUZ3Zi0wdmdiUFJTNmVpWS1jX3h6enVZSmhVaGJTaEJLMmkxVFhtUzZ0cTBVa2pmN0VLMjVrX0JtX2ZTLUF2b2VM0gG-AUFVX3lxTFAwcHFId01laGhvQ2ZPb1liZ19nSHM5bEdLal9qbllWNEFhdnRPMkFvcWRsQkJTVi1xY2VwTzZkQ2JJZWJSU1ZlVV9nS2NmN3lhbXRqRzBWSFh5SHZzZEpBRUl6VTNwZTBheE83QU1QcTRadzI1Q2ZQMjRtcjJYZHg4OG1YMEpaYmZTeTBDV0ZlSkdISkpDVkdJYWRKUVVDbzZIRjZfSW54dmUwUzVDQzFzTmVkOXVMTF9oNW1kWkE?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSTZGUWVZc3JBU1RNc2FkazBlNjg3RVNuTk1fQ3hmOHRpb2hEWVZJUUhwc2pZNmkwalprLU01U1Rud3BQemdCWFY2THE0bnNoTTNZVzNUR3dBbWFYeE82VGJ0SXZNY3R2bnFtNjR3UEtKWDZVZGdZWTJBbmpYX2xoU05UOTNMbThX?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: San Francisco is suing Trump Media over the sale of early access to presidential posts, a move that blurs the line between social media and state communication. As detailed in this report (https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSTZGUWVZc3JBU1RNc2FkazBlNjg3RVNuTk1fQ3hmOHRpb2hEWVZJUUhwc2pZNmkwalprLU01U1Rud3BQemdCWFY2THE0bnNoTTNZVzNUR3dBbWFYeE82VGJ0SXZNY3R2bnFtNjR3UEtKWDZVZGdZWTJBbmpYX2xoU05UOTNMbThX?oc=5), this legal challenge targets the monetization of government-adjacent content. How do you view the intersection of commercial platforms and public information dissemination?
+  - Image Prompt: A minimalist flat-vector illustration depicting a digital handshake between a stylized government building icon and a social media notification bell, rendered in cool slate blues and warm amber accents. The composition uses clean geometric shapes to represent the tension between public authority and private commercial interests, avoiding any text or logos. The background is a soft gradient of light gray to white, emphasizing the central interaction with subtle depth and modern editorial aesthetics.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20digital%20handshake%20between%20a%20stylized%20government%20building%20icon%20and%20a%20social%20media%20notification%20bell%2C%20rendered%20in%20cool%20slate%20blues%20and%20warm%20amber%20accents.%20The%20composition%20uses%20clean%20geometric%20shapes%20to%20represent%20the%20tension%20between%20public%20authority%20and%20private%20commercial%20interests%2C%20avoiding%20any%20text%20or%20logos.%20The%20background%20is%20a%20soft%20gradient%20of%20light%20gray%20to%20white%2C%20emphasizing%20the%20central%20interaction%20with%20subtle%20depth%20and%20modern%20editorial%20aesthetics.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1790152235/threads_bot/bz3m4a0pqhdlkz1t2b7u.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (594) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18116709139933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17920781541224293
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17920781541224293
+Timestamp: 2026-09-23T08:30:45.789511+00:00 UTC
+============================================================
