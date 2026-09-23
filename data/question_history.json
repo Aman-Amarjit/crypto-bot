@@ -438,5 +438,10 @@
     "timestamp": "2026-09-22T16:53:55.272130+00:00",
     "question": "How are you validating the integrity and provenance of eBPF programs loaded into your production kernels? Specifically, what steps do you take to ensure that third-party observability tools or network plugins cannot write to sensitive kernel memory regions or escalate privileges via crafted bytecode, and how do you audit the verifier's rejection logs to prevent silent bypasses during deployment?",
     "post_id": "18461201521184920"
+  },
+  {
+    "timestamp": "2026-09-23T16:53:23.429357+00:00",
+    "question": "When implementing zero-trust network access for microservices, how do you handle the operational overhead of mutual TLS certificate rotation without introducing a single point of failure in your service mesh control plane?",
+    "post_id": "17945756880319818"
   }
 ]
