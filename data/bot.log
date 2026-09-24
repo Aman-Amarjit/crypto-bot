@@ -28929,3 +28929,58 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-23T19:27:16.242814+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-24T08:23:02.440132+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'cyber warfare'
+Requesting content generation for topic: 'cyber warfare'...
+Fetching latest news headlines from Google News for query: 'cyber warfare (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxPQzg1M1c4YnNFX041RzkzRC1EbmszZHByanFXUGVOTEppZGxfZklLdnBVMHBuckJzckpOTmRhR252VUlvQ1J0a25nVzlySFpkRkROMDNhZnJycXo4czY5QVptUkJHOG5FS2QtZmwwUU8xNXB0M180QWRBbjRZSllubFBqSQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTzU1SWR0Y0gyS1NtamFFeTdQUDBENGR0MlBnMFZMQnctbTk4RXV2d2wyOXg4S09Ub2c1c1RpbzN2RnhkZkhobGdidWNCOW5rNFVKamE5TzJqZlBwaDRxOGZhaWJsaUhRUmkweXlfaWg4U3BZMzVnR2RvVTFaWld2UzFuNDlEeE9CN0ZXS1dwclc0bWR2V2x5ZnA5OGJTekwtV3BPQ2l4Z3R3UXdnYlBCbE9qTFlLSWw20gG-AUFVX3lxTFAtZ1g1blZmZGVaT2NOQ2JxNFZoSlFSVTJveHVuWnlxVDBaaWV0WGlFdXo4SmpXa2hBVVIxOVAtdTBmemhmWGRmc0RveTFDUnpyajM3aWp6MzJXRzBJLTRqN3JNcGI5WERiY1JkSkZnLUMwMXdaSVNIR0VJZ1VsaTA1TkhySm5ydjZhX3h4c0VnS1Z4ajBXeGZSTHd6aHBFX1pzZWlUVUptRmliQThHN0hQdldtVVRYWXZoSTN5MFE?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE9Qa25aWnd6RXJnWEI2RFd4YXM5V1JXTTdrMGg1dEZZOVVyS0lyQnpFZFVGaDB4X2VfWjhvRS1JNmdnNms3U1hKMGhnb0xmekcwUEtBc3N5aWtQZ1pEWHQ0S3lZNGlpbGFjVGI1c3ZxMk4zR01QZkJNQWwxRG51WTg?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMizAFBVV95cUxQcUtOaU1rRkxyMzV0UEZ3MzBlX3VMc1lyN2JPSHFSUFZZa1RWRkdwTzlmdHFBYjNFRFUxdy13MzdwMElEY2pST01ZcnBGaE96emNlRmRHSkpZdlFlUlhYeFd2ekU2MnUxNXlmWW5qc0dERWpOZFc2ejI4RWZQemJBRjhZYzkzcU01aEVhcTZxSVAzU0lPYWNWQjFCVnNuMnE2XzhiWFZmR1F6MEZWVjBxZkRTWm42cHc2RUJBXy1OaWhadWNTUktvN2NXOUw?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiugFBVV95cUxPaXQtZUpLbjNtcC1HNm4xYjd0Y0pKM1BoYkpXNHFKd0R5OElyLWotMVJNcXJfQXZ5QzQ3OHZXaTFQRXVDd1RUaFJDbnRRMEZZdmlQM2FqU0lvSDJNYVAtblUtemRpREdOUTNxS3ZsclNJZmxJTGNZOXlVTG9LcFNYd1p3cnY0ak5fT2NENWxDakhQeFlRc0hMWUdCNEJDc2Z2cTFCNUp1eFZOR2tQcEwzeTdnV0NndmQwTUE?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxPQzg1M1c4YnNFX041RzkzRC1EbmszZHByanFXUGVOTEppZGxfZklLdnBVMHBuckJzckpOTmRhR252VUlvQ1J0a25nVzlySFpkRkROMDNhZnJycXo4czY5QVptUkJHOG5FS2QtZmwwUU8xNXB0M180QWRBbjRZSllubFBqSQ?oc=5
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1191. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1193. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 3...
+  [FactChecker] ❌ Failed (attempt 3/3). Issues:
+  - ATTRIBUTION: The caption omits the specific threat actor 'Chinese Hackers' identified in the source headline, attributing the attack only to a generic 'sophisticated zero-day chain' without naming the responsible group.
+  - FABRICATED STATS/CLAIMS: The caption claims the tactic 'bypasses traditional perimeter defenses by exploiting trusted browser-to-OS trust boundaries.' This specific technical mechanism and the claim about perimeter defense bypass are not present in the provided source headline, which only states the exploit chain deploys CLEANGULP malware.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+Caption failed fact-checking after 3 attempts. Final issues:
+  - ATTRIBUTION: The caption omits the specific threat actor 'Chinese Hackers' identified in the source headline, attributing the attack only to a generic 'sophisticated zero-day chain' without naming the responsible group.
+  - FABRICATED STATS/CLAIMS: The caption claims the tactic 'bypasses traditional perimeter defenses by exploiting trusted browser-to-OS trust boundaries.' This specific technical mechanism and the claim about perimeter defense bypass are not present in the provided source headline, which only states the exploit chain deploys CLEANGULP malware.
+
+Caption was:
+A sophisticated zero-day chain linking Chrome and Windows is currently deploying CLEANGULP malware, a tactic that bypasses traditional perimeter defenses by exploiting trusted browser-to-OS trust boundaries. As documented by Google News (https://news.google.com/rss/articles/CBMigwFBVV95cUxPQzg1M1c4YnNFX041RzkzRC1EbmszZHByanFXUGVOTEppZGxfZklLdnBVMHBuckJzckpOTmRhR252VUlvQ1J0a25nVzlySFpkRkROMDNhZnJycXo4czY5QVptUkJHOG5FS2EtZmwwUU8xNXB0M180QWRBbjRZSllubFBqSQ?oc=5), this cross-platform exploit highlights how deeply integrated modern operating systems are. How are you currently isolating browser processes from core system privileges to mitigate such chained exploits?
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 250, in generate_content
+    raise ValueError(
+ValueError: Caption failed fact-checking after 3 attempts. Final issues:
+  - ATTRIBUTION: The caption omits the specific threat actor 'Chinese Hackers' identified in the source headline, attributing the attack only to a generic 'sophisticated zero-day chain' without naming the responsible group.
+  - FABRICATED STATS/CLAIMS: The caption claims the tactic 'bypasses traditional perimeter defenses by exploiting trusted browser-to-OS trust boundaries.' This specific technical mechanism and the claim about perimeter defense bypass are not present in the provided source headline, which only states the exploit chain deploys CLEANGULP malware.
+
+Caption was:
+A sophisticated zero-day chain linking Chrome and Windows is currently deploying CLEANGULP malware, a tactic that bypasses traditional perimeter defenses by exploiting trusted browser-to-OS trust boundaries. As documented by Google News (https://news.google.com/rss/articles/CBMigwFBVV95cUxPQzg1M1c4YnNFX041RzkzRC1EbmszZHByanFXUGVOTEppZGxfZklLdnBVMHBuckJzckpOTmRhR252VUlvQ1J0a25nVzlySFpkRkROMDNhZnJycXo4czY5QVptUkJHOG5FS2EtZmwwUU8xNXB0M180QWRBbjRZSllubFBqSQ?oc=5), this cross-platform exploit highlights how deeply integrated modern operating systems are. How are you currently isolating browser processes from core system privileges to mitigate such chained exploits?
