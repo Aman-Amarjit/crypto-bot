@@ -1914,5 +1914,15 @@
     "post_id": "17960151405214095",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-24T19:06:22.535154+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "Modern EDR evasion is getting scary specific, with attackers now chaining process injection techniques to slip past behavioral detection entirely. This 'evasion stack' likely abuses legitimate OS APIs to mask malicious payloads, rendering traditional signature-based defenses useless. As detailed in this Google News report (https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNi1oeGNLbTI3QmhVTE55OE5JRWhidDVmbTl2UHlwTkZDak9sbEU5bmxKeEZIM0xVOFNzS2pQUDNMZEVyY3lJV2tFajhQOVVMS3haYXZHM09vOVV0X1JKN2FUZzByZlY2SEdGeENfU3hGUzFreTc0Wi1YdjFMLTJVdmlsR3ZhVGF6QkYwOFJaZXlJMUNWb0VwQ1JsVEJkVXRJeHRnXzVBTmF1Zw?oc=5), how are you validating that your EDR actually catches process hollowing in real-time?",
+    "image_prompt": "A minimalist, isometric 3D illustration of a digital process tree where one node is subtly hollowed out, revealing a dark, void-like core. The surrounding nodes are solid, matte white and light grey, while the hollow node has a faint, warm amber glow emanating from its center. The background is a clean, soft off-white with subtle geometric grid lines. The style is premium editorial tech art, focusing on structural integrity and hidden flaws, avoiding any glowing shields, locks, or binary code. High contrast, sharp edges, professional lighting.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790276769/threads_bot/o5wipj1hposxgr4znot3.jpg",
+    "post_id": "17921724132429610",
+    "source_url": "",
+    "source_title": ""
   }
 ]

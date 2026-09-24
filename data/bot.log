@@ -29103,3 +29103,53 @@ Daily Question Posted Successfully!
 Post ID: 17920697856438252
 Timestamp: 2026-09-24T17:06:52.138810+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-24T19:06:03.742247+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI used for cyberattacks'
+Requesting content generation for topic: 'AI used for cyberattacks'...
+Fetching latest news headlines from Google News for query: 'AI used for cyberattacks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNi1oeGNLbTI3QmhVTE55OE5JRWhidDVmbTl2UHlwTkZDak9sbEU5bmxKeEZIM0xVOFNzS2pQUDNMZEVyY3lJV2tFajhQOVVMS3haYXZHM09vOVV0X1JKN2FUZzByZlY2SEdGeENfU3hGUzFreTc0Wi1YdjFMLTJVdmlsR3ZhVGF6QkYwOFJaZXlJMUNWb0VwQ1JsVEJkVXRJeHRnXzVBTmF1Zw?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilwFBVV95cUxQSW9mSjV6WjJ2bWtJUWZlZzl6Z1ZGNE1mZkw3VEcwYms4cVRNMTd5TktKSmtBdi1IMUVtbWNzYlA4NnMwbTdvNUx4ODZEbllndUpkbHpTRVh4TEJiTmM4WHA4bjRDVlB1Z251U0xuWnEwLU1VM2QyaUlnVG45ajdTNG8wY0hTaml3SC10cEpoSFNQSWNmZGFj?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiowFBVV95cUxOT1Y2Si1kbXJzV3ZJODlHVzJ2SlNDcDJNQm90eTNiMUFvS0VDblg4WTBSNFBZYXU2cmE0aUdfNlNGUF9LWl9uU0FEbTIwTTd4eXp4aVNBdnh2M3k2U3IyWWlTZE42R0VLdVUwR0J0OWR4VHhyczd0c0Rhdy1FeE5TRFZ0YjlySWtsRVlIaXJFMDZWTHRYcGdIMUFyc0ttZ1BuTGc4?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxNMm9rOERCRGxLdTJIb1dyVkNTQjNMeWpBemJoc25mSFhTb3ItOUYya0xkb01HNXppWjc1QnUxSG8yOHdiQ1dzNGlwTlQ5QUlDUHRQcEVXcVRvdEMydThIUldkZXBjT254ZHhoZVRxU0tLNEEtWktYaGpWdERQTlExUjZkUjJFcXNmTlpUQWRLLWtaZkVs?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxNdWVRaERJNER5enlpalBucEtXNFZzYWdPZklFSmRqN1ZRSGg3U0Nhd1N5Z1lGbjFYa0FsbE9ua05Da1JXdXRpbGF0TkxBRnVYQVlHZUNZQ0FmRzdBQ09VNUZoY3Q3MEFTUzFRVWNOaHZrS2tIcFQwMnRnczVCS1c4OGFDaF9BQWZtYzlQeG5KWDM5ZDRZ?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNi1oeGNLbTI3QmhVTE55OE5JRWhidDVmbTl2UHlwTkZDak9sbEU5bmxKeEZIM0xVOFNzS2pQUDNMZEVyY3lJV2tFajhQOVVMS3haYXZHM09vOVV0X1JKN2FUZzByZlY2SEdGeENfU3hGUzFreTc0Wi1YdjFMLTJVdmlsR3ZhVGF6QkYwOFJaZXlJMUNWb0VwQ1JsVEJkVXRJeHRnXzVBTmF1Zw?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Modern EDR evasion is getting scary specific, with attackers now chaining process injection techniques to slip past behavioral detection entirely. This 'evasion stack' likely abuses legitimate OS APIs to mask malicious payloads, rendering traditional signature-based defenses useless. As detailed in this Google News report (https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNi1oeGNLbTI3QmhVTE55OE5JRWhidDVmbTl2UHlwTkZDak9sbEU5bmxKeEZIM0xVOFNzS2pQUDNMZEVyY3lJV2tFajhQOVVMS3haYXZHM09vOVV0X1JKN2FUZzByZlY2SEdGeENfU3hGUzFreTc0Wi1YdjFMLTJVdmlsR3ZhVGF6QkYwOFJaZXlJMUNWb0VwQ1JsVEJkVXRJeHRnXzVBTmF1Zw?oc=5), how are you validating that your EDR actually catches process hollowing in real-time?
+  - Image Prompt: A minimalist, isometric 3D illustration of a digital process tree where one node is subtly hollowed out, revealing a dark, void-like core. The surrounding nodes are solid, matte white and light grey, while the hollow node has a faint, warm amber glow emanating from its center. The background is a clean, soft off-white with subtle geometric grid lines. The style is premium editorial tech art, focusing on structural integrity and hidden flaws, avoiding any glowing shields, locks, or binary code. High contrast, sharp edges, professional lighting.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%2C%20isometric%203D%20illustration%20of%20a%20digital%20process%20tree%20where%20one%20node%20is%20subtly%20hollowed%20out%2C%20revealing%20a%20dark%2C%20void-like%20core.%20The%20surrounding%20nodes%20are%20solid%2C%20matte%20white%20and%20light%20grey%2C%20while%20the%20hollow%20node%20has%20a%20faint%2C%20warm%20amber%20glow%20emanating%20from%20its%20center.%20The%20background%20is%20a%20clean%2C%20soft%20off-white%20with%20subtle%20geometric%20grid%20lines.%20The%20style%20is%20premium%20editorial%20tech%20art%2C%20focusing%20on%20structural%20integrity%20and%20hidden%20flaws%2C%20avoiding%20any%20glowing%20shields%2C%20locks%2C%20or%20binary%20code.%20High%20contrast%2C%20sharp%20edges%2C%20professional%20lighting.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1790276769/threads_bot/o5wipj1hposxgr4znot3.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (689) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18116906530933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17921724132429610
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17921724132429610
+Timestamp: 2026-09-24T19:06:22.537088+00:00 UTC
+============================================================
