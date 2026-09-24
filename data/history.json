@@ -1904,5 +1904,15 @@
     "post_id": "18098005442648362",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-24T14:11:21.227513+00:00",
+    "topic": "cyber warfare",
+    "caption": "MikroTik routers are falling to a 'MikroTrick' chain that bypasses password and SSH key authentication entirely, exposing a critical flaw in the device's local trust model. As documented by Google News (https://news.google.com/rss/articles/CBMif0FVX3lxTE9Qa25aWnd6RXJnWEI2RFd4YXM5V1JXTTdrMGg1dEZZOVVyS0lyQnpFZFVGaDB4X2VfWjhvRS1JNmdnNms3U1hKMGhnb0xmekcwUEtBc3N5aWtQZ1pEWHQ0S3lZNGlpbGFjVGI1c3ZxMk4zR01QZkJNQWwxRG51WTg?oc=5), this unauthenticated takeover vector suggests a deep-seated vulnerability in how these devices handle initial session establishment. Are you auditing your edge devices for unauthenticated administrative access paths?",
+    "image_prompt": "A minimalist, isometric vector illustration of a sleek, matte-black network router sitting on a clean white surface. A translucent, geometric red hexagon hovers directly above the router's status LED, symbolizing an unauthorized intrusion or privilege escalation. The background features soft, abstract gradients of cool slate blue and warm amber, creating a modern editorial tech aesthetic. No text, no logos, no binary code, no shields, no padlocks. Focus on clean lines, subtle shadows, and a sense of quiet, high-stakes digital tension.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790259067/threads_bot/hnqwpfpas9iuiewgwoi5.jpg",
+    "post_id": "17960151405214095",
+    "source_url": "",
+    "source_title": ""
   }
 ]
