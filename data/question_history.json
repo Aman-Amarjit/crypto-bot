@@ -448,5 +448,10 @@
     "timestamp": "2026-09-24T17:06:52.138341+00:00",
     "question": "When implementing Zero Trust Network Access, how do you balance the operational friction of continuous device attestation and posture checks against the latency introduced in high-throughput API gateways, and what specific telemetry signals are you prioritizing to distinguish legitimate lateral movement from a compromised session token replay?",
     "post_id": "17920697856438252"
+  },
+  {
+    "timestamp": "2026-09-25T17:06:58.198458+00:00",
+    "question": "When implementing Zero Trust architecture for microservices, how do you handle service-to-service authentication without relying on static API keys? Specifically, are you leveraging SPIFFE/SPIRE for short-lived X.509 certificates, or are you using JWTs with strict audience claims, and what is your strategy for revoking compromised identities in real-time?",
+    "post_id": "18077145884392240"
   }
 ]
