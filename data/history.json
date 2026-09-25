@@ -1934,5 +1934,15 @@
     "post_id": "18631217620009841",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-25T14:35:20.539025+00:00",
+    "topic": "AI surveillance",
+    "caption": "The headline from ThreatsDay (https://news.google.com/rss/articles/CBMifEFVX3lxTE5iRkwzMVBQX291ZTVaMFpva0Rub0dHd2NORUNKazlGUll5bFJPcHBrdGRXU254blFFVXBSbTdwMURySlJFUWMyS2FHdW5iQmlxcjlFenYxWndEWTVnWE5HeFVvRTRUN05lTFZ4NjBKRUZBVzJ0NGRYT2k1WnE?oc=5) highlights a concerning trend where AI coding tools are implicated in leaking repositories. This sits alongside reports of AI search poisoning and one-click code execution vectors, suggesting a broadening attack surface for developer workflows. How are you currently isolating AI-assisted development environments from sensitive internal codebases?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a fragmented digital workspace. A central, semi-transparent cube representing a code repository is dissolving into scattered geometric shards, drifting toward a stylized, abstract neural network node. The color palette uses muted slate blues, soft grays, and a single accent of warning amber to indicate data loss. The style is clean, modern editorial art with sharp edges and no text, focusing on the concept of data integrity breaking down within a tech environment.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790346908/threads_bot/p4z4kcmrn3belpkvnnpn.jpg",
+    "post_id": "18069778013762949",
+    "source_url": "",
+    "source_title": ""
   }
 ]

@@ -29260,3 +29260,61 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-25T14:34:58.084833+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE5iRkwzMVBQX291ZTVaMFpva0Rub0dHd2NORUNKazlGUll5bFJPcHBrdGRXU254blFFVXBSbTdwMURySlJFUWMyS2FHdW5iQmlxcjlFenYxWndEWTVnWE5HeFVvRTRUN05lTFZ4NjBKRUZBVzJ0NGRYT2k1WnE?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMixAFBVV95cUxPT1BRal9pR1NJWElLTXpEREVyMW9GRkpwNzNyNkMxOElxT1NMZTlxSnRPMmxCSDVBcWp2eWc0dzFWVWhZOW5JR1p0M0R1aTd2SlV0c28zTTF4Nlh1RHM1ZFFabTN6MWRSeTBUVW4yQklhRnh2T0k4U0hlSEI3YjNJUXp1VU8tc2NCZEM0MkdyS3dNekhOYWZxb3JmX0xoYVhtd3cxWDIxd2JaRVg0djFQeGc5dmpYYVhWMGdRQ2F3c0dVa3Y4?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlFUTmpyYnlVbjQzbno4WkFaWTRsSTVLVzJLck5mZ0tRZDVZUWI2M1Y4QXhJVzFlZGZ2MXkzdE1wdWdMelNUdC1KbjV4MS1XbDFUMEw0OG1RLTdaOGNwRUR4MkdkazZfbzh4d3ZMLVhPQl9nT2ZVTi1iVDBVeGFIeGJfdlp0YjY3?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMikAFBVV95cUxQLUlocDRhNzlxNkhGV05qcUhkWjk0NUNqZ2JhRTJTYXc5QVpoVjE0UGliWTVnRkIxSGVJdzlEWTMyVVN3dzNZZTVMZHJsUWtxeHZiZnd5Wm04bE1aT01ib0xaUGlHSktuRjZKZTVvYlpmaW96cVNYQkZIeFgyWl9RN2hWd0RZNHBFMDcySGFmaWk?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipgFBVV95cUxPQWdrWnp3aDNiYm9rOUhyZFJHVXZWUDlORVQ3cDl5akpVRTZiZExodTJlOC1YWVpyamJmcVB5LWFUMFE0SW9lRW50RjRHbXdMMVdDdktYUE5EU0NRdWxaRWgwR0EydW81bXB2UHNzdGpsSFhScjdQRXRpdGd5dDd2R2VzUXYwNmRoRm5hWEZvalM3MkIxMkVBd3FDMUhjUzVZRnNYSmt3?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE5iRkwzMVBQX291ZTVaMFpva0Rub0dHd2NORUNKazlGUll5bFJPcHBrdGRXU254blFFVXBSbTdwMURySlJFUWMyS2FHdW5iQmlxcjlFenYxWndEWTVnWE5HeFVvRTRUN05lTFZ4NjBKRUZBVzJ0NGRYT2k1WnE?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - FABRICATED STATS: The caption claims the tool is 'actively leaking private repositories' and 'exfiltrating source code during the generation process'. The source headline only states 'AI Coding Tool Leaking Repos'. It does not specify that the leak is 'active', that it happens 'during the generation process', or that it involves 'exfiltration' (implying malicious intent or specific mechanism) rather than a general leak. The caption adds specific technical mechanisms and intent not present in the provided headline.
+  - SCOPE CREEP: The caption asserts a 'critical shift' and specific technical details about 'sandboxing network egress' and 'silent data exfiltration' which are not supported by the provided headline text. The headline lists the topic but does not provide the technical context or severity assessment ('critical shift') claimed in the caption.
+Groq API Error (429): {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Used 504, Requested 648. Please try again in 9.12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 3...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The headline from ThreatsDay (https://news.google.com/rss/articles/CBMifEFVX3lxTE5iRkwzMVBQX291ZTVaMFpva0Rub0dHd2NORUNKazlGUll5bFJPcHBrdGRXU254blFFVXBSbTdwMURySlJFUWMyS2FHdW5iQmlxcjlFenYxWndEWTVnWE5HeFVvRTRUN05lTFZ4NjBKRUZBVzJ0NGRYT2k1WnE?oc=5) highlights a concerning trend where AI coding tools are implicated in leaking repositories. This sits alongside reports of AI search poisoning and one-click code execution vectors, suggesting a broadening attack surface for developer workflows. How are you currently isolating AI-assisted development environments from sensitive internal codebases?
+  - Image Prompt: A minimalist flat-vector illustration depicting a fragmented digital workspace. A central, semi-transparent cube representing a code repository is dissolving into scattered geometric shards, drifting toward a stylized, abstract neural network node. The color palette uses muted slate blues, soft grays, and a single accent of warning amber to indicate data loss. The style is clean, modern editorial art with sharp edges and no text, focusing on the concept of data integrity breaking down within a tech environment.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20fragmented%20digital%20workspace.%20A%20central%2C%20semi-transparent%20cube%20representing%20a%20code%20repository%20is%20dissolving%20into%20scattered%20geometric%20shards%2C%20drifting%20toward%20a%20stylized%2C%20abstract%20neural%20network%20node.%20The%20color%20palette%20uses%20muted%20slate%20blues%2C%20soft%20grays%2C%20and%20a%20single%20accent%20of%20warning%20amber%20to%20indicate%20data%20loss.%20The%20style%20is%20clean%2C%20modern%20editorial%20art%20with%20sharp%20edges%20and%20no%20text%2C%20focusing%20on%20the%20concept%20of%20data%20integrity%20breaking%20down%20within%20a%20tech%20environment.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1790346908/threads_bot/p4z4kcmrn3belpkvnnpn.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (593) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18117006304933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18069778013762949
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18069778013762949
+Timestamp: 2026-09-25T14:35:20.541015+00:00 UTC
+============================================================
