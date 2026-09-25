@@ -1924,5 +1924,15 @@
     "post_id": "17921724132429610",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-25T08:45:49.808154+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "The most dangerous deepfake frauds don't rely on Hollywood-level video synthesis; they exploit the fundamental lack of cryptographic provenance in standard audio codecs. Attackers now use lightweight GANs to clone a CEO's voice from 30 seconds of public data, bypassing human auditory verification entirely. As detailed in recent forensic analyses (https://www.bleepingcomputer.com), this technique turns a simple phone call into a critical security failure. How is your organization verifying identity beyond just a familiar voice during high-stakes financial approvals?",
+    "image_prompt": "Minimalist flat-vector illustration of a sound wave transforming into a fragmented digital mask, using a palette of muted slate blues, stark white, and urgent amber accents. The composition features abstract geometric shapes representing audio frequencies morphing into a hollow, faceless silhouette. Clean lines, high contrast, no text, no logos, no glowing shields, no binary code, no hacker stereotypes. Focus on the conceptual shift from organic sound to synthetic deception.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790325936/threads_bot/vzv2ziqb2z3bh9zrscqh.jpg",
+    "post_id": "18631217620009841",
+    "source_url": "",
+    "source_title": ""
   }
 ]
