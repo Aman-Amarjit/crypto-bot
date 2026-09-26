@@ -453,5 +453,10 @@
     "timestamp": "2026-09-25T17:06:58.198458+00:00",
     "question": "When implementing Zero Trust architecture for microservices, how do you handle service-to-service authentication without relying on static API keys? Specifically, are you leveraging SPIFFE/SPIRE for short-lived X.509 certificates, or are you using JWTs with strict audience claims, and what is your strategy for revoking compromised identities in real-time?",
     "post_id": "18077145884392240"
+  },
+  {
+    "timestamp": "2026-09-26T16:19:32.275568+00:00",
+    "question": "When implementing zero-trust architecture for Kubernetes clusters, how do you balance the operational overhead of dynamic mTLS certificate rotation with the requirement for automated, short-lived workload identities to prevent lateral movement in case of a compromised microservice?",
+    "post_id": "17966025204192263"
   }
 ]
