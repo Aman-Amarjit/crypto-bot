@@ -1954,5 +1954,15 @@
     "post_id": "18389623564167378",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-26T08:32:11.308408+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "Contextualizing alerts before they hit the analyst queue is the real bottleneck in modern SOC operations. Instead of treating every trigger as a fresh incident, we need to build logic that recognizes recurring patterns and suppresses noise at the source. As discussed in this piece (https://news.google.com/rss/articles/CBMigwFBVV95cUxOMjg0Y1FFT29iYTBzSzBidXRDcXdDUW1GdWREUzkwejdYVEdRUHFmdUVlSFo1SUM2bVo2YzJySDdsMGxDZkhjR21yTUx0QU8yWDZfam5KT3lCS2dEcnd3OUZMNUtFdkhtWDdNc3dhMEFsWWtlY0FkMGxYV0RRaDlWaEJVQQ?oc=5), how are you currently correlating historical data to reduce alert fatigue in your pipeline?",
+    "image_prompt": "A minimalist flat-vector illustration of a complex, tangled knot of colored threads gradually untangling into a single, smooth, straight line. The background is a soft, neutral off-white. The threads transition from chaotic, multi-hued chaos on the left to a calm, monochromatic blue on the right, symbolizing order emerging from complexity. No text, no logos, clean lines, modern editorial style, high contrast, subtle depth.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790411518/threads_bot/qbe32xipqz89tcrnyvvk.jpg",
+    "post_id": "18075669596452203",
+    "source_url": "",
+    "source_title": ""
   }
 ]

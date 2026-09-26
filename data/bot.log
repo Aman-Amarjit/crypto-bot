@@ -29426,3 +29426,57 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-25T19:45:18.448841+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-26T08:31:48.504157+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'CERT-In advisories security'
+Requesting content generation for topic: 'CERT-In advisories security'...
+Fetching latest news headlines from Google News for query: 'CERT-In advisories security (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxOMjg0Y1FFT29iYTBzSzBidXRDcXdDUW1GdWREUzkwejdYVEdRUHFmdUVlSFo1SUM2bVo2YzJySDdsMGxDZkhjR21yTUx0QU8yWDZfam5KT3lCS2dEcnd3OUZMNUtFdkhtWDdNc3dhMEFsWWtlY0FkMGxYV0RRaDlWaEJVQQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifkFVX3lxTE1DaTd2R3RncVdvZ3pNMW5pS1pKemFIY0hEQ3ZOMjRVanI1OVhkTm5ZREVRZkdjRmhyM3MxVXU2ZGkwUlNSNXJnQzk4eVFKLXdGNnJobmVfb3MzdEVNZVhiYWpORmtZeTRhVUZUb1Nkc3Y1a1YwQjhobFhRRlRJdw?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRmxXMTFoUkRweVRTR3VLNUI1eXFIUV80N0FKekRUX0NMbGRnYXJiTE5NVGE2ajhPTTJnNGtNRUZPRGFtamhHdVFzQmh4dkFORlZ2aENXeEhONDMtdDcwS1V4TVlHSHZ6X3k1dEMzMWhkQlhqX3g0eE1KNkllaGJSOWttVDZ0LTYzZElRSXJLMkdnTGlEWERtWFBpVEh6dU04bm5ZeFdWRFlQVzNORjBPQUtkTGZ3QzJu?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiugFBVV95cUxPMnJVOHBPejNuMDFiSTRTLWJQOVFrUjN0Z0xyWmVqWGpYR1RhRGR3NmFTcW5DejlfRUVwR1JpOUU2UnYtUExOYmFCZm5BdGVJZ0E3a1c1aWtqM0FjcXdjNzl0YzB4WUZvaVhOSVVGUGd2T21WN2owRVB3MllfWkVHaVZWWVFpTnhWeTR5MEFlTVcwYkJMRmlxLVJGWGNrMnNwNjJvNTlMOElkUHFlV2lVbzc0cWhvNjNLLUE?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTkdEcEJBdFJUSWRYOHNoYjNyaEJ6d3VXN0xOU3Yxd0lLWll4RzZya2MyOWFZOUU5dEdrU1FoNDJCb2hoTmZXMkQ0VENtSnJGS1YzME9yRHY1QlhidVZWb2J5Q0NXaFZ5LUR1WVNuNnJtYnZzQXNtc01VcmN1V0h2WldrMkNZb1BHNUpMVTRWU3NWZGl4bmJJdEZkdVNKQ0Q4VTEyb05QdTRtN05ibTFGVHY2WEl5NjlZcEJB?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxOMjg0Y1FFT29iYTBzSzBidXRDcXdDUW1GdWREUzkwejdYVEdRUHFmdUVlSFo1SUM2bVo2YzJySDdsMGxDZkhjR21yTUx0QU8yWDZfam5KT3lCS2dEcnd3OUZMNUtFdkhtWDdNc3dhMEFsWWtlY0FkMGxYV0RRaDlWaEJVQQ?oc=5
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1216. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Contextualizing alerts before they hit the analyst queue is the real bottleneck in modern SOC operations. Instead of treating every trigger as a fresh incident, we need to build logic that recognizes recurring patterns and suppresses noise at the source. As discussed in this piece (https://news.google.com/rss/articles/CBMigwFBVV95cUxOMjg0Y1FFT29iYTBzSzBidXRDcXdDUW1GdWREUzkwejdYVEdRUHFmdUVlSFo1SUM2bVo2YzJySDdsMGxDZkhjR21yTUx0QU8yWDZfam5KT3lCS2dEcnd3OUZMNUtFdkhtWDdNc3dhMEFsWWtlY0FkMGxYV0RRaDlWaEJVQQ?oc=5), how are you currently correlating historical data to reduce alert fatigue in your pipeline?
+  - Image Prompt: A minimalist flat-vector illustration of a complex, tangled knot of colored threads gradually untangling into a single, smooth, straight line. The background is a soft, neutral off-white. The threads transition from chaotic, multi-hued chaos on the left to a calm, monochromatic blue on the right, symbolizing order emerging from complexity. No text, no logos, clean lines, modern editorial style, high contrast, subtle depth.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20of%20a%20complex%2C%20tangled%20knot%20of%20colored%20threads%20gradually%20untangling%20into%20a%20single%2C%20smooth%2C%20straight%20line.%20The%20background%20is%20a%20soft%2C%20neutral%20off-white.%20The%20threads%20transition%20from%20chaotic%2C%20multi-hued%20chaos%20on%20the%20left%20to%20a%20calm%2C%20monochromatic%20blue%20on%20the%20right%2C%20symbolizing%20order%20emerging%20from%20complexity.%20No%20text%2C%20no%20logos%2C%20clean%20lines%2C%20modern%20editorial%20style%2C%20high%20contrast%2C%20subtle%20depth.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1790411518/threads_bot/qbe32xipqz89tcrnyvvk.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (601) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18117100321933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18075669596452203
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18075669596452203
+Timestamp: 2026-09-26T08:32:11.310434+00:00 UTC
+============================================================
