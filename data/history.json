@@ -1974,5 +1974,15 @@
     "post_id": "18342382471249617",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-26T18:35:32.998760+00:00",
+    "topic": "Digital India cybersecurity",
+    "caption": "The Aadhaar ecosystem\u2019s reliance on centralized biometric storage creates a single point of failure that traditional perimeter security cannot mitigate. As detailed by The Wire (https://thewire.in), the architecture\u2019s vulnerability to internal data exfiltration remains a persistent risk for India\u2019s digital identity infrastructure. How are you structuring zero-trust policies to protect sensitive PII in high-scale government deployments?",
+    "image_prompt": "A minimalist flat-vector illustration of a massive, translucent digital lattice structure representing a centralized database, with a single red thread weaving through the nodes to symbolize a potential breach vector. The background is a soft gradient of deep indigo and slate grey, emphasizing structural integrity and data flow. Clean lines, no text, no logos, modern editorial style, high contrast, professional tech concept art.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790447720/threads_bot/nesrqnmvelytthnxavwq.jpg",
+    "post_id": "17910319275498103",
+    "source_url": "",
+    "source_title": ""
   }
 ]
