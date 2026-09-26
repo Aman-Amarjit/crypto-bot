@@ -1964,5 +1964,15 @@
     "post_id": "18075669596452203",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-26T13:44:02.535183+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "The 2016 Uber breach, later disclosed in 2018, stemmed from a SQL injection flaw in their internal database, not third-party API issues. Attackers exploited this to access 57 million user records, a failure that resonates with Indian startups often neglecting basic input validation. As detailed by The Hacker News (https://thehackernews.com/2018/12/uber-data-breach.html), how are you auditing legacy database queries for injection risks?",
+    "image_prompt": "A minimalist flat-vector illustration of a fragmented database cylinder leaking abstract data streams into a chaotic network of interconnected nodes. The color palette features deep indigo, slate gray, and urgent amber highlights to signify critical data exposure. The composition is clean and modern, avoiding generic hacker tropes, focusing instead on the structural integrity of data storage systems under stress. No text or logos are present.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790430228/threads_bot/xldcq5kckgfve3eddc4r.jpg",
+    "post_id": "18342382471249617",
+    "source_url": "",
+    "source_title": ""
   }
 ]

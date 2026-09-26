@@ -29524,3 +29524,46 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-26T13:43:43.823365+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Indian startup data breaches'
+Requesting content generation for topic: 'Indian startup data breaches'...
+Fetching latest news headlines from Google News for query: 'Indian startup data breaches (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Successfully retrieved 0 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - The caption attributes the 2018 Uber breach to an 'unpatched Apache Struts vulnerability in a third-party vendor’s API'. This is factually incorrect; the 2016/2018 Uber breach was caused by a SQL injection vulnerability in Uber's own internal database, not an Apache Struts issue in a third-party API. This represents a significant factual error and misattribution of the technical cause.
+  - The caption cites 'The Hacker News' with a URL dated 2018/12. While The Hacker News did cover the Uber breach, the specific technical details provided in the caption (Apache Struts, third-party API) do not align with the actual reporting of the incident, making the citation misleading or fabricated in context.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The 2016 Uber breach, later disclosed in 2018, stemmed from a SQL injection flaw in their internal database, not third-party API issues. Attackers exploited this to access 57 million user records, a failure that resonates with Indian startups often neglecting basic input validation. As detailed by The Hacker News (https://thehackernews.com/2018/12/uber-data-breach.html), how are you auditing legacy database queries for injection risks?
+  - Image Prompt: A minimalist flat-vector illustration of a fragmented database cylinder leaking abstract data streams into a chaotic network of interconnected nodes. The color palette features deep indigo, slate gray, and urgent amber highlights to signify critical data exposure. The composition is clean and modern, avoiding generic hacker tropes, focusing instead on the structural integrity of data storage systems under stress. No text or logos are present.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20of%20a%20fragmented%20database%20cylinder%20leaking%20abstract%20data%20streams%20into%20a%20chaotic%20network%20of%20interconnected%20nodes.%20The%20color%20palette%20features%20deep%20indigo%2C%20slate%20gray%2C%20and%20urgent%20amber%20highlights%20to%20signify%20critical%20data%20exposure.%20The%20composition%20is%20clean%20and%20modern%2C%20avoiding%20generic%20hacker%20tropes%2C%20focusing%20instead%20on%20the%20structural%20integrity%20of%20data%20storage%20systems%20under%20stress.%20No%20text%20or%20logos%20are%20present.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1790430228/threads_bot/xldcq5kckgfve3eddc4r.jpg
+Initiating Threads publication...
+Creating Threads media container...
+Container created successfully. ID: 18117132121933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18342382471249617
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18342382471249617
+Timestamp: 2026-09-26T13:44:02.537425+00:00 UTC
+============================================================
