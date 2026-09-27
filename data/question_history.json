@@ -458,5 +458,10 @@
     "timestamp": "2026-09-26T16:19:32.275568+00:00",
     "question": "When implementing zero-trust architecture for Kubernetes clusters, how do you balance the operational overhead of dynamic mTLS certificate rotation with the requirement for automated, short-lived workload identities to prevent lateral movement in case of a compromised microservice?",
     "post_id": "17966025204192263"
+  },
+  {
+    "timestamp": "2026-09-27T16:55:30.096476+00:00",
+    "question": "When implementing short-lived service tokens in a microservices architecture, how do you mitigate the risk of JWT replay attacks if your service mesh does not support strict nonce validation, and what is the trade-off between token expiration windows and clock skew across distributed nodes?",
+    "post_id": "18106915706068355"
   }
 ]
