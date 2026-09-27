@@ -1984,5 +1984,15 @@
     "post_id": "17910319275498103",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-27T09:11:14.060143+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "RBI and SEBI regulations often feel abstract until you see them enforced against a specific flaw like Heartbleed, where a missing bounds check in OpenSSL\u2019s TLS heartbeat extension leaked 64KB of memory per request. As documented by BleepingComputer (https://www.bleepingcomputer.com/), this vulnerability exposed private keys and session cookies, forcing Indian financial institutions to harden their API gateways and enforce strict certificate rotation. How are you validating that your TLS implementations actually reject malformed heartbeat frames rather than just patching the version number?",
+    "image_prompt": "A minimalist flat-vector illustration of a digital financial ledger with a subtle, pulsing red heartbeat line running through the center, symbolizing a critical security pulse. The background features soft, cool blue gradients representing regulatory stability, contrasted by the warm, urgent red of the heartbeat. Clean lines, no text, no logos, modern editorial style, focusing on the intersection of financial data and system health monitoring.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790500261/threads_bot/ut7co7jihabuiejy4zts.jpg",
+    "post_id": "17968271112178758",
+    "source_url": "",
+    "source_title": ""
   }
 ]
