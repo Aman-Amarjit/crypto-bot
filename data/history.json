@@ -1994,5 +1994,15 @@
     "post_id": "17968271112178758",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-27T18:58:32.512797+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "Cloudflare just patched a cross-tenant isolation flaw in its Containers service, a critical oversight that could have allowed one customer\u2019s workload to peek into another\u2019s data. As reported by Google News (https://news.google.com/rss/articles/CBMitwFBVV95cUxPeGhoc0Z1UGJRcFpRMnk5UWp3dmN1UDhtZlFsOFhCQXYwT29tN3RxR1pHQm1ua1JYQWhJa2stVVN2X0c1T3VLUlRwUHI0VXpQdXFLUVA2MlRGMXRyczh4Ry1QWWFoR292aE96RXdyNm91cDE3RC01MEdnVTB6ZHhZZE5acWpfekVUYU4xbS1SbnBHM2RpcjQxb1Rnbk84N1FYdWpwOXNyeUJxRElRU0hqV1ozMEs5aTjSAbwBQVVfeXFMTjJya19EVGQzZHpaSkVjdEVkemN1NFJHUmx6a1E0MzZDb0FveVo0eFhmRS1mdG5Wd0NBZEttb0p2anR2eFZwVkhJS2JYUHV5aTladTVJcFJiSmZRT2dqNWE0bmZMdVF4M1RwOHlSdy1kbE9ubVpyRkRWcGN3QWtLQ24xaWpkeGpXb3dOVGtsRzVoSUV1MzVSdkxSSDVRVDdzdnAwWFFoa1NMMGpRc0tNcGVfU2ozNG51ZTZjdHk?oc=5), this highlights how shared infrastructure demands rigorous boundary enforcement. How are you currently validating tenant isolation in your own multi-tenant cloud environments?",
+    "image_prompt": "A minimalist flat-vector illustration of two distinct, translucent glass cubes floating in a void, separated by a thin, glowing vertical barrier that is slightly fractured in the center. The left cube contains abstract blue data nodes, while the right cube holds orange data nodes, with a few particles drifting across the break. The background is a deep, matte charcoal with subtle geometric grid lines, emphasizing structural integrity and separation. No text, no logos, no human figures, clean modern tech aesthetic.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790535500/threads_bot/z9tdbe3tb6z9acutd3au.jpg",
+    "post_id": "18151085899546431",
+    "source_url": "",
+    "source_title": ""
   }
 ]
