@@ -463,5 +463,10 @@
     "timestamp": "2026-09-27T16:55:30.096476+00:00",
     "question": "When implementing short-lived service tokens in a microservices architecture, how do you mitigate the risk of JWT replay attacks if your service mesh does not support strict nonce validation, and what is the trade-off between token expiration windows and clock skew across distributed nodes?",
     "post_id": "18106915706068355"
+  },
+  {
+    "timestamp": "2026-09-28T19:39:12.753842+00:00",
+    "question": "How are you specifically securing your CI/CD pipeline against ephemeral secret exposure during build stages, particularly when dealing with shared runners and multi-tenant environments?",
+    "post_id": "18632127184049723"
   }
 ]
