@@ -2014,5 +2014,15 @@
     "post_id": "18016694081948714",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-28T21:13:07.351770+00:00",
+    "topic": "hacking incidents",
+    "caption": "The convergence of autonomous LLM agents and legacy hospital infrastructure is creating a critical blind spot that traditional perimeter defenses simply cannot see. As highlighted by Google News (https://news.google.com/rss/articles/CBMizwFBVV95cUxNWHk5a3dnbm4wOGhQcmpLR0F6a1dNdDl1M2xneUJOVFc1Y1M3aXF0eks3RUdoY1dYTERPZ0VSX0JvT0s1Mk1rTERBN3BwUThXemFBYWI1UldOT0FCamRxMmZ5SWRoM3p5dlhQc2FCX2RwUlZ3SUtJTS1YaXNYZjd1bnhQS2FUbHcyTzNMSVA0bUVNTy1IU3NlNkhoU3NOWk5Pb2VBV1BPSUE3V25zVk1oekFoQXptZ2NsMU5xTFlLVU9tcGt0azVuRzVYSjJzV1E?oc=5), attackers are now using generative models to rapidly fuzz proprietary medical device protocols, bypassing static signature-based IDS. How are you validating that your OT segmentation holds up against adaptive, AI-driven reconnaissance?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a fragmented, translucent hospital building structure dissolving into abstract, chaotic data streams. The color palette uses sterile clinical whites and cool cyans contrasted with urgent, warm amber warning pulses. The composition focuses on the intersection of rigid architectural lines and fluid, unpredictable digital particles, symbolizing the erosion of traditional security boundaries by adaptive algorithms. No text, no logos, no glowing shields, no binary rain, no hooded figures. Clean, modern editorial style with high contrast and geometric precision.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790629975/threads_bot/ogsree24mkyarqmtfgdk.jpg",
+    "post_id": "18445248532125516",
+    "source_url": "",
+    "source_title": ""
   }
 ]
