@@ -2004,5 +2004,15 @@
     "post_id": "18151085899546431",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-28T09:40:34.524841+00:00",
+    "topic": "government cyber regulations",
+    "caption": "CISA has issued a rare, aggressive directive for federal agencies to patch actively exploited Citrix vulnerabilities by Wednesday, signaling a critical escalation in threat severity. This urgent timeline suggests attackers are leveraging specific flaws in Citrix gateways to bypass standard access controls, forcing a rapid response across government infrastructure. As reported by Google News (https://news.google.com/rss/articles/CBMirgFBVV95cUxOMVBpS1hibVVnT3kxXzBVYk03dVhHNl9jdVl3aWF5SUk3WkNPRFoyaWcxOWJVWTBFTWpXSWJrZnhLelFCcXU4aFFzd2JTUUZNdUpWYktjQ2dISk1ubmpKUkh0UWFLRFJneUItME9vSkk1TlhsZnl4SlB6TnFKcWRiWTBlVEdFQS1nNENfTzRFSVp2b1cwaWdpbk04SnRwa3pyaU5SemJCR2RMR1ZJSFHSAbMBQVVfeXFMTkJYa2pwNndtR0Y2dkxIaXU1MDlRMHNaa2dVRVpodjVRWDdCbGIxX1BvdE9jV1d5SlpNUmJlRk1Da054bE1BNkh5TWdBRXZSS0RLZXI4TGpCZWVtR3JyV0tlR3JHQmVmRUZ1cWI5VE04a0FHN3BSM2FqX05La0d4UDk5Ry1qakx6LVdXV1AtR1JGaE1JT01oSUg2bGJsY19jZUdNU3JXaGpKaWZJZDVPMjNXUEE?oc=5), how are you prioritizing patch management for third-party gateway appliances under such tight operational constraints?",
+    "image_prompt": "A minimalist flat-vector illustration of a complex network gateway structure under stress, depicted as interlocking geometric nodes in cool steel blue and urgent amber tones. The central node is highlighted with a subtle, pulsing amber ring, symbolizing a critical vulnerability being addressed. The background is a clean, light gray gradient with faint, abstract circuit lines that fade into the distance, avoiding any glowing effects or binary code. The style is modern editorial tech art, focusing on structural integrity and urgency without using shields, padlocks, or human figures.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790588421/threads_bot/m4m1dza9sqcymsxbkqih.jpg",
+    "post_id": "18016694081948714",
+    "source_url": "",
+    "source_title": ""
   }
 ]
