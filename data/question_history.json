@@ -468,5 +468,10 @@
     "timestamp": "2026-09-28T19:39:12.753842+00:00",
     "question": "How are you specifically securing your CI/CD pipeline against ephemeral secret exposure during build stages, particularly when dealing with shared runners and multi-tenant environments?",
     "post_id": "18632127184049723"
+  },
+  {
+    "timestamp": "2026-09-29T18:03:21.950163+00:00",
+    "question": "When implementing mTLS for service-to-service communication in a Kubernetes mesh, how do you handle the race condition where a Pod receives traffic before its SPIFFE certificate is fully issued by the control plane, and what are the security implications of using short-lived certificates versus long-lived certs with frequent rotation?",
+    "post_id": "18111062758991519"
   }
 ]
