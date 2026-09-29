@@ -2024,5 +2024,15 @@
     "post_id": "18445248532125516",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-29T19:58:08.319006+00:00",
+    "topic": "dark web leaks",
+    "caption": "It\u2019s unsettling that Spectre-v2 BTR variants are still leaking Linux memory even when standard mitigations are active. The attack exploits branch target register manipulation to bypass existing hardware defenses, exposing sensitive kernel data. As reported by Google News (https://news.google.com/rss/articles/CBMiggFBVV95cUxNWDRBVlY5czhzaFd4WkFXbVBBWWhGVUhVeUZ4eXBrWFNNdmEzMTByZHdiRFlKakFfQUFrckYyd0NTREgyUVZieGhWOWxLTjNhZ0N2Z2xzeUlLT1JrRlppYW9YTzhkSnhqNTBESlhMdWM5NjktMXkxTThfTDNzZFl2VERR?oc=5), how are you validating that your current Spectre mitigations actually hold against these newer BTR-based side channels?",
+    "image_prompt": "A minimalist, isometric vector illustration of a complex CPU architecture cross-section. The central focus is a branching logic gate glowing with a subtle, warm amber pulse, contrasting with the cool, desaturated steel-blue tones of the surrounding silicon layers. Thin, precise lines trace a hidden data path bypassing a standard firewall barrier, visualizing the memory leak. The style is clean, editorial, and high-contrast, avoiding any human figures or generic security icons. The composition emphasizes the intricate, microscopic nature of the hardware vulnerability.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790711873/threads_bot/rihzl7omjb5dtjzk9ae5.jpg",
+    "post_id": "18071313887768844",
+    "source_url": "",
+    "source_title": ""
   }
 ]
