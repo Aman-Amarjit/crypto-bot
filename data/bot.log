@@ -30086,3 +30086,58 @@ Execution Completed Successfully!
 Published Post ID: 18445248532125516
 Timestamp: 2026-09-28T21:13:07.353881+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-29T09:44:46.898636+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ3Fsalc0ZlhsR1RyOTVxVkF2VDVXZFlBcFphNUFsbHZzY1VqWlpyZ3J1WkNIMlNQS1FYVWVaN2FNZm02a3lyTUg0QW5FWktYR2t6aHg3WGlCUnk1cTFvMXItNkkyTW5oNHBjS2cxQ2RjT0E4dF9OMF90Q0g4SGRLWjg5enZmVVZjRnVEcjkySk1Eb243eEpkYU1NU0dNdmFLOEJaZmhkV2NLdnZDTXMw?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitwFBVV95cUxQN2MtdjhSdi1aSkFVNjN6aExQcmZGT1BaNDh2VGFpSlZnbmh2Y2pDaE9lT0NiaVBJdWJycF9PS2MwUXB2UDRWZ2lheGpQa1JydjdEal9nUmE5cEc1QWdvM2F1SFBJSldZY2k0S1BvRzB0bE1yVnJpWmFoTnh3MVJsTVo0T1I5ZVhUNUM1LUFQNGpJRTAwVjFDTmZMWHBSSTNhY2hvMEFiMmZyN0s2YWs3S3g2d0Fvbzg?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxPR2JsUUFvdXYyRENfVi1nS19VQ0FNc2dfZmZVQjZCM3FZTWRwQng4VTNCc2Z4MUxIdEhCSFd6RlBKTkhHNjNSUnNNSExNblR5ZEFfd1BXSXVKdXc3S3ozMVJpNEl1cTl2N0VVWDlJdFp0SU81SDUwWmNTZmdJcTR0UGhaRE1FUHlnODhlMXZLTkUtN2Y4blBVZjF6ZzVfbENVUzl3TDlFMUlDRlFZWkVVV0xYd9IBuAFBVV95cUxPMkdFUVhpSF84dEpiNi11T1hXSXA0Nm1iTzZ3MS1UWV9vNzNoaG5ub2JlOUszQTdPVzZHMDNQRURBa3BiOVUyNFFQc1BZazI2RVFiY1dzMUJKVXR3TzkyUGQ5Tzh5R1ZqVEhxNzRtODZDUkRNTUdwTTRCQVAyVmlaYjY4Zll5X3p2dFZOT2Jqb1hqVDd3eEZVdmJVTkZWRGw0VTMwenVTTy11Ym9uMExUODVPQ0VjQkxM?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxNVlIyUHRtTlZkZzJIYWhIZTdBN3pfeHZOdHlZXzVGaHJMVnBtRmNCZGNNR1BFRGNoTlpERDFuZE9qRGl6NElNV3pxLUhBbGFvMkczZmhIMGg3Uzlxb2VMR1h3UVFwWkt1V0d4aXUyZU9tVTBQRktGRkJUSXlSOWxZeEg0ZGJRQklrcXN5bGFHTzdxQVZrNllTRVRvbm5LNnVyeTVtNklfUFF6TEtTdVRFR1ln0gG3AUFVX3lxTE8ycHJ4aDNSOXlZTlZiTG41ekZVZFVYNUxoVWdjd2NadjBkUGFVRlgwTGIxNEF4VkhRU21wQzYtTVpLczBlSVFMbFM2VU5qQ1Z1NWZ6NDhfWUpvZXNKeEQyR0Y3NlFIN0FvcmtpOUkwV1FfaWdpQmx5czlOWlNLNmtwX0NIVjZtYUhJbmpmNWYxUmxTWkpsUXZqYmE3b0tqLWpZZW1MZ3JyZEdQZzdEZ3Mxekk3ZW5vTQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ09PVVctb2xoRzhFUmdvTG4xTTZwMzJXei1YN0FuSnQ4S09tNW9KZE1XZmlhVGRERndqc0pSZ194cUJlczBWQ2lDTkZ6TFVYbVNBOXk0ZTZwTjU5OUs0OW5uOHNuV000Yjh1UGJua0NVTzI1cHJpRFdPOXprZndZSw?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ3Fsalc0ZlhsR1RyOTVxVkF2VDVXZFlBcFphNUFsbHZzY1VqWlpyZ3J1WkNIMlNQS1FYVWVaN2FNZm02a3lyTUg0QW5FWktYR2t6aHg3WGlCUnk1cTFvMXItNkkyTW5oNHBjS2cxQ2RjT0E4dF9OMF90Q0g4SGRLWjg5enZmVVZjRnVEcjkySk1Eb243eEpkYU1NU0dNdmFLOEJaZmhkV2NLdnZDTXMw?oc=5
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1371. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1851. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 3...
+  [FactChecker] ❌ Failed (attempt 3/3). Issues:
+  - SCOPE CREEP: The caption frames a successful orbital deployment as a security event ('pushed the attack surface... into a new dimension'), which is an interpretive claim not supported by the source headline that only reports the deployment of next-gen Starlinks.
+  - FABRICATED STATS/CLAIMS: The caption asserts that the satellites 'likely carry more complex firmware and higher-bandwidth payloads than their predecessors.' These specific technical details regarding firmware complexity and bandwidth comparisons are not present in the provided source headline or content.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+Caption failed fact-checking after 3 attempts. Final issues:
+  - SCOPE CREEP: The caption frames a successful orbital deployment as a security event ('pushed the attack surface... into a new dimension'), which is an interpretive claim not supported by the source headline that only reports the deployment of next-gen Starlinks.
+  - FABRICATED STATS/CLAIMS: The caption asserts that the satellites 'likely carry more complex firmware and higher-bandwidth payloads than their predecessors.' These specific technical details regarding firmware complexity and bandwidth comparisons are not present in the provided source headline or content.
+
+Caption was:
+SpaceX just pushed the attack surface for orbital infrastructure into a new dimension by deploying next-gen Starlinks during Starship's orbital test. As detailed by Google News (https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ3Fsalc0ZlhsR1RyOTVxVkF2VDVXZFlBcFphNUFsbHZzY1VqWlpyZ3J1WkNIMlNQS1FYVWVaN2FNZm02a3lyTUg0QW5FWktYR2t6aHg3WGlCUnk1cTFvMXItNkkyTW5oNHBjS2cxQ2RjT0E4dF9OMF90Q0g4SGRLWjg5enZmVVZjRnVEcjkySk1Eb243eEpkYU1NU0dNdmFLOEJaZmhkV2NLdnZDTXMw?oc=5), these satellites likely carry more complex firmware and higher-bandwidth payloads than their predecessors. How are you currently modeling the potential for supply-chain compromises in low-earth orbit hardware?
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 250, in generate_content
+    raise ValueError(
+ValueError: Caption failed fact-checking after 3 attempts. Final issues:
+  - SCOPE CREEP: The caption frames a successful orbital deployment as a security event ('pushed the attack surface... into a new dimension'), which is an interpretive claim not supported by the source headline that only reports the deployment of next-gen Starlinks.
+  - FABRICATED STATS/CLAIMS: The caption asserts that the satellites 'likely carry more complex firmware and higher-bandwidth payloads than their predecessors.' These specific technical details regarding firmware complexity and bandwidth comparisons are not present in the provided source headline or content.
+
+Caption was:
+SpaceX just pushed the attack surface for orbital infrastructure into a new dimension by deploying next-gen Starlinks during Starship's orbital test. As detailed by Google News (https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ3Fsalc0ZlhsR1RyOTVxVkF2VDVXZFlBcFphNUFsbHZzY1VqWlpyZ3J1WkNIMlNQS1FYVWVaN2FNZm02a3lyTUg0QW5FWktYR2t6aHg3WGlCUnk1cTFvMXItNkkyTW5oNHBjS2cxQ2RjT0E4dF9OMF90Q0g4SGRLWjg5enZmVVZjRnVEcjkySk1Eb243eEpkYU1NU0dNdmFLOEJaZmhkV2NLdnZDTXMw?oc=5), these satellites likely carry more complex firmware and higher-bandwidth payloads than their predecessors. How are you currently modeling the potential for supply-chain compromises in low-earth orbit hardware?
