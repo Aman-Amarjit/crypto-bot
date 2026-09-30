@@ -2034,5 +2034,15 @@
     "post_id": "18071313887768844",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-09-30T19:59:40.243777+00:00",
+    "topic": "cyber warfare",
+    "caption": "Linux memory isolation is cracking under a new Spectre-v2 BTR variant that bypasses existing kernel mitigations. This attack leverages branch target register manipulation to leak sensitive data despite standard defenses, as detailed in recent reporting (https://news.google.com/rss/articles/CBMiggFBVV95cUxNWDRBVlY5czhzaFd4WkFXbVBBWWhGVUhVeUZ4eXBrWFNNdmEzMTByZHdiRFlKakFfQUFrckYyd0NTREgyUVZieGhWOWxLTjNhZ0N2Z2xzeUlLT1JrRlppYW9YTzhkSnhqNTBESlhMdWM5NjktMXkxTThfTDNzZFl2VERR?oc=5). How are you currently validating your CPU microcode patches against speculative execution side-channels?",
+    "image_prompt": "A minimalist flat-vector illustration of a fractured silicon wafer, where a specific micro-architectural layer is peeling away to reveal a glowing, translucent data stream escaping from the core. The color palette features deep indigo, slate grey, and a sharp, warning amber accent highlighting the breach point. The style is clean, modern editorial tech art with soft gradients and no text, focusing on the concept of invisible memory leakage through physical hardware layers.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790798366/threads_bot/wynakmwryhaeyacybgqh.jpg",
+    "post_id": "18355261183217072",
+    "source_url": "",
+    "source_title": ""
   }
 ]
