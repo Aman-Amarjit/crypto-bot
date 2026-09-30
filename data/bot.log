@@ -30305,3 +30305,50 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-09-29T21:40:48.554702+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-09-30T09:36:50.598097+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'cyber warfare'
+Requesting content generation for topic: 'cyber warfare'...
+Fetching latest news headlines from Google News for query: 'cyber warfare (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxOdUI0TUVtZVl2OW9yY0VJeHB5QXFXbHNkbHM4WUJwYnRjaGZwMDVfUGhPcEh3RFk0RnlvLTdvWUNkNGlEeHItS2VUMF93eXRYeTJPcEJHUTY4VF9RYXhiQWk5TW9ZY0JycERlU1JmcWthMTc2enZuVVVoRXAzTDR3d2RaNkc3R2dFSFpGVXo5RTBBSDN5WHkwY0x4cV9TVmhLNDcwMWhmWkJ6SjByVDUw0gG0AUFVX3lxTE1MZmtLanpQQXZGdmtwVVJBNEwteUZIWUtRX01LUkFEX3NwajhYUWRvem51MjNtNndCNGIxUDhtendRUEwyRnNtYzBFeU9aVTFXblFvUzJTRDlxVzFKNWRPVlRaOEIzYUJRZ0YwZzNwRVlBM2hqZkxEYzVJYXIwb1VlT20tWXNYbmJOdXpjd1VYbUpZYUdGcFVUTGxlZDJ0SWJCWWM0RGpFZHdhOWJ6cGVLRXZteg?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE1iMzAycUxOblRDdm5IV1dXRlZRRW1aaHFUWTZSRFFhMFVua3BMRzNHVEc4RGwzVmZZdlpYUzBZa1VRV3BwZVJvME4zaUpJMVFVSmhNNHFzckMtYXlOcXdlaTlQV2FIc29BamowRERSSlVpT0FqaGFudVhncHI3Z00?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMijAFBVV95cUxNLUJTRFVCZFBhTDlRYktFd2x0RmFZdHJ5UC0xQ1l4SnJ3VFhHSWJJeWl6N25ndGNyekxIa05ZNHdIeW5VTGowQk1RUmo2S1RBdW9vSFAtUTBIM1VQa1pGMk9NOGhZZGFRWU93cndsZU5QRjZQaE9US01QcEVOWHFnVlJvUVVVbTBmSUY1WQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxNWDRBVlY5czhzaFd4WkFXbVBBWWhGVUhVeUZ4eXBrWFNNdmEzMTByZHdiRFlKakFfQUFrckYyd0NTREgyUVZieGhWOWxLTjNhZ0N2Z2xzeUlLT1JrRlppYW9YTzhkSnhqNTBESlhMdWM5NjktMXkxTThfTDNzZFl2VERR?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifEFVX3lxTFBCNHE5THFMYmhyNHBEanYwSUFCT3B5cVBXRnhPdzdNX296NXp1TkJxWm9GZDZkSElteUcyeWQzWkh5Z0xMODYxMmtWZ3ZJVDNEU0ZEa0EwQU9vSFJrSFRWS0tqaWhOaVU2VG14YlgxYTJoUklCLUJsaERQa3Y?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxOdUI0TUVtZVl2OW9yY0VJeHB5QXFXbHNkbHM4WUJwYnRjaGZwMDVfUGhPcEh3RFk0RnlvLTdvWUNkNGlEeHItS2VUMF93eXRYeTJPcEJHUTY4VF9RYXhiQWk5TW9ZY0JycERlU1JmcWthMTc2enZuVVVoRXAzTDR3d2RaNkc3R2dFSFpGVXo5RTBBSDN5WHkwY0x4cV9TVmhLNDcwMWhmWkJ6SjByVDUw0gG0AUFVX3lxTE1MZmtLanpQQXZGdmtwVVJBNEwteUZIWUtRX01LUkFEX3NwajhYUWRvem51MjNtNndCNGIxUDhtendRUEwyRnNtYzBFeU9aVTFXblFvUzJTRDlxVzFKNWRPVlRaOEIzYUJRZ0YwZzNwRVlBM2hqZkxEYzVJYXIwb1VlT20tWXNYbmJOdXpjd1VYbUpZYUdGcFVUTGxlZDJ0SWJCWWM0RGpFZHdhOWJ6cGVLRXZteg?oc=5
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1495. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1216. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1216. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 174, in generate_content
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 168, in generate_content
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
