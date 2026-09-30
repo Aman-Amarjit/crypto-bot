@@ -473,5 +473,10 @@
     "timestamp": "2026-09-29T18:03:21.950163+00:00",
     "question": "When implementing mTLS for service-to-service communication in a Kubernetes mesh, how do you handle the race condition where a Pod receives traffic before its SPIFFE certificate is fully issued by the control plane, and what are the security implications of using short-lived certificates versus long-lived certs with frequent rotation?",
     "post_id": "18111062758991519"
+  },
+  {
+    "timestamp": "2026-09-30T17:59:05.960808+00:00",
+    "question": "When implementing zero-trust service mesh policies, how do you reconcile the strict mTLS enforcement required for lateral movement prevention with the latency overhead and operational complexity of managing short-lived certificates for high-throughput, ephemeral microservices?",
+    "post_id": "18089783195196801"
   }
 ]
