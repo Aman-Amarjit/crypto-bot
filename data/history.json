@@ -2044,5 +2044,15 @@
     "post_id": "18355261183217072",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-01T10:03:08.257509+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "The line between helpful assistant and attack vector is blurring as researchers uncover malicious Custom GPTs designed to act as Remote Access Trojan delivery lures. By embedding malicious payloads within the conversational interface, attackers bypass traditional perimeter defenses by leveraging user trust in the platform itself, as detailed in this Google News report (https://news.google.com/rss/articles/CBMipAFBVV95cUxPSzhhSEVtR3QwU1BPQ0RNUDZaS3RaVWVUT3lPRW9sbjdGZ0w4MGZlOGp3WUtIYjQ0LUluZmIza3FqenFiMWU4TjdtY0RiZXl6S3V5Q3duVFFwbVh4RnNiNFE1c2M0TVMxaEN4SGswcFlzLWtHTkRGQU1VMndwODg4Rk5ubnhjWnRrZDFBTGlpTjFSU1VvcTdSN2R5R1FWX2JxVDd3VQ?oc=5). How are you currently validating the integrity of third-party LLM integrations before they reach your users?",
+    "image_prompt": "A sleek, minimalist editorial illustration featuring a split-screen concept. On the left, a soft, warm-toned chat bubble interface with abstract, friendly geometric shapes representing a conversational AI. On the right, the same interface fractures into sharp, cold metallic shards, revealing a complex, tangled network of dark red and deep purple data streams underneath. The background is a clean, off-white gradient. The style is modern flat vector art with subtle depth, avoiding any text or logos, focusing on the contrast between benign user experience and hidden malicious infrastructure.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790848975/threads_bot/chsycjieev1ou5uspdhw.jpg",
+    "post_id": "18038249333836094",
+    "source_url": "",
+    "source_title": ""
   }
 ]
