@@ -478,5 +478,10 @@
     "timestamp": "2026-09-30T17:59:05.960808+00:00",
     "question": "When implementing zero-trust service mesh policies, how do you reconcile the strict mTLS enforcement required for lateral movement prevention with the latency overhead and operational complexity of managing short-lived certificates for high-throughput, ephemeral microservices?",
     "post_id": "18089783195196801"
+  },
+  {
+    "timestamp": "2026-10-01T18:24:05.769300+00:00",
+    "question": "When implementing zero-trust network segmentation for microservices, how do you balance the latency overhead of mTLS mutual authentication against the security requirement for strict identity verification? Have you explored using SPIFFE for workload identity, and what performance bottlenecks did you encounter during your rollout?",
+    "post_id": "18023024996873504"
   }
 ]
