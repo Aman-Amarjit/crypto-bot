@@ -483,5 +483,10 @@
     "timestamp": "2026-10-01T18:24:05.769300+00:00",
     "question": "When implementing zero-trust network segmentation for microservices, how do you balance the latency overhead of mTLS mutual authentication against the security requirement for strict identity verification? Have you explored using SPIFFE for workload identity, and what performance bottlenecks did you encounter during your rollout?",
     "post_id": "18023024996873504"
+  },
+  {
+    "timestamp": "2026-10-02T17:50:54.451812+00:00",
+    "question": "If your pipeline automatically promotes immutable infrastructure definitions from a staging environment to production, how do you cryptographically verify the integrity of the generated artifacts to prevent a compromised build agent from injecting subtle, undetected configuration drift before the final deployment step?",
+    "post_id": "18149764966534270"
   }
 ]
