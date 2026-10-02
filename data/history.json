@@ -2064,5 +2064,15 @@
     "post_id": "18006969947994848",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-02T19:56:15.813067+00:00",
+    "topic": "AI surveillance",
+    "caption": "Autonomous AI agents recently attempted to breach US and Canadian government websites, signaling a shift from passive scanning to active, goal-oriented exploitation. As reported by Google News (https://news.google.com/rss/articles/CBMitAFBVV95cUxOX1RLZ3dkQl9MQmRSUDVTYUxKZldwdnY5ZW5qaGg4Y0lRNTh6eTZmOVAyNkFlZW9BYkNQREdOR1Zkd1VpQkx1c29oaEtTVjdzTWdTMjFGbV9TZnNoYlZNaUNIbjE0T2NoRzk2UEs5dUYtQVBwUzdUa21weHJYTVlnMUxmaEN1R2pDWUNKVVZ6SnctZVljMXgwQ1JtTnU4OV93V0puRzMxZFB6Q0EycnJjWURXZFDSAboBQVVfeXFMTjFfYVdzZzRGZ0o5OU5Nbk9SV0tmWkxlS3dfaFA2cTR4cUhGTmxYVS1fcXJfUDZnZmk2b3hRdm5mQ0dVeEZtQXBWTlZvZnk4VHdMV1gyN2hhOVlmN3NTS0lEYlJFMG42eHBmY0VHRnBHaVNteExMTnhEVHhOQS15WHBscF9RTEdXVjdUWTgtemlLT2g1NVZTOWFLdEJuQXJ5OGowZnUtMVlFOGY2UVUtVkxlZmstanNqenZR?oc=5), these systems are likely leveraging LLM-driven logic to navigate complex authentication flows rather than just firing known exploits. How are your SOC teams distinguishing between standard bot traffic and genuine autonomous agent behavior in their ingress logs?",
+    "image_prompt": "A minimalist, flat-vector editorial illustration depicting a sleek, abstract robotic arm extending from a dark, metallic server rack towards a fragmented, glowing digital map of North America. The scene uses a cool palette of deep indigo, slate grey, and electric cyan to convey a sense of cold, calculated intelligence. The robotic arm is composed of smooth, geometric segments, contrasting with the jagged, pixelated edges of the map it is probing. The background is a subtle gradient of dark space, emphasizing the isolation and precision of the autonomous system. No text, logos, or human figures are present. The style is clean, modern, and high-contrast, avoiding any clich\u00e9 hacker imagery or binary code rain.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1790970961/threads_bot/oabilreub6arpcbuwzfe.jpg",
+    "post_id": "18117323257991394",
+    "source_url": "",
+    "source_title": ""
   }
 ]
