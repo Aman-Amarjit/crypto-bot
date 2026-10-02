@@ -30736,3 +30736,51 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-10-01T22:09:28.262234+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-02T09:40:47.205219+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxOX1RLZ3dkQl9MQmRSUDVTYUxKZldwdnY5ZW5qaGg4Y0lRNTh6eTZmOVAyNkFlZW9BYkNQREdOR1Zkd1VpQkx1c29oaEtTVjdzTWdTMjFGbV9TZnNoYlZNaUNIbjE0T2NoRzk2UEs5dUYtQVBwUzdUa21weHJYTVlnMUxmaEN1R2pDWUNKVVZ6SnctZVljMXgwQ1JtTnU4OV93V0puRzMxZFB6Q0EycnJjWURXZFDSAboBQVVfeXFMTjFfYVdzZzRGZ0o5OU5Nbk9SV0tmWkxlS3dfaFA2cTR4cUhGTmxYVS1fcXJfUDZnZmk2b3hRdm5mQ0dVeEZtQXBWTlZvZnk4VHdMV1gyN2hhOVlmN3NTS0lEYlJFMG42eHBmY0VHRnBHaVNteExMTnhEVHhOQS15WHBscF9RTEdXVjdUWTgtemlLT2g1NVZTOWFLdEJuQXJ5OGowZnUtMVlFOGY2UVUtVkxlZmstanNqenZR?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNEtDWVkzZk1NQ2NEWmJoYnZldnZ4MC0wVE5iRWJxem85SFgyY3N5YVU0ejZYWkJGc25PdXpwMENfYVU3U0RhbzlFdlZ5bU9TVmxrSTdaX1lBM0FGRE9GWTkyMnMyYUZXM29tdFlUNFJfMU1nY3NkSXhvNXpRT2tqa3BuUVQyS2RLNjNqZ0UxNWI2Q0dHQ1Z6YjVpN1phVmI3Mkl2b2FEaUtfWmPSAbABQVVfeXFMTk9xZUtMT1M1dnd4R2pUOXRBYzhINXNNT3RDVk1jYW41Rk40Q0xUQWFCS3Z1WDNhTDBrMGEyc3NZN3UwSVp6WE1VM0U2ZkNmMHYyeG1RY2k1c01qaERaN1hMcF9qMkJobzhYR0t1S3BLZ2wzTl9VOC1CcE93c2RHcFdYdkRmS3BISXdma0ZQWjVmbWIwV2xoVGlFXzYwd0dfZVR6c3RHSVJvSEVzX2daRjc?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxPeTViU2YydXpCUU9nWXp6di1IbGN2bTZxUE5BRHEtVkpPZEJxSjZVN2Y3SzBLRmQ3bFVmN1ZHZ2EtTktFVEZrUzltSUM2NTdjN2htZlNUX1RLQndRYnB5RDBib3haUnZQOTZIUFR6RHlyaGlLcDI1YnpHX0pueGludQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxNTEFkWkI1SGgyZWZGMGlJOGlzNlZKdWhaeGkzQTZxNWFiX1daZm5VeDlIeWMta2NEUFhpcDFJeHU4WVNIdVZWTnp6WndueDVrOW8ydEdPcU95LUJNUHhCWFB1dkx3bWloc0dfZDN4MWY2WnZxNmczTjhONXVmcDZKMg?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTE5WRnZXMTF6TTlEYUJJX3VQVFJaekhwSW1iRUFZd3FsUmxvUFdlRndCU01DZW85RktxM1VJZ2EzeHFGdnY1dDRRQWg5UERPNDJ3bmx0OGpQS0w5ZDdxanpmZWl2LUdpT3Q2bGl4YjFSZVZiTllMbnNHTWdvTEdIR1pFMHpsVGwtbkhMaXBlTVhRSWl2bW1GRmV6TVFKbTNEdGtyNmd0TU9VelVKY2hrMmhLUTZJRVNabWZ2SU9wZjMyNk55N0dicWpmRHhfQ3hLSEtQWFNETFJIejDSAeABQVVfeXFMTVh4MUVnZU5wYTNRUGFWTlBmWWtjdTAzenowZlZLN0d5THViVHdsT0Q4dEJMdk9EaHg2S1hsalY5bkJkajZfX29kVkZoY3haMjJhOWk5U2pnakoxT2Zxd1VSVGRfaW5XbVdmRFBoR1poRlVYcFZpYmVpcUFTeENoSHJ2WW1qX081V0owYWNvU3lVekc2UEVnYlM1TVZHaTQycFdFU2pwbjA2bnctZ1pUSHMzeVA1ZTJrYm9HcHZDanVPbXZhRHV0WDR6a1FvQ1kzM0ZsZmZEYlpPclRiaHIyWEk?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxOX1RLZ3dkQl9MQmRSUDVTYUxKZldwdnY5ZW5qaGg4Y0lRNTh6eTZmOVAyNkFlZW9BYkNQREdOR1Zkd1VpQkx1c29oaEtTVjdzTWdTMjFGbV9TZnNoYlZNaUNIbjE0T2NoRzk2UEs5dUYtQVBwUzdUa21weHJYTVlnMUxmaEN1R2pDWUNKVVZ6SnctZVljMXgwQ1JtTnU4OV93V0puRzMxZFB6Q0EycnJjWURXZFDSAboBQVVfeXFMTjFfYVdzZzRGZ0o5OU5Nbk9SV0tmWkxlS3dfaFA2cTR4cUhGTmxYVS1fcXJfUDZnZmk2b3hRdm5mQ0dVeEZtQXBWTlZvZnk4VHdMV1gyN2hhOVlmN3NTS0lEYlJFMG42eHBmY0VHRnBHaVNteExMTnhEVHhOQS15WHBscF9RTEdXVjdUWTgtemlLT2g1NVZTOWFLdEJuQXJ5OGowZnUtMVlFOGY2UVUtVkxlZmstanNqenZR?oc=5
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1503. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ❌ Failed (attempt 2/3). Issues:
+  - SCOPE CREEP: The caption claims the AI agents are 'bypassing traditional human-driven attack patterns' and executing 'unguided discovery routines', which are specific technical characterizations not present in the provided headline 'Autonomous AI agents tried to hack US, Canadian government websites'.
+  - SCOPE CREEP: The caption describes the activity as 'live reconnaissance' and a 'shift from theoretical risk', which are interpretive claims not explicitly supported by the source headline which only states they 'tried to hack'.
+Groq API Error (429): {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Used 648, Requested 618. Please try again in 15.96s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 174, in generate_content
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 168, in generate_content
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
