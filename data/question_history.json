@@ -488,5 +488,10 @@
     "timestamp": "2026-10-02T17:50:54.451812+00:00",
     "question": "If your pipeline automatically promotes immutable infrastructure definitions from a staging environment to production, how do you cryptographically verify the integrity of the generated artifacts to prevent a compromised build agent from injecting subtle, undetected configuration drift before the final deployment step?",
     "post_id": "18149764966534270"
+  },
+  {
+    "timestamp": "2026-10-03T16:14:22.022754+00:00",
+    "question": "When implementing fine-grained authorization in a microservices architecture, how do you balance the performance overhead of centralizing policy evaluation against the operational security risks of embedding complex trust logic directly within individual service codebases?",
+    "post_id": "17973981531137546"
   }
 ]
