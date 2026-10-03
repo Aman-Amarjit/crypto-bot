@@ -2074,5 +2074,15 @@
     "post_id": "18117323257991394",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-03T09:04:59.133147+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The most insidious LLM jailbreaks don't rely on obscure prompt injections but on the model's own safety alignment being inverted via adversarial token sequences. As detailed in recent security research (https://arxiv.org/abs/2307.02483), attackers exploit the gap between semantic intent and token-level processing to bypass guardrails without triggering keyword filters. How are you currently validating that your inference layer isn't just pattern-matching but actually understanding the semantic drift in user inputs?",
+    "image_prompt": "A minimalist, premium editorial illustration depicting a complex neural network structure where one specific node is highlighted in warm amber, emitting a subtle, distorted ripple effect that disrupts the surrounding cool blue data flow. The style is clean vector art with soft gradients, focusing on the concept of semantic misalignment within a digital architecture. No text, no logos, no generic hacker imagery, just abstract geometric shapes representing data pathways and a single point of vulnerability.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791018285/threads_bot/fgedfuo0jfkkg4pz5ufv.jpg",
+    "post_id": "17909730132519133",
+    "source_url": "",
+    "source_title": ""
   }
 ]
