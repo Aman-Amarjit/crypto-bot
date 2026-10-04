@@ -2094,5 +2094,15 @@
     "post_id": "17924417751199512",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-04T09:42:30.280882+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "The 2016 Uber breach wasn't a SQL injection exploit, but a failure to secure employee credentials and social engineering, as detailed by The Hacker News (https://thehackernews.com/2017/11/uber-data-breach.html). This incident exposed 57 million user records, highlighting how human factors often outpace technical patches in startup security. How do you balance rapid scaling with rigorous credential hygiene in your own infrastructure?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a digital handshake turning into a fractured chain, symbolizing broken trust and credential compromise. The scene uses a palette of muted slate blues and warm amber alerts, avoiding generic hacker tropes. The composition focuses on the abstract concept of data flow interruption, with clean lines and soft gradients, representing the subtle nature of social engineering attacks rather than brute force.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791106922/threads_bot/wpegaofi0uu2jdlu3tsj.jpg",
+    "post_id": "18472567072118207",
+    "source_url": "",
+    "source_title": ""
   }
 ]
