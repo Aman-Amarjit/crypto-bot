@@ -368,5 +368,10 @@
     "timestamp": "2026-10-04T14:05:27.647352+00:00",
     "thought": "Attackers exploit OAuth 2.0 redirect URI validation flaws to steal authorization codes.\nIf a server accepts subdomains or ignores the exact match, an attacker can register a malicious domain to intercept the code before it reaches the intended client.\nCVE-2022-21449 shows how improper validation in certain implementations allows this hijack; are you strictly enforcing exact-match redirects in your IdP?",
     "post_id": "17935937928400551"
+  },
+  {
+    "timestamp": "2026-10-05T17:09:29.279538+00:00",
+    "thought": "LockBit affiliates now deploy custom loaders to bypass EDR hooks before payload execution. This technique injects shellcode directly into trusted processes like svchost.exe, evading signature-based detection entirely. I monitor this shift because static analysis alone misses the dynamic memory manipulation. With over 400 active LockBit affiliates reported in 2024, do you trust your EDR to catch in-memory injection without behavioral telemetry?",
+    "post_id": "18003247952991469"
   }
 ]
