@@ -2114,5 +2114,15 @@
     "post_id": "18157436932502831",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-05T10:19:53.350289+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "India's financial regulators are tightening the screws on how banks and brokers handle third-party software dependencies. RBI and SEBI now mandate strict SBOMs and patch SLAs to prevent supply-chain attacks that could cripple payment rails. As detailed in recent regulatory circulars (https://www.rbi.org.in), how are you verifying the integrity of your vendor's build pipelines?",
+    "image_prompt": "A minimalist flat-vector illustration of a complex financial network where data packets flow through secure, transparent nodes. The scene uses a palette of deep indigo, slate grey, and soft amber to represent trust and vigilance. Abstract geometric shapes form a protective lattice around a central server icon, symbolizing regulatory oversight without using literal shields or locks. Clean lines, modern editorial style, no text or logos.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791195580/threads_bot/vxaddusaetlecdytvprp.jpg",
+    "post_id": "18123174136918084",
+    "source_url": "",
+    "source_title": ""
   }
 ]
