@@ -498,5 +498,10 @@
     "timestamp": "2026-10-04T16:50:21.185216+00:00",
     "question": "When implementing SPIFFE/SPIRE for zero-trust service mesh authentication, how do you manage the lifecycle of workload identities in ephemeral container environments to prevent identity sprawl and ensure rapid revocation of compromised credentials without disrupting rolling deployments?",
     "post_id": "18476297548116023"
+  },
+  {
+    "timestamp": "2026-10-05T20:32:41.689678+00:00",
+    "question": "When implementing short-lived, machine-to-machine credentials for Kubernetes workloads using external secret stores, how do you balance the latency of dynamic token retrieval against the operational overhead of managing complex rotation policies for high-traffic microservices?",
+    "post_id": "18129538996762754"
   }
 ]
