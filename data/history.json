@@ -2124,5 +2124,15 @@
     "post_id": "18123174136918084",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-05T21:59:57.230688+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "Denmark's population registry leak exposing 8.8 million citizens is a staggering scale of exposure that highlights the fragility of centralized identity data. As reported by Google News (https://news.google.com/rss/articles/CBMiswFBVV95cUxNbHF0WlF1dFE2cUVCRjUxUXJzRkM4ZXdNaUZiZlRIcHpoTm9reTdGZ3ZwaW0wS3R4dXNTNFBrcW1KcTZCWTlIN1hJQ29kSFp2MlJSTkFQZ0RLenpldDl3bUtPZ3UxbW8tbm81Nkx3TE5JYjdFbEYyRThZeDhDWFVtNFpmYi1LdzlkcG1LdmgyRks4R01UU2FyYkNMbUVBM2QwRTcxRnZMQ0JPNFVub0lKaGNnONIBuAFBVV95cUxPNjVLc3lkOXd5Z2ZkN0R4clM1SGs0MjBwSEY3R1RjRGFjT1RwTDVMVXBrZVBVMlQ0YzROQ3BJY1dQcUdhX2ItVWdVaGljWkJWclBhMGF4WFZsMnVESGJyQzdCSHdwNXJFeVF1bnhKZlkxdzE5clFtaUMzd09yVmVHWW5uWFpyOFNZZk9vTHpOc1R1aElJLUZ3M2o4bjlFU1JISTZtdzg1OXVaNUlBcEpRYnJxcHJHT2pq?oc=5), the sheer volume of records compromised demands immediate scrutiny of national data retention policies. How are you currently segmenting your critical identity datasets to prevent such total exposure?",
+    "image_prompt": "A minimalist flat-vector illustration of a massive, translucent cylindrical data silo shattering into geometric shards, with abstract human silhouettes floating outward from the break. The color palette uses stark clinical whites, deep institutional blues, and urgent amber highlights to signify the breach. The style is clean, modern editorial concept art, avoiding any text, logos, or generic cybersecurity icons like shields or padlocks. Focus on the structural integrity failure of the central data container.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791237582/threads_bot/bx88wr7mtm7rtl1xjy9c.jpg",
+    "post_id": "18134880466628744",
+    "source_url": "",
+    "source_title": ""
   }
 ]
