@@ -503,5 +503,10 @@
     "timestamp": "2026-10-05T20:32:41.689678+00:00",
     "question": "When implementing short-lived, machine-to-machine credentials for Kubernetes workloads using external secret stores, how do you balance the latency of dynamic token retrieval against the operational overhead of managing complex rotation policies for high-traffic microservices?",
     "post_id": "18129538996762754"
+  },
+  {
+    "timestamp": "2026-10-06T18:19:11.863048+00:00",
+    "question": "When implementing mTLS for internal service-to-service communication, how are you preventing certificate pinning from becoming a single point of failure during CA rotation, and what specific strategies are you using to handle key compromise without triggering widespread service outages?",
+    "post_id": "18100754762384088"
   }
 ]
