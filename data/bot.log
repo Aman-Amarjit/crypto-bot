@@ -31546,3 +31546,58 @@ Execution Completed Successfully!
 Published Post ID: 18134880466628744
 Timestamp: 2026-10-05T21:59:57.232121+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-06T10:11:13.552319+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'government cyber regulations'
+Requesting content generation for topic: 'government cyber regulations'...
+Fetching latest news headlines from Google News for query: 'government cyber regulations (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilgFBVV95cUxPZlVjd0xqcXBVVVo4R3E4X08zLUhGU1hkMjZYX0dsck85bmhRejdtb0xwQ0ViVFpWckdicl9naXczVDBYYlU5NFBLRldiNTNRNGJyY1JwN3Noc01EcTJqd0dEY0IwOEhYZzNPeWtSQnkxNWJ5RDJfZ3FpRWVyUlhhbVg3N2JsRUNDODlsaXgtUmwyQkNKOXc?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZalBnelRVeU1LRlY0bThFTVpxUjJ2OHFoQURYVFBOOWlwZTA4S2FmM0Vxc0xuY1g0b1dXNW5Fcmgyc3JzZFNlMWt2TFV3dmItYnN0cmZMQTR3VlZjSmo0UWJwZmdOSHVKbWRaM01qSmExWFlvdTdZNlNXN0pwR1U?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitAFBVV95cUxQU19ETkRfNDh4WHlqQ1IzanNBV3VxY01IZFZMRXVuQ01WU0xyR1kwR29WOUNGbXhIaG9wNWxYX0cyZEdXUjUtNlVMQUo4d2NsN21KMXJKSTMxaXVvbHlOQUtDVGZLczlOVGtKZXUxeDdMeEJsdExCNjBYQTJwcXlHN1k2Ny10bVNaZ2YxeXdIRE5YYlo5aFJoS3pCaWJhVHZCMHZzYTNfRGlYV0gwUDBGSzVZWEjSAboBQVVfeXFMTWp3eEprckZFUXZTLUtESU5EWmk3dnl5bThYYzBuckhZMTRXMzhYYTYwT0ZMSXJpTjR2eGVHZHJ0cXRaNm5ZNEVVVlA3c2U2YUFQZTJtanEtM2JTUGVFbmN2N1JOVGRCbkZhMUZGZGFTb1JCSDRzSkRVZUZJZGhxUld2akR4Uk5VU1F0Z0txMTdYLVlrNmxwSTEwVG5heUdVTVhLb3V3VEtjeEd3blBwc0hjbnUySGJxSEJB?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirgFBVV95cUxPT2xNVnp5eks5NEczNkNrb2VZVW9mUGhwQnpncHJMTWNhOW1pNHZKbTNmQzV2WWNseDZ1b2gwUzhUeGZ4MU1PWDNxZnliQmhsZmVkWkFIUG1iTUtKaVJaSUc1SDhDUklROUFfb2g2UjlQU2szdVFRSnplT1hVWU9xMk5Hb2wzT1pQdXhSaEdJSXM4bkExdWVjRDV1SEh2NjNtNG9vaXBCaWxIRVRPSXfSAbMBQVVfeXFMUEEyTmpwTE13MFV0VXN4UjRDcXlUZ1pldU9PV1kzZWdqSlRUV1A0NHBmTjlUcWtKWUctcmwzZWRoaE5NU2dBOFNCYnJYWHh4TGx3RF9naTlpXzJCVExuQ19RTlNJY09QWkEzSWxHRTVYb3RkeUd6Z2hscnlQLW0zUW1mWW1vMjlZOWhJVjdhOVlkUEhEYlA3ZmN0MmRJOVI2dFp6dE1BSUJWQ3ZPaVFhTmRzdEk?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxNbHF0WlF1dFE2cUVCRjUxUXJzRkM4ZXdNaUZiZlRIcHpoTm9reTdGZ3ZwaW0wS3R4dXNTNFBrcW1KcTZCWTlIN1hJQ29kSFp2MlJSTkFQZ0RLenpldDl3bUtPZ3UxbW8tbm81Nkx3TE5JYjdFbEYyRThZeDhDWFVtNFpmYi1LdzlkcG1LdmgyRks4R01UU2FyYkNMbUVBM2QwRTcxRnZMQ0JPNFVub0lKaGNnONIBuAFBVV95cUxPNjVLc3lkOXd5Z2ZkN0R4clM1SGs0MjBwSEY3R1RjRGFjT1RwTDVMVXBrZVBVMlQ0YzROQ3BJY1dQcUdhX2ItVWdVaGljWkJWclBhMGF4WFZsMnVESGJyQzdCSHdwNXJFeVF1bnhKZlkxdzE5clFtaUMzd09yVmVHWW5uWFpyOFNZZk9vTHpOc1R1aElJLUZ3M2o4bjlFU1JISTZtdzg1OXVaNUlBcEpRYnJxcHJHT2pq?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMilgFBVV95cUxPZlVjd0xqcXBVVVo4R3E4X08zLUhGU1hkMjZYX0dsck85bmhRejdtb0xwQ0ViVFpWckdicl9naXczVDBYYlU5NFBLRldiNTNRNGJyY1JwN3Noc01EcTJqd0dEY0IwOEhYZzNPeWtSQnkxNWJ5RDJfZ3FpRWVyUlhhbVg3N2JsRUNDODlsaXgtUmwyQkNKOXc?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - FABRICATED STATS/CLAIMS: The caption claims Schiff is 'arguing that current legislative frameworks are too slow for rapid model deployment' and 'suggests embedding technical experts directly into committee processes'. These specific arguments and proposals are not present in the provided source headline ('Sen. Adam Schiff on making Congress relevant in the AI age') and are not supported by the limited source text provided.
+  - SCOPE CREEP: The caption invents specific policy details (embedding experts, speed of frameworks) that go far beyond the general topic of 'making Congress relevant' indicated in the headline.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Sen. Adam Schiff is pushing to redefine how Congress operates in the AI era, arguing that legislative relevance hinges on adapting to rapid technological shifts. As noted by Google News (https://news.google.com/rss/articles/CBMilgFBVV95cUxPZlVjd0xqcXBVVVo4R3E4X08zLUhGU1hkMjZYX0dsck85bmhRejdtb0xwQ0ViVFpWckdicl9naXczVDBYYlU5NFBLRldiNTNRNGJyY1JwN3Noc01EcTJqd0dEY0IwOEhYZzNPeWtSQnkxNWJ5RDJfZ3FpRWVyUlhhbVg3N2JsRUNDODlsaXgtUmwyQkNKOXc?oc=5), this debate centers on institutional agility rather than specific technical mandates. How do you see regulatory bodies keeping pace with model deployment cycles without stifling innovation?
+  - Image Prompt: A minimalist editorial illustration depicting a modern legislative chamber transforming into a digital network. The scene features abstract geometric shapes representing lawmakers connected by flowing, luminous data streams in cool blue and warm amber tones. The architecture is sleek and futuristic, with translucent panels and soft lighting, avoiding any human figures or text. The composition emphasizes the intersection of traditional governance structures and dynamic, fluid technology, using a clean, flat-vector style with subtle depth and high contrast.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20editorial%20illustration%20depicting%20a%20modern%20legislative%20chamber%20transforming%20into%20a%20digital%20network.%20The%20scene%20features%20abstract%20geometric%20shapes%20representing%20lawmakers%20connected%20by%20flowing%2C%20luminous%20data%20streams%20in%20cool%20blue%20and%20warm%20amber%20tones.%20The%20architecture%20is%20sleek%20and%20futuristic%2C%20with%20translucent%20panels%20and%20soft%20lighting%2C%20avoiding%20any%20human%20figures%20or%20text.%20The%20composition%20emphasizes%20the%20intersection%20of%20traditional%20governance%20structures%20and%20dynamic%2C%20fluid%20technology%2C%20using%20a%20clean%2C%20flat-vector%20style%20with%20subtle%20depth%20and%20high%20contrast.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1791281480/threads_bot/e7ssgyzbpckryft4yd1r.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (628) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18118462306933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17878344816651906
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17878344816651906
+Timestamp: 2026-10-06T10:11:35.937004+00:00 UTC
+============================================================
