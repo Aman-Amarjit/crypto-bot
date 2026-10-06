@@ -2144,5 +2144,15 @@
     "post_id": "17878344816651906",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-06T20:15:01.082217+00:00",
+    "topic": "hacking incidents",
+    "caption": "The irony of a major consultancy contractor being removed by the FBI after a simple patch failure is stark. ShinyHunters exploited this specific maintenance lapse to breach systems, highlighting how critical routine updates are for perimeter defense. As documented by Google News (https://news.google.com/rss/articles/CBMigwFBVV95cUxQc2gySmo0eUFwaXZEY2Qtdkxqd2FENzVSczcteC1tRko3Mmphbkc3M0xveFl0RHZUcG1nbnlBUE5VNS1PX2JSMFJTN0VpNG9kZjMyVkJDYkNPYnZKN1BPdFlFaVg1bkxvdS1CVzVNT21QZ0RfekxvQmN2ZlBNVW9razRFRQ?oc=5), how do you verify patch compliance across third-party vendor environments?",
+    "image_prompt": "A minimalist flat-vector illustration of a complex network node system where one specific connection point is visibly frayed and disconnected, allowing a subtle, warm orange signal to leak through into a cool blue secure zone. The style is clean, modern editorial tech art with soft gradients and geometric shapes, avoiding any human figures or generic security icons. The composition focuses on the structural integrity of the network and the precise moment of failure, using a palette of slate blue, charcoal, and alert amber.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791317685/threads_bot/cnngcsmvudcnjbnwmyfb.jpg",
+    "post_id": "18114066619832788",
+    "source_url": "",
+    "source_title": ""
   }
 ]
