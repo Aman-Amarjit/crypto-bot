@@ -31907,3 +31907,58 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-07T20:34:47.029614+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'cyber warfare'
+Requesting content generation for topic: 'cyber warfare'...
+Fetching latest news headlines from Google News for query: 'cyber warfare (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifkFVX3lxTE9XcG9QTUE1allxaFJDZ3MyRFhnZS1EbER3eTI1ZXUtWFJVU0FSSVlnWkpCYUFoMGdSRjExV0JZYmhvU09HSzVWeGdZcDNxcXRGcWlicDlXQTk4MGVYaEdKOVR2dldNVlhGTU9vSGU4TV8wU3hrRkk2eENDVW5zdw?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE8wOHF2ZzNBNk91NEdYZ05oZEU5enY1ZnEzNzY3cGptRzh2dUc2VGR2YnBSNFFBcGdqcWZJcWtPZnpQakJhZkV1cHc5My1Ea3k2OFJib3EzTXJXbDZidjI3RTNRdFkwU0pJSHdmRzdITUh6dzdBQWxkaTNTQXhkZkk?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE1WYS1uSDVJdU1IS291Q216X0dWVXoxTFpJbWZ4NVhpZFc5OGZ0WHMtQ3hEajRwaVpaVm9lMEtIMGZUNVVHSTRLdWRCajFLbFVueG5TQTVVUkpzeFg5RWlfZ2xnOTJqSUhyejhHa1BKYndDRENhVnF6QlRfR1Y?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTFBIV25sOTNKanloZXVZSFhYRTAzdzNTb1RfNDgwZjJvUjdpeDJkaGhfT1hZN29PVE40a1NkampHc2VISEdFWUdPR19ndlRLT0pESGdrTDI0VG8tdmdsNi1NOE1ZU1FkV0VuVGJ1NnRISmJyZU04eTJSMEVZMWpvams?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE9YV0x2TEFlajZhYktueE1wbjk2a0N3MzZNMTJEek9IR0FHZElpYlNpWmwxSmNqTklkZ2k2YkthMWE1UHUxVmhhQWRtMWF3X0NQZ3ZadnNOTnJVLUI2YS0yR0YxMnBPUFVIa0dYNk5uZmFaQWd4UURpMTZMeTk?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMifkFVX3lxTE9XcG9QTUE1allxaFJDZ3MyRFhnZS1EbER3eTI1ZXUtWFJVU0FSSVlnWkpCYUFoMGdSRjExV0JZYmhvU09HSzVWeGdZcDNxcXRGcWlicDlXQTk4MGVYaEdKOVR2dldNVlhGTU9vSGU4TV8wU3hrRkk2eENDVW5zdw?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - SCOPE CREEP: The caption claims that 'traditional boundary defenses are becoming obsolete against insider threats,' a strong conclusion not explicitly supported by the provided headline, which only states that cyber risk has moved inside the workflow.
+  - FABRICATED STATS/CLAIMS: The caption introduces specific technical concepts like 'instrumenting your internal data flows' and 'workflow-embedded anomalies' which are not present in the source headline and may misrepresent the specific findings or recommendations of the report.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The latest CISO data suggests a fundamental shift: cyber risk is no longer just at the perimeter but has moved deep inside the daily workflow. As highlighted in this report (https://news.google.com/rss/articles/CBMifkFVX3lxTE9XcG9QTUE1allxaFJDZ3MyRFhnZS1EbER3eTI1ZXUtWFJVU0FSSVlnWkpCYUFoMGdSRjExV0JZYmhvU09HSzVWeGdZcDNxcXRGcWlicDlXQTk4MGVYaEdKOVR2dldNVlhGTU9vSGU4TV8wU3hrRkk2eENDVW5zdw?oc=5), this internal migration challenges how we define threat surfaces. How are you currently mapping risk visibility within your operational processes?
+  - Image Prompt: A minimalist flat-vector illustration depicting a complex, interconnected network of abstract workflow nodes and data streams. The visual metaphor shows a central, organic cluster of glowing, warm amber nodes representing internal operations, surrounded by a cooler, structured grid of blue-grey perimeter elements. The composition emphasizes the density and complexity of the internal cluster, using soft gradients and clean lines to convey a sense of modern enterprise architecture without using any text, logos, or generic cybersecurity icons like shields or padlocks.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20complex%2C%20interconnected%20network%20of%20abstract%20workflow%20nodes%20and%20data%20streams.%20The%20visual%20metaphor%20shows%20a%20central%2C%20organic%20cluster%20of%20glowing%2C%20warm%20amber%20nodes%20representing%20internal%20operations%2C%20surrounded%20by%20a%20cooler%2C%20structured%20grid%20of%20blue-grey%20perimeter%20elements.%20The%20composition%20emphasizes%20the%20density%20and%20complexity%20of%20the%20internal%20cluster%2C%20using%20soft%20gradients%20and%20clean%20lines%20to%20convey%20a%20sense%20of%20modern%20enterprise%20architecture%20without%20using%20any%20text%2C%20logos%2C%20or%20generic%20cybersecurity%20icons%20like%20shields%20or%20padlocks.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1791405293/threads_bot/kqo5ruwtfqxevjrdwvwo.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (539) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18118652395933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18020463251727961
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18020463251727961
+Timestamp: 2026-10-07T20:35:08.758836+00:00 UTC
+============================================================
