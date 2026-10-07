@@ -31765,3 +31765,53 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-10-06T22:06:47.041622+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-07T10:10:35.991247+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMidkFVX3lxTE1hT1RCX2dWSE1Bb25YcGZlOTY4Mm4wZXZNMHJiUnZhUTNnMGJoTmMwcnExSEhTRl9NQ0tEUXZuRkpEMl96bVc5aDVJMk9SaGNYZFRETGNUT3VLRWVjbFVXd2FTUHZjWXFURTlhNUoxeDRSc2tPZHc?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilwFBVV95cUxPbnhEZ1l5M2V4V2tseEQybWZFcnp6T0RKZWczMlZsblB6a0hwc005djZRZ3ZoQVdURFJNcU1LTzNnUE9qTko0dDZMN2dER3FTdXI3d0lhMlpCVU9IZldrbVAyaFZHRENvS01UQzBwbWZkTUQxd2lVV2ZWZlBJODhpSXZrbnNNaHNrTmEteDV6TDRhbnpmMzkw?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirAFBVV95cUxQR0Zrc0NIZXhsLWhLX1pwZENoRFoybkRaRFRDMlhCUVlnbWRPekRZV2lPMDRkOTBidXEtR2dZQWttWmtCcWZZQTZMUEotRDFUamItN1dfRnpYVExtR1RjUWpXOXZSYmVza0cyOEw4M1ZzMUhHbFJMcTlvUDkwVVRsa1Y2ODdYRWR1eDVqU2ZZaFVBWDdUZkFFVmlFRWFnRnh4WC1RYW45X3ZqcUZ3?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMickFVX3lxTE5qYzZqZVFTWHBuRVNNWTh5aEo0VGItZG04ZnBXNlZVNG5ocDlKTjlsdW80bW9sRVlFczVJaHI3bzBFZ3U3ZGRScHMzM2RvZV9rcjNxaFpWTC1WM1ZyMWZvWnRwRGJrci1jQVdIenJLdTRSdw?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqwFBVV95cUxObFVPQlp2Qm5HekcxUll1SXNScE9tQnI0WkhxTWNIUVlVa1huV1B1eUN4Z1ptR1hhR3B6SzdQUjlOSXZPcWFVR1RxdnR2S3dpWUQ5dUhoMjgwNWVRdEh2R0JEMU9hMDlXeTZQTmFMNTNiYUNjUDdqVWdlNExhbGpkR3VsQ0NFM2JxQ0RTNTVXRlVWbXVoM25PWVRuWTRrSmMtU2NkdmxRWmZLRGPSAbABQVVfeXFMTV8xUUVfemw1LUhtblVwbERoRTlCSThPcVgtOHZJdGJwU0gzV2NWaHZmQ0RhTGY4NzViZXo1cXhGUmMwaXhQbDV1TE5vRGFDMmkyVHNMQ19Pdm1reWJXeGMzbkg1bmU5aVU0dEtUVzNVUjlYNGFoUzlFWGdiSHduMjZGb2VNdldwanVxSnlMdGVKZXBNQnJycURuUWtfbnFsZUpwZXcyOEY2Y2s1dG5QdGQ?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMidkFVX3lxTE1hT1RCX2dWSE1Bb25YcGZlOTY4Mm4wZXZNMHJiUnZhUTNnMGJoTmMwcnExSEhTRl9NQ0tEUXZuRkpEMl96bVc5aDVJMk9SaGNYZFRETGNUT3VLRWVjbFVXd2FTUHZjWXFURTlhNUoxeDRSc2tPZHc?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The Trump Mobile breach reportedly exposed data for over 3,600 individuals, highlighting a critical gap in mobile carrier security. As detailed by Google News (https://news.google.com/rss/articles/CBMidkFVX3lxTE1hT1RCX2dWSE1Bb25YcGZlOTY4Mm4wZXZNMHJiUnZhUTNnMGJoTmMwcnExSEhTRl9NQ0tEUXZuRkpEMl96bVc5aDVJMk9SaGNYZFRETGNUT3VLRWVjbFVXd2FTUHZjWXFURTlhNUoxeDRSc2tPZHc?oc=5), this incident underscores the fragility of subscriber identity management. How are you currently validating the integrity of your mobile authentication protocols against such leaks?
+  - Image Prompt: A minimalist flat-vector illustration depicting a fragmented smartphone silhouette dissolving into scattered, translucent data shards. The color palette uses muted slate blues and stark white against a soft gray background, symbolizing data dispersion without using glowing effects or binary code. The composition is clean, modern, and editorial, focusing on the abstract concept of information leakage through geometric fragmentation rather than literal hacking imagery.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20fragmented%20smartphone%20silhouette%20dissolving%20into%20scattered%2C%20translucent%20data%20shards.%20The%20color%20palette%20uses%20muted%20slate%20blues%20and%20stark%20white%20against%20a%20soft%20gray%20background%2C%20symbolizing%20data%20dispersion%20without%20using%20glowing%20effects%20or%20binary%20code.%20The%20composition%20is%20clean%2C%20modern%2C%20and%20editorial%2C%20focusing%20on%20the%20abstract%20concept%20of%20information%20leakage%20through%20geometric%20fragmentation%20rather%20than%20literal%20hacking%20imagery.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1791367842/threads_bot/fpq2sinfu4grwqwos6ik.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (549) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18118585822933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18113942375017341
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18113942375017341
+Timestamp: 2026-10-07T10:10:53.573776+00:00 UTC
+============================================================

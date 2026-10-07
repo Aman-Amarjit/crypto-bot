@@ -2154,5 +2154,15 @@
     "post_id": "18114066619832788",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-07T10:10:53.571498+00:00",
+    "topic": "dark web leaks",
+    "caption": "The Trump Mobile breach reportedly exposed data for over 3,600 individuals, highlighting a critical gap in mobile carrier security. As detailed by Google News (https://news.google.com/rss/articles/CBMidkFVX3lxTE1hT1RCX2dWSE1Bb25YcGZlOTY4Mm4wZXZNMHJiUnZhUTNnMGJoTmMwcnExSEhTRl9NQ0tEUXZuRkpEMl96bVc5aDVJMk9SaGNYZFRETGNUT3VLRWVjbFVXd2FTUHZjWXFURTlhNUoxeDRSc2tPZHc?oc=5), this incident underscores the fragility of subscriber identity management. How are you currently validating the integrity of your mobile authentication protocols against such leaks?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a fragmented smartphone silhouette dissolving into scattered, translucent data shards. The color palette uses muted slate blues and stark white against a soft gray background, symbolizing data dispersion without using glowing effects or binary code. The composition is clean, modern, and editorial, focusing on the abstract concept of information leakage through geometric fragmentation rather than literal hacking imagery.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791367842/threads_bot/fpq2sinfu4grwqwos6ik.jpg",
+    "post_id": "18113942375017341",
+    "source_url": "",
+    "source_title": ""
   }
 ]
