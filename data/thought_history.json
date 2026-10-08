@@ -383,5 +383,10 @@
     "timestamp": "2026-10-07T15:33:56.995228+00:00",
     "thought": "I found a production Kubernetes cluster with its API server exposed to the public internet. This misconfiguration allows unauthenticated attackers to list namespaces, read secrets, and deploy malicious pods directly into the cluster. The default API server binds to 0.0.0.0 if not explicitly restricted, bypassing network policies. How many of your clusters have unauthenticated API access enabled?",
     "post_id": "18143291185594710"
+  },
+  {
+    "timestamp": "2026-10-08T15:38:19.534922+00:00",
+    "thought": "Equifax failed to patch Apache Struts. The unpatched vulnerability allowed attackers to execute remote code and exfiltrate data via a web shell. This single missed update exposed 147 million records, proving that patch management is your first line of defense. How many known CVEs are currently unpatched in your environment?",
+    "post_id": "18380939152233156"
   }
 ]
