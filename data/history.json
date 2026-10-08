@@ -2174,5 +2174,15 @@
     "post_id": "18020463251727961",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-08T10:28:59.882943+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "Australia is currently weighing a mandate for mandatory AI incident reporting, a regulatory pivot that shifts the burden of proof onto organizations deploying these systems. As noted by Google News (https://news.google.com/rss/articles/CBMilAFBVV95cUxPajlTZURfbnJOOEZoZjM4aTJodWFkcmJvVlRKWnl1alo0bWU4WDl6SHhHTjAxTmVpdVJ3XzNvWjdvWVFWZmFpLV9jSVc4TmRSSENLTWpOeDg3WGVJUzVDMm5EMHRHc0E4TDFyZTdtSlBuVUNhS3ZTaGY4ekpwd2szT1JxbFNoOGJFdnA0UjVwYVRBY2JU?oc=5), this approach forces a hard look at accountability when autonomous systems fail. How do you currently structure your incident response workflows to capture AI-specific failure modes?",
+    "image_prompt": "A minimalist, editorial-style vector illustration depicting a complex, abstract neural network structure dissolving into fragmented geometric shards. The color palette features deep slate blues and stark white lines against a clean, off-white background, symbolizing the breakdown of automated systems. The composition is balanced and modern, avoiding any human figures or generic security icons, focusing instead on the conceptual tension between structured data and chaotic failure.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791455327/threads_bot/bprfwysklspnda9gze4q.jpg",
+    "post_id": "18490865416105745",
+    "source_url": "",
+    "source_title": ""
   }
 ]

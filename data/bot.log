@@ -31962,3 +31962,58 @@ Execution Completed Successfully!
 Published Post ID: 18020463251727961
 Timestamp: 2026-10-07T20:35:08.758836+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-08T10:28:40.201499+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI used for cyberattacks'
+Requesting content generation for topic: 'AI used for cyberattacks'...
+Fetching latest news headlines from Google News for query: 'AI used for cyberattacks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxPajlTZURfbnJOOEZoZjM4aTJodWFkcmJvVlRKWnl1alo0bWU4WDl6SHhHTjAxTmVpdVJ3XzNvWjdvWVFWZmFpLV9jSVc4TmRSSENLTWpOeDg3WGVJUzVDMm5EMHRHc0E4TDFyZTdtSlBuVUNhS3ZTaGY4ekpwd2szT1JxbFNoOGJFdnA0UjVwYVRBY2JU?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipgFBVV95cUxQSlVCVzYtZzNNMkJfVlZBZnZoTFZIWFRaZGR0eWhsOWt0S0ZsUUxrYl96MldMekxJN3pPVVBfV0Z3bXJ4VFZxNzIyT1FMY3V0czFsQVJ5QWI4TnpCMGhUOGI5NDlScUpzNWFsVndoSkZHWjRjSzM5Qkxiai1QbzBJMk93Zm1SY2FZMmFUZGQ0amFsazNLc3M4WXNaQmoyR3J2WUp2Zzh3?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVkozNlhxbWp5eHZRM2c5bnFsMUJUY054Ym1nN2JsMExLRHVUd2hSTzVPT093ZV9zRzh4dk1pdU42c1FnMjYtM2VpODV3VEUtdjRZdEFnbS1mcTJVN2JmdW9nSVdUQnh1aGxUM2dHVFRlWG5keHU0cWVKV19sVnF0MklpU2tkeVAzY0FMWk42UHhOampyaVRwWEJveHREOUw2Z1lkSHpHUFRKTmstVnNDT3FUV1BLMUNLWGhMSEtoUGVDUQ?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU3FnWHVCekRKWS03bW1EOEtlV0UxVnhTMklvdEpXRFgzNklFa2pFWVk3TnVIc1VyTkZON1pUWHdXc2lEX2J0dzNzUGhFMWhaU2h3RjFjSFA1Z01Ubk56bkVhUVd0Z0VGS1JCMWlLWWtSVllBZWlwVUtRejYxQXlGeGRQTEFhMjB2RlFlWU8yQXlfY2l1NjdCOXVBS3dJXzNkVzZpblF2WWF0QQ?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMinAFBVV95cUxOdlJ3aHNaMlhXUDN5UmQ2dzFhQzJNVWxiY3MzcXlNS1Q4ekRiSkRRQVJlX0d2TzBiR0gtTnlxbkpLMlpJeDJqQjZkUTMyVVRFMUZXNGdxZ1ozdU5abG5UYURGM3Q1OHNTcU94WXNxcEd2UmJXNHN5Z1BDN200NkIwMHhnTWE3eUtGTldzLXhPR2cwNWxCRnhmSFRLMVA?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxPajlTZURfbnJOOEZoZjM4aTJodWFkcmJvVlRKWnl1alo0bWU4WDl6SHhHTjAxTmVpdVJ3XzNvWjdvWVFWZmFpLV9jSVc4TmRSSENLTWpOeDg3WGVJUzVDMm5EMHRHc0E4TDFyZTdtSlBuVUNhS3ZTaGY4ekpwd2szT1JxbFNoOGJFdnA0UjVwYVRBY2JU?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - SCOPE CREEP: The caption claims the mandate forces organizations to document 'the specific AI tooling involved in the intrusion' and asks about attributing activity to 'specific LLMs or autonomous frameworks'. The source headline only states that the government is 'Weighs Mandatory AI Incident Reporting'. It does not specify that the reporting requirements include documenting specific AI tools, LLMs, or frameworks, nor does it confirm the mandate is finalized ('moving to mandate' vs 'weighs').
+  - FABRICATED STATS/CLAIMS: The caption asserts that the regulatory shift 'acknowledges the speed at which autonomous agents can now execute complex attacks'. This specific rationale or context is not present in the provided source headline, which only mentions the weighing of mandatory reporting.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Australia is currently weighing a mandate for mandatory AI incident reporting, a regulatory pivot that shifts the burden of proof onto organizations deploying these systems. As noted by Google News (https://news.google.com/rss/articles/CBMilAFBVV95cUxPajlTZURfbnJOOEZoZjM4aTJodWFkcmJvVlRKWnl1alo0bWU4WDl6SHhHTjAxTmVpdVJ3XzNvWjdvWVFWZmFpLV9jSVc4TmRSSENLTWpOeDg3WGVJUzVDMm5EMHRHc0E4TDFyZTdtSlBuVUNhS3ZTaGY4ekpwd2szT1JxbFNoOGJFdnA0UjVwYVRBY2JU?oc=5), this approach forces a hard look at accountability when autonomous systems fail. How do you currently structure your incident response workflows to capture AI-specific failure modes?
+  - Image Prompt: A minimalist, editorial-style vector illustration depicting a complex, abstract neural network structure dissolving into fragmented geometric shards. The color palette features deep slate blues and stark white lines against a clean, off-white background, symbolizing the breakdown of automated systems. The composition is balanced and modern, avoiding any human figures or generic security icons, focusing instead on the conceptual tension between structured data and chaotic failure.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%2C%20editorial-style%20vector%20illustration%20depicting%20a%20complex%2C%20abstract%20neural%20network%20structure%20dissolving%20into%20fragmented%20geometric%20shards.%20The%20color%20palette%20features%20deep%20slate%20blues%20and%20stark%20white%20lines%20against%20a%20clean%2C%20off-white%20background%2C%20symbolizing%20the%20breakdown%20of%20automated%20systems.%20The%20composition%20is%20balanced%20and%20modern%2C%20avoiding%20any%20human%20figures%20or%20generic%20security%20icons%2C%20focusing%20instead%20on%20the%20conceptual%20tension%20between%20structured%20data%20and%20chaotic%20failure.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1791455327/threads_bot/bprfwysklspnda9gze4q.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (630) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18118716181933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18490865416105745
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18490865416105745
+Timestamp: 2026-10-08T10:28:59.884775+00:00 UTC
+============================================================
