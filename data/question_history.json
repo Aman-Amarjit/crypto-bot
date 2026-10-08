@@ -508,5 +508,10 @@
     "timestamp": "2026-10-06T18:19:11.863048+00:00",
     "question": "When implementing mTLS for internal service-to-service communication, how are you preventing certificate pinning from becoming a single point of failure during CA rotation, and what specific strategies are you using to handle key compromise without triggering widespread service outages?",
     "post_id": "18100754762384088"
+  },
+  {
+    "timestamp": "2026-10-08T18:49:31.713812+00:00",
+    "question": "When implementing sidecar-based service mesh proxies, how do you securely manage the rotation of mTLS certificates without causing disruptive downtime or stale socket connections in high-throughput microservices architectures?",
+    "post_id": "18397253074161983"
   }
 ]
