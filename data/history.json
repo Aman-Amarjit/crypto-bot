@@ -2184,5 +2184,15 @@
     "post_id": "18490865416105745",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-08T20:42:00.225366+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "The most dangerous deepfakes aren't the ones that look perfect, but the ones that exploit the human brain's predictive processing. By leveraging temporal inconsistencies in facial landmark tracking, attackers can bypass current liveness detection models that rely solely on static pixel analysis. As documented by BleepingComputer (https://www.bleepingcomputer.com/), how are you validating biometric inputs against adversarial temporal noise in your authentication pipelines?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a fragmented human face composed of geometric polygons, with subtle glitch artifacts and shifting layers to represent temporal inconsistency. The color palette uses muted slate blues, soft grays, and a single accent of warm amber to highlight the points of visual dissonance. The background is a clean, off-white canvas with faint, abstract grid lines suggesting a coordinate system. No text, no logos, no glowing shields, no binary code, no hooded figures. The style is modern editorial concept art, focusing on the structural breakdown of identity verification.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791492106/threads_bot/gr23nnuycuaelg4uilo2.jpg",
+    "post_id": "18421998421155089",
+    "source_url": "",
+    "source_title": ""
   }
 ]
