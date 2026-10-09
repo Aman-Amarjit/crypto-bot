@@ -2204,5 +2204,15 @@
     "post_id": "18050645177809840",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-09T20:05:40.464964+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The most dangerous LLM jailbreaks often bypass safety filters not by breaking the model, but by exploiting the gap between system prompts and user intent. Researchers have demonstrated that embedding adversarial instructions within seemingly benign context windows can force models to ignore their core directives, effectively treating the prompt as a new instruction set. As detailed in recent security analyses (https://example.com/llm-jailbreak-analysis), how are you currently validating that your inference layer isn't silently accepting these contextual overrides?",
+    "image_prompt": "A minimalist flat-vector illustration of a fragmented digital mask shattering into geometric shards, revealing a complex, abstract neural network structure underneath. The color palette uses deep indigo, slate gray, and sharp electric violet accents to represent the hidden complexity beneath the surface. The style is clean, modern editorial concept art with smooth gradients and no text, focusing on the visual metaphor of a protective layer breaking to expose underlying logic.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791576328/threads_bot/wconnxiy05yz9hvr5hgg.jpg",
+    "post_id": "18075876737449706",
+    "source_url": "",
+    "source_title": ""
   }
 ]
