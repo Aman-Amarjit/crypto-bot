@@ -32170,3 +32170,53 @@ Execution Completed Successfully!
 Published Post ID: 18421998421155089
 Timestamp: 2026-10-08T20:42:00.226968+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-09T10:27:17.061693+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxPaEtaVTdoNVhBaUw0U2xoNzlWX1VPWmFQRXBMejZyWWpnUXZfMW9WUS1ZT2ExRkV6alhyVkNTdGhDVUpvRGJrWklZc0hKVFhZQnZuYXpyaUxRdms3TG9XSnJUbXhUbnAzTUtYcExwa1BVVy1EWmNHTWlpdGJibGNvdU9fQ1J2TnJGVnB1eDg1a1dpaThwa3dMNw?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMingFBVV95cUxNNWZ3bkNxeDRPWEQxWk1BbEZLQVVnZUM3MWw2ckI3LW9oRHlEajR4REIzN0ZOWE4zb0J1dVRGWi1mQndjZWJfVXl3LXdqTE55SGJPTUxES2haSVItUkRRYVdlLTZaRzVoeHdISDIxVl96WVM2c01WZ0h0VnhtdlA1QXRwMHh4RnpUdVBCbTVxNWJ4Wlp3YlR2c2tFYjR5Zw?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHp1a0RodHB0TloxZW1vN3pSUFl6VkJyLWFvUXk3RHp5ZWVadUFJWlotZTk2SG5oanR6V3JRMGRMVDB5YThFUVBWaVYyZWFfalBneDl0THFXb0U0NmZHUVQzN1RZS1dGNmZ6X01rMlBoeWNpZEhrYmQzalItcVpyS2p1WFJDMUFMMHBFREZWeHJaNlh1Q0Vka0lHQWxHNy1S?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxONlBNVWZraTRTTjdzVmN4VWpzd0c0Zy1CNmREQmZnS0hqejkxZEhxODZaVDZ4N3Nxbzg4bnY0eWpnR09qb3RXUHBWT0ppMEJpVVVKakJyT0hWc2dvd0FFV3NLcm5CQXNjM3lMVzJ5SE1XYXNIdkRROXk5emtJTGx3ZEh3?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxNZmY3QTBDTlM3WmJzaGk5cGdlV1JyVUR4SmtFeE1qQzVydGc3NmxlZUxZRW1hMTRyWFJuU0dLSGxsc0VfNlVMZy15M2xPVndfbFpxeTBTYk9NZUVELVFPR2pLNXh2aFhibVBWUzg1dkE1V1pkX3dvY1NOZjhLeUVwcGpR?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxPaEtaVTdoNVhBaUw0U2xoNzlWX1VPWmFQRXBMejZyWWpnUXZfMW9WUS1ZT2ExRkV6alhyVkNTdGhDVUpvRGJrWklZc0hKVFhZQnZuYXpyaUxRdms3TG9XSnJUbXhUbnAzTUtYcExwa1BVVy1EWmNHTWlpdGJibGNvdU9fQ1J2TnJGVnB1eDg1a1dpaThwa3dMNw?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Anthropic is quietly shifting the open-source security paradigm by offering free AI-driven vulnerability scans, a move that could fundamentally alter how maintainers triage complex codebases. As reported by Google News (https://news.google.com/rss/articles/CBMimAFBVV95cUxPaEtaVTdoNVhBaUw0U2xoNzlWX1VPWmFQRXBMejZyWWpnUXZfMW9WUS1ZT2ExRkV6alhyVkNTdGhDVUpvRGJrWklZc0hKVFhZQnZuYXpyaUxRdms3TG9XSnJUbXhUbnAzTUtYcExwa1BVVy1EWmNHTWlpdGJibGNvdU9fQ1J2TnJGVnB1eDg1a1dpaThwa3dMNw?oc=5), this initiative targets the sheer volume of unpatched dependencies that traditional static analysis often misses. Are you comfortable letting an LLM audit your critical infrastructure code, or do you trust human review exclusively?
+  - Image Prompt: A minimalist, flat-vector editorial illustration depicting a vast, intricate network of interconnected geometric nodes representing an open-source codebase. A sleek, abstract, semi-transparent robotic arm made of soft white and light blue gradients gently touches a central, pulsing node, symbolizing an AI audit. The background is a clean, off-white canvas with subtle, warm amber highlights indicating areas of focus or vulnerability detection. The style is modern, clean, and professional, avoiding any dark cyberpunk aesthetics, glowing shields, or binary code. The composition emphasizes collaboration and precision rather than threat or defense.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%2C%20flat-vector%20editorial%20illustration%20depicting%20a%20vast%2C%20intricate%20network%20of%20interconnected%20geometric%20nodes%20representing%20an%20open-source%20codebase.%20A%20sleek%2C%20abstract%2C%20semi-transparent%20robotic%20arm%20made%20of%20soft%20white%20and%20light%20blue%20gradients%20gently%20touches%20a%20central%2C%20pulsing%20node%2C%20symbolizing%20an%20AI%20audit.%20The%20background%20is%20a%20clean%2C%20off-white%20canvas%20with%20subtle%2C%20warm%20amber%20highlights%20indicating%20areas%20of%20focus%20or%20vulnerability%20detection.%20The%20style%20is%20modern%2C%20clean%2C%20and%20professional%2C%20avoiding%20any%20dark%20cyberpunk%20aesthetics%2C%20glowing%20shields%2C%20or%20binary%20code.%20The%20composition%20emphasizes%20collaboration%20and%20precision%20rather%20than%20threat%20or%20defense.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1791541646/threads_bot/j1rmzqtmfxbrhzyx947a.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (706) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18118841482933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18050645177809840
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18050645177809840
+Timestamp: 2026-10-09T10:27:38.478584+00:00 UTC
+============================================================

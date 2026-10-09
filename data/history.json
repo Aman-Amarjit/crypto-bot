@@ -2194,5 +2194,15 @@
     "post_id": "18421998421155089",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-09T10:27:38.476763+00:00",
+    "topic": "AI surveillance",
+    "caption": "Anthropic is quietly shifting the open-source security paradigm by offering free AI-driven vulnerability scans, a move that could fundamentally alter how maintainers triage complex codebases. As reported by Google News (https://news.google.com/rss/articles/CBMimAFBVV95cUxPaEtaVTdoNVhBaUw0U2xoNzlWX1VPWmFQRXBMejZyWWpnUXZfMW9WUS1ZT2ExRkV6alhyVkNTdGhDVUpvRGJrWklZc0hKVFhZQnZuYXpyaUxRdms3TG9XSnJUbXhUbnAzTUtYcExwa1BVVy1EWmNHTWlpdGJibGNvdU9fQ1J2TnJGVnB1eDg1a1dpaThwa3dMNw?oc=5), this initiative targets the sheer volume of unpatched dependencies that traditional static analysis often misses. Are you comfortable letting an LLM audit your critical infrastructure code, or do you trust human review exclusively?",
+    "image_prompt": "A minimalist, flat-vector editorial illustration depicting a vast, intricate network of interconnected geometric nodes representing an open-source codebase. A sleek, abstract, semi-transparent robotic arm made of soft white and light blue gradients gently touches a central, pulsing node, symbolizing an AI audit. The background is a clean, off-white canvas with subtle, warm amber highlights indicating areas of focus or vulnerability detection. The style is modern, clean, and professional, avoiding any dark cyberpunk aesthetics, glowing shields, or binary code. The composition emphasizes collaboration and precision rather than threat or defense.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791541646/threads_bot/j1rmzqtmfxbrhzyx947a.jpg",
+    "post_id": "18050645177809840",
+    "source_url": "",
+    "source_title": ""
   }
 ]
