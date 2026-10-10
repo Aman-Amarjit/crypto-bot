@@ -2214,5 +2214,15 @@
     "post_id": "18075876737449706",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-10T09:45:25.625473+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "A pre-authentication flaw in AnyDesk's Linux client is now actively exploitable, granting attackers immediate root access without credentials. This critical vulnerability bypasses standard authentication layers, turning a remote desktop tool into a direct gateway for system compromise. As detailed by Google News (https://news.google.com/rss/articles/CBMihAFBVV95cUxOdEQxX254WE03SGVFeEFYVzYxcTU3dzc0SDBqYTlCQlllTWdtb0d6aGhuVzhIdDhPYW1rQVFVTE85VldOZlZ4bmVCSVVSYTMwVlprNmdWa21MOWFpcTNLTVd6VWk4clhXNVR3Qld6ZldDSUUxTnVuT0RMR21DejdIN1JyN0o?oc=5), how are you currently isolating RDP and VNC traffic from your core network segments?",
+    "image_prompt": "A minimalist, isometric vector illustration of a sleek, modern Linux terminal window floating in a clean, light-grey void. The terminal interface displays abstract, geometric command lines in muted teal and slate blue, with a single, sharp red alert icon pulsing subtly at the top right corner. The background features soft, blurred depth-of-field circles in pale lavender and white, creating a sense of digital depth without clutter. The style is flat, corporate, and high-end, avoiding any glowing effects or dark hacker aesthetics. No text or logos are visible.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791625513/threads_bot/aj2inuqqxx26uhxnlcfn.jpg",
+    "post_id": "18169086751465408",
+    "source_url": "",
+    "source_title": ""
   }
 ]

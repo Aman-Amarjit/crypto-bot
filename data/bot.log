@@ -32379,3 +32379,48 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-10-09T21:57:58.957722+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-10T09:45:08.216766+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'CERT-In advisories security'
+Requesting content generation for topic: 'CERT-In advisories security'...
+Fetching latest news headlines from Google News for query: 'CERT-In advisories security (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxOdEQxX254WE03SGVFeEFYVzYxcTU3dzc0SDBqYTlCQlllTWdtb0d6aGhuVzhIdDhPYW1rQVFVTE85VldOZlZ4bmVCSVVSYTMwVlprNmdWa21MOWFpcTNLTVd6VWk4clhXNVR3Qld6ZldDSUUxTnVuT0RMR21DejdIN1JyN0o?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirAFBVV95cUxOVVdIeTk4SXV2WGxMWHhPbXBfNEhNRTdxTkk2NHhmcFdDeVRwRXN0ajRJUU5QSF90MDNjSVhEbTEwT1IzcmI0dkNwUXA3N25WMVlUTVZiUFlCOXlkRl9mQXo5dzZMMm5xaTduTW9WQjZGdzJZZzlHVlVqb2VJTzJqbms3bDUwX21PMWJZMm9wY0FqR1FSTk9NSWZQdkRDaEZfLVV1ZUZlZFYyVGd40gGyAUFVX3lxTFAzWnQyc1ZBenNPbjNCWC1pMnlsUTNwSGpVNjVnblBUcWt6RDhBUFJlRzhGMFo2RDU5LU9jNnI3UkpnVnJweW9NTTh2RTN0NXFocFpSVnUtXzF4RS16VFBOczNoWXI0d3M5UVFRbFdpRThDUVpic0pfY1B3TWhrQ0VaWDZWM0s4SGFwX3hHMUVVR1laOFFjc0ZjeW5EU2cxVFMyTEJNV0JkcGFCTlppam40eGc?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxOdEQxX254WE03SGVFeEFYVzYxcTU3dzc0SDBqYTlCQlllTWdtb0d6aGhuVzhIdDhPYW1rQVFVTE85VldOZlZ4bmVCSVVSYTMwVlprNmdWa21MOWFpcTNLTVd6VWk4clhXNVR3Qld6ZldDSUUxTnVuT0RMR21DejdIN1JyN0o?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: A pre-authentication flaw in AnyDesk's Linux client is now actively exploitable, granting attackers immediate root access without credentials. This critical vulnerability bypasses standard authentication layers, turning a remote desktop tool into a direct gateway for system compromise. As detailed by Google News (https://news.google.com/rss/articles/CBMihAFBVV95cUxOdEQxX254WE03SGVFeEFYVzYxcTU3dzc0SDBqYTlCQlllTWdtb0d6aGhuVzhIdDhPYW1rQVFVTE85VldOZlZ4bmVCSVVSYTMwVlprNmdWa21MOWFpcTNLTVd6VWk4clhXNVR3Qld6ZldDSUUxTnVuT0RMR21DejdIN1JyN0o?oc=5), how are you currently isolating RDP and VNC traffic from your core network segments?
+  - Image Prompt: A minimalist, isometric vector illustration of a sleek, modern Linux terminal window floating in a clean, light-grey void. The terminal interface displays abstract, geometric command lines in muted teal and slate blue, with a single, sharp red alert icon pulsing subtly at the top right corner. The background features soft, blurred depth-of-field circles in pale lavender and white, creating a sense of digital depth without clutter. The style is flat, corporate, and high-end, avoiding any glowing effects or dark hacker aesthetics. No text or logos are visible.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%2C%20isometric%20vector%20illustration%20of%20a%20sleek%2C%20modern%20Linux%20terminal%20window%20floating%20in%20a%20clean%2C%20light-grey%20void.%20The%20terminal%20interface%20displays%20abstract%2C%20geometric%20command%20lines%20in%20muted%20teal%20and%20slate%20blue%2C%20with%20a%20single%2C%20sharp%20red%20alert%20icon%20pulsing%20subtly%20at%20the%20top%20right%20corner.%20The%20background%20features%20soft%2C%20blurred%20depth-of-field%20circles%20in%20pale%20lavender%20and%20white%2C%20creating%20a%20sense%20of%20digital%20depth%20without%20clutter.%20The%20style%20is%20flat%2C%20corporate%2C%20and%20high-end%2C%20avoiding%20any%20glowing%20effects%20or%20dark%20hacker%20aesthetics.%20No%20text%20or%20logos%20are%20visible.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1791625513/threads_bot/aj2inuqqxx26uhxnlcfn.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (627) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18118978534933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18169086751465408
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18169086751465408
+Timestamp: 2026-10-10T09:45:25.627691+00:00 UTC
+============================================================
