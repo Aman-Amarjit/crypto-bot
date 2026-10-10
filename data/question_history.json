@@ -518,5 +518,10 @@
     "timestamp": "2026-10-09T18:19:47.962958+00:00",
     "question": "When enforcing zero-trust network policies in Kubernetes, how do you handle the transition from mTLS service mesh identity to short-lived, workload-specific identity tokens, and what are the specific risks associated with clock skew and certificate expiration in high-frequency microservice communication?",
     "post_id": "18177114400376380"
+  },
+  {
+    "timestamp": "2026-10-10T17:19:28.426901+00:00",
+    "question": "When implementing short-lived JWTs for microservice-to-microservice authentication, how do you handle the latency and availability trade-offs of using a centralized JWKS endpoint versus embedding public keys directly in the claims, specifically regarding key rotation strategies and revocation of compromised tokens?",
+    "post_id": "18120956917989754"
   }
 ]
