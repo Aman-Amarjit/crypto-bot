@@ -2224,5 +2224,15 @@
     "post_id": "18169086751465408",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-10T19:15:52.612698+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "The 2018 Uber data exposure wasn't a classic SQL injection, but a critical misconfiguration where an internal API endpoint lacked proper authentication. This allowed attackers to directly query user records, a subtle failure that highlights how easily internal tools become external liabilities. As detailed by The Hacker News (https://thehackernews.com/2018/12/uber-data-breach.html), how do you verify that your internal APIs enforce strict identity checks in production?",
+    "image_prompt": "A minimalist flat-vector illustration of a server rack with one specific drawer slightly ajar, emitting a soft, warm amber glow that contrasts with the cool blue ambient lighting of the data center. The visual metaphor focuses on the subtle, overlooked access point rather than dramatic hacking tropes. Clean lines, modern editorial style, no text, no logos, no binary code, no hooded figures.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791659738/threads_bot/ezlwfrlipli6horxaznp.jpg",
+    "post_id": "17970111807183937",
+    "source_url": "",
+    "source_title": ""
   }
 ]
