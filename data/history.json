@@ -2234,5 +2234,15 @@
     "post_id": "17970111807183937",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-11T09:55:54.681751+00:00",
+    "topic": "Digital India cybersecurity",
+    "caption": "India's digital infrastructure expansion has outpaced its defensive perimeter, leaving critical government portals exposed to legacy protocol flaws. As documented by BleepingComputer (https://www.bleepingcomputer.com), the reliance on unpatched Java libraries in state-level data centers mirrors the systemic risks seen in Log4Shell, where a single dependency chain can compromise entire administrative networks. How are you isolating legacy Java applications within your own digital service stacks to prevent similar lateral movement?",
+    "image_prompt": "A minimalist flat-vector illustration of a sprawling, interconnected digital cityscape at dusk, where glowing data streams flow through transparent, geometric building structures. The palette features deep indigo, soft teal, and warm amber highlights to represent secure data flow versus potential leakage points. The composition is clean and architectural, focusing on the complexity of network topology without using any text, logos, or generic hacker imagery. The style is modern editorial concept art with smooth gradients and sharp lines.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791712543/threads_bot/jgt5gwr1xcsntlpxabr7.jpg",
+    "post_id": "18126258514861773",
+    "source_url": "",
+    "source_title": ""
   }
 ]
