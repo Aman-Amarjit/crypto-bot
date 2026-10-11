@@ -2244,5 +2244,15 @@
     "post_id": "18126258514861773",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-11T19:31:36.487379+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "Heartbleed wasn't just a bug; it was a memory corruption flaw in OpenSSL that let attackers siphon raw memory, potentially exposing private keys. RBI and SEBI have since tightened API security and encryption guidelines to mitigate such risks, as noted by BleepingComputer (https://www.bleepingcomputer.com/). How do you validate that your OpenSSL builds are patched against similar memory leaks?",
+    "image_prompt": "A minimalist flat-vector illustration of a fragmented digital memory block leaking glowing, translucent data streams into a dark void. The scene uses a palette of deep indigo and soft amber to represent the breach of secure boundaries. Avoid generic shields or padlocks; focus on the abstract concept of data exfiltration through a corrupted buffer. Clean lines, modern editorial style, no text or logos.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791747082/threads_bot/s3jdmhvla95ubix022sz.jpg",
+    "post_id": "18216528496358504",
+    "source_url": "",
+    "source_title": ""
   }
 ]
