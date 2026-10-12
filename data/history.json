@@ -2254,5 +2254,15 @@
     "post_id": "18216528496358504",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-12T10:41:03.194466+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "Nippon Columbia\u2019s karaoke platform just leaked 8.6 million user records due to a malware incident, a stark reminder that entertainment infrastructure is a prime target for data exfiltration. As reported by Google News (https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZHdMN1ZkNk51S1dNUWg5eW5KQmE5LW80Y0JhUWRSUG0tdXV0N3g4SkxjLTZNMGVaYTVQQWo3VGRQcGR3cnBHcTVSVDFxWE1XX19ic0lrOVExUTA2OGpyMUVzYUdZM05naTY3R0tsUWhOZEVtV3V6RXI1NmVEV1lnMjhDYmNDTDhLREpCTTNwZG5iWEY5UkotbGNLN0ZEN25JS0RRMGw3ZzlTXzNPbzZ5ZUU1eXRNSEwwRFJJ0gHAAUFVX3lxTE9FYlUwdHNLOVpEZVlXeHFIY0hjTWdZNHNwR3dOLTZmeVdRNV8wQ1h2d0V2S0g4RHFpVVYxTk5OTGxsRkQ1eDk0ZHB0OTg4aGdDQ3NkSjhPQ2tjTjBRRlJhem9qZUN6WnVPX0FSZ25jOC00M1lYU2RMdms3cm85akgzSmUtXy05VDNnMjBDRHEyem9wampTUjRlVVRWYzhqdThjWUVoZjJiMEdGbzBxRmlrVzFJTnJZREtvTGlTWmw1Zw?oc=5), how are you segmenting consumer-facing entertainment apps from core corporate networks to limit lateral movement?",
+    "image_prompt": "A minimalist flat-vector illustration of a fragmented digital music note dissolving into scattered data packets, set against a muted slate blue background with warm amber alert accents, symbolizing the breach of a karaoke platform's user database, clean lines, no text, no logos, modern editorial style",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791801651/threads_bot/hi2aqzzqeqrfqvlxelvo.jpg",
+    "post_id": "18105609350349046",
+    "source_url": "",
+    "source_title": ""
   }
 ]
