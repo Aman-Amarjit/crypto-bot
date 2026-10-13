@@ -2284,5 +2284,15 @@
     "post_id": "17880847269627053",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-13T20:38:50.431787+00:00",
+    "topic": "dark web leaks",
+    "caption": "Apple\u2019s \u201cWelcome Home\u201d event just dropped, and while the hardware specs are impressive, the real story is how these devices integrate into the broader dark web leak ecosystem. As covered by Google News (https://news.google.com/rss/articles/CBMilAFBVV95cUxNYmExVG1PVWtHdGh6RGwyV2FhQ3hLc3RER3dPc3M0ZGtDWS1NckxfUkRDdldaMEp6SjlGV2JxdG9JMEg0a2puZm5VcVduTjJwVXUydkZuOGRYWDBrNElNaTZ2UjJNOF9aSFlkWGNyWloyNDQwUm9zeFhwVjhxYWNfSGt5OEJxMXotUFY0OGNQN1EtWEJC?oc=5), the new security architecture aims to mitigate data exfiltration, but does it actually close the loop on credential harvesting? How are you validating that your endpoint telemetry isn\u2019t just another vector for attackers to map your network?",
+    "image_prompt": "A minimalist, flat-vector editorial illustration depicting a sleek, modern smart home hub connected to a fragmented, abstract network of data nodes. The color palette features deep indigo, soft violet, and stark white, with subtle red accents indicating potential data leakage points. The composition is clean and geometric, avoiding any human figures or generic cybersecurity icons like shields or padlocks. The style is contemporary tech concept art, focusing on the flow of information and the tension between privacy and connectivity.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791923914/threads_bot/nglgyifpiq5lambpclk1.jpg",
+    "post_id": "18119369899766968",
+    "source_url": "",
+    "source_title": ""
   }
 ]

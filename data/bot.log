@@ -33114,3 +33114,54 @@ Daily Question Posted Successfully!
 Post ID: 17961317712215346
 Timestamp: 2026-10-13T19:13:31.253543+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-13T20:38:26.658108+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxNYmExVG1PVWtHdGh6RGwyV2FhQ3hLc3RER3dPc3M0ZGtDWS1NckxfUkRDdldaMEp6SjlGV2JxdG9JMEg0a2puZm5VcVduTjJwVXUydkZuOGRYWDBrNElNaTZ2UjJNOF9aSFlkWGNyWloyNDQwUm9zeFhwVjhxYWNfSGt5OEJxMXotUFY0OGNQN1EtWEJC?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihwFBVV95cUxQNVpCaEhPcjZRM3dZbS1kQzVBUjg1SEVfdmZ3U0dhX0tqUzVZZ29jbmFLMFFoU0diLUUyUmNuVEtWbEtQei1naWFyNmxsaEJENW9SNEhwdEN6NWlSTDFrN0tERmdKSDd6elNGcnlaZGlfb2NPSGFpMUhJS091U1h1dzlaZWx3d28?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMimgFBVV95cUxNXzJ4cFBNMng3ekpsTFV5bE5LZUphd0dQS3EwRHlxMFhZTkowZTN2SWo0Zy1WS2kwbW4zTUc0SkdRR19iVlgwSktsaWMzYU5vcFpwY2xZRkRiaDYzcFJiSVo0WDRvWDdRbVFsdWUxTHpJS00xWlZ6TFBKY1ZVZDhNcmdyYUxVcVhWWnlJM0x6NWZWSl9jNk82NWNB?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifkFVX3lxTE5wY0ExMmFsWW1GRTl4S2FfWWNNa0JzeDdjeU1kWXdsQjZEemR5blJjV3dVd2xqelB1enRwNnBGZHpBU0t6aVZnMTlPMU10dGhnQzhtcFdPbEZjb2ZRcTJvWDBLYnpCWFFISHJfR0pSMkxja0JBbXNIdzFST3E0dw?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMib0FVX3lxTE5NZkFWRTlWNWlRUnpqakh3bFpuWFh1SWZLOUNKYUwzMTdGRXBtb1VMcVdRZUluM0VSWXUtOGo5WENWcTh3aTZCa3poT0hTbjRuTno5WlpuSU4wS25VVGdsbkYtMUNPSE1rQXV4VDRnSQ?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxNYmExVG1PVWtHdGh6RGwyV2FhQ3hLc3RER3dPc3M0ZGtDWS1NckxfUkRDdldaMEp6SjlGV2JxdG9JMEg0a2puZm5VcVduTjJwVXUydkZuOGRYWDBrNElNaTZ2UjJNOF9aSFlkWGNyWloyNDQwUm9zeFhwVjhxYWNfSGt5OEJxMXotUFY0OGNQN1EtWEJC?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Apple’s “Welcome Home” event just dropped, and while the hardware specs are impressive, the real story is how these devices integrate into the broader dark web leak ecosystem. As covered by Google News (https://news.google.com/rss/articles/CBMilAFBVV95cUxNYmExVG1PVWtHdGh6RGwyV2FhQ3hLc3RER3dPc3M0ZGtDWS1NckxfUkRDdldaMEp6SjlGV2JxdG9JMEg0a2puZm5VcVduTjJwVXUydkZuOGRYWDBrNElNaTZ2UjJNOF9aSFlkWGNyWloyNDQwUm9zeFhwVjhxYWNfSGt5OEJxMXotUFY0OGNQN1EtWEJC?oc=5), the new security architecture aims to mitigate data exfiltration, but does it actually close the loop on credential harvesting? How are you validating that your endpoint telemetry isn’t just another vector for attackers to map your network?
+  - Image Prompt: A minimalist, flat-vector editorial illustration depicting a sleek, modern smart home hub connected to a fragmented, abstract network of data nodes. The color palette features deep indigo, soft violet, and stark white, with subtle red accents indicating potential data leakage points. The composition is clean and geometric, avoiding any human figures or generic cybersecurity icons like shields or padlocks. The style is contemporary tech concept art, focusing on the flow of information and the tension between privacy and connectivity.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%2C%20flat-vector%20editorial%20illustration%20depicting%20a%20sleek%2C%20modern%20smart%20home%20hub%20connected%20to%20a%20fragmented%2C%20abstract%20network%20of%20data%20nodes.%20The%20color%20palette%20features%20deep%20indigo%2C%20soft%20violet%2C%20and%20stark%20white%2C%20with%20subtle%20red%20accents%20indicating%20potential%20data%20leakage%20points.%20The%20composition%20is%20clean%20and%20geometric%2C%20avoiding%20any%20human%20figures%20or%20generic%20cybersecurity%20icons%20like%20shields%20or%20padlocks.%20The%20style%20is%20contemporary%20tech%20concept%20art%2C%20focusing%20on%20the%20flow%20of%20information%20and%20the%20tension%20between%20privacy%20and%20connectivity.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1791923914/threads_bot/nglgyifpiq5lambpclk1.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (692) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18119480554933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18119369899766968
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18119369899766968
+Timestamp: 2026-10-13T20:38:50.433342+00:00 UTC
+============================================================
