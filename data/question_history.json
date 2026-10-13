@@ -533,5 +533,10 @@
     "timestamp": "2026-10-12T21:14:50.181466+00:00",
     "question": "When implementing short-lived JWTs in a microservices architecture, how do you handle the latency of centralizing key rotation across dozens of nodes without introducing a single point of failure or a window where valid tokens are rejected during the rollover period?",
     "post_id": "18351634996269583"
+  },
+  {
+    "timestamp": "2026-10-13T19:13:31.252871+00:00",
+    "question": "When implementing zero-trust mTLS between microservices, how do you handle the operational burden of certificate rotation at scale without causing service disruption, and what specific strategies are you using to prevent clock skew from invalidating valid tokens or certificates during high-frequency communication?",
+    "post_id": "17961317712215346"
   }
 ]
