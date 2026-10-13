@@ -2274,5 +2274,15 @@
     "post_id": "17976691664932204",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-13T10:28:36.145244+00:00",
+    "topic": "hacking incidents",
+    "caption": "A physical hardware implant was discovered inside a Ledger wallet sold by CryptoBilis, a stark reminder that supply-chain attacks now bypass software patches entirely. As reported by Google News (https://news.google.com/rss/articles/CBMifkFVX3lxTE8yMzF4MkRNQUdHeG1tS3dfQkRmeUIwRlZKREdDZEtQU2lKS1c2SVRtMmoyVE1kUXltR1B4SVlLNC1SbEpDZDJNVzJQTFh6VU1oeXlYc2VpbTNvLTlIMzQ5eFdqdy03ZXVxb29ZeUgwOWtaVXFCNl9jc1ZwRmpLUQ?oc=5), this unauthorized component suggests a sophisticated method for siphoning funds directly at the hardware level. Have you ever physically inspected your cold storage devices for tampering before trusting them with significant assets?",
+    "image_prompt": "A macro, high-resolution editorial illustration of a sleek, matte-black hardware wallet resting on a brushed steel surface. The device is shown in cross-section, revealing a tiny, anomalous microchip soldered onto the internal circuit board, glowing with a faint, warm amber light that contrasts with the cool, industrial grey tones of the surrounding components. The style is minimalist and technical, focusing on the subtle physical intrusion rather than abstract digital concepts. No text, logos, or generic security icons are present.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791887302/threads_bot/jbdj7knlss2zlmmquz8o.jpg",
+    "post_id": "17880847269627053",
+    "source_url": "",
+    "source_title": ""
   }
 ]
