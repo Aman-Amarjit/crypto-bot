@@ -2294,5 +2294,15 @@
     "post_id": "18119369899766968",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-14T08:37:55.112748+00:00",
+    "topic": "cyber warfare",
+    "caption": "The line between physical infrastructure and digital attack surfaces just blurred in a very literal way. Attackers hijacked Danfoss controllers in French supermarkets, driving fridges to a scorching 50\u00b0C, a move that turns standard IoT vulnerabilities into immediate supply chain disruptions. As documented by Google News (https://news.google.com/rss/articles/CBMifEFVX3lxTE5Dc3ZKc2J2VUszYTA3c0djaUpQcUZ1OGtQeVhhOGxiQ200SGdZUDdRYlJyTUlKQngwVmJuWWhfMkpDdVJVbERjU3FGSDk5dDZxU05SdkhuSGdzdEtGNTRqbEJTVXBBekhXQk5SeVBPVEpzRDhyS3FaMTNZZE8?oc=5), this highlights how critical industrial protocols remain exposed. Are your OT networks segmented enough to prevent such thermal sabotage?",
+    "image_prompt": "A minimalist, flat-vector editorial illustration depicting a stark contrast between a cold, sterile supermarket aisle and a chaotic, overheating digital intrusion. The scene features a row of sleek, modern refrigerators with their doors slightly ajar, emitting stylized, wavy heat distortion lines in warm orange and red hues that clash with the cool blue ambient lighting of the store. A subtle, abstract geometric pattern representing a network packet or control signal is shown piercing through the refrigerator's digital interface panel, causing the internal temperature gauge to spike. The composition uses clean lines and a limited palette of ice blue, warning orange, and neutral grey to convey the tension between physical utility and cyber threat. No text, logos, or human figures are present, focusing entirely on the conceptual intersection of IoT hardware and thermal failure.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1791967063/threads_bot/gnwbelaiydsd6ooyv5ho.jpg",
+    "post_id": "17913598875495849",
+    "source_url": "",
+    "source_title": ""
   }
 ]

@@ -33165,3 +33165,57 @@ Execution Completed Successfully!
 Published Post ID: 18119369899766968
 Timestamp: 2026-10-13T20:38:50.433342+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-14T08:37:32.182621+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'cyber warfare'
+Requesting content generation for topic: 'cyber warfare'...
+Fetching latest news headlines from Google News for query: 'cyber warfare (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE5Dc3ZKc2J2VUszYTA3c0djaUpQcUZ1OGtQeVhhOGxiQ200SGdZUDdRYlJyTUlKQngwVmJuWWhfMkpDdVJVbERjU3FGSDk5dDZxU05SdkhuSGdzdEtGNTRqbEJTVXBBekhXQk5SeVBPVEpzRDhyS3FaMTNZZE8?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZDhNb3VNYUFmNjBVbUFPclJlZzNXUUhFaGJnMHR5bEVYZlg5N0FJem1YdHNOUFRmVDFoQ0tMT0VUaUhidXU2ejVmRC1neEo1UVV0Y1NiWnNTOEl1MEVBYjczYk9HWjFhOHl5NE1JeG9JUEZGTkxTSlJtLUZwQl9RSEtIVGE3eVBqRGxXNGdmX2RrRTF3c3lqcVRWV2RoU2JhMmZLc1htMHFubUgxUWtOci1GN0ZKelBmLTNN0gHAAUFVX3lxTFAxNW5hV0hMdTd2VFlfT1RJWGVIV0FzeElLaUlBMnpLRWo5NU9FWUVTNVhBbm9FMHVvaU91azFfQ3czTzYxcENyd0VxV1lpbVpqbUNlNkVqVUFvaUthQXFMMkZfeURvYXd1WUtHM3pNQ3haMW9FZDVwN2VfS1JSMS1nSWtody00d0llbVZFMER6bmI1bXk4Um5vX2JYVlZHSUZjSU5vaTRhY2hKblhKLWwzMXZDazB5Z1A0M29KdC1WcQ?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxNWTJZcU93ODZIUzM5MHl6eW5HeWlYMGZzYVRRN2xoU25vYjQwNVlNeUhLZ2gtVGFOV19oZ2huZl82UnN0VmI2VGhITnRxOTYwd0R0N1prS1FrM2RBOVJ5R3hTRjRVenpJUzlYSlJmaTNadkprRmdsTHFKZU42WVdhVQ?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxNbTliUnBhZDA5M2ZuNmhJVENlbmhKUE9COHVQeG9mb3VrT0p2ak5hOUJIQnhwNW1kaTRzYWhlLVhmVEo2U2JDVjF0MGFUUF9Ea0lKY2xucW1JQlVlSm1OSHc1bDNjRUJVN19YYTR1eUNyODQ2M1phT0lwNURFU2ItNG5LV3N0Wm03YnIzaUVsSlFlZmRzdFBHcg?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxNNklKTlItbVlHMzJXZWtEZFlKVE5KazNSWWxFbkxfWXhCVnlLbHhlRTVBUmxtRUJmaWdQNHRDOVF5SW9wZzVDT2I2NWdwd1lFNFNxX1FNZFhvWl9nNXJwcHhuU0lGWkg4VEJHZ0NtYmVlSUhWdFhUVzdaQnVTZGZQU1RhbF8?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMifEFVX3lxTE5Dc3ZKc2J2VUszYTA3c0djaUpQcUZ1OGtQeVhhOGxiQ200SGdZUDdRYlJyTUlKQngwVmJuWWhfMkpDdVJVbERjU3FGSDk5dDZxU05SdkhuSGdzdEtGNTRqbEJTVXBBekhXQk5SeVBPVEpzRDhyS3FaMTNZZE8?oc=5
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1149. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The line between physical infrastructure and digital attack surfaces just blurred in a very literal way. Attackers hijacked Danfoss controllers in French supermarkets, driving fridges to a scorching 50°C, a move that turns standard IoT vulnerabilities into immediate supply chain disruptions. As documented by Google News (https://news.google.com/rss/articles/CBMifEFVX3lxTE5Dc3ZKc2J2VUszYTA3c0djaUpQcUZ1OGtQeVhhOGxiQ200SGdZUDdRYlJyTUlKQngwVmJuWWhfMkpDdVJVbERjU3FGSDk5dDZxU05SdkhuSGdzdEtGNTRqbEJTVXBBekhXQk5SeVBPVEpzRDhyS3FaMTNZZE8?oc=5), this highlights how critical industrial protocols remain exposed. Are your OT networks segmented enough to prevent such thermal sabotage?
+  - Image Prompt: A minimalist, flat-vector editorial illustration depicting a stark contrast between a cold, sterile supermarket aisle and a chaotic, overheating digital intrusion. The scene features a row of sleek, modern refrigerators with their doors slightly ajar, emitting stylized, wavy heat distortion lines in warm orange and red hues that clash with the cool blue ambient lighting of the store. A subtle, abstract geometric pattern representing a network packet or control signal is shown piercing through the refrigerator's digital interface panel, causing the internal temperature gauge to spike. The composition uses clean lines and a limited palette of ice blue, warning orange, and neutral grey to convey the tension between physical utility and cyber threat. No text, logos, or human figures are present, focusing entirely on the conceptual intersection of IoT hardware and thermal failure.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%2C%20flat-vector%20editorial%20illustration%20depicting%20a%20stark%20contrast%20between%20a%20cold%2C%20sterile%20supermarket%20aisle%20and%20a%20chaotic%2C%20overheating%20digital%20intrusion.%20The%20scene%20features%20a%20row%20of%20sleek%2C%20modern%20refrigerators%20with%20their%20doors%20slightly%20ajar%2C%20emitting%20stylized%2C%20wavy%20heat%20distortion%20lines%20in%20warm%20orange%20and%20red%20hues%20that%20clash%20with%20the%20cool%20blue%20ambient%20lighting%20of%20the%20store.%20A%20subtle%2C%20abstract%20geometric%20pattern%20representing%20a%20network%20packet%20or%20control%20signal%20is%20shown%20piercing%20through%20the%20refrigerator%27s%20digital%20interface%20panel%2C%20causing%20the%20internal%20temperature%20gauge%20to%20spike.%20The%20composition%20uses%20clean%20lines%20and%20a%20limited%20palette%20of%20ice%20blue%2C%20warning%20orange%2C%20and%20neutral%20grey%20to%20convey%20the%20tension%20between%20physical%20utility%20and%20cyber%20threat.%20No%20text%2C%20logos%2C%20or%20human%20figures%20are%20present%2C%20focusing%20entirely%20on%20the%20conceptual%20intersection%20of%20IoT%20hardware%20and%20thermal%20failure.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1791967063/threads_bot/gnwbelaiydsd6ooyv5ho.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (676) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18119536897933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17913598875495849
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17913598875495849
+Timestamp: 2026-10-14T08:37:55.114813+00:00 UTC
+============================================================
