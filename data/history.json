@@ -2304,5 +2304,15 @@
     "post_id": "17913598875495849",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-14T19:20:18.686212+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "The shift from static malware to LLM-driven polymorphic payloads is quietly rewriting intrusion detection rules. Attackers now leverage transformer models to generate context-aware phishing lures that adapt to victim-specific metadata in real-time, bypassing traditional signature-based filters. As detailed in recent threat intelligence reports (https://www.cisa.gov/), how are you structuring your prompt injection defenses to catch these adaptive, semantic attacks before they reach the endpoint?",
+    "image_prompt": "A minimalist flat-vector illustration of a neural network node transforming into a jagged, adaptive arrow piercing a geometric firewall barrier. The color palette features deep indigo, electric violet, and stark white, emphasizing fluid motion and structural disruption. No text, no logos, no glowing shields, no binary rain, no hooded figures. Clean, modern editorial style with sharp vector edges and subtle gradient shading.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792005605/threads_bot/ivjzsbnu3pws1cqi0oeu.jpg",
+    "post_id": "18642482869052631",
+    "source_url": "",
+    "source_title": ""
   }
 ]
