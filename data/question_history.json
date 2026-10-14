@@ -538,5 +538,10 @@
     "timestamp": "2026-10-13T19:13:31.252871+00:00",
     "question": "When implementing zero-trust mTLS between microservices, how do you handle the operational burden of certificate rotation at scale without causing service disruption, and what specific strategies are you using to prevent clock skew from invalidating valid tokens or certificates during high-frequency communication?",
     "post_id": "17961317712215346"
+  },
+  {
+    "timestamp": "2026-10-14T17:06:16.436182+00:00",
+    "question": "When deploying zero-trust networking, how do you balance the granularity of micro-segmentation policies against the operational overhead of managing thousands of dynamic service identities in a serverless or highly ephemeral Kubernetes environment?",
+    "post_id": "18391876102202119"
   }
 ]
