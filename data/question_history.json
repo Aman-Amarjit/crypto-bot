@@ -543,5 +543,10 @@
     "timestamp": "2026-10-14T17:06:16.436182+00:00",
     "question": "When deploying zero-trust networking, how do you balance the granularity of micro-segmentation policies against the operational overhead of managing thousands of dynamic service identities in a serverless or highly ephemeral Kubernetes environment?",
     "post_id": "18391876102202119"
+  },
+  {
+    "timestamp": "2026-10-15T16:55:39.036920+00:00",
+    "question": "When implementing fine-grained RBAC in a microservices mesh, how do you balance the operational overhead of managing dynamic service-to-service identity assertions against the risk of over-permissioned service accounts leading to lateral movement during a compromise?",
+    "post_id": "18497553118100957"
   }
 ]
