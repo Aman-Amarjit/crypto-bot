@@ -2314,5 +2314,15 @@
     "post_id": "18642482869052631",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-15T19:05:44.233764+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "The sheer volume of this takedown is staggering: Microsoft and Japanese authorities dismantled a network responsible for over a billion scam messages, likely leveraging deepfake audio and video to bypass human verification. As documented by Google News (https://news.google.com/rss/articles/CBMiigFBVV95cUxORkIzZEdXak55QW4tY05hSmtTaU4xU0tqaEJvdU1HZWZqLWQ2SEJ4cm5kTU8zYUNSLWlzVEo3ZzhOMTF2bkk2WVpaNFEtazVkY3BnM0FxM1ctRElkN0gxX2tPc0Jtcm5ST1U4MTV4TEZienVNcHNCeTU3WklFUEVuTHlMdDF5dmhVbWc?oc=5), this scale suggests automated infrastructure rather than manual operation. How are you currently filtering for synthetic media artifacts in your inbound communication channels?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a massive, chaotic stream of abstract geometric shapes representing data packets being funneled through a sleek, industrial filtration system. The input side is cluttered and noisy with warm amber and red tones, while the output side is clean, organized, and cool blue. The style is modern editorial concept art, focusing on the metaphor of signal processing and noise reduction without any human figures or text.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792091129/threads_bot/trr2nhzpdouoluizgfvg.jpg",
+    "post_id": "17953383795294775",
+    "source_url": "",
+    "source_title": ""
   }
 ]
