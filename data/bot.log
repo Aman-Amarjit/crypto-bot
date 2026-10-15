@@ -33382,3 +33382,161 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-10-14T19:54:11.853622+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-15T08:12:40.854794+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'deepfakes and fraud'
+Requesting content generation for topic: 'deepfakes and fraud'...
+Fetching latest news headlines from Google News for query: 'deepfakes and fraud (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE9LTTZlQVJQQ09PRGZ1eEdFSV90SDZybEM5a0JwaXNMeXpJR3h5TTljel9WMThuQ2VBU0lnbk1fRkNRNmlFVWZ4VlhuRHBoSVVya3hkV3ZFb1VsUXZqcWR5RkFfeFhaUnl0aWRwNVVKTF9qSmVMY29mR2xJd3h1dU0?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Successfully retrieved 1 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE9LTTZlQVJQQ09PRGZ1eEdFSV90SDZybEM5a0JwaXNMeXpJR3h5TTljel9WMThuQ2VBU0lnbk1fRkNRNmlFVWZ4VlhuRHBoSVVya3hkV3ZFb1VsUXZqcWR5RkFfeFhaUnl0aWRwNVVKTF9qSmVMY29mR2xJd3h1dU0?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Most teams treat deepfake voice cloning as a distant threat, yet a single cloned executive call can bypass your entire verification chain. The real risk isn't the audio fidelity, but the social engineering vector that exploits trust in familiar voices. As highlighted in this readiness guide (https://news.google.com/rss/articles/CBMif0FVX3lxTE9LTTZlQVJQQ09PRGZ1eEdFSV90SDZybEM5a0JwaXNMeXpJR3h5TTljel9WMThuQ2VBU0lnbk1fRkNRNmlFVWZ4VlhuRHBoSVVya3hkV3ZFb1VsUXZqcWR5RkFfeFhaUnl0aWRwNVVKTF9qSmVMY29mR2xJd3h1dU0?oc=5), how are you currently stress-testing your internal communication protocols against synthetic audio?
+  - Image Prompt: A minimalist flat-vector illustration depicting a split-screen concept. On the left, a clean, geometric representation of a human ear receiving a sound wave; on the right, the same wave fragmented into digital pixels and glitch artifacts. The color palette uses muted slate blues, soft grays, and a single accent of warm amber to signify alertness. The style is modern editorial, focusing on the intersection of biological perception and digital manipulation without using any text or logos.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20split-screen%20concept.%20On%20the%20left%2C%20a%20clean%2C%20geometric%20representation%20of%20a%20human%20ear%20receiving%20a%20sound%20wave%3B%20on%20the%20right%2C%20the%20same%20wave%20fragmented%20into%20digital%20pixels%20and%20glitch%20artifacts.%20The%20color%20palette%20uses%20muted%20slate%20blues%2C%20soft%20grays%2C%20and%20a%20single%20accent%20of%20warm%20amber%20to%20signify%20alertness.%20The%20style%20is%20modern%20editorial%2C%20focusing%20on%20the%20intersection%20of%20biological%20perception%20and%20digital%20manipulation%20without%20using%20any%20text%20or%20logos.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2 for model 'flux' failed: 500 Server Error: Internal Server Error for url: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20split-screen%20concept.%20On%20the%20left%2C%20a%20clean%2C%20geometric%20representation%20of%20a%20human%20ear%20receiving%20a%20sound%20wave%3B%20on%20the%20right%2C%20the%20same%20wave%20fragmented%20into%20digital%20pixels%20and%20glitch%20artifacts.%20The%20color%20palette%20uses%20muted%20slate%20blues%2C%20soft%20grays%2C%20and%20a%20single%20accent%20of%20warm%20amber%20to%20signify%20alertness.%20The%20style%20is%20modern%20editorial%2C%20focusing%20on%20the%20intersection%20of%20biological%20perception%20and%20digital%20manipulation%20without%20using%20any%20text%20or%20logos.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Retrying in 5s...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20split-screen%20concept.%20On%20the%20left%2C%20a%20clean%2C%20geometric%20representation%20of%20a%20human%20ear%20receiving%20a%20sound%20wave%3B%20on%20the%20right%2C%20the%20same%20wave%20fragmented%20into%20digital%20pixels%20and%20glitch%20artifacts.%20The%20color%20palette%20uses%20muted%20slate%20blues%2C%20soft%20grays%2C%20and%20a%20single%20accent%20of%20warm%20amber%20to%20signify%20alertness.%20The%20style%20is%20modern%20editorial%2C%20focusing%20on%20the%20intersection%20of%20biological%20perception%20and%20digital%20manipulation%20without%20using%20any%20text%20or%20logos.?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20split-screen%20concept.%20On%20the%20left%2C%20a%20clean%2C%20geometric%20representation%20of%20a%20human%20ear%20receiving%20a%20sound%20wave%3B%20on%20the%20right%2C%20the%20same%20wave%20fragmented%20into%20digital%20pixels%20and%20glitch%20artifacts.%20The%20color%20palette%20uses%20muted%20slate%20blues%2C%20soft%20grays%2C%20and%20a%20single%20accent%20of%20warm%20amber%20to%20signify%20alertness.%20The%20style%20is%20modern%20editorial%2C%20focusing%20on%20the%20intersection%20of%20biological%20perception%20and%20digital%20manipulation%20without%20using%20any%20text%20or%20logos.?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[ImageGenerator] Cloudflare Workers AI failed: HTTPSConnectionPool(host='api.cloudflare.com', port=443): Read timed out. (read timeout=120)
+[ImageGenerator] Falling back to Hugging Face FLUX.1-schnell...
+
+[HuggingFace] Attempt 1/4...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via cloudflare-dns.com...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via dns.google...
+[HuggingFace] Attempt 1/4 failed: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+Retrying in 20s...
+[HuggingFace] Attempt 2/4...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via cloudflare-dns.com...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via dns.google...
+[HuggingFace] Attempt 2/4 failed: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+Retrying in 40s...
+[HuggingFace] Attempt 3/4...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via cloudflare-dns.com...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via dns.google...
+[HuggingFace] Attempt 3/4 failed: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+Retrying in 80s...
+[HuggingFace] Attempt 4/4...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via cloudflare-dns.com...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via dns.google...
+[HuggingFace] Attempt 4/4 failed: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+Hugging Face fallback also failed after 4 attempts.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/urllib3/connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 67, in patched_create_connection
+    return _orig_create_connection(address, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -5] No address associated with hostname
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/urllib3/connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/urllib3/connection.py", line 246, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/urllib3/util/retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 245, in _generate_huggingface
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/api.py", line 134, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 170, in run_post
+    image_bytes = generator.generate_image(image_prompt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 106, in generate_image
+    return self._generate_huggingface(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 278, in _generate_huggingface
+    raise RuntimeError(
+RuntimeError: Hugging Face fallback also failed after 4 attempts.
