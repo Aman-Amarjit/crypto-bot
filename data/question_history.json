@@ -548,5 +548,10 @@
     "timestamp": "2026-10-15T16:55:39.036920+00:00",
     "question": "When implementing fine-grained RBAC in a microservices mesh, how do you balance the operational overhead of managing dynamic service-to-service identity assertions against the risk of over-permissioned service accounts leading to lateral movement during a compromise?",
     "post_id": "18497553118100957"
+  },
+  {
+    "timestamp": "2026-10-16T16:34:20.207874+00:00",
+    "question": "When implementing zero-trust network access for microservices, how do you handle the operational overhead of short-lived, per-service mTLS certificates without sacrificing the strict isolation required for supply-chain integrity?",
+    "post_id": "17958188649017344"
   }
 ]
