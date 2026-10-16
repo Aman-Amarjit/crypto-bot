@@ -33709,3 +33709,51 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-10-15T19:24:00.749735+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-16T08:05:45.697990+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMimwFBVV95cUxQRHdpX01xOEdQdGR4bFFSQzlEV2h2dWpSMVk0T0ZRWTNvVWpoRWpkTnpjZGZ2TlJoaHlOR3laXzFlVXBIalVGWjVKcWdrU1JVRl9pdHNBaTlsVVpZQUFVMGY2anZPTnhhSGtwc3poTm9GTHFHZTlPN1dxNkVPeHBUYU9IMW1SSnBpMDc2Ym9GS0F1eEVUUHV1TDdUUQ?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMidEFVX3lxTE1ocnlkUTRVRUl5X0U1UGVnNmJ1V005cE5RNWY4Rk52QWUwOFl4blpyS1ExQ1dkU29jTlNrOFI3azI1R2luZkc3WklnU0pxZ3RydldMancyekZjd1FQQy1jQzdURVpvT29JazJrOHlhUXFGZWFr?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxOTzIwcHlYcVhTSEJ1d1ppZTF5R09JVDZLNjZ0ZUI5Qkk3LWwxS2Z4VVpmcjlUSk4yZDI2Q2x0Z095NzB0YmdtWDdiMlg1djlUUUFLRk5DLUplSWhZU1VFVEhlWU1od3hFVk93NjJ2X1FUT25reXV1QzE3MndMeko3TGh3?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirgFBVV95cUxPeGdtMUNsUGlpWEpSMWpOd0R2amJNazJtY2taMVo3QWUwb1plcGc2MUZIeXVPUkpxRTRlYTZmMFRBY0hPQzI2UWREVGxQeGxhUnFlbmF5QzhyYTBYVWFBMm1VWUw2VWtRV0JZTC1DcHQ2VkhLWUxMdi1qWFdpSG9EZ2V2ZG9LT0pacnd3SjRQN1FOdHlLS0pRZ05PUjFyZ2wxY05yOHlLenVOZzR0TXc?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxOV0c4S2Q0NWwyVkRDWjAzTjVVUjZyclE4U3labExCclNJY3ZqNXA1dHNuMGREZnVXdlNMODBDVXF0VmpjWXZVeU5sd3lpNHRFMDNIanNoMDRfYVF2aEx2d1o1TVh5WjNiWDVfTnp4SmhXS2YyMGVxQURyS0Z1aGttXzZpdTczTGR2SFdEckp5UndfWEVJM0RlN1F0Rl9FLWFqRi1VUTVLbXFqVTZ3dmlWNHlB0gG3AUFVX3lxTE5OVS01OFZRNHk1SDhjcF9PR09taG1obTJGM0E0ekZEcmxUUmw3YnViQjBkTnlyS1N3YzdYeWhEWHpZLVBuYUNyS2RSa2lTM3paaUZWUmt6VHoySGZKdGZydkZicGh0S3AtZjk0enVNcnZjeTRZM2xmOEZOdldtSWplYTBLZHNiaDVYaThZUk5zdWR3N0RlYUpLS1JiV1FhMHRVYXJZelhaVHdFeFhTZHRTVG9jblVGcw?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMimwFBVV95cUxQRHdpX01xOEdQdGR4bFFSQzlEV2h2dWpSMVk0T0ZRWTNvVWpoRWpkTnpjZGZ2TlJoaHlOR3laXzFlVXBIalVGWjVKcWdrU1JVRl9pdHNBaTlsVVpZQUFVMGY2anZPTnhhSGtwc3poTm9GTHFHZTlPN1dxNkVPeHBUYU9IMW1SSnBpMDc2Ym9GS0F1eEVUUHV1TDdUUQ?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - FABRICATED STATS/CLAIMS: The caption claims the report details a 'systemic failure in how we handle biometric data at scale' and 'AI-driven monitoring' architecture. The provided source headline only states that Benn Jordan thinks the surveillance problem is bigger than Flock. It does not mention biometric data, AI-driven monitoring, or specific architectural failures.
+  - SCOPE CREEP: The caption introduces specific technical details ('biometric data', 'facial recognition metadata', 'AI-driven monitoring') that are not present in the provided source headline, making claims far broader than what the source supports.
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1144. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Used 412, Requested 821. Please try again in 13.98s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 174, in generate_content
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 168, in generate_content
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
