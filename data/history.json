@@ -2324,5 +2324,15 @@
     "post_id": "17953383795294775",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-16T18:47:05.130263+00:00",
+    "topic": "AI surveillance",
+    "caption": "The flood of low-quality AI-generated content is now actively degrading the efficacy of cyberattacks, not just social feeds. Attackers relying on LLMs to craft phishing emails or malware payloads are hitting a wall of nonsensical syntax and logical gaps that security filters easily flag. As noted in this report (https://news.google.com/rss/articles/CBMiggFBVV95cUxOTzIwcHlYcVhTSEJ1d1ppZTF5R09JVDZLNjZ0ZUI5Qkk3LWwxS2Z4VVpmcjlUSk4yZDI2Q2x0Z095NzB0YmdtWDdiMlg1djlUUUFLRk5DLUplSWhZU1VFVEhlWU1od3hFVk93NjJ2X1FUT25reXV1QzE3MndMeko3TGh3?oc=5), how are you distinguishing between genuine human error and AI 'slop' in your threat detection pipelines?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a chaotic stream of fragmented, glitching digital shapes colliding with a clean, geometric firewall barrier. The left side features disorganized, semi-transparent polygons in muted purples and grays representing corrupted data, while the right side shows a structured, solid cyan grid. The composition uses negative space to emphasize the rejection of noise, with a subtle warm orange highlight where the collision occurs. No text, no logos, no human figures, no binary code rain, no glowing shields.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792176411/threads_bot/ghyfyqwgvq6nvfsx86fh.jpg",
+    "post_id": "17951399379320302",
+    "source_url": "",
+    "source_title": ""
   }
 ]

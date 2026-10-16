@@ -33857,3 +33857,54 @@ Daily Question Posted Successfully!
 Post ID: 17958188649017344
 Timestamp: 2026-10-16T16:34:20.208558+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-16T18:46:42.423864+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxOTzIwcHlYcVhTSEJ1d1ppZTF5R09JVDZLNjZ0ZUI5Qkk3LWwxS2Z4VVpmcjlUSk4yZDI2Q2x0Z095NzB0YmdtWDdiMlg1djlUUUFLRk5DLUplSWhZU1VFVEhlWU1od3hFVk93NjJ2X1FUT25reXV1QzE3MndMeko3TGh3?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxNM2d4b2RmaTMwZ1RDMnhPWllRb3laZkNUeDRQUGl0Ty16aGZrV19YSDdmbnZlM09sVmhSbmcxUklTM2o1LXMyV0VfRXZHOWQ4RlQ2VmpHOExXRm5fMWd3RkFzek00aWstTVZPYnFjWTgzYUtxR25zMzl5N0xqVVIzWHN3?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFJ0UEpXbUhjdy1WSmdRd1U5bVN6bjVjTnh6VXFtcExqdGtxUkVtNWJITFJhekRhUUpfY1g1cUx6VGkyeXRqcnNERHpCRmg4VE5VSjNyeGpDNV9QYWcwV2EwMEVJYS1CN1VMcGU4UjFlekdGT0gzYUpxLUw0ME05dUdFQkMwMUZPMlJhN2lrVl9SOG16WWl6a21MV3hLV01aVDZhZzRJclNuQkE5cm5j0gG0AUFVX3lxTE1Ta1I3d2lwU2U1TS0xTE45REtWVDU0T01HWEJyV21ZVHJCdHItUy1sSV93YVlSU0l1aVdHZ3lpeFA3eEU3YVl2OU5ocnMwSkU3b3BwSXdfUzgwNXJPUFFfclV4YXAtbjFzSk9hT0wycGZlbjE2QnBjLXVobC1MQ0c2TXdaRDZwWUJkWkp4VmE3enlnbDN0RlZRWWs5Rk8yWjlPMkpaaVpjWkhfNzFFNW9ISXpWMg?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxOUXM5eGViaTM3QTRXSjBQV3RrdW5qQUM5WHdKd0tKMjNBbWZ6TnJkWS02RTZGTi1STDUzWHZmME82QlI1c1ozQjNGX00yUGNCX0x0a0tjaXhyMXo5dFllNTd4ZlVYdTRBRFRQTnNxMmN5R3NTdTQwUlJWOVkydzdBaXJCTFJ5Y2dsOG1nZk0tam91VjBkcFM4Q0JrczI3dWR2alZHazNfOG9ENGlPRUh0bFhwd9IBuAFBVV95cUxQcUZBUVRxdjFGOEptajBuWk0wSjNMdTdqUUZ6VUNaNmMwNlZVTWxCVDI1Wk1OTHdxclJnM0xPUTVZbVVhejhDV01VNFlCSzNOejlhV3JvNVNTRzdMeVRIZ0duOGFTeV8wQVNhNnlncUNuRjFaeGVkeGYtVmZBc29taThtSUhZVjkyUlNod1FnSkxSTlQycVdqY3ZCUTViazRMellpVGtzbVo1dTJkR19aOTJzVVVFSlJm?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMijgFBVV95cUxQMkhKcnhJLVc1TmlBQU5QazNXaE5HOE5YTlNISE14MHVFUFAzWjYxdHlkcVBDSmZWd1N6djIxZEo1eWppS3Qwc3NMd1l6NG8xVXc5YzlVSmhiUUlDeGlzU2t3R2pqelVVZGxNSmtjcEo2eEhwVEVteDRhQ0hYVlFPN0ZscC10amNhamItNXhR?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxOTzIwcHlYcVhTSEJ1d1ppZTF5R09JVDZLNjZ0ZUI5Qkk3LWwxS2Z4VVpmcjlUSk4yZDI2Q2x0Z095NzB0YmdtWDdiMlg1djlUUUFLRk5DLUplSWhZU1VFVEhlWU1od3hFVk93NjJ2X1FUT25reXV1QzE3MndMeko3TGh3?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The flood of low-quality AI-generated content is now actively degrading the efficacy of cyberattacks, not just social feeds. Attackers relying on LLMs to craft phishing emails or malware payloads are hitting a wall of nonsensical syntax and logical gaps that security filters easily flag. As noted in this report (https://news.google.com/rss/articles/CBMiggFBVV95cUxOTzIwcHlYcVhTSEJ1d1ppZTF5R09JVDZLNjZ0ZUI5Qkk3LWwxS2Z4VVpmcjlUSk4yZDI2Q2x0Z095NzB0YmdtWDdiMlg1djlUUUFLRk5DLUplSWhZU1VFVEhlWU1od3hFVk93NjJ2X1FUT25reXV1QzE3MndMeko3TGh3?oc=5), how are you distinguishing between genuine human error and AI 'slop' in your threat detection pipelines?
+  - Image Prompt: A minimalist flat-vector illustration depicting a chaotic stream of fragmented, glitching digital shapes colliding with a clean, geometric firewall barrier. The left side features disorganized, semi-transparent polygons in muted purples and grays representing corrupted data, while the right side shows a structured, solid cyan grid. The composition uses negative space to emphasize the rejection of noise, with a subtle warm orange highlight where the collision occurs. No text, no logos, no human figures, no binary code rain, no glowing shields.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20chaotic%20stream%20of%20fragmented%2C%20glitching%20digital%20shapes%20colliding%20with%20a%20clean%2C%20geometric%20firewall%20barrier.%20The%20left%20side%20features%20disorganized%2C%20semi-transparent%20polygons%20in%20muted%20purples%20and%20grays%20representing%20corrupted%20data%2C%20while%20the%20right%20side%20shows%20a%20structured%2C%20solid%20cyan%20grid.%20The%20composition%20uses%20negative%20space%20to%20emphasize%20the%20rejection%20of%20noise%2C%20with%20a%20subtle%20warm%20orange%20highlight%20where%20the%20collision%20occurs.%20No%20text%2C%20no%20logos%2C%20no%20human%20figures%2C%20no%20binary%20code%20rain%2C%20no%20glowing%20shields.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1792176411/threads_bot/ghyfyqwgvq6nvfsx86fh.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (643) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18119883619933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17951399379320302
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17951399379320302
+Timestamp: 2026-10-16T18:47:05.132641+00:00 UTC
+============================================================
