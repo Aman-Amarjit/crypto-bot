@@ -2334,5 +2334,15 @@
     "post_id": "17951399379320302",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-17T07:43:33.722465+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The fragility of LLM safety often hinges on a single, overlooked token boundary. Researchers have demonstrated that by injecting specific Unicode zero-width characters into system prompts, attackers can effectively strip away guardrails, causing the model to ignore its own ethical constraints. This technique, detailed in recent security papers, exploits the tokenizer's inability to distinguish between semantic content and structural metadata. How are you currently sanitizing input streams to prevent these invisible character injections from bypassing your model's safety filters?",
+    "image_prompt": "A minimalist, flat-vector editorial illustration depicting a fractured digital barrier. The scene features a sleek, semi-transparent hexagonal shield that is cracking apart, with invisible, ghostly threads weaving through the cracks to bypass the structure. The color palette uses cool, muted slate blues and stark white, with subtle warm amber highlights indicating the point of failure. The style is clean, modern, and abstract, focusing on the concept of structural integrity failing due to unseen forces, avoiding any generic hacker or lock imagery.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792222992/threads_bot/iavq5x1l9tzohzxx77i8.jpg",
+    "post_id": "18628755427059629",
+    "source_url": "",
+    "source_title": ""
   }
 ]
