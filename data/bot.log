@@ -34091,3 +34091,48 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-10-17T16:46:26.786399+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-17T17:51:23.340380+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'CERT-In advisories security'
+Requesting content generation for topic: 'CERT-In advisories security'...
+Fetching latest news headlines from Google News for query: 'CERT-In advisories security (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMivAFBVV95cUxNclltSEJ0UTh3UzMya2ZUNlJnMVRkeTBsX2d5bEdxeDJKUlhOZ1lBVi1vX21WYWkzdmZ0VVhRSVY0THlYOXcwR2ZfY1NvSzJoNENTS2ljWEpFRXVCYnpDR3NjTXd5ZE5QMFprV1Y4R3kxV2JrdGhpRFh0QzZXcE56UE82M3VJSDJIVGJrNGlRdmpBM2duYXRzOTlub0R4WVY5WmdSWjZQWURHLTJhSXRnTUt5Q3N2dTlObm9yTNIBwgFBVV95cUxQb010TkNjTHNkazM5ZXkyT1ZIZXVTNVF5VUQwNkowTEVLWVNBbWxXcjM2TXRvUUFlR2VqLVZsM3lXdHJiZTkwT2dJZjIzaWUySWl4NHRpNXdLczlnckIwX0NPamhQUzV2QkhmdHNnWXpaZ1hfVTFzY3ctUC1xbmt4QXV0bzZTV3lsSTFDaWxsN1VaQnlYSDFSNUxiTzk3aWdoekVLeDhxcVotRGF4STZWVTFUMk8xWjJzSEZVZnp3eng3Zw?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxQZGVwSUVDLWlyU3JPWlhVZUcyYTFzcFdGZ2VIdmlaVGxBTmhETEdKOXhuZGdPY3dfVFVqbWpRTVNYWmRMS0RESGxWS19uMEtMOHIwNGljNFZQN0FCclFHa1VqcVBGMWtaN0dqQ3BiUzdSX2ZuODZVem1iQnZZS0NtVmphVG01d1ViYU14MTkwZ2NJT3pZbC1ZZlB4SG5XLVRTQVhRN1ZtNnhobGJrSUw2LWJn0gG3AUFVX3lxTE0xc1RYdHdCMW52bkdQSnFaWFZNYmQ5OWdJeFB3QmRZTUIwZHM0dENZU2dGVks4ZUpwVUtBT3pYdjdJejhHYzlfRmtvX3ZDT1N1RTU4YmxHNUtXRzVzenBfeDcxallxNjVjQVpDNmRubGgwRnBPSXBuUldVNmtDU0d5RGpHTE50Rmx2OWZ6dmk4YnhnZ3ZaLTY1V3I5Ykx3ckNNbmFNaWhBYWR2UGdvcjUxdU56UG13bw?oc=5
+Error during Google News URL decoding: Modest backend is deprecated since selectolax 1.0. It's outdated, not maintained, contains bugs and does not follow modern HTML5 standards. Please use lexbor backend instead: `from selectolax.lexbor import LexborHTMLParser`.
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMivAFBVV95cUxNclltSEJ0UTh3UzMya2ZUNlJnMVRkeTBsX2d5bEdxeDJKUlhOZ1lBVi1vX21WYWkzdmZ0VVhRSVY0THlYOXcwR2ZfY1NvSzJoNENTS2ljWEpFRXVCYnpDR3NjTXd5ZE5QMFprV1Y4R3kxV2JrdGhpRFh0QzZXcE56UE82M3VJSDJIVGJrNGlRdmpBM2duYXRzOTlub0R4WVY5WmdSWjZQWURHLTJhSXRnTUt5Q3N2dTlObm9yTNIBwgFBVV95cUxQb010TkNjTHNkazM5ZXkyT1ZIZXVTNVF5VUQwNkowTEVLWVNBbWxXcjM2TXRvUUFlR2VqLVZsM3lXdHJiZTkwT2dJZjIzaWUySWl4NHRpNXdLczlnckIwX0NPamhQUzV2QkhmdHNnWXpaZ1hfVTFzY3ctUC1xbmt4QXV0bzZTV3lsSTFDaWxsN1VaQnlYSDFSNUxiTzk3aWdoekVLeDhxcVotRGF4STZWVTFUMk8xWjJzSEZVZnp3eng3Zw?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Supply-chain attacks are evolving beyond traditional software dependencies, with recent breaches targeting Microsoft 365 tenants through compromised ConnectWise environments. This vector allows attackers to pivot directly into enterprise identity systems, bypassing perimeter defenses that focus solely on email or endpoint security. As detailed in the reporting (https://news.google.com/rss/articles/CBMivAFBVV95cUxNclltSEJ0UTh3UzMya2ZUNlJnMVRkeTBsX2d5bEdxeDJKUlhOZ1lBVi1vX21WYWkzdmZ0VVhRSVY0THlYOXcwR2ZfY1NvSzJoNENTS2ljWEpFRXVCYnpDR3NjTXd5ZE5QMFprV1Y4R3kxV2JrdGhpRFh0QzZXcE56UE82M3VJSDJIVGJrNGlRdmpBM2duYXRzOTlub0R4WVY5WmdSWjZQWURHLTJhSXRnTUt5Q3N2dTlObm9yTNIBwgFBVV95cUxQb010TkNjTHNkazM5ZXkyT1ZIZXVTNVF5VUQwNkowTEVLWVNBbWxXcjM2TXRvUUFlR2VqLVZsM3lXdHJiZTkwT2dJZjIzaWUySWl4NHRpNXdLczlnckIwX0NPamhQUzV2QkhmdHNnWXpaZ1hfVTFzY3ctUC1xbmt4QXV0bzZTV3lsSTFDaWxsN1VaQnlYSDFSNUxiTzk3aWdoekVLeDhxcVotRGF4STZWVTFUMk8xWjJzSEZVZnp3eng3Zw?oc=5), are your MFA policies robust enough to withstand credential theft from third-party management tools?
+  - Image Prompt: A minimalist flat-vector illustration depicting a fractured digital bridge connecting two server racks, with a subtle red warning pulse emanating from the central joint. The scene uses a cool palette of slate blue and charcoal, accented by a single sharp amber highlight to indicate the breach point. The style is clean and editorial, focusing on the structural integrity of the connection rather than abstract code or generic security icons. No text or logos are present.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20fractured%20digital%20bridge%20connecting%20two%20server%20racks%2C%20with%20a%20subtle%20red%20warning%20pulse%20emanating%20from%20the%20central%20joint.%20The%20scene%20uses%20a%20cool%20palette%20of%20slate%20blue%20and%20charcoal%2C%20accented%20by%20a%20single%20sharp%20amber%20highlight%20to%20indicate%20the%20breach%20point.%20The%20style%20is%20clean%20and%20editorial%2C%20focusing%20on%20the%20structural%20integrity%20of%20the%20connection%20rather%20than%20abstract%20code%20or%20generic%20security%20icons.%20No%20text%20or%20logos%20are%20present.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1792259490/threads_bot/rwcmter6ly2x8hw8uveu.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (1031) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18120028390933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18070443755777537
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18070443755777537
+Timestamp: 2026-10-17T17:51:41.439354+00:00 UTC
+============================================================

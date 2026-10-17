@@ -2344,5 +2344,15 @@
     "post_id": "18628755427059629",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-17T17:51:41.436948+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "Supply-chain attacks are evolving beyond traditional software dependencies, with recent breaches targeting Microsoft 365 tenants through compromised ConnectWise environments. This vector allows attackers to pivot directly into enterprise identity systems, bypassing perimeter defenses that focus solely on email or endpoint security. As detailed in the reporting (https://news.google.com/rss/articles/CBMivAFBVV95cUxNclltSEJ0UTh3UzMya2ZUNlJnMVRkeTBsX2d5bEdxeDJKUlhOZ1lBVi1vX21WYWkzdmZ0VVhRSVY0THlYOXcwR2ZfY1NvSzJoNENTS2ljWEpFRXVCYnpDR3NjTXd5ZE5QMFprV1Y4R3kxV2JrdGhpRFh0QzZXcE56UE82M3VJSDJIVGJrNGlRdmpBM2duYXRzOTlub0R4WVY5WmdSWjZQWURHLTJhSXRnTUt5Q3N2dTlObm9yTNIBwgFBVV95cUxQb010TkNjTHNkazM5ZXkyT1ZIZXVTNVF5VUQwNkowTEVLWVNBbWxXcjM2TXRvUUFlR2VqLVZsM3lXdHJiZTkwT2dJZjIzaWUySWl4NHRpNXdLczlnckIwX0NPamhQUzV2QkhmdHNnWXpaZ1hfVTFzY3ctUC1xbmt4QXV0bzZTV3lsSTFDaWxsN1VaQnlYSDFSNUxiTzk3aWdoekVLeDhxcVotRGF4STZWVTFUMk8xWjJzSEZVZnp3eng3Zw?oc=5), are your MFA policies robust enough to withstand credential theft from third-party management tools?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a fractured digital bridge connecting two server racks, with a subtle red warning pulse emanating from the central joint. The scene uses a cool palette of slate blue and charcoal, accented by a single sharp amber highlight to indicate the breach point. The style is clean and editorial, focusing on the structural integrity of the connection rather than abstract code or generic security icons. No text or logos are present.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792259490/threads_bot/rwcmter6ly2x8hw8uveu.jpg",
+    "post_id": "18070443755777537",
+    "source_url": "",
+    "source_title": ""
   }
 ]
