@@ -553,5 +553,10 @@
     "timestamp": "2026-10-16T16:34:20.207874+00:00",
     "question": "When implementing zero-trust network access for microservices, how do you handle the operational overhead of short-lived, per-service mTLS certificates without sacrificing the strict isolation required for supply-chain integrity?",
     "post_id": "17958188649017344"
+  },
+  {
+    "timestamp": "2026-10-17T15:29:02.651860+00:00",
+    "question": "When using just-in-time compilation for managed languages like C#, how do you securely configure and enforce write-protect memory regions for JIT-generated code to mitigate in-memory code injection and ROP gadgets?",
+    "post_id": "17866451379675524"
   }
 ]
