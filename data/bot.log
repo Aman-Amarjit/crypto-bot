@@ -34158,3 +34158,40 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-10-17T19:46:52.190597+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-18T07:57:41.819594+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Indian startup data breaches'
+Requesting content generation for topic: 'Indian startup data breaches'...
+Fetching latest news headlines from Google News for query: 'Indian startup data breaches (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Successfully retrieved 0 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1108. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ❌ Failed (attempt 2/3). Issues:
+  - The caption attributes the 2018 Uber breach to an 'unpatched Apache Struts vulnerability'. This is factually incorrect; the 2016 breach (disclosed in 2017) was caused by a SQL injection vulnerability in the company's internal database, and the 2018 incident involved a separate, smaller breach of a third-party vendor (or internal systems) but was not primarily characterized as a mass leak of 57 million records due to Apache Struts. The 57 million figure is associated with the 2016 breach, not a 2018 Struts incident.
+  - The caption cites a 2018 article from The Hacker News as documenting the root cause of a '2018 Uber breach' involving 57 million records. The 57 million record breach was the 2016 incident, which was disclosed in November 2017. A 2018 article would not be the primary documentation for the root cause of the 2016 breach, nor would it describe a 2018 breach of that magnitude caused by Struts.
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1108. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 174, in generate_content
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 168, in generate_content
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
