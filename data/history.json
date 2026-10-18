@@ -2354,5 +2354,15 @@
     "post_id": "18070443755777537",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-18T18:03:57.887414+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "Indian startups often underestimate the blast radius of a single misconfigured S3 bucket. Attackers routinely exploit public-read permissions on cloud storage to exfiltrate sensitive user data, a pattern documented by The Hacker News (https://thehackernews.com/). How are you validating your cloud storage ACLs before deployment?",
+    "image_prompt": "Minimalist flat-vector illustration of a cloud storage bucket with a wide-open lock, surrounded by scattered data packets flowing outward into a void, using a palette of muted slate blue, soft amber, and off-white, clean lines, no text, no logos, modern editorial style",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792346627/threads_bot/t57l4yognzaj4727duuh.jpg",
+    "post_id": "18106879427461114",
+    "source_url": "",
+    "source_title": ""
   }
 ]
