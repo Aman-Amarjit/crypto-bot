@@ -438,5 +438,10 @@
     "timestamp": "2026-10-18T12:37:04.388489+00:00",
     "thought": "OAuth 2.0 clients can leak access tokens via verbose error logs.\nWhen a server fails to sanitize stack traces, full JWTs often appear in production logs accessible to low-privilege users.\nThis allows attackers to hijack active sessions without needing credentials or MFA.\nCVE-2023-27522 shows how improper validation in certain frameworks exposes these secrets; are your log aggregators filtering PII?",
     "post_id": "18179431792440997"
+  },
+  {
+    "timestamp": "2026-10-19T15:37:23.704743+00:00",
+    "thought": "LockBit 3.0 operators now deploy a custom Rust-based loader to evade static analysis. This modular approach allows them to swap encryption modules without recompiling the entire payload, reducing detection signatures. The shift to Rust complicates reverse engineering due to its memory safety features and unique binary structure. Microsoft reported a 40% increase in LockBit-related incidents in Q3 2024, so how are your EDR rules handling Rust-compiled binaries?",
+    "post_id": "18075432779478027"
   }
 ]
