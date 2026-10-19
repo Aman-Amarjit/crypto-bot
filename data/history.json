@@ -2364,5 +2364,15 @@
     "post_id": "18106879427461114",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-19T08:46:03.614196+00:00",
+    "topic": "Digital India cybersecurity",
+    "caption": "Digital India\u2019s rapid digitization often overlooks the legacy infrastructure still humming beneath the surface. As highlighted by The Hacker News (https://thehackernews.com), outdated Java libraries in government portals remain prime targets for remote code execution exploits like Log4Shell. How are you auditing third-party dependencies in your public sector deployments?",
+    "image_prompt": "A minimalist flat-vector illustration of a complex, layered digital infrastructure. The base layer consists of old, rusted metallic gears and circuit boards, while the upper layers are sleek, translucent glass panels with flowing data streams. A single, subtle red pulse travels through the old gears, indicating a vulnerability. The color palette uses cool cyans and teals for the modern layers, contrasting with warm amber and rust tones for the legacy components. No text, no logos, no glowing shields, no binary rain.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792399552/threads_bot/timvawlbrwbixu0duukv.jpg",
+    "post_id": "18049820135609973",
+    "source_url": "",
+    "source_title": ""
   }
 ]
