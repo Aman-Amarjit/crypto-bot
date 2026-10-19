@@ -563,5 +563,10 @@
     "timestamp": "2026-10-18T15:48:38.278200+00:00",
     "question": "How do you enforce least-privilege access for automated CI/CD runners interacting with private registries without creating a brittle web of static tokens that become difficult to audit or rotate as your pipeline scales?",
     "post_id": "18077745695548465"
+  },
+  {
+    "timestamp": "2026-10-19T18:42:01.811511+00:00",
+    "question": "When implementing zero-trust network access, how do you handle dynamic identity verification for stateless serverless functions that lack persistent sessions or traditional session cookies, especially when dealing with high-frequency, ephemeral invocations that require strict, real-time authorization checks against identity providers?",
+    "post_id": "18177936580449001"
   }
 ]
