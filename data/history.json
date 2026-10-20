@@ -2374,5 +2374,15 @@
     "post_id": "18049820135609973",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-20T08:26:53.796994+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "India's financial regulators are tightening the screws on cryptographic hygiene, a move that feels overdue given the fragility of legacy infrastructure. RBI and SEBI mandates now explicitly target weak key management practices, echoing the systemic risks exposed by the Heartbleed bug where a single off-by-one error in OpenSSL leaked sensitive memory. As detailed in recent regulatory circulars (https://www.rbi.org.in), are your payment gateways actually rotating their private keys before the next audit cycle?",
+    "image_prompt": "Minimalist flat-vector illustration of a complex financial network node, featuring interlocking geometric shapes in deep indigo and slate grey, with a single bright amber highlight indicating a secure handshake protocol, clean white background, no text, no logos, modern editorial style, high contrast, abstract representation of regulatory compliance and data integrity",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792484802/threads_bot/giyejtzqfsq8bbhjosc8.jpg",
+    "post_id": "17928111240424112",
+    "source_url": "",
+    "source_title": ""
   }
 ]
