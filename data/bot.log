@@ -34758,3 +34758,57 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-10-20T19:34:45.353305+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-21T08:29:21.699766+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'government cyber regulations'
+Requesting content generation for topic: 'government cyber regulations'...
+Fetching latest news headlines from Google News for query: 'government cyber regulations (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxQME52WHdnNEhWUnRTQWMzRGFsVWNSdEZuemVfVVdvTFVRVzdienJGcFRzWFVnVTFVWDZjTXRvaGt1N1ZqUHNFQkFNeG0wNXFqVHBPSS0wUWEybzZQYmlncU9uMEpFb2tDX2lyV1VLYk56UjQ4YWpuY0pZU0I4T3ZBekJkYS00bnJDdjBSUExfaHR1WF9FbUx1SUJPS2ZaaW5KWnZsR2dJVjlsakNGYWRv0gG0AUFVX3lxTE5PdktfTV9sQTZBVkRKZkc0a29sa0xwWDNmMTlraTJrWVpXSzJMaVZmVUYyeW1PRF9pWnExMW9uUHBSbnVxUDRMLUswQzN0czkwUWYtRmRlUlNOcy1NVTh4TWFqUkl3SU54NzhvcTczZ21rb0hRV1Fla1lUUFdVQkVJMkIwUUViUGlmZHhLRms2LU81VGJCUGctWGZUeVY5YkREcF9XY0k4SzlBVnpSa1NCbk5oZA?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVFZlLWFxbkVGellGY3dRR1VMRGJ5cnYzV3J0dElxTnpvSGhncEZvUFVKUnV5Qi1ZQVJBLTg4UGxnR0wxblRDX3VmNDVRVVRRejlwZmZPZWdLNkFZN3VUNm1WdDY4TG1rejBxRVBCSGN2X0dIWVJVZkhoMzBwODdqTlN5SmZ3Nng2UDIxaHdFSTZTYVBaRGllQTUyY29KQ1l4ckRwd1ZDNFBLNEHSAbABQVVfeXFMT0ZJSklORDFDd1kxenZuWkNkX3JYb1pCUlY2TUVaLThRcHRJTHRVN1JrSVM5YjJMdUlZMFJka1pEWFNFNm9Mc2dTZFJnZ09pZWdLU3NsUmZ1YXM2eUVlVnNPWGd4ZHpqQ2VPalU2dFRMR0E4dGRuVXRtV1BaQUJmUjVJZmh1QWx5ckl1SDl0ekFUU0lGVHVRN01HMExnVml6SVRoR3BLM1BvQXAtVlVkRVI?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxPVllBWEktMzdicFV0SnpNQTVyZUJMSEo5cUoxOXF3Y3FObUFkblhKN0lKMnhlLVE0Sm5kYlkzejQ1cmpPWnFMZFJObnlVVHJCRThlYTZ4UUxPOWVnLWNXQjMxM21GdEFYdnVKZUJfWG5XZTJtNFVwOFo5alJqZWd0eDREcGU?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMidEFVX3lxTE92M3JvdkZLamw0eEJ0TkNLM3FDRWxDRnNaT3YyWVRsUzlNU0xDU24xenpYNF9OWWltWXdkYnRaLWpJeThpQkR3WEhLR3ltbTNWcjlaWkV3MndoZWt3V3dSZks3N3JVQVJQRVItc0dsbnNDRVVN?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ydXdzdTg3SFIyLVBEbmRoRkpVSE5kS3NaRGRiRk1lMDhYZXRzNGVwelNLSlo3Rnc3ZEs4SkhKTXloWnRweVByZDEwQzZnNWdKQkFvcHdUWGFKNHQ4VGdqRWxR?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxQME52WHdnNEhWUnRTQWMzRGFsVWNSdEZuemVfVVdvTFVRVzdienJGcFRzWFVnVTFVWDZjTXRvaGt1N1ZqUHNFQkFNeG0wNXFqVHBPSS0wUWEybzZQYmlncU9uMEpFb2tDX2lyV1VLYk56UjQ4YWpuY0pZU0I4T3ZBekJkYS00bnJDdjBSUExfaHR1WF9FbUx1SUJPS2ZaaW5KWnZsR2dJVjlsakNGYWRv0gG0AUFVX3lxTE5PdktfTV9sQTZBVkRKZkc0a29sa0xwWDNmMTlraTJrWVpXSzJMaVZmVUYyeW1PRF9pWnExMW9uUHBSbnVxUDRMLUswQzN0czkwUWYtRmRlUlNOcy1NVTh4TWFqUkl3SU54NzhvcTczZ21rb0hRV1Fla1lUUFdVQkVJMkIwUUViUGlmZHhLRms2LU81VGJCUGctWGZUeVY5YkREcF9XY0k4SzlBVnpSa1NCbk5oZA?oc=5
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1513. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The US Department of Homeland Security has officially banned DeepSeek products across all federal civilian agencies, a decisive move that isolates these models from government infrastructure. As reported by Google News (https://news.google.com/rss/articles/CBMirwFBVV95cUxQME52WHdnNEhWUnRTQWMzRGFsVWNSdEZuemVfVVdvTFVRVzdienJGcFRzWFVnVTFVWDZjTXRvaGt1N1ZqUHNFQkFNeG0wNXFqVHBPSS0wUWEybzZQYmlncU9uMEpFb2tDX2lyV1VLYk56UjQ4YWpuY0pZU0I4T3ZBekJkYS00bnJDdjBSUExfaHR1WF9FbUx1SUJPS2ZaaW5KWnZsR2dJVjlsakNGYWRv0gG0AUFVX3lxTE5PdktfTV9sQTZBVkRKZkc0a29sa0xwWDNmMTlraTJrWVpXSzJMaVZmVUYyeW1PRF9pWnExMW9uUHBSbnVxUDRMLUswQzN0czkwUWYtRmRlUlNOcy1NVTh4TWFqUkl3SU54NzhvcTczZ21rb0hRV1Fla1lUUFdVQkVJMkIwUUViUGlmZHhLRms2LU81VGJCUGctWGZUeVY5YkREcF9XY0k4SzlBVnpSa1NCbk5oZA?oc=5), this restriction highlights the growing tension between AI utility and sovereign data control. How are you currently auditing third-party LLM integrations for compliance with emerging federal procurement standards?
+  - Image Prompt: A minimalist flat-vector illustration depicting a split digital landscape. On the left, a sleek, modern server rack with a subtle red prohibition symbol overlay, rendered in cool slate blues and greys. On the right, an abstract, flowing neural network structure in warm amber and soft white, representing the excluded AI model. The background is a clean, light off-white with faint geometric grid lines, emphasizing a professional, editorial tech aesthetic without any text, logos, or generic hacker imagery.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20split%20digital%20landscape.%20On%20the%20left%2C%20a%20sleek%2C%20modern%20server%20rack%20with%20a%20subtle%20red%20prohibition%20symbol%20overlay%2C%20rendered%20in%20cool%20slate%20blues%20and%20greys.%20On%20the%20right%2C%20an%20abstract%2C%20flowing%20neural%20network%20structure%20in%20warm%20amber%20and%20soft%20white%2C%20representing%20the%20excluded%20AI%20model.%20The%20background%20is%20a%20clean%2C%20light%20off-white%20with%20faint%20geometric%20grid%20lines%2C%20emphasizing%20a%20professional%2C%20editorial%20tech%20aesthetic%20without%20any%20text%2C%20logos%2C%20or%20generic%20hacker%20imagery.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1792571373/threads_bot/ir11uhujosfc2bdilprt.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (965) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18120556786933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18144387025608524
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18144387025608524
+Timestamp: 2026-10-21T08:29:47.511616+00:00 UTC
+============================================================
