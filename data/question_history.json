@@ -573,5 +573,10 @@
     "timestamp": "2026-10-20T16:58:24.565199+00:00",
     "question": "When implementing zero-trust networking in a microservices architecture, how do you handle the balance between fine-grained mTLS service mesh policies and the operational overhead of managing thousands of short-lived certificates across ephemeral Kubernetes pods without introducing unacceptable latency or key rotation failures?",
     "post_id": "18151910149539191"
+  },
+  {
+    "timestamp": "2026-10-21T17:07:10.277181+00:00",
+    "question": "When verifying SBOMs in CI/CD pipelines, how do you balance the need for cryptographic integrity of the manifest against the risk of breaking downstream deployment automation if a transitive dependency is updated post-signing but pre-deployment?",
+    "post_id": "18070147463773612"
   }
 ]
