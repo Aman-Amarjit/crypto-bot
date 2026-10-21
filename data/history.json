@@ -2404,5 +2404,15 @@
     "post_id": "18144387025608524",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-21T19:16:59.070669+00:00",
+    "topic": "hacking incidents",
+    "caption": "State Bank of India has confirmed a breach after 3,897 customer records surfaced on the dark web, a stark reminder that even massive financial institutions remain vulnerable to data exfiltration. As documented by Google News (https://news.google.com/rss/articles/CBMigwFBVV95cUxQd0dhdDcxMDBhYllLaTM2LVJxN2tvYzNvMXk2VkEzQmNWOTRkd2Z6b3VzdnNjZnNJajVuV3FJcTAtOGY4VTN0c2s0XzRPRlNrYXA2RGVESm9WTXNKalJNdTJvYjdqQXAxQ1QxWXlwdjhMOVJxcVFTX0huWmxCWE5KanhUNA?oc=5), the incident highlights the persistent risk of sensitive PII leaking through unknown vectors. How are you currently validating the integrity of your customer data pipelines to detect such anomalies early?",
+    "image_prompt": "A minimalist flat-vector illustration of a massive, translucent glass bank vault door slightly ajar, with a single, glowing red data packet slipping out into a dark, abstract void. The scene uses a cool palette of deep indigo and slate grey, contrasted by the warm, urgent red of the leaking data. The style is clean and editorial, focusing on the concept of containment failure without using any text, logos, or generic hacker imagery.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792610207/threads_bot/fx00lw9wumc0eo104809.jpg",
+    "post_id": "17944403634090196",
+    "source_url": "",
+    "source_title": ""
   }
 ]
