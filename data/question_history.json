@@ -578,5 +578,10 @@
     "timestamp": "2026-10-21T17:07:10.277181+00:00",
     "question": "When verifying SBOMs in CI/CD pipelines, how do you balance the need for cryptographic integrity of the manifest against the risk of breaking downstream deployment automation if a transitive dependency is updated post-signing but pre-deployment?",
     "post_id": "18070147463773612"
+  },
+  {
+    "timestamp": "2026-10-22T17:06:31.156530+00:00",
+    "question": "How are you currently detecting and mitigating typosquatting or dependency confusion attacks in your CI/CD pipelines, specifically when private package mirrors are vulnerable to shadowing from public registries?",
+    "post_id": "17913184590518030"
   }
 ]
