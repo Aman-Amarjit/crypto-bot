@@ -2414,5 +2414,15 @@
     "post_id": "17944403634090196",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-22T08:32:21.758389+00:00",
+    "topic": "dark web leaks",
+    "caption": "CISA reports SafePay ransomware has compromised over 600 critical infrastructure organizations, a scale that signals a systemic failure in perimeter defense rather than isolated incidents. As documented by Google News (https://news.google.com/rss/articles/CBMizwFBVV95cUxOb3NaOGFmN04tRTNZOEEzUS1QeEVzekQxMTk1OEVfbjU0ZnU5em1CRUhLcFF4OURxTDZvSm4xUmJHZ1FVenoxWi15c2lMaFFDei11cGx4RW1NdXdTeXBrdEw2UDYwSnNPMEpwdlNGUl96Z08tSVRtam1zYjdnc3NqQXI3YVZNcTVpWk9uWXFOVnBSSnNhaGQ0SFA5bndCN3FyaVprUmY3Zkl0SWJlV1NrMTBhNzRWNGdkaFRjT3hRWldZUkJhd0JVLUY0dzN6MzDSAdQBQVVfeXFMUGlGb3hFNHRIVnU3Ym5pbnJodkVKcTVxQ2dXbmZkdTI5ZWwtazhmZ01sRmdLVHdYWkp1eDdDMGJkVTZCTXNZcFBTaHVuVDFoYk0wZmMxQ0NtN0ZsTWRjbS03dTFlN3QwcFhoRnI3OFNlQmxpWWYzcXZmOW1TOEJXZ3kxS010N2piY2NhUGJVb2cxQUU2aVFocktMb3ZuS3dGUVNTVGJqVXlENzFnNFRMUkZMR2VIdS1Za0lhR2pwM1lpak1aUEd6alhhQ2xIZUN1T19taTE?oc=5), the sheer volume of targets suggests a highly efficient initial access strategy. What specific telemetry gaps are allowing this group to maintain persistence across such diverse industrial environments?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a vast, interconnected grid of industrial nodes in muted slate and steel tones. One central node is fractured, emitting subtle, warm amber pulses that ripple outward through the network lines, symbolizing widespread compromise. The background is a clean, light gray gradient with no text, focusing on the structural integrity and the subtle disruption within the infrastructure layout.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792657929/threads_bot/euwojlgpettffgfjhv2p.jpg",
+    "post_id": "17921649831444494",
+    "source_url": "",
+    "source_title": ""
   }
 ]

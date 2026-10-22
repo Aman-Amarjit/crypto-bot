@@ -34988,3 +34988,61 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-10-21T19:47:26.405919+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-22T08:31:52.513430+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMizwFBVV95cUxOb3NaOGFmN04tRTNZOEEzUS1QeEVzekQxMTk1OEVfbjU0ZnU5em1CRUhLcFF4OURxTDZvSm4xUmJHZ1FVenoxWi15c2lMaFFDei11cGx4RW1NdXdTeXBrdEw2UDYwSnNPMEpwdlNGUl96Z08tSVRtam1zYjdnc3NqQXI3YVZNcTVpWk9uWXFOVnBSSnNhaGQ0SFA5bndCN3FyaVprUmY3Zkl0SWJlV1NrMTBhNzRWNGdkaFRjT3hRWldZUkJhd0JVLUY0dzN6MzDSAdQBQVVfeXFMUGlGb3hFNHRIVnU3Ym5pbnJodkVKcTVxQ2dXbmZkdTI5ZWwtazhmZ01sRmdLVHdYWkp1eDdDMGJkVTZCTXNZcFBTaHVuVDFoYk0wZmMxQ0NtN0ZsTWRjbS03dTFlN3QwcFhoRnI3OFNlQmxpWWYzcXZmOW1TOEJXZ3kxS010N2piY2NhUGJVb2cxQUU2aVFocktMb3ZuS3dGUVNTVGJqVXlENzFnNFRMUkZMR2VIdS1Za0lhR2pwM1lpak1aUEd6alhhQ2xIZUN1T19taTE?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilgFBVV95cUxNUHBzTlE3YjM5VllleFRhSk00bWk5cTdGcm95M0QwNkdKblVpaEJPbXBKYjBrcTdaZTY2ZFQyUFljVjBwZUc0a0VfSDNvVTE1MGllZWRuMmMxX3pQMjlyUTNHdVhBUzFyUjRQRlhmM0JNR3d1MTN6cUVsUXIyVXZJdE0zdkZ6S1VaTk01NTFSelFKMHo4RXc?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipgFBVV95cUxNWUhZU3RpdW1VdXhPZk9Yb1BzQlVhRGNCNlQ4U2h6cENEUUVHUWNlTVo1RWlOeGpoNWNuN0JaN3hVZl9RS0lhaW9NMWFxM3BlTjl4RjBTcFZuQVdsZEpaaXV1LUlOa0VveE52UTJDc0RXbThxYkFTZ1Rkc3hyclJlVWtXN1A1QmVlTEdCWnRaejdmTlNzaV9iVXJCem5vWTJXSzhFRDRn?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMioAFBVV95cUxPNGdTNGtWcjRGR1VFelVuaVNOaDBXU2M5OGx4RHhtbTloZ3dYUzJTREQzd0IzdFpIZ21CeHo3TVk5VjJLUUxHUGhYRzVwV2dPbm1RUEZYU0JGaDZINlhHUk9UQTF4U0d3clNBQ3RENU1mN0Q0dVVaNWlHNlhYMUlpeFh2enRTY1dUYWhYMFdzZGVHd1BKbUt2aHlCWXpUS2pu?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxNMEVWUV9kZDRJd3N3eW5sSnctRFd2dkJkRXBNZ0xiY004czBDMDB4b2l4MU5rdDV6ZHMxaVBzRWJyc3hwTm5PMHJJRjlYWkJBb043SEpsNDlWWUxnYzBvbVhiRm9sZkRoRm9pcHRVdy1ac0thUXo1RjRxUy1BMWtTdA?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMizwFBVV95cUxOb3NaOGFmN04tRTNZOEEzUS1QeEVzekQxMTk1OEVfbjU0ZnU5em1CRUhLcFF4OURxTDZvSm4xUmJHZ1FVenoxWi15c2lMaFFDei11cGx4RW1NdXdTeXBrdEw2UDYwSnNPMEpwdlNGUl96Z08tSVRtam1zYjdnc3NqQXI3YVZNcTVpWk9uWXFOVnBSSnNhaGQ0SFA5bndCN3FyaVprUmY3Zkl0SWJlV1NrMTBhNzRWNGdkaFRjT3hRWldZUkJhd0JVLUY0dzN6MzDSAdQBQVVfeXFMUGlGb3hFNHRIVnU3Ym5pbnJodkVKcTVxQ2dXbmZkdTI5ZWwtazhmZ01sRmdLVHdYWkp1eDdDMGJkVTZCTXNZcFBTaHVuVDFoYk0wZmMxQ0NtN0ZsTWRjbS03dTFlN3QwcFhoRnI3OFNlQmxpWWYzcXZmOW1TOEJXZ3kxS010N2piY2NhUGJVb2cxQUU2aVFocktMb3ZuS3dGUVNTVGJqVXlENzFnNFRMUkZMR2VIdS1Za0lhR2pwM1lpak1aUEd6alhhQ2xIZUN1T19taTE?oc=5
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1152. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ❌ Failed (attempt 2/3). Issues:
+  - FABRICATED STATS/CLAIMS: The caption claims the group is 'leveraging a specific, unpatched vulnerability in widely deployed industrial control systems or supply chain dependencies to achieve mass lateral movement.' The source headline only states that SafePay ransomware hit over 600 critical infrastructure orgs; it does not specify the attack vector, mention unpatched vulnerabilities, ICS specifics, or lateral movement.
+  - SCOPE CREEP: The caption infers a 'highly automated deployment vector' and specific technical methodologies (ICS vulnerabilities, supply chain) that are not supported by the provided source text.
+  [FactChecker] Running fact-check on attempt 3...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: CISA reports SafePay ransomware has compromised over 600 critical infrastructure organizations, a scale that signals a systemic failure in perimeter defense rather than isolated incidents. As documented by Google News (https://news.google.com/rss/articles/CBMizwFBVV95cUxOb3NaOGFmN04tRTNZOEEzUS1QeEVzekQxMTk1OEVfbjU0ZnU5em1CRUhLcFF4OURxTDZvSm4xUmJHZ1FVenoxWi15c2lMaFFDei11cGx4RW1NdXdTeXBrdEw2UDYwSnNPMEpwdlNGUl96Z08tSVRtam1zYjdnc3NqQXI3YVZNcTVpWk9uWXFOVnBSSnNhaGQ0SFA5bndCN3FyaVprUmY3Zkl0SWJlV1NrMTBhNzRWNGdkaFRjT3hRWldZUkJhd0JVLUY0dzN6MzDSAdQBQVVfeXFMUGlGb3hFNHRIVnU3Ym5pbnJodkVKcTVxQ2dXbmZkdTI5ZWwtazhmZ01sRmdLVHdYWkp1eDdDMGJkVTZCTXNZcFBTaHVuVDFoYk0wZmMxQ0NtN0ZsTWRjbS03dTFlN3QwcFhoRnI3OFNlQmxpWWYzcXZmOW1TOEJXZ3kxS010N2piY2NhUGJVb2cxQUU2aVFocktMb3ZuS3dGUVNTVGJqVXlENzFnNFRMUkZMR2VIdS1Za0lhR2pwM1lpak1aUEd6alhhQ2xIZUN1T19taTE?oc=5), the sheer volume of targets suggests a highly efficient initial access strategy. What specific telemetry gaps are allowing this group to maintain persistence across such diverse industrial environments?
+  - Image Prompt: A minimalist flat-vector illustration depicting a vast, interconnected grid of industrial nodes in muted slate and steel tones. One central node is fractured, emitting subtle, warm amber pulses that ripple outward through the network lines, symbolizing widespread compromise. The background is a clean, light gray gradient with no text, focusing on the structural integrity and the subtle disruption within the infrastructure layout.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20vast%2C%20interconnected%20grid%20of%20industrial%20nodes%20in%20muted%20slate%20and%20steel%20tones.%20One%20central%20node%20is%20fractured%2C%20emitting%20subtle%2C%20warm%20amber%20pulses%20that%20ripple%20outward%20through%20the%20network%20lines%2C%20symbolizing%20widespread%20compromise.%20The%20background%20is%20a%20clean%2C%20light%20gray%20gradient%20with%20no%20text%2C%20focusing%20on%20the%20structural%20integrity%20and%20the%20subtle%20disruption%20within%20the%20infrastructure%20layout.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1792657929/threads_bot/euwojlgpettffgfjhv2p.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (1037) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18120695074933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17921649831444494
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17921649831444494
+Timestamp: 2026-10-22T08:32:21.760980+00:00 UTC
+============================================================
