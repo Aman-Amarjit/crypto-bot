@@ -583,5 +583,10 @@
     "timestamp": "2026-10-22T17:06:31.156530+00:00",
     "question": "How are you currently detecting and mitigating typosquatting or dependency confusion attacks in your CI/CD pipelines, specifically when private package mirrors are vulnerable to shadowing from public registries?",
     "post_id": "17913184590518030"
+  },
+  {
+    "timestamp": "2026-10-23T17:02:33.330610+00:00",
+    "question": "When implementing zero-trust architectures with microservices, how do you balance the latency overhead of continuous mutual TLS authentication against the risk of token theft, and what specific telemetry signals do you correlate to detect lateral movement within the service mesh before it triggers a full circuit breaker?",
+    "post_id": "18437757232197948"
   }
 ]
