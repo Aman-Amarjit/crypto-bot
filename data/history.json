@@ -2444,5 +2444,15 @@
     "post_id": "18046832432684691",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-23T19:09:25.501243+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "Deepfake fraud is evolving beyond static images into real-time voice synthesis, exploiting the latency in human auditory processing to bypass liveness checks. As detailed in recent security analyses by The Record (https://therecord.media), attackers are now using low-latency neural networks to clone voices from just seconds of audio, making traditional verification methods obsolete. How are you currently validating the integrity of voice-based authentication flows in your infrastructure?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a sound wave transforming into a fragmented digital mask. The color palette uses muted slate blues and stark white against a dark charcoal background, emphasizing the distortion of audio signals. No text, no logos, no glowing shields, no binary code rain, no hooded figures. Clean, modern editorial style focusing on the abstract concept of voice manipulation.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792782553/threads_bot/kxz2cjklzgjviciphgkr.jpg",
+    "post_id": "17892076680616228",
+    "source_url": "",
+    "source_title": ""
   }
 ]
