@@ -458,5 +458,10 @@
     "timestamp": "2026-10-22T13:48:29.506900+00:00",
     "thought": "Equifax's 2017 breach exposed 147 million records due to an unpatched Apache Struts flaw.\nI found that the vulnerability existed for 75 days before detection, highlighting how patch management failures directly extend attacker dwell time.\nThe incident cost $700 million in settlements, proving that delayed remediation multiplies financial and reputational damage. How many days does your current patch SLA allow for critical CVEs?",
     "post_id": "17912270964557325"
+  },
+  {
+    "timestamp": "2026-10-23T13:27:59.988581+00:00",
+    "thought": "TLS 1.3 removes static RSA key exchange by default.\nThis forces ephemeral key generation, ensuring forward secrecy even if long-term private keys are later compromised. It eliminates the risk of decrypting recorded sessions with a stolen key.\nRFC 8446 mandates this design, but does your infrastructure still support legacy cipher suites that allow static RSA?",
+    "post_id": "18118764304970847"
   }
 ]
