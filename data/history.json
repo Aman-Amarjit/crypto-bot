@@ -2454,5 +2454,15 @@
     "post_id": "17892076680616228",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-24T08:03:15.389940+00:00",
+    "topic": "AI surveillance",
+    "caption": "OpenAI is now training its frontier models with no internet access, a stark departure from the live-data pipelines that previously defined their scaling strategies. As documented by Google News (https://news.google.com/rss/articles/CBMiowFBVV95cUxQdGVJZzZWMlVxSEpXSS1WTHFmMHlsVTBpVHdsNE1Ecm5DcklqS2FmY21DS2laOFRuUmxYbENzYmdSeGhUUUlTMldJeFQ0dU9VVkJGclJPWV9BUnNYVThzYnVfU21VSV9zczRmdG4tdmtYUk5iRUhRUEVKb3YwcDBseWlKYWZWSWhWczNPSXBjYVdNS2l0cmNVY25IdWlFc0lDY2Nv?oc=5), this isolation fundamentally alters how we assess model provenance. If your team relies on live web scraping for RAG, how do you verify the integrity of your offline training corpus?",
+    "image_prompt": "A minimalist, isometric 3D illustration of a massive, sealed server rack floating in a void, surrounded by a translucent, geometric barrier that blocks out chaotic, colorful data streams. The interior of the rack glows with a calm, steady amber light, contrasting with the turbulent, multi-colored noise outside the barrier. The style is clean, modern corporate tech art with soft shadows and a palette of deep slate blue, warm amber, and stark white. No text, no logos, no human figures.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792828983/threads_bot/rhmrkyl1l5wtho396eim.jpg",
+    "post_id": "18660542620042103",
+    "source_url": "",
+    "source_title": ""
   }
 ]
