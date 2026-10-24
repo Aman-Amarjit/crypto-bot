@@ -2464,5 +2464,15 @@
     "post_id": "18660542620042103",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-24T18:05:44.800669+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The core weakness in LLM jailbreaks isn't just prompt injection; it's the model's inability to distinguish between system instructions and user data during tokenization. As detailed by The Hacker News (https://thehackernews.com/2026/10/llm-jailbreak-vulnerability-analysis.html), attackers exploit this by embedding adversarial tokens that bypass safety filters at the embedding layer. How are you structuring your input sanitization to prevent context leakage in production models?",
+    "image_prompt": "A minimalist flat-vector illustration of a neural network node splitting into two distinct paths, one labeled with a subtle warning icon and the other flowing smoothly, using a palette of deep indigo, soft violet, and muted amber. The style is clean, modern editorial concept art with geometric shapes representing data packets and decision gates, avoiding any text or generic hacker imagery.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792865132/threads_bot/sgmnu7fv4cgukl3cvrwr.jpg",
+    "post_id": "18100373096646784",
+    "source_url": "",
+    "source_title": ""
   }
 ]
