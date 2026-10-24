@@ -588,5 +588,10 @@
     "timestamp": "2026-10-23T17:02:33.330610+00:00",
     "question": "When implementing zero-trust architectures with microservices, how do you balance the latency overhead of continuous mutual TLS authentication against the risk of token theft, and what specific telemetry signals do you correlate to detect lateral movement within the service mesh before it triggers a full circuit breaker?",
     "post_id": "18437757232197948"
+  },
+  {
+    "timestamp": "2026-10-24T15:53:06.264534+00:00",
+    "question": "How are you verifying the provenance of container images at runtime to prevent the deployment of compromised builds, and what specific mechanisms do you trust to sign and validate artifacts within your CI/CD pipeline?",
+    "post_id": "17883528615627020"
   }
 ]
