@@ -2474,5 +2474,15 @@
     "post_id": "18100373096646784",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-25T08:21:14.979747+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "Relying on a single aggregator for threat intelligence creates a dangerous single point of failure in your detection pipeline. If that primary feed is compromised or experiences latency, your SOC misses critical CVE disclosures and active exploit alerts. As noted by the source (https://news.google.com/rss/articles/CBMilgFBVV95cUxQRndCX3ZEMWFOSkh5X3B3c0thc3NsQkFNS0tzLXd2aEVwZ0FKcXQ0TTBtTzBQTkQxX0l6bjJVUWtTZ19jT0VvVXJnQVNNdzZwczJIaFc5dnd2MjBDU1BwbVE4cDRCdFctSW8tMHJfZ1BySHR5T19JQ19odTg2TVpjYzVzVjRNa2I2LTlmU3dmMDVkbUE1aHc?oc=5), how are you validating the integrity of your upstream threat feeds to prevent silent data loss?",
+    "image_prompt": "A minimalist flat-vector illustration of a complex, multi-layered data network where one central node is subtly fractured, surrounded by diverse, distinct signal streams flowing from various peripheral sources. The color palette uses deep indigo, slate grey, and soft amber highlights to indicate alert status. The style is clean, modern editorial tech art with geometric shapes and smooth gradients, avoiding any human figures, binary code, or generic security icons.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792916457/threads_bot/j47t7ulhiseoh8xqbhnq.jpg",
+    "post_id": "18112372232067623",
+    "source_url": "",
+    "source_title": ""
   }
 ]
