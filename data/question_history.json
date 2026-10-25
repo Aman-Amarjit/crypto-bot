@@ -593,5 +593,10 @@
     "timestamp": "2026-10-24T15:53:06.264534+00:00",
     "question": "How are you verifying the provenance of container images at runtime to prevent the deployment of compromised builds, and what specific mechanisms do you trust to sign and validate artifacts within your CI/CD pipeline?",
     "post_id": "17883528615627020"
+  },
+  {
+    "timestamp": "2026-10-25T16:09:43.727270+00:00",
+    "question": "When implementing zero-trust microsegmentation in a Kubernetes cluster, how do you balance the overhead of mTLS sidecars against the need for fine-grained service-to-service identity verification, particularly when handling high-throughput gRPC traffic?",
+    "post_id": "17953126245294860"
   }
 ]
