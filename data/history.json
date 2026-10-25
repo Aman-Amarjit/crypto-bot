@@ -2494,5 +2494,15 @@
     "post_id": "18448463821135576",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-25T18:23:10.595436+00:00",
+    "topic": "Digital India cybersecurity",
+    "caption": "Digital India\u2019s rapid digitalization often overlooks the fragility of legacy infrastructure, where unpatched Java libraries remain a silent threat. As detailed by BleepingComputer (https://www.bleepingcomputer.com/), the Log4Shell vulnerability exposed how a simple JNDI lookup in logging frameworks could trigger remote code execution across government portals. Are your legacy systems truly isolated from these deep-stack dependencies?",
+    "image_prompt": "A minimalist flat-vector illustration of a complex, interconnected digital network map representing a national infrastructure. The scene features abstract geometric nodes connected by thin, glowing lines in cool cyan and warm amber hues, symbolizing data flow and potential vulnerabilities. The background is a clean, light off-white with subtle grid patterns, emphasizing a modern editorial tech aesthetic. Avoid any human figures, text, or generic security icons like shields or locks. Focus on the structural complexity and interconnectivity of the system.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792952580/threads_bot/usvtxkfbo3o31vq2lksc.jpg",
+    "post_id": "18042731315838675",
+    "source_url": "",
+    "source_title": ""
   }
 ]
