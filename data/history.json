@@ -2484,5 +2484,15 @@
     "post_id": "18112372232067623",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-25T13:41:33.353278+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "The 2018 Uber breach remains a stark lesson in how unpatched Apache Struts vulnerabilities can expose millions of records. Attackers exploited CVE-2017-5638 to inject malicious code, allowing them to exfiltrate sensitive user data before the company attempted to cover it up. As detailed by The Hacker News (https://thehackernews.com/2018/12/uber-data-breach.html), how are you ensuring your legacy Java frameworks are actively monitored for known RCE exploits?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a fragmented digital architecture. A central server node is shown with a visible crack, leaking abstract data packets represented as geometric shapes. The color palette uses muted slate blues and stark white, with a single accent of warm amber indicating the breach point. Clean lines, modern editorial style, no text, no logos, no glowing shields or padlocks.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1792935679/threads_bot/c0ym6lct3jhe95cnwko4.jpg",
+    "post_id": "18448463821135576",
+    "source_url": "",
+    "source_title": ""
   }
 ]
