@@ -598,5 +598,10 @@
     "timestamp": "2026-10-25T16:09:43.727270+00:00",
     "question": "When implementing zero-trust microsegmentation in a Kubernetes cluster, how do you balance the overhead of mTLS sidecars against the need for fine-grained service-to-service identity verification, particularly when handling high-throughput gRPC traffic?",
     "post_id": "17953126245294860"
+  },
+  {
+    "timestamp": "2026-10-26T18:39:16.536572+00:00",
+    "question": "When implementing zero-trust network access, how do you handle the encryption context for long-running microservice secrets that need to be rotated without causing upstream service restarts or temporary unencrypted exposure during the handoff process?",
+    "post_id": "18641432227039509"
   }
 ]
