@@ -2504,5 +2504,15 @@
     "post_id": "18042731315838675",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-26T08:48:24.647667+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "RBI and SEBI frameworks mandate strict data localization, yet the operational reality of key management often lags behind policy. Unlike Heartbleed, which was a specific OpenSSL memory bug, the current risk lies in how institutions implement mandated encryption standards without standardized rotation protocols. As detailed in recent regulatory reviews (https://www.rbi.org.in), are your internal audits verifying actual key lifecycle compliance or just checking policy boxes?",
+    "image_prompt": "Minimalist flat-vector illustration of a digital vault door partially open, revealing a complex, tangled network of golden threads representing cryptographic keys. The background is a muted slate blue with subtle geometric grid patterns. No text, no logos, no glowing shields, no hackers. Clean, modern editorial style focusing on the concept of hidden complexity within secure infrastructure.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793004493/threads_bot/jsqycat4pikjxovxmi00.jpg",
+    "post_id": "18098170556424180",
+    "source_url": "",
+    "source_title": ""
   }
 ]
