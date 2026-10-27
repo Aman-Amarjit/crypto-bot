@@ -2514,5 +2514,15 @@
     "post_id": "18098170556424180",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-27T08:55:55.008240+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "A single data breach at the University of Copenhagen has now exposed the personal records of 525,000 individuals, highlighting how academic institutions remain prime targets for large-scale data exfiltration. As documented by Google News (https://news.google.com/rss/articles/CBMitgFBVV95cUxPMzR4T0tOdlVUTzFncEF3bFZfOGtpWEhjT04wejlrLXhxdFVwelc2UXh4TDY3emJCZFBPZU1KaXg1TFdSel9PR0dBajdGRDNnTXdQMDhjbTd0RTl1RzFGZGJIY1puSXZCVThSTVRYeUgzOHRmYzZyczFNSnVTUU9YQUJBRHI0a21CT2JwUzRNY0xvTEgxbWZ2T05HellOalhUYU5jZWUwWmFzX1RyRE4tbmE1eE1uZw?oc=5), this scale of compromise suggests a significant failure in access control or encryption protocols. How are you currently segmenting sensitive PII in your own university or research environments to prevent similar mass exposure?",
+    "image_prompt": "A minimalist flat-vector illustration of a sprawling, interconnected academic campus network where a single central node is visibly fractured, leaking translucent, abstract data packets into the surrounding environment. The color palette uses muted institutional blues and grays contrasted with urgent, warm amber highlights on the breach point. The style is clean, modern editorial concept art, avoiding any human figures, glowing shields, or binary code rain. The composition emphasizes the fragility of centralized data storage in large institutions.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793091344/threads_bot/sabfaddgafv1ryan0xcf.jpg",
+    "post_id": "18105196451242608",
+    "source_url": "",
+    "source_title": ""
   }
 ]
