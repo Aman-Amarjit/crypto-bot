@@ -2534,5 +2534,15 @@
     "post_id": "18135541495672834",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-28T20:14:42.195110+00:00",
+    "topic": "hacking incidents",
+    "caption": "Japan's GMO is offering a $1 million bounty to identify the threat actors behind a breach of their FX trading cloud infrastructure. This significant payout highlights the critical financial exposure inherent in compromised foreign exchange platforms, as noted by Google News (https://news.google.com/rss/articles/CBMiggFBVV95cUxPQVNKcjlDZmJwUGRtUUdfc2MtSncyaEJMU2NMU1FyN1NvXzc3Sjk0WFFPNDJ0TV9fVHhCWGFVTzQteU95SEVha2xvQnoxeDZvY3lLbkNnS0ppdTZYU0ZsYS1tT1JILXY3eldSTktlYmFTX1BBOVhYRl9GQ282X285OG5R?oc=5). How are you currently isolating cloud-based trading environments from potential lateral movement?",
+    "image_prompt": "A minimalist flat-vector illustration of a fragmented cloud structure dissolving into geometric shards, with a single large golden coin emerging from the center. The background is a deep, matte charcoal, contrasting with the sharp, clean lines of the cloud fragments in cool slate blue and the warm, metallic gold of the currency. The composition suggests a high-stakes digital extraction without using any text, logos, or generic cybersecurity icons like shields or padlocks.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793218466/threads_bot/i3fgd8uzqc1vamprl8ph.jpg",
+    "post_id": "17891157441618625",
+    "source_url": "",
+    "source_title": ""
   }
 ]
