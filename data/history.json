@@ -2524,5 +2524,15 @@
     "post_id": "18105196451242608",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-28T09:34:29.923143+00:00",
+    "topic": "government cyber regulations",
+    "caption": "The ShinyHunters Oracle PeopleSoft zero-day isn't a single bug, but three chained flaws working in concert. This layered exploit chain, detailed by Google News (https://news.google.com/rss/articles/CBMid0FVX3lxTFBCcE5YQXNmSnhKLTItWF91eVBHOUVkam14YzdyY0pNRzJ0dGxOaU1PbUtaWWxNZFFpaDhIUTI1SEN3Z3gzSXNRWmxHNnBXNHRpdTJmcVIwQWRfNHNKVEczWlYyQlZTTG5rZ04tZWN5VVZuUC1Vc2tv?oc=5), suggests standard patching might miss the underlying logic errors. How are you currently validating multi-stage exploit chains in your ERP environments?",
+    "image_prompt": "A minimalist flat-vector illustration of three interlocking geometric gears in varying shades of slate blue and amber, representing a chained exploit sequence. The gears are suspended in a clean, off-white space with subtle depth shadows, emphasizing mechanical precision and structural complexity. No text, no logos, no binary code, no shields or padlocks. Modern editorial style, high contrast, sharp edges, professional tech concept art.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793180058/threads_bot/mvo6ffnhbmznbcxsrui0.jpg",
+    "post_id": "18135541495672834",
+    "source_url": "",
+    "source_title": ""
   }
 ]
