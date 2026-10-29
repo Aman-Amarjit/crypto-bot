@@ -36680,3 +36680,53 @@ Daily Question Posted Successfully!
 Post ID: 18361665391217379
 Timestamp: 2026-10-29T18:25:55.154826+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-29T20:15:22.385578+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMikAFBVV95cUxNNUFlNUxfM0RidWlYdU5uRm1ZNDBYV1psWUtGaS13aWE3dTlmWWtCT2h5TkJGQTJaNndBTW8ydm9TZS0yYzhxY2szV2Y2SlI1bUNxcnNFZk9ESFBRX29tbXBCbWd4cWZZckxaeUIxdllkY3hmSTE0aVBrR012UF90aTRabEpUaUw3WW1PSUhLVUI?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MVXJaT0xqcmw4U1A4dG9xYVdmNmp2VFB1RE40M05PU1NQNDRSYWI5dVRTUGFpd0xmX0w4TUdFMDNKSWhIeUhvVTdLRnVVVlkwQnFWZGRZb0NwRGJ1S1BzYWhld01mQQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMijAFBVV95cUxNUUZwci12S2x3U1g0M19pWWl1RjY0clg0MFhoQVc0Z3ZkQXFfaWZFZE5IV0pqd0xoV3J3R0VSWnk0OTlJeGdBNWVTc1JyZ3JHcWw1WXZQSkF3b2ZEUVptQ00tZnFVWnJrOXE3djNfc2F3THJtQnNuX3VmVXNYVGtPM3R2T29Ja0Ytc2JkYw?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilgFBVV95cUxQVXJubUxvRGlteGRpa3Nya2xheFpnNkF1RUo2dU11eE9weTZhc1YyRVhRbGZfVHJ4T2xqUExfREtjT3E4V1doYWo4Z3FFV2lMWXVoWU5SLXpWaThhcWY1QnllSnR0SDFlUVhjQzhfOXJmTFN5Z2lYR2RvcmNVekUtdWU1blZSTExYOUZiMTdVZ0lhTWs4alE?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifkFVX3lxTFA4aVY5akx6SXZqRDZONDE3RXN1a2hfbUN2YmNkTkpWSkYyWlpPdlRsbGU1REVqLUswSjE2RHZvVkV0OThxYndpbzY3WENfNFo2MHlBWUlRR1FPdDJNb3ducEY0TGFlak1GZGNzLU9vOWhPOWRDWThqT1EwZ2xRQQ?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMikAFBVV95cUxNNUFlNUxfM0RidWlYdU5uRm1ZNDBYV1psWUtGaS13aWE3dTlmWWtCT2h5TkJGQTJaNndBTW8ydm9TZS0yYzhxY2szV2Y2SlI1bUNxcnNFZk9ESFBRX29tbXBCbWd4cWZZckxaeUIxdllkY3hmSTE0aVBrR012UF90aTRabEpUaUw3WW1PSUhLVUI?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Italy is currently grappling with a wave of cyber vulnerabilities that have left analysts scrambling for a definitive root cause. As reported by Google News (https://news.google.com/rss/articles/CBMikAFBVV95cUxNNUFlNUxfM0RidWlYdU5uRm1ZNDBYV1psWUtGaS13aWE3dTlmWWtCT2h5TkJGQTJaNndBTW8ydm9TZS0yYzhxY2szV2Y2SlI1bUNxcnNFZk9ESFBRX29tbXBCbWd4cWZZckxaeUIxdllkY3hmSTE0aVBrR012UF90aTRabEpUaUw3WW1PSUhLVUI?oc=5), the absence of a clear attribution makes triage particularly difficult. How do you prioritize patching efforts when the attack vector remains ambiguous?
+  - Image Prompt: A minimalist flat-vector illustration of a fragmented digital map of the Italian peninsula, rendered in muted slate blues and warm amber alerts. The map is composed of disconnected geometric shards floating in a void, symbolizing systemic instability and unclear origins. Subtle, abstract data streams weave between the fragments, suggesting hidden connections without revealing a specific source. The aesthetic is clean, modern, and editorial, avoiding any glowing shields, padlocks, or binary code rain. The color palette focuses on cool cyberspace tones with urgent, soft orange highlights to denote vulnerability.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20of%20a%20fragmented%20digital%20map%20of%20the%20Italian%20peninsula%2C%20rendered%20in%20muted%20slate%20blues%20and%20warm%20amber%20alerts.%20The%20map%20is%20composed%20of%20disconnected%20geometric%20shards%20floating%20in%20a%20void%2C%20symbolizing%20systemic%20instability%20and%20unclear%20origins.%20Subtle%2C%20abstract%20data%20streams%20weave%20between%20the%20fragments%2C%20suggesting%20hidden%20connections%20without%20revealing%20a%20specific%20source.%20The%20aesthetic%20is%20clean%2C%20modern%2C%20and%20editorial%2C%20avoiding%20any%20glowing%20shields%2C%20padlocks%2C%20or%20binary%20code%20rain.%20The%20color%20palette%20focuses%20on%20cool%20cyberspace%20tones%20with%20urgent%2C%20soft%20orange%20highlights%20to%20denote%20vulnerability.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1793304931/threads_bot/xbudje3xrdix8xaymwrf.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (554) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18121965493933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18104173283642309
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18104173283642309
+Timestamp: 2026-10-29T20:15:42.342554+00:00 UTC
+============================================================
