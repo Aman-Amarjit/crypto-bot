@@ -613,5 +613,10 @@
     "timestamp": "2026-10-28T18:19:32.180998+00:00",
     "question": "When implementing short-lived OAuth tokens in microservices, how do you balance the latency overhead of frequent token validation against the risk of token replay in high-throughput environments, particularly when relying on distributed caching for JWKS key rotation?",
     "post_id": "18143288140720492"
+  },
+  {
+    "timestamp": "2026-10-29T18:25:55.154026+00:00",
+    "question": "When implementing mTLS for service-to-service communication in a zero-trust mesh, how do you handle the operational burden of certificate lifecycle management\u2014specifically revocation and rotation\u2014without introducing latency that degrades p99 response times during high-throughput bursts?",
+    "post_id": "18361665391217379"
   }
 ]
