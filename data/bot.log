@@ -36533,3 +36533,58 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-10-28T22:07:49.052436+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-10-29T09:51:43.473760+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MVXJaT0xqcmw4U1A4dG9xYVdmNmp2VFB1RE40M05PU1NQNDRSYWI5dVRTUGFpd0xmX0w4TUdFMDNKSWhIeUhvVTdLRnVVVlkwQnFWZGRZb0NwRGJ1S1BzYWhld01mQQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMixgFBVV95cUxPaHVZSlh6WGZFV3JITndIRmtNcldtZ0VTdnp2NXdHbC04NjJkZmRsWWFFdy1wVnVqX3dHLXFLSGtkRlM4UEdWbGZqdVdHZThja1FmZ25TSk5kcWdEdGRJeER3bGdlRldrZUt2QmM0MjJzeEpKd3BWRjNqaHMzSnZONkNONDRMUTFKU2Z4b2h5QjY5dnNuTURqTWRzRHZUcWJyMktSUlhBQlc0X24ybGR1UzJyTUpLZUtkX3hsc1RmcDNLVWtjdUE?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiogFBVV95cUxOUS1VNWtHTVBhUkdXd0xVaE5RVFNiMU52ci1xRmV4YkdKTmdIOFdJckRfMDk1WkpLd1RmbDFKMU9hUVZWRmxmZXdCTFBoMXlwV3h2bWlTRWQtNTZHSlk4Y1lvcjh0Qlo2NEVlNnZNam9RdjRwN3FCRFJLZVRaX2JROVZhc0pFVlBqaWF2azd2NmpxdHZaTVg2cEhwejJTVnZ5bVE?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQelRrSWEtZGZzaUdwYTFnLTBFMG1VUFlFOVhhbkVVLThKalh1c3Bsa1AzS1IyRVpsMnFjcFg3T1Rxcnl2MEloWWdseVgwZWREb3Q2c0JUdTZyc19tVG1nR2FTNm5BR1NRZWdXZVZDdlRxOFFkZEpLUWJVcEdZSkduck9Ed0NqdmhzcEg4aUpXbzVYNEdqcUlSTXh0QVMzQ1RHNGxEM3cwcEc5QQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifkFVX3lxTE5PTWhGakRlNF83NHNIMDY0U3RCSmhzbXlkcnNoUGpsdDJvYTJXWS01aTl1NUw0cXhoT3o0WE5Rbi1OX3FMWWNFc2g3THZjbHJEcGNCd191WG1rSFFjaTRGTnZSTW5MOHZrRm5IcDJJdWZRX1pDYnFNdjQtREY4QQ?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MVXJaT0xqcmw4U1A4dG9xYVdmNmp2VFB1RE40M05PU1NQNDRSYWI5dVRTUGFpd0xmX0w4TUdFMDNKSWhIeUhvVTdLRnVVVlkwQnFWZGRZb0NwRGJ1S1BzYWhld01mQQ?oc=5
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 2048. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1473. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 3...
+  [FactChecker] ❌ Failed (attempt 3/3). Issues:
+  - FABRICATED STATS: The caption claims the records were 'exposed on the dark web,' but the source headline only states that a hacker 'stole' the records. The source does not confirm the data was posted or exposed on the dark web.
+  - SCOPE CREEP: The caption attributes the breach to 'insider threats or credential stuffing' and questions 'MFA protocols' and 'identity governance.' The source headline only states that a hacker stole the records, providing no details on the attack vector (e.g., credential stuffing, insider threat) or specific security failures (e.g., MFA gaps). These specific technical causes are not supported by the provided source text.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+Caption failed fact-checking after 3 attempts. Final issues:
+  - FABRICATED STATS: The caption claims the records were 'exposed on the dark web,' but the source headline only states that a hacker 'stole' the records. The source does not confirm the data was posted or exposed on the dark web.
+  - SCOPE CREEP: The caption attributes the breach to 'insider threats or credential stuffing' and questions 'MFA protocols' and 'identity governance.' The source headline only states that a hacker stole the records, providing no details on the attack vector (e.g., credential stuffing, insider threat) or specific security failures (e.g., MFA gaps). These specific technical causes are not supported by the provided source text.
+
+Caption was:
+The sheer volume of 40,000+ DHS employee records exposed on the dark web is a stark reminder that perimeter defenses often fail against insider threats or credential stuffing. As reported by Google News (https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MVXJaT0xqcmw4U1A4dG9xYVdmNmp2VFB1RE40M05PU1NQNDRSYWI5dVRTUGFpd0xmX0w4TUdFMDNKSWhIeUhvVTdLRnVVVlkwQnFWZGRZb0NwRGJ1S1BzYWhld01mQQ?oc=5), this breach highlights the critical gap in identity governance for federal agencies. Are your MFA protocols robust enough to withstand targeted credential theft at this scale?
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 250, in generate_content
+    raise ValueError(
+ValueError: Caption failed fact-checking after 3 attempts. Final issues:
+  - FABRICATED STATS: The caption claims the records were 'exposed on the dark web,' but the source headline only states that a hacker 'stole' the records. The source does not confirm the data was posted or exposed on the dark web.
+  - SCOPE CREEP: The caption attributes the breach to 'insider threats or credential stuffing' and questions 'MFA protocols' and 'identity governance.' The source headline only states that a hacker stole the records, providing no details on the attack vector (e.g., credential stuffing, insider threat) or specific security failures (e.g., MFA gaps). These specific technical causes are not supported by the provided source text.
+
+Caption was:
+The sheer volume of 40,000+ DHS employee records exposed on the dark web is a stark reminder that perimeter defenses often fail against insider threats or credential stuffing. As reported by Google News (https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MVXJaT0xqcmw4U1A4dG9xYVdmNmp2VFB1RE40M05PU1NQNDRSYWI5dVRTUGFpd0xmX0w4TUdFMDNKSWhIeUhvVTdLRnVVVlkwQnFWZGRZb0NwRGJ1S1BzYWhld01mQQ?oc=5), this breach highlights the critical gap in identity governance for federal agencies. Are your MFA protocols robust enough to withstand targeted credential theft at this scale?
