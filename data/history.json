@@ -2554,5 +2554,15 @@
     "post_id": "18104173283642309",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-30T09:56:05.110522+00:00",
+    "topic": "cyber warfare",
+    "caption": "The sheer scale of this incident is staggering: Binance has confirmed a breach impacting $6.3 billion in assets, with nearly $3 billion successfully frozen before exfiltration could proceed. As reported by Google News (https://news.google.com/rss/articles/CBMiekFVX3lxTE80VjhXOXk0Y3pjb2EtV0tEOWdlcU5zSVlKV0ZuMzhodHB2X21URE92Tmtaem1IcGpBWUFFNnRBSW5NWlRDRFFzeURwMnFyeG1pa0FKaElTZml6Wm5OeE1NT0cwUnhBVGFBNFp6emNnMEVDTkNhanZOdm93?oc=5), the rapid freezing of such a massive portion of the compromised funds suggests a highly automated response system or a specific exploit vector that triggered immediate containment protocols. Given that the remaining $3.3 billion is still at risk, how are you structuring your hot wallet monitoring to detect and freeze anomalous transaction patterns in real-time?",
+    "image_prompt": "A minimalist, high-end editorial illustration depicting a massive, translucent digital vault door slightly ajar, revealing a swirling vortex of cold blue and stark white light inside. The vault is constructed of sleek, brushed titanium panels with subtle geometric etching. Outside the door, the environment is a calm, neutral gray void, emphasizing the isolation of the breach. The lighting is soft and diffuse, creating a sense of tension without using dramatic shadows or neon colors. The style is clean, modern vector art with a focus on architectural precision and abstract representation of financial containment, avoiding any human figures or generic security icons.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793354152/threads_bot/e60t6qrhou7fdiit1odo.jpg",
+    "post_id": "17996687531844412",
+    "source_url": "",
+    "source_title": ""
   }
 ]
