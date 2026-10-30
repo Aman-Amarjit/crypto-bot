@@ -618,5 +618,10 @@
     "timestamp": "2026-10-29T18:25:55.154026+00:00",
     "question": "When implementing mTLS for service-to-service communication in a zero-trust mesh, how do you handle the operational burden of certificate lifecycle management\u2014specifically revocation and rotation\u2014without introducing latency that degrades p99 response times during high-throughput bursts?",
     "post_id": "18361665391217379"
+  },
+  {
+    "timestamp": "2026-10-30T17:58:47.643434+00:00",
+    "question": "When implementing zero-trust network segmentation for microservices, what specific signaling mechanisms are you using to enforce dynamic policy updates without introducing latency bottlenecks at the service mesh data plane?",
+    "post_id": "18117121859276956"
   }
 ]
