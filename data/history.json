@@ -2564,5 +2564,15 @@
     "post_id": "17996687531844412",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-30T19:55:10.337077+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "Phishing campaigns are now weaponizing AI branding to slip past top-tier security filters, exploiting the trust users place in major tech firms. By mimicking Anthropic\u2019s visual identity and tone, these emails bypass traditional heuristic checks that rely on known sender patterns. As documented by Google News (https://news.google.com/rss/articles/CBMipAFBVV95cUxNaUdrSjBtRmhSbVZHWDBCREw2RkdGQmVvYThia1o3T0NmUVBxRktMVlh3UG9Pb1A1bW1rV0hqS0swdThZQ2VHbnJ2MlVVNTZjRHJkalBVeU16dWhQRzVIWGN5MXNER0I5QmtBSzVUajdVT3Z5TmdBXzVCbUYtVnllcy1zeVY2MGpya1hYUkVnQXFiODRES2NEX18tdUU1ZHZONVpQaQ?oc=5), how are you training your detection models to recognize AI-generated social engineering nuances rather than just static signatures?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a sleek, modern email interface floating in a clean, light-grey void. The email envelope is subtly distorted, with its edges dissolving into abstract, flowing geometric shapes that resemble neural network nodes, symbolizing AI manipulation. The color palette uses soft, professional blues and whites with a single accent of warm amber to highlight the deceptive element. The style is clean, corporate, and editorial, avoiding any dark cyber-aesthetic or glowing effects. No text or logos are visible.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793390098/threads_bot/ov3cva7ciepvjpjcb48f.jpg",
+    "post_id": "18440183632181693",
+    "source_url": "",
+    "source_title": ""
   }
 ]
