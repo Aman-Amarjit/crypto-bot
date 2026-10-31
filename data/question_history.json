@@ -623,5 +623,10 @@
     "timestamp": "2026-10-30T17:58:47.643434+00:00",
     "question": "When implementing zero-trust network segmentation for microservices, what specific signaling mechanisms are you using to enforce dynamic policy updates without introducing latency bottlenecks at the service mesh data plane?",
     "post_id": "18117121859276956"
+  },
+  {
+    "timestamp": "2026-10-31T17:14:15.449595+00:00",
+    "question": "When implementing zero-trust network access, how do you balance the latency and complexity of continuous mTLS authentication against the security benefits when scaling across thousands of microservices in a hybrid Kubernetes environment?",
+    "post_id": "17925718035442646"
   }
 ]
