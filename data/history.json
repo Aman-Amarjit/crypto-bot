@@ -2584,5 +2584,15 @@
     "post_id": "18227204659339258",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-10-31T19:16:07.359600+00:00",
+    "topic": "AI surveillance",
+    "caption": "Ivanti Connect Secure appliances are under active attack, with adversaries chaining three distinct flaws to achieve unauthenticated root access. This critical escalation bypasses standard authentication layers entirely, as documented by Google News (https://news.google.com/rss/articles/CBMigAFBVV95cUxNTzdGS3JjTmphZUpTQl9WU2FLU283M3p2X1Vrd3VSMDNCOFR6QjNMektJS19GSDRtVzJoalN6TmxYbU1nb2lRcmh4cnhfbV9PUXh2WDJJaGRDdW5UcDJMNnlTTGJ6QTdIRFpCYUhnU1BrNkFKUkI1SEpSR2VlcUFwbg?oc=5). How are you currently validating the integrity of your remote access gateways against multi-stage exploit chains?",
+    "image_prompt": "A minimalist, premium editorial illustration featuring a fragmented, metallic server rack structure dissolving into abstract geometric shards. The composition uses a cool palette of slate blue, silver, and deep charcoal, with subtle warm amber accents highlighting the points of structural failure. The style is clean, flat-vector technology concept art, focusing on the architectural breakdown of a secure gateway. No text, logos, or human figures are present.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793474155/threads_bot/l9pvvntb416udljsxgzf.jpg",
+    "post_id": "18398734852164523",
+    "source_url": "",
+    "source_title": ""
   }
 ]
