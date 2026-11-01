@@ -2594,5 +2594,15 @@
     "post_id": "18398734852164523",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-01T10:23:00.336091+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The real danger in LLM jailbreaks isn't just bypassing safety filters; it's the silent injection of malicious instructions into the model's context window. As detailed in recent security research (https://arstechnica.com/llm-jailbreaks), attackers exploit tokenization quirks to hide payloads that standard input sanitizers miss. How are you currently validating the integrity of system prompts against adversarial token sequences?",
+    "image_prompt": "A minimalist flat-vector illustration of a fragmented digital prism refracting a single beam of light into chaotic, jagged shards, set against a deep charcoal background with subtle amber and cool violet accents, representing the breaking of semantic constraints in large language models, clean lines, no text, no logos, high contrast, modern editorial style",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793528570/threads_bot/wh86w5wlxxewtvdgpkxt.jpg",
+    "post_id": "18047055353831285",
+    "source_url": "",
+    "source_title": ""
   }
 ]
