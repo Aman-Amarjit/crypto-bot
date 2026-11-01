@@ -628,5 +628,10 @@
     "timestamp": "2026-10-31T17:14:15.449595+00:00",
     "question": "When implementing zero-trust network access, how do you balance the latency and complexity of continuous mTLS authentication against the security benefits when scaling across thousands of microservices in a hybrid Kubernetes environment?",
     "post_id": "17925718035442646"
+  },
+  {
+    "timestamp": "2026-11-01T17:55:03.726289+00:00",
+    "question": "When managing Kubernetes secrets, are you relying on the default base64 encoding within etcd, or have you implemented external secret stores like HashiCorp Vault or AWS Secrets Manager with dynamic credential injection to prevent long-lived static credentials from being exposed in your CI/CD pipeline?",
+    "post_id": "18109533725618619"
   }
 ]
