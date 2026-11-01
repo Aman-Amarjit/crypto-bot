@@ -2604,5 +2604,15 @@
     "post_id": "18047055353831285",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-01T19:37:29.236145+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "A CVSS 10.0 flaw in LXD and MicroCloud allows attackers to impersonate trusted clients without needing a private key, effectively bypassing standard authentication layers. As detailed in this report (https://news.google.com/rss/articles/CBMiggFBVV95cUxNSEtwb3BUWUJwN3hLb2N1LXRkY2xIcFJCYmFtbWF1MDJZd0ppcmNTeDc3Ynl2cWlfWFVsd3hmSGlyS3djT3hKLVVNLWFFdThYSl9yYlJGc2llel9SSUtHODJkOXUwcTJyLW9EQkZJOEdfd0VLOEQtYXpzdnBvY0NZbnNn?oc=5), this critical vulnerability exposes a significant gap in how container orchestration platforms handle client identity verification. How are you currently validating the integrity of client certificates in your LXD deployments?",
+    "image_prompt": "Minimalist flat-vector illustration of a container orchestration hub, featuring a central hexagonal node with a subtle crack, surrounded by floating geometric client tokens that appear to be slipping through a security filter. Use a cool palette of slate blue, soft white, and muted amber for the alert elements. Clean lines, modern editorial style, no text, no logos, no glowing effects, no binary code.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793561837/threads_bot/prs8hwdl3cx4fikna0ne.jpg",
+    "post_id": "18642355654063562",
+    "source_url": "",
+    "source_title": ""
   }
 ]
