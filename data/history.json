@@ -2624,5 +2624,15 @@
     "post_id": "18147564361604316",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-02T23:05:52.168265+00:00",
+    "topic": "Digital India cybersecurity",
+    "caption": "The PapRAT cyber-espionage campaign is quietly reshaping the threat landscape across South Asia, targeting critical digital infrastructure with sophisticated persistence mechanisms. As detailed in recent reporting (https://news.google.com/rss/articles/CBMipgFBVV95cUxNejFZTkZ4SkM3blN4N1Q0T1dkWnJmQU52bHVlOURKWUVuUU5FdUZ4aDRPeGc4UmxCMUt0S2czcHphcDZ5RUpwaXJXcThFeS1rd2pWdkZsMUdlcmNJTW5qTDZELS1aSTh0dlZNdEZ4OHhCWXlsX0FWOUMxM0dXVVZMbEFBaGxFVkMwZVlOY05LemxVaFltUmhrYmNuaWc4amNLSHdGWVpR?oc=5), this malware leverages zero-day vulnerabilities in regional government portals to establish long-term access. How are you currently validating the integrity of legacy systems within your digital sovereignty frameworks?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a fragmented digital map of South Asia, where specific nodes are highlighted with subtle, pulsing amber alerts against a cool slate-blue background. The visual metaphor focuses on interconnected data streams being intercepted by invisible, geometric barriers, representing silent espionage rather than aggressive attacks. Use a clean, modern editorial style with soft gradients and no text, emphasizing the tension between open digital infrastructure and covert surveillance.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793660737/threads_bot/le47ruwz9c5pivrqsfle.jpg",
+    "post_id": "18473477236184677",
+    "source_url": "",
+    "source_title": ""
   }
 ]

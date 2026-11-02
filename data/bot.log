@@ -37604,3 +37604,50 @@ Daily Question Posted Successfully!
 Post ID: 18096659210659659
 Timestamp: 2026-11-02T21:41:02.424130+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-02T23:05:25.911606+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipgFBVV95cUxNejFZTkZ4SkM3blN4N1Q0T1dkWnJmQU52bHVlOURKWUVuUU5FdUZ4aDRPeGc4UmxCMUt0S2czcHphcDZ5RUpwaXJXcThFeS1rd2pWdkZsMUdlcmNJTW5qTDZELS1aSTh0dlZNdEZ4OHhCWXlsX0FWOUMxM0dXVVZMbEFBaGxFVkMwZVlOY05LemxVaFltUmhrYmNuaWc4amNLSHdGWVpR?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilgFBVV95cUxPTWpqNlF6Tm9iRFZITE1IbWdVcHRUX0N4bjVIYWpxb0JkNUY3eUNfdS1walQwWVRLbHNKdUpPdHZjY2FISnRrenVOeFgzbGJsMi1zZF90cDY2QjJlb08tLWNKMlN5OU5GYklpNkJsS3o5b29tM3hVSHJ2X21DOHNPRE5oVG9adXI4RDlxV21GRlVybzVTNVE?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZcWVfSHI1cnVJYWhzQmhLZkdjeTNGWTU0RmhWeDBzZU42TTBUYXBJanB5VzdLMUpuN1F4dHJfWEpjaWNxekxEb29mZVgxRkx2bU1zR1V0UFRfQzgtZTQ0elRB?oc=5
+Failed to decode URL: None
+Successfully retrieved 3 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMipgFBVV95cUxNejFZTkZ4SkM3blN4N1Q0T1dkWnJmQU52bHVlOURKWUVuUU5FdUZ4aDRPeGc4UmxCMUt0S2czcHphcDZ5RUpwaXJXcThFeS1rd2pWdkZsMUdlcmNJTW5qTDZELS1aSTh0dlZNdEZ4OHhCWXlsX0FWOUMxM0dXVVZMbEFBaGxFVkMwZVlOY05LemxVaFltUmhrYmNuaWc4amNLSHdGWVpR?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The PapRAT cyber-espionage campaign is quietly reshaping the threat landscape across South Asia, targeting critical digital infrastructure with sophisticated persistence mechanisms. As detailed in recent reporting (https://news.google.com/rss/articles/CBMipgFBVV95cUxNejFZTkZ4SkM3blN4N1Q0T1dkWnJmQU52bHVlOURKWUVuUU5FdUZ4aDRPeGc4UmxCMUt0S2czcHphcDZ5RUpwaXJXcThFeS1rd2pWdkZsMUdlcmNJTW5qTDZELS1aSTh0dlZNdEZ4OHhCWXlsX0FWOUMxM0dXVVZMbEFBaGxFVkMwZVlOY05LemxVaFltUmhrYmNuaWc4amNLSHdGWVpR?oc=5), this malware leverages zero-day vulnerabilities in regional government portals to establish long-term access. How are you currently validating the integrity of legacy systems within your digital sovereignty frameworks?
+  - Image Prompt: A minimalist flat-vector illustration depicting a fragmented digital map of South Asia, where specific nodes are highlighted with subtle, pulsing amber alerts against a cool slate-blue background. The visual metaphor focuses on interconnected data streams being intercepted by invisible, geometric barriers, representing silent espionage rather than aggressive attacks. Use a clean, modern editorial style with soft gradients and no text, emphasizing the tension between open digital infrastructure and covert surveillance.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20fragmented%20digital%20map%20of%20South%20Asia%2C%20where%20specific%20nodes%20are%20highlighted%20with%20subtle%2C%20pulsing%20amber%20alerts%20against%20a%20cool%20slate-blue%20background.%20The%20visual%20metaphor%20focuses%20on%20interconnected%20data%20streams%20being%20intercepted%20by%20invisible%2C%20geometric%20barriers%2C%20representing%20silent%20espionage%20rather%20than%20aggressive%20attacks.%20Use%20a%20clean%2C%20modern%20editorial%20style%20with%20soft%20gradients%20and%20no%20text%2C%20emphasizing%20the%20tension%20between%20open%20digital%20infrastructure%20and%20covert%20surveillance.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1793660737/threads_bot/le47ruwz9c5pivrqsfle.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (706) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18122555479933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18473477236184677
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18473477236184677
+Timestamp: 2026-11-02T23:05:52.171068+00:00 UTC
+============================================================
