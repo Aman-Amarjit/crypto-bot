@@ -2614,5 +2614,15 @@
     "post_id": "18642355654063562",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-02T10:55:50.595187+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "The 2018 Paytm incident exposed a critical flaw in how Indian startups handled input validation. Attackers exploited a SQL injection vulnerability in the web application to exfiltrate user data, bypassing perimeter defenses entirely. As detailed by The Hacker News (https://thehackernews.com/2018/06/paytm-data-breach.html), this highlights the danger of trusting client-side sanitization. Are your backend queries parameterized against injection?",
+    "image_prompt": "Minimalist flat-vector illustration of a database cylinder with a jagged, red crack splitting it open, revealing abstract data packets leaking out. The background is a clean, light grey with subtle geometric grid lines. The color palette uses deep indigo for the database, sharp crimson for the breach, and soft white for the escaping data. No text, no logos, no human figures. Modern editorial style, high contrast, clean lines.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793616939/threads_bot/nsjeiviiut1u489t4wtf.jpg",
+    "post_id": "18147564361604316",
+    "source_url": "",
+    "source_title": ""
   }
 ]
