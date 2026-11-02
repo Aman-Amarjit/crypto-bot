@@ -633,5 +633,10 @@
     "timestamp": "2026-11-01T17:55:03.726289+00:00",
     "question": "When managing Kubernetes secrets, are you relying on the default base64 encoding within etcd, or have you implemented external secret stores like HashiCorp Vault or AWS Secrets Manager with dynamic credential injection to prevent long-lived static credentials from being exposed in your CI/CD pipeline?",
     "post_id": "18109533725618619"
+  },
+  {
+    "timestamp": "2026-11-02T21:41:02.423589+00:00",
+    "question": "When implementing mTLS for internal microservices, are you relying on static certificates in config maps or shifting to short-lived, dynamically issued certs via SPIFFE/SPIRE? How do you handle the operational overhead of certificate rotation and key management without compromising the zero-trust posture?",
+    "post_id": "18096659210659659"
   }
 ]
