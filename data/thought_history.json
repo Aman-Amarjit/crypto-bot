@@ -503,5 +503,10 @@
     "timestamp": "2026-11-01T15:11:13.227510+00:00",
     "thought": "Malicious redirect URIs in OAuth 2.0 can silently exfiltrate authorization codes.\nAttackers register domains that mimic legitimate callback URLs to intercept tokens before they reach the resource server. This breaks the trust boundary between the authorization server and the client application.\nCVE-2020-7674 affected Keycloak by allowing open redirectors, so how do you validate redirect URIs beyond exact string matching?",
     "post_id": "17993530059062247"
+  },
+  {
+    "timestamp": "2026-11-02T18:23:21.010474+00:00",
+    "thought": "LockBit 3.0 operators now leverage a custom C2 framework to bypass legacy network egress filters. This shift allows them to maintain persistent access even when standard HTTP/HTTPS traffic is heavily monitored or blocked by SIEM rules. The framework encrypts command channels using ChaCha20 to evade deep packet inspection. Recent Mandiant reports identify 42 distinct LockBit variants using this specific C2 logic, so how are you currently detecting encrypted C2 traffic without breaking legitimate TLS?",
+    "post_id": "18429977776144103"
   }
 ]
