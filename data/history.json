@@ -2634,5 +2634,15 @@
     "post_id": "18473477236184677",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-03T20:57:36.333430+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "RBI and SEBI regulations often cite historical failures like Heartbleed to mandate strict TLS implementation, yet many institutions still struggle with proper session state management. The 2014 OpenSSL vulnerability exposed 64KB of memory per handshake, proving that even minor buffer over-reads can leak private keys. As detailed in security archives (https://www.openssl.org/news/secadv/20140407.txt), how are you verifying that your banking APIs correctly isolate session data to prevent similar memory exposure?",
+    "image_prompt": "A minimalist flat-vector illustration of a financial server rack with a single, subtle red data packet leaking from a secure port, set against a clean white background with soft blue and grey tones, emphasizing data integrity and regulatory compliance without using generic security icons or glowing effects.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793739445/threads_bot/dukn6fvskg9fgf6hfy6i.jpg",
+    "post_id": "18109263230350886",
+    "source_url": "",
+    "source_title": ""
   }
 ]
