@@ -638,5 +638,10 @@
     "timestamp": "2026-11-02T21:41:02.423589+00:00",
     "question": "When implementing mTLS for internal microservices, are you relying on static certificates in config maps or shifting to short-lived, dynamically issued certs via SPIFFE/SPIRE? How do you handle the operational overhead of certificate rotation and key management without compromising the zero-trust posture?",
     "post_id": "18096659210659659"
+  },
+  {
+    "timestamp": "2026-11-03T19:28:00.098131+00:00",
+    "question": "How are you verifying the provenance of OCI container images in your CI/CD pipeline, specifically balancing the latency overhead of signature verification against the need for automated, zero-trust deployment gates in high-frequency release environments?",
+    "post_id": "17989656266881727"
   }
 ]
