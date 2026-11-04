@@ -2644,5 +2644,15 @@
     "post_id": "18109263230350886",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-04T10:48:38.395821+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "Harvard University has confirmed a data breach exposing information for 851,000 accounts, a scale that underscores the fragility of institutional data silos. As reported by Google News (https://news.google.com/rss/articles/CBMisAFBVV95cUxNVVNjTjFtM2JCX3JQeHdhSm92S3Y4Tl9GT1dRSjhfMlFtR0lJc2xCSWdHQ21tdTlXRzdHSjBMd2laUk1IWWU2eWNkN0N5ektVazcwVEZndHdkV1lfTzcxc2pPMmFrN2QwOGRCRi1FYm5jMmJGWWR1NGdPQUhNRlNRMWMyT0ppSG9CRE5WRzducEU2RjNXLW1TXzJUNFZ1cS1lUnFwaTBLbkhkQXhRY29FNtIBtgFBVV95cUxQS3lRa19iTHlLTnZwbERCbVkzYVFnZUhCTzMzQ2w0ckw5eldpbnBoU2dTb21TQVVwVlVqcUJ2U0lXVFI3eUdXSGxZdjFUeEVNcWg5RTRESEd0UmptTjJkM082TFBaSG9LV0dJOUdBc1FSSnNDdG1Uc21RTHZNRTduZEdKNE5UWHJZMzhrQXg1aDJMeHBORnozSGxHeTZKTmxlNjZtU3VnWDRiN21iSTlCSF80UUd0QQ?oc=5), the lack of immediate technical specifics makes it hard to gauge the vector. How are you currently segmenting your identity provider logs to detect such large-scale credential exposure?",
+    "image_prompt": "A minimalist flat-vector illustration of a massive, translucent glass sphere containing thousands of tiny, distinct geometric shapes representing data points. The sphere is slightly cracked, with a few shapes drifting out into a void of deep indigo and slate grey. The style is clean, modern editorial art with soft gradients, avoiding any glowing effects, binary code, or human figures. The composition focuses on the structural integrity of the container versus the chaotic escape of the contents, using a cool, muted color palette of steel blue, charcoal, and pale silver.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793789307/threads_bot/p33vhmbiebgk6jwer3t1.jpg",
+    "post_id": "18111934466522702",
+    "source_url": "",
+    "source_title": ""
   }
 ]
