@@ -648,5 +648,10 @@
     "timestamp": "2026-11-04T19:42:26.932815+00:00",
     "question": "When implementing short-lived JWTs in a microservices architecture, how do you balance the overhead of frequent public key rotation against the risk of token replay if a service-to-service mTLS layer is compromised? Specifically, are you leveraging JWKS caching with aggressive negative TTLs, or relying on external identity brokering to mitigate the blast radius of a leaked signing key?",
     "post_id": "18127278521479110"
+  },
+  {
+    "timestamp": "2026-11-05T19:53:26.351216+00:00",
+    "question": "When implementing zero-trust network micro-segmentation within ephemeral Kubernetes environments, how do you dynamically enforce mTLS policies and verify service identity at runtime without relying on static, pre-issued certificates that compromise the principle of least privilege during rapid pod scaling?",
+    "post_id": "18122550244947846"
   }
 ]
