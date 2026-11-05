@@ -38082,3 +38082,53 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/adapters.py", line 742, in send
     raise ReadTimeout(e, request=request)
 requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.groq.com', port=443): Read timed out. (read timeout=30)
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-05T10:46:08.588744+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'government cyber regulations'
+Requesting content generation for topic: 'government cyber regulations'...
+Fetching latest news headlines from Google News for query: 'government cyber regulations (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxNMHRWNWFIbENXaFFzZWo0NUduOXpzdDMyQjhEbmtPZURONXhGVlRwbWY2N241Znl6eFIzQkhCV0RJS0MwbXFDZHU1c3lxUld0ZTd5NlRPSXlrSUg0YmpqdkFEVlNCMWFDTGcwdGYtTHlndWpOLXhSNjVtOWFEcldEQkRHUWt1b2hIV0lsa2ZQa1ZhUFVqTmVCMjlFMXFPdnM?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxOQmwxcGxYLWhfVDI0YVo2Z1lLYjRvb2hZYnl3MUJKakRiTkppd1pyUmFXcUhfQnhGbi1NOXpJM09PZEhCRWhGYVd6aF8tOE5udmRWcXJzX2VVa0ZpMXVhLW1QR2JWdEc1UC1xYjJsY2l1aHVyTlJ6TGxCTEdkUmE2dFhRaTBvMXhwb2tyMkVuOFUyN2prTXNKeVVhVFNZaExoZGNwTWNzNUxIZ3FfLWtz0gG0AUFVX3lxTE9Ea1cxcUZlem9yOHl3WkxoTjJlQVdSRDFRd2swSER0ckZjMWREc1RFcXNGdTBoSnNqS3Bma3J6ZFhuaVEyaUE2ZEFDeWlBUV9jVjdqSDREcWJxTUYwT3BUdExkRmNFYXVNdlY2dVZRaGVxWFBqVXAtTk9uZG54U2poVlBWZ0QydTNFZDVrYnNnb1hGMVBkZmtsaENMXzhMcDRhakswZEZmR2ZzVHRSMDlUdl9IVw?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxPSUg0UEx0Zm5ZTU1NcEQ4X01IZEljX2tiNGdnQ1k4czFHd21Lc3hEX0VFdVR3azJuaG40bWtLd0tnM0psVDk1bVFOYkdTZHJsdFlkckhZVWc0ZFM5UnBwRmhYbmRqM2xOUWQ0S1NhS3lYaWxyMURQN3BCNnJXZFkyNUVnMDNJY1gzMGs4UkJ2akhnWDBYazlsSVpvcnJBU2JWb0JaQVhzaUxSa2ZPQTN30gG0AUFVX3lxTE5RVHNFUzMyc3FWUWRsVTQtNnFHTzBPZ05yU2RiamRZZFdsVGdPSEFKUi1ZMW95Z25sZlE4SDRaQ1p4b00yUFdQeXd3c1VtWHV6YUhocVN6bjFneG9vX3ZXWkpmcFFKM2RkYUpfa1B0OEhDeVRZLVhJRWl4VXVrU1oyUlJxc1Uzc0VmRy1rLXlBaHRBVW5SNUQxVnpnNm40Y01IS3FITV9iZUMtZGRpZ3A1Ti1YbQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUF90QnB4RXY0amljVHkxMXpFbExtWHhoTUUwYmFHS0lWUHJEaVZIRjdIcE5idmtVUHkxbTc4MVlCblhZNnVnUlhiZ3BzRzhHcXdLZ0g4ZEZ6UF93b01DSnc2Ums2MUxhZ0pnVVFhQm5PcXFwdzl5dUlnMjRELXItVW1fUmJqRHFHaWFuUGZWYkl2dHVDdjNMNlA1Rlk1VE5Ibl9lbUVuSG9iNk3SAbABQVVfeXFMTzUxOFdDQUlmTERXdUNZYzR2b2JsVFlaZWphcTRXY3RibllsLWRtN0NTQ2lNVmE4dGc5eDVyU3VHN0Zjd0Q0RXFKSGN1Q3B6YjhST3c3Rk5WUXBtazh6MWo3ZmdqMEZPdm1qb0NNVDFLQmpBcTMzWThkQjVkY2tzdzZXNjZ1RDhlaG5jN1NiRXM0YjB6OElBNXRUNmp5Q0hXbER3LXVKRXZSUlQ4QmwzUGc?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifkFVX3lxTFBkNjlSUjBKUC10aXRFbnROWWxPa3J2QWFMSzZhTkhsR3NZTjVXNkdrblhlU2RHQjF1OExZMGNFNmNWVi0xeDh5ZHNiX2lFRm1tQ3BmY25VRkZfV0cyMUpZMGg0em9HdzVRMDZfN2dBbk8tOTlsQVd6c1hYMk1Ydw?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxNMHRWNWFIbENXaFFzZWo0NUduOXpzdDMyQjhEbmtPZURONXhGVlRwbWY2N241Znl6eFIzQkhCV0RJS0MwbXFDZHU1c3lxUld0ZTd5NlRPSXlrSUg0YmpqdkFEVlNCMWFDTGcwdGYtTHlndWpOLXhSNjVtOWFEcldEQkRHUWt1b2hIV0lsa2ZQa1ZhUFVqTmVCMjlFMXFPdnM?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The anticipated electoral shock from the largest pro-AI super PAC network failed to materialize during the midterms, suggesting that algorithmic persuasion alone cannot override entrenched voter sentiment. As documented by Google News (https://news.google.com/rss/articles/CBMinwFBVV95cUxNMHRWNWFIbENXaFFzZWo0NUduOXpzdDMyQjhEbmtPZURONXhGVlRwbWY2N241Znl6eFIzQkhCV0RJS0MwbXFDZHU1c3lxUld0ZTd5NlRPSXlrSUg0YmpqdkFEVlNCMWFDTGcwdGYtTHlndWpOLXhSNjVtOWFEcldEQkRHUWt1b2hIV0lsa2ZQa1ZhUFVqTmVCMjlFMXFPdnM?oc=5), this outcome challenges the assumption that AI-driven micro-targeting guarantees political leverage. How are regulatory bodies currently defining the threshold for algorithmic influence in campaign finance?
+  - Image Prompt: A minimalist flat-vector illustration depicting a large, translucent digital sphere representing a super PAC, composed of interconnected geometric nodes, gently dissipating into abstract, organic smoke shapes upon impact with a solid, textured wall of stone blocks. The color palette features cool slate blues and muted greys for the digital elements, contrasting with warm, earthy terracotta tones for the stone barrier. The composition is balanced and editorial, emphasizing the futility of the digital force against the physical structure, with no text, logos, or human figures present.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20large%2C%20translucent%20digital%20sphere%20representing%20a%20super%20PAC%2C%20composed%20of%20interconnected%20geometric%20nodes%2C%20gently%20dissipating%20into%20abstract%2C%20organic%20smoke%20shapes%20upon%20impact%20with%20a%20solid%2C%20textured%20wall%20of%20stone%20blocks.%20The%20color%20palette%20features%20cool%20slate%20blues%20and%20muted%20greys%20for%20the%20digital%20elements%2C%20contrasting%20with%20warm%2C%20earthy%20terracotta%20tones%20for%20the%20stone%20barrier.%20The%20composition%20is%20balanced%20and%20editorial%2C%20emphasizing%20the%20futility%20of%20the%20digital%20force%20against%20the%20physical%20structure%2C%20with%20no%20text%2C%20logos%2C%20or%20human%20figures%20present.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1793875576/threads_bot/hxdkpx1yvlfgo1nhtuka.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (706) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18122857801933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18134874418782327
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18134874418782327
+Timestamp: 2026-11-05T10:46:27.564295+00:00 UTC
+============================================================
