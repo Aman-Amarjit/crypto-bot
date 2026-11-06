@@ -38277,3 +38277,54 @@ Execution Completed Successfully!
 Published Post ID: 18106400744342810
 Timestamp: 2026-11-05T21:27:31.662437+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-06T10:46:08.399195+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0pKaThvaTRjdm5PWThSR2xlWE1WVWlQSUcyQkdhVEdIMjhlWFNNaEdaNU5JLWF4WHZNWTlPZEFTMVVSMWRkUzh6aDllWk1mbkhaTG5LcURSNFhQVDdqRVNLUDFrM3AxSXVhRDZKb0dDQTJrMjFqeDJtOFUxWEtsS3p4ejQ4SnowZW0zTGhRU0tyWl9mRFBRaVFRSkpEWkNBN3lJdlNTazV4SHZiV2hRQ0I5VUlNVkE?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMic0FVX3lxTE1SRzhDeldQOFhWYW50UWlVYkRTeHBTNEdHdDVjU2RfZWxXOE9kdXVlcUdrekpsaWQ0V20wX0NiendqUndfU29fVlNSWnVFbTB2R2tEZ3ZOMkZVeXNFQlZ0UXlvZW1KekxDR3d6ck5UVGprQkk?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ0dJSGVPNFpucnhYMzZhamFCTFM5QVJrTlNyeExZUEpNeENIbnZMa1BpX09kV05wdVpCdXRNc3ZGTVFuZ2swLXdWNGZMUFlhRkh5SGNaMGFJTjNYekJ4RW9GM1lpQ0tuTjV5akM1NHJiYnFqRG80NGZSVGNGR1BaaWpJNjQ3MWhZ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitgFBVV95cUxQVXNKaW14S2hsZE5jeXplSXdkZ1NmNW81R3FaQXplbzZQek5KQ1hwWVNPeUxiOENzNVpLblJJLUpzRzZrWWc2WTdTYmxSNjdJaVV1ZEQxZjZWNHJjalh3QW1zYTl5YXRTNDdHMWRLTTQzNy15Wld3VEJKMHV2UDBBek5XX1paWnB2cDJSUnFvLXFxT3ZkZU9tTW44NnpHRjdQT0pyY3ViUjlLbE5ub3lWNmtFS0loUQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilwFBVV95cUxQOWx6Z2VvZWIxTEtkWGNhQ1ZrWGtENTJzUnZOSkY1d0hIak9VcU1TdDBGbjRJczUtemZTaDNEdDNUOTBaVGtOM1J1VDBZYzRzaVpmdXhIZ2FWeFhBUl9CbTA0SHMyTXpGSGZtQkNiQjNsdi1DWjQ3MUJ1elpHSmRpSDhVYWdTdjBET2dTNUVIVDEwcGFSRVZr?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0pKaThvaTRjdm5PWThSR2xlWE1WVWlQSUcyQkdhVEdIMjhlWFNNaEdaNU5JLWF4WHZNWTlPZEFTMVVSMWRkUzh6aDllWk1mbkhaTG5LcURSNFhQVDdqRVNLUDFrM3AxSXVhRDZKb0dDQTJrMjFqeDJtOFUxWEtsS3p4ejQ4SnowZW0zTGhRU0tyWl9mRFBRaVFRSkpEWkNBN3lJdlNTazV4SHZiV2hRQ0I5VUlNVkE?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: DigiCert’s breach is a critical wake-up call because it exposes the root of trust itself, not just user data. As reported by Google News (https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0pKaThvaTRjdm5PWThSR2xlWE1WVWlQSUcyQkdhVEdIMjhlWFNNaEdaNU5JLWF4WHZNWTlPZEFTMVVSMWRkUzh6aDllWk1mbkhaTG5LcURSNFhQVDdqRVNLUDFrM3AxSXVhRDZKb0dDQTJrMjFqeDJtOFUxWEtsS3p4ejQ4SnowZW0zTGhRU0tyWl9mRFBRaVFRSkpEWkNBN3lJdlNTazV4SHZiV2hRQ0I5VUlNVkE?oc=5), the leak includes identity documents, suggesting a compromise of their internal customer management systems rather than just a database dump. How are you verifying the integrity of certificates issued by major CAs during periods of potential supply-chain instability?
+  - Image Prompt: A minimalist flat-vector illustration of a fractured digital certificate chain, where the central link is broken and leaking abstract geometric shapes representing identity data. The color palette uses deep indigo, slate grey, and sharp amber highlights to indicate a critical security failure. The style is clean, modern editorial tech art with soft shadows and no text, focusing on the structural integrity of trust infrastructure.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20of%20a%20fractured%20digital%20certificate%20chain%2C%20where%20the%20central%20link%20is%20broken%20and%20leaking%20abstract%20geometric%20shapes%20representing%20identity%20data.%20The%20color%20palette%20uses%20deep%20indigo%2C%20slate%20grey%2C%20and%20sharp%20amber%20highlights%20to%20indicate%20a%20critical%20security%20failure.%20The%20style%20is%20clean%2C%20modern%20editorial%20tech%20art%20with%20soft%20shadows%20and%20no%20text%2C%20focusing%20on%20the%20structural%20integrity%20of%20trust%20infrastructure.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1793961976/threads_bot/d45xp0ccf6ogeom9jocc.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (701) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18122986864933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18029678444919546
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18029678444919546
+Timestamp: 2026-11-06T10:46:29.618112+00:00 UTC
+============================================================

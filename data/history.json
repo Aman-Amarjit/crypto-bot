@@ -2674,5 +2674,15 @@
     "post_id": "18106400744342810",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-06T10:46:29.615240+00:00",
+    "topic": "dark web leaks",
+    "caption": "DigiCert\u2019s breach is a critical wake-up call because it exposes the root of trust itself, not just user data. As reported by Google News (https://news.google.com/rss/articles/CBMitwFBVV95cUxPR0pKaThvaTRjdm5PWThSR2xlWE1WVWlQSUcyQkdhVEdIMjhlWFNNaEdaNU5JLWF4WHZNWTlPZEFTMVVSMWRkUzh6aDllWk1mbkhaTG5LcURSNFhQVDdqRVNLUDFrM3AxSXVhRDZKb0dDQTJrMjFqeDJtOFUxWEtsS3p4ejQ4SnowZW0zTGhRU0tyWl9mRFBRaVFRSkpEWkNBN3lJdlNTazV4SHZiV2hRQ0I5VUlNVkE?oc=5), the leak includes identity documents, suggesting a compromise of their internal customer management systems rather than just a database dump. How are you verifying the integrity of certificates issued by major CAs during periods of potential supply-chain instability?",
+    "image_prompt": "A minimalist flat-vector illustration of a fractured digital certificate chain, where the central link is broken and leaking abstract geometric shapes representing identity data. The color palette uses deep indigo, slate grey, and sharp amber highlights to indicate a critical security failure. The style is clean, modern editorial tech art with soft shadows and no text, focusing on the structural integrity of trust infrastructure.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793961976/threads_bot/d45xp0ccf6ogeom9jocc.jpg",
+    "post_id": "18029678444919546",
+    "source_url": "",
+    "source_title": ""
   }
 ]
