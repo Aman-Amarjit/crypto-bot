@@ -2684,5 +2684,15 @@
     "post_id": "18029678444919546",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-06T20:51:35.273919+00:00",
+    "topic": "cyber warfare",
+    "caption": "Chainalysis is currently offline after a breach exposed all user credentials, forcing a shutdown of key services. This incident, documented by Google News (https://news.google.com/rss/articles/CBMigAFBVV95cUxNVWtiRjVaam5zYXFlT1ZXOS1pRkNBa190N1FVMUQ4SVoxamVkcDh2UWZtWDc0Mk5HNVRQdXFZbGVISGhaeHpNQWhCOWZvVXZrMUtLb18wRTJCRkpFa28zbWNKY3h2R3NMc2Zhb25hNEt1alRRNEsyM09OSDl3WGRNVQ?oc=5), highlights the fragility of centralized identity systems. How are you structuring your credential storage to minimize blast radius during a total service outage?",
+    "image_prompt": "A minimalist flat-vector illustration of a fragmented digital ledger shattering into geometric shards, suspended in a void of deep indigo and slate grey. The shards reveal hollow, empty slots where data should be, emphasizing absence and structural failure. Soft, diffuse lighting creates a sense of suspended animation, with subtle gradients of cool steel blue and muted amber indicating critical system alerts. No text, no logos, no human figures, focusing purely on the abstract concept of data integrity collapse.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1793998281/threads_bot/mqzdsspfdel09psmh7ls.jpg",
+    "post_id": "18123016192736421",
+    "source_url": "",
+    "source_title": ""
   }
 ]
