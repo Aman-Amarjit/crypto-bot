@@ -38625,3 +38625,40 @@ Daily Question Posted Successfully!
 Post ID: 18181367302431239
 Timestamp: 2026-11-07T17:43:35.126175+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-07T19:23:38.387862+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'deepfakes and fraud'
+Requesting content generation for topic: 'deepfakes and fraud'...
+Fetching latest news headlines from Google News for query: 'deepfakes and fraud (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Successfully retrieved 0 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - The caption attributes specific technical details and a narrative to a Wired article with a URL that is likely fabricated or generic (Wired does not typically use such generic slugs for specific deepfake voice fraud articles, and the specific claim about '30-second sample' and 'latency gap' is presented as a fact from that source without verification, which is a common LLM hallucination pattern for citations).
+  - The claim that attackers 'now use low-latency TTS engines to clone a CEO's voice from a 30-second sample' is a specific technical assertion that, while plausible in theory, is presented with a level of certainty and specificity that often flags LLM-generated content when paired with a potentially fake source link.
+Groq API Error (429): {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Used 354, Requested 925. Please try again in 16.74s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1883. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 156, in run_post
+    content = groq.generate_content(topic)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 174, in generate_content
+    raise e
+  File "/home/runner/work/crypto-bot/crypto-bot/src/groq_client.py", line 168, in generate_content
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
