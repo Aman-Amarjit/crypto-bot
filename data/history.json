@@ -2694,5 +2694,15 @@
     "post_id": "18123016192736421",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-07T09:59:18.656776+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "OpenAI\u2019s GPT-6 Cyber AI just exposed 81 Firefox flaws and 948 Linux bugs, fundamentally shifting the vulnerability discovery landscape. As documented by Google News (https://news.google.com/rss/articles/CBMisgFBVV95cUxOTWtVdXFGeWRka1lWSlphWF92UlhuTl95MFBpUTFwOWhrTnhlRzZqdzd1Rm5jUGF2bzJoTEl1MndGQ1Z3QmZfQW5LMnVLanZyazhQLXJreVNqdFRsU2tZX3JlSGo0bENVUGxrZ08xdmhMSm5FU2VCNDA1QVJlaVhGQlJKZTcxZWc2TlpTc2JvcWlSRnlvdDFPMkx4eWlSb1lLUU9kd0VrdWpRT3VGSjhxWVB3?oc=5), this scale of automated auditing suggests traditional manual penetration testing is becoming obsolete. How are you integrating AI-driven static analysis into your current SDLC to keep pace with this velocity?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a complex, multi-layered digital architecture being scanned by a focused, geometric beam of light. The structure consists of interlocking hexagonal nodes in cool slate blue and metallic silver, with specific nodes highlighted in warm amber to indicate detected anomalies. The background is a clean, off-white gradient, emphasizing the precision of the scan. No text, no logos, no glowing shields, no binary code, no hooded figures. The style is modern editorial tech concept art, focusing on structural integrity and automated inspection.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794045547/threads_bot/ep0iksj0qc2g13jdz22a.jpg",
+    "post_id": "17897488848614756",
+    "source_url": "",
+    "source_title": ""
   }
 ]

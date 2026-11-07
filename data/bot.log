@@ -38474,3 +38474,60 @@ Execution Completed Successfully!
 Published Post ID: 18123016192736421
 Timestamp: 2026-11-06T20:51:35.276895+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-07T09:58:52.475457+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI used for cyberattacks'
+Requesting content generation for topic: 'AI used for cyberattacks'...
+Fetching latest news headlines from Google News for query: 'AI used for cyberattacks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxOTWtVdXFGeWRka1lWSlphWF92UlhuTl95MFBpUTFwOWhrTnhlRzZqdzd1Rm5jUGF2bzJoTEl1MndGQ1Z3QmZfQW5LMnVLanZyazhQLXJreVNqdFRsU2tZX3JlSGo0bENVUGxrZ08xdmhMSm5FU2VCNDA1QVJlaVhGQlJKZTcxZWc2TlpTc2JvcWlSRnlvdDFPMkx4eWlSb1lLUU9kd0VrdWpRT3VGSjhxWVB3?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMitwFBVV95cUxPTmpmTWZDNXd1QnBxbXk3MDBvNVczQ0I4SWRiSW9kdXVQR0hvelZYblM4ampTY21LdEc2cWh3UV9fTEdkTGZWUXg3OEZKekZyZC1xR1o0NGNsOTdPd2hlWUJQT3Y0QTZseUpRbl9FaVJEaWZaTTJ4cFRkcUdrT0ZIcGgxcVdtNk1jSGluckEwYTBXTWZ3SVpMQ0ZGZkpjRVEybG5jTlJEX19fZkdENVZvaTZ2VGozLW8?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMikAFBVV95cUxQakdNUmQ2akhkYWRSaUhDNGw4RHN3TUhUVDVGYXJJVXppMzRGT0dvYWQwLVlsV3Z4X0ZhXzlUeGVoTnlyeHBpS0U5ZG0wcFpXZ2QtNEhvRVdwdW9LVERKWGZzemVfUkJkOGQyeDVWOEs0M0tZY29tZ0czSVhSLVhLazhvUGNJaGpyN195UnA0LWM?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMidkFVX3lxTFBnUkRhQ0YtNkZRLUZCZVNKS3RIWDZfajU4X2NXZFJueVg5Qk8yMkdqQnJ3SDY5c1RqdndWSjlpaEN2M2RHVml0a0dRSV82NFBjeUwzTlBKYUk4a0w5cUNSYmxvU2xxZlpJaHJacnI5TTBuYmxsWlE?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihgFBVV95cUxNVGhwSDNKZUFoV2ctNE9acWh5amxKNl8wcmphZnZodUsyVTNEcHk2bHBRUS1CUnNtRzJ0TDBobFNWYkE1dEdieEFGSTFxMkhsMHN4NUZvbW5iZmNWdWprSV9Hcl96ZkhJTmF6Sk1KREUwSFJRclJiRE5hbzNrdGhyR0s4enh4QQ?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxOTWtVdXFGeWRka1lWSlphWF92UlhuTl95MFBpUTFwOWhrTnhlRzZqdzd1Rm5jUGF2bzJoTEl1MndGQ1Z3QmZfQW5LMnVLanZyazhQLXJreVNqdFRsU2tZX3JlSGo0bENVUGxrZ08xdmhMSm5FU2VCNDA1QVJlaVhGQlJKZTcxZWc2TlpTc2JvcWlSRnlvdDFPMkx4eWlSb1lLUU9kd0VrdWpRT3VGSjhxWVB3?oc=5
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1528. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1573. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 3...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: OpenAI’s GPT-6 Cyber AI just exposed 81 Firefox flaws and 948 Linux bugs, fundamentally shifting the vulnerability discovery landscape. As documented by Google News (https://news.google.com/rss/articles/CBMisgFBVV95cUxOTWtVdXFGeWRka1lWSlphWF92UlhuTl95MFBpUTFwOWhrTnhlRzZqdzd1Rm5jUGF2bzJoTEl1MndGQ1Z3QmZfQW5LMnVLanZyazhQLXJreVNqdFRsU2tZX3JlSGo0bENVUGxrZ08xdmhMSm5FU2VCNDA1QVJlaVhGQlJKZTcxZWc2TlpTc2JvcWlSRnlvdDFPMkx4eWlSb1lLUU9kd0VrdWpRT3VGSjhxWVB3?oc=5), this scale of automated auditing suggests traditional manual penetration testing is becoming obsolete. How are you integrating AI-driven static analysis into your current SDLC to keep pace with this velocity?
+  - Image Prompt: A minimalist flat-vector illustration depicting a complex, multi-layered digital architecture being scanned by a focused, geometric beam of light. The structure consists of interlocking hexagonal nodes in cool slate blue and metallic silver, with specific nodes highlighted in warm amber to indicate detected anomalies. The background is a clean, off-white gradient, emphasizing the precision of the scan. No text, no logos, no glowing shields, no binary code, no hooded figures. The style is modern editorial tech concept art, focusing on structural integrity and automated inspection.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20complex%2C%20multi-layered%20digital%20architecture%20being%20scanned%20by%20a%20focused%2C%20geometric%20beam%20of%20light.%20The%20structure%20consists%20of%20interlocking%20hexagonal%20nodes%20in%20cool%20slate%20blue%20and%20metallic%20silver%2C%20with%20specific%20nodes%20highlighted%20in%20warm%20amber%20to%20indicate%20detected%20anomalies.%20The%20background%20is%20a%20clean%2C%20off-white%20gradient%2C%20emphasizing%20the%20precision%20of%20the%20scan.%20No%20text%2C%20no%20logos%2C%20no%20glowing%20shields%2C%20no%20binary%20code%2C%20no%20hooded%20figures.%20The%20style%20is%20modern%20editorial%20tech%20concept%20art%2C%20focusing%20on%20structural%20integrity%20and%20automated%20inspection.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1794045547/threads_bot/ep0iksj0qc2g13jdz22a.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (663) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18123112501933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17897488848614756
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17897488848614756
+Timestamp: 2026-11-07T09:59:18.658997+00:00 UTC
+============================================================
