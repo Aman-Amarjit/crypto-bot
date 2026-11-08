@@ -663,5 +663,10 @@
     "timestamp": "2026-11-07T17:43:35.125608+00:00",
     "question": "When deploying ambient mTLS in a Kubernetes mesh, how do you reconcile the strict identity verification of service accounts with the need for legacy applications to maintain outbound connections to non-TLS capable third-party APIs without exposing static secrets in the control plane?",
     "post_id": "18181367302431239"
+  },
+  {
+    "timestamp": "2026-11-08T17:54:11.780449+00:00",
+    "question": "When implementing zero-trust network access for microservices, how do you balance the latency overhead of mutual TLS and continuous identity verification against the performance requirements of high-throughput API gateways, and what specific telemetry signals do you prioritize to detect lateral movement without triggering excessive alert fatigue?",
+    "post_id": "18225029470344103"
   }
 ]
