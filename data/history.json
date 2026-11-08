@@ -2704,5 +2704,15 @@
     "post_id": "17897488848614756",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-08T10:13:07.537950+00:00",
+    "topic": "deepfakes and fraud",
+    "caption": "Deepfake fraud is evolving beyond simple face swaps to exploit real-time voice cloning via lightweight neural networks. Attackers now leverage low-latency inference models to mimic executive speech patterns with startling accuracy, bypassing traditional biometric checks. As detailed in recent security analyses (https://www.bleepingcomputer.com), how are you validating the provenance of audio signals in your MFA workflows?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a split audio waveform where the left side is a clean, solid blue line and the right side fractures into jagged, translucent red shards, symbolizing synthetic voice manipulation. The background is a soft, neutral off-white with subtle geometric grid lines, using a palette of cool blues, warm alert reds, and slate gray. No text, no logos, no glowing effects, no binary code, no human figures, no padlocks. Clean, modern editorial style with high contrast and sharp edges.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794132775/threads_bot/fo5poefvrv3epjmew0cb.jpg",
+    "post_id": "18120525934770698",
+    "source_url": "",
+    "source_title": ""
   }
 ]
