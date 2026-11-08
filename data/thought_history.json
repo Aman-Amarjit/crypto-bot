@@ -533,5 +533,10 @@
     "timestamp": "2026-11-07T14:54:33.544581+00:00",
     "thought": "NIS2 mandates 24-hour incident reporting for essential entities.\nI see teams struggle to automate this because the regulation requires specific technical details, not just a generic alert. You must map your SIEM logs to the ENISA notification template to avoid manual delays.\nArticle 23 sets the 24-hour deadline, so how are you automating the initial triage to meet it?",
     "post_id": "18063868838797588"
+  },
+  {
+    "timestamp": "2026-11-08T15:13:58.948528+00:00",
+    "thought": "OAuth 2.0 authorization code flow fails when PKCE is omitted.\nAttackers intercept the authorization code before the client exchanges it for tokens, allowing full account takeover without credentials.\nThis technique bypasses standard token leakage protections and works against public clients like SPAs. CVE-2019-10404 demonstrates this flaw in Node.js, so why are mobile apps still shipping without mandatory PKCE enforcement?",
+    "post_id": "17916994320472594"
   }
 ]
