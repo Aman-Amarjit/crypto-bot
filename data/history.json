@@ -2714,5 +2714,15 @@
     "post_id": "18120525934770698",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-08T19:38:20.783310+00:00",
+    "topic": "AI surveillance",
+    "caption": "Iris Ohyama\u2019s data cloud breach has exposed information for 7.7 million customers, a massive scale that highlights the fragility of centralized data storage. As documented by Google News (https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ2xVbUE4Uk9aNnlpTDZBQzU3ZklROEgwOVk0R1lra3dtanFscFRRVENjUU5yWGhtZXJGOEZ1T2ZBZDFnSVZyZ0oyMXdLZEQ3SXZ6Y0lkNUpVNW9lLXJQN1d2UTRISlRQdWhhZVNVcFpLa0ozUFE2UnFxWVNkYnRYOVI3UURKUi1RaUpESU5OR2RNWEVsNVZkWjNCeDNSeUJfVUUyY1lxNVJPMzlIMm93TGcwUzY?oc=5), this incident raises urgent questions about how we secure large-scale customer databases. What specific access controls are you auditing to prevent similar cloud exposure?",
+    "image_prompt": "A minimalist flat-vector illustration of a massive, translucent glass sphere filled with thousands of tiny, glowing data points, one section of the sphere cracked open with light leaking out. The background is a soft, neutral gradient of pale grey and white, emphasizing the fragility of the container. No text, no logos, no binary code, no shields, no padlocks. Clean, modern editorial style with subtle depth and soft shadows.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794166689/threads_bot/flncnccl0oytbywk4ei0.jpg",
+    "post_id": "17947881105361390",
+    "source_url": "",
+    "source_title": ""
   }
 ]
