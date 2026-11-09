@@ -39020,3 +39020,54 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-11-09T23:14:04.385100+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-09T23:45:40.109489+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'CERT-In advisories security'
+Requesting content generation for topic: 'CERT-In advisories security'...
+Fetching latest news headlines from Google News for query: 'CERT-In advisories security (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVFlSbDk4Y2xVVmtGcUxPMXhSX0N5OG81RmNhTVRGbzJzQzg4Z3d2a0JtSmwyX0lUbTZrYlFJUS1iUlZIN24ydnNib2x1NS1Sb3lRWTdQSWFDekJhVlhxc2hBaEJNbklXdkNfelZqWUVRX2N1OUdpdFhPb09ucGRSekhJZFpsVmd3MWtj?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiWEFVX3lxTE52SmlaUXlLQzMweVc0QjZvMy1UYTUtMmxkb2RCVTZ6djJza1FBT3FBS0s1dk9hOFRJY0Fyd3VVY04yN1hKMFVlaW8tYVFkREN6MmNJdlR4Y3k?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMic0FVX3lxTE1wYWYzZnZsTk5zellPMHVVV1loeWh5TnpvVHR0U2txRVBmNFBjM3BNN0JhbTVadU5JREdVcExNcE40SF9XbUNqVy1tQmFyR1pON2NDVmpxM0plODB0c2ZJSkw3ZVZqUzRSX3JOQU85VzBfYnc?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxQQ1JOdnlTaURCRHlVcnJ0WDZLVjdZaEJYQzFhRHc1QUl0dHRBTS12T0JqVjJMd0dFS05xVXYtVUo2enB5M1FqdEU0N2pXZ2t1Vk5CNnJKZGliTXZxRm14R0Jpcl8zalo2S1NLUlgxNWszN1hEN01wSnlnVWtOdE10a0JDNA?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxNRTh2X2FOREpKRmoxTUNweG1SZ2JqQzhMQWlnYklRZThPd1pWZlFScEozcWF2dG5hSWZDZzlaYktVOG82dTNLUS1NekZOVVE3NTlVR0FndDVMSmNWSVFCQXpOc3ZqMVl1MkVlT09PZzVzeENFdFdXZlJNMTdsUWlYVi1VZw?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVFlSbDk4Y2xVVmtGcUxPMXhSX0N5OG81RmNhTVRGbzJzQzg4Z3d2a0JtSmwyX0lUbTZrYlFJUS1iUlZIN24ydnNib2x1NS1Sb3lRWTdQSWFDekJhVlhxc2hBaEJNbklXdkNfelZqWUVRX2N1OUdpdFhPb09ucGRSekhJZFpsVmd3MWtj?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The headline suggests a surprisingly candid conversation with an RIAA representative, which feels out of step with the usual adversarial tone in digital rights enforcement. As noted in this report (https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVFlSbDk4Y2xVVmtGcUxPMXhSX0N5OG81RmNhTVRGbzJzQzg4Z3d2a0JtSmwyX0lUbTZrYlFJUS1iUlZIN24ydnNib2x1NS1Sb3lRWTdQSWFDekJhVlhxc2hBaEJNbklXdkNfelZqWUVRX2N1OUdpdFhPb09ucGRSekhJZFpsVmd3MWtj?oc=5), this human element might signal a shift in how these organizations approach compliance. Do you think direct dialogue with rights holders is becoming a viable strategy for security teams?
+  - Image Prompt: A minimalist flat-vector illustration depicting two abstract geometric figures sitting across a small round table in a bright, modern office setting. One figure is composed of sharp, angular red and white shapes representing a corporate entity, while the other is a softer, rounded blue and grey shape representing an individual. Between them, a single stylized document icon floats in the air, symbolizing a discussion or agreement. The background features clean, light beige walls with subtle shadows, conveying a professional and calm atmosphere. No text, logos, or complex details.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20two%20abstract%20geometric%20figures%20sitting%20across%20a%20small%20round%20table%20in%20a%20bright%2C%20modern%20office%20setting.%20One%20figure%20is%20composed%20of%20sharp%2C%20angular%20red%20and%20white%20shapes%20representing%20a%20corporate%20entity%2C%20while%20the%20other%20is%20a%20softer%2C%20rounded%20blue%20and%20grey%20shape%20representing%20an%20individual.%20Between%20them%2C%20a%20single%20stylized%20document%20icon%20floats%20in%20the%20air%2C%20symbolizing%20a%20discussion%20or%20agreement.%20The%20background%20features%20clean%2C%20light%20beige%20walls%20with%20subtle%20shadows%2C%20conveying%20a%20professional%20and%20calm%20atmosphere.%20No%20text%2C%20logos%2C%20or%20complex%20details.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1794267947/threads_bot/pln3exddtmnpdrf4808d.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (621) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18123479473933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18033573449883285
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18033573449883285
+Timestamp: 2026-11-09T23:45:59.197256+00:00 UTC
+============================================================
