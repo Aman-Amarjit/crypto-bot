@@ -2724,5 +2724,15 @@
     "post_id": "17947881105361390",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-09T11:23:49.455555+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The core weakness in LLM jailbreaks isn't just prompt injection; it's the model's inability to distinguish between system instructions and user data during tokenization. Researchers have shown that by exploiting the attention mechanism, attackers can force the model to treat malicious payloads as high-priority context, effectively bypassing safety filters. As detailed in recent security analyses (https://arxiv.org/abs/2307.02483), how are you structuring your input sanitization to prevent context confusion?",
+    "image_prompt": "A minimalist flat-vector illustration of a fragmented neural network node, where a single red data packet is slipping through a gap in a blue geometric lattice structure. The background is a soft, neutral off-white with subtle depth shadows. The style is clean, modern editorial tech art, focusing on the concept of a logical breach in a structured system. No text, no logos, no glowing effects, no binary code.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794223415/threads_bot/wpaygeuivikjqsghvgna.jpg",
+    "post_id": "18001068195042884",
+    "source_url": "",
+    "source_title": ""
   }
 ]
