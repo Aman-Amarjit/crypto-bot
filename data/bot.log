@@ -39071,3 +39071,51 @@ Execution Completed Successfully!
 Published Post ID: 18033573449883285
 Timestamp: 2026-11-09T23:45:59.197256+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-10T11:03:12.840864+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Indian startup data breaches'
+Requesting content generation for topic: 'Indian startup data breaches'...
+Fetching latest news headlines from Google News for query: 'Indian startup data breaches (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMikgFBVV95cUxQdnQ1MDZTbWZrUkZNd2dod2kwUUJ1d0p6clZOcExZMHVfSF9RQ0RXSHlCSlhmUW9ZYzB5LWtnWVRrZnNoWXhDemdwdWhZSGJleFBoN0dnb0c0SkxaX0FWNDdRWktNX0llaWUzcjhEc1kzM2NiUXVhMFZVZVNpb2tzWFdmSlh0VndTTy1McnU4c0poUQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBEZ2xjbzQtWkg4djBxR29DeFhIZ2dneVJfV1l4UEw0Z3pocG1YN2thaFFHcmtSd0dFSVpaY0pjdkZsR3hMa2pGUHowTW9UYkRXVGhLSjZINHU?oc=5
+Failed to decode URL: None
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMikgFBVV95cUxQdnQ1MDZTbWZrUkZNd2dod2kwUUJ1d0p6clZOcExZMHVfSF9RQ0RXSHlCSlhmUW9ZYzB5LWtnWVRrZnNoWXhDemdwdWhZSGJleFBoN0dnb0c0SkxaX0FWNDdRWktNX0llaWUzcjhEc1kzM2NiUXVhMFZVZVNpb2tzWFdmSlh0VndTTy1McnU4c0poUQ?oc=5
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 2048. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Black Hat India 2026 is making its landmark debut in Bengaluru, signaling a major shift in how the global security community engages with the region's rapid tech growth. As covered by Google News (https://news.google.com/rss/articles/CBMikgFBVV95cUxQdnQ1MDZTbWZrUkZNd2dod2kwUUJ1d0p6clZOcExZMHVfSF9RQ0RXSHlCSlhmUW9ZYzB5LWtnWVRrZnNoWXhDemdwdWhZSGJleFBoN0dnb0c0SkxaX0FWNDdRWktNX0llaWUzcjhEc1kzM2NiUXVhMFZVZVNpb2tzWFdmSlh0VndTTy1McnU4c0poUQ?oc=5), this event brings international researchers directly to the heart of India's startup ecosystem. Given the frequency of recent data breaches in the sector, how do you think this localized knowledge exchange will change incident response strategies for Indian startups?
+  - Image Prompt: A minimalist flat-vector illustration of a bustling city skyline at dusk, with the silhouette of Bengaluru's tech district merging into a complex, interconnected neural network structure. The color palette features deep indigo, electric violet, and soft amber highlights to represent innovation and connectivity. Abstract geometric shapes float above the buildings, symbolizing data exchange and global collaboration. The style is clean, modern editorial art with smooth gradients and no text, avoiding generic cybersecurity tropes like shields or padlocks.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20of%20a%20bustling%20city%20skyline%20at%20dusk%2C%20with%20the%20silhouette%20of%20Bengaluru%27s%20tech%20district%20merging%20into%20a%20complex%2C%20interconnected%20neural%20network%20structure.%20The%20color%20palette%20features%20deep%20indigo%2C%20electric%20violet%2C%20and%20soft%20amber%20highlights%20to%20represent%20innovation%20and%20connectivity.%20Abstract%20geometric%20shapes%20float%20above%20the%20buildings%2C%20symbolizing%20data%20exchange%20and%20global%20collaboration.%20The%20style%20is%20clean%2C%20modern%20editorial%20art%20with%20smooth%20gradients%20and%20no%20text%2C%20avoiding%20generic%20cybersecurity%20tropes%20like%20shields%20or%20padlocks.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1794308605/threads_bot/fkmji8jtkmum33yxoegq.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (711) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18123544213933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18111053612522878
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18111053612522878
+Timestamp: 2026-11-10T11:03:36.792975+00:00 UTC
+============================================================
