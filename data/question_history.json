@@ -673,5 +673,10 @@
     "timestamp": "2026-11-09T22:16:26.513991+00:00",
     "question": "When implementing zero-trust network access, how are you handling the risk of credential stuffing against internal SSO endpoints, and what specific mDNS or Kerberos protocol hardening measures have you deployed to prevent lateral movement from compromised non-human identities?",
     "post_id": "18070238012630604"
+  },
+  {
+    "timestamp": "2026-11-10T19:40:43.821672+00:00",
+    "question": "When implementing short-lived credentials via workload identity federation, how do you handle clock skew and certificate pinning failures across heterogeneous microservices to prevent silent authentication breaches during transient network partitions?",
+    "post_id": "18111965912242164"
   }
 ]
