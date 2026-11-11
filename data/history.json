@@ -2764,5 +2764,15 @@
     "post_id": "17946551340088200",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-11T10:48:47.813033+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "India's financial regulators are tightening the screws on how banks and brokers handle third-party code, a direct response to systemic risks like Log4Shell. As detailed by TechCrunch (https://techcrunch.com/2026/11/10/rbi-sebi-tech-security-rules), the new mandates force institutions to maintain immutable logs of dependency updates to prevent silent supply-chain compromises. How are you currently verifying the integrity of your Java dependency trees against these stricter audit requirements?",
+    "image_prompt": "A minimalist flat-vector illustration of a complex, interlocking gear system where one specific gear is highlighted in a warm amber alert color, surrounded by cool slate-blue structural elements. The composition uses clean geometric lines and subtle depth to represent regulatory oversight and technical dependency chains. No text, no logos, no glowing shields, no binary code, no hooded figures. Premium editorial style, high contrast, modern tech aesthetic.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794394116/threads_bot/di6s4qljgs5qaoommaoj.jpg",
+    "post_id": "17975659335175762",
+    "source_url": "",
+    "source_title": ""
   }
 ]
