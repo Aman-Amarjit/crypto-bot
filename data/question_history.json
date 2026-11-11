@@ -678,5 +678,10 @@
     "timestamp": "2026-11-10T19:40:43.821672+00:00",
     "question": "When implementing short-lived credentials via workload identity federation, how do you handle clock skew and certificate pinning failures across heterogeneous microservices to prevent silent authentication breaches during transient network partitions?",
     "post_id": "18111965912242164"
+  },
+  {
+    "timestamp": "2026-11-11T19:32:59.741438+00:00",
+    "question": "How are you validating the provenance of container images in your CI/CD pipeline to prevent supply-chain attacks, and what specific strategies are you using to detect and block unsigned or tampered artifacts before they reach production registries?",
+    "post_id": "18474912208189607"
   }
 ]
