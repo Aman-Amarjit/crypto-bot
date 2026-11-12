@@ -2794,5 +2794,15 @@
     "post_id": "18175606309458918",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-12T21:49:47.887504+00:00",
+    "topic": "hacking incidents",
+    "caption": "The sheer scale of recent ScreenConnect intrusions is alarming, with attackers deploying rogue clients to compromise at least 288 endpoints across 48 distinct organizations. This widespread exploitation highlights how quickly a single misconfigured remote access tool can become a pivot point for lateral movement within enterprise networks. As detailed in this report (https://news.google.com/rss/articles/CBMiggFBVV95cUxOX0pnUHptSnRuYS1KWVUyd1pTNzgwYmJ6ZzA1ZTBaUk5JQXlOZlppUHQtYWtkTzNnSm5OSFFweENuNndUN3ZaNFJjOHVoM3h1ZG5ya0xubm1FbUl2bTBtSFdTQlpadXZTVFNQZmdWZ0RuS1lrREVvQlNudjItMi12RDdn?oc=5), are your current monitoring rules actually catching unauthorized client registrations before they establish persistence?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a central server node connected to a sprawling, chaotic web of smaller endpoint nodes. Most connections are clean and orderly, but several are highlighted in a warm, urgent amber color, indicating active, unauthorized data flow. The background is a soft, neutral off-white with subtle geometric patterns, avoiding dark cyber themes. The style is modern editorial, focusing on network topology and the concept of lateral movement without using glowing shields, padlocks, or binary code.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794520175/threads_bot/gakgbfd4ypl6qruxzp6w.jpg",
+    "post_id": "18113590265177391",
+    "source_url": "",
+    "source_title": ""
   }
 ]
