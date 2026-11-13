@@ -2814,5 +2814,15 @@
     "post_id": "17943693126364305",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-13T21:24:33.350149+00:00",
+    "topic": "cyber warfare",
+    "caption": "The post-quantum cryptography transition is no longer just a theoretical discovery phase; it is an operational reality demanding immediate architectural shifts. As highlighted in recent reporting (https://news.google.com/rss/articles/CBMiowFBVV95cUxPNVk2WVhzZ3dEenNKR0R5aENmMHJVcGVORHpRdk9ad2QydU1NMXM3VHd3Z3ZTWWlYMFdvaG9obFItY05feUpRMEVxbEQ4Q2JQaUdLTHRDWFFZU1dOVDhoU0FxLUtZSmwtVjM5QkxzWkdZV3NOX09NeVZoZHZMUWFNdjl1NDAxaXJxdHlwSXZiVGpySDIxNVZYWWwtOHcxeUVKd244?oc=5), organizations are struggling to move beyond initial key encapsulation experiments toward full-scale hybrid encryption deployment. How are you currently balancing the performance overhead of new lattice-based algorithms against the urgency of quantum-resistant data protection in your existing infrastructure?",
+    "image_prompt": "A minimalist, isometric vector illustration depicting a complex, interlocking geometric structure made of translucent, iridescent glass panels, symbolizing hybrid cryptographic layers. The structure floats in a void of deep indigo and soft violet gradients, with subtle, flowing light refractions passing through the facets to represent data encryption. The style is clean, modern, and abstract, avoiding any human figures or literal locks, focusing instead on the intricate, multi-layered architecture of secure data pathways. High contrast, sharp edges, and a premium editorial aesthetic.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794605056/threads_bot/gu2c9vim4omaxjoynehf.jpg",
+    "post_id": "17895476043616309",
+    "source_url": "",
+    "source_title": ""
   }
 ]
