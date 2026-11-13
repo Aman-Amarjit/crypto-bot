@@ -2804,5 +2804,15 @@
     "post_id": "18113590265177391",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-13T10:52:43.508867+00:00",
+    "topic": "dark web leaks",
+    "caption": "The security community is currently dissecting the operational tactics of Artex and AntiFox, two groups that have drawn significant expert attention for their distinct threat profiles. As detailed in this roundup (https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ1pjVHk1d3M3OHVEc0tNeU9RekdVWHRVTUF0Wl81QlBpMHFFeTlzRHkyeEJudENoWGRnZmdmNkxCZHFRSWtMdDkyV1VwQk1va3FBaUw0cHhXRkpoTzVLRHFiSDU4YVpnTi1pMGJrY002Y1prX05RUEl4Vk5iNS1FcG5yRFIwTWs2b2Zzc1V6NA?oc=5), analysts are focusing on specific countermeasures rather than broad generalizations. Given the specialized nature of these actors, what specific telemetry signals are you prioritizing to distinguish their activity from other dark web leak operations?",
+    "image_prompt": "Minimalist flat-vector illustration of two distinct abstract geometric entities interacting with a fragmented data structure. One entity is a sharp, angular red polygon representing aggressive intrusion, while the other is a smooth, cool blue curve representing defensive analysis. They are positioned over a dark, matte charcoal background with subtle grid lines. The style is clean, modern editorial concept art, avoiding any human figures, glowing effects, or binary code. Focus on the tension between the two shapes and the broken data blocks they are manipulating.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794567153/threads_bot/q8xrnxztkupqvhsxec0h.jpg",
+    "post_id": "17943693126364305",
+    "source_url": "",
+    "source_title": ""
   }
 ]

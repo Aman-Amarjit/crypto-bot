@@ -39639,3 +39639,57 @@ Execution Completed Successfully!
 Published Post ID: 18113590265177391
 Timestamp: 2026-11-12T21:49:47.890435+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-13T10:52:22.934121+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ1pjVHk1d3M3OHVEc0tNeU9RekdVWHRVTUF0Wl81QlBpMHFFeTlzRHkyeEJudENoWGRnZmdmNkxCZHFRSWtMdDkyV1VwQk1va3FBaUw0cHhXRkpoTzVLRHFiSDU4YVpnTi1pMGJrY002Y1prX05RUEl4Vk5iNS1FcG5yRFIwTWs2b2Zzc1V6NA?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMimwFBVV95cUxPVGZKMDRFcHBEVXNiMXBLWGhiS0lxUUVxU3p6aE42RDVJMk5xRDF4VzY1RzlwUml3SHdjNVZWa3RKc2h6VjBJWXpzS2NKWkE1SXFmQ19vbk12S0lLTkNCV2llMlpLQTdVMVUxa2UyTUc0YzZORFR3VUtYWVJfczhzRFNvWldUbjhRSERELVZBN0tNU3hIeDJLbkZlTQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qUW5TZzBwd3o0b3dmcHBadmx3X2JOVTFyQjRKMGpJaW1RQ3VNZFNQeG9tSEJCLVNxbFFLVDM0dHFSdEk5amRJVzB6S3pvZkNGOENEUWVpc29KTzg?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSERvTzltVVZjVThGQjJlRWxrYnJWMnJRVkxuTExuMXI4c2RwODBUSmduZ0R2N3NxODZpSXBrWXVqaFBzSkdaanZILTdJOUpYZlN2a3FGM1VGLWNDakpnWjhtb1ZRYUEwWDR1TjRjYVh6ZEZiVFhMdHAzeFFBc3JCTnkyNzlVM2RHSFQ4eEdySnQxd3dGQWNseXBvM3YzMFdVY0pEdXNQanQ5SXYyY0FoNXNJSTdkRlg40gG-AUFVX3lxTE1Rb1pjb285aTNIMlNGRG9LdGt5ZU1fS0Nxak9MZFM4OE5UV3RwRjZVZEhVbVpDeWVFa1k2VEFNWFpVSDB0UEZwZllsZ0dGVzM1ZExEVGc2ZVNzckpPalNHNHZDTTFDVjJ5RlNEekhiYWpCQWhKZ1NsYzJDNzl3Y3RpQ2tqWmhQQTZveDBSaEdQWE85OGVCdUpSbjBDZHdaQ0t4TS1fMmFnSHhYOXdKQU5VV0Mxc2pZREZweGtyc1E?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiYkFVX3lxTE1zVlpzb09WVUtteXQxTlphcW44bERmZ0Fmd0VMNUNOdFZ6cjlCdHRSY2FyOWxZV1k1dlZsdlFZcS1MaUl5YlNLT0wwWkVPaVpLbGZRelpWN3oyTXJPYjFZblpn?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ1pjVHk1d3M3OHVEc0tNeU9RekdVWHRVTUF0Wl81QlBpMHFFeTlzRHkyeEJudENoWGRnZmdmNkxCZHFRSWtMdDkyV1VwQk1va3FBaUw0cHhXRkpoTzVLRHFiSDU4YVpnTi1pMGJrY002Y1prX05RUEl4Vk5iNS1FcG5yRFIwTWs2b2Zzc1V6NA?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - FABRICATED STATS/CLAIMS: The caption claims the actors are leveraging 'zero-day exploits,' but the source headline only mentions 'Cyber Experts Weigh In: How to Fight Artex & AntiFox' and does not provide any article content or headline text confirming the use of zero-day exploits.
+  - SCOPE CREEP: The caption asserts that the rise of these groups is 'forcing a rethink of standard incident response playbooks' and that they are bypassing 'traditional perimeter defenses' via specific methods (social engineering + zero-days). The provided source headline does not support these specific tactical claims or the broader impact statement.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The security community is currently dissecting the operational tactics of Artex and AntiFox, two groups that have drawn significant expert attention for their distinct threat profiles. As detailed in this roundup (https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ1pjVHk1d3M3OHVEc0tNeU9RekdVWHRVTUF0Wl81QlBpMHFFeTlzRHkyeEJudENoWGRnZmdmNkxCZHFRSWtMdDkyV1VwQk1va3FBaUw0cHhXRkpoTzVLRHFiSDU4YVpnTi1pMGJrY002Y1prX05RUEl4Vk5iNS1FcG5yRFIwTWs2b2Zzc1V6NA?oc=5), analysts are focusing on specific countermeasures rather than broad generalizations. Given the specialized nature of these actors, what specific telemetry signals are you prioritizing to distinguish their activity from other dark web leak operations?
+  - Image Prompt: Minimalist flat-vector illustration of two distinct abstract geometric entities interacting with a fragmented data structure. One entity is a sharp, angular red polygon representing aggressive intrusion, while the other is a smooth, cool blue curve representing defensive analysis. They are positioned over a dark, matte charcoal background with subtle grid lines. The style is clean, modern editorial concept art, avoiding any human figures, glowing effects, or binary code. Focus on the tension between the two shapes and the broken data blocks they are manipulating.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Minimalist%20flat-vector%20illustration%20of%20two%20distinct%20abstract%20geometric%20entities%20interacting%20with%20a%20fragmented%20data%20structure.%20One%20entity%20is%20a%20sharp%2C%20angular%20red%20polygon%20representing%20aggressive%20intrusion%2C%20while%20the%20other%20is%20a%20smooth%2C%20cool%20blue%20curve%20representing%20defensive%20analysis.%20They%20are%20positioned%20over%20a%20dark%2C%20matte%20charcoal%20background%20with%20subtle%20grid%20lines.%20The%20style%20is%20clean%2C%20modern%20editorial%20concept%20art%2C%20avoiding%20any%20human%20figures%2C%20glowing%20effects%2C%20or%20binary%20code.%20Focus%20on%20the%20tension%20between%20the%20two%20shapes%20and%20the%20broken%20data%20blocks%20they%20are%20manipulating.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1794567153/threads_bot/q8xrnxztkupqvhsxec0h.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (707) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18123984370933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17943693126364305
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17943693126364305
+Timestamp: 2026-11-13T10:52:43.511770+00:00 UTC
+============================================================
