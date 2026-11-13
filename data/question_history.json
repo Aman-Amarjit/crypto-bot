@@ -688,5 +688,10 @@
     "timestamp": "2026-11-12T19:51:59.776581+00:00",
     "question": "When implementing zero-trust network access for microservices, how do you balance the overhead of mutual TLS certificate rotation against the latency requirements of high-throughput APIs? Specifically, are you using short-lived secrets with automated renewal, and how does that impact your observability and incident response workflows?",
     "post_id": "18121855186767521"
+  },
+  {
+    "timestamp": "2026-11-13T19:37:13.398390+00:00",
+    "question": "When implementing short-lived JWTs for microservice-to-microservice communication, how do you balance the operational overhead of frequent key rotation against the risk of token replay or clock skew discrepancies, especially when relying on centralized identity providers like OAuth 2.0 / OIDC?",
+    "post_id": "18108839950985467"
   }
 ]
