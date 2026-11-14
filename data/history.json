@@ -2824,5 +2824,15 @@
     "post_id": "17895476043616309",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-14T10:16:04.470161+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "The recent Binance breach exposes a critical gap in how crypto organizations manage internal control weaknesses, rather than just external perimeter defenses. As highlighted by the reporting (https://news.google.com/rss/articles/CBMisgFBVV95cUxORHNmV2pXZXB5alo2TGlqbnlrb0RFbnhjT0VONjE4UlpGYmR3VDYzd1l5am51V1hPdDlicFBNaWwxWGRMX3lZS3BMdW5fbnFtLUx1RVdfZm1BSEtrVnVkVkpZMGlKYWY2b21lN3JOVlFUMzBUYXlYOHhVOTU3ODlYYWE0di1WY2JDVUE2RlRaTFJnckZqQkZ1a19KV3lrYmU0X3BQTHpZNW83YjFCU3pLb0F3?oc=5), the focus is on systemic vulnerabilities within the organization's own infrastructure. How are you currently auditing your internal access controls to prevent similar lateral movement?",
+    "image_prompt": "A minimalist flat-vector illustration of a complex, interconnected network of nodes representing a cryptocurrency exchange infrastructure. The central node is highlighted with a subtle, warm amber glow indicating a vulnerability or breach point, while surrounding nodes remain in cool, muted slate blues and greys. The design uses clean, geometric lines and abstract shapes to depict internal system architecture rather than external threats. No text, logos, or human figures are present. The style is modern, editorial, and precise, focusing on the concept of internal control failure.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794651352/threads_bot/i6rdooaxj3ztr5zfteqq.jpg",
+    "post_id": "18136689919662215",
+    "source_url": "",
+    "source_title": ""
   }
 ]

@@ -39837,3 +39837,62 @@ Execution Completed Successfully!
 Published Post ID: 17895476043616309
 Timestamp: 2026-11-13T21:24:33.353042+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-14T10:15:39.670160+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI used for cyberattacks'
+Requesting content generation for topic: 'AI used for cyberattacks'...
+Fetching latest news headlines from Google News for query: 'AI used for cyberattacks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxORHNmV2pXZXB5alo2TGlqbnlrb0RFbnhjT0VONjE4UlpGYmR3VDYzd1l5am51V1hPdDlicFBNaWwxWGRMX3lZS3BMdW5fbnFtLUx1RVdfZm1BSEtrVnVkVkpZMGlKYWY2b21lN3JOVlFUMzBUYXlYOHhVOTU3ODlYYWE0di1WY2JDVUE2RlRaTFJnckZqQkZ1a19KV3lrYmU0X3BQTHpZNW83YjFCU3pLb0F3?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihgFBVV95cUxOMVFZUmdFN2M4NXZsdjNDamRVZVVqSGt3N1RuLUJ3VVk0NnhsLTBBSVJ6d0EtTl91Z0x6b00wcENUME9fdVp0djJsbmpZT1ROVGVmdk10MGxhdXhnU1llYi0yTnZfcWI3THU4OXkwalRZWnBBMERNbUlnWkU5S0lXblRQckxfdw?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYl8tMldTcmNCdzBFNV9hYzhTdDh6ZjVBUnN1LWNUSlhhd3lVYml1R3BmeVFXVUFjYl8wQzNvNVZWSmNkdmdpNG9ZclR2YldSbTdWLUQ2MlZUX21HWHFYcllxR2ctZjd6al9PS2h0TzY2d0UyM2JTQm5UcXViUFRKTjFoSDh5TUY5OGpzamMzcDN4NnhENmx4TkpxQUl2RHFZZTVHUm1qdmE?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilwFBVV95cUxNazRDXzhSTEMyU0ROOUNXby1CSUV5WUFIY29rYjVveVpZN093Q0RKaEFQSTZrV09Rck1Bdm1zcDkxYkw1OUQwbVlrenFGQnhmZ3huSW53ZUJQMmZ4bXdLU1lwQjJmRmdHcjB3WDk5WXhyWTJYdktIWXhxZ21qQ3hWTHJ5SUJ2SFNLZDg1YWlxRk0xeGJ1eGhV?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMingFBVV95cUxOVkt6X0t3ZEVCeWtRQ191X0x4c3EwOUdaamFTUC1WcF8zRGV0STUzdjJrOHdoNEI4ZGFxRmpua01ycTNHT0kzeHdNNUx0N2dwVHVlSUdETE5JZGlzWjdGamZGaGxweTNhMDZiR0lPMGNFYnV6U19JM0E4S3UwTUVkMDVNVWkzd1RQVGpwZXB5eHc5Qm5HV2FJQlpCRWhRZw?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxORHNmV2pXZXB5alo2TGlqbnlrb0RFbnhjT0VONjE4UlpGYmR3VDYzd1l5am51V1hPdDlicFBNaWwxWGRMX3lZS3BMdW5fbnFtLUx1RVdfZm1BSEtrVnVkVkpZMGlKYWY2b21lN3JOVlFUMzBUYXlYOHhVOTU3ODlYYWE0di1WY2JDVUE2RlRaTFJnckZqQkZ1a19KV3lrYmU0X3BQTHpZNW83YjFCU3pLb0F3?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - FABRICATED STATS/DETAILS: The caption claims the incident involves 'AI-driven threat vectors', 'automated credential stuffing', and 'smart contract manipulation'. The source headline only states 'Binance Breach Highlights Control Weaknesses at Crypto Orgs' and does not mention AI, credential stuffing, or smart contracts.
+  - FABRICATED STATS/DETAILS: The caption claims the breach underscores that 'perimeter defenses are insufficient against AI-accelerated internal lateral movement'. This specific technical analysis and the mention of 'AI-accelerated' movement are not present in the provided source headline.
+  - SCOPE CREEP: The caption introduces specific technical scenarios (isolating AI-generated transaction patterns from high-frequency trading) that are not supported by the general headline provided.
+Groq API Error (429): {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Used 530, Requested 572. Please try again in 6.119999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 3...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The recent Binance breach exposes a critical gap in how crypto organizations manage internal control weaknesses, rather than just external perimeter defenses. As highlighted by the reporting (https://news.google.com/rss/articles/CBMisgFBVV95cUxORHNmV2pXZXB5alo2TGlqbnlrb0RFbnhjT0VONjE4UlpGYmR3VDYzd1l5am51V1hPdDlicFBNaWwxWGRMX3lZS3BMdW5fbnFtLUx1RVdfZm1BSEtrVnVkVkpZMGlKYWY2b21lN3JOVlFUMzBUYXlYOHhVOTU3ODlYYWE0di1WY2JDVUE2RlRaTFJnckZqQkZ1a19KV3lrYmU0X3BQTHpZNW83YjFCU3pLb0F3?oc=5), the focus is on systemic vulnerabilities within the organization's own infrastructure. How are you currently auditing your internal access controls to prevent similar lateral movement?
+  - Image Prompt: A minimalist flat-vector illustration of a complex, interconnected network of nodes representing a cryptocurrency exchange infrastructure. The central node is highlighted with a subtle, warm amber glow indicating a vulnerability or breach point, while surrounding nodes remain in cool, muted slate blues and greys. The design uses clean, geometric lines and abstract shapes to depict internal system architecture rather than external threats. No text, logos, or human figures are present. The style is modern, editorial, and precise, focusing on the concept of internal control failure.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20of%20a%20complex%2C%20interconnected%20network%20of%20nodes%20representing%20a%20cryptocurrency%20exchange%20infrastructure.%20The%20central%20node%20is%20highlighted%20with%20a%20subtle%2C%20warm%20amber%20glow%20indicating%20a%20vulnerability%20or%20breach%20point%2C%20while%20surrounding%20nodes%20remain%20in%20cool%2C%20muted%20slate%20blues%20and%20greys.%20The%20design%20uses%20clean%2C%20geometric%20lines%20and%20abstract%20shapes%20to%20depict%20internal%20system%20architecture%20rather%20than%20external%20threats.%20No%20text%2C%20logos%2C%20or%20human%20figures%20are%20present.%20The%20style%20is%20modern%2C%20editorial%2C%20and%20precise%2C%20focusing%20on%20the%20concept%20of%20internal%20control%20failure.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1794651352/threads_bot/i6rdooaxj3ztr5zfteqq.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (665) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18124143232933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18136689919662215
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18136689919662215
+Timestamp: 2026-11-14T10:16:04.472355+00:00 UTC
+============================================================
