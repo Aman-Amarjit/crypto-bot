@@ -693,5 +693,10 @@
     "timestamp": "2026-11-13T19:37:13.398390+00:00",
     "question": "When implementing short-lived JWTs for microservice-to-microservice communication, how do you balance the operational overhead of frequent key rotation against the risk of token replay or clock skew discrepancies, especially when relying on centralized identity providers like OAuth 2.0 / OIDC?",
     "post_id": "18108839950985467"
+  },
+  {
+    "timestamp": "2026-11-14T17:57:31.022051+00:00",
+    "question": "When signing artifacts in a CI/CD pipeline, how do you ensure the private key remains isolated from the build environment while still allowing automated verification at deployment time without introducing a new attack surface?",
+    "post_id": "18131707477847770"
   }
 ]
