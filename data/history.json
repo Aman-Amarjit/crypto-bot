@@ -2854,5 +2854,15 @@
     "post_id": "18100688207541213",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-15T20:22:40.675087+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "The most persistent LLM jailbreak isn't a clever prompt, but a structural flaw in how transformers process context windows. Attackers exploit attention mechanism drift by injecting adversarial tokens that subtly shift the model's latent space, bypassing safety filters without triggering keyword detection. As detailed in recent security research (https://arxiv.org/abs/2307.02483), how are you currently validating the integrity of your model's internal state during inference?",
+    "image_prompt": "A minimalist, isometric 3D illustration of a neural network structure where specific nodes are glowing with a warm amber hue, contrasting against a cool slate-blue background. The visual metaphor shows a subtle distortion or ripple effect spreading through the geometric lattice, representing a hidden vulnerability or drift in the system. Clean lines, soft lighting, no text, no logos, premium editorial style, high contrast, abstract technology concept art.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794774147/threads_bot/vm65tqha38a3m5a7tiqx.jpg",
+    "post_id": "18128443165930117",
+    "source_url": "",
+    "source_title": ""
   }
 ]
