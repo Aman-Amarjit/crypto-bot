@@ -2844,5 +2844,15 @@
     "post_id": "18104987600156492",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-15T10:45:30.626352+00:00",
+    "topic": "AI surveillance",
+    "caption": "A single stolen API key for a fireworks AI model became the wedge that exposed Cursor user data and enabled a trojanized Claude Code extension. This incident, highlighted by Google News (https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ0pVd0VKNnk2Vmpxalp6amtSaFlvX0Vpd0NOQkNZVldpTjRYdzQyZHd2c2IwdmhEdm5RNElZWXJ6bWtMVGhlemhGX0FqM0d3Vnp3MWRvWUNxTGJwMnV3Ymx0cy1TbWJJMVliVi1HM0xaUExCZ0FQU3NOMEJWWHJhaGZ3?oc=5), shows how supply chain trust in AI dev tools is dangerously thin. Are you auditing the origin of every LLM backend your IDE connects to?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a fragmented digital key floating above a complex, interconnected network of developer tools. The key is cracked in the center, with subtle red warning pulses radiating outward through the network nodes. The background is a soft, neutral gradient of slate grey and pale blue, emphasizing the structural vulnerability rather than aggressive cyber aesthetics. Clean lines, modern editorial style, no text or logos.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794739517/threads_bot/rb3z5gi83bdclyratoyj.jpg",
+    "post_id": "18100688207541213",
+    "source_url": "",
+    "source_title": ""
   }
 ]

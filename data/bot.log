@@ -40052,3 +40052,51 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-11-14T21:41:21.564191+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-15T10:45:08.454095+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ0pVd0VKNnk2Vmpxalp6amtSaFlvX0Vpd0NOQkNZVldpTjRYdzQyZHd2c2IwdmhEdm5RNElZWXJ6bWtMVGhlemhGX0FqM0d3Vnp3MWRvWUNxTGJwMnV3Ymx0cy1TbWJJMVliVi1HM0xaUExCZ0FQU3NOMEJWWHJhaGZ3?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxNN3dhZ0VPOHVUZTdFMUdWOENxNFQzalNwbmFoNks5dFRNV3lqb09rdlRmSXpDeGRpYXJZNmNXLWhNOHRLblp6WkNvcUsxOXIyMC02eFZ5amFfbldidmZYN0ttcEticjVKTDFXMHZhQUllYmdVY3hnck1yLXNZemtsdE83bw?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxNSWtwdmFsc0hWLWRMaFJJaTBIWXhneThpLTFkNENKTVNsbkoxaktNd2tpUmxRbDlNTFdNcHlCU280ejMwLWVKamN5ZHJwdlBPSkt0cXltQ2ZoaXY0QXNZYTZIUFhENU42RG0ybTFlOGFYWEVSaEROZVZHQUpNd0hnU1dxLWY2OEh5aF9BSzdhTHBnV0h4M3U1cE1oem10akl0Wjg1akJDQXZxSWVtQTZWX2RaTQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVG5GLU5ZMTgzNC1UeTFTbnZrTlZOQUg3ZFYySDR4amlGaFhMcjBzOU0yMFpRTHczdTNRWWVCSEQ3NHA0eWFaYmdMRDBSdXExb0xqa29vYkp3cFZJVDZDUFBiemZvWThSUHU4MFpnYW5BeFZqZ1ZTbUdrcFhXdkxZamNxQkVPUUdwN0w4QzcydXhkZFh6Qnl5cXpyTS1MOExCd0UteldkczFMaHJONjlNMEM4OUU0Mkp3UFZNaHg1S0lCOW5mdlEwTQ?oc=5
+Failed to decode URL: None
+Successfully retrieved 4 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ0pVd0VKNnk2Vmpxalp6amtSaFlvX0Vpd0NOQkNZVldpTjRYdzQyZHd2c2IwdmhEdm5RNElZWXJ6bWtMVGhlemhGX0FqM0d3Vnp3MWRvWUNxTGJwMnV3Ymx0cy1TbWJJMVliVi1HM0xaUExCZ0FQU3NOMEJWWHJhaGZ3?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: A single stolen API key for a fireworks AI model became the wedge that exposed Cursor user data and enabled a trojanized Claude Code extension. This incident, highlighted by Google News (https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ0pVd0VKNnk2Vmpxalp6amtSaFlvX0Vpd0NOQkNZVldpTjRYdzQyZHd2c2IwdmhEdm5RNElZWXJ6bWtMVGhlemhGX0FqM0d3Vnp3MWRvWUNxTGJwMnV3Ymx0cy1TbWJJMVliVi1HM0xaUExCZ0FQU3NOMEJWWHJhaGZ3?oc=5), shows how supply chain trust in AI dev tools is dangerously thin. Are you auditing the origin of every LLM backend your IDE connects to?
+  - Image Prompt: A minimalist flat-vector illustration depicting a fragmented digital key floating above a complex, interconnected network of developer tools. The key is cracked in the center, with subtle red warning pulses radiating outward through the network nodes. The background is a soft, neutral gradient of slate grey and pale blue, emphasizing the structural vulnerability rather than aggressive cyber aesthetics. Clean lines, modern editorial style, no text or logos.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20fragmented%20digital%20key%20floating%20above%20a%20complex%2C%20interconnected%20network%20of%20developer%20tools.%20The%20key%20is%20cracked%20in%20the%20center%2C%20with%20subtle%20red%20warning%20pulses%20radiating%20outward%20through%20the%20network%20nodes.%20The%20background%20is%20a%20soft%2C%20neutral%20gradient%20of%20slate%20grey%20and%20pale%20blue%2C%20emphasizing%20the%20structural%20vulnerability%20rather%20than%20aggressive%20cyber%20aesthetics.%20Clean%20lines%2C%20modern%20editorial%20style%2C%20no%20text%20or%20logos.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1794739517/threads_bot/rb3z5gi83bdclyratoyj.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (548) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18124293937933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18100688207541213
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18100688207541213
+Timestamp: 2026-11-15T10:45:30.628427+00:00 UTC
+============================================================
