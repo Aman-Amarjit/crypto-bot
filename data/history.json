@@ -2864,5 +2864,15 @@
     "post_id": "18128443165930117",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-16T11:04:26.500951+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "Amazon researchers flagged an AI agent campaign actively hunting for API keys across LiteLLM, Dify, and other applications. This isn't just a static malware drop; it\u2019s an autonomous operation leveraging LLMs to navigate complex software environments and extract credentials. As detailed by Google News (https://news.google.com/rss/articles/CBMifEFVX3lxTFBOYlpIS0J3MVBzZnhFbjZtTmx1TlBnRE9BOGpwelVBSUJDQi1YU3ZTclJFUGgxV1FpcDdQQXlRTl9Tald1LVRZeVpkb282ZHBSX0tXemdCWlkzbkxWc1lZczlJTGxhTXFHclVJOHpEbG9hNUdILVYzU1NHeU4?oc=5), how are you isolating AI-driven workloads to prevent lateral movement?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a sleek, abstract neural network node in the center, emitting thin, elegant lines that connect to three distinct, stylized application icons representing different software platforms. The background is a soft, gradient slate blue with subtle geometric patterns. The visual metaphor focuses on autonomous connectivity and data flow rather than traditional security shields. Use a palette of cool cyans, deep indigos, and clean white accents to convey a modern, high-tech editorial feel. Avoid any glowing effects, binary code, or generic hacker imagery.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794827053/threads_bot/eyz9odqkp7yguxkdbkvd.jpg",
+    "post_id": "18130715353843858",
+    "source_url": "",
+    "source_title": ""
   }
 ]

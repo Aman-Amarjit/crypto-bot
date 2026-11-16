@@ -40229,3 +40229,51 @@ Execution Completed Successfully!
 Published Post ID: 18128443165930117
 Timestamp: 2026-11-15T20:22:40.678021+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-16T11:04:03.852442+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'CERT-In advisories security'
+Requesting content generation for topic: 'CERT-In advisories security'...
+Fetching latest news headlines from Google News for query: 'CERT-In advisories security (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMifEFVX3lxTFBOYlpIS0J3MVBzZnhFbjZtTmx1TlBnRE9BOGpwelVBSUJDQi1YU3ZTclJFUGgxV1FpcDdQQXlRTl9Tald1LVRZeVpkb282ZHBSX0tXemdCWlkzbkxWc1lZczlJTGxhTXFHclVJOHpEbG9hNUdILVYzU1NHeU4?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMisAFBVV95cUxQWDNpQjg4VlY2a2g5Y1Z5S3pSUlJYc0tMbEQtMEZDR3huN0V3c2FpWGhTX1dISUJwY00yTkVwVEROWF9WMDkwZnV6bU5zY0MtU0x0WmxjSlZTamRhcXJrdkdBdEFibG5SUzVsYk9oTDgzblZ0UUFPdzladmthck5CdUtKRVRCQmNSb0JTVWVUTDFiVGgyZDRPOTFUMnZxSTE0bzFSa05tX2RFSmpmVGhQZA?oc=5
+Failed to decode URL: None
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMifEFVX3lxTFBOYlpIS0J3MVBzZnhFbjZtTmx1TlBnRE9BOGpwelVBSUJDQi1YU3ZTclJFUGgxV1FpcDdQQXlRTl9Tald1LVRZeVpkb282ZHBSX0tXemdCWlkzbkxWc1lZczlJTGxhTXFHclVJOHpEbG9hNUdILVYzU1NHeU4?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - FABRICATED STATS/DETAILS: The caption claims the agents are 'likely parsing local config files and environment variables to exfiltrate credentials'. This specific technical methodology is not present in the provided source headline, which only states the campaign targets these apps for API keys. While plausible, it is an unsupported detail not found in the provided text.
+  - ATTRIBUTION/SCOPE: The caption states the campaign is 'specifically hunting for API keys in LiteLLM and Dify deployments'. The source headline says it targets 'LiteLLM, Dify, and Other Apps'. While not a direct contradiction, the caption omits the 'Other Apps' scope, potentially narrowing the scope of the threat described in the source.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Amazon researchers flagged an AI agent campaign actively hunting for API keys across LiteLLM, Dify, and other applications. This isn't just a static malware drop; it’s an autonomous operation leveraging LLMs to navigate complex software environments and extract credentials. As detailed by Google News (https://news.google.com/rss/articles/CBMifEFVX3lxTFBOYlpIS0J3MVBzZnhFbjZtTmx1TlBnRE9BOGpwelVBSUJDQi1YU3ZTclJFUGgxV1FpcDdQQXlRTl9Tald1LVRZeVpkb282ZHBSX0tXemdCWlkzbkxWc1lZczlJTGxhTXFHclVJOHpEbG9hNUdILVYzU1NHeU4?oc=5), how are you isolating AI-driven workloads to prevent lateral movement?
+  - Image Prompt: A minimalist flat-vector illustration depicting a sleek, abstract neural network node in the center, emitting thin, elegant lines that connect to three distinct, stylized application icons representing different software platforms. The background is a soft, gradient slate blue with subtle geometric patterns. The visual metaphor focuses on autonomous connectivity and data flow rather than traditional security shields. Use a palette of cool cyans, deep indigos, and clean white accents to convey a modern, high-tech editorial feel. Avoid any glowing effects, binary code, or generic hacker imagery.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20sleek%2C%20abstract%20neural%20network%20node%20in%20the%20center%2C%20emitting%20thin%2C%20elegant%20lines%20that%20connect%20to%20three%20distinct%2C%20stylized%20application%20icons%20representing%20different%20software%20platforms.%20The%20background%20is%20a%20soft%2C%20gradient%20slate%20blue%20with%20subtle%20geometric%20patterns.%20The%20visual%20metaphor%20focuses%20on%20autonomous%20connectivity%20and%20data%20flow%20rather%20than%20traditional%20security%20shields.%20Use%20a%20palette%20of%20cool%20cyans%2C%20deep%20indigos%2C%20and%20clean%20white%20accents%20to%20convey%20a%20modern%2C%20high-tech%20editorial%20feel.%20Avoid%20any%20glowing%20effects%2C%20binary%20code%2C%20or%20generic%20hacker%20imagery.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1794827053/threads_bot/eyz9odqkp7yguxkdbkvd.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (589) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18124452484933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18130715353843858
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18130715353843858
+Timestamp: 2026-11-16T11:04:26.503859+00:00 UTC
+============================================================
