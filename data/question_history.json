@@ -703,5 +703,10 @@
     "timestamp": "2026-11-15T18:46:50.992415+00:00",
     "question": "When managing ephemeral Kubernetes workloads, how do you handle the rotation of service account tokens to minimize the window of exposure for stolen credentials, and what specific RBAC constraints do you enforce to prevent lateral movement if a pod identity is compromised?",
     "post_id": "18360287110301791"
+  },
+  {
+    "timestamp": "2026-11-17T20:50:23.415505+00:00",
+    "question": "When implementing short-lived JWTs for microservice-to-microservice communication, how do you balance the operational overhead of frequent token rotation against the risk of replay attacks, specifically when relying on a centralized PKI versus distributed key management?",
+    "post_id": "18138476500710588"
   }
 ]
