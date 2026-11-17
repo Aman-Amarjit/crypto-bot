@@ -2884,5 +2884,15 @@
     "post_id": "17918447217498353",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-17T22:51:48.865851+00:00",
+    "topic": "Digital India cybersecurity",
+    "caption": "The fragility of India's digital infrastructure often hinges on legacy Java dependencies, a lesson starkly illustrated by the Log4Shell vulnerability. This critical flaw in the Apache Log4j library allowed remote code execution via JNDI lookups, exposing millions of government and enterprise systems to trivial exploitation. As detailed in historical post-mortems (https://www.cisa.gov/news-events/alerts/2021/12/10/cybersecurity-advisory-cisa-fbi-ic-nsa-uk-ncsc-respond-log4j-vulnerability), how are you currently auditing third-party logging libraries in your Digital India integrations?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a complex, interconnected network of digital nodes representing a national infrastructure. One specific node is highlighted with a subtle, warm amber pulse, indicating a vulnerability within the broader cool blue and teal grid. The style is clean, modern editorial tech art with soft gradients and geometric precision, avoiding any human figures, shields, or binary code. The composition suggests systemic interdependence and the critical nature of a single point of failure in a vast digital ecosystem.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794955895/threads_bot/bhgrmswwv3oxhwzhzpyy.jpg",
+    "post_id": "18201350032385581",
+    "source_url": "",
+    "source_title": ""
   }
 ]
