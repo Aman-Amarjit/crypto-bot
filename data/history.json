@@ -2874,5 +2874,15 @@
     "post_id": "18130715353843858",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-17T11:44:39.128640+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "The irony of AI-driven penetration testing is stark when the tool itself becomes the attack vector. Artex, designed to automate vulnerability discovery, was repurposed by threat actors to weaponize its own scanning logic against live infrastructure. As detailed in this report (https://news.google.com/rss/articles/CBMilwFBVV95cUxPa1ZQaEtJcHhMb3M3LWNzd3FmR2dKLXJaOENMRXVDNGppSkJmMGpXZWd5WDBrbXZLSmtWZmJKVURGMTg3RmxBVnNjd1N0aDZmQkpqYXhQN0ZDTW9sWG5NYVFhRnNzR2ZhZTlueThRN0pRQzFfMUNuczhaZl9LdG5XSnlOcGZBZzBXWGxsSnE5Rk5SdjV1djZZ?oc=5), how are you isolating automated security agents from production networks to prevent such lateral movement?",
+    "image_prompt": "A sleek, minimalist editorial illustration of a digital mirror reflecting a distorted, aggressive red silhouette instead of a helpful blue one. The scene uses a cool slate grey palette with sharp, angular geometric shapes representing code structures. A single, thin red line pierces through the center of the composition, symbolizing a breach. The style is clean, modern vector art with high contrast, avoiding any glowing effects or generic hacker tropes. Focus on the conceptual duality of a tool turning against its user, using abstract shapes and negative space to convey tension and vulnerability.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1794915867/threads_bot/mudknnqeoiv0zivt9xxu.jpg",
+    "post_id": "17918447217498353",
+    "source_url": "",
+    "source_title": ""
   }
 ]

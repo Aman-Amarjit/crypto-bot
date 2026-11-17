@@ -40408,3 +40408,48 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-17T11:44:18.857688+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Indian startup data breaches'
+Requesting content generation for topic: 'Indian startup data breaches'...
+Fetching latest news headlines from Google News for query: 'Indian startup data breaches (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilwFBVV95cUxPa1ZQaEtJcHhMb3M3LWNzd3FmR2dKLXJaOENMRXVDNGppSkJmMGpXZWd5WDBrbXZLSmtWZmJKVURGMTg3RmxBVnNjd1N0aDZmQkpqYXhQN0ZDTW9sWG5NYVFhRnNzR2ZhZTlueThRN0pRQzFfMUNuczhaZl9LdG5XSnlOcGZBZzBXWGxsSnE5Rk5SdjV1djZZ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qUW5TZzBwd3o0b3dmcHBadmx3X2JOVTFyQjRKMGpJaW1RQ3VNZFNQeG9tSEJCLVNxbFFLVDM0dHFSdEk5amRJVzB6S3pvZkNGOENEUWVpc29KTzg?oc=5
+Failed to decode URL: None
+Successfully retrieved 2 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMilwFBVV95cUxPa1ZQaEtJcHhMb3M3LWNzd3FmR2dKLXJaOENMRXVDNGppSkJmMGpXZWd5WDBrbXZLSmtWZmJKVURGMTg3RmxBVnNjd1N0aDZmQkpqYXhQN0ZDTW9sWG5NYVFhRnNzR2ZhZTlueThRN0pRQzFfMUNuczhaZl9LdG5XSnlOcGZBZzBXWGxsSnE5Rk5SdjV1djZZ?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The irony of AI-driven penetration testing is stark when the tool itself becomes the attack vector. Artex, designed to automate vulnerability discovery, was repurposed by threat actors to weaponize its own scanning logic against live infrastructure. As detailed in this report (https://news.google.com/rss/articles/CBMilwFBVV95cUxPa1ZQaEtJcHhMb3M3LWNzd3FmR2dKLXJaOENMRXVDNGppSkJmMGpXZWd5WDBrbXZLSmtWZmJKVURGMTg3RmxBVnNjd1N0aDZmQkpqYXhQN0ZDTW9sWG5NYVFhRnNzR2ZhZTlueThRN0pRQzFfMUNuczhaZl9LdG5XSnlOcGZBZzBXWGxsSnE5Rk5SdjV1djZZ?oc=5), how are you isolating automated security agents from production networks to prevent such lateral movement?
+  - Image Prompt: A sleek, minimalist editorial illustration of a digital mirror reflecting a distorted, aggressive red silhouette instead of a helpful blue one. The scene uses a cool slate grey palette with sharp, angular geometric shapes representing code structures. A single, thin red line pierces through the center of the composition, symbolizing a breach. The style is clean, modern vector art with high contrast, avoiding any glowing effects or generic hacker tropes. Focus on the conceptual duality of a tool turning against its user, using abstract shapes and negative space to convey tension and vulnerability.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20sleek%2C%20minimalist%20editorial%20illustration%20of%20a%20digital%20mirror%20reflecting%20a%20distorted%2C%20aggressive%20red%20silhouette%20instead%20of%20a%20helpful%20blue%20one.%20The%20scene%20uses%20a%20cool%20slate%20grey%20palette%20with%20sharp%2C%20angular%20geometric%20shapes%20representing%20code%20structures.%20A%20single%2C%20thin%20red%20line%20pierces%20through%20the%20center%20of%20the%20composition%2C%20symbolizing%20a%20breach.%20The%20style%20is%20clean%2C%20modern%20vector%20art%20with%20high%20contrast%2C%20avoiding%20any%20glowing%20effects%20or%20generic%20hacker%20tropes.%20Focus%20on%20the%20conceptual%20duality%20of%20a%20tool%20turning%20against%20its%20user%2C%20using%20abstract%20shapes%20and%20negative%20space%20to%20convey%20tension%20and%20vulnerability.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1794915867/threads_bot/mudknnqeoiv0zivt9xxu.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (637) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18124621327933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 17918447217498353
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 17918447217498353
+Timestamp: 2026-11-17T11:44:39.130518+00:00 UTC
+============================================================
