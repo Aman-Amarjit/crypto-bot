@@ -2894,5 +2894,15 @@
     "post_id": "18201350032385581",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-18T11:32:14.176485+00:00",
+    "topic": "RBI SEBI tech security regulations",
+    "caption": "RBI and SEBI regulations often cite Heartbleed as the benchmark for critical infrastructure failures, where a simple off-by-one error in OpenSSL leaked 64KB of memory per request. As documented by BleepingComputer (https://www.bleepingcomputer.com/), this vulnerability exposed private keys and session cookies across global financial systems. How are you validating your TLS stack against such legacy memory corruption risks today?",
+    "image_prompt": "A minimalist flat-vector illustration of a fragmented digital ledger dissolving into abstract geometric shards, using a palette of deep indigo, slate grey, and subtle amber highlights. The composition features a central, cracked hexagonal node representing a compromised data structure, surrounded by clean, thin lines that suggest network connectivity rather than chaotic code. The style is modern editorial concept art, avoiding any human figures, glowing shields, or binary rain, focusing instead on the structural integrity of financial data systems under stress.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1795001521/threads_bot/zacxki8qg33h5x0lj27h.jpg",
+    "post_id": "18359921017168628",
+    "source_url": "",
+    "source_title": ""
   }
 ]
