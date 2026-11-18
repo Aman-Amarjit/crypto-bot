@@ -708,5 +708,10 @@
     "timestamp": "2026-11-17T20:50:23.415505+00:00",
     "question": "When implementing short-lived JWTs for microservice-to-microservice communication, how do you balance the operational overhead of frequent token rotation against the risk of replay attacks, specifically when relying on a centralized PKI versus distributed key management?",
     "post_id": "18138476500710588"
+  },
+  {
+    "timestamp": "2026-11-18T20:26:23.034400+00:00",
+    "question": "Think about your CI/CD pipelines: if an attacker compromises a single ephemeral build runner container, what specific architectural controls do you have in place to ensure that the resulting artifacts are cryptographically verifiable and that any subsequent deployment can be instantaneously revoked without downtime or manual intervention?",
+    "post_id": "18139372021644688"
   }
 ]
