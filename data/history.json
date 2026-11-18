@@ -2904,5 +2904,15 @@
     "post_id": "18359921017168628",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-18T22:34:19.220894+00:00",
+    "topic": "data breaches security leaks",
+    "caption": "Optimizely\u2019s recent malware incident exposes a critical blind spot in our supply chain security. Attackers are leveraging third-party vendor integrations to inject malicious code directly into client-side environments, bypassing perimeter defenses entirely. As detailed by Google News (https://news.google.com/rss/articles/CBMilAFBVV95cUxOUk55dHpiWElpMHczdEFyRmpxZVRBOEdvSVdmT2dZMHI1eVh2Y1NtSTFlcVBZVDAxMjdrUGNLbDc1d0VPcnFqMmFLX2I0eTlkengyd25WUHFIWmFJVVFsVFowcVM0eXk2cFlaNTdrMWF2b09GOHQ2VUFwTnVPWXZuWGl2dDlEc0t4NUZ2YmJEZVd2aUFY?oc=5), how are you currently verifying the integrity of external JavaScript dependencies before they reach production?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a complex digital supply chain. A central, sturdy server node is connected to several smaller, irregularly shaped vendor modules via thin, translucent lines. One specific connection line is fractured and leaking a subtle, warm amber glow, symbolizing a compromised data flow. The background is a clean, light gray with soft geometric shadows, emphasizing the structural vulnerability rather than dramatic cyber aesthetics. No text, no logos, no glowing shields, no binary code.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1795041248/threads_bot/t96n5ix6gyz4dajcayie.jpg",
+    "post_id": "18121913792071547",
+    "source_url": "",
+    "source_title": ""
   }
 ]
