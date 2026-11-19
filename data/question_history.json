@@ -713,5 +713,10 @@
     "timestamp": "2026-11-18T20:26:23.034400+00:00",
     "question": "Think about your CI/CD pipelines: if an attacker compromises a single ephemeral build runner container, what specific architectural controls do you have in place to ensure that the resulting artifacts are cryptographically verifiable and that any subsequent deployment can be instantaneously revoked without downtime or manual intervention?",
     "post_id": "18139372021644688"
+  },
+  {
+    "timestamp": "2026-11-19T20:29:28.695571+00:00",
+    "question": "When deploying ephemeral containers in Kubernetes, how do you ensure that short-lived sidecars do not inherit overly broad ServiceAccount permissions, and what mechanisms do you use to enforce least-privilege access for pods with sub-second lifespans?",
+    "post_id": "18124678345943314"
   }
 ]
