@@ -2914,5 +2914,15 @@
     "post_id": "18121913792071547",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-19T11:31:07.710790+00:00",
+    "topic": "government cyber regulations",
+    "caption": "Brazilian government signature apps are reportedly vulnerable to remote code execution, a critical flaw that could undermine the integrity of digital identity verification. As documented by Google News (https://news.google.com/rss/articles/CBMilgFBVV95cUxOOVF4OVFYcUJUSGEtS014cjhCdXFVU25iZDlyRTllZkxSeW1sRTNYbXRER3pvUmNRbU1sa19aMUp0c21takdaTEd6M1BpYVpRNUFlQldqUTVzSlBNU0VKeElXN01TVEVYQnJxczE2aVYzelVVVXpxN3QtX2ZCSXhvRnVhdE0yVXR2XzNWaFhnbFNNZ0dUVWc?oc=5), this exposes a significant gap in how state-issued credentials are secured against active exploitation. How are you currently validating the trustworthiness of government-issued digital signatures in your threat modeling?",
+    "image_prompt": "A minimalist flat-vector illustration of a digital document with a cracked seal, floating above a fragmented grid of abstract bureaucratic forms. The color palette features muted slate blues, stark whites, and urgent amber accents highlighting the fracture point. The composition is clean and editorial, focusing on the concept of broken trust in digital infrastructure without using any text, logos, or generic security icons like shields or padlocks.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1795087855/threads_bot/hfmqprnfjupkwyri7tcz.jpg",
+    "post_id": "18402196981204145",
+    "source_url": "",
+    "source_title": ""
   }
 ]
