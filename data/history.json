@@ -2924,5 +2924,15 @@
     "post_id": "18402196981204145",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-19T22:39:15.377399+00:00",
+    "topic": "hacking incidents",
+    "caption": "The irony of AI-driven penetration testing is stark: tools designed to harden infrastructure are now being weaponized by adversaries to automate vulnerability discovery at scale. As detailed in this report (https://news.google.com/rss/articles/CBMilwFBVV95cUxPa1ZQaEtJcHhMb3M3LWNzd3FmR2dKLXJaOENMRXVDNGppSkJmMGpXZWd5WDBrbXZLSmtWZmJKVURGMTg3RmxBVnNjd1N0aDZmQkpqYXhQN0ZDTW9sWG5NYVFhRnNzR2ZhZTlueThRN0pRQzFfMUNuczhaZl9LdG5XSnlOcGZBZzBXWGxsSnE5Rk5SdjV1djZZ?oc=5), the shift from passive scanning to active, AI-guided exploitation blurs the line between defense and offense. How are you distinguishing legitimate AI-assisted security audits from malicious automated attacks in your traffic logs?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a dual-natured robotic arm. One side of the arm is sleek, white, and geometric, holding a magnifying glass over a clean grid structure. The other side is jagged, dark metallic, and sharp, piercing through the grid. The background is a soft, neutral off-white with subtle abstract geometric shapes in muted teal and charcoal. The style is modern editorial, clean lines, no text, no logos, high contrast between the orderly and chaotic elements.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1795127942/threads_bot/j3jkhqiq1ozjpkldpbyo.jpg",
+    "post_id": "18143348371618075",
+    "source_url": "",
+    "source_title": ""
   }
 ]
