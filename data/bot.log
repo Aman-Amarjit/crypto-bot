@@ -40959,3 +40959,53 @@ Execution Completed Successfully!
 Published Post ID: 18143348371618075
 Timestamp: 2026-11-19T22:39:15.379791+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-20T11:27:10.455270+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'dark web leaks'
+Requesting content generation for topic: 'dark web leaks'...
+Fetching latest news headlines from Google News for query: 'dark web leaks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxNUFRmTmlVVTJyVE9LRmg2bXV3cG9ZXzVjT1NnU1NSZ1ptNWxDVDFpYVJ2dDNzMzYxSmo2d2ZTWE8zdkRmZlBJZERub20tUkZBSTA5TlRaY0pCeTE2aXhxZFoxeEJGME45c1NublNxMjRzX1R2ZHc1MHBiY2ZGMnp3Rkx4Ymw?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMickFVX3lxTE5HRUVWaDlTbno2QWpNNkRTc2huT1p6S3ljaDNoalFyMHVjc0xGREk2X0wyM2t2UWJxM01Ocm14eHNoM2h1aEpYT1V0T2FIVHI3Z185cG01bE5uZ3V0WjNQNktKLTZrQUc0dl84S0FXZXZhUQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMjF6blBfMmdYa0hjRnVVODU4WGd6dXZ0RHZtckRURllWQ3ZuVnNYeVNDU2hsb0tyd3RpeVM2emtzVUlVZjAya1JZOFlEaDBFcE9lQmx2QVpQcWs5cm41aU9TMDdtM1NqYksyblc4MkpyZmNQOUtqb2NVbmt6RmFUeU1vNmg3Q21hTkhveHRmU0JrTlpLT2tEOGdjUGZ1YktnaDhUeHNBVURRaWFqalFHUi1EN2FVWC1wS09v?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMihwFBVV95cUxOQmtlMUNkSVpqUm5NeTlzS1ZaM25UUnJLS2Vaay1pZ0J4el9OaUNac3A2U2ZLSFlPV1RhU3BUcDFianFKOGkyeTRBRFFodWs0dGZ3SWdWbU1CUzFmZldXVlh5WkpjOGNpNjZHdm9xdE9aZGtJcVY1RlktNXJCQ3dTMWZ6R05vNG8?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ21QdE02THpHWFJWRU9qN1JWVXE1OTF3c0N1WXpicVM1eWlXbHVtS01yOE9CM3k5UG84cmtHR05EeTR6cVlCOWRaR3pHRUptNHJlUUczWHhvbG5BUjliS1BYOWtsVFNxV2p4LVpydE9qVkQxeWZoenJkZ3ZvbHBNOW1JcVBpdDkzQ0Rv?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxNUFRmTmlVVTJyVE9LRmg2bXV3cG9ZXzVjT1NnU1NSZ1ptNWxDVDFpYVJ2dDNzMzYxSmo2d2ZTWE8zdkRmZlBJZERub20tUkZBSTA5TlRaY0pCeTE2aXhxZFoxeEJGME45c1NublNxMjRzX1R2ZHc1MHBiY2ZGMnp3Rkx4Ymw?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The perimeter is dead, and your firewall is just another web app waiting to be probed. Attackers are treating network appliances as standard HTTP endpoints, bypassing traditional segmentation by exploiting the management interfaces we often overlook. As highlighted in this report (https://news.google.com/rss/articles/CBMihAFBVV95cUxNUFRmTmlVVTJyVE9LRmg2bXV3cG9ZXzVjT1NnU1NSZ1ptNWxDVDFpYVJ2dDNzMzYxSmo2d2ZTWE8zdkRmZlBJZERub20tUkZBSTA5TlRaY0pCeTE2aXhxZFoxeEJGME45c1NublNxMjRzX1R2ZHc1MHBiY2ZGMnp3Rkx4Ymw?oc=5), how are you currently isolating appliance admin ports from the public internet?
+  - Image Prompt: A minimalist, isometric 3D illustration of a modern network firewall device rendered in matte charcoal and brushed steel. The device is not a box, but a sleek, flat panel with a subtle, glowing amber status light that pulses like a heartbeat. Surrounding the device are faint, translucent geometric shapes representing data packets, some turning red as they hit the panel's surface. The background is a soft, gradient slate blue, creating a clean, high-end tech editorial aesthetic. No text, no logos, no binary code, no shields. Focus on the physicality of the hardware and the subtle tension of the incoming data.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%2C%20isometric%203D%20illustration%20of%20a%20modern%20network%20firewall%20device%20rendered%20in%20matte%20charcoal%20and%20brushed%20steel.%20The%20device%20is%20not%20a%20box%2C%20but%20a%20sleek%2C%20flat%20panel%20with%20a%20subtle%2C%20glowing%20amber%20status%20light%20that%20pulses%20like%20a%20heartbeat.%20Surrounding%20the%20device%20are%20faint%2C%20translucent%20geometric%20shapes%20representing%20data%20packets%2C%20some%20turning%20red%20as%20they%20hit%20the%20panel%27s%20surface.%20The%20background%20is%20a%20soft%2C%20gradient%20slate%20blue%2C%20creating%20a%20clean%2C%20high-end%20tech%20editorial%20aesthetic.%20No%20text%2C%20no%20logos%2C%20no%20binary%20code%2C%20no%20shields.%20Focus%20on%20the%20physicality%20of%20the%20hardware%20and%20the%20subtle%20tension%20of%20the%20incoming%20data.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1795174037/threads_bot/ymfqm4tf0mneviafrnfs.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (589) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18124946824933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18122442056120718
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18122442056120718
+Timestamp: 2026-11-20T11:27:32.018650+00:00 UTC
+============================================================

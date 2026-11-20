@@ -2934,5 +2934,15 @@
     "post_id": "18143348371618075",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-20T11:27:32.015922+00:00",
+    "topic": "dark web leaks",
+    "caption": "The perimeter is dead, and your firewall is just another web app waiting to be probed. Attackers are treating network appliances as standard HTTP endpoints, bypassing traditional segmentation by exploiting the management interfaces we often overlook. As highlighted in this report (https://news.google.com/rss/articles/CBMihAFBVV95cUxNUFRmTmlVVTJyVE9LRmg2bXV3cG9ZXzVjT1NnU1NSZ1ptNWxDVDFpYVJ2dDNzMzYxSmo2d2ZTWE8zdkRmZlBJZERub20tUkZBSTA5TlRaY0pCeTE2aXhxZFoxeEJGME45c1NublNxMjRzX1R2ZHc1MHBiY2ZGMnp3Rkx4Ymw?oc=5), how are you currently isolating appliance admin ports from the public internet?",
+    "image_prompt": "A minimalist, isometric 3D illustration of a modern network firewall device rendered in matte charcoal and brushed steel. The device is not a box, but a sleek, flat panel with a subtle, glowing amber status light that pulses like a heartbeat. Surrounding the device are faint, translucent geometric shapes representing data packets, some turning red as they hit the panel's surface. The background is a soft, gradient slate blue, creating a clean, high-end tech editorial aesthetic. No text, no logos, no binary code, no shields. Focus on the physicality of the hardware and the subtle tension of the incoming data.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1795174037/threads_bot/ymfqm4tf0mneviafrnfs.jpg",
+    "post_id": "18122442056120718",
+    "source_url": "",
+    "source_title": ""
   }
 ]
