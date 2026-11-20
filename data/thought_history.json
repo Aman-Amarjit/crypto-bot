@@ -588,5 +588,10 @@
     "timestamp": "2026-11-19T17:23:30.046047+00:00",
     "thought": "Equifax failed to patch Apache Struts for months. I saw how unpatched CVE-2017-5638 exposed 147 million records, proving that patch management is the first line of defense. The breach took 129 days to detect, so how do you shorten your mean time to detect in production?",
     "post_id": "18094310993231716"
+  },
+  {
+    "timestamp": "2026-11-20T16:58:36.864908+00:00",
+    "thought": "TLS 1.3 mandates forward secrecy by design.\nI focus on how ephemeral key exchange ensures session keys are never stored, so a compromised private key exposes no past traffic.\nThis remains secure unless the server key is stolen during the handshake window.\nRFC 8446 defines the required 256-bit ECDHE group, but does your monitoring capture the actual cipher suite negotiation?",
+    "post_id": "18023936540730789"
   }
 ]
