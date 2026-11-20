@@ -2944,5 +2944,15 @@
     "post_id": "18122442056120718",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-20T22:13:47.147717+00:00",
+    "topic": "cyber warfare",
+    "caption": "The ROMULUS campaign is quietly escalating from simple ClickFix lures into full remote access, deploying a RAT that grants attackers persistent surveillance and total control over compromised endpoints. As detailed in this report (https://news.google.com/rss/articles/CBMigAFBVV95cUxPZnQ1dUY5Y2Fla1Rpdy00SzZuMllIUE03eG5NbXJUMlRkb0ZpZjVrWUEzNFVrQ1NReFhwdEszWDRyTHFLcnN2UUFKSzhqWkpUNDhya01IREdkNm03aGE5OFJRYlhpVFhBNmp0c3ZtMEM5OUFjWXhVWGVrb1ZHemJjRQ?oc=5), the shift toward user-initiated execution bypasses traditional perimeter defenses. How are you currently detecting and blocking these social engineering vectors before they establish a foothold?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a digital handshake where one hand is organic and the other is a fragmented, glitching geometric structure, symbolizing the breach of trust in user interaction. The background features a subtle, abstract grid in muted slate and charcoal tones, with a single warm amber accent highlighting the point of contact. The style is clean, modern editorial concept art, avoiding any literal representations of computers, locks, or code. Focus on the tension between human agency and automated intrusion, using soft gradients and sharp vector edges to create a sophisticated, high-end tech aesthetic.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1795212815/threads_bot/wogiuacchrfshtrlkdpk.jpg",
+    "post_id": "18154684843543893",
+    "source_url": "",
+    "source_title": ""
   }
 ]
