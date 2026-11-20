@@ -718,5 +718,10 @@
     "timestamp": "2026-11-19T20:29:28.695571+00:00",
     "question": "When deploying ephemeral containers in Kubernetes, how do you ensure that short-lived sidecars do not inherit overly broad ServiceAccount permissions, and what mechanisms do you use to enforce least-privilege access for pods with sub-second lifespans?",
     "post_id": "18124678345943314"
+  },
+  {
+    "timestamp": "2026-11-20T20:06:21.294252+00:00",
+    "question": "When implementing zero-trust network access for internal services, how do you handle the tradeoff between strict mTLS enforcement and the operational overhead of certificate rotation in stateless, auto-scaling Kubernetes workloads?",
+    "post_id": "18022667366951305"
   }
 ]
