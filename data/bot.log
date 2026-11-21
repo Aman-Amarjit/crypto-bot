@@ -41155,3 +41155,53 @@ Execution Completed Successfully!
 Published Post ID: 18154684843543893
 Timestamp: 2026-11-20T22:13:47.151089+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-21T10:54:49.566869+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI used for cyberattacks'
+Requesting content generation for topic: 'AI used for cyberattacks'...
+Fetching latest news headlines from Google News for query: 'AI used for cyberattacks (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxPT2tWQWpaaGVqaTlPd2J0ZUtHTUxyX1pBOFpHRTJPeGFBZU16TWRVazRsamdtemY0VUZscERmU1ZUbVZCbjVxa3B1eHB5ellXVWpCb1ZMVU1rWlc3dGZIb3gxczRvaVRGRk9uSE5XQjJuaUQtcDM4WFZSZmVLdGRoM2JoaHFlaGNoUFViOEoxZ3N4YUtySG9tMVJUNUstZ00?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilAFBVV95cUxOc1o4T2cyUFc2aXc1c01oRFJ6bFRwXzYtclh4b0RiRE1KVjNCM1VKM0h1Ukc2a2ZoanQ4MXlCVGVIdWdHQ01pajdoQmpZVU50LUFxai1URWI2cUp3WWhxS21kcnlYbEQwRFhPTUFLTEQtY0lzTzVzcGI0VzNuRzlVaVlLZ0FBUk0zWVB4cGtxdjFRUjdl?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUNCZlZHUzltb09zaldKR2pzQ3RFU3VkUDNjN01wVzE0dXBWUzBxd21sTk0yN0tUT0R3UkJ3aEpPZjFVUEJKMnhTcnhZNGVIWDdhVWxtTFdoUVZ6OE5FbE9GYUU4dHhqSGlWZkh3VXhUZ0ppZFFwMklSQWRQQlFWN1k4Tk8wdFZoTVpHRnJUVEYtUDdwQlFubU1oY1BfSFJOdkdjR1ZkWF9YanlsbFE0?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMif0FVX3lxTE5ERG1YRzU2OTF6dXRrMlhDTE9zVV9KTTYtX1hIcnlyT3RoRHZGbW1za2lYSnB3b0hTZTJWWUZLZ2RYQ2swX195WFg0RlZzNDQzRUlmWVUyNTNGUHNObkFlZ3VGWEw1OWRQUG5uNXdmbzZUOHVXaUx4TU5IWDM2R2s?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jWXFmRmZYSk9LeElJakFnc1ctTmJxSEZHcGUzVjRLUElpRFZtU2diMHNDX2pYRThLZnBQeWNWYVFVcE5lYWhYRVBfNktteVkybDFXN2U3Q3JYUVRQWUhPYVdIeFUtbXZL?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMinwFBVV95cUxPT2tWQWpaaGVqaTlPd2J0ZUtHTUxyX1pBOFpHRTJPeGFBZU16TWRVazRsamdtemY0VUZscERmU1ZUbVZCbjVxa3B1eHB5ellXVWpCb1ZMVU1rWlc3dGZIb3gxczRvaVRGRk9uSE5XQjJuaUQtcDM4WFZSZmVLdGRoM2JoaHFlaGNoUFViOEoxZ3N4YUtySG9tMVJUNUstZ00?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: China's 'Armory Castle' is actively weaponizing a VMware vCenter zero-day, exploiting a critical flaw in the virtualization layer before a patch exists. As documented by Google News (https://news.google.com/rss/articles/CBMinwFBVV95cUxPT2tWQWpaaGVqaTlPd2J0ZUtHTUxyX1pBOFpHRTJPeGFBZU16TWRVazRsamdtemY0VUZscERmU1ZUbVZCbjVxa3B1eHB5ellXVWpCb1ZMVU1rWlc3dGZIb3gxczRvaVRGRk9uSE5XQjJuaUQtcDM4WFZSZmVLdGRoM2JoaHFlaGNoUFViOEoxZ3N4YUtySG9tMVJUNUstZ00?oc=5), this pre-patch exploitation forces immediate isolation of management interfaces. How are you detecting unauthorized API calls on vCenter when the vulnerability itself is invisible to standard signature scans?
+  - Image Prompt: A minimalist flat-vector illustration of a complex, abstract castle structure made of interlocking digital blocks, with one specific block glowing in a warm amber alert color while the rest remain in cool slate grey. The composition suggests a siege or targeted attack on a central node, using clean geometric lines and subtle depth without any text, logos, or generic hacker imagery. The style is modern editorial tech art, focusing on structural integrity and targeted vulnerability.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20of%20a%20complex%2C%20abstract%20castle%20structure%20made%20of%20interlocking%20digital%20blocks%2C%20with%20one%20specific%20block%20glowing%20in%20a%20warm%20amber%20alert%20color%20while%20the%20rest%20remain%20in%20cool%20slate%20grey.%20The%20composition%20suggests%20a%20siege%20or%20targeted%20attack%20on%20a%20central%20node%2C%20using%20clean%20geometric%20lines%20and%20subtle%20depth%20without%20any%20text%2C%20logos%2C%20or%20generic%20hacker%20imagery.%20The%20style%20is%20modern%20editorial%20tech%20art%2C%20focusing%20on%20structural%20integrity%20and%20targeted%20vulnerability.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1795258498/threads_bot/zhevmpnkbocihrdlymk5.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (655) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18125055391933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18443343622180646
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18443343622180646
+Timestamp: 2026-11-21T10:55:11.632708+00:00 UTC
+============================================================

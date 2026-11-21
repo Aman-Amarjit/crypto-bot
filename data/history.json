@@ -2954,5 +2954,15 @@
     "post_id": "18154684843543893",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-21T10:55:11.629684+00:00",
+    "topic": "AI used for cyberattacks",
+    "caption": "China's 'Armory Castle' is actively weaponizing a VMware vCenter zero-day, exploiting a critical flaw in the virtualization layer before a patch exists. As documented by Google News (https://news.google.com/rss/articles/CBMinwFBVV95cUxPT2tWQWpaaGVqaTlPd2J0ZUtHTUxyX1pBOFpHRTJPeGFBZU16TWRVazRsamdtemY0VUZscERmU1ZUbVZCbjVxa3B1eHB5ellXVWpCb1ZMVU1rWlc3dGZIb3gxczRvaVRGRk9uSE5XQjJuaUQtcDM4WFZSZmVLdGRoM2JoaHFlaGNoUFViOEoxZ3N4YUtySG9tMVJUNUstZ00?oc=5), this pre-patch exploitation forces immediate isolation of management interfaces. How are you detecting unauthorized API calls on vCenter when the vulnerability itself is invisible to standard signature scans?",
+    "image_prompt": "A minimalist flat-vector illustration of a complex, abstract castle structure made of interlocking digital blocks, with one specific block glowing in a warm amber alert color while the rest remain in cool slate grey. The composition suggests a siege or targeted attack on a central node, using clean geometric lines and subtle depth without any text, logos, or generic hacker imagery. The style is modern editorial tech art, focusing on structural integrity and targeted vulnerability.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1795258498/threads_bot/zhevmpnkbocihrdlymk5.jpg",
+    "post_id": "18443343622180646",
+    "source_url": "",
+    "source_title": ""
   }
 ]
