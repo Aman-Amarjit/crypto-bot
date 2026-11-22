@@ -41499,3 +41499,25 @@ Traceback (most recent call last):
   File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 278, in _generate_huggingface
     raise RuntimeError(
 RuntimeError: Hugging Face fallback also failed after 4 attempts.
+[2026-11-22T11:57:30.786582] Organic check scheduled. Delaying startup for 857s (max 15 mins)...
+============================================================
+Threads Comment-Reply Runner Execution Started: 2026-11-22T12:11:47.786822+00:00 UTC
+============================================================
+============================================================
+Starting Comments Auto-Reply Routine...
+============================================================
+Logged in as: @amanamarjit8
+Successful organic replies in the last 24 hours: 0/20
+Retrieved 5 latest threads for scanning.
+[1/5] Checking conversation for thread ID: 18118717753829538...
+[2/5] Checking conversation for thread ID: 17911734096568913...
+[3/5] Checking conversation for thread ID: 18443343622180646...
+[4/5] Checking conversation for thread ID: 18154684843543893...
+[5/5] Checking conversation for thread ID: 18022667366951305...
+============================================================
+Comments Auto-Reply Routine Completed. Published 0 replies.
+============================================================
+============================================================
+Comment-Reply Execution Completed Successfully!
+Timestamp: 2026-11-22T12:11:49.299183+00:00 UTC
+============================================================
