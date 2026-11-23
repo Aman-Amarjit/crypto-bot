@@ -41751,3 +41751,60 @@ Traceback (most recent call last):
   File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 278, in _generate_huggingface
     raise RuntimeError(
 RuntimeError: Hugging Face fallback also failed after 4 attempts.
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-23T12:22:26.147244+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'AI surveillance'
+Requesting content generation for topic: 'AI surveillance'...
+Fetching latest news headlines from Google News for query: 'AI surveillance (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMie0FVX3lxTFBSYVBfd1ZhNFNuSlRic0h4YmpkYkVYaFBkLUQ3UGVOeFV6ZjZKVkE1eTctM193aGJoOXpiVURMMXNTeHRJRHhJWlVjU3dJUm9VQXdDZFpSb3JnNExuV2RJZzdZSlJobjdJZ3ROZzMySEpseEQ0OFlIUUM0UQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigAFBVV95cUxPdHpUWkxTSGhUY0lMWHExY1BsUVd3YTFoVjNkM3l6YzFWRmcxV3A1bVowWWY1TGN4TWJYaGdHVHNOcEJlYlQ3UVk3cExKSVh6RHloNnMwbXJUZDZzTHdwd2NFOTlkaFhvUW50TlFJbGczdXRKdWp6d29YMTdTN3ZBbQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMigwFBVV95cUxQLVF6aGtndHhqazFFZ3JKR083NWpoaElwaTZyNUp1bkEydWFnR05MaE40bTFtb0ttQzlsUlpVZW5hNGJwWlQ1WlBURmQzekd0VElaeUZWQTIyV0tmNm4xLXdKaXlFSVEyblUzUnEyblhEMUVKeDNzZ3lGc1M1MjJWOUVvTQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMimAFBVV95cUxNV3RuU0F2ZDZ5NzNoZmswMFNVa25sRzdvOXpxRUI3emROLWJuV3haV3lKN1JCSm5PaWJobEI4alNpdUlOTmllRU4wdDNxRkhCbW1YUGZUUTFsQXFtZGRjTjJLTkVVX2I1VDlfbEhYQUZZa1BlX2hjUnJfNmtJTUg1RmJmWi1QYmZyMmpVa0hKV3gtR0VjSVROQQ?oc=5
+Failed to decode URL: None
+Decoding Google News URL: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeEctUVV2UzVVNjY3TGNDZ1B1Nm9JdnBDZGZfeU1fSFlJY1lQTGF0a3R0RUM0SnZrNjRNeFBZZ2taUVFVZ25LajlLbDdxUjE2cV80SEhBaDZBNGp3WjF2X3ctNXc1YURTcmJuLWJnd2NsME5DZHgwT2hCcjV2TFh3TjFJekk3UVpYREw2MDZSeXRtZWlNUXloT0FXVmNjT0RZTnU5TDNIUVRjeGM?oc=5
+Failed to decode URL: None
+Successfully retrieved 5 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMie0FVX3lxTFBSYVBfd1ZhNFNuSlRic0h4YmpkYkVYaFBkLUQ3UGVOeFV6ZjZKVkE1eTctM193aGJoOXpiVURMMXNTeHRJRHhJWlVjU3dJUm9VQXdDZFpSb3JnNExuV2RJZzdZSlJobjdJZ3ROZzMySEpseEQ0OFlIUUM0UQ?oc=5
+Groq API Error (429): {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01kjtdbcsrfs9a3pyaak91jdxv` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1162. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+⚠️ Groq API status 429. Retrying in 3s...
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ❌ Failed (attempt 2/3). Issues:
+  - FABRICATED STATS/CLAIMS: The caption claims attackers are 'leveraging adaptive models to mimic legitimate user behavior' and asks if systems are trained to recognize 'LLM-driven attacker' behavioral drift. The source headline only states that 'AI-Assisted Cyberattacks Trigger Unauthorized Payments'. It does not specify the mechanism (mimicking user behavior/LLM-driven drift) or the specific nature of the AI assistance beyond the general term 'AI-Assisted'.
+  - SCOPE CREEP: The caption asserts that this shift is 'quietly dismantling traditional payment fraud detection' and that attackers are 'bypassing static rule-based controls'. The source headline only reports that unauthorized payments were triggered; it does not provide evidence that traditional detection systems are being dismantled or that static controls are specifically being bypassed in this context.
+  [FactChecker] Running fact-check on attempt 3...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: AI-assisted cyberattacks are now triggering unauthorized payments across Indian banks and fintech firms, a development that shifts the threat landscape from simple credential theft to automated financial manipulation. As reported by Google News (https://news.google.com/rss/articles/CBMie0FVX3lxTFBSYVBfd1ZhNFNuSlRic0h4YmpkYkVYaFBkLUQ3UGVOeFV6ZjZKVkE1eTctM193aGJoOXpiVURMMXNTeHRJRHhJWlVjU3dJUm9VQXdDZFpSb3JnNExuV2RJZzdZSlJobjdJZ3ROZzMySEpseEQ0OFlIUUM0UQ?oc=5), this raises a critical question: are current transaction monitoring systems capable of distinguishing between legitimate high-velocity user activity and AI-orchestrated payment fraud?
+  - Image Prompt: A minimalist flat-vector illustration depicting a digital financial network. Central focus is a stylized, abstract representation of a payment transaction being intercepted by a complex, multi-layered neural network structure. Use a cool palette of deep indigo, slate grey, and electric blue to convey technological sophistication and tension. Avoid generic hacker imagery or glowing shields. The composition should feel like a modern editorial graphic, emphasizing the intersection of automated intelligence and financial infrastructure without using any text or logos.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20digital%20financial%20network.%20Central%20focus%20is%20a%20stylized%2C%20abstract%20representation%20of%20a%20payment%20transaction%20being%20intercepted%20by%20a%20complex%2C%20multi-layered%20neural%20network%20structure.%20Use%20a%20cool%20palette%20of%20deep%20indigo%2C%20slate%20grey%2C%20and%20electric%20blue%20to%20convey%20technological%20sophistication%20and%20tension.%20Avoid%20generic%20hacker%20imagery%20or%20glowing%20shields.%20The%20composition%20should%20feel%20like%20a%20modern%20editorial%20graphic%2C%20emphasizing%20the%20intersection%20of%20automated%20intelligence%20and%20financial%20infrastructure%20without%20using%20any%20text%20or%20logos.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1795436559/threads_bot/vdyvoeifybsv5seiuba9.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (644) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18125298658933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18120301298116059
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18120301298116059
+Timestamp: 2026-11-23T12:22:52.260233+00:00 UTC
+============================================================
