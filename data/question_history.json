@@ -733,5 +733,10 @@
     "timestamp": "2026-11-22T19:31:14.903244+00:00",
     "question": "When implementing zero-trust network access for microservices, how do you balance the latency overhead of continuous mutual TLS authentication against the risk of credential theft in long-lived service accounts, particularly in high-throughput event-driven architectures?",
     "post_id": "18082874381402938"
+  },
+  {
+    "timestamp": "2026-11-23T23:48:39.516312+00:00",
+    "question": "How are you preventing SSRF attacks in serverless environments when cloud metadata endpoints (like IMDSv1) remain accessible from within the function runtime, and what specific network control policies do you enforce to isolate these workloads from internal infrastructure?",
+    "post_id": "18133305196698921"
   }
 ]
