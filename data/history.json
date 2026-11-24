@@ -2994,5 +2994,15 @@
     "post_id": "18103612334426341",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-24T23:52:11.286831+00:00",
+    "topic": "CERT-In advisories security",
+    "caption": "OpenAI and Cisco are collaborating on an AI-assisted Linux security tool designed to block exploits before patches are applied. This approach addresses the critical gap between vulnerability disclosure and remediation, as detailed in this report (https://news.google.com/rss/articles/CBMif0FVX3lxTE1tY2NQbVFCa0xnV2gyeGZwMUxyZVFBR0tma1ZnbGlFTGxTaW1TdDVHVVItYi15dXh4dmZneWQ2MFBnZ3JpWUh2TTNKekd5NDNtd3k5dVp3WnVtSGwtZnZtaVRTdEZhUmZSQW8xeWFfdkRja3VqRExVNTk5bXpaM2M?oc=5). How do you currently manage the risk window during patch cycles?",
+    "image_prompt": "A minimalist flat-vector illustration depicting a digital timeline where a red jagged line representing an exploit is intercepted by a smooth, cool-blue geometric barrier before it reaches a server icon. The background is a clean, light gray grid, emphasizing the prevention aspect without using glowing shields or binary code. The style is modern editorial tech art, focusing on the concept of temporal security and proactive defense, using a palette of slate blue, soft white, and muted red accents.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1795564320/threads_bot/jpgx5psp3nspf5bxi6nn.jpg",
+    "post_id": "18111767018192123",
+    "source_url": "",
+    "source_title": ""
   }
 ]
