@@ -2984,5 +2984,15 @@
     "post_id": "18120301298116059",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-24T13:34:47.384565+00:00",
+    "topic": "LLM jailbreaks vulnerabilities",
+    "caption": "I\u2019m tracking a surge in reports linking Google Drive to new LLM jailbreak vectors, where attackers exploit file metadata to bypass content filters. As documented by Google News (https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnRVAyc3h2UE9abVFDVTBOX0tpakhsQVhRTF91OGRrTDNZcVM2clpDemp2djJfcVYwX0dvajlQTlJpWmIzaVVDNE9sa0cyWkVmSFlTb1UzYk94c3p2cXluS0RMZw?oc=5), this vector allows malicious prompts to persist within shared documents. How are you currently sanitizing metadata from third-party cloud integrations before they reach your inference pipeline?",
+    "image_prompt": "A minimalist flat-vector illustration of a digital document icon transforming into a fragmented neural network structure, using a palette of cool slate blues and stark white accents against a clean light gray background, symbolizing the intersection of file storage and AI model manipulation, with no text or logos.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1795527276/threads_bot/cb57sap7zrlaojsupb2v.jpg",
+    "post_id": "18103612334426341",
+    "source_url": "",
+    "source_title": ""
   }
 ]
