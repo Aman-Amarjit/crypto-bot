@@ -42039,3 +42039,27 @@ Daily Thought Posted Successfully!
 Post ID: 18104259521452159
 Timestamp: 2026-11-24T19:30:39.495792+00:00 UTC
 ============================================================
+============================================================
+Threads Daily Question Bot Execution Started: 2026-11-24T22:20:31.602293+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Generating daily question via Groq...
+
+Generated Question:
+  When relying on ephemeral certificates in zero-trust architectures, how do you architect your PKI infrastructure to balance the strict operational requirements of automated short-lived issuance with the forensic need for long-term offline log integrity and non-repudiation during post-incident investigations?
+
+Publishing question post to Threads...
+Creating Threads text container...
+Text container created successfully. ID: 18125482186933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing text post to Threads...
+Successfully published text post to Threads! Post ID: 18399959746163097
+Saving question to history log...
+============================================================
+Daily Question Posted Successfully!
+Post ID: 18399959746163097
+Timestamp: 2026-11-24T22:20:39.985371+00:00 UTC
+============================================================

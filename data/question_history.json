@@ -738,5 +738,10 @@
     "timestamp": "2026-11-23T23:48:39.516312+00:00",
     "question": "How are you preventing SSRF attacks in serverless environments when cloud metadata endpoints (like IMDSv1) remain accessible from within the function runtime, and what specific network control policies do you enforce to isolate these workloads from internal infrastructure?",
     "post_id": "18133305196698921"
+  },
+  {
+    "timestamp": "2026-11-24T22:20:39.984527+00:00",
+    "question": "When relying on ephemeral certificates in zero-trust architectures, how do you architect your PKI infrastructure to balance the strict operational requirements of automated short-lived issuance with the forensic need for long-term offline log integrity and non-repudiation during post-incident investigations?",
+    "post_id": "18399959746163097"
   }
 ]
