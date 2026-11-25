@@ -743,5 +743,10 @@
     "timestamp": "2026-11-24T22:20:39.984527+00:00",
     "question": "When relying on ephemeral certificates in zero-trust architectures, how do you architect your PKI infrastructure to balance the strict operational requirements of automated short-lived issuance with the forensic need for long-term offline log integrity and non-repudiation during post-incident investigations?",
     "post_id": "18399959746163097"
+  },
+  {
+    "timestamp": "2026-11-25T21:37:15.098354+00:00",
+    "question": "When designing a zero-trust architecture, how do you handle the tension between strict least-privilege access for CI/CD pipelines and the need for rapid, low-friction deployments? Specifically, what mechanisms are you using to dynamically scope ephemeral credentials so that a compromised build runner cannot escalate privileges to production infrastructure?",
+    "post_id": "18137083342809663"
   }
 ]
