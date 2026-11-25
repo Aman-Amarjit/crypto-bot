@@ -3004,5 +3004,15 @@
     "post_id": "18111767018192123",
     "source_url": "",
     "source_title": ""
+  },
+  {
+    "timestamp": "2026-11-25T23:35:58.116323+00:00",
+    "topic": "Indian startup data breaches",
+    "caption": "The 2016 Uber breach, disclosed in 2017, stemmed from a SQL injection flaw in their login page, not Apache Struts. This vulnerability exposed approximately 57 million user records, a stark reminder of how basic input validation failures can compromise massive datasets. As detailed by BleepingComputer (https://www.bleepingcomputer.com/), how are you currently validating database inputs to prevent similar injection attacks?",
+    "image_prompt": "A minimalist flat-vector illustration of a database cylinder with a visible crack, leaking abstract data streams into a void. The color palette features deep indigo, slate grey, and subtle amber highlights to indicate the breach point. The style is clean, modern editorial concept art, avoiding any text, logos, or generic hacker imagery. Focus on the structural integrity failure of the data container.",
+    "image_url": "https://res.cloudinary.com/dz6ocnble/image/upload/v1795649748/threads_bot/fbdefgfvgjxxwrekujoi.jpg",
+    "post_id": "18207507598378462",
+    "source_url": "",
+    "source_title": ""
   }
 ]
