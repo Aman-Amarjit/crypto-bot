@@ -42432,3 +42432,161 @@ Execution Completed Successfully!
 Published Post ID: 18207507598378462
 Timestamp: 2026-11-25T23:35:58.119353+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-26T12:19:39.102888+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFTVWRZSUMwUjE0cVpma0VhdHFGOURCQ3VZU1RNY1k2RDZ5a21lWmVEakNlTkQ3NzJUdm9DcU04V05Zb3lYd1FnZHZaMkxLenAzNl9JYXBRRG9lN2xDdWt6aVZMT1lyQ3pLTzJyR3cydVNJZlpGeUs3R1htVnFiYlFtRW1ybEltUThpWl84UlFaWjlUY0ZYeHU2VHNLWmdwcTF6YTBB?oc=5
+Failed to decode URL: None
+Successfully retrieved 1 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFTVWRZSUMwUjE0cVpma0VhdHFGOURCQ3VZU1RNY1k2RDZ5a21lWmVEakNlTkQ3NzJUdm9DcU04V05Zb3lYd1FnZHZaMkxLenAzNl9JYXBRRG9lN2xDdWt6aVZMT1lyQ3pLTzJyR3cydVNJZlpGeUs3R1htVnFiYlFtRW1ybEltUThpWl84UlFaWjlUY0ZYeHU2VHNLWmdwcTF6YTBB?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: The proposed tariff expansion targeting India, China, and the EU creates a complex geopolitical friction point for digital infrastructure. As reported by Google News (https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFTVWRZSUMwUjE0cVpma0VhdHFGOURCQ3VZU1RNY1k2RDZ5a21lWmVEakNlTkQ3NzJUdm9DcU04V05Zb3lYd1FnZHZaMkxLenAzNl9JYXBRRG9lN2xDdWt6aVZMT1lyQ3pLTzJyR3cydVNJZlpGeUs3R1htVnFiYlFtRW1ybEltUThpWl84UlFaWjlUY0ZYeHU2VHNLWmdwcTF6YTBB?oc=5), how are you structuring your supply chain resilience to mitigate potential hardware access disruptions?
+  - Image Prompt: A minimalist flat-vector illustration depicting a fragmented global map with India, China, and the EU highlighted in warm amber tones, separated by jagged, metallic barriers. The background is a deep, matte charcoal, emphasizing the isolation of the regions. Subtle, abstract data streams flow between the landmasses but are visibly interrupted by the barriers, symbolizing trade friction. The style is clean, modern editorial concept art with sharp geometric lines and a muted, professional color palette, avoiding any glowing effects or generic cyber imagery.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20fragmented%20global%20map%20with%20India%2C%20China%2C%20and%20the%20EU%20highlighted%20in%20warm%20amber%20tones%2C%20separated%20by%20jagged%2C%20metallic%20barriers.%20The%20background%20is%20a%20deep%2C%20matte%20charcoal%2C%20emphasizing%20the%20isolation%20of%20the%20regions.%20Subtle%2C%20abstract%20data%20streams%20flow%20between%20the%20landmasses%20but%20are%20visibly%20interrupted%20by%20the%20barriers%2C%20symbolizing%20trade%20friction.%20The%20style%20is%20clean%2C%20modern%20editorial%20concept%20art%20with%20sharp%20geometric%20lines%20and%20a%20muted%2C%20professional%20color%20palette%2C%20avoiding%20any%20glowing%20effects%20or%20generic%20cyber%20imagery.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2 for model 'flux' failed: 503 Server Error: Service Unavailable for url: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20fragmented%20global%20map%20with%20India%2C%20China%2C%20and%20the%20EU%20highlighted%20in%20warm%20amber%20tones%2C%20separated%20by%20jagged%2C%20metallic%20barriers.%20The%20background%20is%20a%20deep%2C%20matte%20charcoal%2C%20emphasizing%20the%20isolation%20of%20the%20regions.%20Subtle%2C%20abstract%20data%20streams%20flow%20between%20the%20landmasses%20but%20are%20visibly%20interrupted%20by%20the%20barriers%2C%20symbolizing%20trade%20friction.%20The%20style%20is%20clean%2C%20modern%20editorial%20concept%20art%20with%20sharp%20geometric%20lines%20and%20a%20muted%2C%20professional%20color%20palette%2C%20avoiding%20any%20glowing%20effects%20or%20generic%20cyber%20imagery.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Retrying in 5s...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20fragmented%20global%20map%20with%20India%2C%20China%2C%20and%20the%20EU%20highlighted%20in%20warm%20amber%20tones%2C%20separated%20by%20jagged%2C%20metallic%20barriers.%20The%20background%20is%20a%20deep%2C%20matte%20charcoal%2C%20emphasizing%20the%20isolation%20of%20the%20regions.%20Subtle%2C%20abstract%20data%20streams%20flow%20between%20the%20landmasses%20but%20are%20visibly%20interrupted%20by%20the%20barriers%2C%20symbolizing%20trade%20friction.%20The%20style%20is%20clean%2C%20modern%20editorial%20concept%20art%20with%20sharp%20geometric%20lines%20and%20a%20muted%2C%20professional%20color%20palette%2C%20avoiding%20any%20glowing%20effects%20or%20generic%20cyber%20imagery.?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20depicting%20a%20fragmented%20global%20map%20with%20India%2C%20China%2C%20and%20the%20EU%20highlighted%20in%20warm%20amber%20tones%2C%20separated%20by%20jagged%2C%20metallic%20barriers.%20The%20background%20is%20a%20deep%2C%20matte%20charcoal%2C%20emphasizing%20the%20isolation%20of%20the%20regions.%20Subtle%2C%20abstract%20data%20streams%20flow%20between%20the%20landmasses%20but%20are%20visibly%20interrupted%20by%20the%20barriers%2C%20symbolizing%20trade%20friction.%20The%20style%20is%20clean%2C%20modern%20editorial%20concept%20art%20with%20sharp%20geometric%20lines%20and%20a%20muted%2C%20professional%20color%20palette%2C%20avoiding%20any%20glowing%20effects%20or%20generic%20cyber%20imagery.?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[ImageGenerator] Cloudflare Workers AI failed: 410 Client Error: Gone for url: https://api.cloudflare.com/client/v4/accounts/84bcc34d21378ce5ed2097b5831114f3/ai/run/@cf/stabilityai/stable-diffusion-xl-base-1.0
+[ImageGenerator] Falling back to Hugging Face FLUX.1-schnell...
+
+[HuggingFace] Attempt 1/4...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via cloudflare-dns.com...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via dns.google...
+[HuggingFace] Attempt 1/4 failed: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+Retrying in 20s...
+[HuggingFace] Attempt 2/4...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via cloudflare-dns.com...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via dns.google...
+[HuggingFace] Attempt 2/4 failed: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+Retrying in 40s...
+[HuggingFace] Attempt 3/4...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via cloudflare-dns.com...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via dns.google...
+[HuggingFace] Attempt 3/4 failed: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+Retrying in 80s...
+[HuggingFace] Attempt 4/4...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via cloudflare-dns.com...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via dns.google...
+[HuggingFace] Attempt 4/4 failed: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+Hugging Face fallback also failed after 4 attempts.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 67, in patched_create_connection
+    return _orig_create_connection(address, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -5] No address associated with hostname
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connection.py", line 246, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/util/retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 245, in _generate_huggingface
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/api.py", line 134, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 170, in run_post
+    image_bytes = generator.generate_image(image_prompt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 106, in generate_image
+    return self._generate_huggingface(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 278, in _generate_huggingface
+    raise RuntimeError(
+RuntimeError: Hugging Face fallback also failed after 4 attempts.
