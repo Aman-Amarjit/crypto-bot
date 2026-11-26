@@ -748,5 +748,10 @@
     "timestamp": "2026-11-25T21:37:15.098354+00:00",
     "question": "When designing a zero-trust architecture, how do you handle the tension between strict least-privilege access for CI/CD pipelines and the need for rapid, low-friction deployments? Specifically, what mechanisms are you using to dynamically scope ephemeral credentials so that a compromised build runner cannot escalate privileges to production infrastructure?",
     "post_id": "18137083342809663"
+  },
+  {
+    "timestamp": "2026-11-26T21:26:30.883950+00:00",
+    "question": "When implementing a zero-trust network architecture, how do you effectively reconcile the high availability requirements of stateless load balancers with the strict session continuity needed for dynamic mutual TLS certificate rotation without introducing single points of failure or excessive latency?",
+    "post_id": "17869517751675948"
   }
 ]
