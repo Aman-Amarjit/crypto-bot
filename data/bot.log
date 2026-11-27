@@ -42975,3 +42975,50 @@ Comments Auto-Reply Routine Completed. Published 0 replies.
 Comment-Reply Execution Completed Successfully!
 Timestamp: 2026-11-27T22:28:03.860406+00:00 UTC
 ============================================================
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-27T23:24:20.195733+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Decoding Google News URL: https://news.google.com/rss/articles/CBMilgFBVV95cUxNTElseHVOU19KbkVsTVlfTVVzMXh6N1FySElESHg1UVo0bWVsdWFzajJndVRiVDNKaGlJTHg1NDhGdHR6TUxLcFdQU2thN1NKbHZmcS1qN3pHUVRGaEdCOHhWVmRSTTJlX0ZfaDR0azVWWjBoYXN1UDNHdERybjFGXzZYTDhJWXgzOVZmYl9PckZ6MXRLMHc?oc=5
+Failed to decode URL: None
+Successfully retrieved 1 headlines.
+  [Dedup] 0 headline(s) filtered out as already published.
+Fetching article content from URL: https://news.google.com/rss/articles/CBMilgFBVV95cUxNTElseHVOU19KbkVsTVlfTVVzMXh6N1FySElESHg1UVo0bWVsdWFzajJndVRiVDNKaGlJTHg1NDhGdHR6TUxLcFdQU2thN1NKbHZmcS1qN3pHUVRGaEdCOHhWVmRSTTJlX0ZfaDR0azVWWjBoYXN1UDNHdERybjFGXzZYTDhJWXgzOVZmYl9PckZ6MXRLMHc?oc=5
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - SCOPE CREEP: The caption claims the funding signals a 'massive pivot toward AI-driven threat detection over traditional perimeter defenses,' which is an editorial interpretation and market trend analysis not supported by the source headline, which only states the company raised the round.
+  - FABRICATED STATS/CLAIMS: The caption asserts the funding 'likely accelerates the deployment of behavioral analytics to catch zero-day exploits that signature-based tools miss.' The source headline does not mention behavioral analytics, zero-day exploits, or signature-based tools, making these specific technical claims unsupported by the provided text.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] Warning: fact-check call failed (429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions). Soft pass.
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: Matters.AI just secured India’s largest cybersecurity pre-Series A round, a significant capital injection for the domestic threat detection landscape. As documented by Google News (https://news.google.com/rss/articles/CBMilgFBVV95cUxNTElseHVOU19KbkVsTVlfTVVzMXh6N1FySElESHg1UVo0bWVsdWFzajJndVRiVDNKaGlJTHg1NDhGdHR6TUxLcFdQU2thN1NKbHZmcS1qN3pHUVRGaEdCOHhWVmRSTTJlX0ZfaDR0azVWWjBoYXN1UDNHdERybjFGXzZYTDhJWXgzOVZmYl9PckZ6MXRLMHc?oc=5), this milestone highlights the growing investor confidence in homegrown security infrastructure. How do you view the impact of such large-scale funding on the maturity of India’s cyber defense ecosystem?
+  - Image Prompt: A minimalist flat-vector illustration of a rising bar chart composed of interconnected digital nodes, set against a clean off-white background. The bars are rendered in deep indigo and soft teal, symbolizing growth and stability. Subtle geometric lines connect the top of the bars to a central, abstract hexagonal core, representing centralized data processing. The style is modern editorial, with sharp edges and no gradients, avoiding any cyberpunk or hacker aesthetics. No text or logos are present.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/A%20minimalist%20flat-vector%20illustration%20of%20a%20rising%20bar%20chart%20composed%20of%20interconnected%20digital%20nodes%2C%20set%20against%20a%20clean%20off-white%20background.%20The%20bars%20are%20rendered%20in%20deep%20indigo%20and%20soft%20teal%2C%20symbolizing%20growth%20and%20stability.%20Subtle%20geometric%20lines%20connect%20the%20top%20of%20the%20bars%20to%20a%20central%2C%20abstract%20hexagonal%20core%2C%20representing%20centralized%20data%20processing.%20The%20style%20is%20modern%20editorial%2C%20with%20sharp%20edges%20and%20no%20gradients%2C%20avoiding%20any%20cyberpunk%20or%20hacker%20aesthetics.%20No%20text%20or%20logos%20are%20present.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Successfully downloaded image from Pollinations using model 'flux'.
+Uploading image to Cloudinary...
+Cloudinary upload successful. Public URL: https://res.cloudinary.com/dz6ocnble/image/upload/v1795821868/threads_bot/pechi3c6c80aafyrwjta.jpg
+Initiating Threads publication...
+⚠️ Warning: Caption length (635) exceeds Threads limit of 500 characters. Truncating to 500.
+Creating Threads media container...
+Container created successfully. ID: 18125824675933887
+Waiting 3 seconds before first status check...
+Checking container status (Attempt 1/10)...
+Container status: 'FINISHED'
+Publishing container to Threads...
+Successfully published post to Threads! Post ID: 18389100109234950
+Saving execution metadata to history log...
+============================================================
+Execution Completed Successfully!
+Published Post ID: 18389100109234950
+Timestamp: 2026-11-27T23:24:38.851211+00:00 UTC
+============================================================
