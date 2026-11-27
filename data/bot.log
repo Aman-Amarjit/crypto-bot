@@ -42721,3 +42721,162 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions
+============================================================
+Thread Manager for Cybersecurity Execution Started: 2026-11-27T12:06:07.145765+00:00 UTC
+============================================================
+Validating environment configuration...
+Configuration validated successfully.
+Using rotating topic: 'Digital India cybersecurity'
+Requesting content generation for topic: 'Digital India cybersecurity'...
+Fetching latest news headlines from Google News for query: 'Digital India cybersecurity (site:bleepingcomputer.com OR site:thehackernews.com OR site:arstechnica.com OR site:theverge.com OR site:wired.com OR site:darkreading.com) when:1d'...
+Warning: Failed to fetch latest news headlines. Details: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=Digital%20India%20cybersecurity%20%28site%3Ableepingcomputer.com%20OR%20site%3Athehackernews.com%20OR%20site%3Aarstechnica.com%20OR%20site%3Atheverge.com%20OR%20site%3Awired.com%20OR%20site%3Adarkreading.com%29%20when%3A1d&hl=en-US&gl=US&ceid=US:en
+  [Dedup] 0 headline(s) filtered out as already published.
+  [FactChecker] Running fact-check on attempt 1...
+  [FactChecker] ❌ Failed (attempt 1/3). Issues:
+  - The caption attributes a specific '2013 Airtel SIM swap incident' to a URL from The Hacker News. The Hacker News (THN) was founded in 2015, so it could not have published an article in 2013. This is a fabricated source attribution.
+  - The claim that a specific 2013 Airtel SIM swap incident was 'documented by The Hacker News' is factually impossible due to the publication date mismatch, indicating a hallucinated source.
+  [FactChecker] Running fact-check on attempt 2...
+  [FactChecker] ✅ Passed.
+
+Generated Content:
+  - Caption: India's digital infrastructure faces persistent SIM swap threats, where attackers exploit weak carrier authentication to hijack OTPs. This technique bypasses two-factor authentication by convincing telecom providers to issue replacement SIMs, a vulnerability highlighted in various security analyses (https://thehackernews.com). How are you verifying the integrity of your mobile number's registration details to prevent such social engineering attacks?
+  - Image Prompt: Minimalist flat-vector illustration of a smartphone floating above a fragmented SIM card, with abstract data streams flowing from the phone to a server rack. Use a palette of deep indigo, electric blue, and soft white. The composition should emphasize the disconnect between the physical SIM and the digital identity, avoiding any glowing shields, padlocks, or binary code rain. Clean lines, modern editorial style, no text or logos.
+
+Generating and downloading image from Pollinations.ai...
+
+[Pollinations] Trying model 'flux'...
+URL: https://image.pollinations.ai/prompt/Minimalist%20flat-vector%20illustration%20of%20a%20smartphone%20floating%20above%20a%20fragmented%20SIM%20card%2C%20with%20abstract%20data%20streams%20flowing%20from%20the%20phone%20to%20a%20server%20rack.%20Use%20a%20palette%20of%20deep%20indigo%2C%20electric%20blue%2C%20and%20soft%20white.%20The%20composition%20should%20emphasize%20the%20disconnect%20between%20the%20physical%20SIM%20and%20the%20digital%20identity%2C%20avoiding%20any%20glowing%20shields%2C%20padlocks%2C%20or%20binary%20code%20rain.%20Clean%20lines%2C%20modern%20editorial%20style%2C%20no%20text%20or%20logos.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2 for model 'flux' failed: 503 Server Error: Service Unavailable for url: https://image.pollinations.ai/prompt/Minimalist%20flat-vector%20illustration%20of%20a%20smartphone%20floating%20above%20a%20fragmented%20SIM%20card%2C%20with%20abstract%20data%20streams%20flowing%20from%20the%20phone%20to%20a%20server%20rack.%20Use%20a%20palette%20of%20deep%20indigo%2C%20electric%20blue%2C%20and%20soft%20white.%20The%20composition%20should%20emphasize%20the%20disconnect%20between%20the%20physical%20SIM%20and%20the%20digital%20identity%2C%20avoiding%20any%20glowing%20shields%2C%20padlocks%2C%20or%20binary%20code%20rain.%20Clean%20lines%2C%20modern%20editorial%20style%2C%20no%20text%20or%20logos.?nologo=true&width=1024&height=1024&model=flux&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Retrying in 5s...
+Attempt 2/2: Model 'flux' queue full (402).
+Model 'flux' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'turbo'...
+URL: https://image.pollinations.ai/prompt/Minimalist%20flat-vector%20illustration%20of%20a%20smartphone%20floating%20above%20a%20fragmented%20SIM%20card%2C%20with%20abstract%20data%20streams%20flowing%20from%20the%20phone%20to%20a%20server%20rack.%20Use%20a%20palette%20of%20deep%20indigo%2C%20electric%20blue%2C%20and%20soft%20white.%20The%20composition%20should%20emphasize%20the%20disconnect%20between%20the%20physical%20SIM%20and%20the%20digital%20identity%2C%20avoiding%20any%20glowing%20shields%2C%20padlocks%2C%20or%20binary%20code%20rain.%20Clean%20lines%2C%20modern%20editorial%20style%2C%20no%20text%20or%20logos.?nologo=true&width=1024&height=1024&model=turbo&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'turbo' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'turbo' queue full (402).
+Model 'turbo' queue limits reached. Trying next fallback model...
+
+[Pollinations] Trying model 'default'...
+URL: https://image.pollinations.ai/prompt/Minimalist%20flat-vector%20illustration%20of%20a%20smartphone%20floating%20above%20a%20fragmented%20SIM%20card%2C%20with%20abstract%20data%20streams%20flowing%20from%20the%20phone%20to%20a%20server%20rack.%20Use%20a%20palette%20of%20deep%20indigo%2C%20electric%20blue%2C%20and%20soft%20white.%20The%20composition%20should%20emphasize%20the%20disconnect%20between%20the%20physical%20SIM%20and%20the%20digital%20identity%2C%20avoiding%20any%20glowing%20shields%2C%20padlocks%2C%20or%20binary%20code%20rain.%20Clean%20lines%2C%20modern%20editorial%20style%2C%20no%20text%20or%20logos.?nologo=true&width=1024&height=1024&key=sk_nqscgWfFImCJIbDRL3QtOEfIMW3hTpmG
+Attempt 1/2: Model 'default' queue full (402).
+Waiting 5s before retry...
+Attempt 2/2: Model 'default' queue full (402).
+Model 'default' queue limits reached. Trying next fallback model...
+
+[ImageGenerator] All Pollinations models failed: All models in the Pollinations chain failed.
+[ImageGenerator] Attempting fallback to Cloudflare Workers AI...
+[Cloudflare] Using configured account ID: 84bcc34d21378ce5ed2097b5831114f3
+[Cloudflare] Generating image using model: @cf/stabilityai/stable-diffusion-xl-base-1.0
+[ImageGenerator] Cloudflare Workers AI failed: 410 Client Error: Gone for url: https://api.cloudflare.com/client/v4/accounts/84bcc34d21378ce5ed2097b5831114f3/ai/run/@cf/stabilityai/stable-diffusion-xl-base-1.0
+[ImageGenerator] Falling back to Hugging Face FLUX.1-schnell...
+
+[HuggingFace] Attempt 1/4...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via cloudflare-dns.com...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via dns.google...
+[HuggingFace] Attempt 1/4 failed: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+Retrying in 20s...
+[HuggingFace] Attempt 2/4...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via cloudflare-dns.com...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via dns.google...
+[HuggingFace] Attempt 2/4 failed: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+Retrying in 40s...
+[HuggingFace] Attempt 3/4...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via cloudflare-dns.com...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via dns.google...
+[HuggingFace] Attempt 3/4 failed: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+Retrying in 80s...
+[HuggingFace] Attempt 4/4...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via cloudflare-dns.com...
+[DoH] Attempting to resolve 'api-inference.huggingface.co' via dns.google...
+[HuggingFace] Attempt 4/4 failed: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Execution Failed with Error:
+Hugging Face fallback also failed after 4 attempts.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 67, in patched_create_connection
+    return _orig_create_connection(address, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -5] No address associated with hostname
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connection.py", line 246, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/urllib3/util/retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 245, in _generate_huggingface
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/api.py", line 134, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/requests/adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api-inference.huggingface.co', port=443): Max retries exceeded with url: /models/black-forest-labs/FLUX.1-schnell (Caused by NameResolutionError("HTTPSConnection(host='api-inference.huggingface.co', port=443): Failed to resolve 'api-inference.huggingface.co' ([Errno -5] No address associated with hostname)"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 223, in main
+    run_post(topic=args.topic, force=args.force)
+  File "/home/runner/work/crypto-bot/crypto-bot/main.py", line 170, in run_post
+    image_bytes = generator.generate_image(image_prompt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 106, in generate_image
+    return self._generate_huggingface(prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/crypto-bot/crypto-bot/src/image_generator.py", line 278, in _generate_huggingface
+    raise RuntimeError(
+RuntimeError: Hugging Face fallback also failed after 4 attempts.
